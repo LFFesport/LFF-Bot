@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -17,16 +18,34 @@ with open(DATA_DIR / 'rosters.json', 'r', encoding='utf-8') as f:
 with open(DASHBOARD_DIR / 'index.html', 'r', encoding='utf-8') as f:
     html = f.read()
 
+# Normalize line endings
+html = html.replace('\r\n', '\n')
+
+# 1. Clean annual_data: ensure Reality Zoned and no parentheses in rosters
+for yr, ydata in annual_data.items():
+    for club in ydata.get('clubs', []):
+        if club.get('name') in ['Reality Zone (RZ)', 'Reality Zone']:
+            club['name'] = 'Reality Zoned'
+        cleaned_roster = []
+        for p in club.get('roster', []):
+            if 'remani' in p.lower():
+                continue
+            cleaned_name = re.sub(r'\s*\([^)]*\)', '', p).strip()
+            cleaned_roster.append(cleaned_name)
+        club['roster'] = cleaned_roster
+
 # Build club_x_map
 club_x_map = {}
 for c in clubs_data:
+    if c['id'] == 'reality-zone':
+        c['name'] = 'Reality Zoned'
     if c.get('x_url'):
         club_x_map[c['id']] = c['x_url']
     elif c.get('x_handle'):
         clean = c['x_handle'].replace('@', '')
         club_x_map[c['id']] = f"https://x.com/{clean}"
 
-# Build player_x_map
+# Build rich player_x_map
 player_x_map = {
     "SwizzY": "https://x.com/Swizzyfn",
     "Pixie": "https://x.com/Pixie_FN",
@@ -72,10 +91,85 @@ player_x_map = {
     "Teeqzy": "https://x.com/Teeqzy_",
     "Gotaga": "https://x.com/Gotaga",
     "WaZz": "https://x.com/WaZz",
-    "ZetFar": "https://x.com/ZetFar"
+    "ZetFar": "https://x.com/ZetFar",
+    "Decyptos": "https://x.com/Decyptos",
+    "Floki": "https://x.com/FlokiiFN",
+    "BlastR": "https://x.com/BlastR_FN",
+    "Alpha": "https://x.com/AlphaFN",
+    "Falconly": "https://x.com/Falconly_",
+    "Yags": "https://x.com/Yagsfn",
+    "Vico": "https://x.com/Vico_FN",
+    "Robabz": "https://x.com/Robabz",
+    "Keolys": "https://x.com/Keolys",
+    "Deadra": "https://x.com/Deadra",
+    "DRG": "https://x.com/DRG_FN",
+    "Flyzer": "https://x.com/Flyzer",
+    "Shaykos": "https://x.com/Shaykos",
+    "TheVic": "https://x.com/TheVic_",
+    "Oslo": "https://x.com/Oslo_FN",
+    "Aarnax": "https://x.com/Aarnax",
+    "Artskill": "https://x.com/ArtskillFN",
+    "Kouto": "https://x.com/KoutoFN",
+    "Jbzz": "https://x.com/Jbzz",
+    "Mickalow": "https://x.com/Mickalow",
+    "Bresil": "https://x.com/BresilFN",
+    "Maxalibur": "https://x.com/Maxalibur",
+    "Boyer": "https://x.com/Boyerxd",
+    "Chap": "https://x.com/Chap_FN",
+    "Netox": "https://x.com/NetoxFN",
+    "Kyuubi": "https://x.com/KyuubiFN",
+    "Shay": "https://x.com/ShayFN",
+    "Shad": "https://x.com/ShadFN",
+    "Spk": "https://x.com/SpkFN",
+    "Storm": "https://x.com/StormFN",
+    "Vax": "https://x.com/VaxFN",
+    "Ray": "https://x.com/RayFN",
+    "Sky": "https://x.com/SkyFN",
+    "Zack": "https://x.com/ZackFN",
+    "Dark": "https://x.com/DarkFN",
+    "Kaido": "https://x.com/KaidoFN",
+    "Keoz": "https://x.com/KeozFN",
+    "Kirwa": "https://x.com/KirwaFN",
+    "Krono": "https://x.com/KronoFN",
+    "Lentille": "https://x.com/LentilleFN",
+    "M11Z": "https://x.com/M11Z",
+    "M1key": "https://x.com/M1keyFN",
+    "MawkS": "https://x.com/MawkSFN",
+    "Maylee": "https://x.com/MayleeFN",
+    "Neo": "https://x.com/NeoFN",
+    "Nex": "https://x.com/NexFN",
+    "NokSs": "https://x.com/NokSs",
+    "Nyx": "https://x.com/NyxFN",
+    "Orkh": "https://x.com/OrkhFN",
+    "Ovni": "https://x.com/OvniFN",
+    "Seth": "https://x.com/SethFN",
+    "Shaax": "https://x.com/ShaaxFN",
+    "Skydeun": "https://x.com/Skydeun",
+    "Skyro": "https://x.com/SkyroFN",
+    "Sops": "https://x.com/SopsFN",
+    "Strik": "https://x.com/StrikFN",
+    "Taipouz": "https://x.com/Taipouz",
+    "Xsweeze": "https://x.com/xsweeze",
+    "YZY": "https://x.com/YZYFN",
+    "mzXXD": "https://x.com/mzXXD",
+    "RZ Phoenix": "https://x.com/RealityZoneFR",
+    "RZ Kev": "https://x.com/RealityZoneFR",
+    "RZ Zeek": "https://x.com/RealityZoneFR",
+    "Fake Storm": "https://x.com/TeamFake_esport",
+    "Fake Shadow": "https://x.com/TeamFake_esport",
+    "ATEN Raptor": "https://x.com/AtenEsport",
+    "ATEN Nox": "https://x.com/AtenEsport",
+    "BSK Rayan": "https://x.com/TeamBSK_",
+    "BSK Aero": "https://x.com/TeamBSK_",
+    "JUP Nova": "https://x.com/JupitarEsport",
+    "JUP Vax": "https://x.com/JupitarEsport",
+    "ODS Vortex": "https://x.com/OdiousEsport",
+    "ODS Sky": "https://x.com/OdiousEsport",
+    "PAPS Zek": "https://x.com/PapsEsport",
+    "PAPS Ray": "https://x.com/PapsEsport"
 }
 
-# Live data with x URLs
+# Live data with x URLs, Reality Zoned, and clean player pseudos (NO parenthetical info)
 live_data = [
   {
     "rank": 1, "id": "havok-by-vitality", "name": "HavoK by Vitality", "tag": "HvK", "tier": "Tier 1", "livePr": 169500, "trend": "+1",
@@ -127,12 +221,12 @@ live_data = [
     "details": "Club historique actif sans interruption depuis 2018 avec Tylio, Kombek, Repairs, S1neD sous le coach Aarnax."
   },
   {
-    "rank": 5, "id": "reality-zone", "name": "Reality Zone (RZ)", "tag": "RZ", "tier": "Tier 2", "livePr": 34100, "trend": "+1",
+    "rank": 5, "id": "reality-zone", "name": "Reality Zoned", "tag": "RZ", "tier": "Tier 2", "livePr": 34100, "trend": "+1",
     "xUrl": "https://x.com/RealityZoneFR", "xHandle": "@RealityZoneFR",
     "players": [
-      { "name": "RZ_Phoenix", "pr": 14200, "country": "🇫🇷", "xHandle": "@RealityZoneFR", "xUrl": "https://x.com/RealityZoneFR" },
-      { "name": "RZ_Kev", "pr": 11400, "country": "🇫🇷", "xHandle": "@RealityZoneFR", "xUrl": "https://x.com/RealityZoneFR" },
-      { "name": "RZ_Zeek", "pr": 8500, "country": "🇫🇷", "xHandle": "@RealityZoneFR", "xUrl": "https://x.com/RealityZoneFR" }
+      { "name": "RZ Phoenix", "pr": 14200, "country": "🇫🇷", "xHandle": "@RealityZoneFR", "xUrl": "https://x.com/RealityZoneFR" },
+      { "name": "RZ Kev", "pr": 11400, "country": "🇫🇷", "xHandle": "@RealityZoneFR", "xUrl": "https://x.com/RealityZoneFR" },
+      { "name": "RZ Zeek", "pr": 8500, "country": "🇫🇷", "xHandle": "@RealityZoneFR", "xUrl": "https://x.com/RealityZoneFR" }
     ],
     "details": "Leader des tournois communautaires et open avec joueurs qualifiés en Round 3 FNCS."
   },
@@ -140,8 +234,8 @@ live_data = [
     "rank": 6, "id": "team-fake", "name": "Team Fake", "tag": "FAKE", "tier": "Tier 2", "livePr": 28400, "trend": "=",
     "xUrl": "https://x.com/TeamFake_esport", "xHandle": "@TeamFake_esport",
     "players": [
-      { "name": "Fake_Shadow", "pr": 15100, "country": "🇫🇷", "xHandle": "@TeamFake_esport", "xUrl": "https://x.com/TeamFake_esport" },
-      { "name": "Fake_Storm", "pr": 13300, "country": "🇫🇷", "xHandle": "@TeamFake_esport", "xUrl": "https://x.com/TeamFake_esport" }
+      { "name": "Fake Shadow", "pr": 15100, "country": "🇫🇷", "xHandle": "@TeamFake_esport", "xUrl": "https://x.com/TeamFake_esport" },
+      { "name": "Fake Storm", "pr": 13300, "country": "🇫🇷", "xHandle": "@TeamFake_esport", "xUrl": "https://x.com/TeamFake_esport" }
     ],
     "details": "Duo très actif sur les Victory Cups et Open Qualifiers."
   },
@@ -149,8 +243,8 @@ live_data = [
     "rank": 7, "id": "aten-esport", "name": "Aten eSport", "tag": "ATEN", "tier": "Tier 2", "livePr": 22100, "trend": "=",
     "xUrl": "https://x.com/AtenEsport", "xHandle": "@AtenEsport",
     "players": [
-      { "name": "ATEN_Raptor", "pr": 11900, "country": "🇫🇷", "xHandle": "@AtenEsport", "xUrl": "https://x.com/AtenEsport" },
-      { "name": "ATEN_Nox", "pr": 10200, "country": "🇫🇷", "xHandle": "@AtenEsport", "xUrl": "https://x.com/AtenEsport" }
+      { "name": "ATEN Raptor", "pr": 11900, "country": "🇫🇷", "xHandle": "@AtenEsport", "xUrl": "https://x.com/AtenEsport" },
+      { "name": "ATEN Nox", "pr": 10200, "country": "🇫🇷", "xHandle": "@AtenEsport", "xUrl": "https://x.com/AtenEsport" }
     ],
     "details": "Solide noyau régulier sur les tournois hebdomadaires."
   },
@@ -158,8 +252,8 @@ live_data = [
     "rank": 8, "id": "team-bsk", "name": "Team BSK", "tag": "BSK", "tier": "Tier 2", "livePr": 20500, "trend": "=",
     "xUrl": "https://x.com/TeamBSK_", "xHandle": "@TeamBSK_",
     "players": [
-      { "name": "BSK_Rayan", "pr": 11100, "country": "🇫🇷", "xHandle": "@TeamBSK_", "xUrl": "https://x.com/TeamBSK_" },
-      { "name": "BSK_Aero", "pr": 9400, "country": "🇫🇷", "xHandle": "@TeamBSK_", "xUrl": "https://x.com/TeamBSK_" }
+      { "name": "BSK Rayan", "pr": 11100, "country": "🇫🇷", "xHandle": "@TeamBSK_", "xUrl": "https://x.com/TeamBSK_" },
+      { "name": "BSK Aero", "pr": 9400, "country": "🇫🇷", "xHandle": "@TeamBSK_", "xUrl": "https://x.com/TeamBSK_" }
     ],
     "details": "Structure historique engagée sur le circuit francophone."
   },
@@ -167,8 +261,8 @@ live_data = [
     "rank": 9, "id": "jupitar-esport", "name": "Jupitar Esport", "tag": "JUP", "tier": "Tier 2", "livePr": 16800, "trend": "=",
     "xUrl": "https://x.com/JupitarEsport", "xHandle": "@JupitarEsport",
     "players": [
-      { "name": "JUP_Nova", "pr": 9800, "country": "🇫🇷", "xHandle": "@JupitarEsport", "xUrl": "https://x.com/JupitarEsport" },
-      { "name": "JUP_Vax", "pr": 7000, "country": "🇫🇷", "xHandle": "@JupitarEsport", "xUrl": "https://x.com/JupitarEsport" }
+      { "name": "JUP Nova", "pr": 9800, "country": "🇫🇷", "xHandle": "@JupitarEsport", "xUrl": "https://x.com/JupitarEsport" },
+      { "name": "JUP Vax", "pr": 7000, "country": "🇫🇷", "xHandle": "@JupitarEsport", "xUrl": "https://x.com/JupitarEsport" }
     ],
     "details": "Pépites en formation continue."
   },
@@ -176,8 +270,8 @@ live_data = [
     "rank": 10, "id": "odious-esport", "name": "Odious Esport", "tag": "ODS", "tier": "Tier 2", "livePr": 14200, "trend": "=",
     "xUrl": "https://x.com/OdiousEsport", "xHandle": "@OdiousEsport",
     "players": [
-      { "name": "ODS_Vortex", "pr": 8200, "country": "🇫🇷", "xHandle": "@OdiousEsport", "xUrl": "https://x.com/OdiousEsport" },
-      { "name": "ODS_Sky", "pr": 6000, "country": "🇫🇷", "xHandle": "@OdiousEsport", "xUrl": "https://x.com/OdiousEsport" }
+      { "name": "ODS Vortex", "pr": 8200, "country": "🇫🇷", "xHandle": "@OdiousEsport", "xUrl": "https://x.com/OdiousEsport" },
+      { "name": "ODS Sky", "pr": 6000, "country": "🇫🇷", "xHandle": "@OdiousEsport", "xUrl": "https://x.com/OdiousEsport" }
     ],
     "details": "Progression constante sur les Cash Cups."
   },
@@ -185,32 +279,32 @@ live_data = [
     "rank": 11, "id": "paps-esport", "name": "Pap's Esport", "tag": "PAPS", "tier": "Tier 2", "livePr": 12900, "trend": "=",
     "xUrl": "https://x.com/PapsEsport", "xHandle": "@PapsEsport",
     "players": [
-      { "name": "PAPS_Zek", "pr": 7500, "country": "🇫🇷", "xHandle": "@PapsEsport", "xUrl": "https://x.com/PapsEsport" },
-      { "name": "PAPS_Ray", "pr": 5400, "country": "🇫🇷", "xHandle": "@PapsEsport", "xUrl": "https://x.com/PapsEsport" }
+      { "name": "PAPS Zek", "pr": 7500, "country": "🇫🇷", "xHandle": "@PapsEsport", "xUrl": "https://x.com/PapsEsport" },
+      { "name": "PAPS Ray", "pr": 5400, "country": "🇫🇷", "xHandle": "@PapsEsport", "xUrl": "https://x.com/PapsEsport" }
     ],
     "details": "Ancrage communautaire fort."
   }
 ]
 
-# Transfers with X urls
+# Transfers with clean pseudos (NO parenthetical info) and clickable X profiles
 transfers_data = [
   { "date": "2026-10-15", "player": "Seekk 🇫🇷", "playerXUrl": "https://x.com/Seekkfn", "from": "Free Agent", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival / Bio X @Seekkfn", "source": "Bio X @Seekkfn" },
-  { "date": "2026-10-03", "player": "XZEEVIT 🇨🇴", "playerXUrl": "https://x.com/xzeevit", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival / Recrue Officielle", "source": "@SolaryTV / @xzeevit" },
+  { "date": "2026-10-03", "player": "XZEEVIT 🇨🇴", "playerXUrl": "https://x.com/xzeevit", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival / Recrue", "source": "@SolaryTV / @xzeevit" },
   { "date": "2026-09-22", "player": "Rax 🌍", "playerXUrl": "https://x.com/RaxFN", "from": "Free Agent", "to": "Gentle Mates", "toXUrl": "https://x.com/GentleMates", "type": "Arrival", "source": "@GentleMates" },
   { "date": "2026-09-01", "player": "Rad3on 🇫🇷", "playerXUrl": "https://x.com/Rad3on2", "from": "HavoK by Vitality", "to": "Free Agent", "toXUrl": "https://x.com", "type": "Départ / Vérifié X", "source": "Bio X @Rad3on2" },
   { "date": "2026-09-01", "player": "Nxthan 🇬🇧", "playerXUrl": "https://x.com/Nathanfnbr_", "from": "HavoK by Vitality", "to": "Free Agent", "toXUrl": "https://x.com", "type": "Départ / Vérifié X", "source": "Bio X @Nathanfnbr_" },
   { "date": "2026-07-18", "player": "sereN 🇵🇱 & Zangi 🇮🇹", "playerXUrl": "https://x.com/sereNFN", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival", "source": "@SolaryTV" },
-  { "date": "2026-04-25", "player": "SwizzY 🌍 (Champion du Monde)", "playerXUrl": "https://x.com/Swizzyfn", "from": "Team HavoK", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Rachat / Fusion", "source": "vitality.gg / @HvKGGs" },
+  { "date": "2026-04-25", "player": "SwizzY 🌍", "playerXUrl": "https://x.com/Swizzyfn", "from": "Team HavoK", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Rachat / Fusion", "source": "vitality.gg / @HvKGGs" },
   { "date": "2026-04-25", "player": "Darkos 🇫🇷 & Minori 🇨🇭", "playerXUrl": "https://x.com/DarkosFN", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival", "source": "@SolaryTV" },
-  { "date": "2026-04-25", "player": "Rachat & Fusion Officielle 🤝", "playerXUrl": "https://x.com/HvKGGs", "from": "Team HavoK & Vitality", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Rachat / Fusion", "source": "vitality.gg / @TeamVitality / @HvKGGs" },
+  { "date": "2026-04-25", "player": "Rachat & Fusion 🤝", "playerXUrl": "https://x.com/HvKGGs", "from": "Team HavoK & Vitality", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Rachat / Fusion", "source": "vitality.gg / @TeamVitality / @HvKGGs" },
   { "date": "2026-03-30", "player": "Kurama 🇫🇷 & Akiira 🇫🇷", "playerXUrl": "https://x.com/KuramaFN", "from": "Free Agent / Solary", "to": "Gentle Mates", "toXUrl": "https://x.com/GentleMates", "type": "Arrival", "source": "@GentleMates" },
   { "date": "2025-12-07", "player": "Clément 🇫🇷", "playerXUrl": "https://x.com/Clement_ttt", "from": "Galions", "to": "Free Agent", "toXUrl": "https://x.com", "type": "Fermeture Division", "source": "Bio X @Clement_ttt" },
-  { "date": "2025-12-07", "player": "Kyzen 🇫🇷 (Retraite)", "playerXUrl": "https://x.com/KyzenFN", "from": "Galions", "to": "Retraite (was pro)", "toXUrl": "https://x.com", "type": "Retraite Compétitive", "source": "Bio X @KyzenFN" },
+  { "date": "2025-12-07", "player": "Kyzen 🇫🇷", "playerXUrl": "https://x.com/KyzenFN", "from": "Galions", "to": "Retraite", "toXUrl": "https://x.com", "type": "Retraite Compétitive", "source": "Bio X @KyzenFN" },
   { "date": "2025-05-02", "player": "SwizzY 🌍", "playerXUrl": "https://x.com/Swizzyfn", "from": "Karmine Corp", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" },
   { "date": "2025-04-01", "player": "Tjino 🇩🇰 & PabloWingu 🇩🇰", "playerXUrl": "https://x.com/TjinoFN", "from": "Free Agent", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" },
   { "date": "2025-01-10", "player": "S1neD 🌍", "playerXUrl": "https://x.com/S1neDFN", "from": "Free Agent", "to": "GameWard", "toXUrl": "https://x.com/GameWardTeam", "type": "Arrival", "source": "@GameWardTeam" },
   { "date": "2024-12-20", "player": "Snayzy 🇫🇷", "playerXUrl": "https://x.com/Snayzyy", "from": "Gentle Mates", "to": "Free Agent", "toXUrl": "https://x.com", "type": "Départ / Fin de contrat", "source": "Bio X @Snayzyy" },
-  { "date": "2024-08-28", "player": "Wox 🇸🇪 (5e mondial Worlds)", "playerXUrl": "https://x.com/Wox", "from": "Free Agent", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" }
+  { "date": "2024-08-28", "player": "Wox 🇸🇪", "playerXUrl": "https://x.com/Wox", "from": "Free Agent", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" }
 ]
 
 # Clubs directory list with xUrl
@@ -230,7 +324,7 @@ for c in clubs_data:
         "liquipediaUrl": c.get('liquipedia_url')
     })
 
-# CSS styles injection
+# CSS styles injection if needed
 css_addition = """
     /* X (TWITTER) INTERACTIVE ELEMENTS */
     .x-icon {
@@ -303,7 +397,32 @@ css_addition = """
 if '.x-icon {' not in html:
     html = html.replace('</style>', css_addition + '\n  </style>')
 
-# Replace JS data
+# Replace "Reality Zone (RZ)" with "Reality Zoned"
+html = html.replace('Reality Zone (RZ)', 'Reality Zoned')
+
+# Replace column header "Roster sous contrat" with "Joueurs"
+html = html.replace('<th id="th-roster-col">Roster sous contrat</th>', '<th id="th-roster-col">Joueurs</th>')
+
+# Move hero-banner inside #tab-rankings if it is outside
+hero_start = html.find('<!-- EXPLICATION & SWITCHER DU MODE DE CLASSEMENT -->')
+if hero_start != -1 and hero_start < html.find('<main>'):
+    hero_end = html.find('<!-- MAIN VIEW -->')
+    hero_block = html[hero_start:hero_end].strip()
+    # Remove from outside
+    html = html[:hero_start] + html[hero_end:]
+    # Insert right inside <div id="tab-rankings" class="tab-content active">
+    target_tab_rankings = '<div id="tab-rankings" class="tab-content active">'
+    insert_pos = html.find(target_tab_rankings) + len(target_tab_rankings)
+    html = html[:insert_pos] + '\n\n      ' + hero_block + '\n' + html[insert_pos:]
+
+# Replace selectRankingMode text for Joueurs
+html = re.sub(
+    r'document\.getElementById\(\'th-roster-col\'\)\.innerText\s*=\s*"[^"]*";',
+    'document.getElementById(\'th-roster-col\').innerText = "Joueurs";',
+    html
+)
+
+# Prepare JavaScript data chunks
 annual_js = 'const ANNUAL_DATA = ' + json.dumps(annual_data, indent=2, ensure_ascii=False) + ';'
 live_js = 'const LIVE_DATA = ' + json.dumps(live_data, indent=2, ensure_ascii=False) + ';'
 transfers_js = 'const TRANSFERS = ' + json.dumps(transfers_data, indent=2, ensure_ascii=False) + ';'
@@ -316,38 +435,53 @@ idx_navtab = html.find('function switchNavTab(')
 idx_allclubs_start = html.find('const allClubs = [')
 idx_allclubs_end = html.find('allClubs.forEach(c => {')
 
-part1 = html[:idx_annual]
-part2 = f"{annual_js}\n\n    {club_x_map_js}\n\n    {player_x_map_js}\n\n    {live_js}\n\n    {transfers_js}\n\n    "
-part3 = html[idx_navtab:idx_allclubs_start]
-part4 = f"{allclubs_js}\n\n      "
-part5 = html[idx_allclubs_end:]
+if idx_annual != -1 and idx_navtab != -1 and idx_allclubs_start != -1 and idx_allclubs_end != -1:
+    part1 = html[:idx_annual]
+    part2 = f"{annual_js}\n\n    {club_x_map_js}\n\n    {player_x_map_js}\n\n    {live_js}\n\n    {transfers_js}\n\n    "
+    part3 = html[idx_navtab:idx_allclubs_start]
+    part4 = f"{allclubs_js}\n\n      "
+    part5 = html[idx_allclubs_end:]
+    html = part1 + part2 + part3 + part4 + part5
 
-html = part1 + part2 + part3 + part4 + part5
+# Replace renderAnnualTable and renderLiveTable cleanly
+full_render_tables = """    function renderAnnualTable() {
+      const year = document.getElementById('year-select').value;
+      const search = document.getElementById('search-input').value.toLowerCase();
+      const seasonData = ANNUAL_DATA[year];
 
-# Update renderRankingView to make clubs and players clickable X links
-old_render_annual = """        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td class="rank-cell ${rankClass}">${trophy}#${rank}</td>
-          <td>
-            <div class="club-cell">
-              ${logoHtml}
-              <div>
-                <span class="club-name">${c.name}</span>
-                <span class="club-tag">${c.tag}</span>
-              </div>
-            </div>
-          </td>
-          <td><div class="roster-tags">${rosterHtml}</div></td>
-          <td><div class="notable-achievement">${c.notable}</div></td>
-          <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">🏆 ${c.points.toLocaleString('fr-FR')} pts</td>
-        `;"""
+      if (!seasonData) return;
 
-new_render_annual = """        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
+      document.getElementById('context-title').innerText = seasonData.title;
+      document.getElementById('context-text').innerText = seasonData.description;
+
+      let list = [...seasonData.clubs];
+
+      if (search) {
+        list = list.filter(c => {
+          return c.name.toLowerCase().includes(search) ||
+                 c.tag.toLowerCase().includes(search) ||
+                 c.roster.some(p => p.toLowerCase().includes(search));
+        });
+      }
+
+      const tbody = document.getElementById('ranking-tbody');
+
+      list.forEach((c) => {
+        const rank = c.rank;
+        const rankClass = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : '';
+        const trophy = rank === 1 ? '🥇 ' : rank === 2 ? '🥈 ' : rank === 3 ? '🥉 ' : '';
+
+        const logoPath = LOGO_MAP[c.id];
+        const logoHtml = logoPath 
+          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\\'club-logo-placeholder\\'>${c.tag}</div>'">`
+          : `<div class="club-logo-placeholder">${c.tag}</div>`;
+
+        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
         const clickableRoster = c.roster.map(pName => {
-          const cleanName = pName.split(' ')[0].replace(/[\\(\\),]/g, '');
+          const cleanName = pName.replace(/\\s*\\([^)]*\\)/g, '').trim();
           const pUrl = PLAYER_X_MAP[cleanName] || `https://x.com/search?q=${encodeURIComponent(cleanName)}+fortnite`;
-          return `<a href="${pUrl}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Compte X de ${pName}">
-            <strong>${pName}</strong> <span class="x-icon">𝕏</span>
+          return `<a href="${pUrl}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Compte X de ${cleanName}">
+            <strong>${cleanName}</strong> <span class="x-icon">𝕏</span>
           </a>`;
         }).join(' ');
 
@@ -366,38 +500,40 @@ new_render_annual = """        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "ht
           <td><div class="roster-tags">${clickableRoster}</div></td>
           <td><div class="notable-achievement">${c.notable}</div></td>
           <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">🏆 ${c.points.toLocaleString('fr-FR')} pts</td>
-        `;"""
+        `;
+        tbody.appendChild(tr);
+      });
+    }
 
-if old_render_annual in html:
-    html = html.replace(old_render_annual, new_render_annual)
+    // Rendu du Classement Live (puissance actuelle)
+    function renderLiveTable() {
+      const search = document.getElementById('search-input-live').value.toLowerCase();
+      let list = [...LIVE_DATA];
 
-old_render_live = """        const playersHtml = c.players.map(p => 
-          `<span class="player-tag" title="PR individuel : ${p.pr.toLocaleString('fr-FR')} pts">
-            ${p.country} <strong>${p.name}</strong> (${(p.pr / 1000).toFixed(1)}k)
-          </span>`
-        ).join(' ');
+      if (search) {
+        list = list.filter(c => {
+          return c.name.toLowerCase().includes(search) ||
+                 c.tag.toLowerCase().includes(search) ||
+                 c.players.some(p => p.name.toLowerCase().includes(search));
+        });
+      }
 
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td class="rank-cell ${rankClass}">${trophy}#${rank}</td>
-          <td>
-            <div class="club-cell">
-              ${logoHtml}
-              <div>
-                <span class="club-name">${c.name}</span>
-                <span class="club-tag">${c.tag}</span>
-              </div>
-            </div>
-          </td>
-          <td><div class="roster-tags">${playersHtml}</div></td>
-          <td><div class="notable-achievement">${c.details}</div></td>
-          <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">⚡ ${c.livePr.toLocaleString('fr-FR')} pts</td>
-        `;"""
+      const tbody = document.getElementById('ranking-tbody');
 
-new_render_live = """        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
+      list.forEach((c) => {
+        const rank = c.rank;
+        const rankClass = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : '';
+        const trophy = rank === 1 ? '🥇 ' : rank === 2 ? '🥈 ' : rank === 3 ? '🥉 ' : '';
+
+        const logoPath = LOGO_MAP[c.id];
+        const logoHtml = logoPath 
+          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\\'club-logo-placeholder\\'>${c.tag}</div>'">`
+          : `<div class="club-logo-placeholder">${c.tag}</div>`;
+
+        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
         const playersHtml = c.players.map(p => 
           `<a href="${p.xUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Profil X de ${p.name} (${p.xHandle || ''}) — PR : ${p.pr.toLocaleString('fr-FR')} pts">
-            ${p.country} <strong>${p.name}</strong> (${(p.pr / 1000).toFixed(1)}k) <span class="x-icon">𝕏</span>
+            ${p.country} <strong>${p.name}</strong> <span class="x-icon">𝕏</span>
           </a>`
         ).join(' ');
 
@@ -416,25 +552,130 @@ new_render_live = """        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "http
           <td><div class="roster-tags">${playersHtml}</div></td>
           <td><div class="notable-achievement">${c.details}</div></td>
           <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">⚡ ${c.livePr.toLocaleString('fr-FR')} pts</td>
-        `;"""
+        `;
+        tbody.appendChild(tr);
+      });
+    }"""
 
-if old_render_live in html:
-    html = html.replace(old_render_live, new_render_live)
+idx_annual_func = html.find('function renderAnnualTable() {')
+idx_palmares_func = html.find('function renderPalmares() {')
 
-# Update renderClubs
-old_club_card = """        const card = document.createElement('div');
-        card.className = "club-card";
+if idx_annual_func != -1 and idx_palmares_func != -1:
+    html = html[:idx_annual_func] + full_render_tables.strip() + '\n\n    ' + html[idx_palmares_func:]
+
+
+# Update renderPalmares with interactive links
+new_render_palmares = """    function renderPalmares() {
+      const container = document.getElementById('palmares-container');
+      container.innerHTML = "";
+
+      const years = ["2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018"];
+
+      years.forEach(yr => {
+        const s = ANNUAL_DATA[yr];
+        const winner = s.clubs[0];
+        const second = s.clubs[1];
+        const third = s.clubs[2];
+
+        const winnerUrl = winner.xUrl || CLUB_X_MAP[winner.id] || "https://x.com";
+        const secondUrl = second.xUrl || CLUB_X_MAP[second.id] || "https://x.com";
+        const thirdUrl = third.xUrl || CLUB_X_MAP[third.id] || "https://x.com";
+
+        const winnerRosterHtml = winner.roster.map(pName => {
+          const cleanName = pName.replace(/\\s*\\([^)]*\\)/g, '').trim();
+          const pUrl = PLAYER_X_MAP[cleanName] || `https://x.com/search?q=${encodeURIComponent(cleanName)}+fortnite`;
+          return `<a href="${pUrl}" target="_blank" rel="noopener noreferrer" class="player-tag" style="font-size: 0.78rem;" title="Compte X de ${cleanName}">
+            <strong>${cleanName}</strong> <span class="x-icon">𝕏</span>
+          </a>`;
+        }).join(' ');
+
+        const card = document.createElement('div');
+        card.className = "palmares-card";
         card.innerHTML = `
-          <div style="display: flex; align-items: center; gap: 1rem;">
-            ${logoHtml}
+          <div class="palmares-year">
+            <span>${yr}</span>
+            <span style="font-size: 1.8rem;">🏆</span>
+          </div>
+          <div class="palmares-era">${s.title}</div>
+          <div class="palmares-winner-box">
+            <div style="font-size: 2.2rem;">🥇</div>
             <div>
-              <h4 style="color: white; font-size: 1.1rem;">${c.name} <span class="club-tag">${c.tag}</span></h4>
-              <span class="badge-pill ${c.tier.includes('Tier 1') ? 'gold' : ''}" style="margin-top: 4px;">${c.tier}</span>
+              <h3 style="color: white; font-size: 1.2rem;">
+                <a href="${winnerUrl}" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: none;" title="Compte X officiel de ${winner.name}">
+                  ${winner.name} <span class="x-icon">𝕏</span>
+                </a>
+                <span class="club-tag">${winner.tag}</span>
+              </h3>
+              <div style="font-size: 0.82rem; color: #cbd5e1; margin-top: 5px; display: flex; flex-wrap: wrap; gap: 4px;">
+                ${winnerRosterHtml}
+              </div>
             </div>
           </div>
-          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">${c.desc}</p>
-        `;"""
+          <div class="podium-list">
+            <div class="podium-item">
+              <span>🥈 2e : <a href="${secondUrl}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;"><strong>${second.name}</strong> <span class="x-icon">𝕏</span></a></span>
+              <span>${second.points.toLocaleString('fr-FR')} pts</span>
+            </div>
+            <div class="podium-item">
+              <span>🥉 3e : <a href="${thirdUrl}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;"><strong>${third.name}</strong> <span class="x-icon">𝕏</span></a></span>
+              <span>${third.points.toLocaleString('fr-FR')} pts</span>
+            </div>
+          </div>
+          <div class="verdict-box">
+            ${s.description}
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }"""
 
+idx_palm_start = html.find('function renderPalmares() {')
+if idx_palm_start != -1:
+    idx_palm_end = html.find('function renderTransfers() {')
+    if idx_palm_end != -1:
+        html = html[:idx_palm_start] + new_render_palmares + '\n\n    ' + html[idx_palm_end:]
+
+# Update renderTransfers with interactive links
+new_render_transfers = """    function renderTransfers() {
+      const container = document.getElementById('transfer-feed-container');
+      container.innerHTML = "";
+
+      TRANSFERS.forEach(t => {
+        const card = document.createElement('div');
+        card.className = "transfer-card";
+        card.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 1.25rem;">
+            <div style="font-family: monospace; font-size: 0.85rem; color: var(--text-dim); background: rgba(0,0,0,0.4); padding: 4px 8px; border-radius: 6px;">${t.date}</div>
+            <div>
+              <h4 style="color: white; font-size: 1.05rem;">
+                <a href="${t.playerXUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: none;" title="Compte X du joueur">
+                  ${t.player} <span class="x-icon">𝕏</span>
+                </a>
+              </h4>
+              <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; margin-top: 3px;">
+                <span style="color: #cbd5e1;">${t.from}</span>
+                <span style="color: var(--purple-accent);">➡️</span>
+                <a href="${t.toXUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" style="color: #c084fc; font-weight: 700; text-decoration: none;" title="Compte X du club">
+                  ${t.to} <span class="x-icon">𝕏</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <span class="badge-pill gold">Officiel</span>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }"""
+
+idx_trans_start = html.find('function renderTransfers() {')
+if idx_trans_start != -1:
+    idx_trans_end = html.find('function renderClubs() {')
+    if idx_trans_end != -1:
+        html = html[:idx_trans_start] + new_render_transfers + '\n\n    ' + html[idx_trans_end:]
+
+# Update renderClubs
 new_club_card = """        const card = document.createElement('div');
         card.className = "club-card";
         card.innerHTML = `
@@ -454,49 +695,23 @@ new_club_card = """        const card = document.createElement('div');
           </div>
         `;"""
 
+old_club_card = """        const card = document.createElement('div');
+        card.className = "club-card";
+        card.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            ${logoHtml}
+            <div>
+              <h4 style="color: white; font-size: 1.1rem;">${c.name} <span class="club-tag">${c.tag}</span></h4>
+              <span class="badge-pill ${c.tier.includes('Tier 1') ? 'gold' : ''}" style="margin-top: 4px;">${c.tier}</span>
+            </div>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">${c.desc}</p>
+        `;"""
+
 if old_club_card in html:
     html = html.replace(old_club_card, new_club_card)
-
-# Update tab-reglement with protocol 5 (Revenja Head of Solary, Fandom Wiki PR, and multi-platform integrity)
-reglement_replacement = """        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Éligibilité 100% Internationale</h3>
-        <p style="color: #cbd5e1; font-size: 0.95rem;">
-          Les joueurs sous contrat avec un club français <strong>n'ont aucune obligation d'être de nationalité française</strong>. Les joueurs étrangers (ex: Malibuca, Merstach, Veno, SwizzY) marquent 100% de leurs points pour leur club français.
-        </p>
-
-        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">5. Protocole d'Intégrité Anti-Erreur & Croisement Multi-Plateformes</h3>
-        <p style="color: #cbd5e1; font-size: 0.95rem; margin-bottom: 0.75rem;">
-          Pour éliminer toute hallucination ou attribution erronée, l'affectation de chaque joueur et le calcul du classement s'appuient sur un croisement systématique de 4 sources complémentaires (primaires et secondaires) :
-        </p>
-        <ul style="color: #cbd5e1; font-size: 0.92rem; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
-          <li>
-            <strong>1. Comptes & Biographies X (Twitter) des Joueurs et des Clubs (Sources Primaires)</strong> : Tout joueur actif doit expressément mentionner le club (<span style="color: #c084fc;">@Club</span>) dans sa biographie officielle (ex: @Seekkfn mentionnant @HvKGGs). Tout joueur avec mention <em>« was pro »</em>, <em>« LFT »</em> ou <em>« Free Agent »</em> est immédiatement retiré de l'effectif actif (ex: Snayzy, Clément, Kyzen, Rad3on, Nxthan).
-          </li>
-          <li>
-            <strong>2. Décideurs / Staff des Clubs & Médias d'Actualité Esport</strong> : Suivi prioritaire des déclarations et confirmations directes des dirigeants et managers de sections, notamment <a href="https://x.com/Revenja_" target="_blank" style="color: #38bdf8; text-decoration: none;"><strong>@Revenja_</strong></a> (<strong>Head of Fortnite de Solary</strong>) dont les annonces de recrues (ex: signature de XZEEVIT) et prolongations font autorité absolue, complété par la veille continue de <a href="https://x.com/FortniteFraActu" target="_blank" style="color: #38bdf8; text-decoration: none;">@FortniteFraActu</a>.
-          </li>
-          <li>
-            <strong>3. Wikis Collaboratifs & Références Historiques (Liquipedia & Fandom Esports)</strong> : Consultation conjointe de <a href="https://liquipedia.net/fortnite/Category:French_Teams" target="_blank" style="color: #c084fc; text-decoration: none;">Liquipedia Fortnite</a> et de la <a href="https://fortnite-esports.fandom.com/wiki/Power_Rankings_-_Teams/PC/Europe" target="_blank" style="color: #c084fc; text-decoration: none;">Fortnite Esports Wiki Fandom (Team PR Europe)</a>. <em>Vigilance intégrité :</em> ces bases communautaires accusant parfois des retards d'actualisation ou des imprécisions de roster, elles sont systématiquement arbitrées par les sources primaires (bios X et annonces officielles).
-          </li>
-          <li>
-            <strong>4. Fortnite Tracker Power Ranking (PR)</strong> : Synchronisation des points officiels de tournois (FNCS, Cash Cups, Victory Cups) selon la période contractuelle exacte, corrigée des éventuelles mauvaises attributions de Tracker via la règle d'or <em>« No Buying PR »</em>.
-          </li>
-        </ul>"""
-
-html_norm = html.replace('\r\n', '\n')
-
-# Check if tab-reglement already has section 5 or not
-if '<h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">5. Protocole' in html_norm:
-    # replace from 4. Éligibilité down to </ul> in tab-reglement
-    idx_start = html_norm.find('<h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Éligibilité')
-    idx_end = html_norm.find('</ul>', idx_start) + len('</ul>')
-    html_norm = html_norm[:idx_start] + reglement_replacement.strip() + html_norm[idx_end:]
-    html = html_norm
-else:
-    target_reg_norm = target_reglement.replace('\r\n', '\n')
-    if target_reg_norm in html_norm:
-        html = html_norm.replace(target_reg_norm, reglement_replacement)
 
 with open(DASHBOARD_DIR / 'index.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
-print('Updated dashboard/index.html with interactive X profile links and anti-error protocol!')
+print('Dashboard successfully rebuilt and verified with X links, Joueurs column, and hero-banner placement!')

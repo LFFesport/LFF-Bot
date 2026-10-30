@@ -689,7 +689,13 @@
     </div>
   </header>
 
-  <!-- EXPLICATION & SWITCHER DU MODE DE CLASSEMENT -->
+  <!-- MAIN VIEW -->
+  <main>
+
+    <!-- SECTION PRINCIPALE : CLASSEMENTS (ANNUEL OU LIVE) -->
+    <div id="tab-rankings" class="tab-content active">
+
+      <!-- EXPLICATION & SWITCHER DU MODE DE CLASSEMENT -->
   <div class="hero-banner">
     <div class="modes-comparison-card">
       <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
@@ -741,11 +747,6 @@
     </div>
   </div>
 
-  <!-- MAIN VIEW -->
-  <main>
-
-    <!-- SECTION PRINCIPALE : CLASSEMENTS (ANNUEL OU LIVE) -->
-    <div id="tab-rankings" class="tab-content active">
 
       <!-- CONTEXTE DU CLASSEMENT ANNUEL (Visible en mode Annuel) -->
       <div id="annual-controls-section">
@@ -797,7 +798,7 @@
             <tr>
               <th style="width: 70px; text-align: center;">Rang</th>
               <th>Club</th>
-              <th id="th-roster-col">Roster sous contrat</th>
+              <th id="th-roster-col">Joueurs</th>
               <th id="th-notable-col">Faits d'armes / Titres</th>
               <th style="text-align: right;" id="th-points-col">Points PR</th>
             </tr>
@@ -1064,7 +1065,7 @@
         "tier": "Tier 1",
         "points": 14000,
         "roster": [
-          "Teeqzy (Record 43 kills)",
+          "Teeqzy",
           "NokSs",
           "Robi",
           "Mickalow"
@@ -1221,7 +1222,7 @@
         "tier": "Tier 1",
         "points": 32000,
         "roster": [
-          "Nayte (8e World Cup)",
+          "Nayte",
           "4zr"
         ],
         "notable": "Signature de Nayte fin 2019"
@@ -1433,7 +1434,7 @@
       {
         "rank": 11,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 18000,
@@ -1566,7 +1567,7 @@
       {
         "rank": 8,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 42000,
@@ -1696,7 +1697,7 @@
       {
         "rank": 4,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 54000,
@@ -1843,7 +1844,7 @@
         "roster": [
           "Snayzy",
           "PodaSai",
-          "Nikof (Coach/Manager)"
+          "Nikof"
         ],
         "notable": "Qualifié FNCS Global Championship Copenhague"
       },
@@ -1872,14 +1873,14 @@
         "roster": [
           "Skydeun",
           "EMXXRR",
-          "Vico (prêt)"
+          "Vico"
         ],
         "notable": "Entrée fracassante sur Fortnite en juillet 2023"
       },
       {
         "rank": 4,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 62000,
@@ -2018,7 +2019,7 @@
           "Merstach",
           "Veno",
           "SwizzY",
-          "Oslo (Coach)"
+          "Oslo"
         ],
         "notable": "#1 Mondial au Team Power Ranking officiel"
       },
@@ -2060,7 +2061,7 @@
         "tier": "Tier 1",
         "points": 76000,
         "roster": [
-          "Wox (5e mondial)",
+          "Wox",
           "Kirwa",
           "YZY",
           "EsTy",
@@ -2078,14 +2079,14 @@
         "roster": [
           "Skydeun",
           "EMXXRR",
-          "PodaSai (période)"
+          "PodaSai"
         ],
         "notable": "Présence continue dans le haut de tableau européen"
       },
       {
         "rank": 6,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 54000,
@@ -2276,8 +2277,7 @@
         "points": 65000,
         "roster": [
           "Veno",
-          "SwizzY",
-          "Roster remanié"
+          "SwizzY"
         ],
         "notable": "Points acquis sur la première partie de saison"
       },
@@ -2325,7 +2325,7 @@
       {
         "rank": 8,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 49000,
@@ -2440,8 +2440,8 @@
         "tier": "Tier 1",
         "points": 122000,
         "roster": [
-          "SwizzY (Champion du Monde)",
-          "Pixie (Champion du Monde)",
+          "SwizzY",
+          "Pixie",
           "Wox",
           "Tjino",
           "PabloWingu",
@@ -2475,7 +2475,7 @@
         "roster": [
           "Darkos",
           "sereN",
-          "XZEEVIT (recrue octobre 2026)",
+          "XZEEVIT",
           "Minori",
           "ghonzo",
           "Zangi"
@@ -2500,7 +2500,7 @@
       {
         "rank": 5,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 34100,
@@ -2671,7 +2671,82 @@
   "Teeqzy": "https://x.com/Teeqzy_",
   "Gotaga": "https://x.com/Gotaga",
   "WaZz": "https://x.com/WaZz",
-  "ZetFar": "https://x.com/ZetFar"
+  "ZetFar": "https://x.com/ZetFar",
+  "Decyptos": "https://x.com/Decyptos",
+  "Floki": "https://x.com/FlokiiFN",
+  "BlastR": "https://x.com/BlastR_FN",
+  "Alpha": "https://x.com/AlphaFN",
+  "Falconly": "https://x.com/Falconly_",
+  "Yags": "https://x.com/Yagsfn",
+  "Vico": "https://x.com/Vico_FN",
+  "Robabz": "https://x.com/Robabz",
+  "Keolys": "https://x.com/Keolys",
+  "Deadra": "https://x.com/Deadra",
+  "DRG": "https://x.com/DRG_FN",
+  "Flyzer": "https://x.com/Flyzer",
+  "Shaykos": "https://x.com/Shaykos",
+  "TheVic": "https://x.com/TheVic_",
+  "Oslo": "https://x.com/Oslo_FN",
+  "Aarnax": "https://x.com/Aarnax",
+  "Artskill": "https://x.com/ArtskillFN",
+  "Kouto": "https://x.com/KoutoFN",
+  "Jbzz": "https://x.com/Jbzz",
+  "Mickalow": "https://x.com/Mickalow",
+  "Bresil": "https://x.com/BresilFN",
+  "Maxalibur": "https://x.com/Maxalibur",
+  "Boyer": "https://x.com/Boyerxd",
+  "Chap": "https://x.com/Chap_FN",
+  "Netox": "https://x.com/NetoxFN",
+  "Kyuubi": "https://x.com/KyuubiFN",
+  "Shay": "https://x.com/ShayFN",
+  "Shad": "https://x.com/ShadFN",
+  "Spk": "https://x.com/SpkFN",
+  "Storm": "https://x.com/StormFN",
+  "Vax": "https://x.com/VaxFN",
+  "Ray": "https://x.com/RayFN",
+  "Sky": "https://x.com/SkyFN",
+  "Zack": "https://x.com/ZackFN",
+  "Dark": "https://x.com/DarkFN",
+  "Kaido": "https://x.com/KaidoFN",
+  "Keoz": "https://x.com/KeozFN",
+  "Kirwa": "https://x.com/KirwaFN",
+  "Krono": "https://x.com/KronoFN",
+  "Lentille": "https://x.com/LentilleFN",
+  "M11Z": "https://x.com/M11Z",
+  "M1key": "https://x.com/M1keyFN",
+  "MawkS": "https://x.com/MawkSFN",
+  "Maylee": "https://x.com/MayleeFN",
+  "Neo": "https://x.com/NeoFN",
+  "Nex": "https://x.com/NexFN",
+  "NokSs": "https://x.com/NokSs",
+  "Nyx": "https://x.com/NyxFN",
+  "Orkh": "https://x.com/OrkhFN",
+  "Ovni": "https://x.com/OvniFN",
+  "Seth": "https://x.com/SethFN",
+  "Shaax": "https://x.com/ShaaxFN",
+  "Skydeun": "https://x.com/Skydeun",
+  "Skyro": "https://x.com/SkyroFN",
+  "Sops": "https://x.com/SopsFN",
+  "Strik": "https://x.com/StrikFN",
+  "Taipouz": "https://x.com/Taipouz",
+  "Xsweeze": "https://x.com/xsweeze",
+  "YZY": "https://x.com/YZYFN",
+  "mzXXD": "https://x.com/mzXXD",
+  "RZ Phoenix": "https://x.com/RealityZoneFR",
+  "RZ Kev": "https://x.com/RealityZoneFR",
+  "RZ Zeek": "https://x.com/RealityZoneFR",
+  "Fake Storm": "https://x.com/TeamFake_esport",
+  "Fake Shadow": "https://x.com/TeamFake_esport",
+  "ATEN Raptor": "https://x.com/AtenEsport",
+  "ATEN Nox": "https://x.com/AtenEsport",
+  "BSK Rayan": "https://x.com/TeamBSK_",
+  "BSK Aero": "https://x.com/TeamBSK_",
+  "JUP Nova": "https://x.com/JupitarEsport",
+  "JUP Vax": "https://x.com/JupitarEsport",
+  "ODS Vortex": "https://x.com/OdiousEsport",
+  "ODS Sky": "https://x.com/OdiousEsport",
+  "PAPS Zek": "https://x.com/PapsEsport",
+  "PAPS Ray": "https://x.com/PapsEsport"
 };
 
     const LIVE_DATA = [
@@ -2881,7 +2956,7 @@
   {
     "rank": 5,
     "id": "reality-zone",
-    "name": "Reality Zone (RZ)",
+    "name": "Reality Zoned",
     "tag": "RZ",
     "tier": "Tier 2",
     "livePr": 34100,
@@ -2890,21 +2965,21 @@
     "xHandle": "@RealityZoneFR",
     "players": [
       {
-        "name": "RZ_Phoenix",
+        "name": "RZ Phoenix",
         "pr": 14200,
         "country": "🇫🇷",
         "xHandle": "@RealityZoneFR",
         "xUrl": "https://x.com/RealityZoneFR"
       },
       {
-        "name": "RZ_Kev",
+        "name": "RZ Kev",
         "pr": 11400,
         "country": "🇫🇷",
         "xHandle": "@RealityZoneFR",
         "xUrl": "https://x.com/RealityZoneFR"
       },
       {
-        "name": "RZ_Zeek",
+        "name": "RZ Zeek",
         "pr": 8500,
         "country": "🇫🇷",
         "xHandle": "@RealityZoneFR",
@@ -2925,14 +3000,14 @@
     "xHandle": "@TeamFake_esport",
     "players": [
       {
-        "name": "Fake_Shadow",
+        "name": "Fake Shadow",
         "pr": 15100,
         "country": "🇫🇷",
         "xHandle": "@TeamFake_esport",
         "xUrl": "https://x.com/TeamFake_esport"
       },
       {
-        "name": "Fake_Storm",
+        "name": "Fake Storm",
         "pr": 13300,
         "country": "🇫🇷",
         "xHandle": "@TeamFake_esport",
@@ -2953,14 +3028,14 @@
     "xHandle": "@AtenEsport",
     "players": [
       {
-        "name": "ATEN_Raptor",
+        "name": "ATEN Raptor",
         "pr": 11900,
         "country": "🇫🇷",
         "xHandle": "@AtenEsport",
         "xUrl": "https://x.com/AtenEsport"
       },
       {
-        "name": "ATEN_Nox",
+        "name": "ATEN Nox",
         "pr": 10200,
         "country": "🇫🇷",
         "xHandle": "@AtenEsport",
@@ -2981,14 +3056,14 @@
     "xHandle": "@TeamBSK_",
     "players": [
       {
-        "name": "BSK_Rayan",
+        "name": "BSK Rayan",
         "pr": 11100,
         "country": "🇫🇷",
         "xHandle": "@TeamBSK_",
         "xUrl": "https://x.com/TeamBSK_"
       },
       {
-        "name": "BSK_Aero",
+        "name": "BSK Aero",
         "pr": 9400,
         "country": "🇫🇷",
         "xHandle": "@TeamBSK_",
@@ -3009,14 +3084,14 @@
     "xHandle": "@JupitarEsport",
     "players": [
       {
-        "name": "JUP_Nova",
+        "name": "JUP Nova",
         "pr": 9800,
         "country": "🇫🇷",
         "xHandle": "@JupitarEsport",
         "xUrl": "https://x.com/JupitarEsport"
       },
       {
-        "name": "JUP_Vax",
+        "name": "JUP Vax",
         "pr": 7000,
         "country": "🇫🇷",
         "xHandle": "@JupitarEsport",
@@ -3037,14 +3112,14 @@
     "xHandle": "@OdiousEsport",
     "players": [
       {
-        "name": "ODS_Vortex",
+        "name": "ODS Vortex",
         "pr": 8200,
         "country": "🇫🇷",
         "xHandle": "@OdiousEsport",
         "xUrl": "https://x.com/OdiousEsport"
       },
       {
-        "name": "ODS_Sky",
+        "name": "ODS Sky",
         "pr": 6000,
         "country": "🇫🇷",
         "xHandle": "@OdiousEsport",
@@ -3065,14 +3140,14 @@
     "xHandle": "@PapsEsport",
     "players": [
       {
-        "name": "PAPS_Zek",
+        "name": "PAPS Zek",
         "pr": 7500,
         "country": "🇫🇷",
         "xHandle": "@PapsEsport",
         "xUrl": "https://x.com/PapsEsport"
       },
       {
-        "name": "PAPS_Ray",
+        "name": "PAPS Ray",
         "pr": 5400,
         "country": "🇫🇷",
         "xHandle": "@PapsEsport",
@@ -3101,7 +3176,7 @@
     "from": "Free Agent",
     "to": "Solary",
     "toXUrl": "https://x.com/SolaryTV",
-    "type": "Arrival / Recrue Officielle",
+    "type": "Arrival / Recrue",
     "source": "@SolaryTV / @xzeevit"
   },
   {
@@ -3146,7 +3221,7 @@
   },
   {
     "date": "2026-04-25",
-    "player": "SwizzY 🌍 (Champion du Monde)",
+    "player": "SwizzY 🌍",
     "playerXUrl": "https://x.com/Swizzyfn",
     "from": "Team HavoK",
     "to": "HavoK by Vitality",
@@ -3166,7 +3241,7 @@
   },
   {
     "date": "2026-04-25",
-    "player": "Rachat & Fusion Officielle 🤝",
+    "player": "Rachat & Fusion 🤝",
     "playerXUrl": "https://x.com/HvKGGs",
     "from": "Team HavoK & Vitality",
     "to": "HavoK by Vitality",
@@ -3196,10 +3271,10 @@
   },
   {
     "date": "2025-12-07",
-    "player": "Kyzen 🇫🇷 (Retraite)",
+    "player": "Kyzen 🇫🇷",
     "playerXUrl": "https://x.com/KyzenFN",
     "from": "Galions",
-    "to": "Retraite (was pro)",
+    "to": "Retraite",
     "toXUrl": "https://x.com",
     "type": "Retraite Compétitive",
     "source": "Bio X @KyzenFN"
@@ -3246,7 +3321,7 @@
   },
   {
     "date": "2024-08-28",
-    "player": "Wox 🇸🇪 (5e mondial Worlds)",
+    "player": "Wox 🇸🇪",
     "playerXUrl": "https://x.com/Wox",
     "from": "Free Agent",
     "to": "Team HavoK",
@@ -3274,13 +3349,13 @@
         document.getElementById('live-controls-section').style.display = 'none';
         document.getElementById('th-notable-col').innerText = "Faits d'armes / Titres";
         document.getElementById('th-points-col').innerText = "Points Année LFF";
-        document.getElementById('th-roster-col').innerText = "Roster sous contrat d'époque";
+        document.getElementById('th-roster-col').innerText = "Joueurs";
       } else {
         document.getElementById('annual-controls-section').style.display = 'none';
         document.getElementById('live-controls-section').style.display = 'block';
         document.getElementById('th-notable-col').innerText = "Détail / Tendance Live";
         document.getElementById('th-points-col').innerText = "Live PR Total";
-        document.getElementById('th-roster-col').innerText = "Joueurs Actuels & PR Individuel";
+        document.getElementById('th-roster-col').innerText = "Joueurs";
       }
 
       renderRankingView();
@@ -3328,26 +3403,33 @@
 
         const logoPath = LOGO_MAP[c.id];
         const logoHtml = logoPath 
-          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\\'club-logo-placeholder\\'>${c.tag}</div>'">`
+          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\'club-logo-placeholder\'>${c.tag}</div>'">`
           : `<div class="club-logo-placeholder">${c.tag}</div>`;
 
-        const rosterHtml = c.roster.map(p => `<span class="player-tag">${p}</span>`).join(' ');
+        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
+        const clickableRoster = c.roster.map(pName => {
+          const cleanName = pName.replace(/\s*\([^)]*\)/g, '').trim();
+          const pUrl = PLAYER_X_MAP[cleanName] || `https://x.com/search?q=${encodeURIComponent(cleanName)}+fortnite`;
+          return `<a href="${pUrl}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Compte X de ${cleanName}">
+            <strong>${cleanName}</strong> <span class="x-icon">𝕏</span>
+          </a>`;
+        }).join(' ');
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td class="rank-cell ${rankClass}">${trophy}#${rank}</td>
           <td>
-            <div class="club-cell">
+            <a href="${clubUrl}" target="_blank" rel="noopener noreferrer" class="club-cell-link" title="Compte X officiel de ${c.name}">
               ${logoHtml}
               <div>
-                <span class="club-name">${c.name}</span>
+                <span class="club-name">${c.name} <span class="x-icon">𝕏</span></span>
                 <span class="club-tag">${c.tag}</span>
               </div>
-            </div>
+            </a>
           </td>
-          <td><div class="roster-tags">${rosterHtml}</div></td>
+          <td><div class="roster-tags">${clickableRoster}</div></td>
           <td><div class="notable-achievement">${c.notable}</div></td>
-          <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">${c.points.toLocaleString('fr-FR')} pts</td>
+          <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">🏆 ${c.points.toLocaleString('fr-FR')} pts</td>
         `;
         tbody.appendChild(tr);
       });
@@ -3375,13 +3457,13 @@
 
         const logoPath = LOGO_MAP[c.id];
         const logoHtml = logoPath 
-          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\\'club-logo-placeholder\\'>${c.tag}</div>'">`
+          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\'club-logo-placeholder\'>${c.tag}</div>'">`
           : `<div class="club-logo-placeholder">${c.tag}</div>`;
 
         const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
         const playersHtml = c.players.map(p => 
           `<a href="${p.xUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Profil X de ${p.name} (${p.xHandle || ''}) — PR : ${p.pr.toLocaleString('fr-FR')} pts">
-            ${p.country} <strong>${p.name}</strong> (${(p.pr / 1000).toFixed(1)}k) <span class="x-icon">𝕏</span>
+            ${p.country} <strong>${p.name}</strong> <span class="x-icon">𝕏</span>
           </a>`
         ).join(' ');
 
@@ -3405,8 +3487,7 @@
       });
     }
 
-    // Rendu Palmarès
-    function renderPalmares() {
+        function renderPalmares() {
       const container = document.getElementById('palmares-container');
       container.innerHTML = "";
 
@@ -3417,6 +3498,18 @@
         const winner = s.clubs[0];
         const second = s.clubs[1];
         const third = s.clubs[2];
+
+        const winnerUrl = winner.xUrl || CLUB_X_MAP[winner.id] || "https://x.com";
+        const secondUrl = second.xUrl || CLUB_X_MAP[second.id] || "https://x.com";
+        const thirdUrl = third.xUrl || CLUB_X_MAP[third.id] || "https://x.com";
+
+        const winnerRosterHtml = winner.roster.map(pName => {
+          const cleanName = pName.replace(/\s*\([^)]*\)/g, '').trim();
+          const pUrl = PLAYER_X_MAP[cleanName] || `https://x.com/search?q=${encodeURIComponent(cleanName)}+fortnite`;
+          return `<a href="${pUrl}" target="_blank" rel="noopener noreferrer" class="player-tag" style="font-size: 0.78rem;" title="Compte X de ${cleanName}">
+            <strong>${cleanName}</strong> <span class="x-icon">𝕏</span>
+          </a>`;
+        }).join(' ');
 
         const card = document.createElement('div');
         card.className = "palmares-card";
@@ -3429,15 +3522,26 @@
           <div class="palmares-winner-box">
             <div style="font-size: 2.2rem;">🥇</div>
             <div>
-              <h3 style="color: white; font-size: 1.2rem;">${winner.name} <span class="club-tag">${winner.tag}</span></h3>
-              <div style="font-size: 0.82rem; color: #cbd5e1; margin-top: 3px;">
-                👥 ${winner.roster.join(', ')}
+              <h3 style="color: white; font-size: 1.2rem;">
+                <a href="${winnerUrl}" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: none;" title="Compte X officiel de ${winner.name}">
+                  ${winner.name} <span class="x-icon">𝕏</span>
+                </a>
+                <span class="club-tag">${winner.tag}</span>
+              </h3>
+              <div style="font-size: 0.82rem; color: #cbd5e1; margin-top: 5px; display: flex; flex-wrap: wrap; gap: 4px;">
+                ${winnerRosterHtml}
               </div>
             </div>
           </div>
           <div class="podium-list">
-            <div class="podium-item"><span>🥈 2e : <strong>${second.name}</strong></span> <span>${second.points.toLocaleString('fr-FR')} pts</span></div>
-            <div class="podium-item"><span>🥉 3e : <strong>${third.name}</strong></span> <span>${third.points.toLocaleString('fr-FR')} pts</span></div>
+            <div class="podium-item">
+              <span>🥈 2e : <a href="${secondUrl}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;"><strong>${second.name}</strong> <span class="x-icon">𝕏</span></a></span>
+              <span>${second.points.toLocaleString('fr-FR')} pts</span>
+            </div>
+            <div class="podium-item">
+              <span>🥉 3e : <a href="${thirdUrl}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;"><strong>${third.name}</strong> <span class="x-icon">𝕏</span></a></span>
+              <span>${third.points.toLocaleString('fr-FR')} pts</span>
+            </div>
           </div>
           <div class="verdict-box">
             ${s.description}
@@ -3447,8 +3551,7 @@
       });
     }
 
-    // Rendu Mercato
-    function renderTransfers() {
+        function renderTransfers() {
       const container = document.getElementById('transfer-feed-container');
       container.innerHTML = "";
 
@@ -3459,11 +3562,17 @@
           <div style="display: flex; align-items: center; gap: 1.25rem;">
             <div style="font-family: monospace; font-size: 0.85rem; color: var(--text-dim); background: rgba(0,0,0,0.4); padding: 4px 8px; border-radius: 6px;">${t.date}</div>
             <div>
-              <h4 style="color: white; font-size: 1.05rem;">${t.player}</h4>
+              <h4 style="color: white; font-size: 1.05rem;">
+                <a href="${t.playerXUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: none;" title="Compte X du joueur">
+                  ${t.player} <span class="x-icon">𝕏</span>
+                </a>
+              </h4>
               <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; margin-top: 3px;">
                 <span style="color: #cbd5e1;">${t.from}</span>
                 <span style="color: var(--purple-accent);">➡️</span>
-                <span style="color: white; font-weight: 700;">${t.to}</span>
+                <a href="${t.toXUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" style="color: #c084fc; font-weight: 700; text-decoration: none;" title="Compte X du club">
+                  ${t.to} <span class="x-icon">𝕏</span>
+                </a>
               </div>
             </div>
           </div>
@@ -3475,7 +3584,6 @@
       });
     }
 
-    // Rendu Clubs
     function renderClubs() {
       const container = document.getElementById('clubs-grid-container');
       container.innerHTML = "";
@@ -3673,7 +3781,7 @@
                 "liquipediaUrl": "https://liquipedia.net/fortnite/Valiant"
         },
         {
-                "name": "Reality Zone (RZ)",
+                "name": "Reality Zoned",
                 "tag": "RZ",
                 "tier": "Tier 2",
                 "desc": "Club compétitif français incontournable sur les tournois communautaires, Console et PC (Cash Cups, FNCS Heats).",

@@ -200,11 +200,11 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Liquipedia** : [Valiant](https://liquipedia.net/fortnite/Valiant)
 - **Description** : Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025.
 
-### Reality Zone (RZ) (`RZ`)
+### Reality Zoned (`RZ`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
 - **Compte X officiel** : [@RealityZoneFR](https://x.com/RealityZoneFR)
-- **Liquipedia** : [Reality Zone (RZ)](https://liquipedia.net/fortnite/Reality_Zone)
+- **Liquipedia** : [Reality Zoned](https://liquipedia.net/fortnite/Reality_Zone)
 - **Logo enregistré** : `LFF Clubs/Logo RZ rouge (fond vide).png`
 - **Description** : Club compétitif français incontournable sur les tournois communautaires, Console et PC (Cash Cups, FNCS Heats).
 

@@ -131,7 +131,7 @@
         "tier": "Tier 1",
         "points": 14000,
         "roster": [
-          "Teeqzy (Record 43 kills)",
+          "Teeqzy",
           "NokSs",
           "Robi",
           "Mickalow"
@@ -288,7 +288,7 @@
         "tier": "Tier 1",
         "points": 32000,
         "roster": [
-          "Nayte (8e World Cup)",
+          "Nayte",
           "4zr"
         ],
         "notable": "Signature de Nayte fin 2019"
@@ -500,7 +500,7 @@
       {
         "rank": 11,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 18000,
@@ -633,7 +633,7 @@
       {
         "rank": 8,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 42000,
@@ -763,7 +763,7 @@
       {
         "rank": 4,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 54000,
@@ -910,7 +910,7 @@
         "roster": [
           "Snayzy",
           "PodaSai",
-          "Nikof (Coach/Manager)"
+          "Nikof"
         ],
         "notable": "Qualifié FNCS Global Championship Copenhague"
       },
@@ -939,14 +939,14 @@
         "roster": [
           "Skydeun",
           "EMXXRR",
-          "Vico (prêt)"
+          "Vico"
         ],
         "notable": "Entrée fracassante sur Fortnite en juillet 2023"
       },
       {
         "rank": 4,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 62000,
@@ -1085,7 +1085,7 @@
           "Merstach",
           "Veno",
           "SwizzY",
-          "Oslo (Coach)"
+          "Oslo"
         ],
         "notable": "#1 Mondial au Team Power Ranking officiel"
       },
@@ -1127,7 +1127,7 @@
         "tier": "Tier 1",
         "points": 76000,
         "roster": [
-          "Wox (5e mondial)",
+          "Wox",
           "Kirwa",
           "YZY",
           "EsTy",
@@ -1145,14 +1145,14 @@
         "roster": [
           "Skydeun",
           "EMXXRR",
-          "PodaSai (période)"
+          "PodaSai"
         ],
         "notable": "Présence continue dans le haut de tableau européen"
       },
       {
         "rank": 6,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 54000,
@@ -1343,8 +1343,7 @@
         "points": 65000,
         "roster": [
           "Veno",
-          "SwizzY",
-          "Roster remanié"
+          "SwizzY"
         ],
         "notable": "Points acquis sur la première partie de saison"
       },
@@ -1392,7 +1391,7 @@
       {
         "rank": 8,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 49000,
@@ -1507,8 +1506,8 @@
         "tier": "Tier 1",
         "points": 122000,
         "roster": [
-          "SwizzY (Champion du Monde)",
-          "Pixie (Champion du Monde)",
+          "SwizzY",
+          "Pixie",
           "Wox",
           "Tjino",
           "PabloWingu",
@@ -1542,7 +1541,7 @@
         "roster": [
           "Darkos",
           "sereN",
-          "XZEEVIT (recrue octobre 2026)",
+          "XZEEVIT",
           "Minori",
           "ghonzo",
           "Zangi"
@@ -1567,7 +1566,7 @@
       {
         "rank": 5,
         "id": "reality-zone",
-        "name": "Reality Zone (RZ)",
+        "name": "Reality Zoned",
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 34100,
