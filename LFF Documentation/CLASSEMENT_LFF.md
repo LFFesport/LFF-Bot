@@ -326,14 +326,6 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Logo enregistré** : `../LFF Logos/Logo Fly Again (fond vide).png`
 - **Description** : Écurie française engagée sur les tournois officiels FNCS et les Cash Cups européennes (Top 45 Fandom EU).
 
-### X6 E-sport (`X6`)
-- **Division / Tier** : Tier 2
-- **Statut** : Active
-- **Compte X officiel** : [@X6_Esport](https://x.com/X6_Esport_eu)
-- **Liquipedia** : [X6 E-sport](https://liquipedia.net/fortnite/X6_E-sport)
-- **Logo enregistré** : `../LFF Logos/Logo X6 (fond vide).png`
-- **Description** : Structure francophone active sur le circuit compétitif Fortnite, ancienne équipe formatrice de Nxthan.
-
 ### MGA eSport (`MGA`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
@@ -364,87 +356,155 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Liquipedia** : [beGenius ESC](https://liquipedia.net/fortnite/BeGenius_ESC)
 - **Description** : Structure historique montpelliéraine ayant accueilli les débuts compétitifs de Blaxou et Nikof en 2018.
 
-### XP42 Esports (`XP42`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/XP42FN)
-- **Description** : Organisation européenne/française de haut niveau Fortnite, classée dans le Top 5 européen sur le Power Rankings Fandom avec plus de 57 000 points.
-
 ### 1P Esport (`1P`)
-- **Division / Tier** : N/A
+- **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/oneprodige)
+- **Compte X officiel** : [@oneprodige](https://x.com/oneprodige)
+- **Liquipedia** : [1P Esport](https://liquipedia.net/fortnite/1P_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo 1P Esport (fond vide).png`
 - **Description** : Structure e-sport française (One Prodige) dédiée à la haute performance compétitive sur Fortnite (FNCS, Top 20 européen sur Fandom et répertoriée sur Fortnite Tracker).
 
-### FLC Clan (`FLC`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/FLCclan_)
-- **Description** : Organisation compétitive française figurant dans le Top 25 européen sur le Power Rankings Fortnite Fandom.
-
-### Detect Esports (`DTC`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/DetectEsportsEU)
-- **Description** : Structure européenne et française active sur la scène compétitive Fortnite (Top 25 Power Rankings Fandom).
-
 ### Wooka Esport (`WOOKA`)
-- **Division / Tier** : N/A
+- **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/WookaEsport)
+- **Compte X officiel** : [@WookaEsport](https://x.com/WookaEsport)
+- **Liquipedia** : [Wooka Esport](https://liquipedia.net/fortnite/Wooka_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Wooka Esport (fond vide).png`
 - **Description** : Club d'esport français fondé en 2022 et répertorié au classement officiel européen Fandom des équipes Fortnite.
 
-### NTO Corp (`NTO`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/NTOcorp)
-- **Description** : Club e-sport français actif sur la compétition Fortnite et présent dans les classements officiels Fandom.
-
 ### Lynox Esport (`LYX`)
-- **Division / Tier** : N/A
+- **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/LynoXEU)
+- **Compte X officiel** : [@LynoXEU](https://x.com/LynoXEU)
+- **Liquipedia** : [Lynox Esport](https://liquipedia.net/fortnite/Lynox_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Lynox Esport (fond vide).png`
 - **Description** : Organisation française répertoriée dans le Power Ranking Fandom Fortnite Europe.
 
-### The One (`ONE`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/TheOneHQ)
-- **Description** : Organisation e-sport basée en France et en Europe, active sur la scène compétitive Fortnite.
-
 ### Poyo Esports (`POYO`)
-- **Division / Tier** : N/A
+- **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/PoyoEsports)
+- **Compte X officiel** : [@PoyoEsports](https://x.com/PoyoEsports)
+- **Liquipedia** : [Poyo Esports](https://liquipedia.net/fortnite/Poyo_Esports)
+- **Logo enregistré** : `../LFF Logos/Logo Poyo Esports (fond vide).png`
 - **Description** : Structure française organisatrice et compétitive sur Fortnite présente au classement européen Fandom.
 
-### Natrix Esports (`NTX`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/NatrixEsports)
-- **Description** : Équipe compétitive francophone présente dans le classement officiel Fandom Fortnite Europe.
-
-### Team BDS (`BDS`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/BDS_esport)
-- **Description** : Structure e-sport majeure francophone ayant aligné des équipes de premier plan sur Fortnite compétitif.
-
-### Cooler Esport (`COL`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/CoolerEsport)
-- **Description** : Structure e-sport française historique sur Fortnite sous les couleurs de laquelle Aqua et Nyhrox ont remporté la Fortnite World Cup Duo 2019.
-
 ### Gentside Esports Club (`GTS`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/GentsideEsports)
+- **Division / Tier** : Tier 2
+- **Statut** : Inactive
+- **Compte X officiel** : [@GentsideEsports](https://x.com/GentsideEsports)
+- **Liquipedia** : [Gentside Esports Club](https://liquipedia.net/fortnite/Gentside_Esports_Club)
+- **Logo enregistré** : `../LFF Logos/Logo Gentside Esports Club (fond vide).png`
 - **Description** : Équipe française pionnière des débuts de la compétition Fortnite (2018), ayant compté des figures comme TheVic et Madzen.
 
 ### DualMedia Esports (`DM`)
-- **Division / Tier** : N/A
-- **Statut** : Active
-- **Compte X officiel** : [N/A](https://x.com/Dual_Media)
+- **Division / Tier** : Tier 2
+- **Statut** : Inactive
+- **Compte X officiel** : [@Dual_Media](https://x.com/Dual_Media)
+- **Liquipedia** : [DualMedia Esports](https://liquipedia.net/fortnite/DualMedia_Esports)
+- **Logo enregistré** : `../LFF Logos/Logo DualMedia Esports (fond vide).png`
 - **Description** : Structure e-sport française historique présente sur les tournois LAN et la compétition Fortnite.
+
+### Team Orchid (`ORC`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@TeamOrchidGG](https://x.com/TeamOrchidGG)
+- **Liquipedia** : [Team Orchid](https://liquipedia.net/fortnite/Team_Orchid)
+- **Logo enregistré** : `../LFF Logos/Logo Team Orchid (fond vide).png`
+- **Description** : Structure e-sport française de premier plan sur Fortnite, régulièrement classée dans le Top 25 européen Fortnite Tracker.
+
+### R4C Esport (`R4C`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@r4c_esport](https://x.com/r4c_esport)
+- **Liquipedia** : [R4C Esport](https://liquipedia.net/fortnite/R4C_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo R4C (fond vide).png`
+- **Description** : Organisation compétitive française engagée sur le circuit européen Fortnite et FNCS.
+
+### Vulcan Esport (`VLC`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@vulcanesport_](https://x.com/vulcanesport_)
+- **Liquipedia** : [Vulcan Esport](https://liquipedia.net/fortnite/Vulcan_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Vulcan (fond vide).png`
+- **Description** : Club d'esport français actif sur la scène compétitive européenne Fortnite.
+
+### Orphée Esport (`ORP`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@ORPHEE_Esport](https://x.com/ORPHEE_Esport)
+- **Liquipedia** : [Orphée Esport](https://liquipedia.net/fortnite/Orph%C3%A9e_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Orphee (fond vide).png`
+- **Description** : Structure compétitive française réunissant des joueurs et créateurs de contenu sur Fortnite (Fnajen, Art1st).
+
+### TRKF E-Sport (`TRKF`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@Trkf_Esport](https://x.com/Trkf_Esport)
+- **Liquipedia** : [TRKF E-Sport](https://liquipedia.net/fortnite/TRKF_E-Sport)
+- **Logo enregistré** : `../LFF Logos/Logo TRKF (fond vide).png`
+- **Description** : Organisation e-sport française présente sur les circuits compétitifs et les classements européens Fortnite.
+
+### NOW eSport (`NOW`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@noww_esport](https://x.com/noww_esport)
+- **Liquipedia** : [NOW eSport](https://liquipedia.net/fortnite/NOW_eSport)
+- **Logo enregistré** : `../LFF Logos/Logo NOW (fond vide).png`
+- **Description** : Club compétitif français figurant régulièrement dans le classement Fortnite Tracker européen.
+
+### EOZ eSport (`EOZ`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@EOZesport](https://x.com/EOZesport)
+- **Liquipedia** : [EOZ eSport](https://liquipedia.net/fortnite/EOZ_eSport)
+- **Logo enregistré** : `../LFF Logos/Logo EOZ (fond vide).png`
+- **Description** : Club d'esport français basé en Ariège, engagé en FNCS et compétitions européennes Fortnite.
+
+### EKINOX (`EKX`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@ekinoxesports](https://x.com/ekinoxesports)
+- **Liquipedia** : [EKINOX](https://liquipedia.net/fortnite/Ekinox_Esports)
+- **Logo enregistré** : `../LFF Logos/Logo Ekinox (fond vide).png`
+- **Description** : Structure e-sport française active sur Fortnite, classée dans le top des clubs européens.
+
+### WIP Esports (`WIP`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@wipesports](https://x.com/wipesports)
+- **Liquipedia** : [WIP Esports](https://liquipedia.net/fortnite/WIP_Esports)
+- **Logo enregistré** : `../LFF Logos/Logo WIP (fond vide).png`
+- **Description** : Organisation e-sport française basée en région Occitanie, compétitive sur Fortnite et multi-gaming.
+
+### Haikoo (`HKO`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@Haikoo_Esport](https://x.com/Haikoo_Esport)
+- **Liquipedia** : [Haikoo](https://liquipedia.net/fortnite/Haikoo)
+- **Logo enregistré** : `../LFF Logos/Logo Haikoo (fond vide).png`
+- **Description** : Organisation compétitive française active sur le circuit Fortnite compétitif européen (#HAIKOWIN).
+
+### G3nZ Esport (`G3NZ`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@G3nZEsport](https://x.com/G3nZEsport)
+- **Liquipedia** : [G3nZ Esport](https://liquipedia.net/fortnite/G3nZ_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo G3nZ blanc (fond vide).png`
+- **Description** : Structure française présente dans les compétitions européennes Fortnite (#G3NZWIN).
+
+### Novix eSport (`NVX`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@NovixEsport](https://x.com/NovixEsport)
+- **Liquipedia** : [Novix eSport](https://liquipedia.net/fortnite/Novix_eSport)
+- **Logo enregistré** : `../LFF Logos/Logo Novix (fond vide).png`
+- **Description** : Club e-sport français émergent sur Fortnite, actif sur les compétitions et détections de talents.
+
+### Australe Esport (`AST`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@team_australe](https://x.com/team_australe)
+- **Liquipedia** : [Australe Esport](https://liquipedia.net/fortnite/Australe_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Australe (fond vide).png`
+- **Description** : Club d'esport français basé à Roquebrune-Cap-Martin, engagé sur le circuit compétitif Fortnite.
 
