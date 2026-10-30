@@ -455,42 +455,44 @@ new_club_card = """        const card = document.createElement('div');
 if old_club_card in html:
     html = html.replace(old_club_card, new_club_card)
 
-# Update tab-reglement with protocol 5
-target_reglement = """        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Éligibilité 100% Internationale</h3>
-        <p style="color: #cbd5e1; font-size: 0.95rem;">
-          Les joueurs sous contrat avec un club français <strong>n'ont aucune obligation d'être de nationalité française</strong>. Les joueurs étrangers (ex: Malibuca, Merstach, Veno) marquent 100% de leurs points pour leur club français.
-        </p>"""
-
-replacement_reglement = """        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Éligibilité 100% Internationale</h3>
+# Update tab-reglement with protocol 5 (Revenja Head of Solary, Fandom Wiki PR, and multi-platform integrity)
+reglement_replacement = """        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Éligibilité 100% Internationale</h3>
         <p style="color: #cbd5e1; font-size: 0.95rem;">
           Les joueurs sous contrat avec un club français <strong>n'ont aucune obligation d'être de nationalité française</strong>. Les joueurs étrangers (ex: Malibuca, Merstach, Veno, SwizzY) marquent 100% de leurs points pour leur club français.
         </p>
 
-        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">5. Protocole d'Intégrité Anti-Erreur & Croisement Quadruple des Données</h3>
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">5. Protocole d'Intégrité Anti-Erreur & Croisement Multi-Plateformes</h3>
         <p style="color: #cbd5e1; font-size: 0.95rem; margin-bottom: 0.75rem;">
-          Pour éliminer toute incertitude ou attribution erronée, l'affectation de chaque joueur et le calcul du classement s'appuient sur un croisement systématique et obligatoire de 4 sources vérifiées :
+          Pour éliminer toute hallucination ou attribution erronée, l'affectation de chaque joueur et le calcul du classement s'appuient sur un croisement systématique de 4 sources complémentaires (primaires et secondaires) :
         </p>
-        <ul style="color: #cbd5e1; font-size: 0.92rem; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.6rem;">
+        <ul style="color: #cbd5e1; font-size: 0.92rem; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
           <li>
-            <strong>1. Comptes & Biographies X (Twitter) des Joueurs et des Clubs</strong> : Tout joueur actif doit expressément mentionner le club (<span style="color: #c084fc;">@Club</span>) dans sa biographie officielle (ex: @Seekkfn mentionnant @HvKGGs). Tout joueur avec mention <em>« was pro »</em>, <em>« LFT »</em> ou <em>« Free Agent »</em> est immédiatement retiré de l'effectif actif (ex: Snayzy, Clément, Kyzen, Rad3on, Nxthan).
+            <strong>1. Comptes & Biographies X (Twitter) des Joueurs et des Clubs (Sources Primaires)</strong> : Tout joueur actif doit expressément mentionner le club (<span style="color: #c084fc;">@Club</span>) dans sa biographie officielle (ex: @Seekkfn mentionnant @HvKGGs). Tout joueur avec mention <em>« was pro »</em>, <em>« LFT »</em> ou <em>« Free Agent »</em> est immédiatement retiré de l'effectif actif (ex: Snayzy, Clément, Kyzen, Rad3on, Nxthan).
           </li>
           <li>
-            <strong>2. Médias Spécialisés et Journalistes Esport Indépendants</strong> : Veille active sur les canaux de référence de la scène francophone (notamment <a href="https://x.com/Revenja_" target="_blank" style="color: #38bdf8; text-decoration: none;">@Revenja_</a> et <a href="https://x.com/FortniteFraActu" target="_blank" style="color: #38bdf8; text-decoration: none;">@FortniteFraActu</a>) pour les annonces anticipées, transferts d'académies et prolongations officielles.
+            <strong>2. Décideurs / Staff des Clubs & Médias d'Actualité Esport</strong> : Suivi prioritaire des déclarations et confirmations directes des dirigeants et managers de sections, notamment <a href="https://x.com/Revenja_" target="_blank" style="color: #38bdf8; text-decoration: none;"><strong>@Revenja_</strong></a> (<strong>Head of Fortnite de Solary</strong>) dont les annonces de recrues (ex: signature de XZEEVIT) et prolongations font autorité absolue, complété par la veille continue de <a href="https://x.com/FortniteFraActu" target="_blank" style="color: #38bdf8; text-decoration: none;">@FortniteFraActu</a>.
           </li>
           <li>
-            <strong>3. Liquipedia Fortnite (Portal Europe & French Teams)</strong> : Validation encyclopédique des transferts, dates d'entrée et de sortie contractuelles, et fusions de structures (ex: rachat HavoK par Vitality).
+            <strong>3. Wikis Collaboratifs & Références Historiques (Liquipedia & Fandom Esports)</strong> : Consultation conjointe de <a href="https://liquipedia.net/fortnite/Category:French_Teams" target="_blank" style="color: #c084fc; text-decoration: none;">Liquipedia Fortnite</a> et de la <a href="https://fortnite-esports.fandom.com/wiki/Power_Rankings_-_Teams/PC/Europe" target="_blank" style="color: #c084fc; text-decoration: none;">Fortnite Esports Wiki Fandom (Team PR Europe)</a>. <em>Vigilance intégrité :</em> ces bases communautaires accusant parfois des retards d'actualisation ou des imprécisions de roster, elles sont systématiquement arbitrées par les sources primaires (bios X et annonces officielles).
           </li>
           <li>
-            <strong>4. Fortnite Tracker Power Ranking (PR)</strong> : Synchronisation des points officiels de tournois (FNCS, Cash Cups, Victory Cups) selon la période contractuelle exacte.
+            <strong>4. Fortnite Tracker Power Ranking (PR)</strong> : Synchronisation des points officiels de tournois (FNCS, Cash Cups, Victory Cups) selon la période contractuelle exacte, corrigée des éventuelles mauvaises attributions de Tracker via la règle d'or <em>« No Buying PR »</em>.
           </li>
         </ul>"""
 
 html_norm = html.replace('\r\n', '\n')
-target_reg_norm = target_reglement.replace('\r\n', '\n')
-replacement_reg_norm = replacement_reglement.replace('\r\n', '\n')
 
-if target_reg_norm in html_norm:
-    html = html_norm.replace(target_reg_norm, replacement_reg_norm)
+# Check if tab-reglement already has section 5 or not
+if '<h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">5. Protocole' in html_norm:
+    # replace from 4. Éligibilité down to </ul> in tab-reglement
+    idx_start = html_norm.find('<h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Éligibilité')
+    idx_end = html_norm.find('</ul>', idx_start) + len('</ul>')
+    html_norm = html_norm[:idx_start] + reglement_replacement.strip() + html_norm[idx_end:]
+    html = html_norm
+else:
+    target_reg_norm = target_reglement.replace('\r\n', '\n')
+    if target_reg_norm in html_norm:
+        html = html_norm.replace(target_reg_norm, reglement_replacement)
 
 with open(BASE_DIR / 'dashboard' / 'index.html', 'w', encoding='utf-8') as f:
     f.write(html)

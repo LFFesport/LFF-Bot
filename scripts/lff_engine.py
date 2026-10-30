@@ -198,19 +198,23 @@ Deux classements coexistent pour une visibilité totale :
 
 ---
 
-## 🔍 4. Protocole d'Intégrité Anti-Erreur & Veille Multi-Plateformes
-Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement sans faille, la veille et l'attribution reposent sur un **croisement quadruple et obligatoire** :
+## 🔍 4. Protocole d'Intégrité Anti-Erreur & Croisement Multi-Plateformes
+Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement sans faille, la veille et l'attribution reposent sur un **croisement systématique et obligatoire de sources primaires et secondaires** :
 
-1. **Bios X des Joueurs & Annonces Officielles des Clubs** :
-   - **Contrôle de la bio X** : Tout joueur crédité dans un club actif doit impérativement mentionner le `@Club` dans sa biographie X officielle (ex: `@Seekkfn` mentionnant `@HvKGGs`).
+1. **Bios X des Joueurs & Annonces Officielles des Clubs (Sources Primaires Directes)** :
+   - **Contrôle de la bio X** : Tout joueur crédité dans un club actif doit impérativement mentionner le club (`@Club`) dans sa biographie X officielle (ex: `@Seekkfn` mentionnant `@HvKGGs`).
    - **Détection des départs / FAs** : Exclusion immédiate de tout joueur dont la bio ou le profil indique un départ, le statut d'agent libre (*LFT*, *Free Agent*) ou l'arrêt de la compétition (*« was pro Fortnite »*, à l'image de Snayzy, Clément, Kyzen, Rad3on ou Nxthan).
-   - **Annonces officielles des clubs** : Veille directe sur les comptes des organisations (signatures, fusions de structures comme le rachat HavoK par Vitality le 25 avril 2026).
-2. **Médias Spécialisés & Journalistes Esport Indépendants** :
-   - Suivi et validation croisée via les comptes d'actualité et d'investigation de référence de l'écosystème francophone (`@Revenja_`, `@FortniteFraActu`).
-3. **Liquipedia Fortnite (`Portal:Teams/Europe` & `Category:French_Teams`)** :
-   - Validation encyclopédique de l'officialisation des contrats, fiches joueurs, fusions et dates formelles d'entrée/sortie.
-4. **Fortnite Tracker (`fortnitetracker.com/esports`)** :
-   - Extraction des scores de Power Ranking (PR) officiels et attribution des performances de tournois (FNCS, Cash Cups, Victory Cups).
+   - **Annonces officielles des clubs** : Veille directe sur les comptes officiels des organisations (signatures, départs, fusions de structures comme le rachat HavoK par Vitality le 25 avril 2026).
+2. **Staff & Décideurs de Clubs + Médias d'Actualité Spécialisés** :
+   - **Responsables & Head of Esports** : Suivi direct des déclarations et confirmations des dirigeants de sections, notamment **Revenja** ([`@Revenja_`](https://x.com/Revenja_)), **Head of Fortnite de Solary**, dont les annonces de signatures (ex: XZEEVIT) et de prolongations font autorité immédiate.
+   - **Médias spécialisés** : Veille d'actualité en continu sur les canaux francophones de référence ([`@FortniteFraActu`](https://x.com/FortniteFraActu)).
+3. **Wikis Collaboratifs & Historiques (Liquipedia & Fandom Esports)** :
+   - **Liquipedia Fortnite** (`Portal:Teams/Europe` & `Category:French_Teams`) : Suivi encyclopédique des transferts, dates d'officialisation et compositions d'équipes.
+   - **Fandom Esports Fortnite** ([`Power Rankings - Teams/PC/Europe`](https://fortnite-esports.fandom.com/wiki/Power_Rankings_-_Teams/PC/Europe)) : Base de référence historique pour les classements d'équipes et les règles d'attribution de points.
+   - *Clause de vigilance critique* : Les wikis et bases communautaires (Liquipedia, Fandom) peuvent comporter des retards de mise à jour, des oublis de purge ou des erreurs factuelles. Ils sont donc toujours confrontés aux sources primaires (bios X et annonces officielles).
+4. **Fortnite Tracker Power Ranking (PR)** :
+   - Extraction des scores de Power Ranking officiels et attribution des performances de tournois (FNCS, Cash Cups, Victory Cups).
+   - Correction systématique des éventuelles erreurs d'étiquetage d'équipes de Fortnite Tracker via l'application de la règle contractuelle LFF *« No Buying PR »*.
 
 ---
 
