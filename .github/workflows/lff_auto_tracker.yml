@@ -27,21 +27,21 @@ jobs:
       - name: 📦 Installation des dépendances
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ -f "LFF Scripts/requirements.txt" ]; then pip install -r "LFF Scripts/requirements.txt"; else pip install -r requirements.txt; fi
 
       - name: 📡 Veille Liquipedia & Synchronisation des Rosters
         run: |
-          python scripts/lff_transfer_tracker.py --sync
+          if [ -f "LFF Scripts/lff_transfer_tracker.py" ]; then python "LFF Scripts/lff_transfer_tracker.py" --sync; else python scripts/lff_transfer_tracker.py --sync; fi
 
       - name: 📊 Recalcul du Power Ranking & Export du Rapport
         run: |
-          python scripts/lff_engine.py --export
+          if [ -f "LFF Scripts/lff_engine.py" ]; then python "LFF Scripts/lff_engine.py" --export; else python scripts/lff_engine.py --export; fi
 
       - name: 💾 Sauvegarde automatique des données si nouveaux transferts
         run: |
           git config user.name "LFF-Bot[bot]"
           git config user.email "bot@lff-fortnite.fr"
-          git add data/ CLASSEMENT_LFF.md
+          git add "LFF Data/" "LFF Documentation/" "LFF Dashboard/" data/ CLASSEMENT_LFF.md 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Aucun nouveau transfert ou changement détecté."
           else

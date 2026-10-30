@@ -18,7 +18,12 @@ if sys.stdout.encoding.lower() != "utf-8":
         pass
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
+DATA_DIR = (BASE_DIR / "LFF Data") if (BASE_DIR / "LFF Data").exists() else (BASE_DIR / "data")
+DOCS_DIR = (BASE_DIR / "LFF Documentation") if (BASE_DIR / "LFF Documentation").exists() else BASE_DIR
+
+SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
 def load_json(filename):
     path = DATA_DIR / filename
@@ -236,7 +241,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
             md_content += f"- **Logo enregistré** : `{c['logo_path']}`\n"
         md_content += f"- **Description** : {c.get('description', '')}\n\n"
 
-    report_path = BASE_DIR / "CLASSEMENT_LFF.md"
+    report_path = DOCS_DIR / "CLASSEMENT_LFF.md"
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(md_content)
 

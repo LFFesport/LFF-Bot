@@ -2,17 +2,19 @@ import json
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = (BASE_DIR / "LFF Data") if (BASE_DIR / "LFF Data").exists() else (BASE_DIR / "data")
+DASHBOARD_DIR = (BASE_DIR / "LFF Dashboard") if (BASE_DIR / "LFF Dashboard").exists() else (BASE_DIR / "dashboard")
 
-with open(BASE_DIR / 'data' / 'clubs.json', 'r', encoding='utf-8') as f:
+with open(DATA_DIR / 'clubs.json', 'r', encoding='utf-8') as f:
     clubs_data = json.load(f)
 
-with open(BASE_DIR / 'data' / 'annual_rankings.json', 'r', encoding='utf-8') as f:
+with open(DATA_DIR / 'annual_rankings.json', 'r', encoding='utf-8') as f:
     annual_data = json.load(f)
 
-with open(BASE_DIR / 'data' / 'rosters.json', 'r', encoding='utf-8') as f:
+with open(DATA_DIR / 'rosters.json', 'r', encoding='utf-8') as f:
     rosters_data = json.load(f)
 
-with open(BASE_DIR / 'dashboard' / 'index.html', 'r', encoding='utf-8') as f:
+with open(DASHBOARD_DIR / 'index.html', 'r', encoding='utf-8') as f:
     html = f.read()
 
 # Build club_x_map
@@ -494,7 +496,7 @@ else:
     if target_reg_norm in html_norm:
         html = html_norm.replace(target_reg_norm, reglement_replacement)
 
-with open(BASE_DIR / 'dashboard' / 'index.html', 'w', encoding='utf-8') as f:
+with open(DASHBOARD_DIR / 'index.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
 print('Updated dashboard/index.html with interactive X profile links and anti-error protocol!')

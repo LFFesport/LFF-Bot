@@ -18,7 +18,7 @@ if sys.stdout.encoding.lower() != "utf-8":
         pass
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
+DATA_DIR = (BASE_DIR / "LFF Data") if (BASE_DIR / "LFF Data").exists() else (BASE_DIR / "data")
 
 def load_json(filename):
     path = DATA_DIR / filename
