@@ -22,7 +22,7 @@ Le but ultime est de décerner à la fin de chaque année civile le prestigieux 
 | **2022** | **Solary** | `SLY` | Floki, Clément, Chaussette... | Seule grande structure française à maintenir une présence continue en Grand Finals FNCS | Valiant |
 | **2023** | **Gentle Mates** | `M8` | Snayzy, PodaSai, Nikof (Manager / Head Coach) | Qualification et participation au FNCS Global Championship 2023 à Copenhague (Royal Arena) | Solary |
 | **2024** | **Karmine Corp** | `KC` | Malibuca (Vainqueur FNCS Major 1, star mondiale), Merstach (Vainqueur FNCS Major 1, star mondiale), Veno (Légende européenne)... | Roster galactique (Malibuca, Merstach, Veno, SwizzY) n°1 mondial au Team Power Ranking | Gentle Mates |
-| **2025** | **Gentle Mates** | `M8` | Merstach, Malibuca (selon périodes), Snayzy... | Récupération des cracks européens, constance au sommet des Majors et qualifications internationales | Solary |
+| **2025** | **Gentle Mates** | `M8` | Merstach, Malibuca (selon périodes), Snayzy... | Champion de France 2025, constance au sommet des Majors et qualifications internationales | Team HavoK |
 
 ---
 
@@ -69,6 +69,13 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 - **Liquipedia** : [Karmine Corp](https://liquipedia.net/fortnite/Karmine_Corp)
 - **Description** : Fondée par Kameto et Prime. Arrivée explosive sur Fortnite en mai 2024 avec Malibuca, Merstach, Veno, SwizzY et Oslo en coach, dominant le PR mondial en 2024.
 
+### HavoK by Vitality (`HvK`)
+- **Division / Tier** : Tier 1
+- **Statut** : Active
+- **Réseaux / Contact** : @hvkggs
+- **Liquipedia** : [HavoK by Vitality](https://liquipedia.net/fortnite/HavoK_by_Vitality)
+- **Description** : Créé le 28 août 2024 par ZetFar & WaZz (ex-Team HavoK), qualifié au Global Championship 2024 (Wox 5e mondial). Acquis le 25 avril 2026 par Team Vitality pour régner sur Fortnite.
+
 ### Solary (`SLY`)
 - **Division / Tier** : Tier 1
 - **Statut** : Active
@@ -78,10 +85,24 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 
 ### Team Vitality (`VIT`)
 - **Division / Tier** : Tier 1
-- **Statut** : Historical
+- **Statut** : Active (via HvK)
 - **Réseaux / Contact** : @TeamVitality
 - **Liquipedia** : [Team Vitality](https://liquipedia.net/fortnite/Team_Vitality)
-- **Description** : Club historique français (Gotaga, Robi, Mickalow, Airwaks, BadSniper, Oslo, Hawkers, Keolys, DRG). Très influent de 2018 à 2021.
+- **Description** : Club pionnier tricolore (Gotaga, Robi, Mickalow, BadSniper, Oslo, Hawkers, Keolys, DRG). De retour au premier plan mondial via le rachat de HavoK en 2026.
+
+### Team GO (GamersOrigin) (`GO`)
+- **Division / Tier** : Tier 1
+- **Statut** : Historical
+- **Réseaux / Contact** : @Team_GO
+- **Liquipedia** : [Team GO (GamersOrigin)](https://liquipedia.net/fortnite/Team_GO)
+- **Description** : Organisation majeure du sport électronique français. Très présente de 2018 à 2022 (Decyptos, Shaykos, M11Z, Lentille, Robabz, Clément).
+
+### GameWard (`GW`)
+- **Division / Tier** : Tier 1
+- **Statut** : Historical
+- **Réseaux / Contact** : @GameWardTeam
+- **Liquipedia** : [GameWard](https://liquipedia.net/fortnite/GameWard)
+- **Description** : Club francilien historique présent dès mars 2018. A révélé ou accueilli Nayte, Keolys, BadSniper, Snayzy, Shaax et Aarnax.
 
 ### LeStream Esport (`LST`)
 - **Division / Tier** : Tier 1
@@ -111,6 +132,48 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 - **Liquipedia** : [Grizi Esport](https://liquipedia.net/fortnite/Grizi_Esport)
 - **Description** : Fondé par Antoine et Théo Griezmann. Titré au FNCS Duos C2S2 (Nayte) et dominateur avec 4zr au sommet du PR européen en 2020-2021.
 
+### Zerance (`ZRC`)
+- **Division / Tier** : Tier 1
+- **Statut** : Active
+- **Réseaux / Contact** : @TeamZerance
+- **Liquipedia** : [Zerance](https://liquipedia.net/fortnite/Zerance)
+- **Description** : Club esport français fondé en 2022, actif sur Fortnite depuis juillet 2023. Tremplin compétitif majeur (Skydeun, EMXXRR, Vico).
+
+### Galions (`GLN`)
+- **Division / Tier** : Tier 1
+- **Statut** : Active
+- **Réseaux / Contact** : @Galions_
+- **Liquipedia** : [Galions](https://liquipedia.net/fortnite/Galions)
+- **Description** : Écurie parisienne lancée en décembre 2024 par Team GO et Sixen, signant les champions tricolores Clément et Kyzen pour conquérir les FNCS.
+
+### Team LDLC (LDLC OL) (`LDLC`)
+- **Division / Tier** : Tier 2
+- **Statut** : Historical
+- **Réseaux / Contact** : @LDLC_OL
+- **Liquipedia** : [Team LDLC (LDLC OL)](https://liquipedia.net/fortnite/Team_LDLC)
+- **Description** : Institution historique de l'esport français. Présente dès juin 2018 sur Fortnite (Djoe, Maylee, Ovni, Sops, Khuna, Seth).
+
+### Millenium (`M`)
+- **Division / Tier** : Tier 1
+- **Statut** : Historical
+- **Réseaux / Contact** : @Millenium
+- **Liquipedia** : [Millenium](https://liquipedia.net/fortnite/Millenium)
+- **Description** : Pionnier absolu en février 2018. Équipe légendaire avec Teeqzy (record du monde de 43 kills), NokSs, Robi et Mickalow.
+
+### Supremacy (`Sy`)
+- **Division / Tier** : Tier 2
+- **Statut** : Historical
+- **Réseaux / Contact** : @Supremacy_FR
+- **Liquipedia** : [Supremacy](https://liquipedia.net/fortnite/Supremacy)
+- **Description** : Écurie pionnière dès mars 2018 avec Vato, Skite, Maxalibur et Kyuubi. Berceau de futures stars internationales.
+
+### Oserv Esport (`OSV`)
+- **Division / Tier** : Tier 2
+- **Statut** : Historical
+- **Réseaux / Contact** : @OservEsport
+- **Liquipedia** : [Oserv Esport](https://liquipedia.net/fortnite/Oserv_Esport)
+- **Description** : Club précurseur en 2018 (Skite, MawkS, Nyx, Deadra, Blaxou). Vainqueurs et podiums sur les premières LANs de l'hexagone.
+
 ### Valiant (`VLT`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
@@ -133,6 +196,34 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 - **Liquipedia** : [Team BSK](https://liquipedia.net/fortnite/BSK_Esport)
 - **Logo enregistré** : `LFF Clubs/Logo BSK (fond vide).png`
 - **Description** : Structure francophone (Besançon) très dynamique sur la scène compétitive et la formation de pépites Fortnite.
+
+### Lyost Esport (`LYO`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Réseaux / Contact** : @lyost_esport
+- **Liquipedia** : [Lyost Esport](https://liquipedia.net/fortnite/Lyost_Esport)
+- **Description** : Organisation marseillaise créée en janvier 2021, organisatrice de la Massilia Cup et formatrice de talents du Sud.
+
+### Exalty (`EXL`)
+- **Division / Tier** : Tier 2
+- **Statut** : Historical
+- **Réseaux / Contact** : @Exalty_FR
+- **Liquipedia** : [Exalty](https://liquipedia.net/fortnite/Exalty)
+- **Description** : Club toulousain fondé en janvier 2018. A révélé Falconly, Robabz et Artskill sur le circuit des LANs françaises.
+
+### BK ROG Esports (`BKR`)
+- **Division / Tier** : Tier 2
+- **Statut** : Historical
+- **Réseaux / Contact** : @BKROGEsports
+- **Liquipedia** : [BK ROG Esports](https://liquipedia.net/fortnite/BK_ROG_Esports)
+- **Description** : Structure française issue de la fusion ASUS ROG, engagée sur plusieurs saisons FNCS.
+
+### Lunary (`LNY`)
+- **Division / Tier** : Tier 2
+- **Statut** : Historical
+- **Réseaux / Contact** : @SolaryTV
+- **Liquipedia** : [Lunary](https://liquipedia.net/fortnite/Lunary)
+- **Description** : L'équipe sœur de Solary (Jbzz, Chap, Taipouz, MZ, Airwaks), mythique dans les LANs 2018-2019.
 
 ### Team Fake (`FAKE`)
 - **Division / Tier** : Tier 2

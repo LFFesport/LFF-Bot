@@ -120,11 +120,13 @@ def is_french_related(transfer, clubs_list):
     """
     french_org_aliases = [
         "gentle mates", "karmine corp", "solary", "vitality", "team vitality",
-        "mces", "trainhard", "trainhard esport", "grizi esport", "grizi",
-        "lestream", "lestream esport", "valiant", "reality zone", "team bsk", "bsk esport",
-        "team fake", "fake", "aten", "aten esport", "jupitar", "jupitar esport",
-        "odious", "odious esport", "pap's", "paps esport", "gamersorigin", "team go",
-        "bk rog", "bk rog esports", "gameward", "zerance"
+        "havok", "team havok", "havok by vitality", "hvk", "mces", "trainhard",
+        "trainhard esport", "grizi esport", "grizi", "lestream", "lestream esport",
+        "valiant", "reality zone", "team bsk", "bsk esport", "galions", "zerance",
+        "team ldlc", "ldlc", "ldlc ol", "millenium", "supremacy", "oserv", "oserv esport",
+        "lyost", "lyost esport", "exalty", "gamersorigin", "team go", "bk rog",
+        "bk rog esports", "gameward", "team fake", "fake", "aten", "aten esport",
+        "jupitar", "jupitar esport", "odious", "odious esport", "pap's", "paps esport"
     ]
 
     for c in clubs_list:

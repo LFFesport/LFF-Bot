@@ -1,150 +1,1650 @@
 {
   "2018": {
-    "title": "Saison 2018 — L'ère des Skirmishes",
+    "title": "Saison 2018 — L'ère des Skirmishes & l'Avènement Solary",
     "description": "Première année compétitive de Fortnite. Solary et Kinstaar dominent outrageusement l'Europe lors des Summer et Fall Skirmishes, avant l'exploit de Skite (LeStream) au Winter Royale.",
+    "champion": "Solary",
     "clubs": [
-      { "rank": 1, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 82000, "roster": ["Kinstaar", "Hunter", "mzXXD", "Nikof", "Airwaks"], "notable": "Domination Summer/Fall Skirmish" },
-      { "rank": 2, "id": "lestream", "name": "LeStream Esport", "tag": "LST", "tier": "Tier 1", "points": 58000, "roster": ["Skite", "Vato", "TheVic"], "notable": "Skite vainqueur Winter Royale Solo ($75k)" },
-      { "rank": 3, "id": "vitality", "name": "Team Vitality", "tag": "VIT", "tier": "Tier 1", "points": 46000, "roster": ["Gotaga", "Mickalow", "Robi", "Airwaks", "Teeqzy"], "notable": "Top LANs françaises et Skirmish" },
-      { "rank": 4, "id": "oserv", "name": "Oserv Esport", "tag": "OSV", "tier": "Tier 2", "points": 32000, "roster": ["M11Z", "Deadra", "Blaxou"], "notable": "Finalistes réguliers en Skirmish" },
-      { "rank": 5, "id": "lunary", "name": "Lunary", "tag": "LNY", "tier": "Tier 2", "points": 24000, "roster": ["Jbzz", "Chap", "Taipouz"], "notable": "Podiums LANs francophones" },
-      { "rank": 6, "id": "supremacy", "name": "Supremacy", "tag": "Sy", "tier": "Tier 2", "points": 21000, "roster": ["Nayte", "Keolys", "BadSniper"], "notable": "Révélation des futurs cracks mondiaux" },
-      { "rank": 7, "id": "gamersorigin", "name": "GamersOrigin", "tag": "GO", "tier": "Tier 2", "points": 18000, "roster": ["M1key", "Lentille"], "notable": "Finalistes tournois EU" },
-      { "rank": 8, "id": "mces", "name": "Team MCES", "tag": "MCES", "tier": "Tier 1", "points": 15000, "roster": ["Andilex", "Orkh", "Flyzer"], "notable": "Création de la section marseillaise" },
-      { "rank": 9, "id": "millenium", "name": "Millenium", "tag": "M", "tier": "Tier 2", "points": 12000, "roster": ["Teq", "Maxal", "Teeqzy"], "notable": "Présence historique LANs" },
-      { "rank": 10, "id": "3dmax", "name": "3DMAX", "tag": "3D", "tier": "Tier 2", "points": 9500, "roster": ["Xsweeze", "Kouto"], "notable": "Débuts prometteurs" }
+      {
+        "rank": 1,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 82000,
+        "roster": [
+          "Kinstaar",
+          "Hunter",
+          "mzXXD",
+          "Nikof",
+          "Airwaks"
+        ],
+        "notable": "Domination Summer & Fall Skirmishes"
+      },
+      {
+        "rank": 2,
+        "id": "lestream",
+        "name": "LeStream Esport",
+        "tag": "LST",
+        "tier": "Tier 1",
+        "points": 58000,
+        "roster": [
+          "Skite",
+          "Vato",
+          "TheVic"
+        ],
+        "notable": "Skite vainqueur Winter Royale Solo ( 000)"
+      },
+      {
+        "rank": 3,
+        "id": "vitality",
+        "name": "Team Vitality",
+        "tag": "VIT",
+        "tier": "Tier 1",
+        "points": 46000,
+        "roster": [
+          "Gotaga",
+          "Mickalow",
+          "Robi",
+          "Airwaks",
+          "Teeqzy"
+        ],
+        "notable": "Podiums LANs françaises et Skirmishes"
+      },
+      {
+        "rank": 4,
+        "id": "oserv",
+        "name": "Oserv Esport",
+        "tag": "OSV",
+        "tier": "Tier 2",
+        "points": 32000,
+        "roster": [
+          "Skite",
+          "MawkS",
+          "Nyx",
+          "Deadra",
+          "Blaxou"
+        ],
+        "notable": "Finalistes réguliers en Skirmishes"
+      },
+      {
+        "rank": 5,
+        "id": "lunary",
+        "name": "Lunary",
+        "tag": "LNY",
+        "tier": "Tier 2",
+        "points": 24000,
+        "roster": [
+          "Jbzz",
+          "Chap",
+          "Taipouz",
+          "MZ"
+        ],
+        "notable": "Podiums LANs francophones"
+      },
+      {
+        "rank": 6,
+        "id": "supremacy",
+        "name": "Supremacy",
+        "tag": "Sy",
+        "tier": "Tier 2",
+        "points": 21000,
+        "roster": [
+          "Vato",
+          "Skite",
+          "Maxalibur",
+          "Kyuubi"
+        ],
+        "notable": "Révélation des futurs cracks mondiaux"
+      },
+      {
+        "rank": 7,
+        "id": "team-go",
+        "name": "Team GO (GamersOrigin)",
+        "tag": "GO",
+        "tier": "Tier 2",
+        "points": 18000,
+        "roster": [
+          "M1key",
+          "Lentille"
+        ],
+        "notable": "Finalistes tournois EU"
+      },
+      {
+        "rank": 8,
+        "id": "mces",
+        "name": "Team MCES",
+        "tag": "MCES",
+        "tier": "Tier 1",
+        "points": 15000,
+        "roster": [
+          "Andilex",
+          "Orkh",
+          "Flyzer"
+        ],
+        "notable": "Création de la section esport marseillaise"
+      },
+      {
+        "rank": 9,
+        "id": "millenium",
+        "name": "Millenium",
+        "tag": "M",
+        "tier": "Tier 1",
+        "points": 14000,
+        "roster": [
+          "Teeqzy (Record 43 kills)",
+          "NokSs",
+          "Robi",
+          "Mickalow"
+        ],
+        "notable": "Pionnier absolu de la scène FR"
+      },
+      {
+        "rank": 10,
+        "id": "exalty",
+        "name": "Exalty",
+        "tag": "EXL",
+        "tier": "Tier 2",
+        "points": 11000,
+        "roster": [
+          "Falconly",
+          "Robabz",
+          "Artskill"
+        ],
+        "notable": "Débuts de la jeune garde toulousaine"
+      },
+      {
+        "rank": 11,
+        "id": "team-ldlc",
+        "name": "Team LDLC (LDLC OL)",
+        "tag": "LDLC",
+        "tier": "Tier 2",
+        "points": 9500,
+        "roster": [
+          "Djoe",
+          "Maylee",
+          "Ovni",
+          "Sops"
+        ],
+        "notable": "Entrée sur Fortnite en juin 2018"
+      },
+      {
+        "rank": 12,
+        "id": "gameward",
+        "name": "GameWard",
+        "tag": "GW",
+        "tier": "Tier 2",
+        "points": 8000,
+        "roster": [
+          "Nayte",
+          "Keolys",
+          "Aarnax"
+        ],
+        "notable": "Présence dès mars 2018"
+      }
     ]
   },
   "2019": {
-    "title": "Saison 2019 — La World Cup de New York & Débuts FNCS",
-    "description": "L'apogée internationale de LeStream Esport grâce au double Top 10 mondial historique de Skite à New York. Solary qualifie plusieurs joueurs en solo et duo.",
+    "title": "Saison 2019 — La Fortnite World Cup (New York) & Débuts FNCS",
+    "description": "L'apogée internationale de LeStream Esport grâce au double Top 10 mondial historique de Skite à New York (7e Solo, 10e Duo). Solary et Vitality brillent également à New York.",
+    "champion": "LeStream Esport",
     "clubs": [
-      { "rank": 1, "id": "lestream", "name": "LeStream Esport", "tag": "LST", "tier": "Tier 1", "points": 115000, "roster": ["Skite", "Vato", "TheVic", "Boyer"], "notable": "Skite 7e Solo et 10e Duo World Cup NYC ($750k+)" },
-      { "rank": 2, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 98000, "roster": ["Kinstaar", "Hunter", "Nikof", "Airwaks", "Magifection"], "notable": "Kinstaar 26e Solo, Hunter & Kinstaar 23e Duo World Cup" },
-      { "rank": 3, "id": "vitality", "name": "Team Vitality", "tag": "VIT", "tier": "Tier 1", "points": 78000, "roster": ["BadSniper", "Oslo", "Hawkers", "Keolys", "DRG"], "notable": "BadSniper & Oslo 11e Duo World Cup NYC ($100k)" },
-      { "rank": 4, "id": "mces", "name": "Team MCES", "tag": "MCES", "tier": "Tier 1", "points": 65000, "roster": ["Andilex", "Xsweeze", "Kouto", "PodaSai", "Flyzer"], "notable": "Montée en puissance fulgurante en FNCS Trios" },
-      { "rank": 5, "id": "gamersorigin", "name": "GamersOrigin", "tag": "GO", "tier": "Tier 2", "points": 48000, "roster": ["Decyptos", "M1key", "Lentille", "Robabz"], "notable": "Finalistes FNCS Saison X Trios" },
-      { "rank": 6, "id": "trainhard", "name": "TrainHard eSport", "tag": "TH", "tier": "Tier 1", "points": 42000, "roster": ["BlastR", "Alpha", "Yags"], "notable": "Formation du futur trio d'élite" },
-      { "rank": 7, "id": "ora-esport", "name": "ORA Esport", "tag": "ORA", "tier": "Tier 2", "points": 34000, "roster": ["Falconly", "Keoz", "Nyox"], "notable": "Révélation de Falconly au niveau EU" },
-      { "rank": 8, "id": "grizi", "name": "Grizi Esport", "tag": "GRIZI", "tier": "Tier 1", "points": 28000, "roster": ["Nayte", "4zr"], "notable": "Nayte 8e Solo World Cup, signature Grizi fin 2019" },
-      { "rank": 9, "id": "team-ldlc", "name": "Team LDLC", "tag": "LDLC", "tier": "Tier 2", "points": 22000, "roster": ["Seth", "Spk", "Kyuubi"], "notable": "Régularité open qualifiers" },
-      { "rank": 10, "id": "gameward", "name": "GameWard", "tag": "GW", "tier": "Tier 2", "points": 14000, "roster": ["Kaido", "Strik"], "notable": "Finalistes Heats FNCS Trios" }
+      {
+        "rank": 1,
+        "id": "lestream",
+        "name": "LeStream Esport",
+        "tag": "LST",
+        "tier": "Tier 1",
+        "points": 115000,
+        "roster": [
+          "Skite",
+          "Vato",
+          "TheVic",
+          "Boyer"
+        ],
+        "notable": "Skite 7e Solo & 10e Duo World Cup NYC (+)"
+      },
+      {
+        "rank": 2,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 98000,
+        "roster": [
+          "Kinstaar",
+          "Hunter",
+          "Nikof",
+          "Airwaks",
+          "Magifection"
+        ],
+        "notable": "Kinstaar 26e Solo, Hunter & Kinstaar 23e Duo World Cup"
+      },
+      {
+        "rank": 3,
+        "id": "vitality",
+        "name": "Team Vitality",
+        "tag": "VIT",
+        "tier": "Tier 1",
+        "points": 78000,
+        "roster": [
+          "BadSniper",
+          "Oslo",
+          "Hawkers",
+          "Keolys",
+          "DRG"
+        ],
+        "notable": "BadSniper & Oslo 11e Duo World Cup NYC ()"
+      },
+      {
+        "rank": 4,
+        "id": "mces",
+        "name": "Team MCES",
+        "tag": "MCES",
+        "tier": "Tier 1",
+        "points": 65000,
+        "roster": [
+          "Andilex",
+          "Xsweeze",
+          "Kouto",
+          "PodaSai",
+          "Flyzer"
+        ],
+        "notable": "Montée en puissance fulgurante en FNCS Trios"
+      },
+      {
+        "rank": 5,
+        "id": "team-go",
+        "name": "Team GO (GamersOrigin)",
+        "tag": "GO",
+        "tier": "Tier 1",
+        "points": 48000,
+        "roster": [
+          "Decyptos",
+          "M1key",
+          "Lentille",
+          "Robabz"
+        ],
+        "notable": "Finalistes FNCS Saison X Trios"
+      },
+      {
+        "rank": 6,
+        "id": "trainhard",
+        "name": "TrainHard eSport",
+        "tag": "TH",
+        "tier": "Tier 1",
+        "points": 42000,
+        "roster": [
+          "BlastR",
+          "Alpha",
+          "Yags"
+        ],
+        "notable": "Formation du trio d'élite"
+      },
+      {
+        "rank": 7,
+        "id": "grizi",
+        "name": "Grizi Esport",
+        "tag": "GRIZI",
+        "tier": "Tier 1",
+        "points": 32000,
+        "roster": [
+          "Nayte (8e World Cup)",
+          "4zr"
+        ],
+        "notable": "Signature de Nayte fin 2019"
+      },
+      {
+        "rank": 8,
+        "id": "team-ldlc",
+        "name": "Team LDLC",
+        "tag": "LDLC",
+        "tier": "Tier 2",
+        "points": 24000,
+        "roster": [
+          "Seth",
+          "Spk",
+          "Kyuubi"
+        ],
+        "notable": "Régularité open qualifiers"
+      },
+      {
+        "rank": 9,
+        "id": "gameward",
+        "name": "GameWard",
+        "tag": "GW",
+        "tier": "Tier 2",
+        "points": 18000,
+        "roster": [
+          "Kaido",
+          "Strik",
+          "Shaax"
+        ],
+        "notable": "Finalistes Heats FNCS Trios"
+      },
+      {
+        "rank": 10,
+        "id": "exalty",
+        "name": "Exalty",
+        "tag": "EXL",
+        "tier": "Tier 2",
+        "points": 15000,
+        "roster": [
+          "Falconly",
+          "Artskill"
+        ],
+        "notable": "Qualification Heats Saison X"
+      },
+      {
+        "rank": 11,
+        "id": "supremacy",
+        "name": "Supremacy",
+        "tag": "Sy",
+        "tier": "Tier 2",
+        "points": 12000,
+        "roster": [
+          "Maxalibur",
+          "Kyuubi"
+        ],
+        "notable": "Présence continue sur le circuit"
+      }
     ]
   },
   "2020": {
     "title": "Saison 2020 — Le Sacre Européen de Team MCES",
     "description": "L'âge d'or Chapitre 2. Andilex est sacré n°1 au Power Ranking Européen sur Fortnite Tracker et remporte le FNCS Duos avec Nayte (Grizi Esport).",
+    "champion": "Team MCES",
     "clubs": [
-      { "rank": 1, "id": "mces", "name": "Team MCES", "tag": "MCES", "tier": "Tier 1", "points": 145000, "roster": ["Andilex", "Xsweeze", "PodaSai", "Kouto"], "notable": "Andilex #1 PR Europe, Champion FNCS Duos C2S2" },
-      { "rank": 2, "id": "grizi", "name": "Grizi Esport", "tag": "GRIZI", "tier": "Tier 1", "points": 128000, "roster": ["Nayte", "4zr", "Bresil"], "notable": "Nayte Champion FNCS Duos C2S2, 4zr dominant en FNCS" },
-      { "rank": 3, "id": "trainhard", "name": "TrainHard eSport", "tag": "TH", "tier": "Tier 1", "points": 112000, "roster": ["BlastR", "Alpha", "Yags", "Falconly", "Kyzen"], "notable": "Podiums FNCS et Cash Cups EU" },
-      { "rank": 4, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 98000, "roster": ["Nikof", "Floki", "Clément", "DRG", "Decyptos"], "notable": "Floki & Clément au sommet des FNCS Duos" },
-      { "rank": 5, "id": "vitality", "name": "Team Vitality", "tag": "VIT", "tier": "Tier 1", "points": 74000, "roster": ["BadSniper", "Oslo", "Hawkers"], "notable": "Finalistes FNCS Invitational et C2S4" },
-      { "rank": 6, "id": "team-go", "name": "Team GO (GamersOrigin)", "tag": "GO", "tier": "Tier 2", "points": 58000, "roster": ["Decyptos", "M1key", "Lentille"], "notable": "Performances constantes en Grand Finals" },
-      { "rank": 7, "id": "gameward", "name": "GameWard", "tag": "GW", "tier": "Tier 2", "points": 46000, "roster": ["Snayzy", "Shaax", "Kaido"], "notable": "Snayzy explose au plus haut niveau EU" },
-      { "rank": 8, "id": "bk-rog", "name": "BK ROG Esports", "tag": "BKR", "tier": "Tier 2", "points": 38000, "roster": ["Shad", "Skyro", "Keoz"], "notable": "Finalistes FNCS Heats" },
-      { "rank": 9, "id": "valiant", "name": "Valiant", "tag": "VLT", "tier": "Tier 2", "points": 28000, "roster": ["Kyzen", "Velo"], "notable": "Entrée active sur la scène française" },
-      { "rank": 10, "id": "team-bsk", "name": "Team BSK", "tag": "BSK", "tier": "Tier 2", "points": 22000, "roster": ["BSK Rayan", "BSK Aero"], "notable": "Révélation des tournois sub-top et open" },
-      { "rank": 11, "id": "reality-zone", "name": "Reality Zone (RZ)", "tag": "RZ", "tier": "Tier 2", "points": 18000, "roster": ["RZ Phoenix", "RZ Kev"], "notable": "Leader du circuit tournois console et open" }
+      {
+        "rank": 1,
+        "id": "mces",
+        "name": "Team MCES",
+        "tag": "MCES",
+        "tier": "Tier 1",
+        "points": 145000,
+        "roster": [
+          "Andilex",
+          "Xsweeze",
+          "PodaSai",
+          "Kouto"
+        ],
+        "notable": "Andilex #1 PR Europe, Champion FNCS Duos C2S2"
+      },
+      {
+        "rank": 2,
+        "id": "grizi",
+        "name": "Grizi Esport",
+        "tag": "GRIZI",
+        "tier": "Tier 1",
+        "points": 128000,
+        "roster": [
+          "Nayte",
+          "4zr",
+          "Bresil"
+        ],
+        "notable": "Nayte Champion FNCS Duos C2S2, 4zr dominant"
+      },
+      {
+        "rank": 3,
+        "id": "trainhard",
+        "name": "TrainHard eSport",
+        "tag": "TH",
+        "tier": "Tier 1",
+        "points": 112000,
+        "roster": [
+          "BlastR",
+          "Alpha",
+          "Yags",
+          "Falconly",
+          "Kyzen"
+        ],
+        "notable": "Podiums FNCS et Cash Cups EU"
+      },
+      {
+        "rank": 4,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 98000,
+        "roster": [
+          "Nikof",
+          "Floki",
+          "Clément",
+          "DRG",
+          "Decyptos"
+        ],
+        "notable": "Floki & Clément au sommet des FNCS Duos"
+      },
+      {
+        "rank": 5,
+        "id": "vitality",
+        "name": "Team Vitality",
+        "tag": "VIT",
+        "tier": "Tier 1",
+        "points": 74000,
+        "roster": [
+          "BadSniper",
+          "Oslo",
+          "Hawkers"
+        ],
+        "notable": "Finalistes FNCS Invitational et C2S4"
+      },
+      {
+        "rank": 6,
+        "id": "team-go",
+        "name": "Team GO (GamersOrigin)",
+        "tag": "GO",
+        "tier": "Tier 1",
+        "points": 58000,
+        "roster": [
+          "Decyptos",
+          "M1key",
+          "Lentille"
+        ],
+        "notable": "Performances constantes en Grand Finals"
+      },
+      {
+        "rank": 7,
+        "id": "gameward",
+        "name": "GameWard",
+        "tag": "GW",
+        "tier": "Tier 2",
+        "points": 46000,
+        "roster": [
+          "Snayzy",
+          "Shaax",
+          "Kaido"
+        ],
+        "notable": "Snayzy explose au plus haut niveau EU"
+      },
+      {
+        "rank": 8,
+        "id": "bk-rog",
+        "name": "BK ROG Esports",
+        "tag": "BKR",
+        "tier": "Tier 2",
+        "points": 38000,
+        "roster": [
+          "Shad",
+          "Skyro",
+          "Keoz"
+        ],
+        "notable": "Finalistes FNCS Heats"
+      },
+      {
+        "rank": 9,
+        "id": "valiant",
+        "name": "Valiant",
+        "tag": "VLT",
+        "tier": "Tier 2",
+        "points": 28000,
+        "roster": [
+          "Kyzen",
+          "Velo"
+        ],
+        "notable": "Entrée active sur la scène française"
+      },
+      {
+        "rank": 10,
+        "id": "team-bsk",
+        "name": "Team BSK",
+        "tag": "BSK",
+        "tier": "Tier 2",
+        "points": 22000,
+        "roster": [
+          "BSK Rayan",
+          "BSK Aero"
+        ],
+        "notable": "Révélation des tournois sub-top"
+      },
+      {
+        "rank": 11,
+        "id": "reality-zone",
+        "name": "Reality Zone (RZ)",
+        "tag": "RZ",
+        "tier": "Tier 2",
+        "points": 18000,
+        "roster": [
+          "RZ Phoenix",
+          "RZ Kev"
+        ],
+        "notable": "Leader tournois console et open"
+      },
+      {
+        "rank": 12,
+        "id": "exalty",
+        "name": "Exalty",
+        "tag": "EXL",
+        "tier": "Tier 2",
+        "points": 14000,
+        "roster": [
+          "Falconly",
+          "Artskill"
+        ],
+        "notable": "Transition avant départ des joueurs"
+      }
     ]
   },
   "2021": {
     "title": "Saison 2021 — L'Armada TrainHard en Trios FNCS",
-    "description": "L'année des 4 saisons de Trios FNCS et du FNCS Grand Royale. TrainHard eSport réalise une moisson de points record grâce à son trio Falconly, BlastR et Alpha.",
+    "description": "L'année des 4 saisons de Trios FNCS et du FNCS Grand Royale. TrainHard eSport réalise une moisson record de points PR grâce au trio Falconly, BlastR et Alpha.",
+    "champion": "TrainHard eSport",
     "clubs": [
-      { "rank": 1, "id": "trainhard", "name": "TrainHard eSport", "tag": "TH", "tier": "Tier 1", "points": 162000, "roster": ["Falconly", "BlastR", "Alpha", "Yags", "Kyzen"], "notable": "Densité record de points PR en Trios FNCS" },
-      { "rank": 2, "id": "grizi", "name": "Grizi Esport", "tag": "GRIZI", "tier": "Tier 1", "points": 138000, "roster": ["4zr", "Nayte"], "notable": "4zr Champion FNCS Trios C2S8 avec TaySon & Chapix" },
-      { "rank": 3, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 115000, "roster": ["Floki", "Clément", "Decyptos", "Nikof"], "notable": "Trio Floki, Clément, Decyptos abonnés aux finales" },
-      { "rank": 4, "id": "mces", "name": "Team MCES", "tag": "MCES", "tier": "Tier 1", "points": 88000, "roster": ["Andilex", "PodaSai", "Xsweeze"], "notable": "Andilex & Xsweeze toujours dans l'élite EU" },
-      { "rank": 5, "id": "vitality", "name": "Team Vitality", "tag": "VIT", "tier": "Tier 1", "points": 62000, "roster": ["BadSniper", "Oslo", "Strik"], "notable": "Dernières finales FNCS de la structure" },
-      { "rank": 6, "id": "valiant", "name": "Valiant", "tag": "VLT", "tier": "Tier 2", "points": 48000, "roster": ["Velo", "Skyro", "Shay"], "notable": "Multiples qualifications Round 4 FNCS" },
-      { "rank": 7, "id": "reality-zone", "name": "Reality Zone (RZ)", "tag": "RZ", "tier": "Tier 2", "points": 42000, "roster": ["RZ Phoenix", "RZ Kev", "RZ Zeek"], "notable": "Présence constante en Heats et Cash Cups" },
-      { "rank": 8, "id": "gameward", "name": "GameWard", "tag": "GW", "tier": "Tier 2", "points": 38000, "roster": ["Snayzy", "Shaax"], "notable": "Snayzy confirme son statut de top player" },
-      { "rank": 9, "id": "team-bsk", "name": "Team BSK", "tag": "BSK", "tier": "Tier 2", "points": 27000, "roster": ["BSK Rayan", "BSK Aero"], "notable": "Top régulier Cash Cups francophones" },
-      { "rank": 10, "id": "aten-esport", "name": "Aten eSport", "tag": "ATEN", "tier": "Tier 2", "points": 21000, "roster": ["ATEN Raptor", "ATEN Nox"], "notable": "Création du club et premières perfs" },
-      { "rank": 11, "id": "jupitar-esport", "name": "Jupitar Esport", "tag": "JUP", "tier": "Tier 2", "points": 16000, "roster": ["JUP Nova", "JUP Sly"], "notable": "Émergence sur le circuit sub-top" }
+      {
+        "rank": 1,
+        "id": "trainhard",
+        "name": "TrainHard eSport",
+        "tag": "TH",
+        "tier": "Tier 1",
+        "points": 162000,
+        "roster": [
+          "Falconly",
+          "BlastR",
+          "Alpha",
+          "Yags",
+          "Kyzen"
+        ],
+        "notable": "Densité record de points PR en Trios FNCS"
+      },
+      {
+        "rank": 2,
+        "id": "grizi",
+        "name": "Grizi Esport",
+        "tag": "GRIZI",
+        "tier": "Tier 1",
+        "points": 138000,
+        "roster": [
+          "4zr",
+          "Nayte"
+        ],
+        "notable": "4zr Champion FNCS Trios C2S8 avec TaySon & Chapix"
+      },
+      {
+        "rank": 3,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 115000,
+        "roster": [
+          "Floki",
+          "Clément",
+          "Decyptos",
+          "Nikof"
+        ],
+        "notable": "Trio Floki, Clément, Decyptos abonnés aux finales"
+      },
+      {
+        "rank": 4,
+        "id": "mces",
+        "name": "Team MCES",
+        "tag": "MCES",
+        "tier": "Tier 1",
+        "points": 88000,
+        "roster": [
+          "Andilex",
+          "PodaSai",
+          "Xsweeze"
+        ],
+        "notable": "Andilex & Xsweeze toujours dans l'élite EU"
+      },
+      {
+        "rank": 5,
+        "id": "team-go",
+        "name": "Team GO (GamersOrigin)",
+        "tag": "GO",
+        "tier": "Tier 1",
+        "points": 74000,
+        "roster": [
+          "Decyptos",
+          "Shaykos",
+          "M11Z"
+        ],
+        "notable": "Grand Finals FNCS régulières"
+      },
+      {
+        "rank": 6,
+        "id": "vitality",
+        "name": "Team Vitality",
+        "tag": "VIT",
+        "tier": "Tier 1",
+        "points": 62000,
+        "roster": [
+          "BadSniper",
+          "Oslo",
+          "Strik"
+        ],
+        "notable": "Dernières finales FNCS de la structure"
+      },
+      {
+        "rank": 7,
+        "id": "valiant",
+        "name": "Valiant",
+        "tag": "VLT",
+        "tier": "Tier 2",
+        "points": 48000,
+        "roster": [
+          "Velo",
+          "Skyro",
+          "Shay"
+        ],
+        "notable": "Multiples qualifications Round 4 FNCS"
+      },
+      {
+        "rank": 8,
+        "id": "reality-zone",
+        "name": "Reality Zone (RZ)",
+        "tag": "RZ",
+        "tier": "Tier 2",
+        "points": 42000,
+        "roster": [
+          "RZ Phoenix",
+          "RZ Kev",
+          "RZ Zeek"
+        ],
+        "notable": "Présence constante en Heats et Cash Cups"
+      },
+      {
+        "rank": 9,
+        "id": "gameward",
+        "name": "GameWard",
+        "tag": "GW",
+        "tier": "Tier 2",
+        "points": 38000,
+        "roster": [
+          "Snayzy",
+          "Shaax"
+        ],
+        "notable": "Snayzy confirme son statut de top player"
+      },
+      {
+        "rank": 10,
+        "id": "team-bsk",
+        "name": "Team BSK",
+        "tag": "BSK",
+        "tier": "Tier 2",
+        "points": 27000,
+        "roster": [
+          "BSK Rayan",
+          "BSK Aero"
+        ],
+        "notable": "Top régulier Cash Cups francophones"
+      },
+      {
+        "rank": 11,
+        "id": "lyost-esport",
+        "name": "Lyost Esport",
+        "tag": "LYO",
+        "tier": "Tier 2",
+        "points": 23000,
+        "roster": [
+          "Lyost_Kyz",
+          "Lyost_Storm"
+        ],
+        "notable": "Création en janvier 2021 et débuts prometteurs"
+      },
+      {
+        "rank": 12,
+        "id": "aten-esport",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "tier": "Tier 2",
+        "points": 21000,
+        "roster": [
+          "ATEN Raptor",
+          "ATEN Nox"
+        ],
+        "notable": "Création du club et premières perfs"
+      },
+      {
+        "rank": 13,
+        "id": "jupitar-esport",
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "tier": "Tier 2",
+        "points": 16000,
+        "roster": [
+          "JUP Nova",
+          "JUP Sly"
+        ],
+        "notable": "Émergence sur le circuit sub-top"
+      }
     ]
   },
   "2022": {
     "title": "Saison 2022 — Le Bastion Inébranlable Solary",
     "description": "Transition vers le Chapitre 3 et retour des Duos. Alors que TrainHard et Grizi ferment leurs portes, Solary porte l'esport tricolore et lance le futur crack Vico.",
+    "champion": "Solary",
     "clubs": [
-      { "rank": 1, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 124000, "roster": ["Floki", "Clément", "Chaussette", "BlastR", "Vico"], "notable": "Seul grand club FR en continu en Grand Finals FNCS" },
-      { "rank": 2, "id": "valiant", "name": "Valiant", "tag": "VLT", "tier": "Tier 2", "points": 68000, "roster": ["VLT Kyz", "Aura", "Velo"], "notable": "Actif sur le vivier européen et francophone" },
-      { "rank": 3, "id": "reality-zone", "name": "Reality Zone (RZ)", "tag": "RZ", "tier": "Tier 2", "points": 54000, "roster": ["RZ Phoenix", "RZ Kev", "RZ Zeek", "Dark"], "notable": "Podium Challenger et victoires en Open Cups" },
-      { "rank": 4, "id": "mces", "name": "Team MCES", "tag": "MCES", "tier": "Tier 1", "points": 44000, "roster": ["PodaSai", "Xsweeze"], "notable": "Dernière saison compétitive avant transition" },
-      { "rank": 5, "id": "team-fake", "name": "Team Fake", "tag": "FAKE", "tier": "Tier 2", "points": 38000, "roster": ["Fake Shadow", "Fake Storm", "Neo"], "notable": "Entrée explosive sur les Cash Cups régulières" },
-      { "rank": 6, "id": "team-bsk", "name": "Team BSK", "tag": "BSK", "tier": "Tier 2", "points": 34000, "roster": ["BSK Rayan", "BSK Aero"], "notable": "Top régularité sur les serveurs français" },
-      { "rank": 7, "id": "aten-esport", "name": "Aten eSport", "tag": "ATEN", "tier": "Tier 2", "points": 29000, "roster": ["ATEN Raptor", "ATEN Nox"], "notable": "Qualifications Heats FNCS" },
-      { "rank": 8, "id": "jupitar-esport", "name": "Jupitar Esport", "tag": "JUP", "tier": "Tier 2", "points": 23000, "roster": ["JUP Nova", "JUP Vax"], "notable": "Pépinière de talents compétitifs" },
-      { "rank": 9, "id": "odious-esport", "name": "Odious Esport", "tag": "ODS", "tier": "Tier 2", "points": 19000, "roster": ["ODS Vortex", "Sky"], "notable": "Débuts prometteurs en scrims et cups" },
-      { "rank": 10, "id": "paps-esport", "name": "Pap's Esport", "tag": "PAPS", "tier": "Tier 2", "points": 15000, "roster": ["PAPS Zek", "Ray"], "notable": "Présence dynamique sur la scène communautaire" }
+      {
+        "rank": 1,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 124000,
+        "roster": [
+          "Floki",
+          "Clément",
+          "Chaussette",
+          "BlastR",
+          "Vico"
+        ],
+        "notable": "Seul grand club FR en continu en Grand Finals FNCS"
+      },
+      {
+        "rank": 2,
+        "id": "team-go",
+        "name": "Team GO",
+        "tag": "GO",
+        "tier": "Tier 1",
+        "points": 76000,
+        "roster": [
+          "Decyptos",
+          "Shaykos",
+          "Robabz"
+        ],
+        "notable": "Podiums Cash Cups et Finales FNCS"
+      },
+      {
+        "rank": 3,
+        "id": "valiant",
+        "name": "Valiant",
+        "tag": "VLT",
+        "tier": "Tier 2",
+        "points": 68000,
+        "roster": [
+          "VLT Kyz",
+          "Aura",
+          "Velo"
+        ],
+        "notable": "Actif sur le vivier européen et francophone"
+      },
+      {
+        "rank": 4,
+        "id": "reality-zone",
+        "name": "Reality Zone (RZ)",
+        "tag": "RZ",
+        "tier": "Tier 2",
+        "points": 54000,
+        "roster": [
+          "RZ Phoenix",
+          "RZ Kev",
+          "RZ Zeek",
+          "Dark"
+        ],
+        "notable": "Podium Challenger et victoires en Open Cups"
+      },
+      {
+        "rank": 5,
+        "id": "mces",
+        "name": "Team MCES",
+        "tag": "MCES",
+        "tier": "Tier 1",
+        "points": 44000,
+        "roster": [
+          "PodaSai",
+          "Xsweeze"
+        ],
+        "notable": "Dernière saison compétitive avant transition"
+      },
+      {
+        "rank": 6,
+        "id": "team-fake",
+        "name": "Team Fake",
+        "tag": "FAKE",
+        "tier": "Tier 2",
+        "points": 38000,
+        "roster": [
+          "Fake Shadow",
+          "Fake Storm",
+          "Neo"
+        ],
+        "notable": "Entrée explosive sur les Cash Cups"
+      },
+      {
+        "rank": 7,
+        "id": "team-bsk",
+        "name": "Team BSK",
+        "tag": "BSK",
+        "tier": "Tier 2",
+        "points": 34000,
+        "roster": [
+          "BSK Rayan",
+          "BSK Aero"
+        ],
+        "notable": "Top régularité sur les serveurs français"
+      },
+      {
+        "rank": 8,
+        "id": "gameward",
+        "name": "GameWard",
+        "tag": "GW",
+        "tier": "Tier 2",
+        "points": 31000,
+        "roster": [
+          "Shaax",
+          "Kaido"
+        ],
+        "notable": "Qualifications régulières"
+      },
+      {
+        "rank": 9,
+        "id": "aten-esport",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "tier": "Tier 2",
+        "points": 29000,
+        "roster": [
+          "ATEN Raptor",
+          "ATEN Nox"
+        ],
+        "notable": "Qualifications Heats FNCS"
+      },
+      {
+        "rank": 10,
+        "id": "jupitar-esport",
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "tier": "Tier 2",
+        "points": 23000,
+        "roster": [
+          "JUP Nova",
+          "JUP Vax"
+        ],
+        "notable": "Pépinière de talents compétitifs"
+      },
+      {
+        "rank": 11,
+        "id": "lyost-esport",
+        "name": "Lyost Esport",
+        "tag": "LYO",
+        "tier": "Tier 2",
+        "points": 21000,
+        "roster": [
+          "Lyost_Kyz",
+          "Lyost_Storm"
+        ],
+        "notable": "Organisation de la Massilia Cup"
+      },
+      {
+        "rank": 12,
+        "id": "odious-esport",
+        "name": "Odious Esport",
+        "tag": "ODS",
+        "tier": "Tier 2",
+        "points": 19000,
+        "roster": [
+          "ODS Vortex",
+          "Sky"
+        ],
+        "notable": "Débuts prometteurs en scrims et cups"
+      },
+      {
+        "rank": 13,
+        "id": "paps-esport",
+        "name": "Pap's Esport",
+        "tag": "PAPS",
+        "tier": "Tier 2",
+        "points": 15000,
+        "roster": [
+          "PAPS Zek",
+          "Ray"
+        ],
+        "notable": "Présence dynamique sur la scène communautaire"
+      }
     ]
   },
   "2023": {
     "title": "Saison 2023 — L'Avènement Gentle Mates & Le Mondial Copenhague",
-    "description": "Créé en avril 2023, Gentle Mates (Gotaga, Squeezie, Brawks) signe Snayzy et PodaSai et les qualifie au FNCS Global Championship à Copenhague.",
+    "description": "Créé en avril 2023, Gentle Mates (Gotaga, Squeezie, Brawks) signe Snayzy et PodaSai et les qualifie au FNCS Global Championship à Copenhague. Solary brille avec Vico.",
+    "champion": "Gentle Mates",
     "clubs": [
-      { "rank": 1, "id": "gentle-mates", "name": "Gentle Mates", "tag": "M8", "tier": "Tier 1", "points": 142000, "roster": ["Snayzy", "PodaSai", "Nikof (Coach/Manager)"], "notable": "Qualifié FNCS Global Championship Copenhague" },
-      { "rank": 2, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 128000, "roster": ["Vico", "Floki", "Clément", "Chaussette"], "notable": "Saison stratosphérique de Vico en Majors" },
-      { "rank": 3, "id": "reality-zone", "name": "Reality Zone (RZ)", "tag": "RZ", "tier": "Tier 2", "points": 62000, "roster": ["RZ Phoenix", "RZ Kev", "RZ Zeek", "Storm"], "notable": "Top 1 Challenger FR (Cash Cups & Heats)" },
-      { "rank": 4, "id": "valiant", "name": "Valiant", "tag": "VLT", "tier": "Tier 2", "points": 51000, "roster": ["VLT Kyz", "Aura", "Shay"], "notable": "Présence active en Majors" },
-      { "rank": 5, "id": "team-fake", "name": "Team Fake", "tag": "FAKE", "tier": "Tier 2", "points": 44000, "roster": ["Fake Shadow", "Fake Storm", "Krono"], "notable": "Multiples tops Cash Cups" },
-      { "rank": 6, "id": "team-bsk", "name": "Team BSK", "tag": "BSK", "tier": "Tier 2", "points": 38000, "roster": ["BSK Rayan", "BSK Aero", "Nex"], "notable": "Solidité en Victory Cups" },
-      { "rank": 7, "id": "aten-esport", "name": "Aten eSport", "tag": "ATEN", "tier": "Tier 2", "points": 33000, "roster": ["ATEN Raptor", "ATEN Nox", "Zack"], "notable": "Performances inter-clubs" },
-      { "rank": 8, "id": "jupitar-esport", "name": "Jupitar Esport", "tag": "JUP", "tier": "Tier 2", "points": 26000, "roster": ["JUP Nova", "JUP Vax"], "notable": "Régularité open qualifiers" },
-      { "rank": 9, "id": "odious-esport", "name": "Odious Esport", "tag": "ODS", "tier": "Tier 2", "points": 22000, "roster": ["ODS Vortex", "Sky"], "notable": "Montée en puissance" },
-      { "rank": 10, "id": "paps-esport", "name": "Pap's Esport", "tag": "PAPS", "tier": "Tier 2", "points": 18000, "roster": ["PAPS Zek", "Ray"], "notable": "Animation scène FR" }
+      {
+        "rank": 1,
+        "id": "gentle-mates",
+        "name": "Gentle Mates",
+        "tag": "M8",
+        "tier": "Tier 1",
+        "points": 142000,
+        "roster": [
+          "Snayzy",
+          "PodaSai",
+          "Nikof (Coach/Manager)"
+        ],
+        "notable": "Qualifié FNCS Global Championship Copenhague"
+      },
+      {
+        "rank": 2,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 128000,
+        "roster": [
+          "Vico",
+          "Floki",
+          "Clément",
+          "Chaussette"
+        ],
+        "notable": "Saison stratosphérique de Vico en Majors"
+      },
+      {
+        "rank": 3,
+        "id": "zerance",
+        "name": "Zerance",
+        "tag": "ZRC",
+        "tier": "Tier 1",
+        "points": 74000,
+        "roster": [
+          "Skydeun",
+          "EMXXRR",
+          "Vico (prêt)"
+        ],
+        "notable": "Entrée fracassante sur Fortnite en juillet 2023"
+      },
+      {
+        "rank": 4,
+        "id": "reality-zone",
+        "name": "Reality Zone (RZ)",
+        "tag": "RZ",
+        "tier": "Tier 2",
+        "points": 62000,
+        "roster": [
+          "RZ Phoenix",
+          "RZ Kev",
+          "RZ Zeek",
+          "Storm"
+        ],
+        "notable": "Top 1 Challenger FR (Cash Cups & Heats)"
+      },
+      {
+        "rank": 5,
+        "id": "valiant",
+        "name": "Valiant",
+        "tag": "VLT",
+        "tier": "Tier 2",
+        "points": 51000,
+        "roster": [
+          "VLT Kyz",
+          "Aura",
+          "Shay"
+        ],
+        "notable": "Présence active en Majors"
+      },
+      {
+        "rank": 6,
+        "id": "team-fake",
+        "name": "Team Fake",
+        "tag": "FAKE",
+        "tier": "Tier 2",
+        "points": 44000,
+        "roster": [
+          "Fake Shadow",
+          "Fake Storm",
+          "Krono"
+        ],
+        "notable": "Multiples tops Cash Cups"
+      },
+      {
+        "rank": 7,
+        "id": "team-bsk",
+        "name": "Team BSK",
+        "tag": "BSK",
+        "tier": "Tier 2",
+        "points": 38000,
+        "roster": [
+          "BSK Rayan",
+          "BSK Aero",
+          "Nex"
+        ],
+        "notable": "Solidité en Victory Cups"
+      },
+      {
+        "rank": 8,
+        "id": "aten-esport",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "tier": "Tier 2",
+        "points": 33000,
+        "roster": [
+          "ATEN Raptor",
+          "ATEN Nox",
+          "Zack"
+        ],
+        "notable": "Performances inter-clubs"
+      },
+      {
+        "rank": 9,
+        "id": "jupitar-esport",
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "tier": "Tier 2",
+        "points": 26000,
+        "roster": [
+          "JUP Nova",
+          "JUP Vax"
+        ],
+        "notable": "Régularité open qualifiers"
+      },
+      {
+        "rank": 10,
+        "id": "lyost-esport",
+        "name": "Lyost Esport",
+        "tag": "LYO",
+        "tier": "Tier 2",
+        "points": 24000,
+        "roster": [
+          "Lyost_Kyz",
+          "Lyost_Storm"
+        ],
+        "notable": "Régularité tournois hebdomadaires"
+      },
+      {
+        "rank": 11,
+        "id": "odious-esport",
+        "name": "Odious Esport",
+        "tag": "ODS",
+        "tier": "Tier 2",
+        "points": 22000,
+        "roster": [
+          "ODS Vortex",
+          "Sky"
+        ],
+        "notable": "Montée en puissance"
+      },
+      {
+        "rank": 12,
+        "id": "paps-esport",
+        "name": "Pap's Esport",
+        "tag": "PAPS",
+        "tier": "Tier 2",
+        "points": 18000,
+        "roster": [
+          "PAPS Zek",
+          "Ray"
+        ],
+        "notable": "Animation scène FR"
+      }
     ]
   },
   "2024": {
-    "title": "Saison 2024 — Le Roster Galactique Karmine Corp",
-    "description": "La Karmine Corp signe les vainqueurs du Major 1 (Malibuca & Merstach) avec Veno et SwizzY, plaçant le club français au #1 du Power Ranking Mondial des organisations.",
+    "title": "Saison 2024 — Le Roster Galactique Karmine Corp & L'Exploit HavoK aux Worlds",
+    "description": "La Karmine Corp signe les vainqueurs du Major 1 (Malibuca & Merstach) avec Veno et SwizzY, dominant le Power Ranking Mondial. Parallèlement, Team HavoK (fondée par ZetFar & WaZz) explose avec Wox qui prend la 5e place mondiale aux Worlds de Fort Worth au Texas.",
+    "champion": "Karmine Corp",
     "clubs": [
-      { "rank": 1, "id": "karmine-corp", "name": "Karmine Corp", "tag": "KC", "tier": "Tier 1", "points": 194000, "roster": ["Malibuca", "Merstach", "Veno", "SwizzY", "Oslo (Coach)"], "notable": "#1 Mondial au Team Power Ranking officiel" },
-      { "rank": 2, "id": "gentle-mates", "name": "Gentle Mates", "tag": "M8", "tier": "Tier 1", "points": 136000, "roster": ["Snayzy", "PodaSai", "Merstach", "Nikof"], "notable": "Finalistes FNCS Majors & Global Championship Texas" },
-      { "rank": 3, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 118000, "roster": ["sereN", "Darkos", "Minori", "ghonzo"], "notable": "Quatuor hyper régulier au sommet du PR EU" },
-      { "rank": 4, "id": "reality-zone", "name": "Reality Zone (RZ)", "tag": "RZ", "tier": "Tier 2", "points": 58000, "roster": ["RZ Phoenix", "RZ Kev", "RZ Zeek"], "notable": "Top 1 division Challenger FR" },
-      { "rank": 5, "id": "valiant", "name": "Valiant", "tag": "VLT", "tier": "Tier 2", "points": 46000, "roster": ["VLT Kyz", "Aura"], "notable": "Qualifications Round 3/4 FNCS" },
-      { "rank": 6, "id": "team-fake", "name": "Team Fake", "tag": "FAKE", "tier": "Tier 2", "points": 41000, "roster": ["Fake Shadow", "Fake Storm"], "notable": "Victoires régulières en Victory Cups" },
-      { "rank": 7, "id": "team-bsk", "name": "Team BSK", "tag": "BSK", "tier": "Tier 2", "points": 35000, "roster": ["BSK Rayan", "BSK Aero"], "notable": "Constance sur le circuit français" },
-      { "rank": 8, "id": "aten-esport", "name": "Aten eSport", "tag": "ATEN", "tier": "Tier 2", "points": 30000, "roster": ["ATEN Raptor", "ATEN Nox"], "notable": "Podiums tournois inter-structures" },
-      { "rank": 9, "id": "jupitar-esport", "name": "Jupitar Esport", "tag": "JUP", "tier": "Tier 2", "points": 24000, "roster": ["JUP Nova", "Vax"], "notable": "Formation de pépites" },
-      { "rank": 10, "id": "odious-esport", "name": "Odious Esport", "tag": "ODS", "tier": "Tier 2", "points": 20000, "roster": ["ODS Vortex"], "notable": "Régularité cups" },
-      { "rank": 11, "id": "paps-esport", "name": "Pap's Esport", "tag": "PAPS", "tier": "Tier 2", "points": 16000, "roster": ["PAPS Zek"], "notable": "Présence scène francophone" }
+      {
+        "rank": 1,
+        "id": "karmine-corp",
+        "name": "Karmine Corp",
+        "tag": "KC",
+        "tier": "Tier 1",
+        "points": 194000,
+        "roster": [
+          "Malibuca",
+          "Merstach",
+          "Veno",
+          "SwizzY",
+          "Oslo (Coach)"
+        ],
+        "notable": "#1 Mondial au Team Power Ranking officiel"
+      },
+      {
+        "rank": 2,
+        "id": "gentle-mates",
+        "name": "Gentle Mates",
+        "tag": "M8",
+        "tier": "Tier 1",
+        "points": 136000,
+        "roster": [
+          "Snayzy",
+          "PodaSai",
+          "Merstach",
+          "Nikof"
+        ],
+        "notable": "Finalistes FNCS Majors & Global Championship Texas"
+      },
+      {
+        "rank": 3,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 118000,
+        "roster": [
+          "sereN",
+          "Darkos",
+          "Minori",
+          "ghonzo"
+        ],
+        "notable": "Quatuor hyper régulier au sommet du PR EU"
+      },
+      {
+        "rank": 4,
+        "id": "havok-by-vitality",
+        "name": "Team HavoK (futur HvK by Vitality)",
+        "tag": "HvK",
+        "tier": "Tier 1",
+        "points": 76000,
+        "roster": [
+          "Wox (5e mondial)",
+          "Kirwa",
+          "YZY",
+          "EsTy",
+          "Netox"
+        ],
+        "notable": "Création le 28 août 2024 (ZetFar & WaZz). Wox 5e au FNCS Global Championship Texas !"
+      },
+      {
+        "rank": 5,
+        "id": "zerance",
+        "name": "Zerance",
+        "tag": "ZRC",
+        "tier": "Tier 1",
+        "points": 61000,
+        "roster": [
+          "Skydeun",
+          "EMXXRR",
+          "PodaSai (période)"
+        ],
+        "notable": "Présence continue dans le haut de tableau européen"
+      },
+      {
+        "rank": 6,
+        "id": "reality-zone",
+        "name": "Reality Zone (RZ)",
+        "tag": "RZ",
+        "tier": "Tier 2",
+        "points": 54000,
+        "roster": [
+          "RZ Phoenix",
+          "RZ Kev",
+          "RZ Zeek"
+        ],
+        "notable": "Performances régulières en Cash Cups et Heats"
+      },
+      {
+        "rank": 7,
+        "id": "valiant",
+        "name": "Valiant",
+        "tag": "VLT",
+        "tier": "Tier 2",
+        "points": 44000,
+        "roster": [
+          "VLT Kyz",
+          "Aura"
+        ],
+        "notable": "Qualifications Round 3/4 FNCS"
+      },
+      {
+        "rank": 8,
+        "id": "galions",
+        "name": "Galions",
+        "tag": "GLN",
+        "tier": "Tier 1",
+        "points": 38000,
+        "roster": [
+          "Clément",
+          "Kyzen"
+        ],
+        "notable": "Création en décembre 2024 par Team GO & Sixen"
+      },
+      {
+        "rank": 9,
+        "id": "team-fake",
+        "name": "Team Fake",
+        "tag": "FAKE",
+        "tier": "Tier 2",
+        "points": 36000,
+        "roster": [
+          "Fake Shadow",
+          "Fake Storm"
+        ],
+        "notable": "Victoires régulières en Victory Cups"
+      },
+      {
+        "rank": 10,
+        "id": "team-bsk",
+        "name": "Team BSK",
+        "tag": "BSK",
+        "tier": "Tier 2",
+        "points": 32000,
+        "roster": [
+          "BSK Rayan",
+          "BSK Aero"
+        ],
+        "notable": "Constance sur le circuit français"
+      },
+      {
+        "rank": 11,
+        "id": "aten-esport",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "tier": "Tier 2",
+        "points": 28000,
+        "roster": [
+          "ATEN Raptor",
+          "ATEN Nox"
+        ],
+        "notable": "Podiums tournois inter-structures"
+      },
+      {
+        "rank": 12,
+        "id": "jupitar-esport",
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "tier": "Tier 2",
+        "points": 22000,
+        "roster": [
+          "JUP Nova",
+          "Vax"
+        ],
+        "notable": "Formation de pépites"
+      },
+      {
+        "rank": 13,
+        "id": "odious-esport",
+        "name": "Odious Esport",
+        "tag": "ODS",
+        "tier": "Tier 2",
+        "points": 18000,
+        "roster": [
+          "ODS Vortex"
+        ],
+        "notable": "Régularité cups"
+      },
+      {
+        "rank": 14,
+        "id": "paps-esport",
+        "name": "Pap's Esport",
+        "tag": "PAPS",
+        "tier": "Tier 2",
+        "points": 15000,
+        "roster": [
+          "PAPS Zek"
+        ],
+        "notable": "Présence scène francophone"
+      }
     ]
   },
   "2025": {
-    "title": "Saison 2025 — Le Sacre Gentle Mates (Saison Terminée)",
-    "description": "Saison 2025 terminée. Après le recentrage de la Karmine Corp mi-2025, Gentle Mates est sacré Club Champion de France 2025 avec ses cracks Merstach, Snayzy, PodaSai et Malibuca, devançant Solary au terme d'une lutte acharnée.",
+    "title": "Saison 2025 — Le Sacre Gentle Mates & Le Choc HavoK / Solary (Saison Terminée)",
+    "description": "Saison 2025 terminée. Gentle Mates s'empare du titre de Club Champion de France 2025 après une bataille titanesque face à la Team HavoK (armada Wox, Pixie, Snayzy, Rad3on) et Solary.",
+    "champion": "Gentle Mates",
     "clubs": [
-      { "rank": 1, "id": "gentle-mates", "name": "Gentle Mates", "tag": "M8", "tier": "Tier 1", "points": 158000, "roster": ["Merstach", "Snayzy", "PodaSai", "Malibuca"], "notable": "Champion de France 2025 (Majors & Global)" },
-      { "rank": 2, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 132000, "roster": ["sereN", "Darkos", "Minori", "ghonzo"], "notable": "Dauphin 2025, présence à toutes les finales" },
-      { "rank": 3, "id": "karmine-corp", "name": "Karmine Corp", "tag": "KC", "tier": "Tier 1", "points": 65000, "roster": ["Veno", "SwizzY", "Roster remanié"], "notable": "Points acquis sur la première partie de saison" },
-      { "rank": 4, "id": "reality-zone", "name": "Reality Zone (RZ)", "tag": "RZ", "tier": "Tier 2", "points": 52000, "roster": ["RZ Phoenix", "RZ Kev", "RZ Zeek"], "notable": "Meilleur club indépendant français" },
-      { "rank": 5, "id": "team-fake", "name": "Team Fake", "tag": "FAKE", "tier": "Tier 2", "points": 43000, "roster": ["Fake Shadow", "Fake Storm"], "notable": "Multiples qualifications Round 3/4 FNCS" },
-      { "rank": 6, "id": "valiant", "name": "Valiant", "tag": "VLT", "tier": "Tier 2", "points": 38000, "roster": ["VLT Kyz", "Aura"], "notable": "Solide présence en Cash Cups" },
-      { "rank": 7, "id": "aten-esport", "name": "Aten eSport", "tag": "ATEN", "tier": "Tier 2", "points": 34000, "roster": ["ATEN Raptor", "ATEN Nox"], "notable": "Régularité compétitive" },
-      { "rank": 8, "id": "team-bsk", "name": "Team BSK", "tag": "BSK", "tier": "Tier 2", "points": 31000, "roster": ["BSK Rayan", "BSK Aero"], "notable": "Performance régulière" },
-      { "rank": 9, "id": "jupitar-esport", "name": "Jupitar Esport", "tag": "JUP", "tier": "Tier 2", "points": 26000, "roster": ["JUP Nova", "Vax"], "notable": "Nouveau vivier compétitif" },
-      { "rank": 10, "id": "odious-esport", "name": "Odious Esport", "tag": "ODS", "tier": "Tier 2", "points": 22000, "roster": ["ODS Vortex"], "notable": "Engagement Victory Cups" },
-      { "rank": 11, "id": "paps-esport", "name": "Pap's Esport", "tag": "PAPS", "tier": "Tier 2", "points": 18000, "roster": ["PAPS Zek"], "notable": "Soutien et présence active" }
+      {
+        "rank": 1,
+        "id": "gentle-mates",
+        "name": "Gentle Mates",
+        "tag": "M8",
+        "tier": "Tier 1",
+        "points": 158000,
+        "roster": [
+          "Merstach",
+          "Snayzy",
+          "PodaSai",
+          "Malibuca"
+        ],
+        "notable": "Champion de France 2025 (Majors & Global)"
+      },
+      {
+        "rank": 2,
+        "id": "havok-by-vitality",
+        "name": "Team HavoK",
+        "tag": "HvK",
+        "tier": "Tier 1",
+        "points": 141000,
+        "roster": [
+          "Wox",
+          "Pixie",
+          "Rad3on",
+          "Nxthan",
+          "Dela",
+          "Snayzy (période)"
+        ],
+        "notable": "Dauphin 2025, effectif XXL en finales FNCS"
+      },
+      {
+        "rank": 3,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 132000,
+        "roster": [
+          "sereN",
+          "Darkos",
+          "Minori",
+          "ghonzo"
+        ],
+        "notable": "Podium 2025, présence à toutes les finales"
+      },
+      {
+        "rank": 4,
+        "id": "karmine-corp",
+        "name": "Karmine Corp",
+        "tag": "KC",
+        "tier": "Tier 1",
+        "points": 65000,
+        "roster": [
+          "Veno",
+          "SwizzY",
+          "Roster remanié"
+        ],
+        "notable": "Points acquis sur la première partie de saison"
+      },
+      {
+        "rank": 5,
+        "id": "zerance",
+        "name": "Zerance",
+        "tag": "ZRC",
+        "tier": "Tier 1",
+        "points": 58000,
+        "roster": [
+          "Skydeun",
+          "EMXXRR"
+        ],
+        "notable": "Finalistes FNCS Majors réguliers"
+      },
+      {
+        "rank": 6,
+        "id": "galions",
+        "name": "Galions",
+        "tag": "GLN",
+        "tier": "Tier 1",
+        "points": 53000,
+        "roster": [
+          "Clément",
+          "Kyzen"
+        ],
+        "notable": "Première saison complète très aboutie"
+      },
+      {
+        "rank": 7,
+        "id": "reality-zone",
+        "name": "Reality Zone (RZ)",
+        "tag": "RZ",
+        "tier": "Tier 2",
+        "points": 49000,
+        "roster": [
+          "RZ Phoenix",
+          "RZ Kev",
+          "RZ Zeek"
+        ],
+        "notable": "Performances régulières en Cash Cups"
+      },
+      {
+        "rank": 8,
+        "id": "team-fake",
+        "name": "Team Fake",
+        "tag": "FAKE",
+        "tier": "Tier 2",
+        "points": 41000,
+        "roster": [
+          "Fake Shadow",
+          "Fake Storm"
+        ],
+        "notable": "Multiples qualifications Round 3/4 FNCS"
+      },
+      {
+        "rank": 9,
+        "id": "valiant",
+        "name": "Valiant",
+        "tag": "VLT",
+        "tier": "Tier 2",
+        "points": 36000,
+        "roster": [
+          "VLT Kyz",
+          "Aura"
+        ],
+        "notable": "Solide présence en Cash Cups"
+      },
+      {
+        "rank": 10,
+        "id": "aten-esport",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "tier": "Tier 2",
+        "points": 32000,
+        "roster": [
+          "ATEN Raptor",
+          "ATEN Nox"
+        ],
+        "notable": "Régularité compétitive"
+      },
+      {
+        "rank": 11,
+        "id": "team-bsk",
+        "name": "Team BSK",
+        "tag": "BSK",
+        "tier": "Tier 2",
+        "points": 29000,
+        "roster": [
+          "BSK Rayan",
+          "BSK Aero"
+        ],
+        "notable": "Performance régulière"
+      },
+      {
+        "rank": 12,
+        "id": "jupitar-esport",
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "tier": "Tier 2",
+        "points": 24000,
+        "roster": [
+          "JUP Nova",
+          "Vax"
+        ],
+        "notable": "Nouveau vivier compétitif"
+      },
+      {
+        "rank": 13,
+        "id": "odious-esport",
+        "name": "Odious Esport",
+        "tag": "ODS",
+        "tier": "Tier 2",
+        "points": 20000,
+        "roster": [
+          "ODS Vortex"
+        ],
+        "notable": "Engagement Victory Cups"
+      },
+      {
+        "rank": 14,
+        "id": "paps-esport",
+        "name": "Pap's Esport",
+        "tag": "PAPS",
+        "tier": "Tier 2",
+        "points": 17000,
+        "roster": [
+          "PAPS Zek"
+        ],
+        "notable": "Soutien et présence active"
+      }
     ]
   },
   "2026": {
-    "title": "Saison 2026 — Course au Titre LFF (Saison en cours)",
-    "description": "Classement officiel en direct pour l'année 2026. Les points s'accumulent au fil des FNCS Majors, Cash Cups et LANs de la saison en cours. Le club #1 au 31 décembre sera couronné Champion de France 2026.",
+    "title": "Saison 2026 — Course au Titre LFF en Direct (Saison en cours)",
+    "description": "Classement officiel en direct pour l'année 2026. HavoK by Vitality (rebrandé le 25 avril 2026 avec l'acquisition par Team Vitality) se livre à un duel épique face à Gentle Mates et Solary pour la couronne de Champion de France 2026.",
+    "champion": "En cours...",
     "clubs": [
-      { "rank": 1, "id": "gentle-mates", "name": "Gentle Mates", "tag": "M8", "tier": "Tier 1", "points": 94500, "roster": ["Merstach", "Snayzy", "PodaSai"], "notable": "En tête des qualifications et Majors 2026" },
-      { "rank": 2, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "points": 88200, "roster": ["Darkos", "sereN", "Minori", "ghonzo"], "notable": "Au coude-à-coude sur les Cash Cups régulières" },
-      { "rank": 3, "id": "reality-zone", "name": "Reality Zone (RZ)", "tag": "RZ", "tier": "Tier 2", "points": 34100, "roster": ["RZ Phoenix", "RZ Kev", "RZ Zeek"], "notable": "3e place provisoire et victoires en Open" },
-      { "rank": 4, "id": "team-fake", "name": "Team Fake", "tag": "FAKE", "tier": "Tier 2", "points": 28400, "roster": ["Fake Shadow", "Fake Storm"], "notable": "Régularité Victory Cups" },
-      { "rank": 5, "id": "valiant", "name": "Valiant", "tag": "VLT", "tier": "Tier 2", "points": 23600, "roster": ["VLT Kyz", "Aura"], "notable": "Multiples tops hebdomadaires" },
-      { "rank": 6, "id": "aten-esport", "name": "Aten eSport", "tag": "ATEN", "tier": "Tier 2", "points": 22100, "roster": ["ATEN Raptor", "ATEN Nox"], "notable": "Solide noyau en scrims et cups" },
-      { "rank": 7, "id": "team-bsk", "name": "Team BSK", "tag": "BSK", "tier": "Tier 2", "points": 20500, "roster": ["BSK Rayan", "BSK Aero"], "notable": "Points acquis en Cash Cups" },
-      { "rank": 8, "id": "jupitar-esport", "name": "Jupitar Esport", "tag": "JUP", "tier": "Tier 2", "points": 16800, "roster": ["JUP Nova", "JUP Vax"], "notable": "Pépites en progression" },
-      { "rank": 9, "id": "odious-esport", "name": "Odious Esport", "tag": "ODS", "tier": "Tier 2", "points": 14200, "roster": ["ODS Vortex", "Sky"], "notable": "Tournois communautaires" },
-      { "rank": 10, "id": "paps-esport", "name": "Pap's Esport", "tag": "PAPS", "tier": "Tier 2", "points": 12900, "roster": ["PAPS Zek", "Ray"], "notable": "Présence dynamique" }
+      {
+        "rank": 1,
+        "id": "havok-by-vitality",
+        "name": "HavoK by Vitality",
+        "tag": "HvK",
+        "tier": "Tier 1",
+        "points": 98200,
+        "roster": [
+          "Wox",
+          "Pixie",
+          "Rad3on",
+          "Nxthan",
+          "Dela"
+        ],
+        "notable": "En tête du championnat ! Rebrandé le 25 avril 2026 suite au rachat par Team Vitality"
+      },
+      {
+        "rank": 2,
+        "id": "gentle-mates",
+        "name": "Gentle Mates",
+        "tag": "M8",
+        "tier": "Tier 1",
+        "points": 94500,
+        "roster": [
+          "Merstach",
+          "Snayzy",
+          "PodaSai"
+        ],
+        "notable": "Au coude-à-coude sur les qualifications et Majors 2026"
+      },
+      {
+        "rank": 3,
+        "id": "solary",
+        "name": "Solary",
+        "tag": "SLY",
+        "tier": "Tier 1",
+        "points": 88200,
+        "roster": [
+          "Darkos",
+          "sereN",
+          "Minori",
+          "ghonzo"
+        ],
+        "notable": "Ultra régulier en Cash Cups et Majors"
+      },
+      {
+        "rank": 4,
+        "id": "galions",
+        "name": "Galions",
+        "tag": "GLN",
+        "tier": "Tier 1",
+        "points": 36800,
+        "roster": [
+          "Clément",
+          "Kyzen"
+        ],
+        "notable": "Duo tricolore au top niveau européen"
+      },
+      {
+        "rank": 5,
+        "id": "zerance",
+        "name": "Zerance",
+        "tag": "ZRC",
+        "tier": "Tier 1",
+        "points": 35400,
+        "roster": [
+          "Skydeun",
+          "EMXXRR"
+        ],
+        "notable": "Qualifications régulières en Rounds finaux"
+      },
+      {
+        "rank": 6,
+        "id": "reality-zone",
+        "name": "Reality Zone (RZ)",
+        "tag": "RZ",
+        "tier": "Tier 2",
+        "points": 34100,
+        "roster": [
+          "RZ Phoenix",
+          "RZ Kev",
+          "RZ Zeek"
+        ],
+        "notable": "Victoires en Open et régularité"
+      },
+      {
+        "rank": 7,
+        "id": "team-fake",
+        "name": "Team Fake",
+        "tag": "FAKE",
+        "tier": "Tier 2",
+        "points": 28400,
+        "roster": [
+          "Fake Shadow",
+          "Fake Storm"
+        ],
+        "notable": "Régularité Victory Cups"
+      },
+      {
+        "rank": 8,
+        "id": "valiant",
+        "name": "Valiant",
+        "tag": "VLT",
+        "tier": "Tier 2",
+        "points": 23600,
+        "roster": [
+          "VLT Kyz",
+          "Aura"
+        ],
+        "notable": "Multiples tops hebdomadaires"
+      },
+      {
+        "rank": 9,
+        "id": "aten-esport",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "tier": "Tier 2",
+        "points": 22100,
+        "roster": [
+          "ATEN Raptor",
+          "ATEN Nox"
+        ],
+        "notable": "Solide noyau en scrims et cups"
+      },
+      {
+        "rank": 10,
+        "id": "team-bsk",
+        "name": "Team BSK",
+        "tag": "BSK",
+        "tier": "Tier 2",
+        "points": 20500,
+        "roster": [
+          "BSK Rayan",
+          "BSK Aero"
+        ],
+        "notable": "Points acquis en Cash Cups"
+      },
+      {
+        "rank": 11,
+        "id": "jupitar-esport",
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "tier": "Tier 2",
+        "points": 16800,
+        "roster": [
+          "JUP Nova",
+          "JUP Vax"
+        ],
+        "notable": "Pépites en progression"
+      },
+      {
+        "rank": 12,
+        "id": "odious-esport",
+        "name": "Odious Esport",
+        "tag": "ODS",
+        "tier": "Tier 2",
+        "points": 14200,
+        "roster": [
+          "ODS Vortex",
+          "Sky"
+        ],
+        "notable": "Tournois communautaires"
+      },
+      {
+        "rank": 13,
+        "id": "paps-esport",
+        "name": "Pap's Esport",
+        "tag": "PAPS",
+        "tier": "Tier 2",
+        "points": 12900,
+        "roster": [
+          "PAPS Zek",
+          "Ray"
+        ],
+        "notable": "Présence dynamique"
+      }
     ]
   }
 }

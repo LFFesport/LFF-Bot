@@ -1,6 +1,56 @@
 {
   "transfers_log": [
     {
+      "date": "2026-04-25",
+      "player_ign": "Wox",
+      "player_name": "Wox",
+      "type": "Acquisition",
+      "club_id": "havok-by-vitality",
+      "previous_club": "Team HavoK",
+      "source": "Official Rebrand / @TeamVitality / @hvkggs",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2025-02-15",
+      "player_ign": "Rad3on",
+      "player_name": "Rad3on",
+      "type": "Promotion",
+      "club_id": "havok-by-vitality",
+      "previous_club": "HavoK Academy",
+      "source": "@hvkggs",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2025-01-01",
+      "player_ign": "Pixie",
+      "player_name": "Pixie",
+      "type": "Arrival",
+      "club_id": "havok-by-vitality",
+      "previous_club": "Free Agent",
+      "source": "@hvkggs",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2024-12-09",
+      "player_ign": "Clément",
+      "player_name": "Clément Danglot",
+      "type": "Arrival",
+      "club_id": "galions",
+      "previous_club": "Solary",
+      "source": "@Galions_",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2024-08-28",
+      "player_ign": "Wox",
+      "player_name": "Wox",
+      "type": "Arrival",
+      "club_id": "havok-by-vitality",
+      "previous_club": "Free Agent",
+      "source": "@hvkggs",
+      "status": "Confirmed"
+    },
+    {
       "date": "2024-05-09",
       "player_ign": "Malibuca",
       "player_name": "Danila Iakovenko",
@@ -63,40 +113,244 @@
   ],
   "active_rosters": {
     "gentle-mates": [
-      { "ign": "Snayzy", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Snayzy", "contract_start": "2023-04-14" },
-      { "ign": "PodaSai", "country": "FR", "role": "Starter", "ftn_tracker_slug": "PodaSai", "contract_start": "2023-04-14" }
+      {
+        "ign": "Snayzy",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Snayzy",
+        "contract_start": "2023-04-14"
+      },
+      {
+        "ign": "PodaSai",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "PodaSai",
+        "contract_start": "2023-04-14"
+      }
     ],
     "solary": [
-      { "ign": "sereN", "country": "FR", "role": "Starter", "ftn_tracker_slug": "sereN", "contract_start": "2024-01-15" },
-      { "ign": "Darkos", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Darkos", "contract_start": "2024-01-15" },
-      { "ign": "Minori", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Minori", "contract_start": "2024-02-01" },
-      { "ign": "ghonzo", "country": "FR", "role": "Starter", "ftn_tracker_slug": "ghonzo", "contract_start": "2024-03-01" }
+      {
+        "ign": "sereN",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "sereN",
+        "contract_start": "2024-01-15"
+      },
+      {
+        "ign": "Darkos",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Darkos",
+        "contract_start": "2024-01-15"
+      },
+      {
+        "ign": "Minori",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Minori",
+        "contract_start": "2024-02-01"
+      },
+      {
+        "ign": "ghonzo",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "ghonzo",
+        "contract_start": "2024-03-01"
+      }
     ],
     "reality-zone": [
-      { "ign": "RZ_Phoenix", "country": "FR", "role": "Starter", "ftn_tracker_slug": "RZ_Phoenix", "contract_start": "2024-01-01" },
-      { "ign": "RZ_Kev", "country": "FR", "role": "Starter", "ftn_tracker_slug": "RZ_Kev", "contract_start": "2024-01-01" },
-      { "ign": "RZ_Zeek", "country": "FR", "role": "Academy", "ftn_tracker_slug": "RZ_Zeek", "contract_start": "2024-02-01" }
+      {
+        "ign": "RZ_Phoenix",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "RZ_Phoenix",
+        "contract_start": "2024-01-01"
+      },
+      {
+        "ign": "RZ_Kev",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "RZ_Kev",
+        "contract_start": "2024-01-01"
+      },
+      {
+        "ign": "RZ_Zeek",
+        "country": "FR",
+        "role": "Academy",
+        "ftn_tracker_slug": "RZ_Zeek",
+        "contract_start": "2024-02-01"
+      }
     ],
     "team-fake": [
-      { "ign": "Fake_Shadow", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Fake_Shadow", "contract_start": "2024-01-01" },
-      { "ign": "Fake_Storm", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Fake_Storm", "contract_start": "2024-01-01" }
+      {
+        "ign": "Fake_Shadow",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Fake_Shadow",
+        "contract_start": "2024-01-01"
+      },
+      {
+        "ign": "Fake_Storm",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Fake_Storm",
+        "contract_start": "2024-01-01"
+      }
     ],
     "aten-esport": [
-      { "ign": "ATEN_Raptor", "country": "FR", "role": "Starter", "ftn_tracker_slug": "ATEN_Raptor", "contract_start": "2024-01-01" },
-      { "ign": "ATEN_Nox", "country": "FR", "role": "Starter", "ftn_tracker_slug": "ATEN_Nox", "contract_start": "2024-01-01" }
+      {
+        "ign": "ATEN_Raptor",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "ATEN_Raptor",
+        "contract_start": "2024-01-01"
+      },
+      {
+        "ign": "ATEN_Nox",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "ATEN_Nox",
+        "contract_start": "2024-01-01"
+      }
     ],
     "team-bsk": [
-      { "ign": "BSK_Rayan", "country": "FR", "role": "Starter", "ftn_tracker_slug": "BSK_Rayan", "contract_start": "2024-01-01" },
-      { "ign": "BSK_Aero", "country": "FR", "role": "Starter", "ftn_tracker_slug": "BSK_Aero", "contract_start": "2024-01-01" }
+      {
+        "ign": "BSK_Rayan",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "BSK_Rayan",
+        "contract_start": "2024-01-01"
+      },
+      {
+        "ign": "BSK_Aero",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "BSK_Aero",
+        "contract_start": "2024-01-01"
+      }
     ],
     "jupitar-esport": [
-      { "ign": "JUP_Nova", "country": "FR", "role": "Starter", "ftn_tracker_slug": "JUP_Nova", "contract_start": "2024-01-01" }
+      {
+        "ign": "JUP_Nova",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "JUP_Nova",
+        "contract_start": "2024-01-01"
+      }
     ],
     "odious-esport": [
-      { "ign": "ODS_Vortex", "country": "FR", "role": "Starter", "ftn_tracker_slug": "ODS_Vortex", "contract_start": "2024-01-01" }
+      {
+        "ign": "ODS_Vortex",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "ODS_Vortex",
+        "contract_start": "2024-01-01"
+      }
     ],
     "paps-esport": [
-      { "ign": "PAPS_Zek", "country": "FR", "role": "Starter", "ftn_tracker_slug": "PAPS_Zek", "contract_start": "2024-01-01" }
+      {
+        "ign": "PAPS_Zek",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "PAPS_Zek",
+        "contract_start": "2024-01-01"
+      }
+    ],
+    "havok-by-vitality": [
+      {
+        "ign": "Wox",
+        "country": "LV",
+        "role": "Starter",
+        "ftn_tracker_slug": "Wox",
+        "contract_start": "2024-08-28",
+        "live_pr": 48000
+      },
+      {
+        "ign": "Pixie",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Pixie",
+        "contract_start": "2025-01-01",
+        "live_pr": 34000
+      },
+      {
+        "ign": "Rad3on",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Rad3on",
+        "contract_start": "2025-02-15",
+        "live_pr": 24000
+      },
+      {
+        "ign": "Nxthan",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Nxthan",
+        "contract_start": "2025-01-01",
+        "live_pr": 19000
+      },
+      {
+        "ign": "Dela",
+        "country": "DE",
+        "role": "Sub",
+        "ftn_tracker_slug": "Dela",
+        "contract_start": "2025-01-01",
+        "live_pr": 16000
+      }
+    ],
+    "galions": [
+      {
+        "ign": "Clément",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Clément",
+        "contract_start": "2024-12-09",
+        "live_pr": 17500
+      },
+      {
+        "ign": "Kyzen",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Kyzen",
+        "contract_start": "2024-12-09",
+        "live_pr": 14800
+      }
+    ],
+    "zerance": [
+      {
+        "ign": "Skydeun",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Skydeun",
+        "contract_start": "2024-03-01",
+        "live_pr": 15200
+      },
+      {
+        "ign": "EMXXRR",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "EMXXRR",
+        "contract_start": "2024-03-01",
+        "live_pr": 12400
+      }
+    ],
+    "valiant": [
+      {
+        "ign": "VLT_Kyz",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "VLT_Kyz",
+        "contract_start": "2023-01-01",
+        "live_pr": 12800
+      },
+      {
+        "ign": "VLT_Aura",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "VLT_Aura",
+        "contract_start": "2023-01-01",
+        "live_pr": 10800
+      }
     ]
   }
 }
