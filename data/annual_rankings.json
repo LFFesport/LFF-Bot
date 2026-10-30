@@ -1505,16 +1505,17 @@
         "name": "HavoK by Vitality",
         "tag": "HvK",
         "tier": "Tier 1",
-        "points": 118500,
+        "points": 122000,
         "roster": [
           "SwizzY (Champion du Monde)",
           "Pixie (Champion du Monde)",
           "Wox",
           "Tjino",
           "PabloWingu",
-          "Rad3on"
+          "IDrop",
+          "Seekk"
         ],
-        "notable": "En tête de la Ligue ! Rachat du 25 avril 2026. SwizzY & Pixie sacrés Champions du Monde 2026 (Global Championship Anvers) !"
+        "notable": "En tête de la Ligue ! SwizzY & Pixie Champions du Monde 2026 à Anvers, Seekk validé (Bio X @Seekkfn)."
       },
       {
         "rank": 2,
@@ -1524,9 +1525,10 @@
         "tier": "Tier 1",
         "points": 94500,
         "roster": [
-          "Merstach",
+          "Vanyak3kk",
           "Snayzy",
-          "PodaSai"
+          "Kurama",
+          "Rax"
         ],
         "notable": "Au coude-à-coude sur les qualifications et Majors 2026"
       },
@@ -1541,7 +1543,8 @@
           "Darkos",
           "sereN",
           "Minori",
-          "ghonzo"
+          "ghonzo",
+          "Zangi"
         ],
         "notable": "Ultra régulier en Cash Cups et Majors"
       },
