@@ -685,21 +685,15 @@
           <div class="filter-group">
             <span class="filter-label">Sélectionner l'Année :</span>
             <select class="filter-select" id="year-select" onchange="renderRankingView()">
-              <option value="2025" selected>📅 2025 / 2026 (Saison en cours)</option>
-              <option value="2024">📅 2024 (Sacre Karmine Corp)</option>
-              <option value="2023">📅 2023 (Sacre Gentle Mates - Copenhague)</option>
-              <option value="2022">📅 2022 (Sacre Solary)</option>
-              <option value="2021">📅 2021 (Sacre TrainHard eSport)</option>
-              <option value="2020">📅 2020 (Sacre Team MCES - Andilex #1 EU)</option>
-              <option value="2019">📅 2019 (Sacre LeStream - World Cup NYC)</option>
-              <option value="2018">📅 2018 (Sacre Solary - Skirmishes)</option>
-            </select>
-
-            <span class="filter-label" style="margin-left: 1rem;">Division :</span>
-            <select class="filter-select" id="tier-filter" onchange="renderRankingView()">
-              <option value="ALL" selected>Toutes les divisions</option>
-              <option value="Tier 1">Division Élite (Tier 1)</option>
-              <option value="Tier 2">Division Challenger (Tier 2)</option>
+              <option value="2026" selected>📅 2026 (Saison en cours)</option>
+              <option value="2025">📅 2025 (Terminée — Sacre Gentle Mates)</option>
+              <option value="2024">📅 2024 (Terminée — Sacre Karmine Corp)</option>
+              <option value="2023">📅 2023 (Terminée — Sacre Gentle Mates)</option>
+              <option value="2022">📅 2022 (Terminée — Sacre Solary)</option>
+              <option value="2021">📅 2021 (Terminée — Sacre TrainHard eSport)</option>
+              <option value="2020">📅 2020 (Terminée — Sacre Team MCES)</option>
+              <option value="2019">📅 2019 (Terminée — Sacre LeStream Esport)</option>
+              <option value="2018">📅 2018 (Terminée — Sacre Solary)</option>
             </select>
           </div>
 
@@ -735,7 +729,6 @@
             <tr>
               <th style="width: 70px; text-align: center;">Rang</th>
               <th>Club</th>
-              <th>Division</th>
               <th id="th-roster-col">Roster sous contrat</th>
               <th id="th-notable-col">Faits d'armes / Titres</th>
               <th style="text-align: right;" id="th-points-col">Points PR</th>
@@ -975,21 +968,38 @@
         ]
       },
       "2025": {
-        title: "SAISON 2025 / 2026 — COURSE AU TITRE LFF EN DIRECT",
-        description: "Après le repositionnement de KC mi-2025, Gentle Mates reprend le trône avec ses cracks européens et français au coude-à-coude avec l'écurie Solary.",
+        title: "SAISON 2025 — LE SACRE GENTLE MATES (SAISON TERMINÉE)",
+        description: "Saison 2025 terminée. Après le recentrage de la Karmine Corp mi-2025, Gentle Mates est sacré Club Champion de France 2025 avec ses cracks Merstach, Snayzy, PodaSai et Malibuca, devançant Solary au terme d'une lutte acharnée.",
         champion: "Gentle Mates",
         clubs: [
-          { rank: 1, id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", points: 158000, roster: ["Merstach", "Snayzy", "PodaSai", "Malibuca"], notable: "Course en tête FNCS Majors & Globals" },
-          { rank: 2, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 132000, roster: ["sereN", "Darkos", "Minori", "ghonzo"], notable: "sereN & Darkos au top du PR Européen" },
-          { rank: 3, id: "karmine-corp", name: "Karmine Corp", tag: "KC", tier: "Tier 1", points: 65000, roster: ["Veno", "SwizzY", "Roster remanié"], notable: "Points acquis début de saison" },
-          { rank: 4, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 52000, roster: ["RZ Phoenix", "RZ Kev", "RZ Zeek"], notable: "Leader indiscuté du circuit Challenger" },
-          { rank: 5, id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 43000, roster: ["Fake Shadow", "Fake Storm"], notable: "Multiples qualifications Round 3 FNCS" },
+          { rank: 1, id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", points: 158000, roster: ["Merstach", "Snayzy", "PodaSai", "Malibuca"], notable: "Champion de France 2025 (Majors & Global)" },
+          { rank: 2, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 132000, roster: ["sereN", "Darkos", "Minori", "ghonzo"], notable: "Dauphin 2025, présence à toutes les finales" },
+          { rank: 3, id: "karmine-corp", name: "Karmine Corp", tag: "KC", tier: "Tier 1", points: 65000, roster: ["Veno", "SwizzY", "Roster remanié"], notable: "Points acquis sur la première partie de saison" },
+          { rank: 4, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 52000, roster: ["RZ Phoenix", "RZ Kev", "RZ Zeek"], notable: "Meilleur club indépendant français" },
+          { rank: 5, id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 43000, roster: ["Fake Shadow", "Fake Storm"], notable: "Multiples qualifications Round 3/4 FNCS" },
           { rank: 6, id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 38000, roster: ["VLT Kyz", "Aura"], notable: "Solide présence en Cash Cups" },
           { rank: 7, id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 34000, roster: ["ATEN Raptor", "ATEN Nox"], notable: "Régularité compétitive" },
           { rank: 8, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 31000, roster: ["BSK Rayan", "BSK Aero"], notable: "Performance régulière" },
-          { rank: 9, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 26000, roster: ["JUP Nova", "Vax"], notable: "Nouveau vivier sub-top" },
+          { rank: 9, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 26000, roster: ["JUP Nova", "Vax"], notable: "Nouveau vivier compétitif" },
           { rank: 10, id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", points: 22000, roster: ["ODS Vortex"], notable: "Engagement Victory Cups" },
           { rank: 11, id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", points: 18000, roster: ["PAPS Zek"], notable: "Soutien et présence active" }
+        ]
+      },
+      "2026": {
+        title: "SAISON 2026 — COURSE AU TITRE LFF EN DIRECT (SAISON EN COURS)",
+        description: "Classement officiel en direct pour l'année 2026. Les points s'accumulent au fil des FNCS Majors, Cash Cups et LANs de la saison en cours. Le club #1 au 31 décembre sera couronné Champion de France 2026.",
+        champion: "En cours...",
+        clubs: [
+          { rank: 1, id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", points: 94500, roster: ["Merstach", "Snayzy", "PodaSai"], notable: "En tête des qualifications et Majors 2026" },
+          { rank: 2, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 88200, roster: ["Darkos", "sereN", "Minori", "ghonzo"], notable: "Au coude-à-coude sur les Cash Cups régulières" },
+          { rank: 3, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 34100, roster: ["RZ Phoenix", "RZ Kev", "RZ Zeek"], notable: "3e place provisoire et victoires en Open" },
+          { rank: 4, id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 28400, roster: ["Fake Shadow", "Fake Storm"], notable: "Régularité Victory Cups" },
+          { rank: 5, id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 23600, roster: ["VLT Kyz", "Aura"], notable: "Multiples tops hebdomadaires" },
+          { rank: 6, id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 22100, roster: ["ATEN Raptor", "ATEN Nox"], notable: "Solide noyau en scrims et cups" },
+          { rank: 7, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 20500, roster: ["BSK Rayan", "BSK Aero"], notable: "Points acquis en Cash Cups" },
+          { rank: 8, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 16800, roster: ["JUP Nova", "JUP Vax"], notable: "Pépites en progression" },
+          { rank: 9, id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", points: 14200, roster: ["ODS Vortex", "Sky"], notable: "Tournois communautaires" },
+          { rank: 10, id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", points: 12900, roster: ["PAPS Zek", "Ray"], notable: "Présence dynamique" }
         ]
       }
     };
@@ -1140,7 +1150,6 @@
     // Rendu du Classement Annuel (historique par année)
     function renderAnnualTable() {
       const year = document.getElementById('year-select').value;
-      const tierFilter = document.getElementById('tier-filter').value;
       const search = document.getElementById('search-input').value.toLowerCase();
       const seasonData = ANNUAL_DATA[year];
 
@@ -1150,10 +1159,6 @@
       document.getElementById('context-text').innerText = seasonData.description;
 
       let list = [...seasonData.clubs];
-
-      if (tierFilter !== "ALL") {
-        list = list.filter(c => c.tier === tierFilter);
-      }
 
       if (search) {
         list = list.filter(c => {
@@ -1165,7 +1170,7 @@
 
       const tbody = document.getElementById('ranking-tbody');
 
-      list.forEach((c, idx) => {
+      list.forEach((c) => {
         const rank = c.rank;
         const rankClass = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : '';
         const trophy = rank === 1 ? '🥇 ' : rank === 2 ? '🥈 ' : rank === 3 ? '🥉 ' : '';
@@ -1189,7 +1194,6 @@
               </div>
             </div>
           </td>
-          <td><span class="badge-pill ${c.tier === 'Tier 1' ? 'gold' : ''}">${c.tier}</span></td>
           <td><div class="roster-tags">${rosterHtml}</div></td>
           <td><div class="notable-achievement">${c.notable}</div></td>
           <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">${c.points.toLocaleString('fr-FR')} pts</td>
@@ -1241,7 +1245,6 @@
               </div>
             </div>
           </td>
-          <td><span class="badge-pill ${c.tier === 'Tier 1' ? 'gold' : ''}">${c.tier}</span></td>
           <td><div class="roster-tags">${playersHtml}</div></td>
           <td><div class="notable-achievement">${c.details}</div></td>
           <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">⚡ ${c.livePr.toLocaleString('fr-FR')} pts</td>
