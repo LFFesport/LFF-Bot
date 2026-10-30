@@ -15,14 +15,14 @@ Le but ultime est de décerner à la fin de chaque année civile le prestigieux 
 
 | Année | Club Champion | Tag | Joueurs clés / Roster | Faits d'armes majeurs | Dauphin (Top 2) |
 | :---: | :--- | :---: | :--- | :--- | :--- |
-| **2018** | **Solary** | `SLY` | Kinstaar (Capitaine / Star mondiale), Hunter, mzXXD... | Domination Summer/Fall Skirmish, ultra régularité de Kinstaar & Hunter | LeStream Esport |
-| **2019** | **LeStream Esport** | `LST` | Skite (7e Solo World Cup, 10e Duo World Cup), Vato (10e Duo World Cup, 2e Katowice Royale), TheVic... | Skite 7e Solo et 10e Duo à la World Cup ($750 000+ de cashprize), Secret Skirmish | Solary |
-| **2020** | **Team MCES** | `MCES` | Andilex (Top 1 Power Ranking Europe 2020), Xsweeze (Multi-finaliste et vainqueur), PodaSai... | Andilex sacré n°1 Europe au Power Ranking, victoire FNCS Duos C2S2, 2e FNCS Trios C2S4 | Grizi Esport |
-| **2021** | **TrainHard eSport** | `TH` | Falconly (Parmi les meilleurs joueurs d'Europe), BlastR, Alpha... | Densité de points PR record en FNCS Trios, Falconly régulier au sommet continental | Grizi Esport |
-| **2022** | **Solary** | `SLY` | Floki, Clément, Chaussette... | Seule grande structure française à maintenir une présence continue en Grand Finals FNCS | Valiant |
-| **2023** | **Gentle Mates** | `M8` | Snayzy, PodaSai, Nikof (Manager / Head Coach) | Qualification et participation au FNCS Global Championship 2023 à Copenhague (Royal Arena) | Solary |
-| **2024** | **Karmine Corp** | `KC` | Malibuca (Vainqueur FNCS Major 1, star mondiale), Merstach (Vainqueur FNCS Major 1, star mondiale), Veno (Légende européenne)... | Roster galactique (Malibuca, Merstach, Veno, SwizzY) n°1 mondial au Team Power Ranking | Gentle Mates |
-| **2025** | **Gentle Mates** | `M8` | Merstach, Malibuca (selon périodes), Snayzy... | Champion de France 2025, constance au sommet des Majors et qualifications internationales | Team HavoK |
+| **2018** | **Solary** | `SLY` | Kinstaar, Hunter, mzXXD... | Domination Summer/Fall Skirmish, ultra régularité de Kinstaar & Hunter | LeStream Esport |
+| **2019** | **LeStream Esport** | `LST` | Skite, Vato, TheVic... | Skite 7e Solo et 10e Duo à la World Cup ($750 000+ de cashprize), Secret Skirmish | Solary |
+| **2020** | **Team MCES** | `MCES` | Andilex, Xsweeze, PodaSai... | Andilex sacré n°1 Europe au Power Ranking, victoire FNCS Duos C2S2, 2e FNCS Trios C2S4 | Grizi Esport |
+| **2021** | **TrainHard eSport** | `TH` | Falconly, BlastR, Alpha... | Densité de points PR record en FNCS Trios, Falconly régulier au sommet continental | Grizi Esport |
+| **2022** | **Solary** | `SLY` | Floki, Clément, BlastR... | Seule grande structure française à maintenir une présence continue en Grand Finals FNCS | Valiant |
+| **2023** | **Gentle Mates** | `M8` | Snayzy, PodaSai | Snayzy & PodaSai qualifiés au FNCS Global Championship 2023 à Copenhague (managés par Nikof, Head of Fortnite puis CEO) | Solary |
+| **2024** | **Karmine Corp** | `KC` | Malibuca, Merstach, Veno... | Roster galactique (Malibuca, Merstach, Veno, SwizzY) n°1 mondial au Team Power Ranking | Gentle Mates |
+| **2025** | **Gentle Mates** | `M8` | Merstach, Malibuca, Snayzy... | Champion de France 2025, constance au sommet des Majors et qualifications internationales | Team HavoK |
 
 ---
 
@@ -72,7 +72,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active
 - **Compte X officiel** : [@GentleMates](https://x.com/GentleMates)
 - **Liquipedia** : [Gentle Mates](https://liquipedia.net/fortnite/Gentle_Mates)
-- **Description** : Structure fondée par Gotaga, Squeezie et Brawks en 2023. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023).
+- **Description** : Structure fondée par Gotaga, Squeezie et Brawks en 2023. Nikof (ancien joueur pro Solary/Vitality) en est le Head of Fortnite puis le CEO. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023).
 
 ### Karmine Corp (`KC`)
 - **Division / Tier** : Tier 1
@@ -84,7 +84,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### HavoK by Vitality (`HvK`)
 - **Division / Tier** : Tier 1
 - **Statut** : Active (depuis le rachat du 25 avril 2026)
-- **Compte X officiel** : [@hvkggs](https://x.com/hvkggs)
+- **Compte X officiel** : [@HvKGGs](https://x.com/HvKGGs)
 - **Liquipedia** : [HavoK by Vitality](https://liquipedia.net/fortnite/HavoK_by_Vitality)
 - **Description** : Super-équipe née du rachat du 25 avril 2026 par Team Vitality. Sacrée Championne du Monde 2026 au Global Championship à Anvers avec son duo planétaire SwizzY & Pixie, complété par Wox (5e mondial 2024), Tjino, PabloWingu (champions Major 2 2025), IDrop et Seekk (vérifiés bio X).
 
@@ -100,7 +100,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active
 - **Compte X officiel** : [@SolaryTV](https://x.com/SolaryTV)
 - **Liquipedia** : [Solary](https://liquipedia.net/fortnite/Solary)
-- **Description** : Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, Chaussette, Vico, sereN, Darkos...).
+- **Description** : Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, BlastR, Vico, sereN, Darkos, XZEEVIT...).
 
 ### Team Vitality (`VIT`)
 - **Division / Tier** : Tier 1
@@ -126,7 +126,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### LeStream Esport (`LST`)
 - **Division / Tier** : Tier 1
 - **Statut** : Historical
-- **Compte X officiel** : [@LeStream](https://x.com/LeStream)
+- **Compte X officiel** : [@LeStreamEsport](https://x.com/LeStreamEsport)
 - **Liquipedia** : [LeStream Esport](https://liquipedia.net/fortnite/LeStream_Esport)
 - **Description** : Club légendaire de 2018-2019 (Skite, Vato, TheVic, Boyer). Vainqueur Winter Royale 2018, Secret Skirmish et 7e Solo / 10e Duo à la World Cup 2019.
 
@@ -154,7 +154,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Zerance (`ZRC`)
 - **Division / Tier** : Tier 1
 - **Statut** : Historique
-- **Compte X officiel** : [@TeamZerance](https://x.com/TeamZerance)
+- **Compte X officiel** : [@Zerance_esport](https://x.com/Zerance_esport)
 - **Liquipedia** : [Zerance](https://liquipedia.net/fortnite/Zerance)
 - **Description** : Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.
 
@@ -196,7 +196,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Valiant (`VLT`)
 - **Division / Tier** : Tier 2
 - **Statut** : Historique
-- **Compte X officiel** : [@ValiantClub](https://x.com/ValiantClub)
+- **Compte X officiel** : [@ValiantOfficiel](https://x.com/ValiantOfficiel)
 - **Liquipedia** : [Valiant](https://liquipedia.net/fortnite/Valiant)
 - **Description** : Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025.
 
@@ -233,7 +233,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### BK ROG Esports (`BKR`)
 - **Division / Tier** : Tier 2
 - **Statut** : Historical
-- **Compte X officiel** : [@BKROGEsports](https://x.com/BKROGEsports)
+- **Compte X officiel** : [@ASUS_BK_ROG](https://x.com/ASUS_BK_ROG)
 - **Liquipedia** : [BK ROG Esports](https://liquipedia.net/fortnite/BK_ROG_Esports)
 - **Description** : Structure française issue de la fusion ASUS ROG, engagée sur plusieurs saisons FNCS.
 

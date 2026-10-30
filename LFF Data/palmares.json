@@ -8,7 +8,7 @@
       "tag": "SLY"
     },
     "roster": [
-      "Kinstaar (Capitaine / Star mondiale)",
+      "Kinstaar",
       "Hunter",
       "mzXXD",
       "Nikof",
@@ -50,8 +50,8 @@
       "tag": "LST"
     },
     "roster": [
-      "Skite (7e Solo World Cup, 10e Duo World Cup)",
-      "Vato (10e Duo World Cup, 2e Katowice Royale)",
+      "Skite",
+      "Vato",
       "TheVic",
       "Boyer"
     ],
@@ -92,8 +92,8 @@
       "tag": "MCES"
     },
     "roster": [
-      "Andilex (Top 1 Power Ranking Europe 2020)",
-      "Xsweeze (Multi-finaliste et vainqueur)",
+      "Andilex",
+      "Xsweeze",
       "PodaSai",
       "Kouto"
     ],
@@ -134,7 +134,7 @@
       "tag": "TH"
     },
     "roster": [
-      "Falconly (Parmi les meilleurs joueurs d'Europe)",
+      "Falconly",
       "BlastR",
       "Alpha",
       "Yags",
@@ -180,9 +180,8 @@
     "roster": [
       "Floki",
       "Clément",
-      "Chaussette",
-      "BlastR (recrue)",
-      "Vico (éclosion du futur crack)"
+      "BlastR",
+      "Vico"
     ],
     "podium": [
       {
@@ -223,21 +222,20 @@
     },
     "roster": [
       "Snayzy",
-      "PodaSai",
-      "Nikof (Manager / Head Coach)"
+      "PodaSai"
     ],
     "podium": [
       {
         "rank": 1,
         "club": "Gentle Mates",
         "points_estimate": "Top 1 FR Org / Qualif Mondiale",
-        "key_factor": "Qualification et participation au FNCS Global Championship 2023 à Copenhague (Royal Arena)"
+        "key_factor": "Snayzy & PodaSai qualifiés au FNCS Global Championship 2023 à Copenhague (managés par Nikof, Head of Fortnite puis CEO)"
       },
       {
         "rank": 2,
         "club": "Solary",
         "points_estimate": "Top 2 FR Org",
-        "key_factor": "Performances monstrueuses de Vico, Floki et Chaussette en Cash Cups et Majors"
+        "key_factor": "Performances monstrueuses de Vico, Floki en Cash Cups et Majors"
       },
       {
         "rank": 3,
@@ -251,7 +249,7 @@
       "Gamers8 Riyad 2023",
       "FNCS 2023 Global Championship (Copenhague, Octobre 2023)"
     ],
-    "verdict": "Fondé en avril 2023 par Gotaga, Squeezie et Brawks, Gentle Mates réalise un exploit retentissant : emmener son duo 100% tricolore Snayzy & PodaSai au FNCS Global Championship à Copenhague dans la Royal Arena. Sur le plan de l'impact, du prestige et des points acquis en LAN mondiale, M8 s'empare du titre de club de l'année 2023."
+    "verdict": "Fondé en avril 2023 par Gotaga, Squeezie et Brawks avec Nikof en Head of Fortnite (puis CEO), Gentle Mates réalise un exploit retentissant : emmener son duo 100% tricolore Snayzy & PodaSai au FNCS Global Championship à Copenhague dans la Royal Arena. Sur le plan de l'impact, du prestige et des points acquis en LAN mondiale, M8 s'empare du titre de club de l'année 2023."
   },
   {
     "year": 2024,
@@ -262,11 +260,10 @@
       "tag": "KC"
     },
     "roster": [
-      "Malibuca (Vainqueur FNCS Major 1, star mondiale)",
-      "Merstach (Vainqueur FNCS Major 1, star mondiale)",
-      "Veno (Légende européenne)",
-      "SwizzY (Phénomène de la scène EU)",
-      "Oslo (Coach / Head of Division)"
+      "Malibuca",
+      "Merstach",
+      "Veno",
+      "SwizzY"
     ],
     "podium": [
       {
@@ -311,9 +308,9 @@
     },
     "roster": [
       "Merstach",
-      "Malibuca (selon périodes)",
+      "Malibuca",
       "Snayzy",
-      "Roster international et français d'élite"
+      "PodaSai"
     ],
     "podium": [
       {

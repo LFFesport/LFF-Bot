@@ -45,113 +45,88 @@ for c in clubs_data:
         clean = c['x_handle'].replace('@', '')
         club_x_map[c['id']] = f"https://x.com/{clean}"
 
-# Build rich player_x_map
+# Build rich, verified player_x_map
 player_x_map = {
-    "SwizzY": "https://x.com/Swizzyfn",
-    "Pixie": "https://x.com/Pixie_FN",
-    "Wox": "https://x.com/Wox",
-    "Tjino": "https://x.com/TjinoFN",
+    # Active Live Players
+    "SwizzY": "https://x.com/SwizzY281",
+    "Pixie": "https://x.com/pixiefnbr",
+    "Wox": "https://x.com/WoxSHTER",
+    "Tjino": "https://x.com/tjino9",
     "PabloWingu": "https://x.com/PabloWingu",
-    "IDrop": "https://x.com/IDropFN",
+    "IDrop": "https://x.com/idropfn",
     "Seekk": "https://x.com/Seekkfn",
     "pixx": "https://x.com/pixxfn",
-    "Darkos": "https://x.com/DarkosFN",
-    "sereN": "https://x.com/sereNFN",
+    "Darkos": "https://x.com/Darkos_ftn",
+    "sereN": "https://x.com/SereNFN4",
     "XZEEVIT": "https://x.com/xzeevit",
-    "Minori": "https://x.com/MinoriFN",
-    "ghonzo": "https://x.com/ghonzoFN",
-    "Zangi": "https://x.com/ZangiFN",
+    "Minori": "https://x.com/minorifn_",
+    "ghonzo": "https://x.com/ghonzofn",
+    "Zangi": "https://x.com/Zqngii",
     "Vanyak3kk": "https://x.com/vanyak3kk",
     "Akiira": "https://x.com/AkiiraFN",
-    "Kurama": "https://x.com/KuramaFN",
-    "Rax": "https://x.com/RaxFN",
-    "Tylio": "https://x.com/TylioFN",
-    "Kombek": "https://x.com/KombekFN",
-    "Repairs": "https://x.com/RepairsFN",
-    "S1neD": "https://x.com/S1neDFN",
+    "Kurama": "https://x.com/FtnKurama",
+    "Rax": "https://x.com/fnrax1",
+    "Tylio": "https://x.com/Tylio77",
+    "Kombek": "https://x.com/kombekfn",
+    "Repairs": "https://x.com/repairsfn",
+    "S1neD": "https://x.com/S1neDfnn",
+    "Baxo": "https://x.com/BaxoFN",
+    "Snaylyx": "https://x.com/SnaylyxFN",
+
+    # Former & Historical Players
     "Snayzy": "https://x.com/Snayzyy",
     "Clément": "https://x.com/Clement_ttt",
+    "Clement": "https://x.com/Clement_ttt",
     "Kyzen": "https://x.com/KyzenFN",
     "Rad3on": "https://x.com/Rad3on2",
     "Nxthan": "https://x.com/Nathanfnbr_",
-    "Merstach": "https://x.com/MerstachFN",
+    "Merstach": "https://x.com/merstach",
     "Malibuca": "https://x.com/MalibucaFN",
-    "Veno": "https://x.com/VenoFN",
-    "PodaSai": "https://x.com/PodaSai",
+    "Veno": "https://x.com/venofn",
+    "PodaSai": "https://x.com/PodaSaiFN",
     "Kinstaar": "https://x.com/Kinstaar92",
-    "Hunter": "https://x.com/SolaryHunter",
+    "Hunter": "https://x.com/SLY_hunterr",
     "Nikof": "https://x.com/Nikof",
     "Airwaks": "https://x.com/Airwaks",
-    "Skite": "https://x.com/Skite",
-    "Vato": "https://x.com/Vato_",
-    "Nayte": "https://x.com/NayteFN",
-    "4zr": "https://x.com/4zr",
-    "Andilex": "https://x.com/Andilex",
+    "Skite": "https://x.com/RxTSkite",
+    "Vato": "https://x.com/Vatato",
+    "Nayte": "https://x.com/nayteFN",
+    "4zr": "https://x.com/oh4zr",
+    "Andilex": "https://x.com/AndilexFN",
     "BadSniper": "https://x.com/BadSniper",
     "Teeqzy": "https://x.com/Teeqzy_",
     "Gotaga": "https://x.com/Gotaga",
     "WaZz": "https://x.com/WaZz",
     "ZetFar": "https://x.com/ZetFar",
     "Decyptos": "https://x.com/Decyptos",
-    "Floki": "https://x.com/FlokiiFN",
-    "BlastR": "https://x.com/BlastR_FN",
-    "Alpha": "https://x.com/AlphaFN",
-    "Falconly": "https://x.com/Falconly_",
-    "Yags": "https://x.com/Yagsfn",
-    "Vico": "https://x.com/Vico_FN",
+    "Floki": "https://x.com/Flokito_",
+    "BlastR": "https://x.com/blastrgg",
+    "Falconly": "https://x.com/FalconIyy",
+    "Vico": "https://x.com/Vicotryona",
     "Robabz": "https://x.com/Robabz",
     "Keolys": "https://x.com/Keolys",
     "Deadra": "https://x.com/Deadra",
     "DRG": "https://x.com/DRG_FN",
     "Flyzer": "https://x.com/Flyzer",
-    "Shaykos": "https://x.com/Shaykos",
-    "TheVic": "https://x.com/TheVic_",
-    "Oslo": "https://x.com/Oslo_FN",
-    "Aarnax": "https://x.com/Aarnax",
-    "Artskill": "https://x.com/ArtskillFN",
-    "Kouto": "https://x.com/KoutoFN",
+    "Shaykos": "https://x.com/Shaykozz",
+    "TheVic": "https://x.com/TheVic_c",
+    "Oslo": "https://x.com/GTOslo",
+    "Aarnax": "https://x.com/Aarnaxx",
+    "Kouto": "https://x.com/KoutoFTN",
     "Jbzz": "https://x.com/Jbzz",
     "Mickalow": "https://x.com/Mickalow",
-    "Bresil": "https://x.com/BresilFN",
     "Maxalibur": "https://x.com/Maxalibur",
     "Boyer": "https://x.com/Boyerxd",
     "Chap": "https://x.com/Chap_FN",
-    "Netox": "https://x.com/NetoxFN",
-    "Kyuubi": "https://x.com/KyuubiFN",
-    "Shay": "https://x.com/ShayFN",
-    "Shad": "https://x.com/ShadFN",
-    "Spk": "https://x.com/SpkFN",
-    "Storm": "https://x.com/StormFN",
-    "Vax": "https://x.com/VaxFN",
-    "Ray": "https://x.com/RayFN",
-    "Sky": "https://x.com/SkyFN",
-    "Zack": "https://x.com/ZackFN",
-    "Dark": "https://x.com/DarkFN",
-    "Kaido": "https://x.com/KaidoFN",
-    "Keoz": "https://x.com/KeozFN",
-    "Kirwa": "https://x.com/KirwaFN",
-    "Krono": "https://x.com/KronoFN",
-    "Lentille": "https://x.com/LentilleFN",
-    "M11Z": "https://x.com/M11Z",
-    "M1key": "https://x.com/M1keyFN",
-    "MawkS": "https://x.com/MawkSFN",
-    "Maylee": "https://x.com/MayleeFN",
-    "Neo": "https://x.com/NeoFN",
-    "Nex": "https://x.com/NexFN",
+    "EMXXRR": "https://x.com/EMXXRR",
+    "Magifection": "https://x.com/Magifection",
     "NokSs": "https://x.com/NokSs",
-    "Nyx": "https://x.com/NyxFN",
-    "Orkh": "https://x.com/OrkhFN",
-    "Ovni": "https://x.com/OvniFN",
-    "Seth": "https://x.com/SethFN",
-    "Shaax": "https://x.com/ShaaxFN",
     "Skydeun": "https://x.com/Skydeun",
-    "Skyro": "https://x.com/SkyroFN",
-    "Sops": "https://x.com/SopsFN",
-    "Strik": "https://x.com/StrikFN",
     "Taipouz": "https://x.com/Taipouz",
     "Xsweeze": "https://x.com/xsweeze",
-    "YZY": "https://x.com/YZYFN",
     "mzXXD": "https://x.com/mzXXD",
+
+    # Community / Semi-pro teams fallback to team pages
     "RZ Phoenix": "https://x.com/RealityZoneFR",
     "RZ Kev": "https://x.com/RealityZoneFR",
     "RZ Zeek": "https://x.com/RealityZoneFR",
@@ -169,18 +144,18 @@ player_x_map = {
     "PAPS Ray": "https://x.com/PapsEsport"
 }
 
-# Live data with x URLs, Reality Zoned, and clean player pseudos (NO parenthetical info)
+# Live data with verified x URLs, Reality Zoned, and clean player pseudos (NO parenthetical info)
 live_data = [
   {
     "rank": 1, "id": "havok-by-vitality", "name": "HavoK by Vitality", "tag": "HvK", "tier": "Tier 1", "livePr": 169500, "trend": "+1",
     "xUrl": "https://x.com/HvKGGs", "xHandle": "@HvKGGs",
     "players": [
-      { "name": "SwizzY", "pr": 54000, "country": "🌍", "xHandle": "@Swizzyfn", "xUrl": "https://x.com/Swizzyfn" },
-      { "name": "Wox", "pr": 48000, "country": "🇸🇪", "xHandle": "@Wox", "xUrl": "https://x.com/Wox" },
-      { "name": "Pixie", "pr": 38000, "country": "🇸🇪", "xHandle": "@Pixie_FN", "xUrl": "https://x.com/Pixie_FN" },
-      { "name": "Tjino", "pr": 29500, "country": "🇩🇰", "xHandle": "@TjinoFN", "xUrl": "https://x.com/TjinoFN" },
+      { "name": "SwizzY", "pr": 54000, "country": "🌍", "xHandle": "@SwizzY281", "xUrl": "https://x.com/SwizzY281" },
+      { "name": "Wox", "pr": 48000, "country": "🇸🇪", "xHandle": "@WoxSHTER", "xUrl": "https://x.com/WoxSHTER" },
+      { "name": "Pixie", "pr": 38000, "country": "🇸🇪", "xHandle": "@pixiefnbr", "xUrl": "https://x.com/pixiefnbr" },
+      { "name": "Tjino", "pr": 29500, "country": "🇩🇰", "xHandle": "@tjino9", "xUrl": "https://x.com/tjino9" },
       { "name": "PabloWingu", "pr": 27000, "country": "🇩🇰", "xHandle": "@PabloWingu", "xUrl": "https://x.com/PabloWingu" },
-      { "name": "IDrop", "pr": 26000, "country": "🇳🇴", "xHandle": "@IDropFN", "xUrl": "https://x.com/IDropFN" },
+      { "name": "IDrop", "pr": 26000, "country": "🇳🇴", "xHandle": "@idropfn", "xUrl": "https://x.com/idropfn" },
       { "name": "Seekk", "pr": 14500, "country": "🇫🇷", "xHandle": "@Seekkfn", "xUrl": "https://x.com/Seekkfn" }
     ],
     "details": "Armada n°1 d'Europe sacrée Championne du Monde 2026 (Anvers) avec SwizzY & Pixie, complétée par Wox, Tjino, PabloWingu, IDrop et Seekk (vérifiés bio X)."
@@ -189,14 +164,14 @@ live_data = [
     "rank": 2, "id": "solary", "name": "Solary", "tag": "SLY", "tier": "Tier 1", "livePr": 106000, "trend": "+1",
     "xUrl": "https://x.com/SolaryTV", "xHandle": "@SolaryTV",
     "players": [
-      { "name": "Darkos", "pr": 31000, "country": "🇫🇷", "xHandle": "@DarkosFN", "xUrl": "https://x.com/DarkosFN" },
-      { "name": "sereN", "pr": 29000, "country": "🇵🇱", "xHandle": "@sereNFN", "xUrl": "https://x.com/sereNFN" },
+      { "name": "Darkos", "pr": 31000, "country": "🇫🇷", "xHandle": "@Darkos_ftn", "xUrl": "https://x.com/Darkos_ftn" },
+      { "name": "sereN", "pr": 29000, "country": "🇵🇱", "xHandle": "@SereNFN4", "xUrl": "https://x.com/SereNFN4" },
       { "name": "XZEEVIT", "pr": 24000, "country": "🇨🇴", "xHandle": "@xzeevit", "xUrl": "https://x.com/xzeevit" },
-      { "name": "Minori", "pr": 22000, "country": "🇨🇭", "xHandle": "@MinoriFN", "xUrl": "https://x.com/MinoriFN" },
-      { "name": "ghonzo", "pr": 18000, "country": "🇳🇴", "xHandle": "@ghonzoFN", "xUrl": "https://x.com/ghonzoFN" },
-      { "name": "Zangi", "pr": 16000, "country": "🇮🇹", "xHandle": "@ZangiFN", "xUrl": "https://x.com/ZangiFN" }
+      { "name": "Minori", "pr": 22000, "country": "🇨🇭", "xHandle": "@minorifn_", "xUrl": "https://x.com/minorifn_" },
+      { "name": "ghonzo", "pr": 18000, "country": "🇳🇴", "xHandle": "@ghonzofn", "xUrl": "https://x.com/ghonzofn" },
+      { "name": "Zangi", "pr": 16000, "country": "🇮🇹", "xHandle": "@Zqngii", "xUrl": "https://x.com/Zqngii" }
     ],
-    "details": "Effectif renforcé par la signature officielle de XZEEVIT le 3 octobre 2026 aux côtés de Darkos, sereN, Minori, ghonzo et Zangi."
+    "details": "Effectif renforcé par la signature officielle de XZEEVIT le 3 octobre 2026 aux côtés de Darkos, sereN, Minori, ghonzo et Zangi (Head of Fortnite : Revenja)."
   },
   {
     "rank": 3, "id": "gentle-mates", "name": "Gentle Mates", "tag": "M8", "tier": "Tier 1", "livePr": 95000, "trend": "-1",
@@ -204,19 +179,19 @@ live_data = [
     "players": [
       { "name": "Vanyak3kk", "pr": 28000, "country": "🇺🇦", "xHandle": "@vanyak3kk", "xUrl": "https://x.com/vanyak3kk" },
       { "name": "Akiira", "pr": 24000, "country": "🇫🇷", "xHandle": "@AkiiraFN", "xUrl": "https://x.com/AkiiraFN" },
-      { "name": "Kurama", "pr": 22000, "country": "🇫🇷", "xHandle": "@KuramaFN", "xUrl": "https://x.com/KuramaFN" },
-      { "name": "Rax", "pr": 21000, "country": "🌍", "xHandle": "@RaxFN", "xUrl": "https://x.com/RaxFN" }
+      { "name": "Kurama", "pr": 22000, "country": "🇫🇷", "xHandle": "@FtnKurama", "xUrl": "https://x.com/FtnKurama" },
+      { "name": "Rax", "pr": 21000, "country": "🌍", "xHandle": "@fnrax1", "xUrl": "https://x.com/fnrax1" }
     ],
-    "details": "Roster officiel Gentle Mates 2026 avec le duo Kurama & Akiira, Vanyak3kk et Rax (Snayzy n'est plus chez M8 depuis fin 2024)."
+    "details": "Roster officiel Gentle Mates 2026 avec le duo Kurama & Akiira, Vanyak3kk et Rax (managé par Nikof, ancien pro devenu Head of Fortnite puis CEO de Gentle Mates)."
   },
   {
     "rank": 4, "id": "gameward", "name": "GameWard", "tag": "GW", "tier": "Tier 1", "livePr": 58500, "trend": "=",
     "xUrl": "https://x.com/GameWardTeam", "xHandle": "@GameWardTeam",
     "players": [
-      { "name": "Tylio", "pr": 16500, "country": "🇫🇷", "xHandle": "@TylioFN", "xUrl": "https://x.com/TylioFN" },
-      { "name": "Kombek", "pr": 15200, "country": "🌍", "xHandle": "@KombekFN", "xUrl": "https://x.com/KombekFN" },
-      { "name": "Repairs", "pr": 14000, "country": "🌍", "xHandle": "@RepairsFN", "xUrl": "https://x.com/RepairsFN" },
-      { "name": "S1neD", "pr": 12800, "country": "🌍", "xHandle": "@S1neDFN", "xUrl": "https://x.com/S1neDFN" }
+      { "name": "Tylio", "pr": 16500, "country": "🇫🇷", "xHandle": "@Tylio77", "xUrl": "https://x.com/Tylio77" },
+      { "name": "Kombek", "pr": 15200, "country": "🌍", "xHandle": "@kombekfn", "xUrl": "https://x.com/kombekfn" },
+      { "name": "Repairs", "pr": 14000, "country": "🌍", "xHandle": "@repairsfn", "xUrl": "https://x.com/repairsfn" },
+      { "name": "S1neD", "pr": 12800, "country": "🌍", "xHandle": "@S1neDfnn", "xUrl": "https://x.com/S1neDfnn" }
     ],
     "details": "Club historique actif sans interruption depuis 2018 avec Tylio, Kombek, Repairs, S1neD sous le coach Aarnax."
   },
@@ -286,25 +261,27 @@ live_data = [
   }
 ]
 
-# Transfers with clean pseudos (NO parenthetical info) and clickable X profiles
+# Transfers with clean pseudos and clickable verified X profiles
 transfers_data = [
   { "date": "2026-10-15", "player": "Seekk 🇫🇷", "playerXUrl": "https://x.com/Seekkfn", "from": "Free Agent", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival / Bio X @Seekkfn", "source": "Bio X @Seekkfn" },
-  { "date": "2026-10-03", "player": "XZEEVIT 🇨🇴", "playerXUrl": "https://x.com/xzeevit", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival / Recrue", "source": "@SolaryTV / @xzeevit" },
-  { "date": "2026-09-22", "player": "Rax 🌍", "playerXUrl": "https://x.com/RaxFN", "from": "Free Agent", "to": "Gentle Mates", "toXUrl": "https://x.com/GentleMates", "type": "Arrival", "source": "@GentleMates" },
+  { "date": "2026-10-03", "player": "XZEEVIT 🇨🇴", "playerXUrl": "https://x.com/xzeevit", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival / Recrue", "source": "@SolaryTV / @xzeevit / @Revenja_" },
+  { "date": "2026-09-22", "player": "Rax 🌍", "playerXUrl": "https://x.com/fnrax1", "from": "Free Agent", "to": "Gentle Mates", "toXUrl": "https://x.com/GentleMates", "type": "Arrival", "source": "@GentleMates" },
   { "date": "2026-09-01", "player": "Rad3on 🇫🇷", "playerXUrl": "https://x.com/Rad3on2", "from": "HavoK by Vitality", "to": "Free Agent", "toXUrl": "https://x.com", "type": "Départ / Vérifié X", "source": "Bio X @Rad3on2" },
   { "date": "2026-09-01", "player": "Nxthan 🇬🇧", "playerXUrl": "https://x.com/Nathanfnbr_", "from": "HavoK by Vitality", "to": "Free Agent", "toXUrl": "https://x.com", "type": "Départ / Vérifié X", "source": "Bio X @Nathanfnbr_" },
-  { "date": "2026-07-18", "player": "sereN 🇵🇱 & Zangi 🇮🇹", "playerXUrl": "https://x.com/sereNFN", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival", "source": "@SolaryTV" },
-  { "date": "2026-04-25", "player": "SwizzY 🌍", "playerXUrl": "https://x.com/Swizzyfn", "from": "Team HavoK", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Rachat / Fusion", "source": "vitality.gg / @HvKGGs" },
-  { "date": "2026-04-25", "player": "Darkos 🇫🇷 & Minori 🇨🇭", "playerXUrl": "https://x.com/DarkosFN", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival", "source": "@SolaryTV" },
+  { "date": "2026-07-18", "player": "sereN 🇵🇱 & Zangi 🇮🇹", "playerXUrl": "https://x.com/SereNFN4", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival", "source": "@SolaryTV" },
+  { "date": "2026-04-25", "player": "SwizzY 🌍", "playerXUrl": "https://x.com/SwizzY281", "from": "Team HavoK", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Rachat / Fusion", "source": "vitality.gg / @HvKGGs" },
+  { "date": "2026-04-25", "player": "Darkos 🇫🇷 & Minori 🇨🇭", "playerXUrl": "https://x.com/Darkos_ftn", "from": "Free Agent", "to": "Solary", "toXUrl": "https://x.com/SolaryTV", "type": "Arrival", "source": "@SolaryTV" },
   { "date": "2026-04-25", "player": "Rachat & Fusion 🤝", "playerXUrl": "https://x.com/HvKGGs", "from": "Team HavoK & Vitality", "to": "HavoK by Vitality", "toXUrl": "https://x.com/HvKGGs", "type": "Rachat / Fusion", "source": "vitality.gg / @TeamVitality / @HvKGGs" },
-  { "date": "2026-03-30", "player": "Kurama 🇫🇷 & Akiira 🇫🇷", "playerXUrl": "https://x.com/KuramaFN", "from": "Free Agent / Solary", "to": "Gentle Mates", "toXUrl": "https://x.com/GentleMates", "type": "Arrival", "source": "@GentleMates" },
+  { "date": "2026-03-30", "player": "Kurama 🇫🇷 & Akiira 🇫🇷", "playerXUrl": "https://x.com/FtnKurama", "from": "Free Agent / Solary", "to": "Gentle Mates", "toXUrl": "https://x.com/GentleMates", "type": "Arrival", "source": "@GentleMates" },
   { "date": "2025-12-07", "player": "Clément 🇫🇷", "playerXUrl": "https://x.com/Clement_ttt", "from": "Galions", "to": "Free Agent", "toXUrl": "https://x.com", "type": "Fermeture Division", "source": "Bio X @Clement_ttt" },
   { "date": "2025-12-07", "player": "Kyzen 🇫🇷", "playerXUrl": "https://x.com/KyzenFN", "from": "Galions", "to": "Retraite", "toXUrl": "https://x.com", "type": "Retraite Compétitive", "source": "Bio X @KyzenFN" },
-  { "date": "2025-05-02", "player": "SwizzY 🌍", "playerXUrl": "https://x.com/Swizzyfn", "from": "Karmine Corp", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" },
-  { "date": "2025-04-01", "player": "Tjino 🇩🇰 & PabloWingu 🇩🇰", "playerXUrl": "https://x.com/TjinoFN", "from": "Free Agent", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" },
-  { "date": "2025-01-10", "player": "S1neD 🌍", "playerXUrl": "https://x.com/S1neDFN", "from": "Free Agent", "to": "GameWard", "toXUrl": "https://x.com/GameWardTeam", "type": "Arrival", "source": "@GameWardTeam" },
+  { "date": "2025-05-02", "player": "SwizzY 🌍", "playerXUrl": "https://x.com/SwizzY281", "from": "Karmine Corp", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" },
+  { "date": "2025-04-01", "player": "Tjino 🇩🇰 & PabloWingu 🇩🇰", "playerXUrl": "https://x.com/tjino9", "from": "Free Agent", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" },
+  { "date": "2025-01-10", "player": "S1neD 🌍", "playerXUrl": "https://x.com/S1neDfnn", "from": "Free Agent", "to": "GameWard", "toXUrl": "https://x.com/GameWardTeam", "type": "Arrival", "source": "@GameWardTeam" },
   { "date": "2024-12-20", "player": "Snayzy 🇫🇷", "playerXUrl": "https://x.com/Snayzyy", "from": "Gentle Mates", "to": "Free Agent", "toXUrl": "https://x.com", "type": "Départ / Fin de contrat", "source": "Bio X @Snayzyy" },
-  { "date": "2024-08-28", "player": "Wox 🇸🇪", "playerXUrl": "https://x.com/Wox", "from": "Free Agent", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" }
+  { "date": "2024-08-28", "player": "Wox 🇸🇪", "playerXUrl": "https://x.com/WoxSHTER", "from": "Free Agent", "to": "Team HavoK", "toXUrl": "https://x.com/HvKGGs", "type": "Arrival", "source": "@HvKGGs" },
+  { "date": "2024-05-15", "player": "Veno 🇬🇧", "playerXUrl": "https://x.com/venofn", "from": "Team Falcons", "to": "Karmine Corp", "toXUrl": "https://x.com/KarmineCorp", "type": "Arrival", "source": "@FortniteFraActu" },
+  { "date": "2024-05-09", "player": "Malibuca 🇷🇺", "playerXUrl": "https://x.com/MalibucaFN", "from": "Twisted Minds", "to": "Karmine Corp", "toXUrl": "https://x.com/KarmineCorp", "type": "Arrival", "source": "@FortniteFraActu" }
 ]
 
 # Clubs directory list with xUrl
@@ -408,9 +385,7 @@ hero_start = html.find('<!-- EXPLICATION & SWITCHER DU MODE DE CLASSEMENT -->')
 if hero_start != -1 and hero_start < html.find('<main>'):
     hero_end = html.find('<!-- MAIN VIEW -->')
     hero_block = html[hero_start:hero_end].strip()
-    # Remove from outside
     html = html[:hero_start] + html[hero_end:]
-    # Insert right inside <div id="tab-rankings" class="tab-content active">
     target_tab_rankings = '<div id="tab-rankings" class="tab-content active">'
     insert_pos = html.find(target_tab_rankings) + len(target_tab_rankings)
     html = html[:insert_pos] + '\n\n      ' + hero_block + '\n' + html[insert_pos:]
@@ -562,7 +537,6 @@ idx_palmares_func = html.find('function renderPalmares() {')
 
 if idx_annual_func != -1 and idx_palmares_func != -1:
     html = html[:idx_annual_func] + full_render_tables.strip() + '\n\n    ' + html[idx_palmares_func:]
-
 
 # Update renderPalmares with interactive links
 new_render_palmares = """    function renderPalmares() {
