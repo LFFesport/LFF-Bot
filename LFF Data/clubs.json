@@ -179,7 +179,7 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Zerance",
     "x_handle": "@Zerance_esport",
     "description": "Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.",
-    "x_url": "https://x.com/Zerance_esport"
+    "x_url": "https://x.com/TeamZerance"
   },
   {
     "id": "galions",
@@ -277,7 +277,7 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Reality_Zone",
     "x_handle": "@RealityZoneFR",
     "description": "Club compétitif français incontournable sur les tournois communautaires, Console et PC (Cash Cups, FNCS Heats).",
-    "x_url": "https://x.com/RealityZoneFR"
+    "x_url": "https://x.com/RealityZoned"
   },
   {
     "id": "team-bsk",
@@ -430,7 +430,7 @@
     "logo_path": "../LFF Logos/Logo Pandaria (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/Pandaria_Esport",
     "x_handle": "@PandariaEsport",
-    "x_url": "https://x.com/PandariaEsport",
+    "x_url": "https://x.com/EsportPandaria",
     "description": "Club français compétitif présent au Power Ranking Européen Fandom PC, pépinière reconnue de talents francophones."
   },
   {
@@ -444,7 +444,7 @@
     "logo_path": "../LFF Logos/Logo Pandore (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/Pandore_Esport",
     "x_handle": "@PandoreEsport",
-    "x_url": "https://x.com/PandoreEsport",
+    "x_url": "https://x.com/Pandore_esport",
     "description": "Structure compétitive française classée dans le Top 50 européen PC des Power Rankings d'équipes."
   },
   {
@@ -458,7 +458,7 @@
     "logo_path": "../LFF Logos/Logo Fly Again (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/Fly_Again",
     "x_handle": "@FlyAgainEsport",
-    "x_url": "https://x.com/FlyAgainEsport",
+    "x_url": "https://x.com/FlyAgainTeam",
     "description": "Écurie française engagée sur les tournois officiels FNCS et les Cash Cups européennes (Top 45 Fandom EU)."
   },
   {
@@ -472,7 +472,7 @@
     "logo_path": "../LFF Logos/Logo X6 (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/X6_E-sport",
     "x_handle": "@X6_Esport",
-    "x_url": "https://x.com/X6_Esport",
+    "x_url": "https://x.com/X6_Esport_eu",
     "description": "Structure francophone active sur le circuit compétitif Fortnite, ancienne équipe formatrice de Nxthan."
   },
   {
@@ -486,7 +486,7 @@
     "logo_path": "../LFF Logos/Logo MGA (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/MGA_eSport",
     "x_handle": "@MGAesport",
-    "x_url": "https://x.com/MGAesport",
+    "x_url": "https://x.com/mgaesport",
     "description": "Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois."
   },
   {
@@ -500,7 +500,7 @@
     "logo_path": "../LFF Logos/Logo K13 (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/K13_Esport",
     "x_handle": "@K13Esport",
-    "x_url": "https://x.com/K13Esport",
+    "x_url": "https://x.com/K13esport",
     "description": "Organisation française très active sur le circuit compétitif européen, classée au Top 15 Fandom PC Europe."
   },
   {
@@ -514,7 +514,7 @@
     "logo_path": null,
     "liquipedia_url": "https://liquipedia.net/fortnite/Bastille_Legacy",
     "x_handle": "@BastilleLegacy",
-    "x_url": "https://x.com/search?q=Bastille+Legacy+fortnite",
+    "x_url": "https://x.com/BastilleLegacy",
     "description": "Club pionnier de la scène française Fortnite début 2018, ayant révélé Kinstaar, mzXXD et Hunter avant l'ère Solary."
   },
   {
@@ -528,7 +528,133 @@
     "logo_path": null,
     "liquipedia_url": "https://liquipedia.net/fortnite/BeGenius_ESC",
     "x_handle": "@beGeniusESC",
-    "x_url": "https://x.com/search?q=beGenius+ESC+fortnite",
+    "x_url": "https://x.com/beGeniusESC",
     "description": "Structure historique montpelliéraine ayant accueilli les débuts compétitifs de Blaxou et Nikof en 2018."
+  },
+  {
+    "id": "xp42-esports",
+    "name": "XP42 Esports",
+    "tag": "XP42",
+    "founded": 2024,
+    "x_url": "https://x.com/XP42FN",
+    "description": "Organisation européenne/française de haut niveau Fortnite, classée dans le Top 5 européen sur le Power Rankings Fandom avec plus de 57 000 points.",
+    "active": true
+  },
+  {
+    "id": "1p-esport",
+    "name": "1P Esport",
+    "tag": "1P",
+    "founded": 2025,
+    "x_url": "https://x.com/oneprodige",
+    "description": "Structure e-sport française (One Prodige) dédiée à la haute performance compétitive sur Fortnite (FNCS, Top 20 européen sur Fandom et répertoriée sur Fortnite Tracker).",
+    "active": true
+  },
+  {
+    "id": "flc-clan",
+    "name": "FLC Clan",
+    "tag": "FLC",
+    "founded": 2023,
+    "x_url": "https://x.com/FLCclan_",
+    "description": "Organisation compétitive française figurant dans le Top 25 européen sur le Power Rankings Fortnite Fandom.",
+    "active": true
+  },
+  {
+    "id": "detect-esports",
+    "name": "Detect Esports",
+    "tag": "DTC",
+    "founded": 2023,
+    "x_url": "https://x.com/DetectEsportsEU",
+    "description": "Structure européenne et française active sur la scène compétitive Fortnite (Top 25 Power Rankings Fandom).",
+    "active": true
+  },
+  {
+    "id": "wooka-esport",
+    "name": "Wooka Esport",
+    "tag": "WOOKA",
+    "founded": 2022,
+    "x_url": "https://x.com/WookaEsport",
+    "description": "Club d'esport français fondé en 2022 et répertorié au classement officiel européen Fandom des équipes Fortnite.",
+    "active": true
+  },
+  {
+    "id": "nto-corp",
+    "name": "NTO Corp",
+    "tag": "NTO",
+    "founded": 2023,
+    "x_url": "https://x.com/NTOcorp",
+    "description": "Club e-sport français actif sur la compétition Fortnite et présent dans les classements officiels Fandom.",
+    "active": true
+  },
+  {
+    "id": "lynox-esport",
+    "name": "Lynox Esport",
+    "tag": "LYX",
+    "founded": 2023,
+    "x_url": "https://x.com/LynoXEU",
+    "description": "Organisation française répertoriée dans le Power Ranking Fandom Fortnite Europe.",
+    "active": true
+  },
+  {
+    "id": "the-one",
+    "name": "The One",
+    "tag": "ONE",
+    "founded": 2023,
+    "x_url": "https://x.com/TheOneHQ",
+    "description": "Organisation e-sport basée en France et en Europe, active sur la scène compétitive Fortnite.",
+    "active": true
+  },
+  {
+    "id": "poyo-esports",
+    "name": "Poyo Esports",
+    "tag": "POYO",
+    "founded": 2023,
+    "x_url": "https://x.com/PoyoEsports",
+    "description": "Structure française organisatrice et compétitive sur Fortnite présente au classement européen Fandom.",
+    "active": true
+  },
+  {
+    "id": "natrix-esports",
+    "name": "Natrix Esports",
+    "tag": "NTX",
+    "founded": 2023,
+    "x_url": "https://x.com/NatrixEsports",
+    "description": "Équipe compétitive francophone présente dans le classement officiel Fandom Fortnite Europe.",
+    "active": true
+  },
+  {
+    "id": "team-bds",
+    "name": "Team BDS",
+    "tag": "BDS",
+    "founded": 2019,
+    "x_url": "https://x.com/BDS_esport",
+    "description": "Structure e-sport majeure francophone ayant aligné des équipes de premier plan sur Fortnite compétitif.",
+    "active": false
+  },
+  {
+    "id": "cooler-esport",
+    "name": "Cooler Esport",
+    "tag": "COL",
+    "founded": 2018,
+    "x_url": "https://x.com/CoolerEsport",
+    "description": "Structure e-sport française historique sur Fortnite sous les couleurs de laquelle Aqua et Nyhrox ont remporté la Fortnite World Cup Duo 2019.",
+    "active": false
+  },
+  {
+    "id": "gentside-esports",
+    "name": "Gentside Esports Club",
+    "tag": "GTS",
+    "founded": 2018,
+    "x_url": "https://x.com/GentsideEsports",
+    "description": "Équipe française pionnière des débuts de la compétition Fortnite (2018), ayant compté des figures comme TheVic et Madzen.",
+    "active": false
+  },
+  {
+    "id": "dualmedia-esports",
+    "name": "DualMedia Esports",
+    "tag": "DM",
+    "founded": 2018,
+    "x_url": "https://x.com/Dual_Media",
+    "description": "Structure e-sport française historique présente sur les tournois LAN et la compétition Fortnite.",
+    "active": false
   }
 ]
