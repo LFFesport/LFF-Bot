@@ -3,43 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ligue Française de Fortnite (LFF) - Power Ranking Officiel des Clubs</title>
+  <title>Ligue Française de Fortnite (LFF) — Classements & Power Ranking</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;700&family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg-dark: #0a0714;
-      --bg-card: rgba(22, 16, 43, 0.75);
-      --bg-card-hover: rgba(33, 23, 64, 0.9);
+      --bg-card: rgba(22, 16, 43, 0.8);
+      --bg-card-hover: rgba(33, 23, 64, 0.95);
       --purple-primary: #9333ea;
       --purple-accent: #a855f7;
-      --purple-glow: rgba(147, 51, 234, 0.35);
+      --purple-glow: rgba(147, 51, 234, 0.4);
       --purple-dark: #581c87;
       --gold: #facc15;
-      --gold-glow: rgba(250, 204, 21, 0.3);
+      --gold-glow: rgba(250, 204, 21, 0.35);
       --silver: #cbd5e1;
       --bronze: #f97316;
       --text-white: #f8fafc;
       --text-dim: #94a3b8;
       --border: rgba(168, 85, 247, 0.25);
-      --border-light: rgba(255, 255, 255, 0.1);
+      --border-light: rgba(255, 255, 255, 0.08);
       --green: #22c55e;
       --red: #ef4444;
+      --blue-accent: #38bdf8;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       background-color: var(--bg-dark);
       background-image: 
-        radial-gradient(circle at 10% 20%, rgba(147, 51, 234, 0.15) 0%, transparent 40%),
-        radial-gradient(circle at 90% 80%, rgba(88, 28, 135, 0.18) 0%, transparent 45%),
-        linear-gradient(to bottom, rgba(10, 7, 20, 0.85), #0a0714),
+        radial-gradient(circle at 10% 20%, rgba(147, 51, 234, 0.18) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(88, 28, 135, 0.22) 0%, transparent 45%),
+        linear-gradient(to bottom, rgba(10, 7, 20, 0.88), #0a0714),
         url('../LFF Photos/Stade de france ftn vu du haut.jpg');
       background-size: cover;
       background-attachment: fixed;
@@ -52,8 +49,8 @@
 
     header {
       border-bottom: 1px solid var(--border);
-      backdrop-filter: blur(12px);
-      background: rgba(10, 7, 20, 0.85);
+      backdrop-filter: blur(14px);
+      background: rgba(10, 7, 20, 0.9);
       position: sticky;
       top: 0;
       z-index: 100;
@@ -61,7 +58,7 @@
     }
 
     .nav-container {
-      max-width: 1350px;
+      max-width: 1400px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
@@ -86,7 +83,7 @@
 
     .brand-title {
       font-family: 'Teko', sans-serif;
-      font-size: 2.1rem;
+      font-size: 2.2rem;
       letter-spacing: 1px;
       line-height: 1;
       text-transform: uppercase;
@@ -138,124 +135,93 @@
       box-shadow: 0 0 14px var(--purple-glow);
     }
 
+    /* EXPLANATION HERO : ANNUEL VS LIVE */
     .hero-banner {
-      max-width: 1350px;
-      margin: 2rem auto 1.5rem auto;
+      max-width: 1400px;
+      margin: 1.5rem auto 1.5rem auto;
       padding: 0 1.5rem;
     }
 
-    .hero-card {
-      background: linear-gradient(135deg, rgba(88, 28, 135, 0.4) 0%, rgba(22, 16, 43, 0.7) 100%);
+    .modes-comparison-card {
+      background: linear-gradient(135deg, rgba(88, 28, 135, 0.45) 0%, rgba(22, 16, 43, 0.85) 100%);
       border: 1px solid var(--border);
       border-radius: 20px;
-      padding: 2rem 2.5rem;
-      backdrop-filter: blur(10px);
+      padding: 1.75rem 2rem;
+      backdrop-filter: blur(12px);
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1.5rem;
     }
 
-    .hero-text h1 {
-      font-family: 'Teko', sans-serif;
-      font-size: 2.8rem;
+    .modes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .mode-box {
+      background: rgba(10, 7, 20, 0.65);
+      border-radius: 14px;
+      padding: 1.25rem 1.5rem;
+      border: 1px solid var(--border-light);
+      position: relative;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .mode-box:hover, .mode-box.selected {
+      border-color: var(--purple-accent);
+      background: rgba(33, 23, 64, 0.85);
+      box-shadow: 0 0 20px var(--purple-glow);
+    }
+
+    .mode-box.selected::before {
+      content: 'AFFICHAGE ACTIF';
+      position: absolute;
+      top: -10px;
+      right: 15px;
+      background: var(--purple-primary);
+      color: white;
+      font-size: 0.65rem;
+      font-weight: 800;
       letter-spacing: 1px;
-      line-height: 1.1;
-      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+
+    .mode-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
       margin-bottom: 0.5rem;
     }
 
-    .hero-text p {
-      color: var(--text-dim);
-      font-size: 0.95rem;
-      max-width: 680px;
-    }
-
-    .hero-badges {
-      display: flex;
-      gap: 0.75rem;
-      margin-top: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .badge-pill {
-      background: rgba(147, 51, 234, 0.2);
-      border: 1px solid var(--purple-accent);
-      color: #e9d5ff;
-      font-size: 0.75rem;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 20px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .badge-pill.gold {
-      background: rgba(250, 204, 21, 0.15);
-      border-color: var(--gold);
-      color: var(--gold);
-    }
-
-    .hero-stats {
-      display: flex;
-      gap: 1.5rem;
-    }
-
-    .stat-box {
-      background: rgba(10, 7, 20, 0.6);
-      border: 1px solid var(--border-light);
-      padding: 1rem 1.4rem;
-      border-radius: 14px;
-      text-align: center;
-      min-width: 110px;
-    }
-
-    .stat-num {
-      font-family: 'Rajdhani', sans-serif;
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--purple-accent);
-      line-height: 1;
-    }
-
-    .stat-label {
-      font-size: 0.72rem;
-      color: var(--text-dim);
-      text-transform: uppercase;
-      margin-top: 4px;
-      letter-spacing: 1px;
-    }
+    .mode-icon { font-size: 1.8rem; }
+    .mode-title { font-family: 'Rajdhani', sans-serif; font-size: 1.35rem; font-weight: 700; color: white; }
+    .mode-subtitle { font-size: 0.78rem; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+    .mode-desc { font-size: 0.86rem; color: #cbd5e1; line-height: 1.45; }
 
     main {
-      max-width: 1350px;
+      max-width: 1400px;
       margin: 0 auto 4rem auto;
       padding: 0 1.5rem;
     }
 
-    .tab-content {
-      display: none;
-    }
-
-    .tab-content.active {
-      display: block;
-      animation: fadeIn 0.3s ease;
-    }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; animation: fadeIn 0.3s ease; }
 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(6px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
-    /* FILTRES & BARRE DE CONTRÔLE */
+    /* BARRE DE CONTROLE */
     .controls-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
       gap: 1rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.25rem;
       background: var(--bg-card);
       padding: 1rem 1.5rem;
       border-radius: 14px;
@@ -281,11 +247,13 @@
       border: 1px solid var(--border);
       padding: 8px 14px;
       border-radius: 8px;
-      font-size: 0.88rem;
+      font-size: 0.9rem;
       font-weight: 600;
       outline: none;
       cursor: pointer;
     }
+
+    .filter-select:hover { border-color: var(--purple-accent); }
 
     .search-input {
       background: rgba(10, 7, 20, 0.8);
@@ -294,16 +262,38 @@
       padding: 8px 14px;
       border-radius: 8px;
       font-size: 0.88rem;
-      min-width: 240px;
+      min-width: 250px;
       outline: none;
     }
 
     .search-input:focus {
       border-color: var(--purple-accent);
-      box-shadow: 0 0 8px var(--purple-glow);
+      box-shadow: 0 0 10px var(--purple-glow);
     }
 
-    /* TABLEAU POWER RANKING */
+    /* SAISON CONTEXT BANNER */
+    .season-context-card {
+      background: rgba(22, 16, 43, 0.6);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 12px 12px 0;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .season-context-title {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 0.25rem;
+    }
+
+    .season-context-text {
+      font-size: 0.88rem;
+      color: #cbd5e1;
+    }
+
+    /* TABLEAU */
     .ranking-table-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -320,7 +310,7 @@
     }
 
     table.ranking-table th {
-      background: rgba(88, 28, 135, 0.35);
+      background: rgba(88, 28, 135, 0.4);
       color: #d8b4fe;
       font-size: 0.78rem;
       text-transform: uppercase;
@@ -330,7 +320,7 @@
     }
 
     table.ranking-table td {
-      padding: 1.1rem 1.25rem;
+      padding: 1rem 1.25rem;
       border-bottom: 1px solid var(--border-light);
       font-size: 0.92rem;
       vertical-align: middle;
@@ -343,12 +333,12 @@
     .rank-cell {
       font-family: 'Rajdhani', sans-serif;
       font-weight: 700;
-      font-size: 1.3rem;
-      width: 60px;
+      font-size: 1.35rem;
+      width: 65px;
       text-align: center;
     }
 
-    .rank-1 { color: var(--gold); }
+    .rank-1 { color: var(--gold); text-shadow: 0 0 10px var(--gold-glow); }
     .rank-2 { color: var(--silver); }
     .rank-3 { color: var(--bronze); }
 
@@ -363,7 +353,7 @@
       height: 44px;
       object-fit: contain;
       border-radius: 8px;
-      background: rgba(0, 0, 0, 0.3);
+      background: rgba(0, 0, 0, 0.35);
       padding: 4px;
       border: 1px solid var(--border-light);
     }
@@ -372,7 +362,7 @@
       width: 44px;
       height: 44px;
       border-radius: 8px;
-      background: rgba(147, 51, 234, 0.2);
+      background: rgba(147, 51, 234, 0.25);
       border: 1px solid var(--purple-accent);
       display: flex;
       align-items: center;
@@ -380,6 +370,7 @@
       font-weight: 700;
       font-family: 'Rajdhani', sans-serif;
       color: white;
+      font-size: 1rem;
     }
 
     .club-name {
@@ -396,6 +387,32 @@
       border-radius: 4px;
       margin-left: 6px;
       font-family: monospace;
+      font-weight: 600;
+    }
+
+    .badge-pill {
+      background: rgba(147, 51, 234, 0.2);
+      border: 1px solid var(--purple-accent);
+      color: #e9d5ff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: inline-block;
+    }
+
+    .badge-pill.gold {
+      background: rgba(250, 204, 21, 0.15);
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .badge-pill.blue {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--blue-accent);
+      color: var(--blue-accent);
     }
 
     .roster-tags {
@@ -407,7 +424,7 @@
     .player-tag {
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid var(--border-light);
-      padding: 3px 8px;
+      padding: 2px 7px;
       border-radius: 6px;
       font-size: 0.78rem;
       color: #e2e8f0;
@@ -422,11 +439,15 @@
       text-align: right;
     }
 
-    .trend-up { color: var(--green); font-weight: 700; font-size: 0.85rem; }
-    .trend-down { color: var(--red); font-weight: 700; font-size: 0.85rem; }
-    .trend-stable { color: var(--text-dim); font-size: 0.85rem; }
+    .pr-points-gold { color: var(--gold); text-shadow: 0 0 10px var(--gold-glow); }
 
-    /* PALMARÈS CARDS */
+    .notable-achievement {
+      font-size: 0.82rem;
+      color: #cbd5e1;
+      line-height: 1.3;
+    }
+
+    /* PALMARÈS */
     .palmares-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
@@ -452,10 +473,7 @@
     .palmares-card::before {
       content: '';
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
+      top: 0; left: 0; right: 0; height: 4px;
       background: linear-gradient(90deg, var(--gold), var(--purple-primary));
     }
 
@@ -488,22 +506,6 @@
       gap: 1rem;
     }
 
-    .winner-trophy {
-      font-size: 2rem;
-    }
-
-    .winner-info h3 {
-      font-size: 1.15rem;
-      color: white;
-      font-weight: 700;
-    }
-
-    .winner-roster {
-      font-size: 0.8rem;
-      color: #cbd5e1;
-      margin-top: 2px;
-    }
-
     .podium-list {
       margin-top: 0.75rem;
       display: flex;
@@ -518,9 +520,7 @@
       color: var(--text-dim);
     }
 
-    .podium-item strong {
-      color: white;
-    }
+    .podium-item strong { color: white; }
 
     .verdict-box {
       margin-top: 1rem;
@@ -533,13 +533,8 @@
       line-height: 1.4;
     }
 
-    /* MERCATO & TRANSFERS */
-    .transfer-feed {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
+    /* MERCATO */
+    .transfer-feed { display: flex; flex-direction: column; gap: 1rem; }
     .transfer-card {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -550,68 +545,12 @@
       align-items: center;
       flex-wrap: wrap;
       gap: 1rem;
-      transition: background 0.2s ease;
     }
 
-    .transfer-card:hover {
-      background: var(--bg-card-hover);
-    }
-
-    .transfer-left {
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
-    }
-
-    .transfer-date {
-      font-family: monospace;
-      font-size: 0.85rem;
-      color: var(--text-dim);
-      background: rgba(0, 0, 0, 0.4);
-      padding: 4px 8px;
-      border-radius: 6px;
-    }
-
-    .transfer-player-info h4 {
-      font-size: 1.1rem;
-      color: white;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .transfer-move {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      font-size: 0.95rem;
-      margin-top: 4px;
-    }
-
-    .team-badge {
-      font-weight: 600;
-      color: #d8b4fe;
-    }
-
-    .transfer-right {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .source-pill {
-      font-size: 0.75rem;
-      color: var(--text-dim);
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--border-light);
-      padding: 4px 10px;
-      border-radius: 20px;
-    }
-
-    /* CLUBS ROSTER VIEWER */
+    /* CLUBS */
     .clubs-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 1.5rem;
     }
 
@@ -625,76 +564,23 @@
       gap: 1rem;
     }
 
-    .club-header {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .club-card-desc {
-      font-size: 0.85rem;
-      color: var(--text-dim);
-      line-height: 1.4;
-    }
-
-    .club-roster-list {
-      background: rgba(10, 7, 20, 0.6);
-      border-radius: 10px;
-      padding: 0.75rem;
-      border: 1px solid var(--border-light);
-    }
-
-    .club-roster-list h5 {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: var(--purple-accent);
-      margin-bottom: 0.5rem;
-    }
-
-    /* CANVA & ACTIONS BAR */
-    .action-banner {
-      background: linear-gradient(135deg, rgba(147, 51, 234, 0.25) 0%, rgba(22, 16, 43, 0.9) 100%);
-      border: 1px solid var(--purple-accent);
-      border-radius: 16px;
-      padding: 1.5rem 2rem;
-      margin-top: 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
     .action-btn {
       background: var(--purple-primary);
       color: white;
       text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 10px;
+      padding: 9px 18px;
+      border-radius: 8px;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
       transition: all 0.2s ease;
-      box-shadow: 0 4px 15px var(--purple-glow);
     }
 
-    .action-btn:hover {
-      background: var(--purple-accent);
-      transform: translateY(-2px);
-    }
-
-    .btn-secondary {
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid var(--border-light);
-      box-shadow: none;
-    }
-
-    .btn-secondary:hover {
-      background: rgba(255, 255, 255, 0.18);
-    }
+    .action-btn:hover { background: var(--purple-accent); }
+    .btn-secondary { background: rgba(255, 255, 255, 0.1); border: 1px solid var(--border-light); }
+    .btn-secondary:hover { background: rgba(255, 255, 255, 0.18); }
 
     footer {
       border-top: 1px solid var(--border);
@@ -715,91 +601,134 @@
         <img src="../LFF Logos/Logo LFF violet cercle blanc (fond vide).png" alt="LFF Logo" class="brand-logo" onerror="this.src='../LFF Logos/Logo Fortnite violet.png'">
         <div>
           <div class="brand-title">LIGUE FRANÇAISE DE FORTNITE</div>
-          <div class="brand-subtitle">Power Ranking Officiel des Clubs</div>
+          <div class="brand-subtitle">Power Ranking & Classements Officiels</div>
         </div>
       </a>
 
-      <div style="display: flex; align-items: center; gap: 1rem;">
-        <a href="https://x.com/LFFesport" target="_blank" class="badge-pill gold" style="text-decoration: none; display: flex; align-items: center; gap: 4px;">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <a href="https://x.com/LFFesport" target="_blank" class="badge-pill gold" style="text-decoration: none; font-size: 0.8rem; padding: 5px 12px;">
           𝕏 @LFFesport
         </a>
       </div>
 
       <div class="nav-tabs">
-        <button class="nav-tab-btn active" onclick="switchTab('tab-ranking')">📊 Classement PR</button>
-        <button class="nav-tab-btn" onclick="switchTab('tab-palmares')">🏆 Palmarès Annuel</button>
-        <button class="nav-tab-btn" onclick="switchTab('tab-mercato')">🔄 Mercato & Transferts</button>
-        <button class="nav-tab-btn" onclick="switchTab('tab-clubs')">🛡️ Clubs & Rosters</button>
-        <button class="nav-tab-btn" onclick="switchTab('tab-reglement')">⚖️ Règlement LFF</button>
+        <button class="nav-tab-btn active" onclick="switchNavTab('tab-rankings')">📊 Classements LFF</button>
+        <button class="nav-tab-btn" onclick="switchNavTab('tab-palmares')">🏆 Palmarès Historique</button>
+        <button class="nav-tab-btn" onclick="switchNavTab('tab-mercato')">🔄 Mercato & Transferts</button>
+        <button class="nav-tab-btn" onclick="switchNavTab('tab-clubs')">🛡️ Tous les Clubs</button>
+        <button class="nav-tab-btn" onclick="switchNavTab('tab-reglement')">⚖️ Règlement & PR</button>
       </div>
     </div>
   </header>
 
-  <!-- HERO BANNER -->
+  <!-- EXPLICATION & SWITCHER DU MODE DE CLASSEMENT -->
   <div class="hero-banner">
-    <div class="hero-card">
-      <div class="hero-text">
-        <div class="badge-pill gold">Saison Compétitive Officielle</div>
-        <h1>LE CHAMPIONNAT DES CLUBS FRANÇAIS SUR FORTNITE</h1>
-        <p>
-          Calculé selon la formule officielle <em>Power Ranking</em> (Fortnite Tracker & Fandom Esports), ce classement distingue chaque année le club champion de France en évaluant la régularité et les performances en FNCS, Cash Cups et LANs internationales.
-        </p>
-        <div class="hero-badges">
-          <span class="badge-pill">Modèle F1 Constructeurs</span>
-          <span class="badge-pill">Règle « No Buying PR »</span>
-          <span class="badge-pill gold">🌍 Joueurs Internationaux 100% Éligibles</span>
-          <span class="badge-pill">Top 4 Scorers</span>
-          <span class="badge-pill">Veille Liquipedia & X</span>
+    <div class="modes-comparison-card">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <h2 style="font-family: 'Teko', sans-serif; font-size: 2.2rem; line-height: 1; text-transform: uppercase; color: white;">
+            COMPRENDRE LES DEUX CLASSEMENTS DE LA LFF
+          </h2>
+          <p style="color: var(--text-dim); font-size: 0.9rem;">
+            Cliquez sur un des deux modes ci-dessous pour afficher le classement correspondant :
+          </p>
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+          <span class="badge-pill gold">Règle "No Buying PR"</span>
+          <span class="badge-pill blue">100% Joueurs Internationaux</span>
         </div>
       </div>
 
-      <div class="hero-stats">
-        <div class="stat-box">
-          <div class="stat-num">16</div>
-          <div class="stat-label">Clubs Suivis</div>
+      <div class="modes-grid">
+        <!-- MODE 1 : CLASSEMENT ANNUEL -->
+        <div class="mode-box selected" id="box-annual" onclick="selectRankingMode('annual')">
+          <div class="mode-header">
+            <span class="mode-icon">🏆</span>
+            <div>
+              <div class="mode-subtitle">Course au Titre Annuel (2018 - 2025)</div>
+              <div class="mode-title">Classement Annuel (Championship)</div>
+            </div>
+          </div>
+          <p class="mode-desc">
+            <strong>C'est le championnat de l'année civile (1er janvier au 31 décembre).</strong><br>
+            Les clubs accumulent des points lors de chaque tournoi officiel disputé par leurs joueurs sous contrat. À la fin de l'année, le 1er est sacré <strong>Club Champion de France</strong>. Vous pouvez consulter l'historique complet de chaque année depuis 2018.
+          </p>
         </div>
-        <div class="stat-box">
-          <div class="stat-num">8</div>
-          <div class="stat-label">Saisons Archivées</div>
-        </div>
-        <div class="stat-box">
-          <div class="stat-num" id="active-players-count">24+</div>
-          <div class="stat-label">Joueurs Actifs</div>
+
+        <!-- MODE 2 : CLASSEMENT LIVE -->
+        <div class="mode-box" id="box-live" onclick="selectRankingMode('live')">
+          <div class="mode-header">
+            <span class="mode-icon">⚡</span>
+            <div>
+              <div class="mode-subtitle">Force du Moment (Temps Réel)</div>
+              <div class="mode-title">Classement Live (Power Index)</div>
+            </div>
+          </div>
+          <p class="mode-desc">
+            <strong>C'est la « photo instantanée » d'aujourd'hui.</strong><br>
+            Il additionne le Power Ranking individuel actuel (sur Fortnite Tracker) des joueurs sous contrat dans le club <em>en ce moment même</em>. Si un club recrute un crack ce matin, son classement Live grimpe immédiatement cet après-midi !
+          </p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- MAIN CONTENT TABS -->
+  <!-- MAIN VIEW -->
   <main>
 
-    <!-- TAB 1 : CLASSEMENT POWER RANKING -->
-    <div id="tab-ranking" class="tab-content active">
-      <div class="controls-bar">
-        <div class="filter-group">
-          <span class="filter-label">Saison :</span>
-          <select class="filter-select" id="season-filter" onchange="renderRankingTable()">
-            <option value="2025" selected>2025 / 2026 (Live Championship)</option>
-            <option value="2024">2024 (Karmine Corp Sacrée)</option>
-            <option value="2023">2023 (Gentle Mates Sacrée)</option>
-            <option value="2022">2022 (Solary Sacrée)</option>
-            <option value="2021">2021 (TrainHard Sacrée)</option>
-            <option value="2020">2020 (MCES Sacrée)</option>
-            <option value="2019">2019 (LeStream Sacrée)</option>
-            <option value="2018">2018 (Solary Sacrée)</option>
-          </select>
+    <!-- SECTION PRINCIPALE : CLASSEMENTS (ANNUEL OU LIVE) -->
+    <div id="tab-rankings" class="tab-content active">
 
-          <span class="filter-label" style="margin-left: 1rem;">Division :</span>
-          <select class="filter-select" id="tier-filter" onchange="renderRankingTable()">
-            <option value="ALL" selected>Toutes les divisions</option>
-            <option value="Tier 1">Division Élite (Tier 1)</option>
-            <option value="Tier 2">Division Challenger (Tier 2)</option>
-          </select>
+      <!-- CONTEXTE DU CLASSEMENT ANNUEL (Visible en mode Annuel) -->
+      <div id="annual-controls-section">
+        <div class="controls-bar">
+          <div class="filter-group">
+            <span class="filter-label">Sélectionner l'Année :</span>
+            <select class="filter-select" id="year-select" onchange="renderRankingView()">
+              <option value="2025" selected>📅 2025 / 2026 (Saison en cours)</option>
+              <option value="2024">📅 2024 (Sacre Karmine Corp)</option>
+              <option value="2023">📅 2023 (Sacre Gentle Mates - Copenhague)</option>
+              <option value="2022">📅 2022 (Sacre Solary)</option>
+              <option value="2021">📅 2021 (Sacre TrainHard eSport)</option>
+              <option value="2020">📅 2020 (Sacre Team MCES - Andilex #1 EU)</option>
+              <option value="2019">📅 2019 (Sacre LeStream - World Cup NYC)</option>
+              <option value="2018">📅 2018 (Sacre Solary - Skirmishes)</option>
+            </select>
+
+            <span class="filter-label" style="margin-left: 1rem;">Division :</span>
+            <select class="filter-select" id="tier-filter" onchange="renderRankingView()">
+              <option value="ALL" selected>Toutes les divisions</option>
+              <option value="Tier 1">Division Élite (Tier 1)</option>
+              <option value="Tier 2">Division Challenger (Tier 2)</option>
+            </select>
+          </div>
+
+          <input type="text" class="search-input" id="search-input" placeholder="🔍 Rechercher un club ou un joueur..." oninput="renderRankingView()">
         </div>
 
-        <input type="text" class="search-input" id="search-input" placeholder="🔍 Rechercher un club ou joueur..." oninput="renderRankingTable()">
+        <div class="season-context-card" id="season-context-banner">
+          <div class="season-context-title" id="context-title">Chargement...</div>
+          <div class="season-context-text" id="context-text">Chargement...</div>
+        </div>
       </div>
 
+      <!-- CONTEXTE DU CLASSEMENT LIVE (Visible en mode Live) -->
+      <div id="live-controls-section" style="display: none;">
+        <div class="controls-bar">
+          <div>
+            <h3 style="color: white; display: flex; align-items: center; gap: 8px;">
+              ⚡ CLASSEMENT LIVE (INDICE DE PUISSANCE ACTUEL)
+              <span class="badge-pill gold">Temps Réel</span>
+            </h3>
+            <p style="color: var(--text-dim); font-size: 0.85rem;">
+              Calculé à partir du Power Ranking officiel de Fortnite Tracker des joueurs actuellement sous contrat.
+            </p>
+          </div>
+          <input type="text" class="search-input" id="search-input-live" placeholder="🔍 Rechercher un club ou joueur..." oninput="renderRankingView()">
+        </div>
+      </div>
+
+      <!-- TABLEAU DES CLASSEMENTS -->
       <div class="ranking-table-card">
         <table class="ranking-table">
           <thead>
@@ -807,54 +736,36 @@
               <th style="width: 70px; text-align: center;">Rang</th>
               <th>Club</th>
               <th>Division</th>
-              <th>Joueurs Clés / Roster Actif</th>
-              <th style="text-align: center;">Tendance</th>
-              <th style="text-align: right;">Points PR LFF</th>
+              <th id="th-roster-col">Roster sous contrat</th>
+              <th id="th-notable-col">Faits d'armes / Titres</th>
+              <th style="text-align: right;" id="th-points-col">Points PR</th>
             </tr>
           </thead>
           <tbody id="ranking-tbody">
-            <!-- Injecté dynamiquement par JS -->
+            <!-- Rendu dynamique par JavaScript -->
           </tbody>
         </table>
       </div>
 
-      <!-- LIENS CANVA OFFICIELS DE MARTIN -->
-      <div class="action-banner">
-        <div>
-          <h3 style="color: white; margin-bottom: 4px;">🎨 Visuels & Templates Canva Officiels</h3>
-          <p style="color: #cbd5e1; font-size: 0.88rem;">Vos designs Canva pour la publication des classements et stories LFF sur les réseaux sociaux.</p>
-        </div>
-        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-          <a href="https://www.canva.com/d/potYDwmhHS46WzI" target="_blank" class="action-btn">
-            🖌️ Ouvrir « LFF Annonce » (Canva)
-          </a>
-          <a href="https://www.canva.com/d/UMykZRln88n-liS" target="_blank" class="action-btn btn-secondary">
-            📱 Ouvrir « FNBRL » (Format Story/Reels)
-          </a>
-        </div>
-      </div>
     </div>
 
-    <!-- TAB 2 : PALMARÈS ANNUEL -->
+    <!-- SECTION PALMARÈS -->
     <div id="tab-palmares" class="tab-content">
       <div class="controls-bar">
         <div>
-          <h3 style="color: white;">🏆 LES CHAMPIONS DE FRANCE DEPUIS LES DÉBUTS (2018 - 2025)</h3>
-          <p style="color: var(--text-dim); font-size: 0.85rem;">Historique officiel des clubs ayant terminé #1 au Power Ranking LFF chaque année.</p>
+          <h3 style="color: white;">🏆 LES 8 CLUBS CHAMPIONS DE FRANCE DEPUIS LES DÉBUTS (2018 - 2025)</h3>
+          <p style="color: var(--text-dim); font-size: 0.85rem;">Historique officiel du trophée de fin d'année de la Ligue Française de Fortnite.</p>
         </div>
       </div>
-
-      <div class="palmares-grid" id="palmares-container">
-        <!-- Injecté dynamiquement -->
-      </div>
+      <div class="palmares-grid" id="palmares-container"></div>
     </div>
 
-    <!-- TAB 3 : MERCATO & TRANSFERTS -->
+    <!-- SECTION MERCATO -->
     <div id="tab-mercato" class="tab-content">
       <div class="controls-bar">
         <div>
           <h3 style="color: white;">🔄 VEILLE DES TRANSFERTS & ARRIVÉES/DÉPARTS</h3>
-          <p style="color: var(--text-dim); font-size: 0.85rem;">Flux synchronisé avec Liquipedia (Portal:Transfers) et le compte X @FortniteFraActu.</p>
+          <p style="color: var(--text-dim); font-size: 0.85rem;">Flux synchronisé 24h/24 avec Liquipedia (Portal:Transfers) et @FortniteFraActu.</p>
         </div>
         <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
           <a href="https://x.com/LFFesport" target="_blank" class="action-btn" style="background: #000; border: 1px solid var(--border);">
@@ -863,32 +774,23 @@
           <a href="https://liquipedia.net/fortnite/Portal:Transfers" target="_blank" class="action-btn btn-secondary">
             🌐 Liquipedia Transfers
           </a>
-          <a href="https://x.com/FortniteFraActu" target="_blank" class="action-btn btn-secondary">
-            🐦 Veille @FortniteFraActu
-          </a>
         </div>
       </div>
-
-      <div class="transfer-feed" id="transfer-feed-container">
-        <!-- Injecté dynamiquement -->
-      </div>
+      <div class="transfer-feed" id="transfer-feed-container"></div>
     </div>
 
-    <!-- TAB 4 : CLUBS & ROSTERS -->
+    <!-- SECTION CLUBS -->
     <div id="tab-clubs" class="tab-content">
       <div class="controls-bar">
         <div>
-          <h3 style="color: white;">🛡️ LES CLUBS ENGAGÉS DANS LA LFF</h3>
-          <p style="color: var(--text-dim); font-size: 0.85rem;">Effectifs officiels, logos et liens des structures françaises.</p>
+          <h3 style="color: white;">🛡️ ANNUAIRE DES CLUBS FRANÇAIS (ÉLITE & CHALLENGER)</h3>
+          <p style="color: var(--text-dim); font-size: 0.85rem;">Fiches détaillées des structures enregistrées avec leurs logos officiels.</p>
         </div>
       </div>
-
-      <div class="clubs-grid" id="clubs-grid-container">
-        <!-- Injecté dynamiquement -->
-      </div>
+      <div class="clubs-grid" id="clubs-grid-container"></div>
     </div>
 
-    <!-- TAB 5 : RÈGLEMENT OFFICIEL -->
+    <!-- SECTION RÈGLEMENT -->
     <div id="tab-reglement" class="tab-content">
       <div class="ranking-table-card" style="padding: 2.5rem; line-height: 1.7;">
         <h2 style="font-family: 'Teko', sans-serif; font-size: 2.4rem; color: var(--purple-accent); margin-bottom: 1rem;">
@@ -911,15 +813,9 @@
           Pour assurer une équité stricte entre les structures et éviter qu'un club ne recrute un nombre démesuré de joueurs pour gonfler artificiellement son total, seuls les points des <strong>4 meilleurs joueurs du club</strong> sont comptabilisés à chaque échéance.
         </p>
 
-        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Critères d'Admissibilité d'un Club & Nationalité des Joueurs</h3>
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Éligibilité 100% Internationale</h3>
         <p style="color: #cbd5e1; font-size: 0.95rem;">
-          <strong>Règle fondamentale sur les effectifs :</strong> Les joueurs sous contrat avec un club français <strong>n'ont pas besoin d'être français</strong>. Les joueurs internationaux sont comptabilisés à 100% avec les mêmes droits et attribution de points que les joueurs français.
-        </p>
-        <div style="background: rgba(147, 51, 234, 0.15); border-left: 3px solid var(--purple-accent); padding: 0.85rem; border-radius: 0 8px 8px 0; margin-top: 0.75rem; font-size: 0.88rem; color: #e9d5ff;">
-          💡 <em>Exemples concrets :</em> Lorsque la <strong>Karmine Corp</strong> a recruté <strong>Malibuca</strong> (Russie), <strong>Merstach</strong> (Lettonie), <strong>Veno</strong> (Royaume-Uni) et <strong>SwizzY</strong> (Russie), la totalité de leurs performances en FNCS et Cash Cups a été créditée à la Karmine Corp dans le classement LFF. De même, les recrues internationales de <strong>Gentle Mates</strong> ou de <strong>Solary</strong> rapportent l'intégralité de leurs points à leur club français.
-        </div>
-        <p style="color: #cbd5e1; font-size: 0.95rem; margin-top: 1rem;">
-          Seule la structure doit être reconnue comme <strong>club français</strong> (siège, encadrement, fondateurs ou ancrage historique dans l'esport tricolore).
+          Les joueurs sous contrat avec un club français <strong>n'ont aucune obligation d'être de nationalité française</strong>. Les joueurs étrangers (ex: Malibuca, Merstach, Veno) marquent 100% de leurs points pour leur club français.
         </p>
       </div>
     </div>
@@ -928,153 +824,261 @@
 
   <!-- FOOTER -->
   <footer>
-    <div style="max-width: 1350px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+    <div style="max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
       <div>
         <strong>Ligue Française de Fortnite (LFF)</strong> — <a href="https://x.com/LFFesport" target="_blank" style="color: var(--purple-accent); text-decoration: none; font-weight: 600;">@LFFesport</a> • Contact : <span style="color: #cbd5e1;">liguefrancaisesortnite@gmail.com</span>
       </div>
       <div>
-        Données consolidées avec Liquipedia Fortnite, Fortnite Tracker et veille communautaire.
+        Données consolidées avec Fortnite Tracker, Liquipedia Fortnite et @FortniteFraActu.
       </div>
     </div>
   </footer>
 
-  <!-- DATA & LOGIC SCRIPT -->
+  <!-- DATA & SCRIPTS -->
   <script>
-    // Données des clubs
-    const CLUBS = [
-      { id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", points: 84500, logo: null, trend: "up", trendVal: "+1" },
-      { id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 76200, logo: null, trend: "stable", trendVal: "=" },
-      { id: "karmine-corp", name: "Karmine Corp", tag: "KC", tier: "Tier 1", points: 92800, logo: null, trend: "down", trendVal: "-1" },
-      { id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 34100, logo: "../LFF Clubs/Logo RZ rouge (fond vide).png", trend: "up", trendVal: "+2" },
-      { id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 28400, logo: "../LFF Clubs/Logo Fake or (fond vide).png", trend: "up", trendVal: "+1" },
-      { id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 22100, logo: "../LFF Clubs/Logo ATEN marron clair (fond vide).png", trend: "stable", trendVal: "=" },
-      { id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 20500, logo: "../LFF Clubs/Logo BSK (fond vide).png", trend: "down", trendVal: "-1" },
-      { id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 16800, logo: "../LFF Clubs/Logo Jupitar (fond vide).png", trend: "stable", trendVal: "=" },
-      { id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", points: 14200, logo: "../LFF Clubs/Logo Odious (fond vide).png", trend: "up", trendVal: "+1" },
-      { id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", points: 12900, logo: "../LFF Clubs/Logo Pap's (fond vide).png", trend: "stable", trendVal: "=" },
-      { id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 18700, logo: null, trend: "stable", trendVal: "=" }
-    ];
+    // État du mode sélectionné : 'annual' ou 'live'
+    let currentMode = 'annual';
 
-    // Rosters actifs
-    const ROSTERS = {
-      "gentle-mates": ["Snayzy", "PodaSai", "Merstach", "Malibuca (ex)"],
-      "solary": ["sereN", "Darkos", "Minori", "ghonzo"],
-      "karmine-corp": ["Malibuca (2024)", "Merstach (2024)", "Veno", "SwizzY"],
-      "reality-zone": ["RZ_Phoenix", "RZ_Kev", "RZ_Zeek"],
-      "team-fake": ["Fake_Shadow", "Fake_Storm"],
-      "aten-esport": ["ATEN_Raptor", "ATEN_Nox"],
-      "team-bsk": ["BSK_Rayan", "BSK_Aero"],
-      "jupitar-esport": ["JUP_Nova"],
-      "odious-esport": ["ODS_Vortex"],
-      "paps-esport": ["PAPS_Zek"],
-      "valiant": ["VLT_Kyz", "VLT_Aura"]
+    // Base des logos locaux connus
+    const LOGO_MAP = {
+      "reality-zone": "../LFF Clubs/Logo RZ rouge (fond vide).png",
+      "team-fake": "../LFF Clubs/Logo Fake or (fond vide).png",
+      "aten-esport": "../LFF Clubs/Logo ATEN marron clair (fond vide).png",
+      "team-bsk": "../LFF Clubs/Logo BSK (fond vide).png",
+      "jupitar-esport": "../LFF Clubs/Logo Jupitar (fond vide).png",
+      "odious-esport": "../LFF Clubs/Logo Odious (fond vide).png",
+      "paps-esport": "../LFF Clubs/Logo Pap's (fond vide).png"
     };
 
-    // Palmarès historique complet
-    const PALMARES = [
+    // BASE COMPLÈTE DE TOUS LES CLASSEMENTS ANNUELS DEPUIS LE DÉBUT (2018 - 2025)
+    const ANNUAL_DATA = {
+      "2018": {
+        title: "SAISON 2018 — L'ÈRE DES SKIRMISHES & L'AVÈNEMENT SOLARY",
+        description: "Première année compétitive de Fortnite. Solary et son capitaine Kinstaar dominent outrageusement l'Europe lors des Summer et Fall Skirmishes, avant l'exploit de Skite (LeStream) au Winter Royale en fin d'année.",
+        champion: "Solary",
+        clubs: [
+          { rank: 1, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 82000, roster: ["Kinstaar", "Hunter", "mzXXD", "Nikof", "Airwaks"], notable: "Domination totale Summer & Fall Skirmishes" },
+          { rank: 2, id: "lestream", name: "LeStream Esport", tag: "LST", tier: "Tier 1", points: 58000, roster: ["Skite", "Vato", "TheVic"], notable: "Skite remporte le Winter Royale Europe Solo ($75 000)" },
+          { rank: 3, id: "vitality", name: "Team Vitality", tag: "VIT", tier: "Tier 1", points: 46000, roster: ["Gotaga", "Mickalow", "Robi", "Airwaks", "Teeqzy"], notable: "Top podiums LANs françaises et Skirmish" },
+          { rank: 4, id: "oserv", name: "Oserv Esport", tag: "OSV", tier: "Tier 2", points: 32000, roster: ["M11Z", "Deadra", "Blaxou"], notable: "Finalistes réguliers en Skirmishes" },
+          { rank: 5, id: "lunary", name: "Lunary", tag: "LNY", tier: "Tier 2", points: 24000, roster: ["Jbzz", "Chap", "Taipouz"], notable: "Podiums LANs francophones" },
+          { rank: 6, id: "supremacy", name: "Supremacy", tag: "Sy", "tier": "Tier 2", points: 21000, roster: ["Nayte", "Keolys", "BadSniper"], notable: "Révélation des futurs cracks mondiaux" },
+          { rank: 7, id: "gamersorigin", name: "GamersOrigin", tag: "GO", tier: "Tier 2", points: 18000, roster: ["M1key", "Lentille"], notable: "Finalistes tournois EU" },
+          { rank: 8, id: "mces", name: "Team MCES", tag: "MCES", tier: "Tier 1", points: 15000, roster: ["Andilex", "Orkh", "Flyzer"], notable: "Création de la section esport marseillaise" },
+          { rank: 9, id: "millenium", name: "Millenium", tag: "M", tier: "Tier 2", points: 12000, roster: ["Teq", "Maxal", "Teeqzy"], notable: "Présence historique LANs FR" },
+          { rank: 10, id: "3dmax", name: "3DMAX", tag: "3D", tier: "Tier 2", points: 9500, roster: ["Xsweeze", "Kouto"], notable: "Débuts prometteurs des pépites" }
+        ]
+      },
+      "2019": {
+        title: "SAISON 2019 — LA FORTNITE WORLD CUP (NEW YORK) & DÉBUTS FNCS",
+        description: "L'apogée internationale de LeStream Esport grâce au double Top 10 mondial historique de Skite à New York (7e Solo, 10e Duo). Solary et Vitality placent également plusieurs duos dans l'Arthur Ashe Stadium.",
+        champion: "LeStream Esport",
+        clubs: [
+          { rank: 1, id: "lestream", name: "LeStream Esport", tag: "LST", tier: "Tier 1", points: 115000, roster: ["Skite", "Vato", "TheVic", "Boyer"], notable: "Skite 7e Solo & 10e Duo World Cup NYC ($750k+), Secret Skirmish" },
+          { rank: 2, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 98000, roster: ["Kinstaar", "Hunter", "Nikof", "Airwaks", "Magifection"], notable: "Kinstaar 26e Solo, Hunter & Kinstaar 23e Duo World Cup" },
+          { rank: 3, id: "vitality", name: "Team Vitality", tag: "VIT", tier: "Tier 1", points: 78000, roster: ["BadSniper", "Oslo", "Hawkers", "Keolys", "DRG"], notable: "BadSniper & Oslo 11e Duo World Cup NYC ($100k)" },
+          { rank: 4, id: "mces", name: "Team MCES", tag: "MCES", tier: "Tier 1", points: 65000, roster: ["Andilex", "Xsweeze", "Kouto", "PodaSai", "Flyzer"], notable: "Montée en puissance fulgurante en FNCS Trios" },
+          { rank: 5, id: "gamersorigin", name: "GamersOrigin", tag: "GO", tier: "Tier 2", points: 48000, roster: ["Decyptos", "M1key", "Lentille", "Robabz"], notable: "Finalistes FNCS Saison X Trios" },
+          { rank: 6, id: "trainhard", name: "TrainHard eSport", tag: "TH", tier: "Tier 1", points: 42000, roster: ["BlastR", "Alpha", "Yags"], notable: "Formation du futur trio d'élite européen" },
+          { rank: 7, id: "ora-esport", name: "ORA Esport", tag: "ORA", tier: "Tier 2", points: 34000, roster: ["Falconly", "Keoz", "Nyox"], notable: "Révélation de Falconly au niveau européen" },
+          { rank: 8, id: "grizi", name: "Grizi Esport", tag: "GRIZI", tier: "Tier 1", points: 28000, roster: ["Nayte", "4zr"], notable: "Nayte 8e Solo World Cup, signature Grizi fin 2019" },
+          { rank: 9, id: "team-ldlc", name: "Team LDLC", tag: "LDLC", tier: "Tier 2", points: 22000, roster: ["Seth", "Spk", "Kyuubi"], notable: "Régularité open qualifiers" },
+          { rank: 10, id: "gameward", name: "GameWard", tag: "GW", tier: "Tier 2", points: 14000, roster: ["Kaido", "Strik"], notable: "Finalistes Heats FNCS Trios" }
+        ]
+      },
+      "2020": {
+        title: "SAISON 2020 — LE SACRE EUROPÉEN DE TEAM MCES",
+        description: "L'âge d'or Chapitre 2. Andilex est sacré n°1 au Power Ranking Européen sur Fortnite Tracker et soulève le trophée du FNCS Duos avec Nayte (Grizi Esport). TrainHard et Solary trustent les finales.",
+        champion: "Team MCES",
+        clubs: [
+          { rank: 1, id: "mces", name: "Team MCES", tag: "MCES", tier: "Tier 1", points: 145000, roster: ["Andilex", "Xsweeze", "PodaSai", "Kouto"], notable: "Andilex #1 PR Europe, Champion FNCS Duos C2S2, 2e Trios C2S4" },
+          { rank: 2, id: "grizi", name: "Grizi Esport", tag: "GRIZI", tier: "Tier 1", points: 128000, roster: ["Nayte", "4zr", "Bresil"], notable: "Nayte Champion FNCS Duos C2S2, 4zr dominant en FNCS et Cash Cups" },
+          { rank: 3, id: "trainhard", name: "TrainHard eSport", tag: "TH", tier: "Tier 1", points: 112000, roster: ["BlastR", "Alpha", "Yags", "Falconly", "Kyzen"], notable: "Multiples podiums FNCS et Cash Cups EU" },
+          { rank: 4, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 98000, roster: ["Nikof", "Floki", "Clément", "DRG", "Decyptos"], notable: "Floki & Clément au sommet des FNCS Duos" },
+          { rank: 5, id: "vitality", name: "Team Vitality", tag: "VIT", tier: "Tier 1", points: 74000, roster: ["BadSniper", "Oslo", "Hawkers"], notable: "Finalistes FNCS Invitational et C2S4" },
+          { rank: 6, id: "team-go", name: "Team GO (GamersOrigin)", tag: "GO", tier: "Tier 2", points: 58000, roster: ["Decyptos", "M1key", "Lentille"], notable: "Performances constantes en Grand Finals" },
+          { rank: 7, id: "gameward", name: "GameWard", tag: "GW", tier: "Tier 2", points: 46000, roster: ["Snayzy", "Shaax", "Kaido"], notable: "Snayzy explose au plus haut niveau continental" },
+          { rank: 8, id: "bk-rog", name: "BK ROG Esports", tag: "BKR", tier: "Tier 2", points: 38000, roster: ["Shad", "Skyro", "Keoz"], notable: "Finalistes FNCS Heats" },
+          { rank: 9, id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 28000, roster: ["Kyzen", "Velo"], notable: "Entrée active sur la scène française" },
+          { rank: 10, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 22000, roster: ["BSK Rayan", "BSK Aero"], notable: "Révélation des tournois sub-top et open" },
+          { rank: 11, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 18000, roster: ["RZ Phoenix", "RZ Kev"], notable: "Leader du circuit tournois console et open" }
+        ]
+      },
+      "2021": {
+        title: "SAISON 2021 — L'ARMADA TRAINHARD EN TRIOS FNCS",
+        description: "L'année des 4 saisons de Trios FNCS et du FNCS Grand Royale. TrainHard eSport réalise une moisson de points record grâce à son trio Falconly, BlastR et Alpha, ultra-régulier en Europe.",
+        champion: "TrainHard eSport",
+        clubs: [
+          { rank: 1, id: "trainhard", name: "TrainHard eSport", tag: "TH", tier: "Tier 1", points: 162000, roster: ["Falconly", "BlastR", "Alpha", "Yags", "Kyzen"], notable: "Densité record de points PR en Trios FNCS & Grand Royale" },
+          { rank: 2, id: "grizi", name: "Grizi Esport", tag: "GRIZI", tier: "Tier 1", points: 138000, roster: ["4zr", "Nayte"], notable: "4zr Champion FNCS Trios C2S8 avec TaySon & Chapix" },
+          { rank: 3, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 115000, roster: ["Floki", "Clément", "Decyptos", "Nikof"], notable: "Trio Floki, Clément, Decyptos abonnés aux finales" },
+          { rank: 4, id: "mces", name: "Team MCES", tag: "MCES", tier: "Tier 1", points: 88000, roster: ["Andilex", "PodaSai", "Xsweeze"], notable: "Andilex & Xsweeze toujours dans l'élite EU" },
+          { rank: 5, id: "vitality", name: "Team Vitality", tag: "VIT", tier: "Tier 1", points: 62000, roster: ["BadSniper", "Oslo", "Strik"], notable: "Dernières finales FNCS de la structure" },
+          { rank: 6, id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 48000, roster: ["Velo", "Skyro", "Shay"], notable: "Multiples qualifications Round 4 FNCS" },
+          { rank: 7, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 42000, roster: ["RZ Phoenix", "RZ Kev", "RZ Zeek"], notable: "Présence constante en Heats et Cash Cups" },
+          { rank: 8, id: "gameward", name: "GameWard", tag: "GW", tier: "Tier 2", points: 38000, roster: ["Snayzy", "Shaax"], notable: "Snayzy confirme son statut de top player" },
+          { rank: 9, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 27000, roster: ["BSK Rayan", "BSK Aero"], notable: "Top régulier Cash Cups francophones" },
+          { rank: 10, id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 21000, roster: ["ATEN Raptor", "ATEN Nox"], notable: "Création du club et premières perfs" },
+          { rank: 11, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 16000, roster: ["JUP Nova", "JUP Sly"], notable: "Émergence sur le circuit sub-top" }
+        ]
+      },
+      "2022": {
+        title: "SAISON 2022 — LE BASTION INÉBRANLABLE SOLARY",
+        description: "Transition vers le Chapitre 3 et retour des Duos. Alors que TrainHard et Grizi ferment leurs portes, Solary porte à bout de bras l'esport tricolore et lance le futur crack mondial Vico.",
+        champion: "Solary",
+        clubs: [
+          { rank: 1, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 124000, roster: ["Floki", "Clément", "Chaussette", "BlastR", "Vico"], notable: "Seul grand club FR en continu en Grand Finals FNCS" },
+          { rank: 2, id: "valiant", "name": "Valiant", tag: "VLT", tier: "Tier 2", points: 68000, roster: ["VLT Kyz", "Aura", "Velo"], notable: "Très actif sur le vivier européen et francophone" },
+          { rank: 3, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 54000, roster: ["RZ Phoenix", "RZ Kev", "RZ Zeek", "Dark"], notable: "Podium Challenger et victoires en Open Cups" },
+          { rank: 4, id: "mces", name: "Team MCES", tag: "MCES", tier: "Tier 1", points: 44000, roster: ["PodaSai", "Xsweeze"], notable: "Dernière saison compétitive avant transition" },
+          { rank: 5, id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 38000, roster: ["Fake Shadow", "Fake Storm", "Neo"], notable: "Entrée explosive sur les Cash Cups régulières" },
+          { rank: 6, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 34000, roster: ["BSK Rayan", "BSK Aero"], notable: "Top régularité sur les serveurs français" },
+          { rank: 7, id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 29000, roster: ["ATEN Raptor", "ATEN Nox"], notable: "Qualifications Heats FNCS" },
+          { rank: 8, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 23000, roster: ["JUP Nova", "JUP Vax"], notable: "Pépinière de talents compétitifs" },
+          { rank: 9, id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", points: 19000, roster: ["ODS Vortex", "Sky"], notable: "Débuts prometteurs en scrims et cups" },
+          { rank: 10, id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", points: 15000, roster: ["PAPS Zek", "Ray"], notable: "Présence dynamique sur la scène communautaire" }
+        ]
+      },
+      "2023": {
+        title: "SAISON 2023 — L'AVÈNEMENT GENTLE MATES & LE MONDIAL COPENHAGUE",
+        description: "Créé en avril 2023 par Gotaga, Squeezie et Brawks, Gentle Mates signe le duo 100% tricolore Snayzy & PodaSai (managé par Nikof) et les qualifie au prestigieux FNCS Global Championship à Copenhague.",
+        champion: "Gentle Mates",
+        clubs: [
+          { rank: 1, id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", points: 142000, roster: ["Snayzy", "PodaSai", "Nikof (Coach/Manager)"], notable: "Qualifié FNCS Global Championship Copenhague (Royal Arena)" },
+          { rank: 2, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 128000, roster: ["Vico", "Floki", "Clément", "Chaussette"], notable: "Saison stratosphérique de Vico en Majors" },
+          { rank: 3, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 62000, roster: ["RZ Phoenix", "RZ Kev", "RZ Zeek", "Storm"], notable: "Top 1 Challenger FR (Cash Cups & Heats)" },
+          { rank: 4, id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 51000, roster: ["VLT Kyz", "Aura", "Shay"], notable: "Présence active en Majors" },
+          { rank: 5, id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 44000, roster: ["Fake Shadow", "Fake Storm", "Krono"], notable: "Multiples tops Cash Cups" },
+          { rank: 6, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 38000, roster: ["BSK Rayan", "BSK Aero", "Nex"], notable: "Solidité en Victory Cups" },
+          { rank: 7, id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 33000, roster: ["ATEN Raptor", "ATEN Nox", "Zack"], notable: "Performances inter-clubs" },
+          { rank: 8, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 26000, roster: ["JUP Nova", "JUP Vax"], notable: "Régularité open qualifiers" },
+          { rank: 9, id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", points: 22000, roster: ["ODS Vortex", "Sky"], notable: "Montée en puissance" },
+          { rank: 10, id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", points: 18000, roster: ["PAPS Zek", "Ray"], notable: "Animation scène FR" }
+        ]
+      },
+      "2024": {
+        title: "SAISON 2024 — LE ROSTER GALACTIQUE KARMINE CORP",
+        description: "En mai 2024, la Karmine Corp signe les champions du Major 1 (Malibuca & Merstach) puis Veno et SwizzY. Ce quatuor galactique propulse le club français au #1 Mondial du Power Ranking des organisations.",
+        champion: "Karmine Corp",
+        clubs: [
+          { rank: 1, id: "karmine-corp", name: "Karmine Corp", tag: "KC", tier: "Tier 1", points: 194000, roster: ["Malibuca", "Merstach", "Veno", "SwizzY", "Oslo (Coach)"], notable: "#1 Mondial au Team Power Ranking officiel" },
+          { rank: 2, id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", points: 136000, roster: ["Snayzy", "PodaSai", "Merstach", "Nikof"], notable: "Finalistes FNCS Majors & Global Championship Texas" },
+          { rank: 3, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 118000, roster: ["sereN", "Darkos", "Minori", "ghonzo"], notable: "Quatuor hyper régulier au sommet du PR EU" },
+          { rank: 4, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 58000, roster: ["RZ Phoenix", "RZ Kev", "RZ Zeek"], notable: "Top 1 division Challenger FR" },
+          { rank: 5, id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 46000, roster: ["VLT Kyz", "Aura"], notable: "Qualifications Round 3/4 FNCS" },
+          { rank: 6, id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 41000, roster: ["Fake Shadow", "Fake Storm"], notable: "Victoires régulières en Victory Cups" },
+          { rank: 7, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 35000, roster: ["BSK Rayan", "BSK Aero"], notable: "Constance sur le circuit français" },
+          { rank: 8, id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 30000, roster: ["ATEN Raptor", "ATEN Nox"], notable: "Podiums tournois inter-structures" },
+          { rank: 9, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 24000, roster: ["JUP Nova", "Vax"], notable: "Formation de pépites" },
+          { rank: 10, id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", points: 20000, roster: ["ODS Vortex"], notable: "Régularité cups" },
+          { rank: 11, id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", points: 16000, roster: ["PAPS Zek"], notable: "Présence scène francophone" }
+        ]
+      },
+      "2025": {
+        title: "SAISON 2025 / 2026 — COURSE AU TITRE LFF EN DIRECT",
+        description: "Après le repositionnement de KC mi-2025, Gentle Mates reprend le trône avec ses cracks européens et français au coude-à-coude avec l'écurie Solary.",
+        champion: "Gentle Mates",
+        clubs: [
+          { rank: 1, id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", points: 158000, roster: ["Merstach", "Snayzy", "PodaSai", "Malibuca"], notable: "Course en tête FNCS Majors & Globals" },
+          { rank: 2, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 132000, roster: ["sereN", "Darkos", "Minori", "ghonzo"], notable: "sereN & Darkos au top du PR Européen" },
+          { rank: 3, id: "karmine-corp", name: "Karmine Corp", tag: "KC", tier: "Tier 1", points: 65000, roster: ["Veno", "SwizzY", "Roster remanié"], notable: "Points acquis début de saison" },
+          { rank: 4, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 52000, roster: ["RZ Phoenix", "RZ Kev", "RZ Zeek"], notable: "Leader indiscuté du circuit Challenger" },
+          { rank: 5, id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 43000, roster: ["Fake Shadow", "Fake Storm"], notable: "Multiples qualifications Round 3 FNCS" },
+          { rank: 6, id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 38000, roster: ["VLT Kyz", "Aura"], notable: "Solide présence en Cash Cups" },
+          { rank: 7, id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 34000, roster: ["ATEN Raptor", "ATEN Nox"], notable: "Régularité compétitive" },
+          { rank: 8, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 31000, roster: ["BSK Rayan", "BSK Aero"], notable: "Performance régulière" },
+          { rank: 9, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 26000, roster: ["JUP Nova", "Vax"], notable: "Nouveau vivier sub-top" },
+          { rank: 10, id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", points: 22000, roster: ["ODS Vortex"], notable: "Engagement Victory Cups" },
+          { rank: 11, id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", points: 18000, roster: ["PAPS Zek"], notable: "Soutien et présence active" }
+        ]
+      }
+    };
+
+    // BASE DU CLASSEMENT LIVE (INDICE DE PUISSANCE INSTANTANÉ DES EFFECTIFS ACTUELS)
+    const LIVE_DATA = [
       {
-        year: 2025,
-        era: "Ère Moderne : Suprématie M8 & Écosystème Sub-top",
-        champName: "Gentle Mates",
-        champTag: "M8",
-        roster: ["Merstach", "Snayzy", "PodaSai", "Malibuca"],
-        podium: [
-          { rank: 1, name: "Gentle Mates", note: "Top 1 FR / Majors & Qualifications Mondiales" },
-          { rank: 2, name: "Solary", note: "Constance au sommet européen avec sereN & Darkos" },
-          { rank: 3, name: "Reality Zone (RZ)", note: "Top 1 Challenger FR (Cash Cups & Heats)" }
+        rank: 1, id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", livePr: 94500, trend: "+1",
+        players: [
+          { name: "Merstach", pr: 52000, country: "🇱🇻" },
+          { name: "Snayzy", pr: 24500, country: "🇫🇷" },
+          { name: "PodaSai", pr: 18000, country: "🇫🇷" }
         ],
-        verdict: "Après le recentrage de KC mi-2025, Gentle Mates reprend le trône avec ses cracks européens et français."
+        details: "Force de frappe n°1 grâce au crack Merstach au sommet du PR Europe."
       },
       {
-        year: 2024,
-        era: "Le duel galactique KCorp vs Gentle Mates",
-        champName: "Karmine Corp",
-        champTag: "KC",
-        roster: ["Malibuca", "Merstach", "Veno", "SwizzY", "Oslo (Coach)"],
-        podium: [
-          { rank: 1, name: "Karmine Corp", note: "Top 1 PR Mondial d'organisations en 2024" },
-          { rank: 2, name: "Gentle Mates", note: "Finalistes FNCS Majors & Global Championship" },
-          { rank: 3, name: "Solary", note: "Quatuor sereN, Darkos, Minori, ghonzo très performant" }
+        rank: 2, id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", livePr: 98000, trend: "=",
+        players: [
+          { name: "Darkos", pr: 31000, country: "🇫🇷" },
+          { name: "sereN", pr: 29000, country: "🇫🇷" },
+          { name: "Minori", pr: 22000, country: "🇫🇷" },
+          { name: "ghonzo", pr: 16000, country: "🇫🇷" }
         ],
-        verdict: "En signant les champions du Major 1 (Malibuca & Merstach) puis Veno et SwizzY, KC a aligné l'effectif le plus fort du monde."
+        details: "Effectif le plus dense et homogène de la scène compétitive française."
       },
       {
-        year: 2023,
-        era: "Naissance de Gentle Mates & Global Copenhague",
-        champName: "Gentle Mates",
-        champTag: "M8",
-        roster: ["Snayzy", "PodaSai", "Nikof (Manager)"],
-        podium: [
-          { rank: 1, name: "Gentle Mates", note: "Qualifié au Global Championship Copenhague (Royal Arena)" },
-          { rank: 2, name: "Solary", note: "Performances exceptionnelles de Vico, Floki et Chaussette" },
-          { rank: 3, name: "Reality Zone", note: "Omniprésent dans le sub-top et open cups" }
+        rank: 3, id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", livePr: 34100, trend: "+2",
+        players: [
+          { name: "RZ_Phoenix", pr: 14200, country: "🇫🇷" },
+          { name: "RZ_Kev", pr: 11400, country: "🇫🇷" },
+          { name: "RZ_Zeek", pr: 8500, country: "🇫🇷" }
         ],
-        verdict: "Fondé en avril 2023, M8 qualifie son duo 100% tricolore au mondial et ramène la France sur le devant de la scène."
+        details: "Leader actuel de la division Challenger avec des joueurs qualifiés en Round 3 FNCS."
       },
       {
-        year: 2022,
-        era: "Chapitre 3 : Duos & Bastion Solary",
-        champName: "Solary",
-        champTag: "SLY",
-        roster: ["Floki", "Clément", "Chaussette", "BlastR", "Vico"],
-        podium: [
-          { rank: 1, name: "Solary", note: "Seule grande structure FR présente à toutes les Grand Finals FNCS" },
-          { rank: 2, name: "Valiant", note: "Actif sur le vivier francophone et open cups" },
-          { rank: 3, name: "Team MCES", note: "Dernières apparitions majeures" }
+        rank: 4, id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", livePr: 28400, trend: "+1",
+        players: [
+          { name: "Fake_Shadow", pr: 15100, country: "🇫🇷" },
+          { name: "Fake_Storm", pr: 13300, country: "🇫🇷" }
         ],
-        verdict: "Solary a été le bastion inébranlable du Fortnite français pendant la transition du circuit."
+        details: "Duo très actif sur les Victory Cups et Open Qualifiers."
       },
       {
-        year: 2021,
-        era: "L'âge d'or des Trios FNCS",
-        champName: "TrainHard eSport",
-        champTag: "TH",
-        roster: ["Falconly", "BlastR", "Alpha", "Yags", "Kyzen"],
-        podium: [
-          { rank: 1, name: "TrainHard eSport", note: "Densité record de points PR en Trios FNCS" },
-          { rank: 2, name: "Grizi Esport", note: "4zr champion FNCS Trios C2S8 avec TaySon & Chapix" },
-          { rank: 3, name: "Solary", note: "Floki, Clément, Decyptos finalistes permanents" }
+        rank: 5, id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", livePr: 23600, trend: "=",
+        players: [
+          { name: "VLT_Kyz", pr: 12800, country: "🇫🇷" },
+          { name: "VLT_Aura", pr: 10800, country: "🇫🇷" }
         ],
-        verdict: "TrainHard a dominé l'Europe grâce à Falconly, BlastR et Alpha, accumulant des dizaines de milliers de points."
+        details: "Roster régulier aux portes des finales majeures."
       },
       {
-        year: 2020,
-        era: "L'âge d'or Chapitre 2 : FNCS Duos & Trios",
-        champName: "Team MCES",
-        champTag: "MCES",
-        roster: ["Andilex", "Xsweeze", "PodaSai", "Kouto"],
-        podium: [
-          { rank: 1, name: "Team MCES", note: "Andilex sacré #1 Power Ranking Europe, champion FNCS Duos" },
-          { rank: 2, name: "Grizi Esport", note: "Nayte champion FNCS Duos avec Andilex" },
-          { rank: 3, name: "TrainHard eSport", note: "BlastR, Alpha, Yags, Falconly" }
+        rank: 6, id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", livePr: 22100, trend: "=",
+        players: [
+          { name: "ATEN_Raptor", pr: 11900, country: "🇫🇷" },
+          { name: "ATEN_Nox", pr: 10200, country: "🇫🇷" }
         ],
-        verdict: "MCES réalise une année historique grâce à Andilex, qui trône officiellement à la 1ère place du Power Ranking Européen."
+        details: "Solide noyau régulier sur les tournois hebdomadaires."
       },
       {
-        year: 2019,
-        era: "Fortnite World Cup New York & Débuts FNCS",
-        champName: "LeStream Esport",
-        champTag: "LST",
-        roster: ["Skite", "Vato", "TheVic", "Boyer"],
-        podium: [
-          { rank: 1, name: "LeStream Esport", note: "Skite 7e Solo & 10e Duo World Cup ($750 000+)" },
-          { rank: 2, name: "Solary", note: "Kinstaar, Hunter, Nikof, Airwaks qualifiés World Cup" },
-          { rank: 3, name: "Team Vitality", note: "BadSniper & Oslo 11e Duo World Cup" }
+        rank: 7, id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", livePr: 20500, trend: "-1",
+        players: [
+          { name: "BSK_Rayan", pr: 11100, country: "🇫🇷" },
+          { name: "BSK_Aero", pr: 9400, country: "🇫🇷" }
         ],
-        verdict: "Skite et Vato réalisent la plus grande performance française de l'histoire à la World Cup de New York."
+        details: "Structure historique engagée sur le circuit francophone."
       },
       {
-        year: 2018,
-        era: "L'ère des Skirmishes & l'avènement Solary",
-        champName: "Solary",
-        champTag: "SLY",
-        roster: ["Kinstaar", "Hunter", "mzXXD", "Nikof", "Airwaks"],
-        podium: [
-          { rank: 1, name: "Solary", note: "Kinstaar & Hunter dominent l'Europe en Skirmishes" },
-          { rank: 2, name: "LeStream Esport", note: "Skite remporte le Winter Royale Europe solo ($75 000)" },
-          { rank: 3, name: "Team Vitality", note: "Gotaga, Mickalow, Robi, Airwaks, Teeqzy" }
+        rank: 8, id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", livePr: 16800, trend: "=",
+        players: [
+          { name: "JUP_Nova", pr: 9800, country: "🇫🇷" },
+          { name: "JUP_Vax", pr: 7000, country: "🇫🇷" }
         ],
-        verdict: "Solary et Kinstaar ont placé le Fortnite français sur le toit de l'Europe durant toute la saison 2018."
+        details: "Pépites en formation continue."
+      },
+      {
+        rank: 9, id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", livePr: 14200, trend: "+1",
+        players: [
+          { name: "ODS_Vortex", pr: 8200, country: "🇫🇷" },
+          { name: "ODS_Sky", pr: 6000, country: "🇫🇷" }
+        ],
+        details: "Progression constante sur les Cash Cups."
+      },
+      {
+        rank: 10, id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", livePr: 12900, trend: "=",
+        players: [
+          { name: "PAPS_Zek", pr: 7500, country: "🇫🇷" },
+          { name: "PAPS_Ray", pr: 5400, country: "🇫🇷" }
+        ],
+        details: "Ancrage communautaire fort."
       }
     ];
 
@@ -1090,30 +1094,62 @@
       { date: "2023-04-14", player: "PodaSai 🇫🇷", from: "Team MCES", to: "Gentle Mates", type: "Arrival", source: "@GentleMates" }
     ];
 
-    // Basculer d'onglet
-    function switchTab(tabId) {
+    // Navigation entre les onglets du haut
+    function switchNavTab(tabId) {
       document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
       document.querySelectorAll('.nav-tab-btn').forEach(el => el.classList.remove('active'));
-      
       document.getElementById(tabId).classList.add('active');
       event.target.classList.add('active');
     }
 
-    // Affichage du tableau de classement
-    function renderRankingTable() {
-      const season = document.getElementById('season-filter').value;
+    // Basculer entre Classement Annuel et Classement Live
+    function selectRankingMode(mode) {
+      currentMode = mode;
+      document.getElementById('box-annual').classList.toggle('selected', mode === 'annual');
+      document.getElementById('box-live').classList.toggle('selected', mode === 'live');
+
+      if (mode === 'annual') {
+        document.getElementById('annual-controls-section').style.display = 'block';
+        document.getElementById('live-controls-section').style.display = 'none';
+        document.getElementById('th-notable-col').innerText = "Faits d'armes / Titres";
+        document.getElementById('th-points-col').innerText = "Points Année LFF";
+        document.getElementById('th-roster-col').innerText = "Roster sous contrat d'époque";
+      } else {
+        document.getElementById('annual-controls-section').style.display = 'none';
+        document.getElementById('live-controls-section').style.display = 'block';
+        document.getElementById('th-notable-col').innerText = "Détail / Tendance Live";
+        document.getElementById('th-points-col').innerText = "Live PR Total";
+        document.getElementById('th-roster-col').innerText = "Joueurs Actuels & PR Individuel";
+      }
+
+      renderRankingView();
+    }
+
+    // Rendu du tableau en fonction du mode actif
+    function renderRankingView() {
+      const tbody = document.getElementById('ranking-tbody');
+      tbody.innerHTML = "";
+
+      if (currentMode === 'annual') {
+        renderAnnualTable();
+      } else {
+        renderLiveTable();
+      }
+    }
+
+    // Rendu du Classement Annuel (historique par année)
+    function renderAnnualTable() {
+      const year = document.getElementById('year-select').value;
       const tierFilter = document.getElementById('tier-filter').value;
       const search = document.getElementById('search-input').value.toLowerCase();
-      const tbody = document.getElementById('ranking-tbody');
+      const seasonData = ANNUAL_DATA[year];
 
-      let list = [...CLUBS];
+      if (!seasonData) return;
 
-      // Ajuster points si saisons antérieures
-      if (season === "2024") {
-        list.sort((a, b) => (b.id === "karmine-corp" ? 1 : 0) - (a.id === "karmine-corp" ? 1 : 0) || b.points - a.points);
-      } else {
-        list.sort((a, b) => b.points - a.points);
-      }
+      document.getElementById('context-title').innerText = seasonData.title;
+      document.getElementById('context-text').innerText = seasonData.description;
+
+      let list = [...seasonData.clubs];
 
       if (tierFilter !== "ALL") {
         list = list.filter(c => c.tier === tierFilter);
@@ -1121,31 +1157,29 @@
 
       if (search) {
         list = list.filter(c => {
-          const roster = ROSTERS[c.id] || [];
-          return c.name.toLowerCase().includes(search) || 
+          return c.name.toLowerCase().includes(search) ||
                  c.tag.toLowerCase().includes(search) ||
-                 roster.some(p => p.toLowerCase().includes(search));
+                 c.roster.some(p => p.toLowerCase().includes(search));
         });
       }
 
-      tbody.innerHTML = "";
+      const tbody = document.getElementById('ranking-tbody');
 
       list.forEach((c, idx) => {
-        const rank = idx + 1;
+        const rank = c.rank;
         const rankClass = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : '';
-        const trendClass = c.trend === 'up' ? 'trend-up' : c.trend === 'down' ? 'trend-down' : 'trend-stable';
-        const trendIcon = c.trend === 'up' ? '▲' : c.trend === 'down' ? '▼' : '▬';
-        
-        const roster = ROSTERS[c.id] || [];
-        const rosterHtml = roster.map(p => `<span class="player-tag">${p}</span>`).join(' ') || '<span style="color: #64748b; font-size: 0.8rem;">Effectif en cours</span>';
+        const trophy = rank === 1 ? '🥇 ' : rank === 2 ? '🥈 ' : rank === 3 ? '🥉 ' : '';
 
-        const logoHtml = c.logo 
-          ? `<img src="${c.logo}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\\'club-logo-placeholder\\'>${c.tag}</div>'">`
+        const logoPath = LOGO_MAP[c.id];
+        const logoHtml = logoPath 
+          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\\'club-logo-placeholder\\'>${c.tag}</div>'">`
           : `<div class="club-logo-placeholder">${c.tag}</div>`;
+
+        const rosterHtml = c.roster.map(p => `<span class="player-tag">${p}</span>`).join(' ');
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
-          <td class="rank-cell ${rankClass}">#${rank}</td>
+          <td class="rank-cell ${rankClass}">${trophy}#${rank}</td>
           <td>
             <div class="club-cell">
               ${logoHtml}
@@ -1155,49 +1189,110 @@
               </div>
             </div>
           </td>
-          <td><span class="badge-pill ${c.tier === 'Tier 1' ? 'gold' : ''}" style="font-size: 0.72rem;">${c.tier}</span></td>
+          <td><span class="badge-pill ${c.tier === 'Tier 1' ? 'gold' : ''}">${c.tier}</span></td>
           <td><div class="roster-tags">${rosterHtml}</div></td>
-          <td style="text-align: center;"><span class="${trendClass}">${trendIcon} ${c.trendVal}</span></td>
-          <td class="pr-points">${c.points.toLocaleString('fr-FR')} pts</td>
+          <td><div class="notable-achievement">${c.notable}</div></td>
+          <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">${c.points.toLocaleString('fr-FR')} pts</td>
         `;
         tbody.appendChild(tr);
       });
     }
 
-    // Affichage du Palmarès
+    // Rendu du Classement Live (puissance actuelle)
+    function renderLiveTable() {
+      const search = document.getElementById('search-input-live').value.toLowerCase();
+      let list = [...LIVE_DATA];
+
+      if (search) {
+        list = list.filter(c => {
+          return c.name.toLowerCase().includes(search) ||
+                 c.tag.toLowerCase().includes(search) ||
+                 c.players.some(p => p.name.toLowerCase().includes(search));
+        });
+      }
+
+      const tbody = document.getElementById('ranking-tbody');
+
+      list.forEach((c) => {
+        const rank = c.rank;
+        const rankClass = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : '';
+        const trophy = rank === 1 ? '🥇 ' : rank === 2 ? '🥈 ' : rank === 3 ? '🥉 ' : '';
+
+        const logoPath = LOGO_MAP[c.id];
+        const logoHtml = logoPath 
+          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\\'club-logo-placeholder\\'>${c.tag}</div>'">`
+          : `<div class="club-logo-placeholder">${c.tag}</div>`;
+
+        const playersHtml = c.players.map(p => 
+          `<span class="player-tag" title="PR individuel : ${p.pr.toLocaleString('fr-FR')} pts">
+            ${p.country} <strong>${p.name}</strong> (${(p.pr / 1000).toFixed(1)}k)
+          </span>`
+        ).join(' ');
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td class="rank-cell ${rankClass}">${trophy}#${rank}</td>
+          <td>
+            <div class="club-cell">
+              ${logoHtml}
+              <div>
+                <span class="club-name">${c.name}</span>
+                <span class="club-tag">${c.tag}</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="badge-pill ${c.tier === 'Tier 1' ? 'gold' : ''}">${c.tier}</span></td>
+          <td><div class="roster-tags">${playersHtml}</div></td>
+          <td><div class="notable-achievement">${c.details}</div></td>
+          <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">⚡ ${c.livePr.toLocaleString('fr-FR')} pts</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Rendu Palmarès
     function renderPalmares() {
       const container = document.getElementById('palmares-container');
       container.innerHTML = "";
 
-      PALMARES.forEach(p => {
+      const years = ["2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018"];
+
+      years.forEach(yr => {
+        const s = ANNUAL_DATA[yr];
+        const winner = s.clubs[0];
+        const second = s.clubs[1];
+        const third = s.clubs[2];
+
         const card = document.createElement('div');
         card.className = "palmares-card";
         card.innerHTML = `
           <div class="palmares-year">
-            <span>${p.year}</span>
+            <span>${yr}</span>
             <span style="font-size: 1.8rem;">🏆</span>
           </div>
-          <div class="palmares-era">${p.era}</div>
+          <div class="palmares-era">${s.title}</div>
           <div class="palmares-winner-box">
-            <div class="winner-trophy">🥇</div>
-            <div class="winner-info">
-              <h3>${p.champName} <span class="club-tag">${p.champTag}</span></h3>
-              <div class="winner-roster">${p.roster.join(', ')}</div>
+            <div style="font-size: 2.2rem;">🥇</div>
+            <div>
+              <h3 style="color: white; font-size: 1.2rem;">${winner.name} <span class="club-tag">${winner.tag}</span></h3>
+              <div style="font-size: 0.82rem; color: #cbd5e1; margin-top: 3px;">
+                👥 ${winner.roster.join(', ')}
+              </div>
             </div>
           </div>
           <div class="podium-list">
-            <div class="podium-item"><span>🥈 2e : <strong>${p.podium[1].name}</strong></span> <span>${p.podium[1].note}</span></div>
-            <div class="podium-item"><span>🥉 3e : <strong>${p.podium[2].name}</strong></span> <span>${p.podium[2].note}</span></div>
+            <div class="podium-item"><span>🥈 2e : <strong>${second.name}</strong></span> <span>${second.points.toLocaleString('fr-FR')} pts</span></div>
+            <div class="podium-item"><span>🥉 3e : <strong>${third.name}</strong></span> <span>${third.points.toLocaleString('fr-FR')} pts</span></div>
           </div>
           <div class="verdict-box">
-            <strong>Verdict LFF :</strong> ${p.verdict}
+            ${s.description}
           </div>
         `;
         container.appendChild(card);
       });
     }
 
-    // Affichage des transferts
+    // Rendu Mercato
     function renderTransfers() {
       const container = document.getElementById('transfer-feed-container');
       container.innerHTML = "";
@@ -1206,19 +1301,18 @@
         const card = document.createElement('div');
         card.className = "transfer-card";
         card.innerHTML = `
-          <div class="transfer-left">
-            <div class="transfer-date">${t.date}</div>
-            <div class="transfer-player-info">
-              <h4>${t.player} <span style="font-size: 0.8rem;">🇫🇷</span></h4>
-              <div class="transfer-move">
-                <span class="team-badge">${t.from}</span>
+          <div style="display: flex; align-items: center; gap: 1.25rem;">
+            <div style="font-family: monospace; font-size: 0.85rem; color: var(--text-dim); background: rgba(0,0,0,0.4); padding: 4px 8px; border-radius: 6px;">${t.date}</div>
+            <div>
+              <h4 style="color: white; font-size: 1.05rem;">${t.player}</h4>
+              <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; margin-top: 3px;">
+                <span style="color: #cbd5e1;">${t.from}</span>
                 <span style="color: var(--purple-accent);">➡️</span>
-                <span class="team-badge" style="color: white; font-weight: 700;">${t.to}</span>
+                <span style="color: white; font-weight: 700;">${t.to}</span>
               </div>
             </div>
           </div>
-          <div class="transfer-right">
-            <span class="source-pill">Source : ${t.source}</span>
+          <div>
             <span class="badge-pill gold">Officiel</span>
           </div>
         `;
@@ -1226,41 +1320,56 @@
       });
     }
 
-    // Affichage des fiches clubs
+    // Rendu Clubs
     function renderClubs() {
       const container = document.getElementById('clubs-grid-container');
       container.innerHTML = "";
 
-      CLUBS.forEach(c => {
-        const roster = ROSTERS[c.id] || [];
-        const logoHtml = c.logo 
-          ? `<img src="${c.logo}" class="club-logo" alt="${c.name}">`
+      // Liste fusionnée des clubs actuels et historiques
+      const allClubs = [
+        { name: "Gentle Mates", tag: "M8", tier: "Tier 1", desc: "Club fondé par Gotaga, Squeezie et Brawks. Champion 2023 & 2025.", id: "gentle-mates" },
+        { name: "Solary", tag: "SLY", tier: "Tier 1", desc: "Le pilier historique du Fortnite français. Champion 2018 & 2022.", id: "solary" },
+        { name: "Karmine Corp", tag: "KC", tier: "Tier 1", desc: "Fondée par Kameto et Prime. Champion 2024 (#1 PR Mondial).", id: "karmine-corp" },
+        { name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", desc: "Structure incontournable du circuit compétitif français.", id: "reality-zone" },
+        { name: "Team Fake", tag: "FAKE", tier: "Tier 2", desc: "Club très actif sur les tournois hebdomadaires et scrims.", id: "team-fake" },
+        { name: "Aten eSport", tag: "ATEN", tier: "Tier 2", desc: "Structure compétitive engagée depuis plusieurs années.", id: "aten-esport" },
+        { name: "Team BSK", tag: "BSK", tier: "Tier 2", desc: "Club francophone dynamique de formation et compétition.", id: "team-bsk" },
+        { name: "Valiant", tag: "VLT", tier: "Tier 2", desc: "Très actif sur le repérage de talents européens.", id: "valiant" },
+        { name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", desc: "Club e-sport tremplin pour les jeunes pépites.", id: "jupitar-esport" },
+        { name: "Odious Esport", tag: "ODS", tier: "Tier 2", desc: "Organisation compétitive engagée en Victory Cups.", id: "odious-esport" },
+        { name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", desc: "Club axé sur la communauté compétitive et l'animation.", id: "paps-esport" },
+        { name: "Team MCES", tag: "MCES", tier: "Tier 1 (Historique)", desc: "Club marseillais champion 2020 avec Andilex (#1 PR Europe).", id: "mces" },
+        { name: "TrainHard eSport", tag: "TH", tier: "Tier 1 (Historique)", desc: "Champion 2021 avec l'armada Trios Falconly, BlastR, Alpha.", id: "trainhard" },
+        { name: "LeStream Esport", tag: "LST", tier: "Tier 1 (Historique)", desc: "Champion 2019 grâce au sacre mondial de Skite à la World Cup.", id: "lestream" },
+        { name: "Grizi Esport", tag: "GRIZI", tier: "Tier 1 (Historique)", desc: "Fondé par Antoine Griezmann. Vainqueur FNCS Duos & Trios.", id: "grizi" },
+        { name: "Team Vitality", tag: "VIT", tier: "Tier 1 (Historique)", desc: "Club mythique des débuts de Fortnite (Gotaga, Airwaks, BadSniper).", id: "vitality" }
+      ];
+
+      allClubs.forEach(c => {
+        const logoPath = LOGO_MAP[c.id];
+        const logoHtml = logoPath 
+          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}">`
           : `<div class="club-logo-placeholder">${c.tag}</div>`;
 
         const card = document.createElement('div');
         card.className = "club-card";
         card.innerHTML = `
-          <div class="club-header">
+          <div style="display: flex; align-items: center; gap: 1rem;">
             ${logoHtml}
             <div>
               <h4 style="color: white; font-size: 1.1rem;">${c.name} <span class="club-tag">${c.tag}</span></h4>
-              <span class="badge-pill" style="font-size: 0.7rem; margin-top: 4px; display: inline-block;">${c.tier}</span>
+              <span class="badge-pill ${c.tier.includes('Tier 1') ? 'gold' : ''}" style="margin-top: 4px;">${c.tier}</span>
             </div>
           </div>
-          <div class="club-roster-list">
-            <h5>Joueurs sous contrat</h5>
-            <div class="roster-tags">
-              ${roster.map(p => `<span class="player-tag">${p}</span>`).join(' ') || '<span style="color: #64748b; font-size: 0.8rem;">Aucun joueur déclaré</span>'}
-            </div>
-          </div>
+          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">${c.desc}</p>
         `;
         container.appendChild(card);
       });
     }
 
-    // Initialisation au chargement
+    // Démarrage
     window.addEventListener('DOMContentLoaded', () => {
-      renderRankingTable();
+      renderRankingView();
       renderPalmares();
       renderTransfers();
       renderClubs();
