@@ -1,6 +1,6 @@
 {
   "2018": {
-    "title": "Saison 2018 — L'ère des Skirmishes & l'Avènement Solary",
+    "title": "Saison 2018 - L'ère des Skirmishes & l'Avènement Solary",
     "description": "Première année compétitive de Fortnite. Solary et Kinstaar dominent outrageusement l'Europe lors des Summer et Fall Skirmishes, avant l'exploit de Skite (LeStream) au Winter Royale.",
     "champion": "Solary",
     "clubs": [
@@ -184,7 +184,7 @@
     ]
   },
   "2019": {
-    "title": "Saison 2019 — La Fortnite World Cup (New York) & Débuts FNCS",
+    "title": "Saison 2019 - La Fortnite World Cup (New York) & Débuts FNCS",
     "description": "L'apogée internationale de LeStream Esport grâce au double Top 10 mondial historique de Skite à New York (7e Solo, 10e Duo). Solary et Vitality brillent également à New York.",
     "champion": "LeStream Esport",
     "clubs": [
@@ -350,7 +350,7 @@
     ]
   },
   "2020": {
-    "title": "Saison 2020 — Le Sacre Européen de Team MCES",
+    "title": "Saison 2020 - Le Titre Européen de Team MCES",
     "description": "L'âge d'or Chapitre 2. Andilex est sacré n°1 au Power Ranking Européen sur Fortnite Tracker et remporte le FNCS Duos avec Nayte (Grizi Esport).",
     "champion": "Team MCES",
     "clubs": [
@@ -526,7 +526,7 @@
     ]
   },
   "2021": {
-    "title": "Saison 2021 — L'Armada TrainHard en Trios FNCS",
+    "title": "Saison 2021 - L'Armada TrainHard en Trios FNCS",
     "description": "L'année des 4 saisons de Trios FNCS et du FNCS Grand Royale. TrainHard eSport réalise une moisson record de points PR grâce au trio Falconly, BlastR et Alpha.",
     "champion": "TrainHard eSport",
     "clubs": [
@@ -712,7 +712,7 @@
     ]
   },
   "2022": {
-    "title": "Saison 2022 — Le Bastion Inébranlable Solary",
+    "title": "Saison 2022 - Le Bastion Inébranlable Solary",
     "description": "Transition vers le Chapitre 3 et retour des Duos. Alors que TrainHard et Grizi ferment leurs portes, Solary porte l'esport tricolore et lance le futur crack Vico.",
     "champion": "Solary",
     "clubs": [
@@ -895,7 +895,7 @@
     ]
   },
   "2023": {
-    "title": "Saison 2023 — L'Avènement Gentle Mates & Le Mondial Copenhague",
+    "title": "Saison 2023 - L'Avènement Gentle Mates & Le Mondial Copenhague",
     "description": "Créé en avril 2023, Gentle Mates (Gotaga, Squeezie, Brawks) signe Snayzy et PodaSai et les qualifie au FNCS Global Championship à Copenhague. Solary brille avec Vico.",
     "champion": "Gentle Mates",
     "clubs": [
@@ -1066,7 +1066,7 @@
     ]
   },
   "2024": {
-    "title": "Saison 2024 — Le Roster Galactique Karmine Corp & L'Exploit HavoK aux Worlds",
+    "title": "Saison 2024 - Le Roster Galactique Karmine Corp & L'Exploit HavoK aux Worlds",
     "description": "La Karmine Corp signe les vainqueurs du Major 1 (Malibuca & Merstach) avec Veno et SwizzY, dominant le Power Ranking Mondial. Parallèlement, Team HavoK (fondée par ZetFar & WaZz) explose avec Wox qui prend la 5e place mondiale aux Worlds de Fort Worth au Texas.",
     "champion": "Karmine Corp",
     "clubs": [
@@ -1096,9 +1096,9 @@
         "roster": [
           "Snayzy",
           "PodaSai",
-          "Merstach"
+          "Vanyak3kk"
         ],
-        "notable": "Finalistes FNCS Majors & Global Championship Texas (avec Nikof aux commandes de la structure Gentle Mates)"
+        "notable": "Snayzy & PodaSai avec Vanyak3kk (Vice-Champion du Monde au Global Championship Texas 2024)"
       },
       {
         "rank": 3,
@@ -1279,7 +1279,7 @@
     ]
   },
   "2025": {
-    "title": "Saison 2025 — Le Sacre Gentle Mates & Le Choc HavoK / Solary (Saison Terminée)",
+    "title": "Saison 2025 - Le Titre Gentle Mates & Le Choc HavoK / Solary (Saison Terminée)",
     "description": "Saison 2025 terminée. Gentle Mates s'empare du titre de Club Champion de France 2025 après une lutte titanesque face à la Team HavoK (indépendante avec Wox, Pixie, Tjino, PabloWingu, Rad3on) et Solary.",
     "champion": "Gentle Mates",
     "clubs": [
@@ -1292,11 +1292,11 @@
         "points": 158000,
         "roster": [
           "Merstach",
+          "Vanyak3kk",
           "Snayzy",
-          "PodaSai",
-          "Malibuca"
+          "PodaSai"
         ],
-        "notable": "Champion de France 2025 (Majors & Global)"
+        "notable": "Champion de France 2025 (Merstach Champion du Monde, Vanyak3kk régulier au sommet)"
       },
       {
         "rank": 2,
@@ -1490,7 +1490,7 @@
     ]
   },
   "2026": {
-    "title": "Saison 2026 — Course au Titre LFF en Direct (Saison en cours)",
+    "title": "Saison 2026 - Course au Titre LFF en Direct (Saison en cours)",
     "description": "Classement officiel en direct pour l'année 2026. Suite au rachat officiel de Team HavoK par Team Vitality le 25 avril 2026, les deux structures fusionnent leurs points et effectifs pour former HavoK by Vitality, en tête devant Gentle Mates et Solary.",
     "champion": "En cours...",
     "clubs": [

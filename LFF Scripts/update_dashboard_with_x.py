@@ -145,6 +145,45 @@ player_x_map = {
 }
 
 # Live data with verified x URLs, Reality Zoned, and clean player pseudos (NO parenthetical info)
+LOGO_MAP = {
+  "havok-by-vitality": "../LFF Logos/Logo HavoK by Vitality (fond vide).png",
+  "team-havok": "../LFF Logos/Logo HavoK (fond vide).png",
+  "solary": "../LFF Logos/Logo Solary (fond vide).png",
+  "gentle-mates": "../LFF Logos/Logo Gentle Mates (fond vide).png",
+  "gameward": "../LFF Logos/Logo GameWard (fond vide).png",
+  "karmine-corp": "../LFF Logos/Logo Karmine Corp (fond vide).png",
+  "vitality": "../LFF Logos/Logo Vitality (fond vide).png",
+  "lestream": "../LFF Logos/Logo LeStream (fond vide).png",
+  "mces": "../LFF Logos/Logo MCES (fond vide).png",
+  "trainhard": "../LFF Logos/Logo TrainHard (fond vide).png",
+  "grizi": "../LFF Logos/Logo Grizi (fond vide).png",
+  "zerance": "../LFF Logos/Logo Zerance (fond vide).png",
+  "galions": "../LFF Logos/Logo Galions (fond vide).png",
+  "team-go": "../LFF Logos/Logo GO (fond vide).png",
+  "team-ldlc": "../LFF Logos/Logo LDLC (fond vide).png",
+  "millenium": "../LFF Logos/Logo Millenium (fond vide).png",
+  "supremacy": "../LFF Logos/Logo Supremacy (fond vide).png",
+  "oserv": "../LFF Logos/Logo Oserv (fond vide).png",
+  "valiant": "../LFF Logos/Logo Valiant (fond vide).png",
+  "bk-rog": "../LFF Logos/Logo BK ROG (fond vide).png",
+  "lunary": "../LFF Logos/Logo Lunary (fond vide).png",
+  "reality-zone": "../LFF Logos/Logo RZ rouge (fond vide).png",
+  "lyost-esport": "../LFF Logos/Logo Lyost (fond vide).png",
+  "exalty": "../LFF Logos/Logo Exalty (fond vide).png",
+  "team-fake": "../LFF Logos/Logo Fake or (fond vide).png",
+  "aten-esport": "../LFF Logos/Logo ATEN marron clair (fond vide).png",
+  "team-bsk": "../LFF Logos/Logo BSK (fond vide).png",
+  "jupitar-esport": "../LFF Logos/Logo Jupitar (fond vide).png",
+  "odious-esport": "../LFF Logos/Logo Odious (fond vide).png",
+  "paps-esport": "../LFF Logos/Logo Pap's (fond vide).png",
+  "pandaria-esport": "../LFF Logos/Logo Pandaria (fond vide).png",
+  "pandore-esport": "../LFF Logos/Logo Pandore (fond vide).png",
+  "fly-again": "../LFF Logos/Logo Fly Again (fond vide).png",
+  "x6-esport": "../LFF Logos/Logo X6 (fond vide).png",
+  "mga-esport": "../LFF Logos/Logo MGA (fond vide).png",
+  "k13-esport": "../LFF Logos/Logo K13 (fond vide).png"
+}
+
 live_data = [
   {
     "rank": 1, "id": "havok-by-vitality", "name": "HavoK by Vitality", "tag": "HvK", "tier": "Tier 1", "livePr": 169500, "trend": "+1",
@@ -507,7 +546,7 @@ full_render_tables = """    function renderAnnualTable() {
 
         const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
         const playersHtml = c.players.map(p => 
-          `<a href="${p.xUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Profil X de ${p.name} (${p.xHandle || ''}) — PR : ${p.pr.toLocaleString('fr-FR')} pts">
+          `<a href="${p.xUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Profil X de ${p.name} (${p.xHandle || ''}) - PR : ${p.pr.toLocaleString('fr-FR')} pts">
             ${p.country} <strong>${p.name}</strong> <span class="x-icon">𝕏</span>
           </a>`
         ).join(' ');

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ligue Française de Fortnite (LFF) — Classements & Power Ranking</title>
+  <title>Ligue Française de Fortnite (LFF) - Classements & Power Ranking</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;700&family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
@@ -754,15 +754,15 @@
           <div class="filter-group">
             <span class="filter-label">Sélectionner l'Année :</span>
             <select class="filter-select" id="year-select" onchange="renderRankingView()">
-              <option value="2026" selected>📅 2026 (Saison en cours)</option>
-              <option value="2025">📅 2025 (Terminée — Sacre Gentle Mates)</option>
-              <option value="2024">📅 2024 (Terminée — Sacre Karmine Corp)</option>
-              <option value="2023">📅 2023 (Terminée — Sacre Gentle Mates)</option>
-              <option value="2022">📅 2022 (Terminée — Sacre Solary)</option>
-              <option value="2021">📅 2021 (Terminée — Sacre TrainHard eSport)</option>
-              <option value="2020">📅 2020 (Terminée — Sacre Team MCES)</option>
-              <option value="2019">📅 2019 (Terminée — Sacre LeStream Esport)</option>
-              <option value="2018">📅 2018 (Terminée — Sacre Solary)</option>
+              <option value="2026" selected>📅 2026 (En cours)</option>
+              <option value="2025">📅 2025 (Gentle Mates)</option>
+              <option value="2024">📅 2024 (Karmine Corp)</option>
+              <option value="2023">📅 2023 (Gentle Mates)</option>
+              <option value="2022">📅 2022 (Solary)</option>
+              <option value="2021">📅 2021 (TrainHard eSport)</option>
+              <option value="2020">📅 2020 (Team MCES)</option>
+              <option value="2019">📅 2019 (LeStream Esport)</option>
+              <option value="2018">📅 2018 (Solary)</option>
             </select>
           </div>
 
@@ -907,7 +907,7 @@
   <footer>
     <div style="max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
       <div>
-        <strong>Ligue Française de Fortnite (LFF)</strong> — <a href="https://x.com/LFFesport" target="_blank" style="color: var(--purple-accent); text-decoration: none; font-weight: 600;">@LFFesport</a> • Contact : <span style="color: #cbd5e1;">liguefrancaisesortnite@gmail.com</span>
+        <strong>Ligue Française de Fortnite (LFF)</strong> - <a href="https://x.com/LFFesport" target="_blank" style="color: var(--purple-accent); text-decoration: none; font-weight: 600;">@LFFesport</a> • Contact : <span style="color: #cbd5e1;">liguefrancaisesortnite@gmail.com</span>
       </div>
       <div>
         Données consolidées avec Fortnite Tracker, Liquipedia, Fandom Esports, @FortniteFraActu et sources officielles.
@@ -922,19 +922,48 @@
 
     // Base des logos locaux connus
     const LOGO_MAP = {
-      "reality-zone": "../LFF Clubs/Logo RZ rouge (fond vide).png",
-      "team-fake": "../LFF Clubs/Logo Fake or (fond vide).png",
-      "aten-esport": "../LFF Clubs/Logo ATEN marron clair (fond vide).png",
-      "team-bsk": "../LFF Clubs/Logo BSK (fond vide).png",
-      "jupitar-esport": "../LFF Clubs/Logo Jupitar (fond vide).png",
-      "odious-esport": "../LFF Clubs/Logo Odious (fond vide).png",
-      "paps-esport": "../LFF Clubs/Logo Pap's (fond vide).png"
-    };
+      "havok-by-vitality": "../LFF Logos/Logo HavoK by Vitality (fond vide).png",
+      "team-havok": "../LFF Logos/Logo HavoK (fond vide).png",
+      "solary": "../LFF Logos/Logo Solary (fond vide).png",
+      "gentle-mates": "../LFF Logos/Logo Gentle Mates (fond vide).png",
+      "gameward": "../LFF Logos/Logo GameWard (fond vide).png",
+      "karmine-corp": "../LFF Logos/Logo Karmine Corp (fond vide).png",
+      "vitality": "../LFF Logos/Logo Vitality (fond vide).png",
+      "lestream": "../LFF Logos/Logo LeStream (fond vide).png",
+      "mces": "../LFF Logos/Logo MCES (fond vide).png",
+      "trainhard": "../LFF Logos/Logo TrainHard (fond vide).png",
+      "grizi": "../LFF Logos/Logo Grizi (fond vide).png",
+      "zerance": "../LFF Logos/Logo Zerance (fond vide).png",
+      "galions": "../LFF Logos/Logo Galions (fond vide).png",
+      "team-go": "../LFF Logos/Logo GO (fond vide).png",
+      "team-ldlc": "../LFF Logos/Logo LDLC (fond vide).png",
+      "millenium": "../LFF Logos/Logo Millenium (fond vide).png",
+      "supremacy": "../LFF Logos/Logo Supremacy (fond vide).png",
+      "oserv": "../LFF Logos/Logo Oserv (fond vide).png",
+      "valiant": "../LFF Logos/Logo Valiant (fond vide).png",
+      "bk-rog": "../LFF Logos/Logo BK ROG (fond vide).png",
+      "lunary": "../LFF Logos/Logo Lunary (fond vide).png",
+      "reality-zone": "../LFF Logos/Logo RZ rouge (fond vide).png",
+      "lyost-esport": "../LFF Logos/Logo Lyost (fond vide).png",
+      "exalty": "../LFF Logos/Logo Exalty (fond vide).png",
+      "team-fake": "../LFF Logos/Logo Fake or (fond vide).png",
+      "aten-esport": "../LFF Logos/Logo ATEN marron clair (fond vide).png",
+      "team-bsk": "../LFF Logos/Logo BSK (fond vide).png",
+      "jupitar-esport": "../LFF Logos/Logo Jupitar (fond vide).png",
+      "odious-esport": "../LFF Logos/Logo Odious (fond vide).png",
+      "paps-esport": "../LFF Logos/Logo Pap's (fond vide).png",
+      "pandaria-esport": "../LFF Logos/Logo Pandaria (fond vide).png",
+      "pandore-esport": "../LFF Logos/Logo Pandore (fond vide).png",
+      "fly-again": "../LFF Logos/Logo Fly Again (fond vide).png",
+      "x6-esport": "../LFF Logos/Logo X6 (fond vide).png",
+      "mga-esport": "../LFF Logos/Logo MGA (fond vide).png",
+      "k13-esport": "../LFF Logos/Logo K13 (fond vide).png"
+};
 
     // BASE COMPLÈTE DE TOUS LES CLASSEMENTS ANNUELS DEPUIS LE DÉBUT (2018 - 2025)
     const ANNUAL_DATA = {
   "2018": {
-    "title": "Saison 2018 — L'ère des Skirmishes & l'Avènement Solary",
+    "title": "Saison 2018 - L'ère des Skirmishes & l'Avènement Solary",
     "description": "Première année compétitive de Fortnite. Solary et Kinstaar dominent outrageusement l'Europe lors des Summer et Fall Skirmishes, avant l'exploit de Skite (LeStream) au Winter Royale.",
     "champion": "Solary",
     "clubs": [
@@ -1118,7 +1147,7 @@
     ]
   },
   "2019": {
-    "title": "Saison 2019 — La Fortnite World Cup (New York) & Débuts FNCS",
+    "title": "Saison 2019 - La Fortnite World Cup (New York) & Débuts FNCS",
     "description": "L'apogée internationale de LeStream Esport grâce au double Top 10 mondial historique de Skite à New York (7e Solo, 10e Duo). Solary et Vitality brillent également à New York.",
     "champion": "LeStream Esport",
     "clubs": [
@@ -1284,7 +1313,7 @@
     ]
   },
   "2020": {
-    "title": "Saison 2020 — Le Sacre Européen de Team MCES",
+    "title": "Saison 2020 - Le Titre Européen de Team MCES",
     "description": "L'âge d'or Chapitre 2. Andilex est sacré n°1 au Power Ranking Européen sur Fortnite Tracker et remporte le FNCS Duos avec Nayte (Grizi Esport).",
     "champion": "Team MCES",
     "clubs": [
@@ -1460,7 +1489,7 @@
     ]
   },
   "2021": {
-    "title": "Saison 2021 — L'Armada TrainHard en Trios FNCS",
+    "title": "Saison 2021 - L'Armada TrainHard en Trios FNCS",
     "description": "L'année des 4 saisons de Trios FNCS et du FNCS Grand Royale. TrainHard eSport réalise une moisson record de points PR grâce au trio Falconly, BlastR et Alpha.",
     "champion": "TrainHard eSport",
     "clubs": [
@@ -1646,7 +1675,7 @@
     ]
   },
   "2022": {
-    "title": "Saison 2022 — Le Bastion Inébranlable Solary",
+    "title": "Saison 2022 - Le Bastion Inébranlable Solary",
     "description": "Transition vers le Chapitre 3 et retour des Duos. Alors que TrainHard et Grizi ferment leurs portes, Solary porte l'esport tricolore et lance le futur crack Vico.",
     "champion": "Solary",
     "clubs": [
@@ -1829,7 +1858,7 @@
     ]
   },
   "2023": {
-    "title": "Saison 2023 — L'Avènement Gentle Mates & Le Mondial Copenhague",
+    "title": "Saison 2023 - L'Avènement Gentle Mates & Le Mondial Copenhague",
     "description": "Créé en avril 2023, Gentle Mates (Gotaga, Squeezie, Brawks) signe Snayzy et PodaSai et les qualifie au FNCS Global Championship à Copenhague. Solary brille avec Vico.",
     "champion": "Gentle Mates",
     "clubs": [
@@ -2000,7 +2029,7 @@
     ]
   },
   "2024": {
-    "title": "Saison 2024 — Le Roster Galactique Karmine Corp & L'Exploit HavoK aux Worlds",
+    "title": "Saison 2024 - Le Roster Galactique Karmine Corp & L'Exploit HavoK aux Worlds",
     "description": "La Karmine Corp signe les vainqueurs du Major 1 (Malibuca & Merstach) avec Veno et SwizzY, dominant le Power Ranking Mondial. Parallèlement, Team HavoK (fondée par ZetFar & WaZz) explose avec Wox qui prend la 5e place mondiale aux Worlds de Fort Worth au Texas.",
     "champion": "Karmine Corp",
     "clubs": [
@@ -2030,9 +2059,9 @@
         "roster": [
           "Snayzy",
           "PodaSai",
-          "Merstach"
+          "Vanyak3kk"
         ],
-        "notable": "Finalistes FNCS Majors & Global Championship Texas (avec Nikof aux commandes de la structure Gentle Mates)"
+        "notable": "Snayzy & PodaSai avec Vanyak3kk (Vice-Champion du Monde au Global Championship Texas 2024)"
       },
       {
         "rank": 3,
@@ -2213,7 +2242,7 @@
     ]
   },
   "2025": {
-    "title": "Saison 2025 — Le Sacre Gentle Mates & Le Choc HavoK / Solary (Saison Terminée)",
+    "title": "Saison 2025 - Le Titre Gentle Mates & Le Choc HavoK / Solary (Saison Terminée)",
     "description": "Saison 2025 terminée. Gentle Mates s'empare du titre de Club Champion de France 2025 après une lutte titanesque face à la Team HavoK (indépendante avec Wox, Pixie, Tjino, PabloWingu, Rad3on) et Solary.",
     "champion": "Gentle Mates",
     "clubs": [
@@ -2226,11 +2255,11 @@
         "points": 158000,
         "roster": [
           "Merstach",
+          "Vanyak3kk",
           "Snayzy",
-          "PodaSai",
-          "Malibuca"
+          "PodaSai"
         ],
-        "notable": "Champion de France 2025 (Majors & Global)"
+        "notable": "Champion de France 2025 (Merstach Champion du Monde, Vanyak3kk régulier au sommet)"
       },
       {
         "rank": 2,
@@ -2424,7 +2453,7 @@
     ]
   },
   "2026": {
-    "title": "Saison 2026 — Course au Titre LFF en Direct (Saison en cours)",
+    "title": "Saison 2026 - Course au Titre LFF en Direct (Saison en cours)",
     "description": "Classement officiel en direct pour l'année 2026. Suite au rachat officiel de Team HavoK par Team Vitality le 25 avril 2026, les deux structures fusionnent leurs points et effectifs pour former HavoK by Vitality, en tête devant Gentle Mates et Solary.",
     "champion": "En cours...",
     "clubs": [
@@ -2619,7 +2648,15 @@
   "aten-esport": "https://x.com/AtenEsport",
   "jupitar-esport": "https://x.com/JupitarEsport",
   "odious-esport": "https://x.com/OdiousEsport",
-  "paps-esport": "https://x.com/PapsEsport"
+  "paps-esport": "https://x.com/PapsEsport",
+  "pandaria-esport": "https://x.com/PandariaEsport",
+  "pandore-esport": "https://x.com/PandoreEsport",
+  "fly-again": "https://x.com/FlyAgainEsport",
+  "x6-esport": "https://x.com/X6_Esport",
+  "mga-esport": "https://x.com/MGAesport",
+  "k13-esport": "https://x.com/K13Esport",
+  "bastille-legacy": "https://x.com/search?q=Bastille+Legacy+fortnite",
+  "begenius-esc": "https://x.com/search?q=beGenius+ESC+fortnite"
 };
 
     const PLAYER_X_MAP = {
@@ -3448,7 +3485,7 @@
 
         const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
         const playersHtml = c.players.map(p => 
-          `<a href="${p.xUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Profil X de ${p.name} (${p.xHandle || ''}) — PR : ${p.pr.toLocaleString('fr-FR')} pts">
+          `<a href="${p.xUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Profil X de ${p.name} (${p.xHandle || ''}) - PR : ${p.pr.toLocaleString('fr-FR')} pts">
             ${p.country} <strong>${p.name}</strong> <span class="x-icon">𝕏</span>
           </a>`
         ).join(' ');
@@ -3875,6 +3912,86 @@
                 "xHandle": "@PapsEsport",
                 "xUrl": "https://x.com/PapsEsport",
                 "liquipediaUrl": null
+        },
+        {
+                "name": "Pandaria Esport",
+                "tag": "PAN",
+                "tier": "Tier 2",
+                "desc": "Club français compétitif présent au Power Ranking Européen Fandom PC, pépinière reconnue de talents francophones.",
+                "id": "pandaria-esport",
+                "xHandle": "@PandariaEsport",
+                "xUrl": "https://x.com/PandariaEsport",
+                "liquipediaUrl": "https://liquipedia.net/fortnite/Pandaria_Esport"
+        },
+        {
+                "name": "Pandore Esport",
+                "tag": "PDR",
+                "tier": "Tier 2",
+                "desc": "Structure compétitive française classée dans le Top 50 européen PC des Power Rankings d'équipes.",
+                "id": "pandore-esport",
+                "xHandle": "@PandoreEsport",
+                "xUrl": "https://x.com/PandoreEsport",
+                "liquipediaUrl": "https://liquipedia.net/fortnite/Pandore_Esport"
+        },
+        {
+                "name": "Fly Again",
+                "tag": "FLY",
+                "tier": "Tier 2",
+                "desc": "Écurie française engagée sur les tournois officiels FNCS et les Cash Cups européennes (Top 45 Fandom EU).",
+                "id": "fly-again",
+                "xHandle": "@FlyAgainEsport",
+                "xUrl": "https://x.com/FlyAgainEsport",
+                "liquipediaUrl": "https://liquipedia.net/fortnite/Fly_Again"
+        },
+        {
+                "name": "X6 E-sport",
+                "tag": "X6",
+                "tier": "Tier 2",
+                "desc": "Structure francophone active sur le circuit compétitif Fortnite, ancienne équipe formatrice de Nxthan.",
+                "id": "x6-esport",
+                "xHandle": "@X6_Esport",
+                "xUrl": "https://x.com/X6_Esport",
+                "liquipediaUrl": "https://liquipedia.net/fortnite/X6_E-sport"
+        },
+        {
+                "name": "MGA eSport",
+                "tag": "MGA",
+                "tier": "Tier 2",
+                "desc": "Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois.",
+                "id": "mga-esport",
+                "xHandle": "@MGAesport",
+                "xUrl": "https://x.com/MGAesport",
+                "liquipediaUrl": "https://liquipedia.net/fortnite/MGA_eSport"
+        },
+        {
+                "name": "K13 Esport",
+                "tag": "K13",
+                "tier": "Tier 2",
+                "desc": "Organisation française très active sur le circuit compétitif européen, classée au Top 15 Fandom PC Europe.",
+                "id": "k13-esport",
+                "xHandle": "@K13Esport",
+                "xUrl": "https://x.com/K13Esport",
+                "liquipediaUrl": "https://liquipedia.net/fortnite/K13_Esport"
+        },
+        {
+                "name": "Bastille Legacy",
+                "tag": "BL",
+                "tier": "Tier 2 (Historique)",
+                "desc": "Club pionnier de la scène française Fortnite début 2018, ayant révélé Kinstaar, mzXXD et Hunter avant l'ère Solary.",
+                "id": "bastille-legacy",
+                "xHandle": "@BastilleLegacy",
+                "xUrl": "https://x.com/search?q=Bastille+Legacy+fortnite",
+                "liquipediaUrl": "https://liquipedia.net/fortnite/Bastille_Legacy"
+        },
+        {
+                "name": "beGenius ESC",
+                "tag": "bGe",
+                "tier": "Tier 2 (Historique)",
+                "desc": "Structure historique montpelliéraine ayant accueilli les débuts compétitifs de Blaxou et Nikof en 2018.",
+                "id": "begenius-esc",
+                "xHandle": "@beGeniusESC",
+                "xUrl": "https://x.com/search?q=beGenius+ESC+fortnite",
+                "liquipediaUrl": "https://liquipedia.net/fortnite/BeGenius_ESC"
         }
 ];
 

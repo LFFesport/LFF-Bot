@@ -72,6 +72,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active
 - **Compte X officiel** : [@GentleMates](https://x.com/GentleMates)
 - **Liquipedia** : [Gentle Mates](https://liquipedia.net/fortnite/Gentle_Mates)
+- **Logo enregistré** : `../LFF Logos/Logo Gentle Mates (fond vide).png`
 - **Description** : Structure fondée par Gotaga, Squeezie et Brawks en 2023. Nikof (ancien joueur pro Solary/Vitality) en est le Head of Fortnite puis le CEO. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023).
 
 ### Karmine Corp (`KC`)
@@ -79,6 +80,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical / Special
 - **Compte X officiel** : [@KarmineCorp](https://x.com/KarmineCorp)
 - **Liquipedia** : [Karmine Corp](https://liquipedia.net/fortnite/Karmine_Corp)
+- **Logo enregistré** : `../LFF Logos/Logo Karmine Corp (fond vide).png`
 - **Description** : Fondée par Kameto et Prime. Arrivée explosive sur Fortnite en mai 2024 avec Malibuca, Merstach, Veno, SwizzY et Oslo en coach, dominant le PR mondial en 2024.
 
 ### HavoK by Vitality (`HvK`)
@@ -86,6 +88,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active (depuis le rachat du 25 avril 2026)
 - **Compte X officiel** : [@HvKGGs](https://x.com/HvKGGs)
 - **Liquipedia** : [HavoK by Vitality](https://liquipedia.net/fortnite/HavoK_by_Vitality)
+- **Logo enregistré** : `../LFF Logos/Logo HavoK by Vitality (fond vide).png`
 - **Description** : Super-équipe née du rachat du 25 avril 2026 par Team Vitality. Sacrée Championne du Monde 2026 au Global Championship à Anvers avec son duo planétaire SwizzY & Pixie, complété par Wox (5e mondial 2024), Tjino, PabloWingu (champions Major 2 2025), IDrop et Seekk (vérifiés bio X).
 
 ### Team HavoK (`HVK`)
@@ -93,6 +96,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historique (Fusionné le 25 avril 2026)
 - **Compte X officiel** : [@HvKGGs](https://x.com/HvKGGs)
 - **Liquipedia** : [Team HavoK](https://liquipedia.net/fortnite/Team_HavoK)
+- **Logo enregistré** : `../LFF Logos/Logo HavoK (fond vide).png`
 - **Description** : Structure fondée le 28 août 2024 par les YouTubeurs ZetFar et WaZz. Révélation mondiale avec Wox (5e aux Worlds FNCS 2024), vainqueur Major 2 en 2025. Rachetée le 25 avril 2026 par Team Vitality.
 
 ### Solary (`SLY`)
@@ -100,6 +104,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active
 - **Compte X officiel** : [@SolaryTV](https://x.com/SolaryTV)
 - **Liquipedia** : [Solary](https://liquipedia.net/fortnite/Solary)
+- **Logo enregistré** : `../LFF Logos/Logo Solary (fond vide).png`
 - **Description** : Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, BlastR, Vico, sereN, Darkos, XZEEVIT...).
 
 ### Team Vitality (`VIT`)
@@ -107,6 +112,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historique (Fusionné le 25 avril 2026)
 - **Compte X officiel** : [@TeamVitality](https://x.com/TeamVitality)
 - **Liquipedia** : [Team Vitality](https://liquipedia.net/fortnite/Team_Vitality)
+- **Logo enregistré** : `../LFF Logos/Logo Vitality (fond vide).png`
 - **Description** : Club pionnier tricolore (2018-2021 : Gotaga, BadSniper, Oslo, Keolys). Fait son retour au sommet le 25 avril 2026 en rachetant Team HavoK pour fonder HavoK by Vitality.
 
 ### Team GO (GamersOrigin) (`GO`)
@@ -114,6 +120,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@Team_GO](https://x.com/Team_GO)
 - **Liquipedia** : [Team GO (GamersOrigin)](https://liquipedia.net/fortnite/Team_GO)
+- **Logo enregistré** : `../LFF Logos/Logo GO (fond vide).png`
 - **Description** : Organisation majeure du sport électronique français. Très présente de 2018 à 2022 (Decyptos, Shaykos, M11Z, Lentille, Robabz, Clément).
 
 ### GameWard (`GW`)
@@ -121,6 +128,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active
 - **Compte X officiel** : [@GameWardTeam](https://x.com/GameWardTeam)
 - **Liquipedia** : [GameWard](https://liquipedia.net/fortnite/GameWard)
+- **Logo enregistré** : `../LFF Logos/Logo GameWard (fond vide).png`
 - **Description** : Club francilien majeur actif sans interruption depuis mars 2018. Historiquement tremplin de Nayte, Keolys, BadSniper, Snayzy, Shaax, et aujourd'hui représenté au plus haut niveau par Tylio, Kombek, Repairs, S1neD, Baxo, Snaylyx sous la direction du coach Aarnax.
 
 ### LeStream Esport (`LST`)
@@ -128,6 +136,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@LeStreamEsport](https://x.com/LeStreamEsport)
 - **Liquipedia** : [LeStream Esport](https://liquipedia.net/fortnite/LeStream_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo LeStream (fond vide).png`
 - **Description** : Club légendaire de 2018-2019 (Skite, Vato, TheVic, Boyer). Vainqueur Winter Royale 2018, Secret Skirmish et 7e Solo / 10e Duo à la World Cup 2019.
 
 ### Team MCES (`MCES`)
@@ -135,6 +144,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@MCES_officiel](https://x.com/MCES_officiel)
 - **Liquipedia** : [Team MCES](https://liquipedia.net/fortnite/Team_MCES)
+- **Logo enregistré** : `../LFF Logos/Logo MCES (fond vide).png`
 - **Description** : Club marseillais pionnier. Vainqueur FNCS Duos Chapitre 2 Saison 2 avec Andilex (#1 PR Europe en 2020), PodaSai, Xsweeze, Kouto.
 
 ### TrainHard eSport (`TH`)
@@ -142,6 +152,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@TrainHardEsport](https://x.com/TrainHardEsport)
 - **Liquipedia** : [TrainHard eSport](https://liquipedia.net/fortnite/TrainHard_eSport)
+- **Logo enregistré** : `../LFF Logos/Logo TrainHard (fond vide).png`
 - **Description** : L'un des plus puissants rosters européens en 2020-2021 (BlastR, Alpha, Yags, Falconly, Kyzen). Multiples podiums et titres FNCS.
 
 ### Grizi Esport (`GRIZI`)
@@ -149,6 +160,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@GriziEsport](https://x.com/GriziEsport)
 - **Liquipedia** : [Grizi Esport](https://liquipedia.net/fortnite/Grizi_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Grizi (fond vide).png`
 - **Description** : Fondé par Antoine et Théo Griezmann. Titré au FNCS Duos C2S2 (Nayte) et dominateur avec 4zr au sommet du PR européen en 2020-2021.
 
 ### Zerance (`ZRC`)
@@ -156,6 +168,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historique
 - **Compte X officiel** : [@Zerance_esport](https://x.com/Zerance_esport)
 - **Liquipedia** : [Zerance](https://liquipedia.net/fortnite/Zerance)
+- **Logo enregistré** : `../LFF Logos/Logo Zerance (fond vide).png`
 - **Description** : Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.
 
 ### Galions (`GLN`)
@@ -163,6 +176,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historique (Fermeture le 7 déc. 2025)
 - **Compte X officiel** : [@Galions_](https://x.com/Galions_)
 - **Liquipedia** : [Galions](https://liquipedia.net/fortnite/Galions)
+- **Logo enregistré** : `../LFF Logos/Logo Galions (fond vide).png`
 - **Description** : Lancé en décembre 2024 par Team GO et Sixen avec Clément et Kyzen. Après la saison 2025, le club ferme sa division Fortnite le 7 décembre 2025 (Kyzen prend sa retraite compétitive, Clément devient agent libre).
 
 ### Team LDLC (LDLC OL) (`LDLC`)
@@ -170,6 +184,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@LDLC_OL](https://x.com/LDLC_OL)
 - **Liquipedia** : [Team LDLC (LDLC OL)](https://liquipedia.net/fortnite/Team_LDLC)
+- **Logo enregistré** : `../LFF Logos/Logo LDLC (fond vide).png`
 - **Description** : Institution historique de l'esport français. Présente dès juin 2018 sur Fortnite (Djoe, Maylee, Ovni, Sops, Khuna, Seth).
 
 ### Millenium (`M`)
@@ -177,6 +192,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@Millenium](https://x.com/Millenium)
 - **Liquipedia** : [Millenium](https://liquipedia.net/fortnite/Millenium)
+- **Logo enregistré** : `../LFF Logos/Logo Millenium (fond vide).png`
 - **Description** : Pionnier absolu en février 2018. Équipe légendaire avec Teeqzy (record du monde de 43 kills), NokSs, Robi et Mickalow.
 
 ### Supremacy (`Sy`)
@@ -184,6 +200,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@Supremacy_FR](https://x.com/Supremacy_FR)
 - **Liquipedia** : [Supremacy](https://liquipedia.net/fortnite/Supremacy)
+- **Logo enregistré** : `../LFF Logos/Logo Supremacy (fond vide).png`
 - **Description** : Écurie pionnière dès mars 2018 avec Vato, Skite, Maxalibur et Kyuubi. Berceau de futures stars internationales.
 
 ### Oserv Esport (`OSV`)
@@ -191,6 +208,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@OservEsport](https://x.com/OservEsport)
 - **Liquipedia** : [Oserv Esport](https://liquipedia.net/fortnite/Oserv_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Oserv (fond vide).png`
 - **Description** : Club précurseur en 2018 (Skite, MawkS, Nyx, Deadra, Blaxou). Vainqueurs et podiums sur les premières LANs de l'hexagone.
 
 ### Valiant (`VLT`)
@@ -198,6 +216,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historique
 - **Compte X officiel** : [@ValiantOfficiel](https://x.com/ValiantOfficiel)
 - **Liquipedia** : [Valiant](https://liquipedia.net/fortnite/Valiant)
+- **Logo enregistré** : `../LFF Logos/Logo Valiant (fond vide).png`
 - **Description** : Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025.
 
 ### Reality Zoned (`RZ`)
@@ -205,7 +224,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active
 - **Compte X officiel** : [@RealityZoneFR](https://x.com/RealityZoneFR)
 - **Liquipedia** : [Reality Zoned](https://liquipedia.net/fortnite/Reality_Zone)
-- **Logo enregistré** : `LFF Clubs/Logo RZ rouge (fond vide).png`
+- **Logo enregistré** : `../LFF Logos/Logo RZ rouge (fond vide).png`
 - **Description** : Club compétitif français incontournable sur les tournois communautaires, Console et PC (Cash Cups, FNCS Heats).
 
 ### Team BSK (`BSK`)
@@ -213,7 +232,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active
 - **Compte X officiel** : [@TeamBSK_](https://x.com/TeamBSK_)
 - **Liquipedia** : [Team BSK](https://liquipedia.net/fortnite/BSK_Esport)
-- **Logo enregistré** : `LFF Clubs/Logo BSK (fond vide).png`
+- **Logo enregistré** : `../LFF Logos/Logo BSK (fond vide).png`
 - **Description** : Structure francophone (Besançon) très dynamique sur la scène compétitive et la formation de pépites Fortnite.
 
 ### Lyost Esport (`LYO`)
@@ -221,6 +240,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Active
 - **Compte X officiel** : [@lyost_esport](https://x.com/lyost_esport)
 - **Liquipedia** : [Lyost Esport](https://liquipedia.net/fortnite/Lyost_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Lyost (fond vide).png`
 - **Description** : Organisation marseillaise créée en janvier 2021, organisatrice de la Massilia Cup et formatrice de talents du Sud.
 
 ### Exalty (`EXL`)
@@ -228,6 +248,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@Exalty_FR](https://x.com/Exalty_FR)
 - **Liquipedia** : [Exalty](https://liquipedia.net/fortnite/Exalty)
+- **Logo enregistré** : `../LFF Logos/Logo Exalty (fond vide).png`
 - **Description** : Club toulousain fondé en janvier 2018. A révélé Falconly, Robabz et Artskill sur le circuit des LANs françaises.
 
 ### BK ROG Esports (`BKR`)
@@ -235,6 +256,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@ASUS_BK_ROG](https://x.com/ASUS_BK_ROG)
 - **Liquipedia** : [BK ROG Esports](https://liquipedia.net/fortnite/BK_ROG_Esports)
+- **Logo enregistré** : `../LFF Logos/Logo BK ROG (fond vide).png`
 - **Description** : Structure française issue de la fusion ASUS ROG, engagée sur plusieurs saisons FNCS.
 
 ### Lunary (`LNY`)
@@ -242,40 +264,103 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 - **Statut** : Historical
 - **Compte X officiel** : [@SolaryTV](https://x.com/SolaryTV)
 - **Liquipedia** : [Lunary](https://liquipedia.net/fortnite/Lunary)
+- **Logo enregistré** : `../LFF Logos/Logo Lunary (fond vide).png`
 - **Description** : L'équipe sœur de Solary (Jbzz, Chap, Taipouz, MZ, Airwaks), mythique dans les LANs 2018-2019.
 
 ### Team Fake (`FAKE`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
 - **Compte X officiel** : [@TeamFake_esport](https://x.com/TeamFake_esport)
-- **Logo enregistré** : `LFF Clubs/Logo Fake or (fond vide).png`
+- **Logo enregistré** : `../LFF Logos/Logo Fake or (fond vide).png`
 - **Description** : Équipe française très active dans les tournois inter-structures, open qualifiers et circuits réguliers de scrims.
 
 ### Aten eSport (`ATEN`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
 - **Compte X officiel** : [@AtenEsport](https://x.com/AtenEsport)
-- **Logo enregistré** : `LFF Clubs/Logo ATEN marron clair (fond vide).png`
+- **Logo enregistré** : `../LFF Logos/Logo ATEN marron clair (fond vide).png`
 - **Description** : Structure française engagée en compétition et compétitions communautaires régulières.
 
 ### Jupitar Esport (`JUP`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
 - **Compte X officiel** : [@JupitarEsport](https://x.com/JupitarEsport)
-- **Logo enregistré** : `LFF Clubs/Logo Jupitar (fond vide).png`
+- **Logo enregistré** : `../LFF Logos/Logo Jupitar (fond vide).png`
 - **Description** : Club e-sport français multigaming présent sur la scène Fortnite compétitive et tremplin de jeunes talents.
 
 ### Odious Esport (`ODS`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
 - **Compte X officiel** : [@OdiousEsport](https://x.com/OdiousEsport)
-- **Logo enregistré** : `LFF Clubs/Logo Odious (fond vide).png`
+- **Logo enregistré** : `../LFF Logos/Logo Odious (fond vide).png`
 - **Description** : Organisation compétitive française engagée dans les Cash Cups, Victory Cups et tournois hebdomadaires.
 
 ### Pap's Esport (`PAPS`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
 - **Compte X officiel** : [@PapsEsport](https://x.com/PapsEsport)
-- **Logo enregistré** : `LFF Clubs/Logo Pap's (fond vide).png`
+- **Logo enregistré** : `../LFF Logos/Logo Pap's (fond vide).png`
 - **Description** : Structure française menée autour de la communauté compétitive et des rassemblements majeurs de la scène FR.
+
+### Pandaria Esport (`PAN`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@PandariaEsport](https://x.com/PandariaEsport)
+- **Liquipedia** : [Pandaria Esport](https://liquipedia.net/fortnite/Pandaria_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Pandaria (fond vide).png`
+- **Description** : Club français compétitif présent au Power Ranking Européen Fandom PC, pépinière reconnue de talents francophones.
+
+### Pandore Esport (`PDR`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@PandoreEsport](https://x.com/PandoreEsport)
+- **Liquipedia** : [Pandore Esport](https://liquipedia.net/fortnite/Pandore_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo Pandore (fond vide).png`
+- **Description** : Structure compétitive française classée dans le Top 50 européen PC des Power Rankings d'équipes.
+
+### Fly Again (`FLY`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@FlyAgainEsport](https://x.com/FlyAgainEsport)
+- **Liquipedia** : [Fly Again](https://liquipedia.net/fortnite/Fly_Again)
+- **Logo enregistré** : `../LFF Logos/Logo Fly Again (fond vide).png`
+- **Description** : Écurie française engagée sur les tournois officiels FNCS et les Cash Cups européennes (Top 45 Fandom EU).
+
+### X6 E-sport (`X6`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@X6_Esport](https://x.com/X6_Esport)
+- **Liquipedia** : [X6 E-sport](https://liquipedia.net/fortnite/X6_E-sport)
+- **Logo enregistré** : `../LFF Logos/Logo X6 (fond vide).png`
+- **Description** : Structure francophone active sur le circuit compétitif Fortnite, ancienne équipe formatrice de Nxthan.
+
+### MGA eSport (`MGA`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@MGAesport](https://x.com/MGAesport)
+- **Liquipedia** : [MGA eSport](https://liquipedia.net/fortnite/MGA_eSport)
+- **Logo enregistré** : `../LFF Logos/Logo MGA (fond vide).png`
+- **Description** : Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois.
+
+### K13 Esport (`K13`)
+- **Division / Tier** : Tier 2
+- **Statut** : Active
+- **Compte X officiel** : [@K13Esport](https://x.com/K13Esport)
+- **Liquipedia** : [K13 Esport](https://liquipedia.net/fortnite/K13_Esport)
+- **Logo enregistré** : `../LFF Logos/Logo K13 (fond vide).png`
+- **Description** : Organisation française très active sur le circuit compétitif européen, classée au Top 15 Fandom PC Europe.
+
+### Bastille Legacy (`BL`)
+- **Division / Tier** : Tier 2
+- **Statut** : Historical
+- **Compte X officiel** : [@BastilleLegacy](https://x.com/search?q=Bastille+Legacy+fortnite)
+- **Liquipedia** : [Bastille Legacy](https://liquipedia.net/fortnite/Bastille_Legacy)
+- **Description** : Club pionnier de la scène française Fortnite début 2018, ayant révélé Kinstaar, mzXXD et Hunter avant l'ère Solary.
+
+### beGenius ESC (`bGe`)
+- **Division / Tier** : Tier 2
+- **Statut** : Historical
+- **Compte X officiel** : [@beGeniusESC](https://x.com/search?q=beGenius+ESC+fortnite)
+- **Liquipedia** : [beGenius ESC](https://liquipedia.net/fortnite/BeGenius_ESC)
+- **Description** : Structure historique montpelliéraine ayant accueilli les débuts compétitifs de Blaxou et Nikof en 2018.
 
