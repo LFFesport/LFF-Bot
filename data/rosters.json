@@ -1,6 +1,46 @@
 {
   "transfers_log": [
     {
+      "date": "2026-10-03",
+      "player_ign": "XZEEVIT",
+      "player_name": "XZEEVIT",
+      "type": "Arrival",
+      "club_id": "solary",
+      "previous_club": "Free Agent",
+      "source": "Official Announcement (@SolaryTV / @xzeevit / @Revenja_)",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2025-12-07",
+      "player_ign": "Kyzen",
+      "player_name": "Kyzen",
+      "type": "Retirement / Departure",
+      "club_id": "galions",
+      "previous_club": "galions",
+      "source": "Bio X vérifiée (@KyzenFN - was pro Fortnite / Fermeture Galions)",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2025-12-07",
+      "player_ign": "Clément",
+      "player_name": "Clément Danglot",
+      "type": "Departure",
+      "club_id": "galions",
+      "previous_club": "galions",
+      "source": "Bio X vérifiée (@Clement_ttt - Free Agent / Fermeture Galions)",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2024-12-20",
+      "player_ign": "Snayzy",
+      "player_name": "Noay Lailin",
+      "type": "Departure",
+      "club_id": "gentle-mates",
+      "previous_club": "gentle-mates",
+      "source": "Bio X vérifiée (@Snayzyy - Free Agent)",
+      "status": "Confirmed"
+    },
+    {
       "date": "2026-10-15",
       "player_ign": "Seekk",
       "player_name": "Seekk",
@@ -245,20 +285,20 @@
     ],
     "gentle-mates": [
       {
-        "ign": "Snayzy",
-        "country": "FR",
-        "role": "Starter",
-        "x_handle": "@Snayzy",
-        "live_pr": 24500,
-        "contract_start": "2023-04-14"
-      },
-      {
         "ign": "Vanyak3kk",
         "country": "UA",
         "role": "Starter",
         "x_handle": "@vanyak3kk",
         "live_pr": 28000,
         "contract_start": "2024-06-13"
+      },
+      {
+        "ign": "Akiira",
+        "country": "FR",
+        "role": "Starter",
+        "x_handle": "@AkiiraFN",
+        "live_pr": 24000,
+        "contract_start": "2026-03-30"
       },
       {
         "ign": "Kurama",
@@ -293,6 +333,14 @@
         "x_handle": "@sereNFN",
         "live_pr": 29000,
         "contract_start": "2026-07-18"
+      },
+      {
+        "ign": "XZEEVIT",
+        "country": "CO",
+        "role": "Academy / Pro",
+        "x_handle": "@xzeevit",
+        "live_pr": 24000,
+        "contract_start": "2026-10-03"
       },
       {
         "ign": "Minori",
@@ -369,24 +417,6 @@
         "contract_start": "2025-02-01"
       }
     ],
-    "galions": [
-      {
-        "ign": "Clément",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "Clément",
-        "contract_start": "2024-12-09",
-        "live_pr": 19500
-      },
-      {
-        "ign": "Kyzen",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "Kyzen",
-        "contract_start": "2024-12-09",
-        "live_pr": 17300
-      }
-    ],
     "reality-zone": [
       {
         "ign": "RZ_Phoenix",
@@ -429,24 +459,6 @@
         "ftn_tracker_slug": "Fake_Storm",
         "contract_start": "2024-01-01",
         "live_pr": 13300
-      }
-    ],
-    "valiant": [
-      {
-        "ign": "VLT_Kyz",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "VLT_Kyz",
-        "contract_start": "2023-01-01",
-        "live_pr": 12800
-      },
-      {
-        "ign": "VLT_Aura",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "VLT_Aura",
-        "contract_start": "2023-01-01",
-        "live_pr": 10800
       }
     ],
     "aten-esport": [

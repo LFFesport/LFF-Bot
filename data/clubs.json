@@ -161,12 +161,12 @@
     "tag": "ZRC",
     "tier": "Tier 1",
     "country": "FR",
-    "status": "Active",
+    "status": "Historique",
     "founded_year": 2022,
     "logo_path": null,
     "liquipedia_url": "https://liquipedia.net/fortnite/Zerance",
     "x_handle": "@TeamZerance",
-    "description": "Club esport français fondé en 2022, actif sur Fortnite depuis juillet 2023. Tremplin compétitif majeur (Skydeun, EMXXRR, Vico)."
+    "description": "Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024."
   },
   {
     "id": "galions",
@@ -174,12 +174,12 @@
     "tag": "GLN",
     "tier": "Tier 1",
     "country": "FR",
-    "status": "Active",
+    "status": "Historique (Fermeture le 7 déc. 2025)",
     "founded_year": 2024,
     "logo_path": null,
     "liquipedia_url": "https://liquipedia.net/fortnite/Galions",
     "x_handle": "@Galions_",
-    "description": "Écurie parisienne lancée en décembre 2024 par Team GO et Sixen, signant les champions tricolores Clément et Kyzen pour conquérir les FNCS."
+    "description": "Lancé en décembre 2024 par Team GO et Sixen avec Clément et Kyzen. Après la saison 2025, le club ferme sa division Fortnite le 7 décembre 2025 (Kyzen prend sa retraite compétitive, Clément devient agent libre)."
   },
   {
     "id": "team-ldlc",
@@ -239,12 +239,12 @@
     "tag": "VLT",
     "tier": "Tier 2",
     "country": "FR",
-    "status": "Active",
+    "status": "Historique",
     "founded_year": 2020,
     "logo_path": null,
     "liquipedia_url": "https://liquipedia.net/fortnite/Valiant",
     "x_handle": "@ValiantClub",
-    "description": "Structure française très investie sur le circuit compétitif Fortnite et le repérage de talents européens."
+    "description": "Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025."
   },
   {
     "id": "reality-zone",

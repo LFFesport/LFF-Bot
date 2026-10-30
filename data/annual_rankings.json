@@ -1523,14 +1523,14 @@
         "name": "Gentle Mates",
         "tag": "M8",
         "tier": "Tier 1",
-        "points": 94500,
+        "points": 92000,
         "roster": [
           "Vanyak3kk",
-          "Snayzy",
+          "Akiira",
           "Kurama",
           "Rax"
         ],
-        "notable": "Au coude-à-coude sur les qualifications et Majors 2026"
+        "notable": "Quatuor officiel 2026 avec le duo Kurama & Akiira et Vanyak3kk"
       },
       {
         "rank": 3,
@@ -1538,36 +1538,24 @@
         "name": "Solary",
         "tag": "SLY",
         "tier": "Tier 1",
-        "points": 88200,
+        "points": 98400,
         "roster": [
           "Darkos",
           "sereN",
+          "XZEEVIT (recrue octobre 2026)",
           "Minori",
           "ghonzo",
           "Zangi"
         ],
-        "notable": "Ultra régulier en Cash Cups et Majors"
+        "notable": "Très grosse régularité en finales et renfort du crack XZEEVIT en octobre 2026"
       },
       {
         "rank": 4,
-        "id": "galions",
-        "name": "Galions",
-        "tag": "GLN",
-        "tier": "Tier 1",
-        "points": 36800,
-        "roster": [
-          "Clément",
-          "Kyzen"
-        ],
-        "notable": "Duo tricolore au top niveau européen"
-      },
-      {
-        "rank": 5,
         "id": "gameward",
         "name": "GameWard",
         "tag": "GW",
         "tier": "Tier 1",
-        "points": 36500,
+        "points": 41500,
         "roster": [
           "Tylio",
           "Kombek",
@@ -1577,20 +1565,7 @@
         "notable": "Effectif actif performant sous la direction du coach Aarnax (Cash Cups & Heats)"
       },
       {
-        "rank": 6,
-        "id": "zerance",
-        "name": "Zerance",
-        "tag": "ZRC",
-        "tier": "Tier 1",
-        "points": 35400,
-        "roster": [
-          "Skydeun",
-          "EMXXRR"
-        ],
-        "notable": "Qualifications régulières en Rounds finaux"
-      },
-      {
-        "rank": 7,
+        "rank": 5,
         "id": "reality-zone",
         "name": "Reality Zone (RZ)",
         "tag": "RZ",
@@ -1604,7 +1579,7 @@
         "notable": "Victoires en Open et régularité"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
@@ -1617,20 +1592,7 @@
         "notable": "Régularité Victory Cups"
       },
       {
-        "rank": 9,
-        "id": "valiant",
-        "name": "Valiant",
-        "tag": "VLT",
-        "tier": "Tier 2",
-        "points": 23600,
-        "roster": [
-          "VLT Kyz",
-          "Aura"
-        ],
-        "notable": "Multiples tops hebdomadaires"
-      },
-      {
-        "rank": 10,
+        "rank": 7,
         "id": "aten-esport",
         "name": "Aten eSport",
         "tag": "ATEN",
@@ -1643,7 +1605,7 @@
         "notable": "Solide noyau en scrims et cups"
       },
       {
-        "rank": 11,
+        "rank": 8,
         "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
@@ -1656,7 +1618,7 @@
         "notable": "Points acquis en Cash Cups"
       },
       {
-        "rank": 12,
+        "rank": 9,
         "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
@@ -1669,7 +1631,7 @@
         "notable": "Pépites en progression"
       },
       {
-        "rank": 13,
+        "rank": 10,
         "id": "odious-esport",
         "name": "Odious Esport",
         "tag": "ODS",
@@ -1682,7 +1644,7 @@
         "notable": "Tournois communautaires"
       },
       {
-        "rank": 14,
+        "rank": 11,
         "id": "paps-esport",
         "name": "Pap's Esport",
         "tag": "PAPS",

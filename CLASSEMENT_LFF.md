@@ -141,17 +141,17 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 
 ### Zerance (`ZRC`)
 - **Division / Tier** : Tier 1
-- **Statut** : Active
+- **Statut** : Historique
 - **Réseaux / Contact** : @TeamZerance
 - **Liquipedia** : [Zerance](https://liquipedia.net/fortnite/Zerance)
-- **Description** : Club esport français fondé en 2022, actif sur Fortnite depuis juillet 2023. Tremplin compétitif majeur (Skydeun, EMXXRR, Vico).
+- **Description** : Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.
 
 ### Galions (`GLN`)
 - **Division / Tier** : Tier 1
-- **Statut** : Active
+- **Statut** : Historique (Fermeture le 7 déc. 2025)
 - **Réseaux / Contact** : @Galions_
 - **Liquipedia** : [Galions](https://liquipedia.net/fortnite/Galions)
-- **Description** : Écurie parisienne lancée en décembre 2024 par Team GO et Sixen, signant les champions tricolores Clément et Kyzen pour conquérir les FNCS.
+- **Description** : Lancé en décembre 2024 par Team GO et Sixen avec Clément et Kyzen. Après la saison 2025, le club ferme sa division Fortnite le 7 décembre 2025 (Kyzen prend sa retraite compétitive, Clément devient agent libre).
 
 ### Team LDLC (LDLC OL) (`LDLC`)
 - **Division / Tier** : Tier 2
@@ -183,10 +183,10 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 
 ### Valiant (`VLT`)
 - **Division / Tier** : Tier 2
-- **Statut** : Active
+- **Statut** : Historique
 - **Réseaux / Contact** : @ValiantClub
 - **Liquipedia** : [Valiant](https://liquipedia.net/fortnite/Valiant)
-- **Description** : Structure française très investie sur le circuit compétitif Fortnite et le repérage de talents européens.
+- **Description** : Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025.
 
 ### Reality Zone (RZ) (`RZ`)
 - **Division / Tier** : Tier 2
