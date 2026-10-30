@@ -2,6 +2,36 @@
   "transfers_log": [
     {
       "date": "2026-04-25",
+      "player_ign": "SwizzY",
+      "player_name": "Egor Luciko",
+      "type": "Transfer",
+      "club_id": "havok-by-vitality",
+      "previous_club": "Karmine Corp / Team HavoK",
+      "source": "Official Rebrand / @HvKGGs",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2025-05-02",
+      "player_ign": "SwizzY",
+      "player_name": "Egor Luciko",
+      "type": "Arrival",
+      "club_id": "team-havok",
+      "previous_club": "Karmine Corp",
+      "source": "Liquipedia / @HvKGGs",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2025-01-10",
+      "player_ign": "S1neD",
+      "player_name": "S1neD",
+      "type": "Arrival",
+      "club_id": "gameward",
+      "previous_club": "Free Agent",
+      "source": "@GameWardTeam",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2026-04-25",
       "player_ign": "Rachat & Fusion Officielle",
       "player_name": "HavoK by Vitality",
       "type": "Acquisition / Merger",
@@ -268,12 +298,13 @@
     ],
     "havok-by-vitality": [
       {
-        "ign": "Wox",
-        "country": "LV",
+        "ign": "SwizzY",
+        "country": "RU",
         "role": "Starter",
-        "ftn_tracker_slug": "Wox",
-        "contract_start": "2024-08-28",
-        "live_pr": 48000
+        "ftn_tracker_slug": "SwizzY",
+        "contract_start": "2025-05-02",
+        "live_pr": 54000,
+        "achievement": "Champion du Monde 2026 (Anvers)"
       },
       {
         "ign": "Pixie",
@@ -281,7 +312,17 @@
         "role": "Starter",
         "ftn_tracker_slug": "Pixie",
         "contract_start": "2025-01-01",
-        "live_pr": 34000
+        "live_pr": 38000,
+        "achievement": "Champion du Monde 2026 (Anvers)"
+      },
+      {
+        "ign": "Wox",
+        "country": "LV",
+        "role": "Starter",
+        "ftn_tracker_slug": "Wox",
+        "contract_start": "2024-08-28",
+        "live_pr": 48000,
+        "achievement": "5e mondial Worlds 2024 (Texas)"
       },
       {
         "ign": "Tjino",
@@ -289,7 +330,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "Tjino",
         "contract_start": "2025-04-01",
-        "live_pr": 29500
+        "live_pr": 29500,
+        "achievement": "Champion Major 2 2025"
       },
       {
         "ign": "PabloWingu",
@@ -297,7 +339,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "PabloWingu",
         "contract_start": "2025-04-01",
-        "live_pr": 27000
+        "live_pr": 27000,
+        "achievement": "Champion Major 2 2025"
       },
       {
         "ign": "Rad3on",
@@ -376,6 +419,56 @@
         "ftn_tracker_slug": "VLT_Aura",
         "contract_start": "2023-01-01",
         "live_pr": 10800
+      }
+    ],
+    "gameward": [
+      {
+        "ign": "Tylio",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Tylio",
+        "contract_start": "2024-06-01",
+        "live_pr": 16500
+      },
+      {
+        "ign": "Kombek",
+        "country": "EU",
+        "role": "Starter",
+        "ftn_tracker_slug": "Kombek",
+        "contract_start": "2024-09-01",
+        "live_pr": 15200
+      },
+      {
+        "ign": "Repairs",
+        "country": "EU",
+        "role": "Starter",
+        "ftn_tracker_slug": "Repairs",
+        "contract_start": "2024-09-01",
+        "live_pr": 14000
+      },
+      {
+        "ign": "S1neD",
+        "country": "EU",
+        "role": "Starter",
+        "ftn_tracker_slug": "S1neD",
+        "contract_start": "2025-01-10",
+        "live_pr": 12800
+      },
+      {
+        "ign": "Baxo",
+        "country": "FR",
+        "role": "Academy",
+        "ftn_tracker_slug": "Baxo",
+        "contract_start": "2025-02-01",
+        "live_pr": 8500
+      },
+      {
+        "ign": "Snaylyx",
+        "country": "FR",
+        "role": "Academy",
+        "ftn_tracker_slug": "Snaylyx",
+        "contract_start": "2025-02-01",
+        "live_pr": 7200
       }
     ]
   }

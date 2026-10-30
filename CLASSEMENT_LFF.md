@@ -74,7 +74,7 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 - **Statut** : Active (depuis le rachat du 25 avril 2026)
 - **Réseaux / Contact** : @hvkggs
 - **Liquipedia** : [HavoK by Vitality](https://liquipedia.net/fortnite/HavoK_by_Vitality)
-- **Description** : Entité officielle issue du rachat de Team HavoK par Team Vitality officialisé le 25 avril 2026. Fusionne les points, la fanbase et les rosters des deux écuries en LFF sous les couleurs jaune et noir.
+- **Description** : Super-équipe née du rachat du 25 avril 2026 par Team Vitality. Sacrée Championne du Monde 2026 au Global Championship à Anvers avec son duo planétaire SwizzY & Pixie, complété par Wox (5e mondial 2024), Tjino, PabloWingu (champions Major 2 2025), Rad3on, Nxthan et Dela.
 
 ### Team HavoK (`HVK`)
 - **Division / Tier** : Tier 1
@@ -106,10 +106,10 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 
 ### GameWard (`GW`)
 - **Division / Tier** : Tier 1
-- **Statut** : Historical
+- **Statut** : Active
 - **Réseaux / Contact** : @GameWardTeam
 - **Liquipedia** : [GameWard](https://liquipedia.net/fortnite/GameWard)
-- **Description** : Club francilien historique présent dès mars 2018. A révélé ou accueilli Nayte, Keolys, BadSniper, Snayzy, Shaax et Aarnax.
+- **Description** : Club francilien majeur actif sans interruption depuis mars 2018. Historiquement tremplin de Nayte, Keolys, BadSniper, Snayzy, Shaax, et aujourd'hui représenté au plus haut niveau par Tylio, Kombek, Repairs, S1neD, Baxo, Snaylyx sous la direction du coach Aarnax.
 
 ### LeStream Esport (`LST`)
 - **Division / Tier** : Tier 1

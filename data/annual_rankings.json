@@ -1178,6 +1178,21 @@
       },
       {
         "rank": 8,
+        "id": "gameward",
+        "name": "GameWard",
+        "tag": "GW",
+        "tier": "Tier 1",
+        "points": 39000,
+        "roster": [
+          "Tylio",
+          "Kombek",
+          "Repairs",
+          "Shaax"
+        ],
+        "notable": "Actif au plus haut niveau français et européen en Cash Cups et Heats"
+      },
+      {
+        "rank": 9,
         "id": "galions",
         "name": "Galions",
         "tag": "GLN",
@@ -1190,7 +1205,7 @@
         "notable": "Création en décembre 2024 par Team GO & Sixen"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
@@ -1203,7 +1218,7 @@
         "notable": "Victoires régulières en Victory Cups"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
@@ -1216,7 +1231,7 @@
         "notable": "Constance sur le circuit français"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "id": "aten-esport",
         "name": "Aten eSport",
         "tag": "ATEN",
@@ -1229,7 +1244,7 @@
         "notable": "Podiums tournois inter-structures"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
@@ -1242,7 +1257,7 @@
         "notable": "Formation de pépites"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "id": "odious-esport",
         "name": "Odious Esport",
         "tag": "ODS",
@@ -1254,7 +1269,7 @@
         "notable": "Régularité cups"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "id": "paps-esport",
         "name": "Pap's Esport",
         "tag": "PAPS",
@@ -1293,17 +1308,16 @@
         "name": "Team HavoK",
         "tag": "HVK",
         "tier": "Tier 1",
-        "points": 141000,
+        "points": 146000,
         "roster": [
+          "SwizzY",
           "Wox",
           "Pixie",
-          "Rad3on",
           "Tjino",
           "PabloWingu",
-          "Nxthan",
-          "Dela"
+          "Rad3on"
         ],
-        "notable": "Dauphin de France 2025 ! Vainqueur Major 2, vice-champion du monde, effectif XXL indépendant."
+        "notable": "Dauphin de France 2025 ! Vainqueur Major 2, vice-champion du monde, arrivée fracassante de SwizzY mi-2025."
       },
       {
         "rank": 3,
@@ -1349,6 +1363,21 @@
       },
       {
         "rank": 6,
+        "id": "gameward",
+        "name": "GameWard",
+        "tag": "GW",
+        "tier": "Tier 1",
+        "points": 46000,
+        "roster": [
+          "Tylio",
+          "Kombek",
+          "Repairs",
+          "S1neD"
+        ],
+        "notable": "Structure très active, qualification en finales régionales"
+      },
+      {
+        "rank": 7,
         "id": "galions",
         "name": "Galions",
         "tag": "GLN",
@@ -1361,7 +1390,7 @@
         "notable": "Première saison complète très aboutie"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "id": "reality-zone",
         "name": "Reality Zone (RZ)",
         "tag": "RZ",
@@ -1375,7 +1404,7 @@
         "notable": "Performances régulières en Cash Cups"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
@@ -1388,7 +1417,7 @@
         "notable": "Multiples qualifications Round 3/4 FNCS"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
@@ -1401,7 +1430,7 @@
         "notable": "Solide présence en Cash Cups"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "id": "aten-esport",
         "name": "Aten eSport",
         "tag": "ATEN",
@@ -1414,7 +1443,7 @@
         "notable": "Régularité compétitive"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
@@ -1427,7 +1456,7 @@
         "notable": "Performance régulière"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
@@ -1440,7 +1469,7 @@
         "notable": "Nouveau vivier compétitif"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "id": "odious-esport",
         "name": "Odious Esport",
         "tag": "ODS",
@@ -1452,7 +1481,7 @@
         "notable": "Engagement Victory Cups"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "id": "paps-esport",
         "name": "Pap's Esport",
         "tag": "PAPS",
@@ -1476,17 +1505,16 @@
         "name": "HavoK by Vitality",
         "tag": "HvK",
         "tier": "Tier 1",
-        "points": 108500,
+        "points": 118500,
         "roster": [
+          "SwizzY (Champion du Monde)",
+          "Pixie (Champion du Monde)",
           "Wox",
-          "Pixie",
-          "Rad3on",
           "Tjino",
           "PabloWingu",
-          "Nxthan",
-          "Dela"
+          "Rad3on"
         ],
-        "notable": "En tête de la Ligue ! Rachat officialisé le 25 avril 2026 : fusion intégrale des points et rosters de Team Vitality et Team HavoK."
+        "notable": "En tête de la Ligue ! Rachat du 25 avril 2026. SwizzY & Pixie sacrés Champions du Monde 2026 (Global Championship Anvers) !"
       },
       {
         "rank": 2,
@@ -1532,6 +1560,21 @@
       },
       {
         "rank": 5,
+        "id": "gameward",
+        "name": "GameWard",
+        "tag": "GW",
+        "tier": "Tier 1",
+        "points": 36500,
+        "roster": [
+          "Tylio",
+          "Kombek",
+          "Repairs",
+          "S1neD"
+        ],
+        "notable": "Effectif actif performant sous la direction du coach Aarnax (Cash Cups & Heats)"
+      },
+      {
+        "rank": 6,
         "id": "zerance",
         "name": "Zerance",
         "tag": "ZRC",
@@ -1544,7 +1587,7 @@
         "notable": "Qualifications régulières en Rounds finaux"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "id": "reality-zone",
         "name": "Reality Zone (RZ)",
         "tag": "RZ",
@@ -1558,7 +1601,7 @@
         "notable": "Victoires en Open et régularité"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
@@ -1571,7 +1614,7 @@
         "notable": "Régularité Victory Cups"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
@@ -1584,7 +1627,7 @@
         "notable": "Multiples tops hebdomadaires"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "id": "aten-esport",
         "name": "Aten eSport",
         "tag": "ATEN",
@@ -1597,7 +1640,7 @@
         "notable": "Solide noyau en scrims et cups"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
@@ -1610,7 +1653,7 @@
         "notable": "Points acquis en Cash Cups"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
@@ -1623,7 +1666,7 @@
         "notable": "Pépites en progression"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "id": "odious-esport",
         "name": "Odious Esport",
         "tag": "ODS",
@@ -1636,7 +1679,7 @@
         "notable": "Tournois communautaires"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "id": "paps-esport",
         "name": "Pap's Esport",
         "tag": "PAPS",
