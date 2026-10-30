@@ -2,6 +2,16 @@
   "transfers_log": [
     {
       "date": "2026-04-25",
+      "player_ign": "Rachat & Fusion Officielle",
+      "player_name": "HavoK by Vitality",
+      "type": "Acquisition / Merger",
+      "club_id": "havok-by-vitality",
+      "previous_club": "Team HavoK & Team Vitality",
+      "source": "Official Announcement (@TeamVitality / @HvKGGs / vitality.gg)",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2026-04-25",
       "player_ign": "Wox",
       "player_name": "Wox",
       "type": "Acquisition",
@@ -274,6 +284,22 @@
         "live_pr": 34000
       },
       {
+        "ign": "Tjino",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "Tjino",
+        "contract_start": "2025-04-01",
+        "live_pr": 29500
+      },
+      {
+        "ign": "PabloWingu",
+        "country": "FR",
+        "role": "Starter",
+        "ftn_tracker_slug": "PabloWingu",
+        "contract_start": "2025-04-01",
+        "live_pr": 27000
+      },
+      {
         "ign": "Rad3on",
         "country": "FR",
         "role": "Starter",
@@ -284,7 +310,7 @@
       {
         "ign": "Nxthan",
         "country": "FR",
-        "role": "Starter",
+        "role": "Sub",
         "ftn_tracker_slug": "Nxthan",
         "contract_start": "2025-01-01",
         "live_pr": 19000

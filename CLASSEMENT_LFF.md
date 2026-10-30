@@ -71,10 +71,17 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 
 ### HavoK by Vitality (`HvK`)
 - **Division / Tier** : Tier 1
-- **Statut** : Active
+- **Statut** : Active (depuis le rachat du 25 avril 2026)
 - **Réseaux / Contact** : @hvkggs
 - **Liquipedia** : [HavoK by Vitality](https://liquipedia.net/fortnite/HavoK_by_Vitality)
-- **Description** : Créé le 28 août 2024 par ZetFar & WaZz (ex-Team HavoK), qualifié au Global Championship 2024 (Wox 5e mondial). Acquis le 25 avril 2026 par Team Vitality pour régner sur Fortnite.
+- **Description** : Entité officielle issue du rachat de Team HavoK par Team Vitality officialisé le 25 avril 2026. Fusionne les points, la fanbase et les rosters des deux écuries en LFF sous les couleurs jaune et noir.
+
+### Team HavoK (`HVK`)
+- **Division / Tier** : Tier 1
+- **Statut** : Historique (Fusionné le 25 avril 2026)
+- **Réseaux / Contact** : @HvKGGs
+- **Liquipedia** : [Team HavoK](https://liquipedia.net/fortnite/Team_HavoK)
+- **Description** : Structure fondée le 28 août 2024 par les YouTubeurs ZetFar et WaZz. Révélation mondiale avec Wox (5e aux Worlds FNCS 2024), vainqueur Major 2 en 2025. Rachetée le 25 avril 2026 par Team Vitality.
 
 ### Solary (`SLY`)
 - **Division / Tier** : Tier 1
@@ -85,10 +92,10 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
 
 ### Team Vitality (`VIT`)
 - **Division / Tier** : Tier 1
-- **Statut** : Active (via HvK)
+- **Statut** : Historique (Fusionné le 25 avril 2026)
 - **Réseaux / Contact** : @TeamVitality
 - **Liquipedia** : [Team Vitality](https://liquipedia.net/fortnite/Team_Vitality)
-- **Description** : Club pionnier tricolore (Gotaga, Robi, Mickalow, BadSniper, Oslo, Hawkers, Keolys, DRG). De retour au premier plan mondial via le rachat de HavoK en 2026.
+- **Description** : Club pionnier tricolore (2018-2021 : Gotaga, BadSniper, Oslo, Keolys). Fait son retour au sommet le 25 avril 2026 en rachetant Team HavoK pour fonder HavoK by Vitality.
 
 ### Team GO (GamersOrigin) (`GO`)
 - **Division / Tier** : Tier 1
