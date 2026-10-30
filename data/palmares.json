@@ -1,0 +1,219 @@
+[
+  {
+    "year": 2018,
+    "era": "L'ère des Skirmishes & l'avènement compétitif",
+    "champion": {
+      "id": "solary",
+      "name": "Solary",
+      "tag": "SLY"
+    },
+    "roster": [
+      "Kinstaar (Capitaine / Star mondiale)",
+      "Hunter",
+      "mzXXD",
+      "Nikof",
+      "Airwaks"
+    ],
+    "podium": [
+      { "rank": 1, "club": "Solary", "points_estimate": "Top 1 EU Org", "key_factor": "Domination Summer/Fall Skirmish, ultra régularité de Kinstaar & Hunter" },
+      { "rank": 2, "club": "LeStream Esport", "points_estimate": "Top 2 EU Org", "key_factor": "Skite remporte le Winter Royale EU ($75 000) et brille avec Vato" },
+      { "rank": 3, "club": "Team Vitality", "points_estimate": "Top 3 EU Org", "key_factor": "Gotaga, Mickalow, Robi, Airwaks, Teeqzy dominent la scène médiatique et LANs FR" }
+    ],
+    "key_tournaments": [
+      "Summer Skirmish (Juillet - Août 2018)",
+      "Fall Skirmish (TwitchCon San Jose 2018)",
+      "Winter Royale Europe (Décembre 2018)"
+    ],
+    "verdict": "Solary est indiscutablement le club français de l'année 2018. Avec Kinstaar au sommet de l'Europe, Solary a placé ses joueurs sur la quasi-totalité des podiums des Skirmishes internationaux, avant que LeStream ne frappe un grand coup avec le sacre de Skite au Winter Royale fin 2018."
+  },
+  {
+    "year": 2019,
+    "era": "L'ère Fortnite World Cup (New York) & Débuts FNCS",
+    "champion": {
+      "id": "lestream",
+      "name": "LeStream Esport",
+      "tag": "LST"
+    },
+    "roster": [
+      "Skite (7e Solo World Cup, 10e Duo World Cup)",
+      "Vato (10e Duo World Cup, 2e Katowice Royale)",
+      "TheVic",
+      "Boyer"
+    ],
+    "podium": [
+      { "rank": 1, "club": "LeStream Esport", "points_estimate": "Top 5 Global Org", "key_factor": "Skite 7e Solo et 10e Duo à la World Cup ($750 000+ de cashprize), Secret Skirmish" },
+      { "rank": 2, "club": "Solary", "points_estimate": "Top 10 Global Org", "key_factor": "Kinstaar 26e Solo, Hunter & Kinstaar 23e Duo, Airwaks & Nikof 29e Duo à New York" },
+      { "rank": 3, "club": "Team Vitality", "points_estimate": "Top 15 Global Org", "key_factor": "BadSniper & Oslo 11e Duo à la World Cup ($100 000), BadSniper 35e Solo" }
+    ],
+    "key_tournaments": [
+      "Secret Skirmish (Février 2019)",
+      "ESL Katowice Royale (Mars 2019)",
+      "Fortnite World Cup New York (Juillet 2019 - Solo & Duo)",
+      "FNCS Saison X Trios (Septembre 2019)"
+    ],
+    "verdict": "2019 est l'année de gloire de LeStream Esport. Grâce aux performances stratosphériques de Skite et Vato à New York (Skite est le seul joueur français à faire top 10 en Solo ET en Duo au monde), LeStream surclasse les autres structures au Power Ranking officiel et aux gains compétitifs."
+  },
+  {
+    "year": 2020,
+    "era": "L'âge d'or Chapitre 2 : FNCS Duos, Solos et Trios",
+    "champion": {
+      "id": "mces",
+      "name": "Team MCES",
+      "tag": "MCES"
+    },
+    "roster": [
+      "Andilex (Top 1 Power Ranking Europe 2020)",
+      "Xsweeze (Multi-finaliste et vainqueur)",
+      "PodaSai",
+      "Kouto"
+    ],
+    "podium": [
+      { "rank": 1, "club": "Team MCES", "points_estimate": "Top 2 EU Org", "key_factor": "Andilex sacré n°1 Europe au Power Ranking, victoire FNCS Duos C2S2, 2e FNCS Trios C2S4" },
+      { "rank": 2, "club": "Grizi Esport", "points_estimate": "Top 4 EU Org", "key_factor": "Nayte remporte le FNCS Duos C2S2 avec Andilex, 4zr au sommet des Cash Cups et FNCS" },
+      { "rank": 3, "club": "TrainHard eSport", "points_estimate": "Top 6 EU Org", "key_factor": "Roster ultra puissant avec BlastR, Alpha, Yags, Falconly, Kyzen" }
+    ],
+    "key_tournaments": [
+      "FNCS Chapitre 2 Saison 2 (Duos - Avril 2020)",
+      "FNCS Chapitre 2 Saison 3 (Solo - Août 2020)",
+      "FNCS Chapitre 2 Saison 4 (Trios - Novembre 2020)",
+      "DreamHack Open Online (EU)"
+    ],
+    "verdict": "Team MCES réalise une année 2020 historique. Mené par Andilex, qui devient officiellement le joueur n°1 au Power Ranking Européen sur Fortnite Tracker cette année-là et soulève le trophée du FNCS Duos en avril 2020, le club marseillais s'impose comme la référence absolue."
+  },
+  {
+    "year": 2021,
+    "era": "L'ère des Trios FNCS & Grand Royale",
+    "champion": {
+      "id": "trainhard",
+      "name": "TrainHard eSport",
+      "tag": "TH"
+    },
+    "roster": [
+      "Falconly (Parmi les meilleurs joueurs d'Europe)",
+      "BlastR",
+      "Alpha",
+      "Yags",
+      "Kyzen"
+    ],
+    "podium": [
+      { "rank": 1, "club": "TrainHard eSport", "points_estimate": "Top 3 EU Org", "key_factor": "Densité de points PR record en FNCS Trios, Falconly régulier au sommet continental" },
+      { "rank": 2, "club": "Grizi Esport", "points_estimate": "Top 4 EU Org", "key_factor": "4zr remporte le FNCS Trios C2S8 avec TaySon & Chapix, Nayte toujours au top" },
+      { "rank": 3, "club": "Solary", "points_estimate": "Top 8 EU Org", "key_factor": "Floki, Clément et Decyptos qualifiés à toutes les finales majeures" }
+    ],
+    "key_tournaments": [
+      "FNCS Chapitre 2 Saison 5 (Trios - Mars 2021)",
+      "FNCS Chapitre 2 Saison 6 (Trios - Mai 2021)",
+      "FNCS Chapitre 2 Saison 7 (Trios - Septembre 2021)",
+      "FNCS Chapitre 2 Saison 8 (Trios - Novembre 2021)",
+      "FNCS Grand Royale (Novembre 2021)"
+    ],
+    "verdict": "TrainHard eSport a constitué en 2021 l'un des rosters les plus redoutables et denses de l'histoire du Fortnite français en Trios. Porté par Falconly, BlastR et Alpha, le club a accumulé des dizaines de milliers de points PR tout au long des saisons FNCS 2021."
+  },
+  {
+    "year": 2022,
+    "era": "Chapitre 3 : Retour des Duos & LANs Mondiales (Gamers8 / Raleigh)",
+    "champion": {
+      "id": "solary",
+      "name": "Solary",
+      "tag": "SLY"
+    },
+    "roster": [
+      "Floki",
+      "Clément",
+      "Chaussette",
+      "BlastR (recrue)",
+      "Vico (éclosion du futur crack)"
+    ],
+    "podium": [
+      { "rank": 1, "club": "Solary", "points_estimate": "Top 1 FR Org", "key_factor": "Seule grande structure française à maintenir une présence continue en Grand Finals FNCS" },
+      { "rank": 2, "club": "Valiant", "points_estimate": "Top 2 FR Org", "key_factor": "Très actif sur le vivier francophone et européen en Cash Cups et Heats" },
+      { "rank": 3, "club": "Team MCES", "points_estimate": "Top 3 FR Org", "key_factor": "Dernières apparitions compétitives avant recentrage" }
+    ],
+    "key_tournaments": [
+      "FNCS Chapitre 3 Saison 1 (Duos - Mars 2022)",
+      "FNCS Chapitre 3 Saison 2 (Duos - Mai 2022)",
+      "Gamers8 Riyad (Juillet 2022)",
+      "FNCS Chapitre 3 Saison 3 (Duos - Août 2022)",
+      "FNCS Invitational Raleigh (Novembre 2022)"
+    ],
+    "verdict": "Dans une année 2022 marquée par le désengagement de plusieurs grandes structures (fermeture de Grizi, retrait progressif de MCES et TrainHard), Solary a été le bastion inébranlable du Fortnite tricolore, qualifiant systématiquement ses joueurs aux finales FNCS et lançant les pépites comme Vico."
+  },
+  {
+    "year": 2023,
+    "era": "Chapitre 4 : La naissance de Gentle Mates & Le Global Championship Copenhague",
+    "champion": {
+      "id": "gentle-mates",
+      "name": "Gentle Mates",
+      "tag": "M8"
+    },
+    "roster": [
+      "Snayzy",
+      "PodaSai",
+      "Nikof (Manager / Head Coach)"
+    ],
+    "podium": [
+      { "rank": 1, "club": "Gentle Mates", "points_estimate": "Top 1 FR Org / Qualif Mondiale", "key_factor": "Qualification et participation au FNCS Global Championship 2023 à Copenhague (Royal Arena)" },
+      { "rank": 2, "club": "Solary", "points_estimate": "Top 2 FR Org", "key_factor": "Performances monstrueuses de Vico, Floki et Chaussette en Cash Cups et Majors" },
+      { "rank": 3, "club": "Reality Zone (RZ)", "points_estimate": "Top 1 T2 FR Org", "key_factor": "Omniprésent dans les Cash Cups, Heats FNCS et le sub-top français" }
+    ],
+    "key_tournaments": [
+      "FNCS 2023 Major 1, Major 2, Major 3",
+      "Gamers8 Riyad 2023",
+      "FNCS 2023 Global Championship (Copenhague, Octobre 2023)"
+    ],
+    "verdict": "Fondé en avril 2023 par Gotaga, Squeezie et Brawks, Gentle Mates réalise un exploit retentissant : emmener son duo 100% tricolore Snayzy & PodaSai au FNCS Global Championship à Copenhague dans la Royal Arena. Sur le plan de l'impact, du prestige et des points acquis en LAN mondiale, M8 s'empare du titre de club de l'année 2023."
+  },
+  {
+    "year": 2024,
+    "era": "Chapitre 5 : Le choc des titans Karmine Corp vs Gentle Mates & Global Championship Texas",
+    "champion": {
+      "id": "karmine-corp",
+      "name": "Karmine Corp",
+      "tag": "KC"
+    },
+    "roster": [
+      "Malibuca (Vainqueur FNCS Major 1, star mondiale)",
+      "Merstach (Vainqueur FNCS Major 1, star mondiale)",
+      "Veno (Légende européenne)",
+      "SwizzY (Phénomène de la scène EU)",
+      "Oslo (Coach / Head of Division)"
+    ],
+    "podium": [
+      { "rank": 1, "club": "Karmine Corp", "points_estimate": "Top 1 Global PR Org (Été 2024)", "key_factor": "Roster galactique (Malibuca, Merstach, Veno, SwizzY) n°1 mondial au Team Power Ranking" },
+      { "rank": 2, "club": "Gentle Mates", "points_estimate": "Top 2 FR / Top 5 EU Org", "key_factor": "Snayzy & PodaSai réguliers en Majors, recrutements de cracks européens" },
+      { "rank": 3, "club": "Solary", "points_estimate": "Top 3 FR Org", "key_factor": "Quatuor sereN, Darkos, Minori, ghonzo très performant au PR régulier" }
+    ],
+    "key_tournaments": [
+      "FNCS 2024 Major 1, Major 2, Major 3",
+      "Esports World Cup (EWC Riyad 2024)",
+      "FNCS Global Championship 2024 (Fort Worth, Texas - Septembre 2024)"
+    ],
+    "verdict": "L'entrée de la Karmine Corp sur Fortnite en mai 2024 a été un coup de tonnerre mondial. En signant Malibuca, Merstach, Veno et SwizzY, KC a tout simplement réuni l'effectif le plus fort de la planète, propulsant le club français à la première place du Power Ranking mondial d'organisations sur Fortnite Tracker et Fandom."
+  },
+  {
+    "year": 2025,
+    "era": "L'ère moderne : Suprématie Gentle Mates & Écosystème LFF Sub-top",
+    "champion": {
+      "id": "gentle-mates",
+      "name": "Gentle Mates",
+      "tag": "M8"
+    },
+    "roster": [
+      "Merstach",
+      "Malibuca (selon périodes)",
+      "Snayzy",
+      "Roster international et français d'élite"
+    ],
+    "podium": [
+      { "rank": 1, "club": "Gentle Mates", "points_estimate": "Top 1 FR Org", "key_factor": "Récupération des cracks européens, constance au sommet des Majors et qualifications internationales" },
+      { "rank": 2, "club": "Solary", "points_estimate": "Top 2 FR Org", "key_factor": "sereN, Darkos et Minori au top du PR Européen régulier" },
+      { "rank": 3, "club": "Reality Zone / Team Fake", "points_estimate": "Top 1 T2 FR Org", "key_factor": "Domination du vivier national, qualification régulière en Round 3/4 FNCS" }
+    ],
+    "key_tournaments": [
+      "FNCS 2025 Majors",
+      "FNCS Global Championship 2025",
+      "Open Cash Cups & Victory Cups"
+    ],
+    "verdict": "Après le repositionnement de la Karmine Corp mi-2025, Gentle Mates a repris les rênes du leadership français et européen avec des effectifs ultra-performants en FNCS, au coude-à-coude avec l'écurie Solary."
+  }
+]

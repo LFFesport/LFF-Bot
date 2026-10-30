@@ -1,0 +1,102 @@
+{
+  "transfers_log": [
+    {
+      "date": "2024-05-09",
+      "player_ign": "Malibuca",
+      "player_name": "Danila Iakovenko",
+      "type": "Arrival",
+      "club_id": "karmine-corp",
+      "previous_club": "Twisted Minds",
+      "source": "@FortniteFraActu / @KarmineCorp",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2024-05-09",
+      "player_ign": "Merstach",
+      "player_name": "Andrejs Piratovs",
+      "type": "Arrival",
+      "club_id": "karmine-corp",
+      "previous_club": "Twisted Minds",
+      "source": "@FortniteFraActu / @KarmineCorp",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2024-05-15",
+      "player_ign": "Veno",
+      "player_name": "Thomas Leese",
+      "type": "Arrival",
+      "club_id": "karmine-corp",
+      "previous_club": "Team Falcons",
+      "source": "@FortniteFraActu / @KarmineCorp",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2024-05-15",
+      "player_ign": "SwizzY",
+      "player_name": "Artur Kisliak",
+      "type": "Arrival",
+      "club_id": "karmine-corp",
+      "previous_club": "Agent",
+      "source": "@FortniteFraActu / @KarmineCorp",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2023-04-14",
+      "player_ign": "Snayzy",
+      "player_name": "Noay Lailin",
+      "type": "Arrival",
+      "club_id": "gentle-mates",
+      "previous_club": "Free Agent",
+      "source": "@GentleMates",
+      "status": "Confirmed"
+    },
+    {
+      "date": "2023-04-14",
+      "player_ign": "PodaSai",
+      "player_name": "Idris Saidi",
+      "type": "Arrival",
+      "club_id": "gentle-mates",
+      "previous_club": "Team MCES",
+      "source": "@GentleMates",
+      "status": "Confirmed"
+    }
+  ],
+  "active_rosters": {
+    "gentle-mates": [
+      { "ign": "Snayzy", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Snayzy", "contract_start": "2023-04-14" },
+      { "ign": "PodaSai", "country": "FR", "role": "Starter", "ftn_tracker_slug": "PodaSai", "contract_start": "2023-04-14" }
+    ],
+    "solary": [
+      { "ign": "sereN", "country": "FR", "role": "Starter", "ftn_tracker_slug": "sereN", "contract_start": "2024-01-15" },
+      { "ign": "Darkos", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Darkos", "contract_start": "2024-01-15" },
+      { "ign": "Minori", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Minori", "contract_start": "2024-02-01" },
+      { "ign": "ghonzo", "country": "FR", "role": "Starter", "ftn_tracker_slug": "ghonzo", "contract_start": "2024-03-01" }
+    ],
+    "reality-zone": [
+      { "ign": "RZ_Phoenix", "country": "FR", "role": "Starter", "ftn_tracker_slug": "RZ_Phoenix", "contract_start": "2024-01-01" },
+      { "ign": "RZ_Kev", "country": "FR", "role": "Starter", "ftn_tracker_slug": "RZ_Kev", "contract_start": "2024-01-01" },
+      { "ign": "RZ_Zeek", "country": "FR", "role": "Academy", "ftn_tracker_slug": "RZ_Zeek", "contract_start": "2024-02-01" }
+    ],
+    "team-fake": [
+      { "ign": "Fake_Shadow", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Fake_Shadow", "contract_start": "2024-01-01" },
+      { "ign": "Fake_Storm", "country": "FR", "role": "Starter", "ftn_tracker_slug": "Fake_Storm", "contract_start": "2024-01-01" }
+    ],
+    "aten-esport": [
+      { "ign": "ATEN_Raptor", "country": "FR", "role": "Starter", "ftn_tracker_slug": "ATEN_Raptor", "contract_start": "2024-01-01" },
+      { "ign": "ATEN_Nox", "country": "FR", "role": "Starter", "ftn_tracker_slug": "ATEN_Nox", "contract_start": "2024-01-01" }
+    ],
+    "team-bsk": [
+      { "ign": "BSK_Rayan", "country": "FR", "role": "Starter", "ftn_tracker_slug": "BSK_Rayan", "contract_start": "2024-01-01" },
+      { "ign": "BSK_Aero", "country": "FR", "role": "Starter", "ftn_tracker_slug": "BSK_Aero", "contract_start": "2024-01-01" }
+    ],
+    "jupitar-esport": [
+      { "ign": "JUP_Nova", "country": "FR", "role": "Starter", "ftn_tracker_slug": "JUP_Nova", "contract_start": "2024-01-01" }
+    ],
+    "odious-esport": [
+      { "ign": "ODS_Vortex", "country": "FR", "role": "Starter", "ftn_tracker_slug": "ODS_Vortex", "contract_start": "2024-01-01" }
+    ],
+    "paps-esport": [
+      { "ign": "PAPS_Zek", "country": "FR", "role": "Starter", "ftn_tracker_slug": "PAPS_Zek", "contract_start": "2024-01-01" }
+    ]
+  }
+}

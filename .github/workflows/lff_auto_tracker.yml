@@ -1,0 +1,50 @@
+name: LFF 24/7 Cloud Tracker & Engine
+
+on:
+  schedule:
+    # Exécution automatique toutes les 6 heures (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  # Permet aussi de déclencher le scan manuellement en 1 clic depuis l'interface GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  track_and_update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Récupération du dépôt
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configuration de Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 📦 Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 📡 Veille Liquipedia & Synchronisation des Rosters
+        run: |
+          python scripts/lff_transfer_tracker.py --sync
+
+      - name: 📊 Recalcul du Power Ranking & Export du Rapport
+        run: |
+          python scripts/lff_engine.py --export
+
+      - name: 💾 Sauvegarde automatique des données si nouveaux transferts
+        run: |
+          git config user.name "LFF-Bot[bot]"
+          git config user.email "bot@lff-fortnite.fr"
+          git add data/ CLASSEMENT_LFF.md
+          if git diff --staged --quiet; then
+            echo "Aucun nouveau transfert ou changement détecté."
+          else
+            git commit -m "🤖 [Auto] Mise à jour des transferts et classements LFF"
+            git push
+          fi

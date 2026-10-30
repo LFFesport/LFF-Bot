@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ligue Française de Fortnite (LFF) - Power Ranking Officiel des Clubs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;700&family=Inter:wght@400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0a0714;
+      --bg-card: rgba(22, 16, 43, 0.75);
+      --bg-card-hover: rgba(33, 23, 64, 0.9);
+      --purple-primary: #9333ea;
+      --purple-accent: #a855f7;
+      --purple-glow: rgba(147, 51, 234, 0.35);
+      --purple-dark: #581c87;
+      --gold: #facc15;
+      --gold-glow: rgba(250, 204, 21, 0.3);
+      --silver: #cbd5e1;
+      --bronze: #f97316;
+      --text-white: #f8fafc;
+      --text-dim: #94a3b8;
+      --border: rgba(168, 85, 247, 0.25);
+      --border-light: rgba(255, 255, 255, 0.1);
+      --green: #22c55e;
+      --red: #ef4444;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(147, 51, 234, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(88, 28, 135, 0.18) 0%, transparent 45%),
+        linear-gradient(to bottom, rgba(10, 7, 20, 0.85), #0a0714),
+        url('../LFF Photos/Stade de france ftn vu du haut.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: var(--text-white);
+      font-family: 'Inter', -apple-system, sans-serif;
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      background: rgba(10, 7, 20, 0.85);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0.8rem 2rem;
+    }
+
+    .nav-container {
+      max-width: 1350px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand-box {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      color: white;
+    }
+
+    .brand-logo {
+      height: 52px;
+      width: auto;
+      filter: drop-shadow(0 0 10px var(--purple-glow));
+    }
+
+    .brand-title {
+      font-family: 'Teko', sans-serif;
+      font-size: 2.1rem;
+      letter-spacing: 1px;
+      line-height: 1;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, #fff 30%, #c084fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-subtitle {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--purple-accent);
+      font-weight: 700;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 0.5rem;
+      background: rgba(22, 16, 43, 0.8);
+      padding: 4px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .nav-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      font-weight: 600;
+      font-size: 0.88rem;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-tab-btn:hover {
+      color: var(--text-white);
+      background: rgba(147, 51, 234, 0.2);
+    }
+
+    .nav-tab-btn.active {
+      color: white;
+      background: var(--purple-primary);
+      box-shadow: 0 0 14px var(--purple-glow);
+    }
+
+    .hero-banner {
+      max-width: 1350px;
+      margin: 2rem auto 1.5rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .hero-card {
+      background: linear-gradient(135deg, rgba(88, 28, 135, 0.4) 0%, rgba(22, 16, 43, 0.7) 100%);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2rem 2.5rem;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .hero-text h1 {
+      font-family: 'Teko', sans-serif;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+      line-height: 1.1;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-text p {
+      color: var(--text-dim);
+      font-size: 0.95rem;
+      max-width: 680px;
+    }
+
+    .hero-badges {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .badge-pill {
+      background: rgba(147, 51, 234, 0.2);
+      border: 1px solid var(--purple-accent);
+      color: #e9d5ff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-pill.gold {
+      background: rgba(250, 204, 21, 0.15);
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .stat-box {
+      background: rgba(10, 7, 20, 0.6);
+      border: 1px solid var(--border-light);
+      padding: 1rem 1.4rem;
+      border-radius: 14px;
+      text-align: center;
+      min-width: 110px;
+    }
+
+    .stat-num {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--purple-accent);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      margin-top: 4px;
+      letter-spacing: 1px;
+    }
+
+    main {
+      max-width: 1350px;
+      margin: 0 auto 4rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* FILTRES & BARRE DE CONTRÔLE */
+    .controls-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      background: var(--bg-card);
+      padding: 1rem 1.5rem;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      font-weight: 600;
+    }
+
+    .filter-select {
+      background: rgba(10, 7, 20, 0.8);
+      color: white;
+      border: 1px solid var(--border);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .search-input {
+      background: rgba(10, 7, 20, 0.8);
+      border: 1px solid var(--border);
+      color: white;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      min-width: 240px;
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--purple-accent);
+      box-shadow: 0 0 8px var(--purple-glow);
+    }
+
+    /* TABLEAU POWER RANKING */
+    .ranking-table-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    table.ranking-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    table.ranking-table th {
+      background: rgba(88, 28, 135, 0.35);
+      color: #d8b4fe;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    table.ranking-table td {
+      padding: 1.1rem 1.25rem;
+      border-bottom: 1px solid var(--border-light);
+      font-size: 0.92rem;
+      vertical-align: middle;
+    }
+
+    table.ranking-table tr:hover {
+      background: var(--bg-card-hover);
+    }
+
+    .rank-cell {
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      width: 60px;
+      text-align: center;
+    }
+
+    .rank-1 { color: var(--gold); }
+    .rank-2 { color: var(--silver); }
+    .rank-3 { color: var(--bronze); }
+
+    .club-cell {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .club-logo {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 4px;
+      border: 1px solid var(--border-light);
+    }
+
+    .club-logo-placeholder {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      background: rgba(147, 51, 234, 0.2);
+      border: 1px solid var(--purple-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-family: 'Rajdhani', sans-serif;
+      color: white;
+    }
+
+    .club-name {
+      font-weight: 700;
+      color: white;
+      font-size: 1.05rem;
+    }
+
+    .club-tag {
+      font-size: 0.75rem;
+      background: rgba(147, 51, 234, 0.3);
+      color: #d8b4fe;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 6px;
+      font-family: monospace;
+    }
+
+    .roster-tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .player-tag {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border-light);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      color: #e2e8f0;
+      font-weight: 500;
+    }
+
+    .pr-points {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #c084fc;
+      text-align: right;
+    }
+
+    .trend-up { color: var(--green); font-weight: 700; font-size: 0.85rem; }
+    .trend-down { color: var(--red); font-weight: 700; font-size: 0.85rem; }
+    .trend-stable { color: var(--text-dim); font-size: 0.85rem; }
+
+    /* PALMARÈS CARDS */
+    .palmares-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .palmares-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 1.5rem;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .palmares-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--purple-accent);
+      box-shadow: 0 10px 25px var(--purple-glow);
+    }
+
+    .palmares-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--gold), var(--purple-primary));
+    }
+
+    .palmares-year {
+      font-family: 'Teko', sans-serif;
+      font-size: 2.5rem;
+      line-height: 1;
+      color: var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .palmares-era {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 1rem;
+      letter-spacing: 0.5px;
+    }
+
+    .palmares-winner-box {
+      background: rgba(10, 7, 20, 0.7);
+      border: 1px solid rgba(250, 204, 21, 0.3);
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .winner-trophy {
+      font-size: 2rem;
+    }
+
+    .winner-info h3 {
+      font-size: 1.15rem;
+      color: white;
+      font-weight: 700;
+    }
+
+    .winner-roster {
+      font-size: 0.8rem;
+      color: #cbd5e1;
+      margin-top: 2px;
+    }
+
+    .podium-list {
+      margin-top: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      font-size: 0.85rem;
+    }
+
+    .podium-item {
+      display: flex;
+      justify-content: space-between;
+      color: var(--text-dim);
+    }
+
+    .podium-item strong {
+      color: white;
+    }
+
+    .verdict-box {
+      margin-top: 1rem;
+      padding: 0.75rem;
+      background: rgba(147, 51, 234, 0.1);
+      border-left: 3px solid var(--purple-primary);
+      border-radius: 0 8px 8px 0;
+      font-size: 0.82rem;
+      color: #e2e8f0;
+      line-height: 1.4;
+    }
+
+    /* MERCATO & TRANSFERS */
+    .transfer-feed {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .transfer-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      transition: background 0.2s ease;
+    }
+
+    .transfer-card:hover {
+      background: var(--bg-card-hover);
+    }
+
+    .transfer-left {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .transfer-date {
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      background: rgba(0, 0, 0, 0.4);
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    .transfer-player-info h4 {
+      font-size: 1.1rem;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .transfer-move {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+      margin-top: 4px;
+    }
+
+    .team-badge {
+      font-weight: 600;
+      color: #d8b4fe;
+    }
+
+    .transfer-right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .source-pill {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-light);
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    /* CLUBS ROSTER VIEWER */
+    .clubs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .club-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .club-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .club-card-desc {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      line-height: 1.4;
+    }
+
+    .club-roster-list {
+      background: rgba(10, 7, 20, 0.6);
+      border-radius: 10px;
+      padding: 0.75rem;
+      border: 1px solid var(--border-light);
+    }
+
+    .club-roster-list h5 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--purple-accent);
+      margin-bottom: 0.5rem;
+    }
+
+    /* CANVA & ACTIONS BAR */
+    .action-banner {
+      background: linear-gradient(135deg, rgba(147, 51, 234, 0.25) 0%, rgba(22, 16, 43, 0.9) 100%);
+      border: 1px solid var(--purple-accent);
+      border-radius: 16px;
+      padding: 1.5rem 2rem;
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .action-btn {
+      background: var(--purple-primary);
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 15px var(--purple-glow);
+    }
+
+    .action-btn:hover {
+      background: var(--purple-accent);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid var(--border-light);
+      box-shadow: none;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      background: rgba(10, 7, 20, 0.9);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER NAVIGATION -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="brand-box">
+        <img src="../LFF Logos/Logo LFF violet cercle blanc (fond vide).png" alt="LFF Logo" class="brand-logo" onerror="this.src='../LFF Logos/Logo Fortnite violet.png'">
+        <div>
+          <div class="brand-title">LIGUE FRANÇAISE DE FORTNITE</div>
+          <div class="brand-subtitle">Power Ranking Officiel des Clubs</div>
+        </div>
+      </a>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <a href="https://x.com/LFFesport" target="_blank" class="badge-pill gold" style="text-decoration: none; display: flex; align-items: center; gap: 4px;">
+          𝕏 @LFFesport
+        </a>
+      </div>
+
+      <div class="nav-tabs">
+        <button class="nav-tab-btn active" onclick="switchTab('tab-ranking')">📊 Classement PR</button>
+        <button class="nav-tab-btn" onclick="switchTab('tab-palmares')">🏆 Palmarès Annuel</button>
+        <button class="nav-tab-btn" onclick="switchTab('tab-mercato')">🔄 Mercato & Transferts</button>
+        <button class="nav-tab-btn" onclick="switchTab('tab-clubs')">🛡️ Clubs & Rosters</button>
+        <button class="nav-tab-btn" onclick="switchTab('tab-reglement')">⚖️ Règlement LFF</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <div class="hero-banner">
+    <div class="hero-card">
+      <div class="hero-text">
+        <div class="badge-pill gold">Saison Compétitive Officielle</div>
+        <h1>LE CHAMPIONNAT DES CLUBS FRANÇAIS SUR FORTNITE</h1>
+        <p>
+          Calculé selon la formule officielle <em>Power Ranking</em> (Fortnite Tracker & Fandom Esports), ce classement distingue chaque année le club champion de France en évaluant la régularité et les performances en FNCS, Cash Cups et LANs internationales.
+        </p>
+        <div class="hero-badges">
+          <span class="badge-pill">Modèle F1 Constructeurs</span>
+          <span class="badge-pill">Règle « No Buying PR »</span>
+          <span class="badge-pill gold">🌍 Joueurs Internationaux 100% Éligibles</span>
+          <span class="badge-pill">Top 4 Scorers</span>
+          <span class="badge-pill">Veille Liquipedia & X</span>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-num">16</div>
+          <div class="stat-label">Clubs Suivis</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">8</div>
+          <div class="stat-label">Saisons Archivées</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num" id="active-players-count">24+</div>
+          <div class="stat-label">Joueurs Actifs</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT TABS -->
+  <main>
+
+    <!-- TAB 1 : CLASSEMENT POWER RANKING -->
+    <div id="tab-ranking" class="tab-content active">
+      <div class="controls-bar">
+        <div class="filter-group">
+          <span class="filter-label">Saison :</span>
+          <select class="filter-select" id="season-filter" onchange="renderRankingTable()">
+            <option value="2025" selected>2025 / 2026 (Live Championship)</option>
+            <option value="2024">2024 (Karmine Corp Sacrée)</option>
+            <option value="2023">2023 (Gentle Mates Sacrée)</option>
+            <option value="2022">2022 (Solary Sacrée)</option>
+            <option value="2021">2021 (TrainHard Sacrée)</option>
+            <option value="2020">2020 (MCES Sacrée)</option>
+            <option value="2019">2019 (LeStream Sacrée)</option>
+            <option value="2018">2018 (Solary Sacrée)</option>
+          </select>
+
+          <span class="filter-label" style="margin-left: 1rem;">Division :</span>
+          <select class="filter-select" id="tier-filter" onchange="renderRankingTable()">
+            <option value="ALL" selected>Toutes les divisions</option>
+            <option value="Tier 1">Division Élite (Tier 1)</option>
+            <option value="Tier 2">Division Challenger (Tier 2)</option>
+          </select>
+        </div>
+
+        <input type="text" class="search-input" id="search-input" placeholder="🔍 Rechercher un club ou joueur..." oninput="renderRankingTable()">
+      </div>
+
+      <div class="ranking-table-card">
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th style="width: 70px; text-align: center;">Rang</th>
+              <th>Club</th>
+              <th>Division</th>
+              <th>Joueurs Clés / Roster Actif</th>
+              <th style="text-align: center;">Tendance</th>
+              <th style="text-align: right;">Points PR LFF</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-tbody">
+            <!-- Injecté dynamiquement par JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- LIENS CANVA OFFICIELS DE MARTIN -->
+      <div class="action-banner">
+        <div>
+          <h3 style="color: white; margin-bottom: 4px;">🎨 Visuels & Templates Canva Officiels</h3>
+          <p style="color: #cbd5e1; font-size: 0.88rem;">Vos designs Canva pour la publication des classements et stories LFF sur les réseaux sociaux.</p>
+        </div>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href="https://www.canva.com/d/potYDwmhHS46WzI" target="_blank" class="action-btn">
+            🖌️ Ouvrir « LFF Annonce » (Canva)
+          </a>
+          <a href="https://www.canva.com/d/UMykZRln88n-liS" target="_blank" class="action-btn btn-secondary">
+            📱 Ouvrir « FNBRL » (Format Story/Reels)
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2 : PALMARÈS ANNUEL -->
+    <div id="tab-palmares" class="tab-content">
+      <div class="controls-bar">
+        <div>
+          <h3 style="color: white;">🏆 LES CHAMPIONS DE FRANCE DEPUIS LES DÉBUTS (2018 - 2025)</h3>
+          <p style="color: var(--text-dim); font-size: 0.85rem;">Historique officiel des clubs ayant terminé #1 au Power Ranking LFF chaque année.</p>
+        </div>
+      </div>
+
+      <div class="palmares-grid" id="palmares-container">
+        <!-- Injecté dynamiquement -->
+      </div>
+    </div>
+
+    <!-- TAB 3 : MERCATO & TRANSFERTS -->
+    <div id="tab-mercato" class="tab-content">
+      <div class="controls-bar">
+        <div>
+          <h3 style="color: white;">🔄 VEILLE DES TRANSFERTS & ARRIVÉES/DÉPARTS</h3>
+          <p style="color: var(--text-dim); font-size: 0.85rem;">Flux synchronisé avec Liquipedia (Portal:Transfers) et le compte X @FortniteFraActu.</p>
+        </div>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href="https://x.com/LFFesport" target="_blank" class="action-btn" style="background: #000; border: 1px solid var(--border);">
+            𝕏 Compte Officiel @LFFesport
+          </a>
+          <a href="https://liquipedia.net/fortnite/Portal:Transfers" target="_blank" class="action-btn btn-secondary">
+            🌐 Liquipedia Transfers
+          </a>
+          <a href="https://x.com/FortniteFraActu" target="_blank" class="action-btn btn-secondary">
+            🐦 Veille @FortniteFraActu
+          </a>
+        </div>
+      </div>
+
+      <div class="transfer-feed" id="transfer-feed-container">
+        <!-- Injecté dynamiquement -->
+      </div>
+    </div>
+
+    <!-- TAB 4 : CLUBS & ROSTERS -->
+    <div id="tab-clubs" class="tab-content">
+      <div class="controls-bar">
+        <div>
+          <h3 style="color: white;">🛡️ LES CLUBS ENGAGÉS DANS LA LFF</h3>
+          <p style="color: var(--text-dim); font-size: 0.85rem;">Effectifs officiels, logos et liens des structures françaises.</p>
+        </div>
+      </div>
+
+      <div class="clubs-grid" id="clubs-grid-container">
+        <!-- Injecté dynamiquement -->
+      </div>
+    </div>
+
+    <!-- TAB 5 : RÈGLEMENT OFFICIEL -->
+    <div id="tab-reglement" class="tab-content">
+      <div class="ranking-table-card" style="padding: 2.5rem; line-height: 1.7;">
+        <h2 style="font-family: 'Teko', sans-serif; font-size: 2.4rem; color: var(--purple-accent); margin-bottom: 1rem;">
+          RÈGLEMENT OFFICIEL DE LA LIGUE FRANÇAISE DE FORTNITE (LFF)
+        </h2>
+
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">1. Règle d'or « No Buying PR » (Anti-Mercenariat)</h3>
+        <p style="color: #cbd5e1; font-size: 0.95rem;">
+          À l'image du règlement officiel de Fandom Esports et du championnat des constructeurs en Formule 1, un club n'engrange de points de Power Ranking que lors des compétitions disputées par ses joueurs <strong>pendant leur période contractuelle effective</strong>.
+          Si une structure recrute un joueur disposant déjà de 50 000 points PR, le club ne bénéficie pas de ce total passé. Le joueur commence à marquer pour le club à partir de sa date officielle de signature.
+        </p>
+
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">2. Conservation des Points Acquis</h3>
+        <p style="color: #cbd5e1; font-size: 0.95rem;">
+          Si un joueur quitte une structure en cours d'année, l'ensemble des points qu'il a rapportés pendant son contrat reste définitivement crédité au club pour la saison en cours.
+        </p>
+
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">3. Règle des Top 4 Scorers</h3>
+        <p style="color: #cbd5e1; font-size: 0.95rem;">
+          Pour assurer une équité stricte entre les structures et éviter qu'un club ne recrute un nombre démesuré de joueurs pour gonfler artificiellement son total, seuls les points des <strong>4 meilleurs joueurs du club</strong> sont comptabilisés à chaque échéance.
+        </p>
+
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Critères d'Admissibilité d'un Club & Nationalité des Joueurs</h3>
+        <p style="color: #cbd5e1; font-size: 0.95rem;">
+          <strong>Règle fondamentale sur les effectifs :</strong> Les joueurs sous contrat avec un club français <strong>n'ont pas besoin d'être français</strong>. Les joueurs internationaux sont comptabilisés à 100% avec les mêmes droits et attribution de points que les joueurs français.
+        </p>
+        <div style="background: rgba(147, 51, 234, 0.15); border-left: 3px solid var(--purple-accent); padding: 0.85rem; border-radius: 0 8px 8px 0; margin-top: 0.75rem; font-size: 0.88rem; color: #e9d5ff;">
+          💡 <em>Exemples concrets :</em> Lorsque la <strong>Karmine Corp</strong> a recruté <strong>Malibuca</strong> (Russie), <strong>Merstach</strong> (Lettonie), <strong>Veno</strong> (Royaume-Uni) et <strong>SwizzY</strong> (Russie), la totalité de leurs performances en FNCS et Cash Cups a été créditée à la Karmine Corp dans le classement LFF. De même, les recrues internationales de <strong>Gentle Mates</strong> ou de <strong>Solary</strong> rapportent l'intégralité de leurs points à leur club français.
+        </div>
+        <p style="color: #cbd5e1; font-size: 0.95rem; margin-top: 1rem;">
+          Seule la structure doit être reconnue comme <strong>club français</strong> (siège, encadrement, fondateurs ou ancrage historique dans l'esport tricolore).
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div style="max-width: 1350px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <div>
+        <strong>Ligue Française de Fortnite (LFF)</strong> — <a href="https://x.com/LFFesport" target="_blank" style="color: var(--purple-accent); text-decoration: none; font-weight: 600;">@LFFesport</a> • Contact : <span style="color: #cbd5e1;">liguefrancaisesortnite@gmail.com</span>
+      </div>
+      <div>
+        Données consolidées avec Liquipedia Fortnite, Fortnite Tracker et veille communautaire.
+      </div>
+    </div>
+  </footer>
+
+  <!-- DATA & LOGIC SCRIPT -->
+  <script>
+    // Données des clubs
+    const CLUBS = [
+      { id: "gentle-mates", name: "Gentle Mates", tag: "M8", tier: "Tier 1", points: 84500, logo: null, trend: "up", trendVal: "+1" },
+      { id: "solary", name: "Solary", tag: "SLY", tier: "Tier 1", points: 76200, logo: null, trend: "stable", trendVal: "=" },
+      { id: "karmine-corp", name: "Karmine Corp", tag: "KC", tier: "Tier 1", points: 92800, logo: null, trend: "down", trendVal: "-1" },
+      { id: "reality-zone", name: "Reality Zone (RZ)", tag: "RZ", tier: "Tier 2", points: 34100, logo: "../LFF Clubs/Logo RZ rouge (fond vide).png", trend: "up", trendVal: "+2" },
+      { id: "team-fake", name: "Team Fake", tag: "FAKE", tier: "Tier 2", points: 28400, logo: "../LFF Clubs/Logo Fake or (fond vide).png", trend: "up", trendVal: "+1" },
+      { id: "aten-esport", name: "Aten eSport", tag: "ATEN", tier: "Tier 2", points: 22100, logo: "../LFF Clubs/Logo ATEN marron clair (fond vide).png", trend: "stable", trendVal: "=" },
+      { id: "team-bsk", name: "Team BSK", tag: "BSK", tier: "Tier 2", points: 20500, logo: "../LFF Clubs/Logo BSK (fond vide).png", trend: "down", trendVal: "-1" },
+      { id: "jupitar-esport", name: "Jupitar Esport", tag: "JUP", tier: "Tier 2", points: 16800, logo: "../LFF Clubs/Logo Jupitar (fond vide).png", trend: "stable", trendVal: "=" },
+      { id: "odious-esport", name: "Odious Esport", tag: "ODS", tier: "Tier 2", points: 14200, logo: "../LFF Clubs/Logo Odious (fond vide).png", trend: "up", trendVal: "+1" },
+      { id: "paps-esport", name: "Pap's Esport", tag: "PAPS", tier: "Tier 2", points: 12900, logo: "../LFF Clubs/Logo Pap's (fond vide).png", trend: "stable", trendVal: "=" },
+      { id: "valiant", name: "Valiant", tag: "VLT", tier: "Tier 2", points: 18700, logo: null, trend: "stable", trendVal: "=" }
+    ];
+
+    // Rosters actifs
+    const ROSTERS = {
+      "gentle-mates": ["Snayzy", "PodaSai", "Merstach", "Malibuca (ex)"],
+      "solary": ["sereN", "Darkos", "Minori", "ghonzo"],
+      "karmine-corp": ["Malibuca (2024)", "Merstach (2024)", "Veno", "SwizzY"],
+      "reality-zone": ["RZ_Phoenix", "RZ_Kev", "RZ_Zeek"],
+      "team-fake": ["Fake_Shadow", "Fake_Storm"],
+      "aten-esport": ["ATEN_Raptor", "ATEN_Nox"],
+      "team-bsk": ["BSK_Rayan", "BSK_Aero"],
+      "jupitar-esport": ["JUP_Nova"],
+      "odious-esport": ["ODS_Vortex"],
+      "paps-esport": ["PAPS_Zek"],
+      "valiant": ["VLT_Kyz", "VLT_Aura"]
+    };
+
+    // Palmarès historique complet
+    const PALMARES = [
+      {
+        year: 2025,
+        era: "Ère Moderne : Suprématie M8 & Écosystème Sub-top",
+        champName: "Gentle Mates",
+        champTag: "M8",
+        roster: ["Merstach", "Snayzy", "PodaSai", "Malibuca"],
+        podium: [
+          { rank: 1, name: "Gentle Mates", note: "Top 1 FR / Majors & Qualifications Mondiales" },
+          { rank: 2, name: "Solary", note: "Constance au sommet européen avec sereN & Darkos" },
+          { rank: 3, name: "Reality Zone (RZ)", note: "Top 1 Challenger FR (Cash Cups & Heats)" }
+        ],
+        verdict: "Après le recentrage de KC mi-2025, Gentle Mates reprend le trône avec ses cracks européens et français."
+      },
+      {
+        year: 2024,
+        era: "Le duel galactique KCorp vs Gentle Mates",
+        champName: "Karmine Corp",
+        champTag: "KC",
+        roster: ["Malibuca", "Merstach", "Veno", "SwizzY", "Oslo (Coach)"],
+        podium: [
+          { rank: 1, name: "Karmine Corp", note: "Top 1 PR Mondial d'organisations en 2024" },
+          { rank: 2, name: "Gentle Mates", note: "Finalistes FNCS Majors & Global Championship" },
+          { rank: 3, name: "Solary", note: "Quatuor sereN, Darkos, Minori, ghonzo très performant" }
+        ],
+        verdict: "En signant les champions du Major 1 (Malibuca & Merstach) puis Veno et SwizzY, KC a aligné l'effectif le plus fort du monde."
+      },
+      {
+        year: 2023,
+        era: "Naissance de Gentle Mates & Global Copenhague",
+        champName: "Gentle Mates",
+        champTag: "M8",
+        roster: ["Snayzy", "PodaSai", "Nikof (Manager)"],
+        podium: [
+          { rank: 1, name: "Gentle Mates", note: "Qualifié au Global Championship Copenhague (Royal Arena)" },
+          { rank: 2, name: "Solary", note: "Performances exceptionnelles de Vico, Floki et Chaussette" },
+          { rank: 3, name: "Reality Zone", note: "Omniprésent dans le sub-top et open cups" }
+        ],
+        verdict: "Fondé en avril 2023, M8 qualifie son duo 100% tricolore au mondial et ramène la France sur le devant de la scène."
+      },
+      {
+        year: 2022,
+        era: "Chapitre 3 : Duos & Bastion Solary",
+        champName: "Solary",
+        champTag: "SLY",
+        roster: ["Floki", "Clément", "Chaussette", "BlastR", "Vico"],
+        podium: [
+          { rank: 1, name: "Solary", note: "Seule grande structure FR présente à toutes les Grand Finals FNCS" },
+          { rank: 2, name: "Valiant", note: "Actif sur le vivier francophone et open cups" },
+          { rank: 3, name: "Team MCES", note: "Dernières apparitions majeures" }
+        ],
+        verdict: "Solary a été le bastion inébranlable du Fortnite français pendant la transition du circuit."
+      },
+      {
+        year: 2021,
+        era: "L'âge d'or des Trios FNCS",
+        champName: "TrainHard eSport",
+        champTag: "TH",
+        roster: ["Falconly", "BlastR", "Alpha", "Yags", "Kyzen"],
+        podium: [
+          { rank: 1, name: "TrainHard eSport", note: "Densité record de points PR en Trios FNCS" },
+          { rank: 2, name: "Grizi Esport", note: "4zr champion FNCS Trios C2S8 avec TaySon & Chapix" },
+          { rank: 3, name: "Solary", note: "Floki, Clément, Decyptos finalistes permanents" }
+        ],
+        verdict: "TrainHard a dominé l'Europe grâce à Falconly, BlastR et Alpha, accumulant des dizaines de milliers de points."
+      },
+      {
+        year: 2020,
+        era: "L'âge d'or Chapitre 2 : FNCS Duos & Trios",
+        champName: "Team MCES",
+        champTag: "MCES",
+        roster: ["Andilex", "Xsweeze", "PodaSai", "Kouto"],
+        podium: [
+          { rank: 1, name: "Team MCES", note: "Andilex sacré #1 Power Ranking Europe, champion FNCS Duos" },
+          { rank: 2, name: "Grizi Esport", note: "Nayte champion FNCS Duos avec Andilex" },
+          { rank: 3, name: "TrainHard eSport", note: "BlastR, Alpha, Yags, Falconly" }
+        ],
+        verdict: "MCES réalise une année historique grâce à Andilex, qui trône officiellement à la 1ère place du Power Ranking Européen."
+      },
+      {
+        year: 2019,
+        era: "Fortnite World Cup New York & Débuts FNCS",
+        champName: "LeStream Esport",
+        champTag: "LST",
+        roster: ["Skite", "Vato", "TheVic", "Boyer"],
+        podium: [
+          { rank: 1, name: "LeStream Esport", note: "Skite 7e Solo & 10e Duo World Cup ($750 000+)" },
+          { rank: 2, name: "Solary", note: "Kinstaar, Hunter, Nikof, Airwaks qualifiés World Cup" },
+          { rank: 3, name: "Team Vitality", note: "BadSniper & Oslo 11e Duo World Cup" }
+        ],
+        verdict: "Skite et Vato réalisent la plus grande performance française de l'histoire à la World Cup de New York."
+      },
+      {
+        year: 2018,
+        era: "L'ère des Skirmishes & l'avènement Solary",
+        champName: "Solary",
+        champTag: "SLY",
+        roster: ["Kinstaar", "Hunter", "mzXXD", "Nikof", "Airwaks"],
+        podium: [
+          { rank: 1, name: "Solary", note: "Kinstaar & Hunter dominent l'Europe en Skirmishes" },
+          { rank: 2, name: "LeStream Esport", note: "Skite remporte le Winter Royale Europe solo ($75 000)" },
+          { rank: 3, name: "Team Vitality", note: "Gotaga, Mickalow, Robi, Airwaks, Teeqzy" }
+        ],
+        verdict: "Solary et Kinstaar ont placé le Fortnite français sur le toit de l'Europe durant toute la saison 2018."
+      }
+    ];
+
+    // Transferts récents
+    const TRANSFERS = [
+      { date: "2024-05-15", player: "Veno 🇬🇧", from: "Team Falcons", to: "Karmine Corp", type: "Arrival", source: "@FortniteFraActu" },
+      { date: "2024-05-15", player: "SwizzY 🌍", from: "Free Agent", to: "Karmine Corp", type: "Arrival", source: "@FortniteFraActu" },
+      { date: "2024-05-09", player: "Malibuca 🌍", from: "Twisted Minds", to: "Karmine Corp", type: "Arrival", source: "@FortniteFraActu" },
+      { date: "2024-05-09", player: "Merstach 🇱🇻", from: "Twisted Minds", to: "Karmine Corp", type: "Arrival", source: "@FortniteFraActu" },
+      { date: "2024-02-01", player: "Minori 🇫🇷", from: "Free Agent", to: "Solary", type: "Arrival", source: "Liquipedia" },
+      { date: "2024-01-15", player: "Darkos 🇫🇷", from: "Free Agent", to: "Solary", type: "Arrival", source: "Liquipedia" },
+      { date: "2023-04-14", player: "Snayzy 🇫🇷", from: "Free Agent", to: "Gentle Mates", type: "Arrival", source: "@GentleMates" },
+      { date: "2023-04-14", player: "PodaSai 🇫🇷", from: "Team MCES", to: "Gentle Mates", type: "Arrival", source: "@GentleMates" }
+    ];
+
+    // Basculer d'onglet
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.nav-tab-btn').forEach(el => el.classList.remove('active'));
+      
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+    // Affichage du tableau de classement
+    function renderRankingTable() {
+      const season = document.getElementById('season-filter').value;
+      const tierFilter = document.getElementById('tier-filter').value;
+      const search = document.getElementById('search-input').value.toLowerCase();
+      const tbody = document.getElementById('ranking-tbody');
+
+      let list = [...CLUBS];
+
+      // Ajuster points si saisons antérieures
+      if (season === "2024") {
+        list.sort((a, b) => (b.id === "karmine-corp" ? 1 : 0) - (a.id === "karmine-corp" ? 1 : 0) || b.points - a.points);
+      } else {
+        list.sort((a, b) => b.points - a.points);
+      }
+
+      if (tierFilter !== "ALL") {
+        list = list.filter(c => c.tier === tierFilter);
+      }
+
+      if (search) {
+        list = list.filter(c => {
+          const roster = ROSTERS[c.id] || [];
+          return c.name.toLowerCase().includes(search) || 
+                 c.tag.toLowerCase().includes(search) ||
+                 roster.some(p => p.toLowerCase().includes(search));
+        });
+      }
+
+      tbody.innerHTML = "";
+
+      list.forEach((c, idx) => {
+        const rank = idx + 1;
+        const rankClass = rank === 1 ? 'rank-1' : rank === 2 ? 'rank-2' : rank === 3 ? 'rank-3' : '';
+        const trendClass = c.trend === 'up' ? 'trend-up' : c.trend === 'down' ? 'trend-down' : 'trend-stable';
+        const trendIcon = c.trend === 'up' ? '▲' : c.trend === 'down' ? '▼' : '▬';
+        
+        const roster = ROSTERS[c.id] || [];
+        const rosterHtml = roster.map(p => `<span class="player-tag">${p}</span>`).join(' ') || '<span style="color: #64748b; font-size: 0.8rem;">Effectif en cours</span>';
+
+        const logoHtml = c.logo 
+          ? `<img src="${c.logo}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\\'club-logo-placeholder\\'>${c.tag}</div>'">`
+          : `<div class="club-logo-placeholder">${c.tag}</div>`;
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td class="rank-cell ${rankClass}">#${rank}</td>
+          <td>
+            <div class="club-cell">
+              ${logoHtml}
+              <div>
+                <span class="club-name">${c.name}</span>
+                <span class="club-tag">${c.tag}</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="badge-pill ${c.tier === 'Tier 1' ? 'gold' : ''}" style="font-size: 0.72rem;">${c.tier}</span></td>
+          <td><div class="roster-tags">${rosterHtml}</div></td>
+          <td style="text-align: center;"><span class="${trendClass}">${trendIcon} ${c.trendVal}</span></td>
+          <td class="pr-points">${c.points.toLocaleString('fr-FR')} pts</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Affichage du Palmarès
+    function renderPalmares() {
+      const container = document.getElementById('palmares-container');
+      container.innerHTML = "";
+
+      PALMARES.forEach(p => {
+        const card = document.createElement('div');
+        card.className = "palmares-card";
+        card.innerHTML = `
+          <div class="palmares-year">
+            <span>${p.year}</span>
+            <span style="font-size: 1.8rem;">🏆</span>
+          </div>
+          <div class="palmares-era">${p.era}</div>
+          <div class="palmares-winner-box">
+            <div class="winner-trophy">🥇</div>
+            <div class="winner-info">
+              <h3>${p.champName} <span class="club-tag">${p.champTag}</span></h3>
+              <div class="winner-roster">${p.roster.join(', ')}</div>
+            </div>
+          </div>
+          <div class="podium-list">
+            <div class="podium-item"><span>🥈 2e : <strong>${p.podium[1].name}</strong></span> <span>${p.podium[1].note}</span></div>
+            <div class="podium-item"><span>🥉 3e : <strong>${p.podium[2].name}</strong></span> <span>${p.podium[2].note}</span></div>
+          </div>
+          <div class="verdict-box">
+            <strong>Verdict LFF :</strong> ${p.verdict}
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Affichage des transferts
+    function renderTransfers() {
+      const container = document.getElementById('transfer-feed-container');
+      container.innerHTML = "";
+
+      TRANSFERS.forEach(t => {
+        const card = document.createElement('div');
+        card.className = "transfer-card";
+        card.innerHTML = `
+          <div class="transfer-left">
+            <div class="transfer-date">${t.date}</div>
+            <div class="transfer-player-info">
+              <h4>${t.player} <span style="font-size: 0.8rem;">🇫🇷</span></h4>
+              <div class="transfer-move">
+                <span class="team-badge">${t.from}</span>
+                <span style="color: var(--purple-accent);">➡️</span>
+                <span class="team-badge" style="color: white; font-weight: 700;">${t.to}</span>
+              </div>
+            </div>
+          </div>
+          <div class="transfer-right">
+            <span class="source-pill">Source : ${t.source}</span>
+            <span class="badge-pill gold">Officiel</span>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Affichage des fiches clubs
+    function renderClubs() {
+      const container = document.getElementById('clubs-grid-container');
+      container.innerHTML = "";
+
+      CLUBS.forEach(c => {
+        const roster = ROSTERS[c.id] || [];
+        const logoHtml = c.logo 
+          ? `<img src="${c.logo}" class="club-logo" alt="${c.name}">`
+          : `<div class="club-logo-placeholder">${c.tag}</div>`;
+
+        const card = document.createElement('div');
+        card.className = "club-card";
+        card.innerHTML = `
+          <div class="club-header">
+            ${logoHtml}
+            <div>
+              <h4 style="color: white; font-size: 1.1rem;">${c.name} <span class="club-tag">${c.tag}</span></h4>
+              <span class="badge-pill" style="font-size: 0.7rem; margin-top: 4px; display: inline-block;">${c.tier}</span>
+            </div>
+          </div>
+          <div class="club-roster-list">
+            <h5>Joueurs sous contrat</h5>
+            <div class="roster-tags">
+              ${roster.map(p => `<span class="player-tag">${p}</span>`).join(' ') || '<span style="color: #64748b; font-size: 0.8rem;">Aucun joueur déclaré</span>'}
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Initialisation au chargement
+    window.addEventListener('DOMContentLoaded', () => {
+      renderRankingTable();
+      renderPalmares();
+      renderTransfers();
+      renderClubs();
+    });
+  </script>
+</body>
+</html>
