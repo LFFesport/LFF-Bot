@@ -220,7 +220,8 @@
         "x_handle": "@Swizzyfn",
         "live_pr": 54000,
         "achievement": "Champion du Monde 2026 (Anvers)",
-        "contract_start": "2025-05-02"
+        "contract_start": "2025-05-02",
+        "x_url": "https://x.com/Swizzyfn"
       },
       {
         "ign": "Wox",
@@ -229,7 +230,8 @@
         "x_handle": "@Wox",
         "live_pr": 48000,
         "achievement": "5e mondial Worlds 2024 (Texas)",
-        "contract_start": "2024-08-28"
+        "contract_start": "2024-08-28",
+        "x_url": "https://x.com/Wox"
       },
       {
         "ign": "Pixie",
@@ -238,7 +240,8 @@
         "x_handle": "@Pixie_FN",
         "live_pr": 38000,
         "achievement": "Champion du Monde 2026 (Anvers)",
-        "contract_start": "2024-12-26"
+        "contract_start": "2024-12-26",
+        "x_url": "https://x.com/Pixie_FN"
       },
       {
         "ign": "Tjino",
@@ -247,7 +250,8 @@
         "x_handle": "@TjinoFN",
         "live_pr": 29500,
         "achievement": "Champion Major 2 2025",
-        "contract_start": "2025-10-26"
+        "contract_start": "2025-10-26",
+        "x_url": "https://x.com/TjinoFN"
       },
       {
         "ign": "PabloWingu",
@@ -256,7 +260,8 @@
         "x_handle": "@PabloWingu",
         "live_pr": 27000,
         "achievement": "Champion Major 2 2025",
-        "contract_start": "2026-01-04"
+        "contract_start": "2026-01-04",
+        "x_url": "https://x.com/PabloWingu"
       },
       {
         "ign": "IDrop",
@@ -264,7 +269,8 @@
         "role": "Starter",
         "x_handle": "@IDropFN",
         "live_pr": 26000,
-        "contract_start": "2025-03-22"
+        "contract_start": "2025-03-22",
+        "x_url": "https://x.com/IDropFN"
       },
       {
         "ign": "pixx",
@@ -272,7 +278,8 @@
         "role": "Starter",
         "x_handle": "@pixxfn",
         "live_pr": 22000,
-        "contract_start": "2025-08-02"
+        "contract_start": "2025-08-02",
+        "x_url": "https://x.com/pixxfn"
       },
       {
         "ign": "Seekk",
@@ -280,7 +287,8 @@
         "role": "Academy / Starter",
         "x_handle": "@Seekkfn",
         "live_pr": 14500,
-        "contract_start": "2026-10-15"
+        "contract_start": "2026-10-15",
+        "x_url": "https://x.com/Seekkfn"
       }
     ],
     "gentle-mates": [
@@ -290,7 +298,8 @@
         "role": "Starter",
         "x_handle": "@vanyak3kk",
         "live_pr": 28000,
-        "contract_start": "2024-06-13"
+        "contract_start": "2024-06-13",
+        "x_url": "https://x.com/vanyak3kk"
       },
       {
         "ign": "Akiira",
@@ -298,7 +307,8 @@
         "role": "Starter",
         "x_handle": "@AkiiraFN",
         "live_pr": 24000,
-        "contract_start": "2026-03-30"
+        "contract_start": "2026-03-30",
+        "x_url": "https://x.com/AkiiraFN"
       },
       {
         "ign": "Kurama",
@@ -306,7 +316,8 @@
         "role": "Starter",
         "x_handle": "@KuramaFN",
         "live_pr": 22000,
-        "contract_start": "2026-03-30"
+        "contract_start": "2026-03-30",
+        "x_url": "https://x.com/KuramaFN"
       },
       {
         "ign": "Rax",
@@ -314,7 +325,8 @@
         "role": "Starter",
         "x_handle": "@RaxFN",
         "live_pr": 21000,
-        "contract_start": "2026-09-22"
+        "contract_start": "2026-09-22",
+        "x_url": "https://x.com/RaxFN"
       }
     ],
     "solary": [
@@ -324,7 +336,8 @@
         "role": "Starter",
         "x_handle": "@DarkosFN",
         "live_pr": 31000,
-        "contract_start": "2026-04-25"
+        "contract_start": "2026-04-25",
+        "x_url": "https://x.com/DarkosFN"
       },
       {
         "ign": "sereN",
@@ -332,7 +345,8 @@
         "role": "Starter",
         "x_handle": "@sereNFN",
         "live_pr": 29000,
-        "contract_start": "2026-07-18"
+        "contract_start": "2026-07-18",
+        "x_url": "https://x.com/sereNFN"
       },
       {
         "ign": "XZEEVIT",
@@ -340,7 +354,8 @@
         "role": "Academy / Pro",
         "x_handle": "@xzeevit",
         "live_pr": 24000,
-        "contract_start": "2026-10-03"
+        "contract_start": "2026-10-03",
+        "x_url": "https://x.com/xzeevit"
       },
       {
         "ign": "Minori",
@@ -348,7 +363,8 @@
         "role": "Starter",
         "x_handle": "@MinoriFN",
         "live_pr": 22000,
-        "contract_start": "2026-04-25"
+        "contract_start": "2026-04-25",
+        "x_url": "https://x.com/MinoriFN"
       },
       {
         "ign": "ghonzo",
@@ -356,7 +372,8 @@
         "role": "Starter",
         "x_handle": "@ghonzoFN",
         "live_pr": 18000,
-        "contract_start": "2026-03-28"
+        "contract_start": "2026-03-28",
+        "x_url": "https://x.com/ghonzoFN"
       },
       {
         "ign": "Zangi",
@@ -364,7 +381,8 @@
         "role": "Starter",
         "x_handle": "@ZangiFN",
         "live_pr": 16000,
-        "contract_start": "2026-07-18"
+        "contract_start": "2026-07-18",
+        "x_url": "https://x.com/ZangiFN"
       }
     ],
     "gameward": [
@@ -374,7 +392,8 @@
         "role": "Starter",
         "x_handle": "@TylioFN",
         "live_pr": 16500,
-        "contract_start": "2024-06-01"
+        "contract_start": "2024-06-01",
+        "x_url": "https://x.com/TylioFN"
       },
       {
         "ign": "Kombek",
@@ -382,7 +401,8 @@
         "role": "Starter",
         "x_handle": "@KombekFN",
         "live_pr": 15200,
-        "contract_start": "2024-09-01"
+        "contract_start": "2024-09-01",
+        "x_url": "https://x.com/KombekFN"
       },
       {
         "ign": "Repairs",
@@ -390,7 +410,8 @@
         "role": "Starter",
         "x_handle": "@RepairsFN",
         "live_pr": 14000,
-        "contract_start": "2024-09-01"
+        "contract_start": "2024-09-01",
+        "x_url": "https://x.com/RepairsFN"
       },
       {
         "ign": "S1neD",
@@ -398,7 +419,8 @@
         "role": "Starter",
         "x_handle": "@S1neDFN",
         "live_pr": 12800,
-        "contract_start": "2025-01-10"
+        "contract_start": "2025-01-10",
+        "x_url": "https://x.com/S1neDFN"
       },
       {
         "ign": "Baxo",
@@ -406,7 +428,8 @@
         "role": "Academy",
         "x_handle": "@BaxoFN",
         "live_pr": 8500,
-        "contract_start": "2025-02-01"
+        "contract_start": "2025-02-01",
+        "x_url": "https://x.com/BaxoFN"
       },
       {
         "ign": "Snaylyx",
@@ -414,7 +437,8 @@
         "role": "Academy",
         "x_handle": "@SnaylyxFN",
         "live_pr": 7200,
-        "contract_start": "2025-02-01"
+        "contract_start": "2025-02-01",
+        "x_url": "https://x.com/SnaylyxFN"
       }
     ],
     "reality-zone": [
@@ -424,7 +448,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "RZ_Phoenix",
         "contract_start": "2024-01-01",
-        "live_pr": 14200
+        "live_pr": 14200,
+        "x_url": "https://x.com/search?q=RZ_Phoenix+fortnite"
       },
       {
         "ign": "RZ_Kev",
@@ -432,7 +457,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "RZ_Kev",
         "contract_start": "2024-01-01",
-        "live_pr": 11400
+        "live_pr": 11400,
+        "x_url": "https://x.com/search?q=RZ_Kev+fortnite"
       },
       {
         "ign": "RZ_Zeek",
@@ -440,7 +466,8 @@
         "role": "Academy",
         "ftn_tracker_slug": "RZ_Zeek",
         "contract_start": "2024-02-01",
-        "live_pr": 8500
+        "live_pr": 8500,
+        "x_url": "https://x.com/search?q=RZ_Zeek+fortnite"
       }
     ],
     "team-fake": [
@@ -450,7 +477,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "Fake_Shadow",
         "contract_start": "2024-01-01",
-        "live_pr": 15100
+        "live_pr": 15100,
+        "x_url": "https://x.com/search?q=Fake_Shadow+fortnite"
       },
       {
         "ign": "Fake_Storm",
@@ -458,7 +486,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "Fake_Storm",
         "contract_start": "2024-01-01",
-        "live_pr": 13300
+        "live_pr": 13300,
+        "x_url": "https://x.com/search?q=Fake_Storm+fortnite"
       }
     ],
     "aten-esport": [
@@ -468,7 +497,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "ATEN_Raptor",
         "contract_start": "2024-01-01",
-        "live_pr": 11900
+        "live_pr": 11900,
+        "x_url": "https://x.com/search?q=ATEN_Raptor+fortnite"
       },
       {
         "ign": "ATEN_Nox",
@@ -476,7 +506,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "ATEN_Nox",
         "contract_start": "2024-01-01",
-        "live_pr": 10200
+        "live_pr": 10200,
+        "x_url": "https://x.com/search?q=ATEN_Nox+fortnite"
       }
     ],
     "team-bsk": [
@@ -486,7 +517,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "BSK_Rayan",
         "contract_start": "2024-01-01",
-        "live_pr": 11100
+        "live_pr": 11100,
+        "x_url": "https://x.com/search?q=BSK_Rayan+fortnite"
       },
       {
         "ign": "BSK_Aero",
@@ -494,7 +526,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "BSK_Aero",
         "contract_start": "2024-01-01",
-        "live_pr": 9400
+        "live_pr": 9400,
+        "x_url": "https://x.com/search?q=BSK_Aero+fortnite"
       }
     ],
     "jupitar-esport": [
@@ -504,7 +537,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "JUP_Nova",
         "contract_start": "2024-01-01",
-        "live_pr": 9800
+        "live_pr": 9800,
+        "x_url": "https://x.com/search?q=JUP_Nova+fortnite"
       },
       {
         "ign": "JUP_Vax",
@@ -512,7 +546,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "JUP_Vax",
         "contract_start": "2024-01-01",
-        "live_pr": 7000
+        "live_pr": 7000,
+        "x_url": "https://x.com/search?q=JUP_Vax+fortnite"
       }
     ],
     "odious-esport": [
@@ -522,7 +557,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "ODS_Vortex",
         "contract_start": "2024-01-01",
-        "live_pr": 8200
+        "live_pr": 8200,
+        "x_url": "https://x.com/search?q=ODS_Vortex+fortnite"
       },
       {
         "ign": "ODS_Sky",
@@ -530,7 +566,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "ODS_Sky",
         "contract_start": "2024-01-01",
-        "live_pr": 6000
+        "live_pr": 6000,
+        "x_url": "https://x.com/search?q=ODS_Sky+fortnite"
       }
     ],
     "paps-esport": [
@@ -540,7 +577,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "PAPS_Zek",
         "contract_start": "2024-01-01",
-        "live_pr": 7500
+        "live_pr": 7500,
+        "x_url": "https://x.com/search?q=PAPS_Zek+fortnite"
       },
       {
         "ign": "PAPS_Ray",
@@ -548,7 +586,8 @@
         "role": "Starter",
         "ftn_tracker_slug": "PAPS_Ray",
         "contract_start": "2024-01-01",
-        "live_pr": 5400
+        "live_pr": 5400,
+        "x_url": "https://x.com/search?q=PAPS_Ray+fortnite"
       }
     ]
   }

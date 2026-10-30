@@ -198,11 +198,19 @@ Deux classements coexistent pour une visibilité totale :
 
 ---
 
-## 🔍 4. Protocole de Veille & Contrôle des Transferts
-Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois piliers :
-1. **Le compte X `@FortniteFraActu`** : L'alerte en temps réel des départs (*parting ways*), annonces de recherche de structure (*LF Org*) et signatures officielles (*signing*).
-2. **Liquipedia Fortnite (`Portal:Teams/Europe` et `Category:French_Teams`)** : Validation encyclopédique de l'officialisation du contrat et des dates d'arrivée/départ.
-3. **Fortnite Tracker (`fortnitetracker.com/esports`)** : Récupération des scores de Power Ranking et attribution des performances de tournois (FNCS, Cash Cups, etc.).
+## 🔍 4. Protocole d'Intégrité Anti-Erreur & Veille Multi-Plateformes
+Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement sans faille, la veille et l'attribution reposent sur un **croisement quadruple et obligatoire** :
+
+1. **Bios X des Joueurs & Annonces Officielles des Clubs** :
+   - **Contrôle de la bio X** : Tout joueur crédité dans un club actif doit impérativement mentionner le `@Club` dans sa biographie X officielle (ex: `@Seekkfn` mentionnant `@HvKGGs`).
+   - **Détection des départs / FAs** : Exclusion immédiate de tout joueur dont la bio ou le profil indique un départ, le statut d'agent libre (*LFT*, *Free Agent*) ou l'arrêt de la compétition (*« was pro Fortnite »*, à l'image de Snayzy, Clément, Kyzen, Rad3on ou Nxthan).
+   - **Annonces officielles des clubs** : Veille directe sur les comptes des organisations (signatures, fusions de structures comme le rachat HavoK par Vitality le 25 avril 2026).
+2. **Médias Spécialisés & Journalistes Esport Indépendants** :
+   - Suivi et validation croisée via les comptes d'actualité et d'investigation de référence de l'écosystème francophone (`@Revenja_`, `@FortniteFraActu`).
+3. **Liquipedia Fortnite (`Portal:Teams/Europe` & `Category:French_Teams`)** :
+   - Validation encyclopédique de l'officialisation des contrats, fiches joueurs, fusions et dates formelles d'entrée/sortie.
+4. **Fortnite Tracker (`fortnitetracker.com/esports`)** :
+   - Extraction des scores de Power Ranking (PR) officiels et attribution des performances de tournois (FNCS, Cash Cups, Victory Cups).
 
 ---
 
@@ -213,7 +221,11 @@ Pour garantir l'exactitude des effectifs en continu, la veille repose sur trois 
         md_content += f"### {c['name']} (`{c['tag']}`)\n"
         md_content += f"- **Division / Tier** : {c.get('tier', 'N/A')}\n"
         md_content += f"- **Statut** : {c.get('status', 'Active')}\n"
-        md_content += f"- **Réseaux / Contact** : {c.get('x_handle', 'N/A')}\n"
+        x_display = c.get('x_handle', 'N/A')
+        if c.get("x_url"):
+            md_content += f"- **Compte X officiel** : [{x_display}]({c['x_url']})\n"
+        else:
+            md_content += f"- **Réseaux / Contact** : {x_display}\n"
         if c.get("liquipedia_url"):
             md_content += f"- **Liquipedia** : [{c['name']}]({c['liquipedia_url']})\n"
         if c.get("logo_path"):
