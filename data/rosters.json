@@ -1,6 +1,86 @@
 {
   "transfers_log": [
     {
+      "date": "2026-10-27",
+      "player_ign": "Pietrxrr",
+      "player_name": "Pietrxrr",
+      "type": "Arrival",
+      "club_id": "M7 Esports",
+      "previous_club": "Free Agent",
+      "source": "Liquipedia Portal:Transfers",
+      "status": "Verified"
+    },
+    {
+      "date": "2026-10-28",
+      "player_ign": "Nxtures",
+      "player_name": "Nxtures",
+      "type": "Arrival",
+      "club_id": "Veltryn Esports",
+      "previous_club": "Chrome Realm",
+      "source": "Liquipedia Portal:Transfers",
+      "status": "Verified"
+    },
+    {
+      "date": "2026-10-28",
+      "player_ign": "Wxvy",
+      "player_name": "Wxvy",
+      "type": "Departure",
+      "club_id": "Free Agent",
+      "previous_club": "Chrome Realm",
+      "source": "Liquipedia Portal:Transfers",
+      "status": "Verified"
+    },
+    {
+      "date": "2026-10-28",
+      "player_ign": "Sazers",
+      "player_name": "Sazers",
+      "type": "Arrival",
+      "club_id": "Hawk Esports",
+      "previous_club": "Chrome Realm",
+      "source": "Liquipedia Portal:Transfers",
+      "status": "Verified"
+    },
+    {
+      "date": "2026-10-28",
+      "player_ign": "Crypty",
+      "player_name": "Crypty",
+      "type": "Departure",
+      "club_id": "Free Agent",
+      "previous_club": "Chrome Realm",
+      "source": "Liquipedia Portal:Transfers",
+      "status": "Verified"
+    },
+    {
+      "date": "2026-10-29",
+      "player_ign": "Rigby",
+      "player_name": "Rigby",
+      "type": "Departure",
+      "club_id": "Free Agent",
+      "previous_club": "XP42 Academy",
+      "source": "Liquipedia Portal:Transfers",
+      "status": "Verified"
+    },
+    {
+      "date": "2026-10-29",
+      "player_ign": "Nelsinhio",
+      "player_name": "Nelsinhio",
+      "type": "Arrival",
+      "club_id": "Xanart Esport",
+      "previous_club": "Royalsten Esports",
+      "source": "Liquipedia Portal:Transfers",
+      "status": "Verified"
+    },
+    {
+      "date": "2026-10-29",
+      "player_ign": "Niksa",
+      "player_name": "Niksa",
+      "type": "Arrival",
+      "club_id": "Xanart Esport",
+      "previous_club": "Free Agent",
+      "source": "Liquipedia Portal:Transfers",
+      "status": "Verified"
+    },
+    {
       "date": "2026-04-25",
       "player_ign": "SwizzY",
       "player_name": "Egor Luciko",
