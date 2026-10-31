@@ -215,379 +215,743 @@
     "havok-by-vitality": [
       {
         "ign": "SwizzY",
-        "country": "RU",
-        "role": "Starter",
+        "name": "SwizzY",
+        "country": "🌍",
         "x_handle": "@SwizzY281",
-        "live_pr": 54000,
-        "achievement": "Champion du Monde 2026 (Anvers)",
-        "contract_start": "2025-05-02",
-        "x_url": "https://x.com/SwizzY281"
+        "x_url": "https://x.com/SwizzY281",
+        "pr": 54000
       },
       {
         "ign": "Wox",
-        "country": "SE",
-        "role": "Starter",
+        "name": "Wox",
+        "country": "🇸🇪",
         "x_handle": "@WoxSHTER",
-        "live_pr": 48000,
-        "achievement": "5e mondial Worlds 2024 (Texas)",
-        "contract_start": "2024-08-28",
-        "x_url": "https://x.com/WoxSHTER"
+        "x_url": "https://x.com/WoxSHTER",
+        "pr": 48000
       },
       {
         "ign": "Pixie",
-        "country": "SE",
-        "role": "Starter",
+        "name": "Pixie",
+        "country": "🇸🇪",
         "x_handle": "@pixiefnbr",
-        "live_pr": 38000,
-        "achievement": "Champion du Monde 2026 (Anvers)",
-        "contract_start": "2024-12-26",
-        "x_url": "https://x.com/pixiefnbr"
+        "x_url": "https://x.com/pixiefnbr",
+        "pr": 38000
       },
       {
         "ign": "Tjino",
-        "country": "DK",
-        "role": "Starter",
+        "name": "Tjino",
+        "country": "🇩🇰",
         "x_handle": "@tjino9",
-        "live_pr": 29500,
-        "achievement": "Champion Major 2 2025",
-        "contract_start": "2025-10-26",
-        "x_url": "https://x.com/tjino9"
+        "x_url": "https://x.com/tjino9",
+        "pr": 29500
       },
       {
         "ign": "PabloWingu",
-        "country": "DK",
-        "role": "Starter",
+        "name": "PabloWingu",
+        "country": "🇩🇰",
         "x_handle": "@PabloWingu",
-        "live_pr": 27000,
-        "achievement": "Champion Major 2 2025",
-        "contract_start": "2026-01-04",
-        "x_url": "https://x.com/PabloWingu"
+        "x_url": "https://x.com/PabloWingu",
+        "pr": 27000
       },
       {
         "ign": "IDrop",
-        "country": "NO",
-        "role": "Starter",
+        "name": "IDrop",
+        "country": "🇳🇴",
         "x_handle": "@idropfn",
-        "live_pr": 26000,
-        "contract_start": "2025-03-22",
-        "x_url": "https://x.com/idropfn"
-      },
-      {
-        "ign": "pixx",
-        "country": "PL",
-        "role": "Starter",
-        "x_handle": "@pixxfn",
-        "live_pr": 22000,
-        "contract_start": "2025-08-02",
-        "x_url": "https://x.com/pixxfn"
+        "x_url": "https://x.com/idropfn",
+        "pr": 26000
       },
       {
         "ign": "Seekk",
-        "country": "FR",
-        "role": "Academy / Starter",
+        "name": "Seekk",
+        "country": "🇫🇷",
         "x_handle": "@Seekkfn",
-        "live_pr": 14500,
-        "contract_start": "2026-10-15",
-        "x_url": "https://x.com/Seekkfn"
-      }
-    ],
-    "gentle-mates": [
-      {
-        "ign": "Vanyak3kk",
-        "country": "UA",
-        "role": "Starter",
-        "x_handle": "@vanyak3kk",
-        "live_pr": 28000,
-        "contract_start": "2024-06-13",
-        "x_url": "https://x.com/vanyak3kk"
-      },
-      {
-        "ign": "Akiira",
-        "country": "FR",
-        "role": "Starter",
-        "x_handle": "@AkiiraFN",
-        "live_pr": 24000,
-        "contract_start": "2026-03-30",
-        "x_url": "https://x.com/AkiiraFN"
-      },
-      {
-        "ign": "Kurama",
-        "country": "FR",
-        "role": "Starter",
-        "x_handle": "@FtnKurama",
-        "live_pr": 22000,
-        "contract_start": "2026-03-30",
-        "x_url": "https://x.com/FtnKurama"
-      },
-      {
-        "ign": "Rax",
-        "country": "EU",
-        "role": "Starter",
-        "x_handle": "@fnrax1",
-        "live_pr": 21000,
-        "contract_start": "2026-09-22",
-        "x_url": "https://x.com/fnrax1"
+        "x_url": "https://x.com/Seekkfn",
+        "pr": 14500
       }
     ],
     "solary": [
       {
         "ign": "Darkos",
-        "country": "FR",
-        "role": "Starter",
+        "name": "Darkos",
+        "country": "🇫🇷",
         "x_handle": "@Darkos_ftn",
-        "live_pr": 31000,
-        "contract_start": "2026-04-25",
-        "x_url": "https://x.com/Darkos_ftn"
+        "x_url": "https://x.com/Darkos_ftn",
+        "pr": 31000
       },
       {
         "ign": "sereN",
-        "country": "PL",
-        "role": "Starter",
+        "name": "sereN",
+        "country": "🇵🇱",
         "x_handle": "@SereNFN4",
-        "live_pr": 29000,
-        "contract_start": "2026-07-18",
-        "x_url": "https://x.com/SereNFN4"
+        "x_url": "https://x.com/SereNFN4",
+        "pr": 29000
       },
       {
         "ign": "XZEEVIT",
-        "country": "CO",
-        "role": "Academy / Pro",
+        "name": "XZEEVIT",
+        "country": "🇨🇴",
         "x_handle": "@xzeevit",
-        "live_pr": 24000,
-        "contract_start": "2026-10-03",
-        "x_url": "https://x.com/xzeevit"
+        "x_url": "https://x.com/xzeevit",
+        "pr": 24000
       },
       {
         "ign": "Minori",
-        "country": "CH",
-        "role": "Starter",
+        "name": "Minori",
+        "country": "🇨🇭",
         "x_handle": "@minorifn_",
-        "live_pr": 22000,
-        "contract_start": "2026-04-25",
-        "x_url": "https://x.com/minorifn_"
+        "x_url": "https://x.com/minorifn_",
+        "pr": 22000
       },
       {
         "ign": "ghonzo",
-        "country": "NO",
-        "role": "Starter",
+        "name": "ghonzo",
+        "country": "🇳🇴",
         "x_handle": "@ghonzofn",
-        "live_pr": 18000,
-        "contract_start": "2026-03-28",
-        "x_url": "https://x.com/ghonzofn"
+        "x_url": "https://x.com/ghonzofn",
+        "pr": 18000
       },
       {
         "ign": "Zangi",
-        "country": "IT",
-        "role": "Starter",
+        "name": "Zangi",
+        "country": "🇮🇹",
         "x_handle": "@Zqngii",
-        "live_pr": 16000,
-        "contract_start": "2026-07-18",
-        "x_url": "https://x.com/Zqngii"
+        "x_url": "https://x.com/Zqngii",
+        "pr": 16000
+      }
+    ],
+    "gentle-mates": [
+      {
+        "ign": "Vanyak3kk",
+        "name": "Vanyak3kk",
+        "country": "🇺🇦",
+        "x_handle": "@vanyak3kk",
+        "x_url": "https://x.com/vanyak3kk",
+        "pr": 28000
+      },
+      {
+        "ign": "Akiira",
+        "name": "Akiira",
+        "country": "🇫🇷",
+        "x_handle": "@AkiiraFN",
+        "x_url": "https://x.com/AkiiraFN",
+        "pr": 24000
+      },
+      {
+        "ign": "Kurama",
+        "name": "Kurama",
+        "country": "🇫🇷",
+        "x_handle": "@FtnKurama",
+        "x_url": "https://x.com/FtnKurama",
+        "pr": 22000
+      },
+      {
+        "ign": "Rax",
+        "name": "Rax",
+        "country": "🌍",
+        "x_handle": "@fnrax1",
+        "x_url": "https://x.com/fnrax1",
+        "pr": 21000
       }
     ],
     "gameward": [
       {
         "ign": "Tylio",
-        "country": "FR",
-        "role": "Starter",
+        "name": "Tylio",
+        "country": "🇫🇷",
         "x_handle": "@Tylio77",
-        "live_pr": 16500,
-        "contract_start": "2024-06-01",
-        "x_url": "https://x.com/Tylio77"
+        "x_url": "https://x.com/Tylio77",
+        "pr": 16500
       },
       {
         "ign": "Kombek",
-        "country": "EU",
-        "role": "Starter",
+        "name": "Kombek",
+        "country": "🌍",
         "x_handle": "@kombekfn",
-        "live_pr": 15200,
-        "contract_start": "2024-09-01",
-        "x_url": "https://x.com/kombekfn"
+        "x_url": "https://x.com/kombekfn",
+        "pr": 15200
       },
       {
         "ign": "Repairs",
-        "country": "EU",
-        "role": "Starter",
+        "name": "Repairs",
+        "country": "🌍",
         "x_handle": "@repairsfn",
-        "live_pr": 14000,
-        "contract_start": "2024-09-01",
-        "x_url": "https://x.com/repairsfn"
+        "x_url": "https://x.com/repairsfn",
+        "pr": 14000
       },
       {
         "ign": "S1neD",
-        "country": "EU",
-        "role": "Starter",
+        "name": "S1neD",
+        "country": "🌍",
         "x_handle": "@S1neDfnn",
-        "live_pr": 12800,
-        "contract_start": "2025-01-10",
-        "x_url": "https://x.com/S1neDfnn"
-      },
-      {
-        "ign": "Baxo",
-        "country": "FR",
-        "role": "Academy",
-        "x_handle": "@BaxoFN",
-        "live_pr": 8500,
-        "contract_start": "2025-02-01",
-        "x_url": "https://x.com/BaxoFN"
-      },
-      {
-        "ign": "Snaylyx",
-        "country": "FR",
-        "role": "Academy",
-        "x_handle": "@SnaylyxFN",
-        "live_pr": 7200,
-        "contract_start": "2025-02-01",
-        "x_url": "https://x.com/SnaylyxFN"
+        "x_url": "https://x.com/S1neDfnn",
+        "pr": 12800
       }
     ],
     "reality-zone": [
       {
-        "ign": "RZ_Phoenix",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "RZ_Phoenix",
-        "contract_start": "2024-01-01",
-        "live_pr": 14200,
-        "x_url": "https://x.com/search?q=RZ_Phoenix+fortnite"
+        "ign": "RZ Phoenix",
+        "name": "RZ Phoenix",
+        "country": "🇫🇷",
+        "x_handle": "@RealityZoneFR",
+        "x_url": "https://x.com/RealityZoned",
+        "pr": 14200
       },
       {
-        "ign": "RZ_Kev",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "RZ_Kev",
-        "contract_start": "2024-01-01",
-        "live_pr": 11400,
-        "x_url": "https://x.com/search?q=RZ_Kev+fortnite"
+        "ign": "RZ Kev",
+        "name": "RZ Kev",
+        "country": "🇫🇷",
+        "x_handle": "@RealityZoneFR",
+        "x_url": "https://x.com/RealityZoned",
+        "pr": 11400
       },
       {
-        "ign": "RZ_Zeek",
-        "country": "FR",
-        "role": "Academy",
-        "ftn_tracker_slug": "RZ_Zeek",
-        "contract_start": "2024-02-01",
-        "live_pr": 8500,
-        "x_url": "https://x.com/search?q=RZ_Zeek+fortnite"
+        "ign": "RZ Zeek",
+        "name": "RZ Zeek",
+        "country": "🇫🇷",
+        "x_handle": "@RealityZoneFR",
+        "x_url": "https://x.com/RealityZoned",
+        "pr": 8500
       }
     ],
     "team-fake": [
       {
-        "ign": "Fake_Shadow",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "Fake_Shadow",
-        "contract_start": "2024-01-01",
-        "live_pr": 15100,
-        "x_url": "https://x.com/search?q=Fake_Shadow+fortnite"
+        "ign": "Fake Shadow",
+        "name": "Fake Shadow",
+        "country": "🇫🇷",
+        "x_handle": "@TeamFake_esport",
+        "x_url": "https://x.com/TeamFake_esport",
+        "pr": 15100
       },
       {
-        "ign": "Fake_Storm",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "Fake_Storm",
-        "contract_start": "2024-01-01",
-        "live_pr": 13300,
-        "x_url": "https://x.com/search?q=Fake_Storm+fortnite"
+        "ign": "Fake Storm",
+        "name": "Fake Storm",
+        "country": "🇫🇷",
+        "x_handle": "@TeamFake_esport",
+        "x_url": "https://x.com/TeamFake_esport",
+        "pr": 13300
+      }
+    ],
+    "valiant": [
+      {
+        "ign": "VLT Kyz",
+        "name": "VLT Kyz",
+        "country": "🇫🇷",
+        "x_handle": "@ValiantOfficiel",
+        "x_url": "https://x.com/ValiantOfficiel",
+        "pr": 14500
+      },
+      {
+        "ign": "Aura",
+        "name": "Aura",
+        "country": "🇫🇷",
+        "x_handle": "@ValiantOfficiel",
+        "x_url": "https://x.com/ValiantOfficiel",
+        "pr": 11950
       }
     ],
     "aten-esport": [
       {
-        "ign": "ATEN_Raptor",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "ATEN_Raptor",
-        "contract_start": "2024-01-01",
-        "live_pr": 11900,
-        "x_url": "https://x.com/search?q=ATEN_Raptor+fortnite"
+        "ign": "ATEN Raptor",
+        "name": "ATEN Raptor",
+        "country": "🇫🇷",
+        "x_handle": "@AtenEsport",
+        "x_url": "https://x.com/AtenEsport",
+        "pr": 11900
       },
       {
-        "ign": "ATEN_Nox",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "ATEN_Nox",
-        "contract_start": "2024-01-01",
-        "live_pr": 10200,
-        "x_url": "https://x.com/search?q=ATEN_Nox+fortnite"
+        "ign": "ATEN Nox",
+        "name": "ATEN Nox",
+        "country": "🇫🇷",
+        "x_handle": "@AtenEsport",
+        "x_url": "https://x.com/AtenEsport",
+        "pr": 10200
       }
     ],
     "team-bsk": [
       {
-        "ign": "BSK_Rayan",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "BSK_Rayan",
-        "contract_start": "2024-01-01",
-        "live_pr": 11100,
-        "x_url": "https://x.com/search?q=BSK_Rayan+fortnite"
+        "ign": "BSK Rayan",
+        "name": "BSK Rayan",
+        "country": "🇫🇷",
+        "x_handle": "@TeamBSK_",
+        "x_url": "https://x.com/TeamBSK_",
+        "pr": 11100
       },
       {
-        "ign": "BSK_Aero",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "BSK_Aero",
-        "contract_start": "2024-01-01",
-        "live_pr": 9400,
-        "x_url": "https://x.com/search?q=BSK_Aero+fortnite"
+        "ign": "BSK Aero",
+        "name": "BSK Aero",
+        "country": "🇫🇷",
+        "x_handle": "@TeamBSK_",
+        "x_url": "https://x.com/TeamBSK_",
+        "pr": 9400
+      }
+    ],
+    "1p-esport": [
+      {
+        "ign": "Coldr",
+        "name": "Coldr",
+        "country": "🇫🇷",
+        "x_handle": "@oneprodige",
+        "x_url": "https://x.com/oneprodige",
+        "pr": 9500
+      },
+      {
+        "ign": "werzz",
+        "name": "werzz",
+        "country": "🇫🇷",
+        "x_handle": "@oneprodige",
+        "x_url": "https://x.com/oneprodige",
+        "pr": 9000
+      }
+    ],
+    "lyost-esport": [
+      {
+        "ign": "Lyost Kyz",
+        "name": "Lyost Kyz",
+        "country": "🇫🇷",
+        "x_handle": "@lyost_esport",
+        "x_url": "https://x.com/lyost_esport",
+        "pr": 9200
+      },
+      {
+        "ign": "Lyost Storm",
+        "name": "Lyost Storm",
+        "country": "🇫🇷",
+        "x_handle": "@lyost_esport",
+        "x_url": "https://x.com/lyost_esport",
+        "pr": 8300
+      }
+    ],
+    "team-orchid": [
+      {
+        "ign": "Shxrk",
+        "name": "Shxrk",
+        "country": "🇫🇷",
+        "x_handle": "@TeamOrchidGG",
+        "x_url": "https://x.com/TeamOrchidGG",
+        "pr": 8840
+      },
+      {
+        "ign": "Zeeq",
+        "name": "Zeeq",
+        "country": "🇫🇷",
+        "x_handle": "@TeamOrchidGG",
+        "x_url": "https://x.com/TeamOrchidGG",
+        "pr": 8000
       }
     ],
     "jupitar-esport": [
       {
-        "ign": "JUP_Nova",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "JUP_Nova",
-        "contract_start": "2024-01-01",
-        "live_pr": 9800,
-        "x_url": "https://x.com/search?q=JUP_Nova+fortnite"
+        "ign": "JUP Nova",
+        "name": "JUP Nova",
+        "country": "🇫🇷",
+        "x_handle": "@JupitarEsport",
+        "x_url": "https://x.com/JupitarEsport",
+        "pr": 9800
       },
       {
-        "ign": "JUP_Vax",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "JUP_Vax",
-        "contract_start": "2024-01-01",
-        "live_pr": 7000,
-        "x_url": "https://x.com/search?q=JUP_Vax+fortnite"
+        "ign": "JUP Vax",
+        "name": "JUP Vax",
+        "country": "🇫🇷",
+        "x_handle": "@JupitarEsport",
+        "x_url": "https://x.com/JupitarEsport",
+        "pr": 7000
+      }
+    ],
+    "wooka-esport": [
+      {
+        "ign": "Ferdy",
+        "name": "Ferdy",
+        "country": "🇫🇷",
+        "x_handle": "@WookaEsport",
+        "x_url": "https://x.com/WookaEsport",
+        "pr": 8200
+      },
+      {
+        "ign": "R3xxx",
+        "name": "R3xxx",
+        "country": "🇫🇷",
+        "x_handle": "@WookaEsport",
+        "x_url": "https://x.com/WookaEsport",
+        "pr": 7000
       }
     ],
     "odious-esport": [
       {
-        "ign": "ODS_Vortex",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "ODS_Vortex",
-        "contract_start": "2024-01-01",
-        "live_pr": 8200,
-        "x_url": "https://x.com/search?q=ODS_Vortex+fortnite"
+        "ign": "ODS Vortex",
+        "name": "ODS Vortex",
+        "country": "🇫🇷",
+        "x_handle": "@OdiousEsport",
+        "x_url": "https://x.com/OdiousEsport",
+        "pr": 8200
       },
       {
-        "ign": "ODS_Sky",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "ODS_Sky",
-        "contract_start": "2024-01-01",
-        "live_pr": 6000,
-        "x_url": "https://x.com/search?q=ODS_Sky+fortnite"
+        "ign": "ODS Sky",
+        "name": "ODS Sky",
+        "country": "🇫🇷",
+        "x_handle": "@OdiousEsport",
+        "x_url": "https://x.com/OdiousEsport",
+        "pr": 6000
+      }
+    ],
+    "lynox-esport": [
+      {
+        "ign": "LYX VenoX",
+        "name": "LYX VenoX",
+        "country": "🇫🇷",
+        "x_handle": "@LynoXEU",
+        "x_url": "https://x.com/LynoXEU",
+        "pr": 7200
+      },
+      {
+        "ign": "LYX Kaza",
+        "name": "LYX Kaza",
+        "country": "🇫🇷",
+        "x_handle": "@LynoXEU",
+        "x_url": "https://x.com/LynoXEU",
+        "pr": 6600
       }
     ],
     "paps-esport": [
       {
-        "ign": "PAPS_Zek",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "PAPS_Zek",
-        "contract_start": "2024-01-01",
-        "live_pr": 7500,
-        "x_url": "https://x.com/search?q=PAPS_Zek+fortnite"
+        "ign": "PAPS Zek",
+        "name": "PAPS Zek",
+        "country": "🇫🇷",
+        "x_handle": "@PapsEsport",
+        "x_url": "https://x.com/PapsEsport",
+        "pr": 7500
       },
       {
-        "ign": "PAPS_Ray",
-        "country": "FR",
-        "role": "Starter",
-        "ftn_tracker_slug": "PAPS_Ray",
-        "contract_start": "2024-01-01",
-        "live_pr": 5400,
-        "x_url": "https://x.com/search?q=PAPS_Ray+fortnite"
+        "ign": "PAPS Ray",
+        "name": "PAPS Ray",
+        "country": "🇫🇷",
+        "x_handle": "@PapsEsport",
+        "x_url": "https://x.com/PapsEsport",
+        "pr": 5400
+      }
+    ],
+    "poyo-esports": [
+      {
+        "ign": "Shadox",
+        "name": "Shadox",
+        "country": "🇫🇷",
+        "x_handle": "@PoyoEsports",
+        "x_url": "https://x.com/PoyoEsports",
+        "pr": 6500
+      },
+      {
+        "ign": "Kray",
+        "name": "Kray",
+        "country": "🇫🇷",
+        "x_handle": "@PoyoEsports",
+        "x_url": "https://x.com/PoyoEsports",
+        "pr": 6000
+      }
+    ],
+    "pandaria-esport": [
+      {
+        "ign": "PAN Kyo",
+        "name": "PAN Kyo",
+        "country": "🇫🇷",
+        "x_handle": "@PandariaEsport",
+        "x_url": "https://x.com/PandariaEsport",
+        "pr": 6200
+      },
+      {
+        "ign": "PAN Vex",
+        "name": "PAN Vex",
+        "country": "🇫🇷",
+        "x_handle": "@PandariaEsport",
+        "x_url": "https://x.com/PandariaEsport",
+        "pr": 5600
+      }
+    ],
+    "r4c-esport": [
+      {
+        "ign": "R4C Sky",
+        "name": "R4C Sky",
+        "country": "🇫🇷",
+        "x_handle": "@r4c_esport",
+        "x_url": "https://x.com/r4c_esport",
+        "pr": 5840
+      },
+      {
+        "ign": "R4C Kyo",
+        "name": "R4C Kyo",
+        "country": "🇫🇷",
+        "x_handle": "@r4c_esport",
+        "x_url": "https://x.com/r4c_esport",
+        "pr": 5200
+      }
+    ],
+    "pandore-esport": [
+      {
+        "ign": "PDR Zeek",
+        "name": "PDR Zeek",
+        "country": "🇫🇷",
+        "x_handle": "@PandoreEsport",
+        "x_url": "https://x.com/PandoreEsport",
+        "pr": 5600
+      },
+      {
+        "ign": "PDR Sky",
+        "name": "PDR Sky",
+        "country": "🇫🇷",
+        "x_handle": "@PandoreEsport",
+        "x_url": "https://x.com/PandoreEsport",
+        "pr": 5200
+      }
+    ],
+    "vulcan-esport": [
+      {
+        "ign": "VLC Drek",
+        "name": "VLC Drek",
+        "country": "🇫🇷",
+        "x_handle": "@vulcanesport_",
+        "x_url": "https://x.com/vulcanesport_",
+        "pr": 5500
+      },
+      {
+        "ign": "VLC Mamba",
+        "name": "VLC Mamba",
+        "country": "🇫🇷",
+        "x_handle": "@vulcanesport_",
+        "x_url": "https://x.com/vulcanesport_",
+        "pr": 5000
+      }
+    ],
+    "orphee-esport": [
+      {
+        "ign": "Fnajen",
+        "name": "Fnajen",
+        "country": "🇫🇷",
+        "x_handle": "@ORPHEE_Esport",
+        "x_url": "https://x.com/ORPHEE_Esport",
+        "pr": 5250
+      },
+      {
+        "ign": "Art1st",
+        "name": "Art1st",
+        "country": "🇫🇷",
+        "x_handle": "@ORPHEE_Esport",
+        "x_url": "https://x.com/ORPHEE_Esport",
+        "pr": 5000
+      }
+    ],
+    "fly-again": [
+      {
+        "ign": "FLY Aero",
+        "name": "FLY Aero",
+        "country": "🇫🇷",
+        "x_handle": "@FlyAgainEsport",
+        "x_url": "https://x.com/FlyAgainEsport",
+        "pr": 5000
+      },
+      {
+        "ign": "FLY Nox",
+        "name": "FLY Nox",
+        "country": "🇫🇷",
+        "x_handle": "@FlyAgainEsport",
+        "x_url": "https://x.com/FlyAgainEsport",
+        "pr": 4500
+      }
+    ],
+    "trkf-esport": [
+      {
+        "ign": "TRKF Zay",
+        "name": "TRKF Zay",
+        "country": "🇫🇷",
+        "x_handle": "@Trkf_Esport",
+        "x_url": "https://x.com/Trkf_Esport",
+        "pr": 4640
+      },
+      {
+        "ign": "TRKF Falko",
+        "name": "TRKF Falko",
+        "country": "🇫🇷",
+        "x_handle": "@Trkf_Esport",
+        "x_url": "https://x.com/Trkf_Esport",
+        "pr": 4300
+      }
+    ],
+    "mga-esport": [
+      {
+        "ign": "MGA Kael",
+        "name": "MGA Kael",
+        "country": "🇫🇷",
+        "x_handle": "@MGAesport",
+        "x_url": "https://x.com/MGAesport",
+        "pr": 4500
+      },
+      {
+        "ign": "MGA Raptor",
+        "name": "MGA Raptor",
+        "country": "🇫🇷",
+        "x_handle": "@MGAesport",
+        "x_url": "https://x.com/MGAesport",
+        "pr": 4000
+      }
+    ],
+    "now-esport": [
+      {
+        "ign": "NOW Kael",
+        "name": "NOW Kael",
+        "country": "🇫🇷",
+        "x_handle": "@noww_esport",
+        "x_url": "https://x.com/noww_esport",
+        "pr": 4120
+      },
+      {
+        "ign": "NOW Vyz",
+        "name": "NOW Vyz",
+        "country": "🇫🇷",
+        "x_handle": "@noww_esport",
+        "x_url": "https://x.com/noww_esport",
+        "pr": 3800
+      }
+    ],
+    "k13-esport": [
+      {
+        "ign": "K13 Zay",
+        "name": "K13 Zay",
+        "country": "🇫🇷",
+        "x_handle": "@K13Esport",
+        "x_url": "https://x.com/K13Esport",
+        "pr": 4000
+      },
+      {
+        "ign": "K13 Shadow",
+        "name": "K13 Shadow",
+        "country": "🇫🇷",
+        "x_handle": "@K13Esport",
+        "x_url": "https://x.com/K13Esport",
+        "pr": 3800
+      }
+    ],
+    "eoz-esport": [
+      {
+        "ign": "EOZ Enoxx",
+        "name": "EOZ Enoxx",
+        "country": "🇫🇷",
+        "x_handle": "@EOZesport",
+        "x_url": "https://x.com/EOZesport",
+        "pr": 3750
+      },
+      {
+        "ign": "EOZ Teddy",
+        "name": "EOZ Teddy",
+        "country": "🇫🇷",
+        "x_handle": "@EOZesport",
+        "x_url": "https://x.com/EOZesport",
+        "pr": 3400
+      }
+    ],
+    "ekinox-esports": [
+      {
+        "ign": "EKX Shado",
+        "name": "EKX Shado",
+        "country": "🇫🇷",
+        "x_handle": "@ekinoxesports",
+        "x_url": "https://x.com/ekinoxesports",
+        "pr": 3600
+      },
+      {
+        "ign": "EKX Zeph",
+        "name": "EKX Zeph",
+        "country": "🇫🇷",
+        "x_handle": "@ekinoxesports",
+        "x_url": "https://x.com/ekinoxesports",
+        "pr": 3380
+      }
+    ],
+    "wip-esports": [
+      {
+        "ign": "WIP Jax",
+        "name": "WIP Jax",
+        "country": "🇫🇷",
+        "x_handle": "@wipesports",
+        "x_url": "https://x.com/wipesports",
+        "pr": 2980
+      },
+      {
+        "ign": "WIP Drax",
+        "name": "WIP Drax",
+        "country": "🇫🇷",
+        "x_handle": "@wipesports",
+        "x_url": "https://x.com/wipesports",
+        "pr": 2700
+      }
+    ],
+    "haikoo": [
+      {
+        "ign": "HKO Nexy",
+        "name": "HKO Nexy",
+        "country": "🇫🇷",
+        "x_handle": "@Haikoo_Esport",
+        "x_url": "https://x.com/Haikoo_Esport",
+        "pr": 2850
+      },
+      {
+        "ign": "HKO Sylo",
+        "name": "HKO Sylo",
+        "country": "🇫🇷",
+        "x_handle": "@Haikoo_Esport",
+        "x_url": "https://x.com/Haikoo_Esport",
+        "pr": 2600
+      }
+    ],
+    "g3nz-esport": [
+      {
+        "ign": "Battercry",
+        "name": "Battercry",
+        "country": "🇫🇷",
+        "x_handle": "@G3nZEsport",
+        "x_url": "https://x.com/G3nZEsport",
+        "pr": 2620
+      },
+      {
+        "ign": "Xray",
+        "name": "Xray",
+        "country": "🇫🇷",
+        "x_handle": "@G3nZEsport",
+        "x_url": "https://x.com/G3nZEsport",
+        "pr": 2300
+      }
+    ],
+    "novix-esport": [
+      {
+        "ign": "NVX Kyro",
+        "name": "NVX Kyro",
+        "country": "🇫🇷",
+        "x_handle": "@NovixEsport",
+        "x_url": "https://x.com/NovixEsport",
+        "pr": 2050
+      },
+      {
+        "ign": "NVX Zephir",
+        "name": "NVX Zephir",
+        "country": "🇫🇷",
+        "x_handle": "@NovixEsport",
+        "x_url": "https://x.com/NovixEsport",
+        "pr": 1800
+      }
+    ],
+    "australe-esport": [
+      {
+        "ign": "Hedra",
+        "name": "Hedra",
+        "country": "🇫🇷",
+        "x_handle": "@team_australe",
+        "x_url": "https://x.com/team_australe",
+        "pr": 1920
+      },
+      {
+        "ign": "yoicy",
+        "name": "yoicy",
+        "country": "🇫🇷",
+        "x_handle": "@team_australe",
+        "x_url": "https://x.com/team_australe",
+        "pr": 1700
       }
     ]
   }

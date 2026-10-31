@@ -85,7 +85,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 ### HavoK by Vitality (`HvK`)
 - **Division / Tier** : Tier 1
-- **Statut** : Active (depuis le rachat du 25 avril 2026)
+- **Statut** : Active
 - **Compte X officiel** : [@HvKGGs](https://x.com/HvKGGs)
 - **Liquipedia** : [HavoK by Vitality](https://liquipedia.net/fortnite/HavoK_by_Vitality)
 - **Logo enregistré** : `../LFF Logos/Logo HavoK by Vitality (fond vide).png`
@@ -213,7 +213,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 ### Valiant (`VLT`)
 - **Division / Tier** : Tier 2
-- **Statut** : Historique
+- **Statut** : Active
 - **Compte X officiel** : [@ValiantOfficiel](https://x.com/ValiantOfficiel)
 - **Liquipedia** : [Valiant](https://liquipedia.net/fortnite/Valiant)
 - **Logo enregistré** : `../LFF Logos/Logo Valiant (fond vide).png`

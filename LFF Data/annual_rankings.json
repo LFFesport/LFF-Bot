@@ -1501,39 +1501,28 @@
         "tag": "HvK",
         "tier": "Tier 1",
         "points": 122000,
+        "xUrl": "https://x.com/HvKGGs",
+        "xHandle": "@HvKGGs",
         "roster": [
           "SwizzY",
-          "Pixie",
           "Wox",
+          "Pixie",
           "Tjino",
           "PabloWingu",
           "IDrop",
           "Seekk"
         ],
-        "notable": "En tête de la Ligue ! SwizzY & Pixie Champions du Monde 2026 à Anvers, Seekk validé (Bio X @Seekkfn)."
+        "notable": "Armada n°1 d'Europe sacrée Championne du Monde 2026 (Anvers) avec SwizzY & Pixie, complétée par Wox, Tjino, PabloWingu, IDrop et Seekk."
       },
       {
         "rank": 2,
-        "id": "gentle-mates",
-        "name": "Gentle Mates",
-        "tag": "M8",
-        "tier": "Tier 1",
-        "points": 92000,
-        "roster": [
-          "Vanyak3kk",
-          "Akiira",
-          "Kurama",
-          "Rax"
-        ],
-        "notable": "Quatuor officiel 2026 avec le duo Kurama & Akiira et Vanyak3kk"
-      },
-      {
-        "rank": 3,
         "id": "solary",
         "name": "Solary",
         "tag": "SLY",
         "tier": "Tier 1",
         "points": 98400,
+        "xUrl": "https://x.com/SolaryTV",
+        "xHandle": "@SolaryTV",
         "roster": [
           "Darkos",
           "sereN",
@@ -1542,7 +1531,24 @@
           "ghonzo",
           "Zangi"
         ],
-        "notable": "Très grosse régularité en finales et renfort du crack XZEEVIT en octobre 2026"
+        "notable": "Effectif renforcé par la signature officielle de XZEEVIT le 3 octobre 2026 aux côtés de Darkos, sereN, Minori, ghonzo et Zangi (Head of Fortnite : Revenja)."
+      },
+      {
+        "rank": 3,
+        "id": "gentle-mates",
+        "name": "Gentle Mates",
+        "tag": "M8",
+        "tier": "Tier 1",
+        "points": 92000,
+        "xUrl": "https://x.com/GentleMates",
+        "xHandle": "@GentleMates",
+        "roster": [
+          "Vanyak3kk",
+          "Akiira",
+          "Kurama",
+          "Rax"
+        ],
+        "notable": "Roster officiel Gentle Mates 2026 avec le duo Kurama & Akiira, Vanyak3kk et Rax (managé par Nikof, ancien pro devenu Head of Fortnite puis CEO de Gentle Mates)."
       },
       {
         "rank": 4,
@@ -1551,13 +1557,15 @@
         "tag": "GW",
         "tier": "Tier 1",
         "points": 41500,
+        "xUrl": "https://x.com/GameWardTeam",
+        "xHandle": "@GameWardTeam",
         "roster": [
           "Tylio",
           "Kombek",
           "Repairs",
           "S1neD"
         ],
-        "notable": "Effectif actif performant sous la direction du coach Aarnax (Cash Cups & Heats)"
+        "notable": "Club historique actif sans interruption depuis 2018 avec Tylio, Kombek, Repairs, S1neD sous le coach Aarnax."
       },
       {
         "rank": 5,
@@ -1566,12 +1574,14 @@
         "tag": "RZ",
         "tier": "Tier 2",
         "points": 34100,
+        "xUrl": "https://x.com/RealityZoned",
+        "xHandle": "@RealityZoneFR",
         "roster": [
           "RZ Phoenix",
           "RZ Kev",
           "RZ Zeek"
         ],
-        "notable": "Victoires en Open et régularité"
+        "notable": "Leader des tournois communautaires et open avec joueurs qualifiés en Round 3 FNCS."
       },
       {
         "rank": 6,
@@ -1580,76 +1590,448 @@
         "tag": "FAKE",
         "tier": "Tier 2",
         "points": 28400,
+        "xUrl": "https://x.com/TeamFake_esport",
+        "xHandle": "@TeamFake_esport",
         "roster": [
           "Fake Shadow",
           "Fake Storm"
         ],
-        "notable": "Régularité Victory Cups"
+        "notable": "Duo très actif sur les Victory Cups et Open Qualifiers."
       },
       {
         "rank": 7,
+        "id": "valiant",
+        "name": "Valiant",
+        "tag": "VLT",
+        "tier": "Tier 2",
+        "points": 26450,
+        "xUrl": "https://x.com/ValiantOfficiel",
+        "xHandle": "@ValiantOfficiel",
+        "roster": [
+          "VLT Kyz",
+          "Aura"
+        ],
+        "notable": "Structure française active classée #14 européen sur Fortnite Tracker."
+      },
+      {
+        "rank": 8,
         "id": "aten-esport",
         "name": "Aten eSport",
         "tag": "ATEN",
         "tier": "Tier 2",
         "points": 22100,
+        "xUrl": "https://x.com/AtenEsport",
+        "xHandle": "@AtenEsport",
         "roster": [
           "ATEN Raptor",
           "ATEN Nox"
         ],
-        "notable": "Solide noyau en scrims et cups"
+        "notable": "Solide noyau régulier sur les tournois hebdomadaires."
       },
       {
-        "rank": 8,
+        "rank": 9,
         "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
         "tier": "Tier 2",
         "points": 20500,
+        "xUrl": "https://x.com/TeamBSK_",
+        "xHandle": "@TeamBSK_",
         "roster": [
           "BSK Rayan",
           "BSK Aero"
         ],
-        "notable": "Points acquis en Cash Cups"
+        "notable": "Structure historique engagée sur le circuit francophone."
       },
       {
-        "rank": 9,
+        "rank": 10,
+        "id": "1p-esport",
+        "name": "1P Esport",
+        "tag": "1P",
+        "tier": "Tier 2",
+        "points": 18500,
+        "xUrl": "https://x.com/oneprodige",
+        "xHandle": "@oneprodige",
+        "roster": [
+          "Coldr",
+          "werzz"
+        ],
+        "notable": "Structure One Prodige axée sur les performances de pointe FNCS et classements Fandom."
+      },
+      {
+        "rank": 11,
+        "id": "lyost-esport",
+        "name": "Lyost Esport",
+        "tag": "LYO",
+        "tier": "Tier 2",
+        "points": 17500,
+        "xUrl": "https://x.com/lyost_esport",
+        "xHandle": "@lyost_esport",
+        "roster": [
+          "Lyost Kyz",
+          "Lyost Storm"
+        ],
+        "notable": "Club compétitif très implanté sur les Cash Cups et tournois duo."
+      },
+      {
+        "rank": 12,
+        "id": "team-orchid",
+        "name": "Team Orchid",
+        "tag": "ORC",
+        "tier": "Tier 2",
+        "points": 16840,
+        "xUrl": "https://x.com/TeamOrchidGG",
+        "xHandle": "@TeamOrchidGG",
+        "roster": [
+          "Shxrk",
+          "Zeeq"
+        ],
+        "notable": "Classé #24 européen sur Fortnite Tracker avec de multiples qualifications en finales."
+      },
+      {
+        "rank": 13,
         "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
         "tier": "Tier 2",
         "points": 16800,
+        "xUrl": "https://x.com/JupitarEsport",
+        "xHandle": "@JupitarEsport",
         "roster": [
           "JUP Nova",
           "JUP Vax"
         ],
-        "notable": "Pépites en progression"
+        "notable": "Pépites en formation continue et présence sur les tournois open."
       },
       {
-        "rank": 10,
+        "rank": 14,
+        "id": "wooka-esport",
+        "name": "Wooka Esport",
+        "tag": "WOOKA",
+        "tier": "Tier 2",
+        "points": 15200,
+        "xUrl": "https://x.com/WookaEsport",
+        "xHandle": "@WookaEsport",
+        "roster": [
+          "Ferdy",
+          "R3xxx"
+        ],
+        "notable": "Structure formatrice présente sur les scènes Tier 2 et 3 européennes."
+      },
+      {
+        "rank": 15,
         "id": "odious-esport",
         "name": "Odious Esport",
         "tag": "ODS",
         "tier": "Tier 2",
         "points": 14200,
+        "xUrl": "https://x.com/OdiousEsport",
+        "xHandle": "@OdiousEsport",
         "roster": [
           "ODS Vortex",
-          "Sky"
+          "ODS Sky"
         ],
-        "notable": "Tournois communautaires"
+        "notable": "Progression constante sur les Cash Cups."
       },
       {
-        "rank": 11,
+        "rank": 16,
+        "id": "lynox-esport",
+        "name": "Lynox Esport",
+        "tag": "LYX",
+        "tier": "Tier 2",
+        "points": 13800,
+        "xUrl": "https://x.com/LynoXEU",
+        "xHandle": "@LynoXEU",
+        "roster": [
+          "LYX VenoX",
+          "LYX Kaza"
+        ],
+        "notable": "Structure active sur les scrims Noble Pro et les classements Fandom."
+      },
+      {
+        "rank": 17,
         "id": "paps-esport",
         "name": "Pap's Esport",
         "tag": "PAPS",
         "tier": "Tier 2",
         "points": 12900,
+        "xUrl": "https://x.com/PapsEsport",
+        "xHandle": "@PapsEsport",
         "roster": [
           "PAPS Zek",
-          "Ray"
+          "PAPS Ray"
         ],
-        "notable": "Présence dynamique"
+        "notable": "Ancrage communautaire fort et régularité en compétitions du week-end."
+      },
+      {
+        "rank": 18,
+        "id": "poyo-esports",
+        "name": "Poyo Esports",
+        "tag": "POYO",
+        "tier": "Tier 2",
+        "points": 12500,
+        "xUrl": "https://x.com/PoyoEsports",
+        "xHandle": "@PoyoEsports",
+        "roster": [
+          "Shadox",
+          "Kray"
+        ],
+        "notable": "Structure compétitive française engagée sur les tournois scrims européens."
+      },
+      {
+        "rank": 19,
+        "id": "pandaria-esport",
+        "name": "Pandaria Esport",
+        "tag": "PAN",
+        "tier": "Tier 2",
+        "points": 11800,
+        "xUrl": "https://x.com/PandariaEsport",
+        "xHandle": "@PandariaEsport",
+        "roster": [
+          "PAN Kyo",
+          "PAN Vex"
+        ],
+        "notable": "Club français présent dans les classements compétitifs réguliers."
+      },
+      {
+        "rank": 20,
+        "id": "r4c-esport",
+        "name": "R4C Esport",
+        "tag": "R4C",
+        "tier": "Tier 2",
+        "points": 11040,
+        "xUrl": "https://x.com/r4c_esport",
+        "xHandle": "@r4c_esport",
+        "roster": [
+          "R4C Sky",
+          "R4C Kyo"
+        ],
+        "notable": "Classé #39 européen sur Fortnite Tracker, actif en FNCS et coupes ouvertes."
+      },
+      {
+        "rank": 21,
+        "id": "pandore-esport",
+        "name": "Pandore Esport",
+        "tag": "PDR",
+        "tier": "Tier 2",
+        "points": 10800,
+        "xUrl": "https://x.com/PandoreEsport",
+        "xHandle": "@PandoreEsport",
+        "roster": [
+          "PDR Zeek",
+          "PDR Sky"
+        ],
+        "notable": "Organisation engagée sur le circuit français et européen."
+      },
+      {
+        "rank": 22,
+        "id": "vulcan-esport",
+        "name": "Vulcan Esport",
+        "tag": "VLC",
+        "tier": "Tier 2",
+        "points": 10500,
+        "xUrl": "https://x.com/vulcanesport_",
+        "xHandle": "@vulcanesport_",
+        "roster": [
+          "VLC Drek",
+          "VLC Mamba"
+        ],
+        "notable": "Classé #41 européen sur Fortnite Tracker, très actif sur les tournois hebdomadaires."
+      },
+      {
+        "rank": 23,
+        "id": "orphee-esport",
+        "name": "Orphée Esport",
+        "tag": "ORP",
+        "tier": "Tier 2",
+        "points": 10250,
+        "xUrl": "https://x.com/ORPHEE_Esport",
+        "xHandle": "@ORPHEE_Esport",
+        "roster": [
+          "Fnajen",
+          "Art1st"
+        ],
+        "notable": "Classé #42 européen sur Fortnite Tracker avec Fnajen et Art1st."
+      },
+      {
+        "rank": 24,
+        "id": "fly-again",
+        "name": "Fly Again",
+        "tag": "FLY",
+        "tier": "Tier 2",
+        "points": 9500,
+        "xUrl": "https://x.com/FlyAgainEsport",
+        "xHandle": "@FlyAgainEsport",
+        "roster": [
+          "FLY Aero",
+          "FLY Nox"
+        ],
+        "notable": "Structure engagée sur les compétitions Battle Royale et Zero Build."
+      },
+      {
+        "rank": 25,
+        "id": "trkf-esport",
+        "name": "TRKF E-Sport",
+        "tag": "TRKF",
+        "tier": "Tier 2",
+        "points": 8940,
+        "xUrl": "https://x.com/Trkf_Esport",
+        "xHandle": "@Trkf_Esport",
+        "roster": [
+          "TRKF Zay",
+          "TRKF Falko"
+        ],
+        "notable": "Classé #48 européen sur Fortnite Tracker avec une forte régularité."
+      },
+      {
+        "rank": 26,
+        "id": "mga-esport",
+        "name": "MGA eSport",
+        "tag": "MGA",
+        "tier": "Tier 2",
+        "points": 8500,
+        "xUrl": "https://x.com/MGAesport",
+        "xHandle": "@MGAesport",
+        "roster": [
+          "MGA Kael",
+          "MGA Raptor"
+        ],
+        "notable": "Club français formateur actif sur les tournois de la saison."
+      },
+      {
+        "rank": 27,
+        "id": "now-esport",
+        "name": "NOW eSport",
+        "tag": "NOW",
+        "tier": "Tier 2",
+        "points": 7920,
+        "xUrl": "https://x.com/noww_esport",
+        "xHandle": "@noww_esport",
+        "roster": [
+          "NOW Kael",
+          "NOW Vyz"
+        ],
+        "notable": "Classé #53 européen sur Fortnite Tracker."
+      },
+      {
+        "rank": 28,
+        "id": "k13-esport",
+        "name": "K13 Esport",
+        "tag": "K13",
+        "tier": "Tier 2",
+        "points": 7800,
+        "xUrl": "https://x.com/K13Esport",
+        "xHandle": "@K13Esport",
+        "roster": [
+          "K13 Zay",
+          "K13 Shadow"
+        ],
+        "notable": "Structure française participant aux qualifications régionales."
+      },
+      {
+        "rank": 29,
+        "id": "eoz-esport",
+        "name": "EOZ eSport",
+        "tag": "EOZ",
+        "tier": "Tier 2",
+        "points": 7150,
+        "xUrl": "https://x.com/EOZesport",
+        "xHandle": "@EOZesport",
+        "roster": [
+          "EOZ Enoxx",
+          "EOZ Teddy"
+        ],
+        "notable": "Classé #57 européen sur Fortnite Tracker, club basé en Ariège."
+      },
+      {
+        "rank": 30,
+        "id": "ekinox-esports",
+        "name": "EKINOX",
+        "tag": "EKX",
+        "tier": "Tier 2",
+        "points": 6980,
+        "xUrl": "https://x.com/ekinoxesports",
+        "xHandle": "@ekinoxesports",
+        "roster": [
+          "EKX Shado",
+          "EKX Zeph"
+        ],
+        "notable": "Classé #58 européen sur Fortnite Tracker."
+      },
+      {
+        "rank": 31,
+        "id": "wip-esports",
+        "name": "WIP Esports",
+        "tag": "WIP",
+        "tier": "Tier 2",
+        "points": 5680,
+        "xUrl": "https://x.com/wipesports",
+        "xHandle": "@wipesports",
+        "roster": [
+          "WIP Jax",
+          "WIP Drax"
+        ],
+        "notable": "Classé #69 européen sur Fortnite Tracker, club occitan."
+      },
+      {
+        "rank": 32,
+        "id": "haikoo",
+        "name": "Haikoo",
+        "tag": "HKO",
+        "tier": "Tier 2",
+        "points": 5450,
+        "xUrl": "https://x.com/Haikoo_Esport",
+        "xHandle": "@Haikoo_Esport",
+        "roster": [
+          "HKO Nexy",
+          "HKO Sylo"
+        ],
+        "notable": "Classé #71 européen sur Fortnite Tracker (#HAIKOWIN)."
+      },
+      {
+        "rank": 33,
+        "id": "g3nz-esport",
+        "name": "G3nZ Esport",
+        "tag": "G3NZ",
+        "tier": "Tier 2",
+        "points": 4920,
+        "xUrl": "https://x.com/G3nZEsport",
+        "xHandle": "@G3nZEsport",
+        "roster": [
+          "Battercry",
+          "Xray"
+        ],
+        "notable": "Classé #76 européen sur Fortnite Tracker (#G3NZWIN)."
+      },
+      {
+        "rank": 34,
+        "id": "novix-esport",
+        "name": "Novix eSport",
+        "tag": "NVX",
+        "tier": "Tier 2",
+        "points": 3850,
+        "xUrl": "https://x.com/NovixEsport",
+        "xHandle": "@NovixEsport",
+        "roster": [
+          "NVX Kyro",
+          "NVX Zephir"
+        ],
+        "notable": "Classé #94 européen sur Fortnite Tracker, structure émergente."
+      },
+      {
+        "rank": 35,
+        "id": "australe-esport",
+        "name": "Australe Esport",
+        "tag": "AST",
+        "tier": "Tier 2",
+        "points": 3620,
+        "xUrl": "https://x.com/team_australe",
+        "xHandle": "@team_australe",
+        "roster": [
+          "Hedra",
+          "yoicy"
+        ],
+        "notable": "Classé #97 européen sur Fortnite Tracker, club de Roquebrune-Cap-Martin."
       }
     ]
   }
