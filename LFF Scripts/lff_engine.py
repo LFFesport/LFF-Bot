@@ -235,11 +235,49 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
             md_content += f"- **Compte X officiel** : [{x_display}]({c['x_url']})\n"
         else:
             md_content += f"- **Réseaux / Contact** : {x_display}\n"
+        if c.get("tracker_url"):
+            md_content += f"- **Fortnite Tracker** : [{c['name']}]({c['tracker_url']})\n"
         if c.get("liquipedia_url"):
             md_content += f"- **Liquipedia** : [{c['name']}]({c['liquipedia_url']})\n"
+        socials = c.get("socials", {})
+        if socials:
+            pills = []
+            if socials.get("x"): pills.append(f"[𝕏]({socials['x']})")
+            if socials.get("twitch"): pills.append(f"[Twitch]({socials['twitch']})")
+            if socials.get("youtube"): pills.append(f"[YouTube]({socials['youtube']})")
+            if socials.get("tiktok"): pills.append(f"[TikTok]({socials['tiktok']})")
+            if socials.get("instagram"): pills.append(f"[Instagram]({socials['instagram']})")
+            if socials.get("discord"): pills.append(f"[Discord]({socials['discord']})")
+            if pills:
+                md_content += f"- **Réseaux officiels** : {' | '.join(pills)}\n"
         if c.get("logo_path"):
             md_content += f"- **Logo enregistré** : `{c['logo_path']}`\n"
         md_content += f"- **Description** : {c.get('description', '')}\n\n"
+
+    # 6. Classement 2026 (En cours)
+    annual = load_json("annual_rankings.json") or {}
+    s2026 = annual.get("2026", {})
+    if s2026 and "clubs" in s2026:
+        md_content += """---
+
+## ⚡ 6. Classement Annuel LFF 2026 (En cours)
+
+*Note : Les joueurs marqués d'un astérisque (`*`) ne font plus partie de l'équipe mais ont apporté des points au club durant la saison.*
+
+| Rang | Club | Tag | Points LFF 2026 | Effectif / Contributeurs PR | Fait marquant |
+| :---: | :--- | :---: | :---: | :--- | :--- |
+"""
+        for entry in s2026["clubs"]:
+            p_list = []
+            for p in entry.get("players", []):
+                p_name = p.get("name", "")
+                p_star = "*" if p.get("is_former") else ""
+                p_url = p.get("tracker_url") or f"https://fortnitetracker.com/profile/all/{p_name}"
+                p_list.append(f"[{p_name}{p_star}]({p_url})")
+            roster_str = ", ".join(p_list) if p_list else entry.get("notable", "")
+            c_url = entry.get("tracker_url") or f"https://fortnitetracker.com/esports/organization/{entry.get('id', '')}"
+            c_name_link = f"[{entry['name']}]({c_url})"
+            md_content += f"| **#{entry['rank']}** | {c_name_link} | `{entry['tag']}` | **{entry['points']:,} pts** | {roster_str} | {entry.get('key_achievement', '')} |\n"
 
     report_path = DOCS_DIR / "CLASSEMENT_LFF.md"
     with open(report_path, "w", encoding="utf-8") as f:

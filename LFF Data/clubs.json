@@ -14,7 +14,15 @@
     "description": "Structure fondée par Gotaga, Squeezie et Brawks en 2023. Nikof (ancien joueur pro Solary/Vitality) en est le Head of Fortnite puis le CEO. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023).",
     "points_lff": 118000,
     "earnings_usd": 631600,
-    "rank_ft_europe": 2
+    "rank_ft_europe": 2,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+    "socials": {
+      "x": "https://x.com/GentleMates",
+      "youtube": "https://youtube.com/@teamgentlemates",
+      "instagram": "https://instagram.com/gentlemates",
+      "tiktok": "https://tiktok.com/@gentlemates",
+      "discord": "https://discord.gg/gentle-mates"
+    }
   },
   {
     "id": "karmine-corp",
@@ -31,7 +39,15 @@
     "description": "Fondée par Kameto et Prime. Arrivée explosive sur Fortnite en mai 2024 avec Malibuca, Merstach, Veno, SwizzY et Oslo en coach, dominant le PR mondial en 2024.",
     "points_lff": 1200,
     "earnings_usd": 520000,
-    "rank_ft_europe": 210
+    "rank_ft_europe": 210,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/karmine-corp",
+    "socials": {
+      "x": "https://x.com/KarmineCorp",
+      "twitch": "https://twitch.tv/karminecorp",
+      "youtube": "https://youtube.com/@Karmine_Corp",
+      "instagram": "https://instagram.com/karminecorp",
+      "tiktok": "https://tiktok.com/@karmine_corp"
+    }
   },
   {
     "id": "havok-by-vitality",
@@ -48,7 +64,11 @@
     "description": "Super-équipe née du rachat du 25 avril 2026 par Team Vitality. Sacrée Championne du Monde 2026 au Global Championship à Anvers avec son duo planétaire SwizzY & Pixie, complété par Wox (5e mondial 2024), Tjino, PabloWingu (champions Major 2 2025), IDrop et Seekk (vérifiés bio X).",
     "points_lff": 169500,
     "earnings_usd": 1395160,
-    "rank_ft_europe": 1
+    "rank_ft_europe": 1,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+    "socials": {
+      "x": "https://x.com/HvKGGs"
+    }
   },
   {
     "id": "team-havok",
@@ -65,7 +85,11 @@
     "description": "Structure fondée le 28 août 2024 par les YouTubeurs ZetFar et WaZz. Révélation mondiale avec Wox (5e aux Worlds FNCS 2024), vainqueur Major 2 en 2025. Rachetée le 25 avril 2026 par Team Vitality.",
     "points_lff": 741548,
     "earnings_usd": 1395160,
-    "rank_ft_europe": 1
+    "rank_ft_europe": 1,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+    "socials": {
+      "x": "https://x.com/HvKGGs"
+    }
   },
   {
     "id": "solary",
@@ -82,7 +106,15 @@
     "description": "Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, BlastR, Vico, sereN, Darkos, XZEEVIT...).",
     "points_lff": 106000,
     "earnings_usd": 122890,
-    "rank_ft_europe": 5
+    "rank_ft_europe": 5,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+    "socials": {
+      "x": "https://x.com/SolaryTV",
+      "twitch": "https://twitch.tv/solaryfortnite",
+      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+      "instagram": "https://instagram.com/solarytv",
+      "tiktok": "https://tiktok.com/@solary_fortnite"
+    }
   },
   {
     "id": "vitality",
@@ -96,7 +128,13 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Team_Vitality",
     "x_handle": "@TeamVitality",
     "x_url": "https://x.com/TeamVitality",
-    "description": "Club pionnier tricolore (2018-2021 : Gotaga, BadSniper, Oslo, Keolys). Fait son retour au sommet le 25 avril 2026 en rachetant Team HavoK pour fonder HavoK by Vitality."
+    "description": "Club pionnier tricolore (2018-2021 : Gotaga, BadSniper, Oslo, Keolys). Fait son retour au sommet le 25 avril 2026 en rachetant Team HavoK pour fonder HavoK by Vitality.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-vitality",
+    "socials": {
+      "x": "https://x.com/TeamVitality",
+      "youtube": "https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw",
+      "instagram": "https://instagram.com/teamvitality"
+    }
   },
   {
     "id": "team-go",
@@ -110,7 +148,11 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Team_GO",
     "x_handle": "@Team_GO",
     "x_url": "https://x.com/Team_GO",
-    "description": "Organisation majeure du sport électronique français. Très présente de 2018 à 2022 (Decyptos, Shaykos, M11Z, Lentille, Robabz, Clément)."
+    "description": "Organisation majeure du sport électronique français. Très présente de 2018 à 2022 (Decyptos, Shaykos, M11Z, Lentille, Robabz, Clément).",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-go",
+    "socials": {
+      "x": "https://x.com/Team_GO"
+    }
   },
   {
     "id": "gameward",
@@ -127,7 +169,11 @@
     "description": "Club francilien majeur actif sans interruption depuis mars 2018. Historiquement tremplin de Nayte, Keolys, BadSniper, Snayzy, Shaax, et aujourd'hui représenté au plus haut niveau par Tylio, Kombek, Repairs, S1neD, Baxo, Snaylyx sous la direction du coach Aarnax.",
     "points_lff": 64000,
     "earnings_usd": 11300,
-    "rank_ft_europe": 20
+    "rank_ft_europe": 20,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gameward",
+    "socials": {
+      "x": "https://x.com/GameWardTeam"
+    }
   },
   {
     "id": "lestream",
@@ -141,7 +187,11 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/LeStream_Esport",
     "x_handle": "@LeStreamEsport",
     "x_url": "https://x.com/LeStreamEsport",
-    "description": "Club légendaire de 2018-2019 (Skite, Vato, TheVic, Boyer). Vainqueur Winter Royale 2018, Secret Skirmish et 7e Solo / 10e Duo à la World Cup 2019."
+    "description": "Club légendaire de 2018-2019 (Skite, Vato, TheVic, Boyer). Vainqueur Winter Royale 2018, Secret Skirmish et 7e Solo / 10e Duo à la World Cup 2019.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lestream-esport",
+    "socials": {
+      "x": "https://x.com/LeStreamEsport"
+    }
   },
   {
     "id": "mces",
@@ -155,7 +205,12 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Team_MCES",
     "x_handle": "@MCES_officiel",
     "x_url": "https://x.com/MCES_officiel",
-    "description": "Club marseillais pionnier. Vainqueur FNCS Duos Chapitre 2 Saison 2 avec Andilex (#1 PR Europe en 2020), PodaSai, Xsweeze, Kouto."
+    "description": "Club marseillais pionnier. Vainqueur FNCS Duos Chapitre 2 Saison 2 avec Andilex (#1 PR Europe en 2020), PodaSai, Xsweeze, Kouto.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/mces",
+    "socials": {
+      "x": "https://x.com/MCES_officiel",
+      "instagram": "https://instagram.com/mces_officiel"
+    }
   },
   {
     "id": "trainhard",
@@ -169,7 +224,13 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/TrainHard_eSport",
     "x_handle": "@TrainHardEsport",
     "x_url": "https://x.com/TrainHardEsport",
-    "description": "L'un des plus puissants rosters européens en 2020-2021 (BlastR, Alpha, Yags, Falconly, Kyzen). Multiples podiums et titres FNCS."
+    "description": "L'un des plus puissants rosters européens en 2020-2021 (BlastR, Alpha, Yags, Falconly, Kyzen). Multiples podiums et titres FNCS.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard-esport",
+    "socials": {
+      "x": "https://x.com/TrainHardEsport",
+      "twitch": "https://twitch.tv/trainhardwebtv",
+      "instagram": "https://instagram.com/trainhardesport"
+    }
   },
   {
     "id": "grizi",
@@ -183,7 +244,11 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Grizi_Esport",
     "x_handle": "@GriziEsport",
     "x_url": "https://x.com/GriziEsport",
-    "description": "Fondé par Antoine et Théo Griezmann. Titré au FNCS Duos C2S2 (Nayte) et dominateur avec 4zr au sommet du PR européen en 2020-2021."
+    "description": "Fondé par Antoine et Théo Griezmann. Titré au FNCS Duos C2S2 (Nayte) et dominateur avec 4zr au sommet du PR européen en 2020-2021.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/grizi-esport",
+    "socials": {
+      "x": "https://x.com/GriziEsport"
+    }
   },
   {
     "id": "zerance",
@@ -202,7 +267,14 @@
     "earnings_usd": 15400,
     "rank_ft_europe": 180,
     "twitter": "@TeamZerance",
-    "twitter_url": "https://x.com/TeamZerance"
+    "twitter_url": "https://x.com/TeamZerance",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/zerance",
+    "socials": {
+      "x": "https://x.com/TeamZerance",
+      "youtube": "https://youtube.com/@zerance",
+      "instagram": "https://instagram.com/teamzerance",
+      "tiktok": "https://tiktok.com/@teamzerance"
+    }
   },
   {
     "id": "galions",
@@ -219,7 +291,15 @@
     "description": "Lancé en décembre 2024 par Team GO et Sixen avec Clément et Kyzen. Après la saison 2025, le club ferme sa division Fortnite le 7 décembre 2025 (Kyzen prend sa retraite compétitive, Clément devient agent libre).",
     "points_lff": 1800,
     "earnings_usd": 12500,
-    "rank_ft_europe": 195
+    "rank_ft_europe": 195,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/galions",
+    "socials": {
+      "x": "https://x.com/Galions_",
+      "youtube": "https://youtube.com/@galions_team",
+      "instagram": "https://instagram.com/galions_team",
+      "tiktok": "https://tiktok.com/@galions_team",
+      "discord": "https://discord.gg/yVDXNfp"
+    }
   },
   {
     "id": "team-ldlc",
@@ -233,7 +313,11 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Team_LDLC",
     "x_handle": "@LDLC_OL",
     "x_url": "https://x.com/LDLC_OL",
-    "description": "Institution historique de l'esport français. Présente dès juin 2018 sur Fortnite (Djoe, Maylee, Ovni, Sops, Khuna, Seth)."
+    "description": "Institution historique de l'esport français. Présente dès juin 2018 sur Fortnite (Djoe, Maylee, Ovni, Sops, Khuna, Seth).",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/ldlc-ol",
+    "socials": {
+      "x": "https://x.com/LDLC_OL"
+    }
   },
   {
     "id": "millenium",
@@ -247,7 +331,13 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Millenium",
     "x_handle": "@Millenium",
     "x_url": "https://x.com/Millenium",
-    "description": "Pionnier absolu en février 2018. Équipe légendaire avec Teeqzy (record du monde de 43 kills), NokSs, Robi et Mickalow."
+    "description": "Pionnier absolu en février 2018. Équipe légendaire avec Teeqzy (record du monde de 43 kills), NokSs, Robi et Mickalow.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/millenium",
+    "socials": {
+      "x": "https://x.com/Millenium",
+      "youtube": "https://youtube.com/@MilleniumVOD",
+      "instagram": "https://instagram.com/millenium.team"
+    }
   },
   {
     "id": "supremacy",
@@ -261,7 +351,13 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Supremacy",
     "x_handle": "@Supremacy_FR",
     "x_url": "https://x.com/Supremacy_FR",
-    "description": "Écurie pionnière dès mars 2018 avec Vato, Skite, Maxalibur et Kyuubi. Berceau de futures stars internationales."
+    "description": "Écurie pionnière dès mars 2018 avec Vato, Skite, Maxalibur et Kyuubi. Berceau de futures stars internationales.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/supremacy",
+    "socials": {
+      "x": "https://x.com/Supremacy_FR",
+      "youtube": "https://youtube.com/channel/UCisb_trxnFN_ylhpgGfbyqQ",
+      "instagram": "https://instagram.com/supremacy_fr"
+    }
   },
   {
     "id": "oserv",
@@ -275,7 +371,13 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Oserv_Esport",
     "x_handle": "@OservEsport",
     "x_url": "https://x.com/OservEsport",
-    "description": "Club précurseur en 2018 (Skite, MawkS, Nyx, Deadra, Blaxou). Vainqueurs et podiums sur les premières LANs de l'hexagone."
+    "description": "Club précurseur en 2018 (Skite, MawkS, Nyx, Deadra, Blaxou). Vainqueurs et podiums sur les premières LANs de l'hexagone.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/oserv-esport",
+    "socials": {
+      "x": "https://x.com/OservEsport",
+      "twitch": "https://twitch.tv/oservtv",
+      "youtube": "https://youtube.com/channel/UCHbWqCwlFzBh-ikyZ33aCtA"
+    }
   },
   {
     "id": "valiant",
@@ -292,7 +394,15 @@
     "description": "Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025.",
     "points_lff": 10800,
     "earnings_usd": 168295,
-    "rank_ft_europe": 100
+    "rank_ft_europe": 100,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/valiant",
+    "socials": {
+      "x": "https://x.com/ValiantOfficiel",
+      "twitch": "https://twitch.tv/valiantofficiel",
+      "youtube": "https://youtube.com/channel/UCfAj4rFVhgGCNWNTw0lVeZg",
+      "instagram": "https://instagram.com/valiantofficiel",
+      "tiktok": "https://tiktok.com/@vaillantofficiel"
+    }
   },
   {
     "id": "reality-zone",
@@ -311,7 +421,16 @@
     "earnings_usd": 12000,
     "rank_ft_europe": 105,
     "twitter": "@RealityZoned",
-    "twitter_url": "https://x.com/RealityZoned"
+    "twitter_url": "https://x.com/RealityZoned",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/reality-zoned",
+    "socials": {
+      "x": "https://x.com/RealityZoned",
+      "twitch": "https://twitch.tv/realityzoned",
+      "youtube": "https://youtube.com/channel/UCSade4H7IspAjPAq5ejcrHQ",
+      "instagram": "https://instagram.com/realityzoned",
+      "tiktok": "https://tiktok.com/@realityzoned",
+      "discord": "https://discord.gg/gQhyrW6VXg"
+    }
   },
   {
     "id": "team-bsk",
@@ -328,7 +447,11 @@
     "description": "Structure francophone (Besançon) très dynamique sur la scène compétitive et la formation de pépites Fortnite.",
     "points_lff": 7100,
     "earnings_usd": 6200,
-    "rank_ft_europe": 120
+    "rank_ft_europe": 120,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-bsk",
+    "socials": {
+      "x": "https://x.com/TeamBSK_"
+    }
   },
   {
     "id": "lyost-esport",
@@ -345,7 +468,14 @@
     "description": "Organisation marseillaise créée en janvier 2021, organisatrice de la Massilia Cup et formatrice de talents du Sud.",
     "points_lff": 94000,
     "earnings_usd": 151275,
-    "rank_ft_europe": 7
+    "rank_ft_europe": 7,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lyost-esport",
+    "socials": {
+      "x": "https://x.com/lyost_esport",
+      "twitch": "https://twitch.tv/lyostesport",
+      "instagram": "https://instagram.com/lyost.esport",
+      "discord": "https://discord.gg/rGRfA3yR9c"
+    }
   },
   {
     "id": "exalty",
@@ -359,7 +489,15 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Exalty",
     "x_handle": "@Exalty_FR",
     "x_url": "https://x.com/Exalty_FR",
-    "description": "Club toulousain fondé en janvier 2018. A révélé Falconly, Robabz et Artskill sur le circuit des LANs françaises."
+    "description": "Club toulousain fondé en janvier 2018. A révélé Falconly, Robabz et Artskill sur le circuit des LANs françaises.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/exalty",
+    "socials": {
+      "x": "https://x.com/Exalty_FR",
+      "twitch": "https://twitch.tv/Exaltytv1",
+      "youtube": "https://youtube.com/@Exalty",
+      "instagram": "https://instagram.com/exalty_fr",
+      "discord": "https://discord.gg/mUrf4QN"
+    }
   },
   {
     "id": "bk-rog",
@@ -376,7 +514,14 @@
     "description": "Structure française issue de la fusion ASUS ROG, engagée sur plusieurs saisons FNCS.",
     "points_lff": 13500,
     "earnings_usd": 48900,
-    "rank_ft_europe": 90
+    "rank_ft_europe": 90,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/bk-rog-esports",
+    "socials": {
+      "x": "https://x.com/ASUS_BK_ROG",
+      "youtube": "https://youtube.com/channel/UCtPk46t9ycQtlFw4KDwd2Fw",
+      "instagram": "https://instagram.com/bk_rog_esports",
+      "tiktok": "https://tiktok.com/@bkrogesports"
+    }
   },
   {
     "id": "lunary",
@@ -390,7 +535,13 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Lunary",
     "x_handle": "@SolaryTV",
     "x_url": "https://x.com/SolaryTV",
-    "description": "L'équipe sœur de Solary (Jbzz, Chap, Taipouz, MZ, Airwaks), mythique dans les LANs 2018-2019."
+    "description": "L'équipe sœur de Solary (Jbzz, Chap, Taipouz, MZ, Airwaks), mythique dans les LANs 2018-2019.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+    "socials": {
+      "x": "https://x.com/SolaryTV",
+      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+      "instagram": "https://instagram.com/solarytv"
+    }
   },
   {
     "id": "team-fake",
@@ -407,7 +558,11 @@
     "description": "Équipe française très active dans les tournois inter-structures, open qualifiers et circuits réguliers de scrims.",
     "points_lff": 8200,
     "earnings_usd": 8500,
-    "rank_ft_europe": 112
+    "rank_ft_europe": 112,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-fake",
+    "socials": {
+      "x": "https://x.com/TeamFake_esport"
+    }
   },
   {
     "id": "aten-esport",
@@ -424,7 +579,11 @@
     "description": "Structure française engagée en compétition et compétitions communautaires régulières.",
     "points_lff": 6400,
     "earnings_usd": 4500,
-    "rank_ft_europe": 135
+    "rank_ft_europe": 135,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/aten-esport",
+    "socials": {
+      "x": "https://x.com/AtenEsport"
+    }
   },
   {
     "id": "jupitar-esport",
@@ -441,7 +600,11 @@
     "description": "Club e-sport français multigaming présent sur la scène Fortnite compétitive et tremplin de jeunes talents.",
     "points_lff": 5800,
     "earnings_usd": 3800,
-    "rank_ft_europe": 142
+    "rank_ft_europe": 142,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/jupitar-esport",
+    "socials": {
+      "x": "https://x.com/JupitarEsport"
+    }
   },
   {
     "id": "odious-esport",
@@ -458,7 +621,13 @@
     "description": "Organisation compétitive française engagée dans les Cash Cups, Victory Cups et tournois hebdomadaires.",
     "points_lff": 5200,
     "earnings_usd": 2900,
-    "rank_ft_europe": 150
+    "rank_ft_europe": 150,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/odious-esport",
+    "socials": {
+      "x": "https://x.com/OdiousEsport",
+      "twitch": "https://twitch.tv/tvodious",
+      "tiktok": "https://tiktok.com/@odious.esport"
+    }
   },
   {
     "id": "paps-esport",
@@ -475,7 +644,13 @@
     "description": "Structure française menée autour de la communauté compétitive et des rassemblements majeurs de la scène FR.",
     "points_lff": 4600,
     "earnings_usd": 2100,
-    "rank_ft_europe": 158
+    "rank_ft_europe": 158,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/paps-esport",
+    "socials": {
+      "x": "https://x.com/PapsEsport",
+      "twitch": "https://twitch.tv/lepapyofficiel",
+      "tiktok": "https://tiktok.com/@papy.officiel"
+    }
   },
   {
     "id": "pandaria-esport",
@@ -494,7 +669,16 @@
     "earnings_usd": 1800,
     "rank_ft_europe": 165,
     "twitter": "@EsportPandaria",
-    "twitter_url": "https://x.com/EsportPandaria"
+    "twitter_url": "https://x.com/EsportPandaria",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/pandaria-esport",
+    "socials": {
+      "x": "https://x.com/EsportPandaria",
+      "twitch": "https://twitch.tv/pandariaesportfr",
+      "youtube": "https://youtube.com/channel/UC8BwLlUbJ13lidx718QnCFw",
+      "instagram": "https://instagram.com/pandariaesportfr",
+      "tiktok": "https://tiktok.com/@pandariaesport",
+      "discord": "https://discord.gg/mg8CrWHFxn"
+    }
   },
   {
     "id": "pandore-esport",
@@ -513,7 +697,11 @@
     "earnings_usd": 21670,
     "rank_ft_europe": 49,
     "twitter": "@Pandore_esport",
-    "twitter_url": "https://x.com/Pandore_esport"
+    "twitter_url": "https://x.com/Pandore_esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/pandore-esport",
+    "socials": {
+      "x": "https://x.com/Pandore_esport"
+    }
   },
   {
     "id": "fly-again",
@@ -532,7 +720,15 @@
     "earnings_usd": 1400,
     "rank_ft_europe": 172,
     "twitter": "@FlyAgainTeam",
-    "twitter_url": "https://x.com/FlyAgainTeam"
+    "twitter_url": "https://x.com/FlyAgainTeam",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/fly-again",
+    "socials": {
+      "x": "https://x.com/FlyAgainTeam",
+      "twitch": "https://twitch.tv/flyagainofficialteam",
+      "youtube": "https://youtube.com/channel/UCJSaFlPaSgkpCUW53PWhLrA",
+      "instagram": "https://instagram.com/flyagain.team",
+      "discord": "https://discord.gg/A82YbYrb"
+    }
   },
   {
     "id": "mga-esport",
@@ -551,7 +747,12 @@
     "earnings_usd": 47025,
     "rank_ft_europe": 13,
     "twitter": "@mgaesport",
-    "twitter_url": "https://x.com/mgaesport"
+    "twitter_url": "https://x.com/mgaesport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/mga-esport",
+    "socials": {
+      "x": "https://x.com/mgaesport",
+      "youtube": "https://youtube.com/@mGaeSport"
+    }
   },
   {
     "id": "k13-esport",
@@ -570,7 +771,14 @@
     "earnings_usd": 36800,
     "rank_ft_europe": 22,
     "twitter": "@K13esport",
-    "twitter_url": "https://x.com/K13esport"
+    "twitter_url": "https://x.com/K13esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/k13-esport",
+    "socials": {
+      "x": "https://x.com/K13esport",
+      "twitch": "https://twitch.tv/K13Esport",
+      "instagram": "https://instagram.com/k13esport1",
+      "tiktok": "https://tiktok.com/@k13esport"
+    }
   },
   {
     "id": "bastille-legacy",
@@ -584,7 +792,13 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Bastille_Legacy",
     "x_handle": "@BastilleLegacy",
     "x_url": "https://x.com/BastilleLegacy",
-    "description": "Club pionnier de la scène française Fortnite début 2018, ayant révélé Kinstaar, mzXXD et Hunter avant l'ère Solary."
+    "description": "Club pionnier de la scène française Fortnite début 2018, ayant révélé Kinstaar, mzXXD et Hunter avant l'ère Solary.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/bastille-legacy",
+    "socials": {
+      "x": "https://x.com/BastilleLegacy",
+      "youtube": "https://youtube.com/channel/UC-SXwO0Bm1T5EEtTIusKZ_Q",
+      "instagram": "https://instagram.com/bastillelegacy"
+    }
   },
   {
     "id": "begenius-esc",
@@ -598,7 +812,14 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/BeGenius_ESC",
     "x_handle": "@beGeniusESC",
     "x_url": "https://x.com/beGeniusESC",
-    "description": "Structure historique montpelliéraine ayant accueilli les débuts compétitifs de Blaxou et Nikof en 2018."
+    "description": "Structure historique montpelliéraine ayant accueilli les débuts compétitifs de Blaxou et Nikof en 2018.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/begenius-esc",
+    "socials": {
+      "x": "https://x.com/beGeniusESC",
+      "twitch": "https://twitch.tv/begeniusesc_tv",
+      "youtube": "https://youtube.com/channel/UCH5TfCsra47F3l8EH7tE01g",
+      "instagram": "https://instagram.com/begenius.esc"
+    }
   },
   {
     "id": "1p-esport",
@@ -615,7 +836,11 @@
     "description": "Structure e-sport française (One Prodige) dédiée à la haute performance compétitive sur Fortnite (FNCS, Top 20 européen sur Fandom et répertoriée sur Fortnite Tracker).",
     "points_lff": 51000,
     "earnings_usd": 21500,
-    "rank_ft_europe": 28
+    "rank_ft_europe": 28,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/oneprodige",
+    "socials": {
+      "x": "https://x.com/oneprodige"
+    }
   },
   {
     "id": "wooka-esport",
@@ -632,7 +857,15 @@
     "description": "Club d'esport français fondé en 2022 et répertorié au classement officiel européen Fandom des équipes Fortnite.",
     "points_lff": 42000,
     "earnings_usd": 5900,
-    "rank_ft_europe": 40
+    "rank_ft_europe": 40,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/wooka-esport",
+    "socials": {
+      "x": "https://x.com/WookaEsport",
+      "twitch": "https://twitch.tv/wooka_esport",
+      "youtube": "https://youtube.com/@wookaesport5056",
+      "instagram": "https://instagram.com/wookaesports",
+      "tiktok": "https://tiktok.com/@wooka_esport"
+    }
   },
   {
     "id": "lynox-esport",
@@ -649,7 +882,14 @@
     "description": "Organisation française répertoriée dans le Power Ranking Fandom Fortnite Europe.",
     "points_lff": 27500,
     "earnings_usd": 2900,
-    "rank_ft_europe": 56
+    "rank_ft_europe": 56,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lynox-esport",
+    "socials": {
+      "x": "https://x.com/LynoXEU",
+      "twitch": "https://twitch.tv/lynoxeu",
+      "youtube": "https://youtube.com/@LynoxEU",
+      "tiktok": "https://tiktok.com/@lynox_esport"
+    }
   },
   {
     "id": "poyo-esports",
@@ -666,7 +906,16 @@
     "description": "Structure française organisatrice et compétitive sur Fortnite présente au classement européen Fandom.",
     "points_lff": 28000,
     "earnings_usd": 4100,
-    "rank_ft_europe": 55
+    "rank_ft_europe": 55,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/poyo-esports",
+    "socials": {
+      "x": "https://x.com/PoyoEsports",
+      "twitch": "https://twitch.tv/poyocup",
+      "youtube": "https://youtube.com/@poyocup",
+      "instagram": "https://instagram.com/poyoesports",
+      "tiktok": "https://tiktok.com/@poyo.esports",
+      "discord": "https://discord.gg/fWYbQuWDMv"
+    }
   },
   {
     "id": "gentside-esports",
@@ -680,7 +929,12 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Gentside_Esports_Club",
     "x_handle": "@GentsideEsports",
     "x_url": "https://x.com/GentsideEsports",
-    "description": "Équipe française pionnière des débuts de la compétition Fortnite (2018), ayant compté des figures comme TheVic et Madzen."
+    "description": "Équipe française pionnière des débuts de la compétition Fortnite (2018), ayant compté des figures comme TheVic et Madzen.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gentside-esports",
+    "socials": {
+      "x": "https://x.com/GentsideEsports",
+      "youtube": "https://youtube.com/channel/UCRqAjXPUZJ_-51Kxi66edCA"
+    }
   },
   {
     "id": "dualmedia-esports",
@@ -694,7 +948,14 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/DualMedia_Esports",
     "x_handle": "@Dual_Media",
     "x_url": "https://x.com/Dual_Media",
-    "description": "Structure e-sport française historique présente sur les tournois LAN et la compétition Fortnite."
+    "description": "Structure e-sport française historique présente sur les tournois LAN et la compétition Fortnite.",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/dualmedia-esports",
+    "socials": {
+      "x": "https://x.com/Dual_Media",
+      "twitch": "https://twitch.tv/dualmediaesports",
+      "youtube": "https://youtube.com/@dualmedia",
+      "instagram": "https://instagram.com/dualmediaesports"
+    }
   },
   {
     "id": "team-orchid",
@@ -711,7 +972,14 @@
     "description": "Structure e-sport française de premier plan sur Fortnite, régulièrement classée dans le Top 25 européen Fortnite Tracker.",
     "points_lff": 58500,
     "earnings_usd": 97625,
-    "rank_ft_europe": 24
+    "rank_ft_europe": 24,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-orchid",
+    "socials": {
+      "x": "https://x.com/TeamOrchidGG",
+      "youtube": "https://youtube.com/@TeamOrchidGG",
+      "instagram": "https://instagram.com/teamorchidgg",
+      "tiktok": "https://tiktok.com/@team_orchid"
+    }
   },
   {
     "id": "r4c-esport",
@@ -728,7 +996,11 @@
     "description": "Organisation compétitive française engagée sur le circuit européen Fortnite et FNCS.",
     "points_lff": 44000,
     "earnings_usd": 4560,
-    "rank_ft_europe": 39
+    "rank_ft_europe": 39,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/r4c-esport",
+    "socials": {
+      "x": "https://x.com/r4c_esport"
+    }
   },
   {
     "id": "vulcan-esport",
@@ -745,7 +1017,11 @@
     "description": "Club d'esport français actif sur la scène compétitive européenne Fortnite.",
     "points_lff": 39500,
     "earnings_usd": 5200,
-    "rank_ft_europe": 41
+    "rank_ft_europe": 41,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/vulcan-esport",
+    "socials": {
+      "x": "https://x.com/vulcanesport_"
+    }
   },
   {
     "id": "orphee-esport",
@@ -762,7 +1038,13 @@
     "description": "Structure compétitive française réunissant des joueurs et créateurs de contenu sur Fortnite (Fnajen, Art1st).",
     "points_lff": 38000,
     "earnings_usd": 7600,
-    "rank_ft_europe": 42
+    "rank_ft_europe": 42,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/orphee-esport",
+    "socials": {
+      "x": "https://x.com/ORPHEE_Esport",
+      "twitch": "https://twitch.tv/orpheecore",
+      "tiktok": "https://tiktok.com/@orphee_core"
+    }
   },
   {
     "id": "trkf-esport",
@@ -781,7 +1063,11 @@
     "earnings_usd": 7000,
     "rank_ft_europe": 48,
     "twitter": "@TRKF_Esport",
-    "twitter_url": "https://x.com/TRKF_Esport"
+    "twitter_url": "https://x.com/TRKF_Esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trkf-e-sport",
+    "socials": {
+      "x": "https://x.com/TRKF_Esport"
+    }
   },
   {
     "id": "now-esport",
@@ -798,7 +1084,16 @@
     "description": "Club compétitif français figurant régulièrement dans le classement Fortnite Tracker européen.",
     "points_lff": 29000,
     "earnings_usd": 1050,
-    "rank_ft_europe": 53
+    "rank_ft_europe": 53,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/now-esport",
+    "socials": {
+      "x": "https://x.com/noww_esport",
+      "twitch": "https://twitch.tv/noww_esport",
+      "youtube": "https://youtube.com/@RVLESP",
+      "instagram": "https://instagram.com/noww_esport",
+      "tiktok": "https://tiktok.com/@noww_esport",
+      "discord": "https://discord.gg/mMMCNBGKh2"
+    }
   },
   {
     "id": "eoz-esport",
@@ -815,7 +1110,11 @@
     "description": "Club d'esport français basé en Ariège, engagé en FNCS et compétitions européennes Fortnite.",
     "points_lff": 27000,
     "earnings_usd": 2050,
-    "rank_ft_europe": 57
+    "rank_ft_europe": 57,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/eoz-esport",
+    "socials": {
+      "x": "https://x.com/EOZesport"
+    }
   },
   {
     "id": "ekinox-esports",
@@ -832,7 +1131,11 @@
     "description": "Structure e-sport française active sur Fortnite, classée dans le top des clubs européens.",
     "points_lff": 26500,
     "earnings_usd": 650,
-    "rank_ft_europe": 58
+    "rank_ft_europe": 58,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/ekinox",
+    "socials": {
+      "x": "https://x.com/ekinoxesports"
+    }
   },
   {
     "id": "wip-esports",
@@ -849,7 +1152,11 @@
     "description": "Organisation e-sport française basée en région Occitanie, compétitive sur Fortnite et multi-gaming.",
     "points_lff": 21000,
     "earnings_usd": 1350,
-    "rank_ft_europe": 69
+    "rank_ft_europe": 69,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/wip-esports",
+    "socials": {
+      "x": "https://x.com/wipesports"
+    }
   },
   {
     "id": "haikoo",
@@ -866,7 +1173,11 @@
     "description": "Organisation compétitive française active sur le circuit Fortnite compétitif européen (#HAIKOWIN).",
     "points_lff": 19500,
     "earnings_usd": 3600,
-    "rank_ft_europe": 71
+    "rank_ft_europe": 71,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/haikoo",
+    "socials": {
+      "x": "https://x.com/Haikoo_Esport"
+    }
   },
   {
     "id": "g3nz-esport",
@@ -883,7 +1194,11 @@
     "description": "Structure française présente dans les compétitions européennes Fortnite (#G3NZWIN).",
     "points_lff": 17500,
     "earnings_usd": 2700,
-    "rank_ft_europe": 76
+    "rank_ft_europe": 76,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/g3nz-esport",
+    "socials": {
+      "x": "https://x.com/G3nZEsport"
+    }
   },
   {
     "id": "novix-esport",
@@ -900,7 +1215,11 @@
     "description": "Club e-sport français émergent sur Fortnite, actif sur les compétitions et détections de talents.",
     "points_lff": 12200,
     "earnings_usd": 500,
-    "rank_ft_europe": 94
+    "rank_ft_europe": 94,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/novix-esport",
+    "socials": {
+      "x": "https://x.com/NovixEsport"
+    }
   },
   {
     "id": "australe-esport",
@@ -917,6 +1236,10 @@
     "description": "Club d'esport français basé à Roquebrune-Cap-Martin, engagé sur le circuit compétitif Fortnite.",
     "points_lff": 11500,
     "earnings_usd": 550,
-    "rank_ft_europe": 97
+    "rank_ft_europe": 97,
+    "tracker_url": "https://fortnitetracker.com/esports/organization/australe-esport",
+    "socials": {
+      "x": "https://x.com/team_australe"
+    }
   }
 ]

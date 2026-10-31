@@ -11,12 +11,13 @@ function getEl(id) {
       id,
       innerHTML: '',
       innerText: '',
-      value: '2026',
+      value: id === 'year-select' ? '2026' : '',
       style: {},
       children: [],
       appendChild: function(child) {
         this.children.push(child);
-        this.innerHTML += child.innerHTML || '';
+        const tag = child.tagName ? child.tagName.toLowerCase() : 'div';
+        this.innerHTML += `<${tag}>${child.innerHTML || ''}</${tag}>`;
       },
       classList: {
         add: () => {},

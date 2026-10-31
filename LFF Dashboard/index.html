@@ -664,6 +664,186 @@
       color: white;
     }
 
+  
+    /* SOCIAL PILLS & TRACKER LINKS */
+    .social-pills-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      margin-left: 5px;
+      vertical-align: middle;
+    }
+
+    .social-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.68rem;
+      font-weight: 700;
+      border-radius: 4px;
+      padding: 1px 4px;
+      text-decoration: none;
+      line-height: 1.1;
+      transition: all 0.15s ease;
+      vertical-align: middle;
+    }
+
+    .x-pill {
+      background: rgba(255, 255, 255, 0.12);
+      color: #e2e8f0;
+    }
+    .x-pill:hover {
+      background: #000;
+      color: #38bdf8;
+      transform: scale(1.15);
+    }
+
+    .twitch-pill {
+      background: rgba(145, 70, 255, 0.22);
+      color: #c084fc;
+    }
+    .twitch-pill:hover {
+      background: #9146FF;
+      color: #ffffff;
+      transform: scale(1.15);
+    }
+
+    .youtube-pill {
+      background: rgba(239, 68, 68, 0.22);
+      color: #fca5a5;
+    }
+    .youtube-pill:hover {
+      background: #ef4444;
+      color: #ffffff;
+      transform: scale(1.15);
+    }
+
+    .tiktok-pill {
+      background: rgba(0, 242, 234, 0.2);
+      color: #38bdf8;
+    }
+    .tiktok-pill:hover {
+      background: #010101;
+      color: #00f2fe;
+      border: 1px solid #ff0050;
+      transform: scale(1.15);
+    }
+
+    .insta-pill {
+      background: rgba(236, 72, 153, 0.22);
+      color: #f472b6;
+    }
+    .insta-pill:hover {
+      background: #ec4899;
+      color: #ffffff;
+      transform: scale(1.15);
+    }
+
+    .discord-pill {
+      background: rgba(99, 102, 241, 0.22);
+      color: #a5b4fc;
+    }
+    .discord-pill:hover {
+      background: #6366f1;
+      color: #ffffff;
+      transform: scale(1.15);
+    }
+
+    .player-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.80rem;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .player-tag.active-player {
+      background: rgba(147, 51, 234, 0.15);
+      border: 1px solid rgba(168, 85, 247, 0.4);
+      color: #f1f5f9;
+    }
+    .player-tag.active-player:hover {
+      background: rgba(147, 51, 234, 0.35);
+      border-color: #c084fc;
+    }
+
+    .player-tag.former-player {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px dashed rgba(255, 255, 255, 0.25);
+      color: #94a3b8;
+      opacity: 0.88;
+    }
+    .player-tag.former-player:hover {
+      opacity: 1;
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.45);
+      color: #f1f5f9;
+    }
+
+    .player-tracker-link {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.15s ease;
+    }
+    .player-tracker-link:hover {
+      color: #38bdf8;
+      text-decoration: underline;
+    }
+
+    .club-cell-link {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      transition: transform 0.15s ease;
+    }
+    .club-cell-link:hover .club-name {
+      color: #38bdf8;
+    }
+
+    .club-social-pills {
+      display: flex;
+      gap: 4px;
+      margin-top: 4px;
+      flex-wrap: wrap;
+    }
+
+    .roster-legend-box {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      padding: 10px 18px;
+      margin-top: 14px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-light);
+      border-radius: 8px;
+      font-size: 0.82rem;
+      color: #94a3b8;
+    }
+    .legend-title {
+      font-weight: 700;
+      color: #cbd5e1;
+    }
+    .status-indicator.active-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10b981;
+      margin-right: 4px;
+    }
+    .status-indicator.former-dot {
+      display: inline-block;
+      font-weight: 800;
+      color: #f59e0b;
+      margin-right: 4px;
+    }
+
   </style>
 </head>
 <body>
@@ -814,6 +994,11 @@
           </tbody>
         </table>
       </div>
+        <div class="roster-legend-box">
+          <span class="legend-title">Légende Effectif Tracker :</span>
+          <span class="legend-item"><span class="status-indicator active-dot"></span> <strong>Actif</strong> : Joueur sous contrat actif</span>
+          <span class="legend-item"><span class="status-indicator former-dot">*</span> <strong>* Ancien</strong> : Joueur ayant rapporté des points PR au club mais ne faisant plus partie de l'équipe</span>
+        </div>
 
     </div>
 
@@ -5056,51 +5241,72 @@
     "name": "HavoK by Vitality",
     "tag": "HVK",
     "logo": "LFF Logos/havok-by-vitality.png",
-    "xUrl": "https://x.com/HvKGGs",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+    "socials": {
+      "x": "https://x.com/HvKGGs"
+    },
     "livePr": 169500,
     "earnings": 0,
     "players": [
       {
-        "name": "SwizzY",
-        "country": "🌍",
-        "pr": 38588,
-        "xUrl": "https://x.com/SwizzY281",
-        "xHandle": "@SwizzY281"
+        "name": "Pixie",
+        "country": "🇸🇪",
+        "pr": 53114,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview",
+        "x_handle": "@pixiefnbr",
+        "x_url": "https://x.com/pixiefnbr",
+        "socials": {
+          "x": "https://x.com/pixiefnbr",
+          "twitch": "https://twitch.tv/pixiefnbr",
+          "youtube": "https://youtube.com/@pixiefnbr",
+          "tiktok": "https://tiktok.com/@pixiefnr"
+        }
+      },
+      {
+        "name": "Tjino",
+        "country": "🇸🇪",
+        "pr": 43142,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tjino",
+        "x_handle": "@tjino9",
+        "x_url": "https://x.com/tjino9",
+        "socials": {
+          "x": "https://x.com/tjino9",
+          "twitch": "https://twitch.tv/tjino9",
+          "youtube": "https://youtube.com/channel/UC0u_6lG4Gksp9rRDgKEosbQ",
+          "tiktok": "https://tiktok.com/@tjino9"
+        }
       },
       {
         "name": "PabloWingu",
         "country": "🇩🇰",
-        "pr": 31343,
-        "xUrl": "https://x.com/PabloWingu",
-        "xHandle": "@PabloWingu"
+        "pr": 38201,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/PabloWingu",
+        "x_handle": "@PabloWingu",
+        "x_url": "https://x.com/PabloWingu",
+        "socials": {
+          "x": "https://x.com/PabloWingu",
+          "twitch": "https://twitch.tv/pablowingufnn",
+          "youtube": "https://youtube.com/channel/UCYZcKk-bWTSk39RCgldOZhA",
+          "tiktok": "https://tiktok.com/@pablowingu",
+          "instagram": "https://instagram.com/pablowingu"
+        }
       },
       {
-        "name": "Tjino",
-        "country": "🇩🇰",
-        "pr": 27754,
-        "xUrl": "https://x.com/tjino9",
-        "xHandle": "@tjino9"
-      },
-      {
-        "name": "Pixie",
-        "country": "🇸🇪",
-        "pr": 25459,
-        "xUrl": "https://x.com/pixiefnbr",
-        "xHandle": "@pixiefnbr"
-      },
-      {
-        "name": "Wox",
-        "country": "🇸🇪",
-        "pr": 23810,
-        "xUrl": "https://x.com/WoxSHTER",
-        "xHandle": "@WoxSHTER"
-      },
-      {
-        "name": "Seekk",
-        "country": "🇫🇷",
-        "pr": 22543,
-        "xUrl": "https://x.com/Seekkfn",
-        "xHandle": "@Seekkfn"
+        "name": "SwizzY",
+        "country": "🌍",
+        "pr": 35042,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SwizzY",
+        "x_handle": "@SwizzY281",
+        "x_url": "https://x.com/SwizzY281",
+        "socials": {
+          "x": "https://x.com/SwizzY281",
+          "twitch": "https://twitch.tv/swizzy281_",
+          "youtube": "https://youtube.com/channel/UCtfmiozk3AifIzguALQ4XSw"
+        }
       }
     ],
     "details": "N°1 France | Top 1 Tracker Europe (FNCS Global Champs)",
@@ -5112,37 +5318,74 @@
     "name": "Gentle Mates",
     "tag": "M8",
     "logo": "LFF Logos/gentle-mates.png",
-    "xUrl": "https://x.com/GentleMates",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+    "socials": {
+      "x": "https://x.com/GentleMates",
+      "youtube": "https://youtube.com/@teamgentlemates",
+      "instagram": "https://instagram.com/gentlemates",
+      "tiktok": "https://tiktok.com/@gentlemates",
+      "discord": "https://discord.gg/gentle-mates"
+    },
     "livePr": 118000,
     "earnings": 0,
     "players": [
       {
-        "name": "Vanyak3kk",
-        "country": "🌍",
-        "pr": 36976,
-        "xUrl": "https://x.com/Vanyak3kk",
-        "xHandle": "@Vanyak3kk"
-      },
-      {
         "name": "Akiira",
         "country": "🇫🇷",
-        "pr": 30034,
-        "xUrl": "https://x.com/AkiiraFN",
-        "xHandle": "@AkiiraFN"
+        "pr": 36976,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Akiira",
+        "x_handle": "@AkiiraFN",
+        "x_url": "https://x.com/AkiiraFN",
+        "socials": {
+          "x": "https://x.com/AkiiraFN",
+          "twitch": "https://twitch.tv/akiiral2"
+        }
       },
       {
         "name": "MariusCOW",
         "country": "🇩🇰",
+        "pr": 30034,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/MariusCOW",
+        "x_handle": "@MariusCOW",
+        "x_url": "https://x.com/MariusCOW",
+        "socials": {
+          "x": "https://x.com/MariusCOW",
+          "twitch": "https://twitch.tv/mariuscow",
+          "youtube": "https://youtube.com/channel/UC_VuSkgA57Glh9xTDBjny7w",
+          "tiktok": "https://tiktok.com/@mariuscow",
+          "instagram": "https://instagram.com/mariuscow2"
+        }
+      },
+      {
+        "name": "Vanyak3kk",
+        "country": "🌍",
         "pr": 26594,
-        "xUrl": "https://x.com/MariusCOW",
-        "xHandle": "@MariusCOW"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vanyak3kk",
+        "x_handle": "@Vanyak3kk",
+        "x_url": "https://x.com/Vanyak3kk",
+        "socials": {
+          "x": "https://x.com/Vanyak3kk",
+          "twitch": "https://twitch.tv/vanyak3kk",
+          "youtube": "https://youtube.com/channel/UCYof7uTXn0ZnPiY4Gv6yFRg",
+          "tiktok": "https://tiktok.com/@vanyak3kk"
+        }
       },
       {
         "name": "Kurama",
         "country": "🇫🇷",
         "pr": 24395,
-        "xUrl": "https://x.com/FtnKurama",
-        "xHandle": "@FtnKurama"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kurama",
+        "x_handle": "@FtnKurama",
+        "x_url": "https://x.com/FtnKurama",
+        "socials": {
+          "x": "https://x.com/FtnKurama",
+          "twitch": "https://twitch.tv/kurama_203",
+          "youtube": "https://youtube.com/@FtnKurama"
+        }
       }
     ],
     "details": "N°2 France | Top 2 Tracker Europe (Double Champion LFF)",
@@ -5154,44 +5397,71 @@
     "name": "Solary",
     "tag": "SLY",
     "logo": "LFF Logos/solary.png",
-    "xUrl": "https://x.com/SolaryTV",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+    "socials": {
+      "x": "https://x.com/SolaryTV",
+      "twitch": "https://twitch.tv/solaryfortnite",
+      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+      "instagram": "https://instagram.com/solarytv",
+      "tiktok": "https://tiktok.com/@solary_fortnite"
+    },
     "livePr": 106000,
     "earnings": 0,
     "players": [
       {
-        "name": "Ghonzo",
+        "name": "SkyJump",
         "country": "🇫🇷",
-        "pr": 27834,
-        "xUrl": "https://x.com/ghonzofn",
-        "xHandle": "@ghonzofn"
+        "pr": 33216,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SkyJump",
+        "x_handle": "@skyjumpftn",
+        "x_url": "https://x.com/skyjumpftn",
+        "socials": {
+          "x": "https://x.com/skyjumpftn",
+          "twitch": "https://twitch.tv/skyjumpftn"
+        }
+      },
+      {
+        "name": "Ghonzo",
+        "country": "🇳🇴",
+        "pr": 26979,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ghonzo",
+        "x_handle": "@ghonzofn",
+        "x_url": "https://x.com/ghonzofn",
+        "socials": {
+          "x": "https://x.com/ghonzofn",
+          "twitch": "https://twitch.tv/ghonzofn",
+          "youtube": "https://youtube.com/@ghonzoo"
+        }
       },
       {
         "name": "Minori",
         "country": "🇫🇷",
-        "pr": 22608,
-        "xUrl": "https://x.com/minorifn_",
-        "xHandle": "@minorifn_"
+        "pr": 23889,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Minori",
+        "x_handle": "@minorifn_",
+        "x_url": "https://x.com/minorifn_",
+        "socials": {
+          "x": "https://x.com/minorifn_",
+          "twitch": "https://twitch.tv/minorifn_",
+          "youtube": "https://youtube.com/@Minoriftn"
+        }
       },
       {
-        "name": "SkyJump",
+        "name": "Kurama",
         "country": "🇫🇷",
-        "pr": 20019,
-        "xUrl": "https://x.com/skyjumpftn",
-        "xHandle": "@skyjumpftn"
-      },
-      {
-        "name": "Darkos",
-        "country": "🇫🇷",
-        "pr": 18363,
-        "xUrl": "https://x.com/Darkos_ftn",
-        "xHandle": "@Darkos_ftn"
-      },
-      {
-        "name": "XZEEVIT",
-        "country": "🇫🇷",
-        "pr": 17174,
-        "xUrl": "https://x.com/xzeevit",
-        "xHandle": "@xzeevit"
+        "pr": 21914,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kurama",
+        "x_handle": "@FtnKurama",
+        "x_url": "https://x.com/FtnKurama",
+        "socials": {
+          "x": "https://x.com/FtnKurama",
+          "twitch": "https://twitch.tv/kurama_203",
+          "youtube": "https://youtube.com/@FtnKurama"
+        }
       }
     ],
     "details": "N°3 France | Top 5 Tracker Europe (Double Vainqueur LFF)",
@@ -5203,7 +5473,13 @@
     "name": "Lyost Esport",
     "tag": "LYO",
     "logo": "LFF Logos/lyost-esport.png",
-    "xUrl": "https://x.com/lyost_esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lyost-esport",
+    "socials": {
+      "x": "https://x.com/lyost_esport",
+      "twitch": "https://twitch.tv/lyostesport",
+      "instagram": "https://instagram.com/lyost.esport",
+      "discord": "https://discord.gg/rGRfA3yR9c"
+    },
     "livePr": 94000,
     "earnings": 0,
     "players": [
@@ -5211,29 +5487,53 @@
         "name": "Momsy",
         "country": "🇫🇷",
         "pr": 29455,
-        "xUrl": "https://x.com/MomsyFN",
-        "xHandle": "@MomsyFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Momsy",
+        "x_handle": "@MomsyFN",
+        "x_url": "https://x.com/MomsyFN",
+        "socials": {
+          "x": "https://x.com/MomsyFN",
+          "twitch": "https://twitch.tv/momsyfn",
+          "youtube": "https://youtube.com/@momsyfn4096"
+        }
       },
       {
         "name": "Werex",
         "country": "🇫🇷",
         "pr": 23925,
-        "xUrl": "https://x.com/werexfnbr",
-        "xHandle": "@werexfnbr"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Werex",
+        "x_handle": "@werexfnbr",
+        "x_url": "https://x.com/werexfnbr",
+        "socials": {
+          "x": "https://x.com/werexfnbr",
+          "twitch": "https://twitch.tv/werexeu",
+          "youtube": "https://youtube.com/channel/UCvQDDvqFF0A0ZQvdCW2irzQ"
+        }
       },
       {
         "name": "Twek",
         "country": "🇫🇷",
         "pr": 21185,
-        "xUrl": "https://x.com/twekje",
-        "xHandle": "@twekje"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Twek",
+        "x_handle": "@twekje",
+        "x_url": "https://x.com/twekje",
+        "socials": {
+          "x": "https://x.com/twekje"
+        }
       },
       {
         "name": "Borsuk",
         "country": "🇵🇱",
         "pr": 19433,
-        "xUrl": "https://x.com/borsukfn",
-        "xHandle": "@borsukfn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Borsuk",
+        "x_handle": "@borsukfn",
+        "x_url": "https://x.com/borsukfn",
+        "socials": {
+          "x": "https://x.com/borsukfn"
+        }
       }
     ],
     "details": "N°4 France | Top 7 Tracker Europe (FNCS Finalistes)",
@@ -5245,37 +5545,63 @@
     "name": "MGA eSport",
     "tag": "MGA",
     "logo": "LFF Logos/mga-esport.png",
-    "xUrl": "https://x.com/mgaesport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/mga-esport",
+    "socials": {
+      "x": "https://x.com/mgaesport",
+      "youtube": "https://youtube.com/@mGaeSport"
+    },
     "livePr": 78000,
     "earnings": 0,
     "players": [
       {
         "name": "Syaaz",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 24441,
-        "xUrl": "https://x.com/Syaazzfn",
-        "xHandle": "@Syaazzfn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Syaaz",
+        "x_handle": "@Syaazzfn",
+        "x_url": "https://x.com/Syaazzfn",
+        "socials": {
+          "x": "https://x.com/Syaazzfn",
+          "twitch": "https://twitch.tv/syaazfnn"
+        }
       },
       {
-        "name": "Trusio",
-        "country": "🇫🇷",
+        "name": "Truslo",
+        "country": "🇵🇱",
         "pr": 19853,
-        "xUrl": "https://x.com/Trusiofnbr",
-        "xHandle": "@Trusiofnbr"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Trusio",
+        "x_handle": "@Trusiofnbr",
+        "x_url": "https://x.com/Trusiofnbr",
+        "socials": {
+          "x": "https://x.com/Trusiofnbr"
+        }
       },
       {
         "name": "FiTo",
-        "country": "🇪🇸",
+        "country": "🇵🇱",
         "pr": 17579,
-        "xUrl": "https://x.com/FiTofnbr",
-        "xHandle": "@FiTofnbr"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/FiTo",
+        "x_handle": "@FiTofnbr",
+        "x_url": "https://x.com/FiTofnbr",
+        "socials": {
+          "x": "https://x.com/FiTofnbr",
+          "youtube": "https://youtube.com/channel/UChfUWz4Y-hwgIJOd7DRvWbQ"
+        }
       },
       {
         "name": "iFrOzi",
-        "country": "🇫🇷",
+        "country": "🇷🇺",
         "pr": 16125,
-        "xUrl": "https://x.com/iFr0zi_",
-        "xHandle": "@iFr0zi_"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/iFrOzi",
+        "x_handle": "@iFr0zi_",
+        "x_url": "https://x.com/iFr0zi_",
+        "socials": {
+          "x": "https://x.com/iFr0zi_"
+        }
       }
     ],
     "details": "Top 13 Tracker Europe | Élite Championnat LFF",
@@ -5287,7 +5613,10 @@
     "name": "GameWard",
     "tag": "GW",
     "logo": "LFF Logos/gameward.png",
-    "xUrl": "https://x.com/GameWardTeam",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gameward",
+    "socials": {
+      "x": "https://x.com/GameWardTeam"
+    },
     "livePr": 64000,
     "earnings": 0,
     "players": [
@@ -5295,29 +5624,56 @@
         "name": "Kombek",
         "country": "🇵🇱",
         "pr": 20054,
-        "xUrl": "https://x.com/kombekfn",
-        "xHandle": "@kombekfn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kombek",
+        "x_handle": "@kombekfn",
+        "x_url": "https://x.com/kombekfn",
+        "socials": {
+          "x": "https://x.com/kombekfn",
+          "twitch": "https://twitch.tv/kombekfn",
+          "youtube": "https://youtube.com/channel/UC4hXCYR7VirkQT0MmtzV8lA"
+        }
       },
       {
         "name": "Tylio",
         "country": "🇫🇷",
         "pr": 16289,
-        "xUrl": "https://x.com/Tylio77",
-        "xHandle": "@Tylio77"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tylio",
+        "x_handle": "@Tylio77",
+        "x_url": "https://x.com/Tylio77",
+        "socials": {
+          "x": "https://x.com/Tylio77",
+          "twitch": "https://twitch.tv/tylio7",
+          "youtube": "https://youtube.com/channel/UCVxLzbLijn9en0lXqpGVJow"
+        }
       },
       {
         "name": "Nociff",
         "country": "🇫🇷",
         "pr": 14423,
-        "xUrl": "https://x.com/nocifFN",
-        "xHandle": "@nocifFN"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nociff",
+        "x_handle": "@nocifFN",
+        "x_url": "https://x.com/nocifFN",
+        "socials": {
+          "x": "https://x.com/nocifFN"
+        }
       },
       {
         "name": "S1neD",
         "country": "🇫🇷",
         "pr": 13231,
-        "xUrl": "https://x.com/S1neDfnn",
-        "xHandle": "@S1neDfnn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/S1neD",
+        "x_handle": "@S1neDfnn",
+        "x_url": "https://x.com/S1neDfnn",
+        "socials": {
+          "x": "https://x.com/S1neDfnn",
+          "twitch": "https://twitch.tv/s1nedfn",
+          "youtube": "https://youtube.com/@S1neDfnn",
+          "instagram": "https://instagram.com/s1ned__"
+        }
       }
     ],
     "details": "Top 20 Tracker Europe | Vice-Champion 2022",
@@ -5329,37 +5685,71 @@
     "name": "K13 Esport",
     "tag": "K13",
     "logo": "LFF Logos/k13-esport.png",
-    "xUrl": "https://x.com/K13esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/k13-esport",
+    "socials": {
+      "x": "https://x.com/K13esport",
+      "twitch": "https://twitch.tv/K13Esport",
+      "instagram": "https://instagram.com/k13esport1",
+      "tiktok": "https://tiktok.com/@k13esport"
+    },
     "livePr": 61000,
     "earnings": 0,
     "players": [
       {
         "name": "Firen",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 19114,
-        "xUrl": "https://x.com/Firenfn1",
-        "xHandle": "@Firenfn1"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Firen",
+        "x_handle": "@Firenfn1",
+        "x_url": "https://x.com/Firenfn1",
+        "socials": {
+          "x": "https://x.com/Firenfn1",
+          "twitch": "https://twitch.tv/firenfn5"
+        }
       },
       {
         "name": "Asa",
-        "country": "🇫🇷",
+        "country": "🇦🇹",
         "pr": 15526,
-        "xUrl": "https://x.com/Asafnr",
-        "xHandle": "@Asafnr"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Asa",
+        "x_handle": "@Asafnr",
+        "x_url": "https://x.com/Asafnr",
+        "socials": {
+          "x": "https://x.com/Asafnr",
+          "twitch": "https://twitch.tv/asafn_",
+          "youtube": "https://youtube.com/@Asafn",
+          "instagram": "https://instagram.com/asafnr"
+        }
       },
       {
         "name": "Seyyto",
         "country": "🇫🇷",
         "pr": 13747,
-        "xUrl": "https://x.com/SeyytoFN",
-        "xHandle": "@SeyytoFN"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Seyyto",
+        "x_handle": "@SeyytoFN",
+        "x_url": "https://x.com/SeyytoFN",
+        "socials": {
+          "x": "https://x.com/SeyytoFN",
+          "twitch": "https://twitch.tv/seyytofn",
+          "youtube": "https://youtube.com/@seyyto9436"
+        }
       },
       {
         "name": "Roz",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 12611,
-        "xUrl": "https://x.com/Roznaldo_",
-        "xHandle": "@Roznaldo_"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Roz",
+        "x_handle": "@Roznaldo_",
+        "x_url": "https://x.com/Roznaldo_",
+        "socials": {
+          "x": "https://x.com/Roznaldo_",
+          "twitch": "https://twitch.tv/rozbr",
+          "youtube": "https://youtube.com/channel/UCQQg1uSNMshTP0Jf7k2LcuA"
+        }
       }
     ],
     "details": "Top 22 Tracker Europe | Roster Européen Pro",
@@ -5371,7 +5761,13 @@
     "name": "Team Orchid",
     "tag": "ORC",
     "logo": "LFF Logos/team-orchid.png",
-    "xUrl": "https://x.com/TeamOrchidGG",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-orchid",
+    "socials": {
+      "x": "https://x.com/TeamOrchidGG",
+      "youtube": "https://youtube.com/@TeamOrchidGG",
+      "instagram": "https://instagram.com/teamorchidgg",
+      "tiktok": "https://tiktok.com/@team_orchid"
+    },
     "livePr": 58500,
     "earnings": 0,
     "players": [
@@ -5379,22 +5775,39 @@
         "name": "Izzi",
         "country": "🇫🇷",
         "pr": 23109,
-        "xUrl": "https://x.com/izziFNBR",
-        "xHandle": "@izziFNBR"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Izzi",
+        "x_handle": "@izziFNBR",
+        "x_url": "https://x.com/izziFNBR",
+        "socials": {
+          "x": "https://x.com/izziFNBR"
+        }
       },
       {
         "name": "Nociff",
         "country": "🇫🇷",
         "pr": 18770,
-        "xUrl": "https://x.com/nocifFN",
-        "xHandle": "@nocifFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nociff",
+        "x_handle": "@nocifFN",
+        "x_url": "https://x.com/nocifFN",
+        "socials": {
+          "x": "https://x.com/nocifFN"
+        }
       },
       {
         "name": "Seyyto",
         "country": "🇫🇷",
         "pr": 16620,
-        "xUrl": "https://x.com/SeyytoFN",
-        "xHandle": "@SeyytoFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Seyyto",
+        "x_handle": "@SeyytoFN",
+        "x_url": "https://x.com/SeyytoFN",
+        "socials": {
+          "x": "https://x.com/SeyytoFN",
+          "twitch": "https://twitch.tv/seyytofn",
+          "youtube": "https://youtube.com/@seyyto9436"
+        }
       }
     ],
     "details": "Top 24 Tracker Europe | Élite FNCS",
@@ -5406,7 +5819,10 @@
     "name": "1P Esport",
     "tag": "1P",
     "logo": "LFF Logos/1p-esport.png",
-    "xUrl": "https://x.com/oneprodige",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/oneprodige",
+    "socials": {
+      "x": "https://x.com/oneprodige"
+    },
     "livePr": 51000,
     "earnings": 0,
     "players": [
@@ -5414,29 +5830,50 @@
         "name": "Lericx",
         "country": "🇫🇷",
         "pr": 15981,
-        "xUrl": "https://x.com/LericxFN",
-        "xHandle": "@LericxFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Lericx",
+        "x_handle": "@LericxFN",
+        "x_url": "https://x.com/LericxFN",
+        "socials": {
+          "x": "https://x.com/LericxFN",
+          "twitch": "https://twitch.tv/lericxeu"
+        }
       },
       {
         "name": "Hyper",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 12980,
-        "xUrl": "https://x.com/HyperFNBR",
-        "xHandle": "@HyperFNBR"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hyper",
+        "x_handle": "@HyperFNBR",
+        "x_url": "https://x.com/HyperFNBR",
+        "socials": {
+          "x": "https://x.com/HyperFNBR",
+          "twitch": "https://twitch.tv/uhhhyper",
+          "youtube": "https://youtube.com/channel/UCGh8fAzPu3u9ynwqExIVnng"
+        }
       },
       {
         "name": "Julie",
         "country": "🇫🇷",
         "pr": 11494,
-        "xUrl": "https://x.com/oneprodige",
-        "xHandle": "@oneprodige"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Julie",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Alvinlr",
-        "country": "🇫🇷",
+        "country": "🇳🇴",
         "pr": 10543,
-        "xUrl": "https://x.com/AlvinIr2",
-        "xHandle": "@AlvinIr2"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/AlvinIr",
+        "x_handle": "@AlvinIr2",
+        "x_url": "https://x.com/AlvinIr2",
+        "socials": {
+          "x": "https://x.com/AlvinIr2"
+        }
       }
     ],
     "details": "Top 28 Tracker Europe | Roster Actif FNCS",
@@ -5448,7 +5885,10 @@
     "name": "R4C Esport",
     "tag": "R4C",
     "logo": "LFF Logos/r4c-esport.png",
-    "xUrl": "https://x.com/r4c_esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/r4c-esport",
+    "socials": {
+      "x": "https://x.com/r4c_esport"
+    },
     "livePr": 44000,
     "earnings": 0,
     "players": [
@@ -5456,22 +5896,40 @@
         "name": "Kenrop",
         "country": "🇫🇷",
         "pr": 17381,
-        "xUrl": "https://x.com/KenropFN",
-        "xHandle": "@KenropFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kenrop",
+        "x_handle": "@KenropFN",
+        "x_url": "https://x.com/KenropFN",
+        "socials": {
+          "x": "https://x.com/KenropFN",
+          "twitch": "https://twitch.tv/kenropfn"
+        }
       },
       {
         "name": "Maloyache",
         "country": "🇷🇺",
         "pr": 14117,
-        "xUrl": "https://x.com/maloyache32",
-        "xHandle": "@maloyache32"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Maloyache",
+        "x_handle": "@maloyache32",
+        "x_url": "https://x.com/maloyache32",
+        "socials": {
+          "x": "https://x.com/maloyache32",
+          "twitch": "https://twitch.tv/maloyache",
+          "youtube": "https://youtube.com/channel/UC3DFZ4SkrF3bQ61_pYN7ICQ"
+        }
       },
       {
         "name": "Foczka",
         "country": "🇵🇱",
         "pr": 12500,
-        "xUrl": "https://x.com/foczka_fn",
-        "xHandle": "@foczka_fn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Foczka",
+        "x_handle": "@foczka_fn",
+        "x_url": "https://x.com/foczka_fn",
+        "socials": {
+          "x": "https://x.com/foczka_fn"
+        }
       }
     ],
     "details": "Top 39 Tracker Europe | Division 1 LFF",
@@ -5483,7 +5941,14 @@
     "name": "Wooka Esport",
     "tag": "WOO",
     "logo": "LFF Logos/wooka-esport.png",
-    "xUrl": "https://x.com/WookaEsport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/wooka-esport",
+    "socials": {
+      "x": "https://x.com/WookaEsport",
+      "twitch": "https://twitch.tv/wooka_esport",
+      "youtube": "https://youtube.com/@wookaesport5056",
+      "instagram": "https://instagram.com/wookaesports",
+      "tiktok": "https://tiktok.com/@wooka_esport"
+    },
     "livePr": 42000,
     "earnings": 0,
     "players": [
@@ -5491,29 +5956,50 @@
         "name": "Szarik",
         "country": "🇵🇱",
         "pr": 13161,
-        "xUrl": "https://x.com/szarik17",
-        "xHandle": "@szarik17"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Szarik",
+        "x_handle": "@szarik17",
+        "x_url": "https://x.com/szarik17",
+        "socials": {
+          "x": "https://x.com/szarik17"
+        }
       },
       {
         "name": "Matez",
         "country": "🇵🇱",
         "pr": 10690,
-        "xUrl": "https://x.com/mateziak_",
-        "xHandle": "@mateziak_"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Matez",
+        "x_handle": "@mateziak_",
+        "x_url": "https://x.com/mateziak_",
+        "socials": {
+          "x": "https://x.com/mateziak_"
+        }
       },
       {
         "name": "Kizers",
         "country": "🇵🇱",
         "pr": 9465,
-        "xUrl": "https://x.com/Kizers_",
-        "xHandle": "@Kizers_"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kizers",
+        "x_handle": "@Kizers_",
+        "x_url": "https://x.com/Kizers_",
+        "socials": {
+          "x": "https://x.com/Kizers_",
+          "twitch": "https://twitch.tv/kizers77"
+        }
       },
       {
         "name": "Ferdy",
         "country": "🇫🇷",
         "pr": 8683,
-        "xUrl": "https://x.com/Ferdy_ftn",
-        "xHandle": "@Ferdy_ftn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ferdy",
+        "x_handle": "@Ferdy_ftn",
+        "x_url": "https://x.com/Ferdy_ftn",
+        "socials": {
+          "x": "https://x.com/Ferdy_ftn"
+        }
       }
     ],
     "details": "Top 40 Tracker Europe | Roster FNCS",
@@ -5525,7 +6011,10 @@
     "name": "Vulcan Esport",
     "tag": "VLC",
     "logo": "LFF Logos/vulcan-esport.png",
-    "xUrl": "https://x.com/vulcanesport_",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/vulcan-esport",
+    "socials": {
+      "x": "https://x.com/vulcanesport_"
+    },
     "livePr": 39500,
     "earnings": 0,
     "players": [
@@ -5533,29 +6022,50 @@
         "name": "Izzi",
         "country": "🇫🇷",
         "pr": 12377,
-        "xUrl": "https://x.com/izziFNBR",
-        "xHandle": "@izziFNBR"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Izzi",
+        "x_handle": "@izziFNBR",
+        "x_url": "https://x.com/izziFNBR",
+        "socials": {
+          "x": "https://x.com/izziFNBR"
+        }
       },
       {
         "name": "Tarpz",
         "country": "🇫🇷",
         "pr": 10053,
-        "xUrl": "https://x.com/Tarpz7",
-        "xHandle": "@Tarpz7"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tarpz",
+        "x_handle": "@Tarpz7",
+        "x_url": "https://x.com/Tarpz7",
+        "socials": {
+          "x": "https://x.com/Tarpz7",
+          "youtube": "https://youtube.com/@tarpz5614"
+        }
       },
       {
         "name": "Vexi",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 8902,
-        "xUrl": "https://x.com/vexi7k",
-        "xHandle": "@vexi7k"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vexi",
+        "x_handle": "@vexi7k",
+        "x_url": "https://x.com/vexi7k",
+        "socials": {
+          "x": "https://x.com/vexi7k",
+          "twitch": "https://twitch.tv/vexxxi_",
+          "youtube": "https://youtube.com/channel/UCji2DHu6kZEES1pvYJe7orQ"
+        }
       },
       {
         "name": "Zarb",
         "country": "🇫🇷",
         "pr": 8166,
-        "xUrl": "https://x.com/vulcanesport_",
-        "xHandle": "@vulcanesport_"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zarb",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Top 41 Tracker Europe | Circuit Élite",
@@ -5567,37 +6077,64 @@
     "name": "Orphée Esport",
     "tag": "ORP",
     "logo": "LFF Logos/orphee-esport.png",
-    "xUrl": "https://x.com/ORPHEE_Esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/orphee-esport",
+    "socials": {
+      "x": "https://x.com/ORPHEE_Esport",
+      "twitch": "https://twitch.tv/orpheecore",
+      "tiktok": "https://tiktok.com/@orphee_core"
+    },
     "livePr": 38000,
     "earnings": 0,
     "players": [
       {
-        "name": "Fnam",
+        "name": "Fnajen",
         "country": "🇫🇷",
         "pr": 11907,
-        "xUrl": "https://x.com/ORPHEE_Esport",
-        "xHandle": "@ORPHEE_Esport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Fnajen",
+        "x_handle": "@Fnajen_",
+        "x_url": "https://x.com/Fnajen_",
+        "socials": {
+          "x": "https://x.com/Fnajen_",
+          "twitch": "https://twitch.tv/fnajen",
+          "youtube": "https://youtube.com/channel/UCSz5JWeQdRP5NjMcTBGM-3A"
+        }
       },
       {
         "name": "Kulb",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 9672,
-        "xUrl": "https://x.com/kulb_",
-        "xHandle": "@kulb_"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kulb",
+        "x_handle": "@kulb_",
+        "x_url": "https://x.com/kulb_",
+        "socials": {
+          "x": "https://x.com/kulb_",
+          "twitch": "https://twitch.tv/kulb_"
+        }
       },
       {
         "name": "Artist",
         "country": "🇫🇷",
         "pr": 8564,
-        "xUrl": "https://x.com/ORPHEE_Esport",
-        "xHandle": "@ORPHEE_Esport"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Artist",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Adrx",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 7856,
-        "xUrl": "https://x.com/Adrxfn6",
-        "xHandle": "@Adrxfn6"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Adrx",
+        "x_handle": "@Adrxfn6",
+        "x_url": "https://x.com/Adrxfn6",
+        "socials": {
+          "x": "https://x.com/Adrxfn6",
+          "twitch": "https://twitch.tv/adrxfnbr"
+        }
       }
     ],
     "details": "Top 42 Tracker Europe | Roster Pro",
@@ -5609,30 +6146,59 @@
     "name": "TRKF E-Sport",
     "tag": "TRKF",
     "logo": "LFF Logos/trkf-esport.png",
-    "xUrl": "https://x.com/TRKF_Esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trkf-e-sport",
+    "socials": {
+      "x": "https://x.com/TRKF_Esport"
+    },
     "livePr": 34000,
     "earnings": 0,
     "players": [
       {
+        "name": "dandepuzo",
+        "country": "🇵🇱",
+        "pr": 10654,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/dandepuzo",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      },
+      {
         "name": "flex",
         "country": "🇫🇷",
-        "pr": 13430,
-        "xUrl": "https://x.com/flex",
-        "xHandle": "@flex"
+        "pr": 8653,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/flex",
+        "x_handle": "@flex",
+        "x_url": "https://x.com/flex",
+        "socials": {
+          "x": "https://x.com/flex"
+        }
       },
       {
         "name": "Damage",
-        "country": "🇫🇷",
-        "pr": 10909,
-        "xUrl": "https://x.com/Damxge_",
-        "xHandle": "@Damxge_"
+        "country": "🇵🇱",
+        "pr": 7662,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Damage",
+        "x_handle": "@Damxge_",
+        "x_url": "https://x.com/Damxge_",
+        "socials": {
+          "x": "https://x.com/Damxge_",
+          "twitch": "https://twitch.tv/Damage_"
+        }
       },
       {
         "name": "Nero",
-        "country": "🇫🇷",
-        "pr": 9659,
-        "xUrl": "https://x.com/nerofnf",
-        "xHandle": "@nerofnf"
+        "country": "🇵🇱",
+        "pr": 7029,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nero",
+        "x_handle": "@nerofnf",
+        "x_url": "https://x.com/nerofnf",
+        "socials": {
+          "x": "https://x.com/nerofnf"
+        }
       }
     ],
     "details": "Top 48 Tracker Europe | Division 1",
@@ -5644,7 +6210,10 @@
     "name": "Pandore Esport",
     "tag": "PAN",
     "logo": "LFF Logos/pandore-esport.png",
-    "xUrl": "https://x.com/Pandore_esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/pandore-esport",
+    "socials": {
+      "x": "https://x.com/Pandore_esport"
+    },
     "livePr": 32500,
     "earnings": 0,
     "players": [
@@ -5652,22 +6221,41 @@
         "name": "Huty",
         "country": "🇫🇷",
         "pr": 12838,
-        "xUrl": "https://x.com/HutyFN",
-        "xHandle": "@HutyFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Huty",
+        "x_handle": "@HutyFN",
+        "x_url": "https://x.com/HutyFN",
+        "socials": {
+          "x": "https://x.com/HutyFN",
+          "twitch": "https://twitch.tv/hutantak",
+          "youtube": "https://youtube.com/channel/UCjhDI2IP94mDjdd6jajb6rQ",
+          "instagram": "https://instagram.com/hutyfn"
+        }
       },
       {
         "name": "Triix",
         "country": "🇫🇷",
         "pr": 10427,
-        "xUrl": "https://x.com/triixftn",
-        "xHandle": "@triixftn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Triix",
+        "x_handle": "@triixftn",
+        "x_url": "https://x.com/triixftn",
+        "socials": {
+          "x": "https://x.com/triixftn",
+          "twitch": "https://twitch.tv/triixftn"
+        }
       },
       {
         "name": "Winther",
-        "country": "🇩🇰",
+        "country": "🇫🇷",
         "pr": 9233,
-        "xUrl": "https://x.com/Wintherwnl",
-        "xHandle": "@Wintherwnl"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Winther",
+        "x_handle": "@Wintherwnl",
+        "x_url": "https://x.com/Wintherwnl",
+        "socials": {
+          "x": "https://x.com/Wintherwnl"
+        }
       }
     ],
     "details": "Top 49 Tracker Europe | Circuit LFF",
@@ -5679,7 +6267,15 @@
     "name": "NOW eSport",
     "tag": "NOW",
     "logo": "LFF Logos/now-esport.png",
-    "xUrl": "https://x.com/noww_esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/now-esport",
+    "socials": {
+      "x": "https://x.com/noww_esport",
+      "twitch": "https://twitch.tv/noww_esport",
+      "youtube": "https://youtube.com/@RVLESP",
+      "instagram": "https://instagram.com/noww_esport",
+      "tiktok": "https://tiktok.com/@noww_esport",
+      "discord": "https://discord.gg/mMMCNBGKh2"
+    },
     "livePr": 29000,
     "earnings": 0,
     "players": [
@@ -5687,29 +6283,51 @@
         "name": "chrisc",
         "country": "🇫🇷",
         "pr": 9087,
-        "xUrl": "https://x.com/chriscfn",
-        "xHandle": "@chriscfn"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/chrisc",
+        "x_handle": "@chriscfn",
+        "x_url": "https://x.com/chriscfn",
+        "socials": {
+          "x": "https://x.com/chriscfn"
+        }
       },
       {
         "name": "Klayzz",
         "country": "🇫🇷",
         "pr": 7381,
-        "xUrl": "https://x.com/KlayzzzFn",
-        "xHandle": "@KlayzzzFn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Klayzz",
+        "x_handle": "@KlayzzzFn",
+        "x_url": "https://x.com/KlayzzzFn",
+        "socials": {
+          "x": "https://x.com/KlayzzzFn"
+        }
       },
       {
         "name": "Squzy",
         "country": "🇫🇷",
         "pr": 6535,
-        "xUrl": "https://x.com/Squzy2",
-        "xHandle": "@Squzy2"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Squzy",
+        "x_handle": "@Squzy2",
+        "x_url": "https://x.com/Squzy2",
+        "socials": {
+          "x": "https://x.com/Squzy2"
+        }
       },
       {
         "name": "Maloyache",
         "country": "🇷🇺",
         "pr": 5995,
-        "xUrl": "https://x.com/maloyache32",
-        "xHandle": "@maloyache32"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Maloyache",
+        "x_handle": "@maloyache32",
+        "x_url": "https://x.com/maloyache32",
+        "socials": {
+          "x": "https://x.com/maloyache32",
+          "twitch": "https://twitch.tv/maloyache",
+          "youtube": "https://youtube.com/channel/UC3DFZ4SkrF3bQ61_pYN7ICQ"
+        }
       }
     ],
     "details": "Top 53 Tracker Europe | Roster FNCS",
@@ -5721,37 +6339,69 @@
     "name": "Poyo Esports",
     "tag": "POYO",
     "logo": "LFF Logos/poyo-esports.png",
-    "xUrl": "https://x.com/PoyoEsports",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/poyo-esports",
+    "socials": {
+      "x": "https://x.com/PoyoEsports",
+      "twitch": "https://twitch.tv/poyocup",
+      "youtube": "https://youtube.com/@poyocup",
+      "instagram": "https://instagram.com/poyoesports",
+      "tiktok": "https://tiktok.com/@poyo.esports",
+      "discord": "https://discord.gg/fWYbQuWDMv"
+    },
     "livePr": 28000,
     "earnings": 0,
     "players": [
       {
         "name": "SnozQ",
-        "country": "🇫🇷",
+        "country": "🇩🇰",
         "pr": 8774,
-        "xUrl": "https://x.com/snozQFN",
-        "xHandle": "@snozQFN"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SnozQ",
+        "x_handle": "@snozQFN",
+        "x_url": "https://x.com/snozQFN",
+        "socials": {
+          "x": "https://x.com/snozQFN",
+          "twitch": "https://twitch.tv/snozq"
+        }
       },
       {
         "name": "iFrOzi",
-        "country": "🇫🇷",
+        "country": "🇷🇺",
         "pr": 7126,
-        "xUrl": "https://x.com/iFr0zi_",
-        "xHandle": "@iFr0zi_"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/iFrOzi",
+        "x_handle": "@iFr0zi_",
+        "x_url": "https://x.com/iFr0zi_",
+        "socials": {
+          "x": "https://x.com/iFr0zi_"
+        }
       },
       {
         "name": "Shadox",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 6310,
-        "xUrl": "https://x.com/ShadoxFN",
-        "xHandle": "@ShadoxFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Shadox",
+        "x_handle": "@ShadoxFN",
+        "x_url": "https://x.com/ShadoxFN",
+        "socials": {
+          "x": "https://x.com/ShadoxFN"
+        }
       },
       {
         "name": "Repairs",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 5788,
-        "xUrl": "https://x.com/RepairsFN",
-        "xHandle": "@RepairsFN"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Repairs",
+        "x_handle": "@RepairsFN",
+        "x_url": "https://x.com/RepairsFN",
+        "socials": {
+          "x": "https://x.com/RepairsFN",
+          "twitch": "https://twitch.tv/itsRepairs",
+          "youtube": "https://youtube.com/channel/UCwgCyRXqzcnZxqF3hR8fxsg",
+          "instagram": "https://instagram.com/repairsfn"
+        }
       }
     ],
     "details": "Top 55 Tracker Europe | Division 1",
@@ -5763,23 +6413,58 @@
     "name": "Lynox Esport",
     "tag": "LYN",
     "logo": "LFF Logos/lynox-esport.png",
-    "xUrl": "https://x.com/LynoXEU",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lynox-esport",
+    "socials": {
+      "x": "https://x.com/LynoXEU",
+      "twitch": "https://twitch.tv/lynoxeu",
+      "youtube": "https://youtube.com/@LynoxEU",
+      "tiktok": "https://tiktok.com/@lynox_esport"
+    },
     "livePr": 27500,
     "earnings": 0,
     "players": [
       {
         "name": "Heror3h",
-        "country": "🌍",
-        "pr": 15174,
-        "xUrl": "https://x.com/herorehFN",
-        "xHandle": "@herorehFN"
+        "country": "🇷🇺",
+        "pr": 8617,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Heror3h",
+        "x_handle": "@herorehFN",
+        "x_url": "https://x.com/herorehFN",
+        "socials": {
+          "x": "https://x.com/herorehFN",
+          "youtube": "https://youtube.com/@herorehfn"
+        }
       },
       {
-        "name": "xzeevit4k",
+        "name": "Zayni",
         "country": "🇫🇷",
-        "pr": 12325,
-        "xUrl": "https://x.com/LynoXEU",
-        "xHandle": "@LynoXEU"
+        "pr": 6999,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zayni",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      },
+      {
+        "name": "xzeevit",
+        "country": "🇵🇱",
+        "pr": 6197,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/xzeevit",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      },
+      {
+        "name": "4ik",
+        "country": "🌍",
+        "pr": 5685,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/4ik",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Top 56 Tracker Europe | Roster Élite",
@@ -5791,37 +6476,65 @@
     "name": "EOZ eSport",
     "tag": "EOZ",
     "logo": "LFF Logos/eoz-esport.png",
-    "xUrl": "https://x.com/EOZesport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/eoz-esport",
+    "socials": {
+      "x": "https://x.com/EOZesport"
+    },
     "livePr": 27000,
     "earnings": 0,
     "players": [
       {
         "name": "Mystiqul",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 8460,
-        "xUrl": "https://x.com/Mystiqul",
-        "xHandle": "@Mystiqul"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Mystiqul",
+        "x_handle": "@Mystiqul",
+        "x_url": "https://x.com/Mystiqul",
+        "socials": {
+          "x": "https://x.com/Mystiqul"
+        }
       },
       {
         "name": "Spexx",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 6872,
-        "xUrl": "https://x.com/Spexxfnr",
-        "xHandle": "@Spexxfnr"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Spexx",
+        "x_handle": "@Spexxfnr",
+        "x_url": "https://x.com/Spexxfnr",
+        "socials": {
+          "x": "https://x.com/Spexxfnr",
+          "youtube": "https://youtube.com/channel/UCwFc7op98WCU3tK3H95JS0Q"
+        }
       },
       {
         "name": "S1neD",
         "country": "🇫🇷",
         "pr": 6085,
-        "xUrl": "https://x.com/S1neDfnn",
-        "xHandle": "@S1neDfnn"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/S1neD",
+        "x_handle": "@S1neDfnn",
+        "x_url": "https://x.com/S1neDfnn",
+        "socials": {
+          "x": "https://x.com/S1neDfnn",
+          "twitch": "https://twitch.tv/s1nedfn",
+          "youtube": "https://youtube.com/@S1neDfnn",
+          "instagram": "https://instagram.com/s1ned__"
+        }
       },
       {
         "name": "Hedra",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 5581,
-        "xUrl": "https://x.com/Hedrafn",
-        "xHandle": "@Hedrafn"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hedra",
+        "x_handle": "@Hedrafn",
+        "x_url": "https://x.com/Hedrafn",
+        "socials": {
+          "x": "https://x.com/Hedrafn",
+          "youtube": "https://youtube.com/channel/UC1uauciEfPksqEMlja4pIBg"
+        }
       }
     ],
     "details": "Top 57 Tracker Europe | Circuit LFF",
@@ -5833,7 +6546,10 @@
     "name": "EKINOX",
     "tag": "EKX",
     "logo": "LFF Logos/ekinox-esports.png",
-    "xUrl": "https://x.com/ekinoxesports",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/ekinox",
+    "socials": {
+      "x": "https://x.com/ekinoxesports"
+    },
     "livePr": 26500,
     "earnings": 0,
     "players": [
@@ -5841,29 +6557,49 @@
         "name": "Mirooz",
         "country": "🇫🇷",
         "pr": 8304,
-        "xUrl": "https://x.com/Mirooz10",
-        "xHandle": "@Mirooz10"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Mirooz",
+        "x_handle": "@Mirooz10",
+        "x_url": "https://x.com/Mirooz10",
+        "socials": {
+          "x": "https://x.com/Mirooz10"
+        }
       },
       {
         "name": "nayzix7",
         "country": "🇫🇷",
         "pr": 6744,
-        "xUrl": "https://x.com/nayzixfn1",
-        "xHandle": "@nayzixfn1"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/nayzix",
+        "x_handle": "@nayzixfn1",
+        "x_url": "https://x.com/nayzixfn1",
+        "socials": {
+          "x": "https://x.com/nayzixfn1"
+        }
       },
       {
         "name": "Exqu",
         "country": "🇫🇷",
         "pr": 5972,
-        "xUrl": "https://x.com/exqu777",
-        "xHandle": "@exqu777"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Exqu",
+        "x_handle": "@exqu777",
+        "x_url": "https://x.com/exqu777",
+        "socials": {
+          "x": "https://x.com/exqu777"
+        }
       },
       {
         "name": "Misha",
         "country": "🇫🇷",
         "pr": 5478,
-        "xUrl": "https://x.com/MishaFNBR",
-        "xHandle": "@MishaFNBR"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Misha",
+        "x_handle": "@MishaFNBR",
+        "x_url": "https://x.com/MishaFNBR",
+        "socials": {
+          "x": "https://x.com/MishaFNBR"
+        }
       }
     ],
     "details": "Top 58 Tracker Europe | Roster FNCS",
@@ -5875,7 +6611,10 @@
     "name": "WIP Esports",
     "tag": "WIP",
     "logo": "LFF Logos/wip-esports.png",
-    "xUrl": "https://x.com/wipesports",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/wip-esports",
+    "socials": {
+      "x": "https://x.com/wipesports"
+    },
     "livePr": 21000,
     "earnings": 0,
     "players": [
@@ -5883,15 +6622,24 @@
         "name": "Velryy",
         "country": "🇫🇷",
         "pr": 11587,
-        "xUrl": "https://x.com/wipesports",
-        "xHandle": "@wipesports"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Velryy",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Kielba",
         "country": "🇵🇱",
         "pr": 9412,
-        "xUrl": "https://x.com/Kieba12",
-        "xHandle": "@Kieba12"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kielba",
+        "x_handle": "@Kieba12",
+        "x_url": "https://x.com/Kieba12",
+        "socials": {
+          "x": "https://x.com/Kieba12",
+          "twitch": "https://twitch.tv/kielba__"
+        }
       }
     ],
     "details": "Top 69 Tracker Europe | Espoir LFF",
@@ -5903,7 +6651,10 @@
     "name": "Haikoo",
     "tag": "HKO",
     "logo": "LFF Logos/haikoo.png",
-    "xUrl": "https://x.com/Haikoo_Esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/haikoo",
+    "socials": {
+      "x": "https://x.com/Haikoo_Esport"
+    },
     "livePr": 19500,
     "earnings": 0,
     "players": [
@@ -5911,22 +6662,40 @@
         "name": "Maciak",
         "country": "🇵🇱",
         "pr": 7703,
-        "xUrl": "https://x.com/MaciakFN3",
-        "xHandle": "@MaciakFN3"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Maciak",
+        "x_handle": "@MaciakFN3",
+        "x_url": "https://x.com/MaciakFN3",
+        "socials": {
+          "x": "https://x.com/MaciakFN3"
+        }
       },
       {
         "name": "Joshbot",
-        "country": "🇬🇧",
+        "country": "🇩🇰",
         "pr": 6256,
-        "xUrl": "https://x.com/joshbotfv",
-        "xHandle": "@joshbotfv"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Joshbot",
+        "x_handle": "@joshbotfv",
+        "x_url": "https://x.com/joshbotfv",
+        "socials": {
+          "x": "https://x.com/joshbotfv",
+          "twitch": "https://twitch.tv/joshbotfnbr",
+          "youtube": "https://youtube.com/channel/UCeCelAsxUSeMHWYbNptudUA"
+        }
       },
       {
         "name": "Kielba",
         "country": "🇵🇱",
         "pr": 5540,
-        "xUrl": "https://x.com/Kieba12",
-        "xHandle": "@Kieba12"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kielba",
+        "x_handle": "@Kieba12",
+        "x_url": "https://x.com/Kieba12",
+        "socials": {
+          "x": "https://x.com/Kieba12",
+          "twitch": "https://twitch.tv/kielba__"
+        }
       }
     ],
     "details": "Top 71 Tracker Europe | Roster Actif",
@@ -5938,7 +6707,10 @@
     "name": "G3nZ Esport",
     "tag": "G3NZ",
     "logo": "LFF Logos/g3nz-esport.png",
-    "xUrl": "https://x.com/G3nZEsport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/g3nz-esport",
+    "socials": {
+      "x": "https://x.com/G3nZEsport"
+    },
     "livePr": 17500,
     "earnings": 0,
     "players": [
@@ -5946,29 +6718,49 @@
         "name": "Ary",
         "country": "🇫🇷",
         "pr": 5483,
-        "xUrl": "https://x.com/EgoistAry",
-        "xHandle": "@EgoistAry"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ary",
+        "x_handle": "@EgoistAry",
+        "x_url": "https://x.com/EgoistAry",
+        "socials": {
+          "x": "https://x.com/EgoistAry"
+        }
       },
       {
         "name": "2Trash1zr",
         "country": "🇫🇷",
         "pr": 4454,
-        "xUrl": "https://x.com/G3nZEsport",
-        "xHandle": "@G3nZEsport"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/2Trash1zr",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Efexy",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 3944,
-        "xUrl": "https://x.com/Efexyfnbr",
-        "xHandle": "@Efexyfnbr"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Efexy",
+        "x_handle": "@Efexyfnbr",
+        "x_url": "https://x.com/Efexyfnbr",
+        "socials": {
+          "x": "https://x.com/Efexyfnbr",
+          "twitch": "https://twitch.tv/efexyfnbr",
+          "youtube": "https://youtube.com/@efexyfn"
+        }
       },
       {
         "name": "SereN",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 3617,
-        "xUrl": "https://x.com/SereNFN4",
-        "xHandle": "@SereNFN4"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SereN",
+        "x_handle": "@SereNFN4",
+        "x_url": "https://x.com/SereNFN4",
+        "socials": {
+          "x": "https://x.com/SereNFN4"
+        }
       }
     ],
     "details": "Top 76 Tracker Europe | Circuit LFF",
@@ -5980,16 +6772,29 @@
     "name": "BK ROG Esports",
     "tag": "BKR",
     "logo": "LFF Logos/bk-rog.png",
-    "xUrl": "https://x.com/ASUS_BK_ROG",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/bk-rog-esports",
+    "socials": {
+      "x": "https://x.com/ASUS_BK_ROG",
+      "youtube": "https://youtube.com/channel/UCtPk46t9ycQtlFw4KDwd2Fw",
+      "instagram": "https://instagram.com/bk_rog_esports",
+      "tiktok": "https://tiktok.com/@bkrogesports"
+    },
     "livePr": 13500,
     "earnings": 0,
     "players": [
       {
         "name": "Hris",
-        "country": "🇫🇷",
+        "country": "🇧🇬",
         "pr": 13500,
-        "xUrl": "https://x.com/HrisFN",
-        "xHandle": "@HrisFN"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hris",
+        "x_handle": "@HrisFN",
+        "x_url": "https://x.com/HrisFN",
+        "socials": {
+          "x": "https://x.com/HrisFN",
+          "twitch": "https://twitch.tv/hrisfn4",
+          "youtube": "https://youtube.com/@hrisfn4726"
+        }
       }
     ],
     "details": "Top 90 Tracker Europe | Roster Historique",
@@ -6001,30 +6806,56 @@
     "name": "Novix eSport",
     "tag": "NVX",
     "logo": "LFF Logos/novix-esport.png",
-    "xUrl": "https://x.com/NovixEsport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/novix-esport",
+    "socials": {
+      "x": "https://x.com/NovixEsport"
+    },
     "livePr": 12200,
     "earnings": 0,
     "players": [
       {
         "name": "Okram",
         "country": "🇫🇷",
-        "pr": 4819,
-        "xUrl": "https://x.com/Okramfn_",
-        "xHandle": "@Okramfn_"
+        "pr": 3822,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Okram",
+        "x_handle": "@Okramfn_",
+        "x_url": "https://x.com/Okramfn_",
+        "socials": {
+          "x": "https://x.com/Okramfn_"
+        }
       },
       {
         "name": "Actfv",
         "country": "🇫🇷",
-        "pr": 3914,
-        "xUrl": "https://x.com/NovixEsport",
-        "xHandle": "@NovixEsport"
+        "pr": 3105,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Actfv",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      },
+      {
+        "name": "Tenq",
+        "country": "🇫🇷",
+        "pr": 2749,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tenq",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Joanee",
         "country": "🇫🇷",
-        "pr": 3466,
-        "xUrl": "https://x.com/Joanee2k",
-        "xHandle": "@Joanee2k"
+        "pr": 2522,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Joanee",
+        "x_handle": "@Joanee2k",
+        "x_url": "https://x.com/Joanee2k",
+        "socials": {
+          "x": "https://x.com/Joanee2k"
+        }
       }
     ],
     "details": "Top 94 Tracker Europe | Division 2",
@@ -6036,7 +6867,10 @@
     "name": "Australe Esport",
     "tag": "AST",
     "logo": "LFF Logos/australe-esport.png",
-    "xUrl": "https://x.com/team_australe",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/australe-esport",
+    "socials": {
+      "x": "https://x.com/team_australe"
+    },
     "livePr": 11500,
     "earnings": 0,
     "players": [
@@ -6044,15 +6878,27 @@
         "name": "freuzi",
         "country": "🇫🇷",
         "pr": 6345,
-        "xUrl": "https://x.com/freuzii",
-        "xHandle": "@freuzii"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/freuzi",
+        "x_handle": "@freuzii",
+        "x_url": "https://x.com/freuzii",
+        "socials": {
+          "x": "https://x.com/freuzii",
+          "twitch": "https://twitch.tv/freuzii",
+          "youtube": "https://youtube.com/channel/UCREg2cC9vipv8NyuQfVUHWg"
+        }
       },
       {
         "name": "Kaktus",
         "country": "🇫🇷",
         "pr": 5154,
-        "xUrl": "https://x.com/kaktusfnbr1",
-        "xHandle": "@kaktusfnbr1"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kaktus",
+        "x_handle": "@kaktusfnbr1",
+        "x_url": "https://x.com/kaktusfnbr1",
+        "socials": {
+          "x": "https://x.com/kaktusfnbr1"
+        }
       }
     ],
     "details": "Top 97 Tracker Europe | Circuit Espoir",
@@ -6064,7 +6910,14 @@
     "name": "Valiant",
     "tag": "VLT",
     "logo": "LFF Logos/valiant.png",
-    "xUrl": "https://x.com/ValiantOfficiel",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/valiant",
+    "socials": {
+      "x": "https://x.com/ValiantOfficiel",
+      "twitch": "https://twitch.tv/valiantofficiel",
+      "youtube": "https://youtube.com/channel/UCfAj4rFVhgGCNWNTw0lVeZg",
+      "instagram": "https://instagram.com/valiantofficiel",
+      "tiktok": "https://tiktok.com/@vaillantofficiel"
+    },
     "livePr": 10800,
     "earnings": 0,
     "players": [
@@ -6072,15 +6925,29 @@
         "name": "Trulex",
         "country": "🇷🇸",
         "pr": 5959,
-        "xUrl": "https://x.com/TrulexFN",
-        "xHandle": "@TrulexFN"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Trulex",
+        "x_handle": "@TrulexFN",
+        "x_url": "https://x.com/TrulexFN",
+        "socials": {
+          "x": "https://x.com/TrulexFN"
+        }
       },
       {
         "name": "Robabz",
-        "country": "🇫🇷",
+        "country": "🇩🇰",
         "pr": 4840,
-        "xUrl": "https://x.com/Robabz_",
-        "xHandle": "@Robabz_"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Robabz",
+        "x_handle": "@Robabz_",
+        "x_url": "https://x.com/Robabz_",
+        "socials": {
+          "x": "https://x.com/Robabz_",
+          "twitch": "https://twitch.tv/Robabztv",
+          "youtube": "https://youtube.com/channel/UCPE1B0BfJ4jYuu1LWPY8aXQ",
+          "tiktok": "https://tiktok.com/@robabzz",
+          "instagram": "https://instagram.com/robabz_"
+        }
       }
     ],
     "details": "Top 100 Tracker Europe | Roster Titré LFF",
@@ -6092,7 +6959,15 @@
     "name": "Reality Zoned",
     "tag": "RZ",
     "logo": "LFF Logos/reality-zone.png",
-    "xUrl": "https://x.com/RealityZoned",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/reality-zoned",
+    "socials": {
+      "x": "https://x.com/RealityZoned",
+      "twitch": "https://twitch.tv/realityzoned",
+      "youtube": "https://youtube.com/channel/UCSade4H7IspAjPAq5ejcrHQ",
+      "instagram": "https://instagram.com/realityzoned",
+      "tiktok": "https://tiktok.com/@realityzoned",
+      "discord": "https://discord.gg/gQhyrW6VXg"
+    },
     "livePr": 9500,
     "earnings": 0,
     "players": [
@@ -6100,22 +6975,31 @@
         "name": "Nayro",
         "country": "🇫🇷",
         "pr": 3752,
-        "xUrl": "https://x.com/RealityZoned",
-        "xHandle": "@RealityZoned"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nayro",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Kyli",
         "country": "🇫🇷",
         "pr": 3048,
-        "xUrl": "https://x.com/RealityZoned",
-        "xHandle": "@RealityZoned"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kyli",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Zeyko",
         "country": "🇫🇷",
         "pr": 2699,
-        "xUrl": "https://x.com/RealityZoned",
-        "xHandle": "@RealityZoned"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zeyko",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Club Français Actif | Roster Élite",
@@ -6127,7 +7011,10 @@
     "name": "Team Fake",
     "tag": "FAKE",
     "logo": "LFF Logos/team-fake.png",
-    "xUrl": "https://x.com/TeamFake_esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-fake",
+    "socials": {
+      "x": "https://x.com/TeamFake_esport"
+    },
     "livePr": 8200,
     "earnings": 0,
     "players": [
@@ -6135,22 +7022,33 @@
         "name": "Zeka",
         "country": "🇫🇷",
         "pr": 3239,
-        "xUrl": "https://x.com/TeamFake_esport",
-        "xHandle": "@TeamFake_esport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zeka",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Krox",
         "country": "🇫🇷",
         "pr": 2631,
-        "xUrl": "https://x.com/Kroxftn",
-        "xHandle": "@Kroxftn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Krox",
+        "x_handle": "@Kroxftn",
+        "x_url": "https://x.com/Kroxftn",
+        "socials": {
+          "x": "https://x.com/Kroxftn"
+        }
       },
       {
         "name": "Skyll",
         "country": "🇫🇷",
         "pr": 2329,
-        "xUrl": "https://x.com/TeamFake_esport",
-        "xHandle": "@TeamFake_esport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Skyll",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Club Français Actif | Circuit Francophone",
@@ -6162,7 +7060,10 @@
     "name": "Team BSK",
     "tag": "BSK",
     "logo": "LFF Logos/team-bsk.png",
-    "xUrl": "https://x.com/TeamBSK_",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-bsk",
+    "socials": {
+      "x": "https://x.com/TeamBSK_"
+    },
     "livePr": 7100,
     "earnings": 0,
     "players": [
@@ -6170,22 +7071,36 @@
         "name": "Shado",
         "country": "🇫🇷",
         "pr": 2804,
-        "xUrl": "https://x.com/TeamBSK_",
-        "xHandle": "@TeamBSK_"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Shado",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Kenza",
         "country": "🇫🇷",
         "pr": 2278,
-        "xUrl": "https://x.com/TeamBSK_",
-        "xHandle": "@TeamBSK_"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kenza",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Vortex",
         "country": "🇫🇷",
         "pr": 2017,
-        "xUrl": "https://x.com/vortexfnrr",
-        "xHandle": "@vortexfnrr"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vortex",
+        "x_handle": "@vortexfnrr",
+        "x_url": "https://x.com/vortexfnrr",
+        "socials": {
+          "x": "https://x.com/vortexfnrr",
+          "twitch": "https://twitch.tv/vortexr",
+          "youtube": "https://youtube.com/channel/UCSrTKzXqU6FMy1Lv8QayVfA",
+          "instagram": "https://instagram.com/vortexfnbr"
+        }
       }
     ],
     "details": "Club Français Actif | Division Francophone",
@@ -6197,7 +7112,10 @@
     "name": "Aten eSport",
     "tag": "ATN",
     "logo": "LFF Logos/aten-esport.png",
-    "xUrl": "https://x.com/AtenEsport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/aten-esport",
+    "socials": {
+      "x": "https://x.com/AtenEsport"
+    },
     "livePr": 6400,
     "earnings": 0,
     "players": [
@@ -6205,22 +7123,33 @@
         "name": "Atenz",
         "country": "🇫🇷",
         "pr": 2528,
-        "xUrl": "https://x.com/AtenEsport",
-        "xHandle": "@AtenEsport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Atenz",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Skyze",
         "country": "🇫🇷",
         "pr": 2053,
-        "xUrl": "https://x.com/SkyzeFN",
-        "xHandle": "@SkyzeFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Skyze",
+        "x_handle": "@SkyzeFN",
+        "x_url": "https://x.com/SkyzeFN",
+        "socials": {
+          "x": "https://x.com/SkyzeFN"
+        }
       },
       {
         "name": "Nox",
         "country": "🇫🇷",
         "pr": 1818,
-        "xUrl": "https://x.com/AtenEsport",
-        "xHandle": "@AtenEsport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nox",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Club Français Actif | Circuit Espoir",
@@ -6232,7 +7161,10 @@
     "name": "Jupitar Esport",
     "tag": "JUP",
     "logo": "LFF Logos/jupitar-esport.png",
-    "xUrl": "https://x.com/JupitarEsport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/jupitar-esport",
+    "socials": {
+      "x": "https://x.com/JupitarEsport"
+    },
     "livePr": 5800,
     "earnings": 0,
     "players": [
@@ -6240,22 +7172,35 @@
         "name": "Jupi",
         "country": "🇫🇷",
         "pr": 2291,
-        "xUrl": "https://x.com/JupitarEsport",
-        "xHandle": "@JupitarEsport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Jupi",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Star",
         "country": "🇫🇷",
         "pr": 1860,
-        "xUrl": "https://x.com/RealllSTAR",
-        "xHandle": "@RealllSTAR"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Star",
+        "x_handle": "@RealllSTAR",
+        "x_url": "https://x.com/RealllSTAR",
+        "socials": {
+          "x": "https://x.com/RealllSTAR",
+          "twitch": "https://twitch.tv/kings__star",
+          "youtube": "https://youtube.com/channel/UC7ko_DIXPzdJPAExhiRkqQA"
+        }
       },
       {
         "name": "Krono",
         "country": "🇫🇷",
         "pr": 1647,
-        "xUrl": "https://x.com/JupitarEsport",
-        "xHandle": "@JupitarEsport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Krono",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Club Français Actif | Circuit National",
@@ -6267,7 +7212,12 @@
     "name": "Odious Esport",
     "tag": "ODI",
     "logo": "LFF Logos/odious-esport.png",
-    "xUrl": "https://x.com/OdiousEsport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/odious-esport",
+    "socials": {
+      "x": "https://x.com/OdiousEsport",
+      "twitch": "https://twitch.tv/tvodious",
+      "tiktok": "https://tiktok.com/@odious.esport"
+    },
     "livePr": 5200,
     "earnings": 0,
     "players": [
@@ -6275,22 +7225,33 @@
         "name": "Odi",
         "country": "🇫🇷",
         "pr": 2054,
-        "xUrl": "https://x.com/OdiousEsport",
-        "xHandle": "@OdiousEsport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Odi",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Rage",
         "country": "🇫🇷",
         "pr": 1668,
-        "xUrl": "https://x.com/OdiousEsport",
-        "xHandle": "@OdiousEsport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Rage",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Viper",
         "country": "🇫🇷",
         "pr": 1477,
-        "xUrl": "https://x.com/viperxdd",
-        "xHandle": "@viperxdd"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Viper",
+        "x_handle": "@viperxdd",
+        "x_url": "https://x.com/viperxdd",
+        "socials": {
+          "x": "https://x.com/viperxdd"
+        }
       }
     ],
     "details": "Club Français Actif | Division 2",
@@ -6302,7 +7263,12 @@
     "name": "Pap's Esport",
     "tag": "PAPS",
     "logo": "LFF Logos/paps-esport.png",
-    "xUrl": "https://x.com/PapsEsport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/paps-esport",
+    "socials": {
+      "x": "https://x.com/PapsEsport",
+      "twitch": "https://twitch.tv/lepapyofficiel",
+      "tiktok": "https://tiktok.com/@papy.officiel"
+    },
     "livePr": 4600,
     "earnings": 0,
     "players": [
@@ -6310,22 +7276,36 @@
         "name": "Papito",
         "country": "🇫🇷",
         "pr": 1817,
-        "xUrl": "https://x.com/FnPapito",
-        "xHandle": "@FnPapito"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Papito",
+        "x_handle": "@FnPapito",
+        "x_url": "https://x.com/FnPapito",
+        "socials": {
+          "x": "https://x.com/FnPapito",
+          "twitch": "https://twitch.tv/papitofn"
+        }
       },
       {
         "name": "Slay",
         "country": "🇫🇷",
         "pr": 1475,
-        "xUrl": "https://x.com/ISlayFN",
-        "xHandle": "@ISlayFN"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Slay",
+        "x_handle": "@ISlayFN",
+        "x_url": "https://x.com/ISlayFN",
+        "socials": {
+          "x": "https://x.com/ISlayFN"
+        }
       },
       {
         "name": "Zen",
         "country": "🇫🇷",
         "pr": 1306,
-        "xUrl": "https://x.com/PapsEsport",
-        "xHandle": "@PapsEsport"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zen",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Club Français Actif | Circuit Espoir",
@@ -6337,7 +7317,15 @@
     "name": "Pandaria Esport",
     "tag": "PND",
     "logo": "LFF Logos/pandaria-esport.png",
-    "xUrl": "https://x.com/EsportPandaria",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/pandaria-esport",
+    "socials": {
+      "x": "https://x.com/EsportPandaria",
+      "twitch": "https://twitch.tv/pandariaesportfr",
+      "youtube": "https://youtube.com/channel/UC8BwLlUbJ13lidx718QnCFw",
+      "instagram": "https://instagram.com/pandariaesportfr",
+      "tiktok": "https://tiktok.com/@pandariaesport",
+      "discord": "https://discord.gg/mg8CrWHFxn"
+    },
     "livePr": 3900,
     "earnings": 0,
     "players": [
@@ -6345,22 +7333,31 @@
         "name": "Panda",
         "country": "🇫🇷",
         "pr": 1540,
-        "xUrl": "https://x.com/EsportPandaria",
-        "xHandle": "@EsportPandaria"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Panda",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Bamboo",
         "country": "🇫🇷",
         "pr": 1251,
-        "xUrl": "https://x.com/EsportPandaria",
-        "xHandle": "@EsportPandaria"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Bamboo",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Lotus",
         "country": "🇫🇷",
         "pr": 1108,
-        "xUrl": "https://x.com/EsportPandaria",
-        "xHandle": "@EsportPandaria"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Lotus",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Club Français Actif | Roster Espoir",
@@ -6372,7 +7369,14 @@
     "name": "Fly Again",
     "tag": "FLYA",
     "logo": "LFF Logos/fly-again.png",
-    "xUrl": "https://x.com/FlyAgainTeam",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/fly-again",
+    "socials": {
+      "x": "https://x.com/FlyAgainTeam",
+      "twitch": "https://twitch.tv/flyagainofficialteam",
+      "youtube": "https://youtube.com/channel/UCJSaFlPaSgkpCUW53PWhLrA",
+      "instagram": "https://instagram.com/flyagain.team",
+      "discord": "https://discord.gg/A82YbYrb"
+    },
     "livePr": 3200,
     "earnings": 0,
     "players": [
@@ -6380,22 +7384,33 @@
         "name": "Flyer",
         "country": "🇫🇷",
         "pr": 1264,
-        "xUrl": "https://x.com/FlyAgainTeam",
-        "xHandle": "@FlyAgainTeam"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Flyer",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
         "name": "Wing",
         "country": "🇫🇷",
         "pr": 1026,
-        "xUrl": "https://x.com/WingS_fn",
-        "xHandle": "@WingS_fn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Wing",
+        "x_handle": "@WingS_fn",
+        "x_url": "https://x.com/WingS_fn",
+        "socials": {
+          "x": "https://x.com/WingS_fn"
+        }
       },
       {
         "name": "Glide",
         "country": "🇫🇷",
         "pr": 909,
-        "xUrl": "https://x.com/FlyAgainTeam",
-        "xHandle": "@FlyAgainTeam"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Glide",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "details": "Club Français Actif | Circuit National",
@@ -6407,7 +7422,13 @@
     "name": "Zerance",
     "tag": "ZR",
     "logo": "LFF Logos/zerance.png",
-    "xUrl": "https://x.com/TeamZerance",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/zerance",
+    "socials": {
+      "x": "https://x.com/TeamZerance",
+      "youtube": "https://youtube.com/@zerance",
+      "instagram": "https://instagram.com/teamzerance",
+      "tiktok": "https://tiktok.com/@teamzerance"
+    },
     "livePr": 2500,
     "earnings": 0,
     "players": [
@@ -6415,8 +7436,15 @@
         "name": "Darkos",
         "country": "🇫🇷",
         "pr": 2500,
-        "xUrl": "https://x.com/Darkos_ftn",
-        "xHandle": "@Darkos_ftn"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Darkos",
+        "x_handle": "@Darkos_ftn",
+        "x_url": "https://x.com/Darkos_ftn",
+        "socials": {
+          "x": "https://x.com/Darkos_ftn",
+          "twitch": "https://twitch.tv/darkosftn",
+          "youtube": "https://youtube.com/@Darkosftn"
+        }
       }
     ],
     "details": "Club Partenaire LFF | Roster FNCS",
@@ -6688,6 +7716,82 @@
     }
 
     // Rendu du Classement Annuel (historique par année)
+        // Construction HTML d'un tag joueur avec lien Tracker et pastilles de réseaux sociaux personnels
+    function buildPlayerTagHtml(p) {
+      if (!p) return '';
+      
+      let rawName = '';
+      let isFormer = false;
+      let country = '🌍';
+      let trackerUrl = '';
+      let socials = {};
+      let pr = 0;
+
+      if (typeof p === 'string') {
+        rawName = p.replace(/\*/g, '').trim();
+        isFormer = p.includes('*');
+        trackerUrl = `https://fortnitetracker.com/profile/all/${encodeURIComponent(rawName)}`;
+        const pData = (typeof LIVE_DATA !== 'undefined' ? LIVE_DATA.flatMap(c => c.players || []).find(x => x && typeof x === 'object' && (x.name === rawName || x.ign === rawName)) : null);
+        if (pData) {
+          country = pData.country || '🌍';
+          socials = pData.socials || {};
+          pr = pData.pr || 0;
+          if (pData.tracker_url) trackerUrl = pData.tracker_url;
+        } else if (PLAYER_X_MAP[rawName]) {
+          socials = { x: PLAYER_X_MAP[rawName] };
+        }
+      } else {
+        rawName = p.name || p.ign || '';
+        isFormer = !!p.is_former;
+        country = p.country || '🌍';
+        trackerUrl = p.tracker_url || `https://fortnitetracker.com/profile/all/${encodeURIComponent(rawName)}`;
+        socials = p.socials || {};
+        pr = p.pr || 0;
+        if (!socials.x && p.x_url) socials.x = p.x_url;
+      }
+
+      if (rawName.toLowerCase() === 'pixie') {
+        trackerUrl = "https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview";
+      }
+
+      let socialsHtml = '';
+      if (socials.x) socialsHtml += `<a href="${socials.x}" target="_blank" rel="noopener noreferrer" class="social-pill x-pill" title="Profil X de ${rawName}">𝕏</a>`;
+      if (socials.twitch) socialsHtml += `<a href="${socials.twitch}" target="_blank" rel="noopener noreferrer" class="social-pill twitch-pill" title="Twitch de ${rawName}">🟣</a>`;
+      if (socials.youtube) socialsHtml += `<a href="${socials.youtube}" target="_blank" rel="noopener noreferrer" class="social-pill youtube-pill" title="YouTube de ${rawName}">🔴</a>`;
+      if (socials.tiktok) socialsHtml += `<a href="${socials.tiktok}" target="_blank" rel="noopener noreferrer" class="social-pill tiktok-pill" title="TikTok de ${rawName}">🎵</a>`;
+      if (socials.instagram) socialsHtml += `<a href="${socials.instagram}" target="_blank" rel="noopener noreferrer" class="social-pill insta-pill" title="Instagram de ${rawName}">📸</a>`;
+
+      const prTitle = pr ? ` - PR : ${pr.toLocaleString('fr-FR')} pts` : '';
+      const tagClass = isFormer ? 'player-tag former-player' : 'player-tag active-player';
+      const tooltip = isFormer 
+        ? `Ancien joueur ayant rapporté des points au club${prTitle}` 
+        : `Joueur actif sous contrat${prTitle}`;
+
+      return `
+        <span class="${tagClass}" title="${tooltip}">
+          <span class="player-country">${country}</span>
+          <a href="${trackerUrl}" target="_blank" rel="noopener noreferrer" class="player-tracker-link" title="Statistiques Fortnite Tracker de ${rawName}">
+            <strong>${rawName}${isFormer ? '*' : ''}</strong>
+          </a>
+          ${socialsHtml ? `<span class="social-pills-group">${socialsHtml}</span>` : ''}
+        </span>
+      `;
+    }
+
+    // Construction des pastilles de réseaux sociaux du club
+    function buildClubSocialsHtml(c) {
+      const s = c.socials || {};
+      let html = '';
+      if (s.x || c.x_url || c.xUrl) html += `<a href="${s.x || c.x_url || c.xUrl}" target="_blank" rel="noopener noreferrer" class="social-pill x-pill" title="X officiel de ${c.name}">𝕏</a>`;
+      if (s.twitch) html += `<a href="${s.twitch}" target="_blank" rel="noopener noreferrer" class="social-pill twitch-pill" title="Twitch officiel de ${c.name}">🟣</a>`;
+      if (s.youtube) html += `<a href="${s.youtube}" target="_blank" rel="noopener noreferrer" class="social-pill youtube-pill" title="YouTube officiel de ${c.name}">🔴</a>`;
+      if (s.tiktok) html += `<a href="${s.tiktok}" target="_blank" rel="noopener noreferrer" class="social-pill tiktok-pill" title="TikTok officiel de ${c.name}">🎵</a>`;
+      if (s.instagram) html += `<a href="${s.instagram}" target="_blank" rel="noopener noreferrer" class="social-pill insta-pill" title="Instagram officiel de ${c.name}">📸</a>`;
+      if (s.discord) html += `<a href="${s.discord}" target="_blank" rel="noopener noreferrer" class="social-pill discord-pill" title="Discord officiel de ${c.name}">💬</a>`;
+      return html ? `<div class="club-social-pills">${html}</div>` : '';
+    }
+
+    // Rendu du Classement Annuel (historique par année)
     function renderAnnualTable() {
       const year = document.getElementById('year-select').value;
       const search = document.getElementById('search-input').value.toLowerCase();
@@ -6704,19 +7808,20 @@
         list = list.filter(c => {
           const matchName = c.name && c.name.toLowerCase().includes(search);
           const matchTag = c.tag && c.tag.toLowerCase().includes(search);
-          let matchNotable = false;
-          if (typeof c.notable === 'string') {
-            matchNotable = c.notable.toLowerCase().includes(search);
-          } else if (Array.isArray(c.notable)) {
-            matchNotable = c.notable.some(p => (p || '').toLowerCase().includes(search));
+          let matchPlayer = false;
+          if (Array.isArray(c.players)) {
+            matchPlayer = c.players.some(p => (typeof p === 'string' ? p : (p.name || '')).toLowerCase().includes(search));
+          } else if (typeof c.notable === 'string') {
+            matchPlayer = c.notable.toLowerCase().includes(search);
           } else if (Array.isArray(c.roster)) {
-            matchNotable = c.roster.some(p => (p || '').toLowerCase().includes(search));
+            matchPlayer = c.roster.some(p => (p || '').toLowerCase().includes(search));
           }
-          return matchName || matchTag || matchNotable;
+          return matchName || matchTag || matchPlayer;
         });
       }
 
       const tbody = document.getElementById('ranking-tbody');
+      tbody.innerHTML = '';
 
       list.forEach((c) => {
         const rank = c.rank;
@@ -6728,29 +7833,33 @@
           ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\'club-logo-placeholder\'>${c.tag}</div>'">`
           : `<div class="club-logo-placeholder">${c.tag}</div>`;
 
-        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
-        const clickableRoster = c.roster.map(pName => {
-          const cleanName = pName.replace(/\s*\([^)]*\)/g, '').trim();
-          const pUrl = PLAYER_X_MAP[cleanName] || `https://x.com/search?q=${encodeURIComponent(cleanName)}+fortnite`;
-          return `<a href="${pUrl}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Compte X de ${cleanName}">
-            <strong>${cleanName}</strong> <span class="x-icon">𝕏</span>
-          </a>`;
-        }).join(' ');
+        const trackerUrl = c.tracker_url || `https://fortnitetracker.com/esports/organization/${c.id}`;
+        const clubSocialsHtml = buildClubSocialsHtml(c);
+
+        let playersHtml = '';
+        if (Array.isArray(c.players) && c.players.length > 0) {
+          playersHtml = c.players.map(buildPlayerTagHtml).join(' ');
+        } else if (Array.isArray(c.roster)) {
+          playersHtml = c.roster.map(buildPlayerTagHtml).join(' ');
+        } else if (typeof c.notable === 'string') {
+          playersHtml = c.notable.split(',').map(buildPlayerTagHtml).join(' ');
+        }
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td class="rank-cell ${rankClass}">${trophy}#${rank}</td>
           <td>
-            <a href="${clubUrl}" target="_blank" rel="noopener noreferrer" class="club-cell-link" title="Compte X officiel de ${c.name}">
+            <a href="${trackerUrl}" target="_blank" rel="noopener noreferrer" class="club-cell-link" title="Page Fortnite Tracker de ${c.name}">
               ${logoHtml}
               <div>
-                <span class="club-name">${c.name} <span class="x-icon">𝕏</span></span>
+                <span class="club-name">${c.name}</span>
                 <span class="club-tag">${c.tag}</span>
               </div>
             </a>
+            ${clubSocialsHtml}
           </td>
-          <td><div class="roster-tags">${clickableRoster}</div></td>
-          <td><div class="notable-achievement">${c.notable || c.key_achievement || ""}</div></td>
+          <td><div class="roster-tags">${playersHtml}</div></td>
+          <td><div class="notable-achievement">${c.details || c.notable || c.key_achievement || ""}</div></td>
           <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">🏆 ${c.points.toLocaleString('fr-FR')} pts</td>
         `;
         tbody.appendChild(tr);
@@ -6777,6 +7886,7 @@
       }
 
       const tbody = document.getElementById('ranking-tbody');
+      tbody.innerHTML = '';
 
       list.forEach((c) => {
         const rank = c.rank;
@@ -6788,24 +7898,28 @@
           ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\'club-logo-placeholder\'>${c.tag}</div>'">`
           : `<div class="club-logo-placeholder">${c.tag}</div>`;
 
-        const clubUrl = c.xUrl || CLUB_X_MAP[c.id] || "https://x.com";
-        const playersHtml = c.players.map(p => 
-          `<a href="${p.xUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" class="player-tag" title="Profil X de ${p.name} (${p.xHandle || ''}) - PR : ${p.pr.toLocaleString('fr-FR')} pts">
-            ${p.country} <strong>${p.name}</strong> <span class="x-icon">𝕏</span>
-          </a>`
-        ).join(' ');
+        const trackerUrl = c.tracker_url || `https://fortnitetracker.com/esports/organization/${c.id}`;
+        const clubSocialsHtml = buildClubSocialsHtml(c);
+
+        let playersHtml = '';
+        if (Array.isArray(c.players)) {
+          playersHtml = c.players.map(buildPlayerTagHtml).join(' ');
+        } else if (typeof c.players === 'string') {
+          playersHtml = c.players.split(',').map(buildPlayerTagHtml).join(' ');
+        }
 
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td class="rank-cell ${rankClass}">${trophy}#${rank}</td>
           <td>
-            <a href="${clubUrl}" target="_blank" rel="noopener noreferrer" class="club-cell-link" title="Compte X officiel de ${c.name}">
+            <a href="${trackerUrl}" target="_blank" rel="noopener noreferrer" class="club-cell-link" title="Page Fortnite Tracker de ${c.name}">
               ${logoHtml}
               <div>
-                <span class="club-name">${c.name} <span class="x-icon">𝕏</span></span>
+                <span class="club-name">${c.name}</span>
                 <span class="club-tag">${c.tag}</span>
               </div>
             </a>
+            ${clubSocialsHtml}
           </td>
           <td><div class="roster-tags">${playersHtml}</div></td>
           <td><div class="notable-achievement">${c.details || c.trend || ""}</div></td>
@@ -6815,7 +7929,7 @@
       });
     }
 
-        function renderPalmares() {
+    function renderPalmares() {
       const container = document.getElementById('palmares-container');
       container.innerHTML = "";
 
@@ -6831,13 +7945,7 @@
         const secondUrl = second.xUrl || CLUB_X_MAP[second.id] || "https://x.com";
         const thirdUrl = third.xUrl || CLUB_X_MAP[third.id] || "https://x.com";
 
-        const winnerRosterHtml = winner.roster.map(pName => {
-          const cleanName = pName.replace(/\s*\([^)]*\)/g, '').trim();
-          const pUrl = PLAYER_X_MAP[cleanName] || `https://x.com/search?q=${encodeURIComponent(cleanName)}+fortnite`;
-          return `<a href="${pUrl}" target="_blank" rel="noopener noreferrer" class="player-tag" style="font-size: 0.78rem;" title="Compte X de ${cleanName}">
-            <strong>${cleanName}</strong> <span class="x-icon">𝕏</span>
-          </a>`;
-        }).join(' ');
+        const winnerRosterHtml = winner.roster.map(buildPlayerTagHtml).join(' ');
 
         const card = document.createElement('div');
         card.className = "palmares-card";
@@ -6891,9 +7999,10 @@
             <div style="font-family: monospace; font-size: 0.85rem; color: var(--text-dim); background: rgba(0,0,0,0.4); padding: 4px 8px; border-radius: 6px;">${t.date}</div>
             <div>
               <h4 style="color: white; font-size: 1.05rem;">
-                <a href="${t.playerXUrl || 'https://x.com'}" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: none;" title="Compte X du joueur">
-                  ${t.player} <span class="x-icon">𝕏</span>
+                <a href="https://fortnitetracker.com/profile/all/${encodeURIComponent(t.player)}" target="_blank" rel="noopener noreferrer" class="player-tracker-link" style="color: white; text-decoration: none;" title="Statistiques Fortnite Tracker de ${t.player}">
+                  <strong>${t.player}</strong>
                 </a>
+                ${t.playerXUrl ? `<a href="${t.playerXUrl}" target="_blank" rel="noopener noreferrer" class="social-pill x-pill" style="display: inline-flex; vertical-align: middle; margin-left: 4px;" title="Compte X de ${t.player}">𝕏</a>` : ''}
               </h4>
               <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; margin-top: 3px;">
                 <span style="color: #cbd5e1;">${t.from}</span>
@@ -7480,11 +8589,454 @@
         }
 ];
 
+      const CLUBS_META = {
+  "gentle-mates": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+    "socials": {
+      "x": "https://x.com/GentleMates",
+      "youtube": "https://youtube.com/@teamgentlemates",
+      "instagram": "https://instagram.com/gentlemates",
+      "tiktok": "https://tiktok.com/@gentlemates",
+      "discord": "https://discord.gg/gentle-mates"
+    }
+  },
+  "karmine-corp": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/karmine-corp",
+    "socials": {
+      "x": "https://x.com/KarmineCorp",
+      "twitch": "https://twitch.tv/karminecorp",
+      "youtube": "https://youtube.com/@Karmine_Corp",
+      "instagram": "https://instagram.com/karminecorp",
+      "tiktok": "https://tiktok.com/@karmine_corp"
+    }
+  },
+  "havok-by-vitality": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+    "socials": {
+      "x": "https://x.com/HvKGGs"
+    }
+  },
+  "team-havok": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+    "socials": {
+      "x": "https://x.com/HvKGGs"
+    }
+  },
+  "solary": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+    "socials": {
+      "x": "https://x.com/SolaryTV",
+      "twitch": "https://twitch.tv/solaryfortnite",
+      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+      "instagram": "https://instagram.com/solarytv",
+      "tiktok": "https://tiktok.com/@solary_fortnite"
+    }
+  },
+  "vitality": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-vitality",
+    "socials": {
+      "x": "https://x.com/TeamVitality",
+      "youtube": "https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw",
+      "instagram": "https://instagram.com/teamvitality"
+    }
+  },
+  "team-go": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-go",
+    "socials": {
+      "x": "https://x.com/Team_GO"
+    }
+  },
+  "gameward": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gameward",
+    "socials": {
+      "x": "https://x.com/GameWardTeam"
+    }
+  },
+  "lestream": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lestream-esport",
+    "socials": {
+      "x": "https://x.com/LeStreamEsport"
+    }
+  },
+  "mces": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/mces",
+    "socials": {
+      "x": "https://x.com/MCES_officiel",
+      "instagram": "https://instagram.com/mces_officiel"
+    }
+  },
+  "trainhard": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard-esport",
+    "socials": {
+      "x": "https://x.com/TrainHardEsport",
+      "twitch": "https://twitch.tv/trainhardwebtv",
+      "instagram": "https://instagram.com/trainhardesport"
+    }
+  },
+  "grizi": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/grizi-esport",
+    "socials": {
+      "x": "https://x.com/GriziEsport"
+    }
+  },
+  "zerance": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/zerance",
+    "socials": {
+      "x": "https://x.com/TeamZerance",
+      "youtube": "https://youtube.com/@zerance",
+      "instagram": "https://instagram.com/teamzerance",
+      "tiktok": "https://tiktok.com/@teamzerance"
+    }
+  },
+  "galions": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/galions",
+    "socials": {
+      "x": "https://x.com/Galions_",
+      "youtube": "https://youtube.com/@galions_team",
+      "instagram": "https://instagram.com/galions_team",
+      "tiktok": "https://tiktok.com/@galions_team",
+      "discord": "https://discord.gg/yVDXNfp"
+    }
+  },
+  "team-ldlc": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/ldlc-ol",
+    "socials": {
+      "x": "https://x.com/LDLC_OL"
+    }
+  },
+  "millenium": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/millenium",
+    "socials": {
+      "x": "https://x.com/Millenium",
+      "youtube": "https://youtube.com/@MilleniumVOD",
+      "instagram": "https://instagram.com/millenium.team"
+    }
+  },
+  "supremacy": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/supremacy",
+    "socials": {
+      "x": "https://x.com/Supremacy_FR",
+      "youtube": "https://youtube.com/channel/UCisb_trxnFN_ylhpgGfbyqQ",
+      "instagram": "https://instagram.com/supremacy_fr"
+    }
+  },
+  "oserv": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/oserv-esport",
+    "socials": {
+      "x": "https://x.com/OservEsport",
+      "twitch": "https://twitch.tv/oservtv",
+      "youtube": "https://youtube.com/channel/UCHbWqCwlFzBh-ikyZ33aCtA"
+    }
+  },
+  "valiant": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/valiant",
+    "socials": {
+      "x": "https://x.com/ValiantOfficiel",
+      "twitch": "https://twitch.tv/valiantofficiel",
+      "youtube": "https://youtube.com/channel/UCfAj4rFVhgGCNWNTw0lVeZg",
+      "instagram": "https://instagram.com/valiantofficiel",
+      "tiktok": "https://tiktok.com/@vaillantofficiel"
+    }
+  },
+  "reality-zone": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/reality-zoned",
+    "socials": {
+      "x": "https://x.com/RealityZoned",
+      "twitch": "https://twitch.tv/realityzoned",
+      "youtube": "https://youtube.com/channel/UCSade4H7IspAjPAq5ejcrHQ",
+      "instagram": "https://instagram.com/realityzoned",
+      "tiktok": "https://tiktok.com/@realityzoned",
+      "discord": "https://discord.gg/gQhyrW6VXg"
+    }
+  },
+  "team-bsk": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-bsk",
+    "socials": {
+      "x": "https://x.com/TeamBSK_"
+    }
+  },
+  "lyost-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lyost-esport",
+    "socials": {
+      "x": "https://x.com/lyost_esport",
+      "twitch": "https://twitch.tv/lyostesport",
+      "instagram": "https://instagram.com/lyost.esport",
+      "discord": "https://discord.gg/rGRfA3yR9c"
+    }
+  },
+  "exalty": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/exalty",
+    "socials": {
+      "x": "https://x.com/Exalty_FR",
+      "twitch": "https://twitch.tv/Exaltytv1",
+      "youtube": "https://youtube.com/@Exalty",
+      "instagram": "https://instagram.com/exalty_fr",
+      "discord": "https://discord.gg/mUrf4QN"
+    }
+  },
+  "bk-rog": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/bk-rog-esports",
+    "socials": {
+      "x": "https://x.com/ASUS_BK_ROG",
+      "youtube": "https://youtube.com/channel/UCtPk46t9ycQtlFw4KDwd2Fw",
+      "instagram": "https://instagram.com/bk_rog_esports",
+      "tiktok": "https://tiktok.com/@bkrogesports"
+    }
+  },
+  "lunary": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+    "socials": {
+      "x": "https://x.com/SolaryTV",
+      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+      "instagram": "https://instagram.com/solarytv"
+    }
+  },
+  "team-fake": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-fake",
+    "socials": {
+      "x": "https://x.com/TeamFake_esport"
+    }
+  },
+  "aten-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/aten-esport",
+    "socials": {
+      "x": "https://x.com/AtenEsport"
+    }
+  },
+  "jupitar-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/jupitar-esport",
+    "socials": {
+      "x": "https://x.com/JupitarEsport"
+    }
+  },
+  "odious-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/odious-esport",
+    "socials": {
+      "x": "https://x.com/OdiousEsport",
+      "twitch": "https://twitch.tv/tvodious",
+      "tiktok": "https://tiktok.com/@odious.esport"
+    }
+  },
+  "paps-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/paps-esport",
+    "socials": {
+      "x": "https://x.com/PapsEsport",
+      "twitch": "https://twitch.tv/lepapyofficiel",
+      "tiktok": "https://tiktok.com/@papy.officiel"
+    }
+  },
+  "pandaria-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/pandaria-esport",
+    "socials": {
+      "x": "https://x.com/EsportPandaria",
+      "twitch": "https://twitch.tv/pandariaesportfr",
+      "youtube": "https://youtube.com/channel/UC8BwLlUbJ13lidx718QnCFw",
+      "instagram": "https://instagram.com/pandariaesportfr",
+      "tiktok": "https://tiktok.com/@pandariaesport",
+      "discord": "https://discord.gg/mg8CrWHFxn"
+    }
+  },
+  "pandore-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/pandore-esport",
+    "socials": {
+      "x": "https://x.com/Pandore_esport"
+    }
+  },
+  "fly-again": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/fly-again",
+    "socials": {
+      "x": "https://x.com/FlyAgainTeam",
+      "twitch": "https://twitch.tv/flyagainofficialteam",
+      "youtube": "https://youtube.com/channel/UCJSaFlPaSgkpCUW53PWhLrA",
+      "instagram": "https://instagram.com/flyagain.team",
+      "discord": "https://discord.gg/A82YbYrb"
+    }
+  },
+  "mga-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/mga-esport",
+    "socials": {
+      "x": "https://x.com/mgaesport",
+      "youtube": "https://youtube.com/@mGaeSport"
+    }
+  },
+  "k13-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/k13-esport",
+    "socials": {
+      "x": "https://x.com/K13esport",
+      "twitch": "https://twitch.tv/K13Esport",
+      "instagram": "https://instagram.com/k13esport1",
+      "tiktok": "https://tiktok.com/@k13esport"
+    }
+  },
+  "bastille-legacy": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/bastille-legacy",
+    "socials": {
+      "x": "https://x.com/BastilleLegacy",
+      "youtube": "https://youtube.com/channel/UC-SXwO0Bm1T5EEtTIusKZ_Q",
+      "instagram": "https://instagram.com/bastillelegacy"
+    }
+  },
+  "begenius-esc": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/begenius-esc",
+    "socials": {
+      "x": "https://x.com/beGeniusESC",
+      "twitch": "https://twitch.tv/begeniusesc_tv",
+      "youtube": "https://youtube.com/channel/UCH5TfCsra47F3l8EH7tE01g",
+      "instagram": "https://instagram.com/begenius.esc"
+    }
+  },
+  "1p-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/oneprodige",
+    "socials": {
+      "x": "https://x.com/oneprodige"
+    }
+  },
+  "wooka-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/wooka-esport",
+    "socials": {
+      "x": "https://x.com/WookaEsport",
+      "twitch": "https://twitch.tv/wooka_esport",
+      "youtube": "https://youtube.com/@wookaesport5056",
+      "instagram": "https://instagram.com/wookaesports",
+      "tiktok": "https://tiktok.com/@wooka_esport"
+    }
+  },
+  "lynox-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lynox-esport",
+    "socials": {
+      "x": "https://x.com/LynoXEU",
+      "twitch": "https://twitch.tv/lynoxeu",
+      "youtube": "https://youtube.com/@LynoxEU",
+      "tiktok": "https://tiktok.com/@lynox_esport"
+    }
+  },
+  "poyo-esports": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/poyo-esports",
+    "socials": {
+      "x": "https://x.com/PoyoEsports",
+      "twitch": "https://twitch.tv/poyocup",
+      "youtube": "https://youtube.com/@poyocup",
+      "instagram": "https://instagram.com/poyoesports",
+      "tiktok": "https://tiktok.com/@poyo.esports",
+      "discord": "https://discord.gg/fWYbQuWDMv"
+    }
+  },
+  "gentside-esports": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gentside-esports",
+    "socials": {
+      "x": "https://x.com/GentsideEsports",
+      "youtube": "https://youtube.com/channel/UCRqAjXPUZJ_-51Kxi66edCA"
+    }
+  },
+  "dualmedia-esports": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/dualmedia-esports",
+    "socials": {
+      "x": "https://x.com/Dual_Media",
+      "twitch": "https://twitch.tv/dualmediaesports",
+      "youtube": "https://youtube.com/@dualmedia",
+      "instagram": "https://instagram.com/dualmediaesports"
+    }
+  },
+  "team-orchid": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-orchid",
+    "socials": {
+      "x": "https://x.com/TeamOrchidGG",
+      "youtube": "https://youtube.com/@TeamOrchidGG",
+      "instagram": "https://instagram.com/teamorchidgg",
+      "tiktok": "https://tiktok.com/@team_orchid"
+    }
+  },
+  "r4c-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/r4c-esport",
+    "socials": {
+      "x": "https://x.com/r4c_esport"
+    }
+  },
+  "vulcan-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/vulcan-esport",
+    "socials": {
+      "x": "https://x.com/vulcanesport_"
+    }
+  },
+  "orphee-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/orphee-esport",
+    "socials": {
+      "x": "https://x.com/ORPHEE_Esport",
+      "twitch": "https://twitch.tv/orpheecore",
+      "tiktok": "https://tiktok.com/@orphee_core"
+    }
+  },
+  "trkf-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trkf-e-sport",
+    "socials": {
+      "x": "https://x.com/TRKF_Esport"
+    }
+  },
+  "now-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/now-esport",
+    "socials": {
+      "x": "https://x.com/noww_esport",
+      "twitch": "https://twitch.tv/noww_esport",
+      "youtube": "https://youtube.com/@RVLESP",
+      "instagram": "https://instagram.com/noww_esport",
+      "tiktok": "https://tiktok.com/@noww_esport",
+      "discord": "https://discord.gg/mMMCNBGKh2"
+    }
+  },
+  "eoz-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/eoz-esport",
+    "socials": {
+      "x": "https://x.com/EOZesport"
+    }
+  },
+  "ekinox-esports": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/ekinox",
+    "socials": {
+      "x": "https://x.com/ekinoxesports"
+    }
+  },
+  "wip-esports": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/wip-esports",
+    "socials": {
+      "x": "https://x.com/wipesports"
+    }
+  },
+  "haikoo": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/haikoo",
+    "socials": {
+      "x": "https://x.com/Haikoo_Esport"
+    }
+  },
+  "g3nz-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/g3nz-esport",
+    "socials": {
+      "x": "https://x.com/G3nZEsport"
+    }
+  },
+  "novix-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/novix-esport",
+    "socials": {
+      "x": "https://x.com/NovixEsport"
+    }
+  },
+  "australe-esport": {
+    "tracker_url": "https://fortnitetracker.com/esports/organization/australe-esport",
+    "socials": {
+      "x": "https://x.com/team_australe"
+    }
+  }
+};
+
       allClubs.forEach(c => {
         const logoPath = LOGO_MAP[c.id];
         const logoHtml = logoPath 
           ? `<img src="${logoPath}" class="club-logo" alt="${c.name}">`
           : `<div class="club-logo-placeholder">${c.tag}</div>`;
+
+        const meta = CLUBS_META[c.id] || {};
+        const trackerUrl = c.tracker_url || meta.tracker_url || `https://fortnitetracker.com/esports/organization/${c.id}`;
+        const socials = c.socials || meta.socials || (c.xUrl ? { x: c.xUrl } : {});
+        const clubObj = { ...c, tracker_url: trackerUrl, socials: socials };
 
         const card = document.createElement('div');
         card.className = "club-card";
@@ -7492,16 +9044,24 @@
           <div style="display: flex; align-items: center; gap: 1rem;">
             ${logoHtml}
             <div>
-              <h4 style="color: white; font-size: 1.1rem;">${c.name} <span class="club-tag">${c.tag}</span></h4>
-              <span class="badge-pill ${c.tier.includes('Tier 1') ? 'gold' : ''}" style="margin-top: 4px;">${c.tier}</span>
+              <h4 style="color: white; font-size: 1.1rem;">
+                <a href="${trackerUrl}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;" title="Page Fortnite Tracker de ${c.name}">
+                  ${c.name}
+                </a>
+                <span class="club-tag">${c.tag}</span>
+              </h4>
+              <span class="badge-pill ${c.tier && c.tier.includes('Tier 1') ? 'gold' : ''}" style="margin-top: 4px;">${c.tier}</span>
             </div>
           </div>
           <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">${c.desc}</p>
-          <div style="display: flex; gap: 8px; margin-top: auto; padding-top: 0.5rem;">
-            <a href="${c.xUrl}" target="_blank" rel="noopener noreferrer" class="club-x-btn" title="Compte X officiel">
-              <span>𝕏</span> ${c.xHandle || 'Compte X'}
-            </a>
-            ${c.liquipediaUrl ? `<a href="${c.liquipediaUrl}" target="_blank" rel="noopener noreferrer" class="club-x-btn" style="background: rgba(147, 51, 234, 0.2); border-color: rgba(168, 85, 247, 0.4);" title="Fiche Liquipedia">📖 Liquipedia</a>` : ''}
+          <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 0.5rem;">
+            <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
+              <a href="${trackerUrl}" target="_blank" rel="noopener noreferrer" class="club-x-btn" style="background: rgba(59, 130, 246, 0.2); border-color: rgba(96, 165, 250, 0.4);" title="Page Fortnite Tracker de ${c.name}">
+                🎯 Tracker
+              </a>
+              ${c.liquipediaUrl ? `<a href="${c.liquipediaUrl}" target="_blank" rel="noopener noreferrer" class="club-x-btn" style="background: rgba(147, 51, 234, 0.2); border-color: rgba(168, 85, 247, 0.4);" title="Fiche Liquipedia">📖 Liquipedia</a>` : ''}
+            </div>
+            ${buildClubSocialsHtml(clubObj)}
           </div>
         `;
         container.appendChild(card);

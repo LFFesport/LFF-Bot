@@ -214,1476 +214,1597 @@
   "active_rosters": {
     "havok-by-vitality": [
       {
-        "ign": "SwizzY",
-        "name": "Egor Luciko",
-        "country": "🌍",
-        "pr": 38588,
-        "x_handle": "@SwizzY281",
-        "x_url": "https://x.com/SwizzY281",
-        "joined": "2025-05-02",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Karmine Corp",
-            "joined": "2024-05-01",
-            "left": "2025-04-30",
-            "role": "Joueur"
-          },
-          {
-            "club": "Team HavoK / HavoK by Vitality",
-            "joined": "2025-05-02",
-            "left": "Présent",
-            "role": "Star Joueur"
-          }
-        ]
-      },
-      {
-        "ign": "PabloWingu",
-        "name": "PabloWingu",
-        "country": "🇩🇰",
-        "pr": 31343,
-        "x_handle": "@PabloWingu",
-        "x_url": "https://x.com/PabloWingu",
-        "joined": "2025-02-15",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Free Agent",
-            "joined": "2023-01-01",
-            "left": "2025-02-14",
-            "role": "Joueur"
-          },
-          {
-            "club": "Team HavoK / HavoK by Vitality",
-            "joined": "2025-02-15",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
-      },
-      {
-        "ign": "Tjino",
-        "name": "Tjino",
-        "country": "🇩🇰",
-        "pr": 27754,
-        "x_handle": "@tjino9",
-        "x_url": "https://x.com/tjino9",
-        "joined": "2025-03-01",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Team HavoK / HavoK by Vitality",
-            "joined": "2025-03-01",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
-      },
-      {
-        "ign": "Pixie",
         "name": "Pixie",
         "country": "🇸🇪",
-        "pr": 25459,
+        "pr": 53114,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview",
         "x_handle": "@pixiefnbr",
         "x_url": "https://x.com/pixiefnbr",
-        "joined": "2024-11-10",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Team HavoK / HavoK by Vitality",
-            "joined": "2024-11-10",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
+        "socials": {
+          "x": "https://x.com/pixiefnbr",
+          "twitch": "https://twitch.tv/pixiefnbr",
+          "youtube": "https://youtube.com/@pixiefnbr",
+          "tiktok": "https://tiktok.com/@pixiefnr"
+        }
       },
       {
-        "ign": "Wox",
-        "name": "Wox",
-        "country": "🇸🇪",
-        "pr": 23810,
-        "x_handle": "@WoxSHTER",
-        "x_url": "https://x.com/WoxSHTER",
-        "joined": "2024-08-28",
-        "status": "Remplaçant / Roster élargi",
-        "career_history": [
-          {
-            "club": "Team HavoK",
-            "joined": "2024-08-28",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
-      },
-      {
-        "ign": "Seekk",
-        "name": "Seekk",
-        "country": "🇫🇷",
-        "pr": 22543,
-        "x_handle": "@Seekkfn",
-        "x_url": "https://x.com/Seekkfn",
-        "joined": "2026-10-15",
-        "status": "Roster Espoir",
-        "career_history": [
-          {
-            "club": "Team HavoK / HavoK by Vitality",
-            "joined": "2026-10-15",
-            "left": "Présent",
-            "role": "Espoir"
-          }
-        ]
-      }
-    ],
-    "team-havok": [
-      {
-        "ign": "SwizzY",
-        "name": "Egor Luciko",
-        "country": "🌍",
-        "pr": 245000,
-        "x_handle": "@SwizzY281",
-        "x_url": "https://x.com/SwizzY281",
-        "joined": "2025-05-02",
-        "status": "Contrat Actif"
-      },
-      {
-        "ign": "PabloWingu",
-        "name": "PabloWingu",
-        "country": "🇩🇰",
-        "pr": 185000,
-        "x_handle": "@PabloWingu",
-        "x_url": "https://x.com/PabloWingu",
-        "joined": "2025-02-15",
-        "status": "Contrat Actif"
-      },
-      {
-        "ign": "Tjino",
         "name": "Tjino",
-        "country": "🇩🇰",
-        "pr": 165000,
+        "country": "🇸🇪",
+        "pr": 43142,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tjino",
         "x_handle": "@tjino9",
         "x_url": "https://x.com/tjino9",
-        "joined": "2025-03-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/tjino9",
+          "twitch": "https://twitch.tv/tjino9",
+          "youtube": "https://youtube.com/channel/UC0u_6lG4Gksp9rRDgKEosbQ",
+          "tiktok": "https://tiktok.com/@tjino9"
+        }
       },
       {
-        "ign": "Pixie",
-        "name": "Pixie",
-        "country": "🇸🇪",
-        "pr": 146548,
-        "x_handle": "@pixiefnbr",
-        "x_url": "https://x.com/pixiefnbr",
-        "joined": "2024-11-10",
-        "status": "Contrat Actif"
+        "name": "PabloWingu",
+        "country": "🇩🇰",
+        "pr": 38201,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/PabloWingu",
+        "x_handle": "@PabloWingu",
+        "x_url": "https://x.com/PabloWingu",
+        "socials": {
+          "x": "https://x.com/PabloWingu",
+          "twitch": "https://twitch.tv/pablowingufnn",
+          "youtube": "https://youtube.com/channel/UCYZcKk-bWTSk39RCgldOZhA",
+          "tiktok": "https://tiktok.com/@pablowingu",
+          "instagram": "https://instagram.com/pablowingu"
+        }
+      },
+      {
+        "name": "SwizzY",
+        "country": "🌍",
+        "pr": 35042,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SwizzY",
+        "x_handle": "@SwizzY281",
+        "x_url": "https://x.com/SwizzY281",
+        "socials": {
+          "x": "https://x.com/SwizzY281",
+          "twitch": "https://twitch.tv/swizzy281_",
+          "youtube": "https://youtube.com/channel/UCtfmiozk3AifIzguALQ4XSw"
+        }
       }
     ],
     "gentle-mates": [
       {
-        "ign": "Vanyak3kk",
-        "name": "Ivan",
-        "country": "🌍",
-        "pr": 36976,
-        "x_handle": "@Vanyak3kk",
-        "x_url": "https://x.com/Vanyak3kk",
-        "joined": "2024-06-15",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Free Agent",
-            "joined": "2022-01-01",
-            "left": "2024-06-14",
-            "role": "Joueur"
-          },
-          {
-            "club": "Gentle Mates",
-            "joined": "2024-06-15",
-            "left": "Présent",
-            "role": "Star Joueur"
-          }
-        ]
-      },
-      {
-        "ign": "Akiira",
         "name": "Akiira",
         "country": "🇫🇷",
-        "pr": 30034,
+        "pr": 36976,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Akiira",
         "x_handle": "@AkiiraFN",
         "x_url": "https://x.com/AkiiraFN",
-        "joined": "2025-01-10",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Gentle Mates",
-            "joined": "2025-01-10",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
+        "socials": {
+          "x": "https://x.com/AkiiraFN",
+          "twitch": "https://twitch.tv/akiiral2"
+        }
       },
       {
-        "ign": "MariusCOW",
         "name": "MariusCOW",
         "country": "🇩🇰",
-        "pr": 26594,
+        "pr": 30034,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/MariusCOW",
         "x_handle": "@MariusCOW",
         "x_url": "https://x.com/MariusCOW",
-        "joined": "2025-09-01",
-        "status": "Partenaire / Prêt",
-        "career_history": [
-          {
-            "club": "Gentle Mates",
-            "joined": "2025-09-01",
-            "left": "Présent",
-            "role": "Partenaire FNCS"
-          }
-        ]
+        "socials": {
+          "x": "https://x.com/MariusCOW",
+          "twitch": "https://twitch.tv/mariuscow",
+          "youtube": "https://youtube.com/channel/UC_VuSkgA57Glh9xTDBjny7w",
+          "tiktok": "https://tiktok.com/@mariuscow",
+          "instagram": "https://instagram.com/mariuscow2"
+        }
       },
       {
-        "ign": "Kurama",
-        "name": "Stéphane Poret",
+        "name": "Vanyak3kk",
+        "country": "🌍",
+        "pr": 26594,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vanyak3kk",
+        "x_handle": "@Vanyak3kk",
+        "x_url": "https://x.com/Vanyak3kk",
+        "socials": {
+          "x": "https://x.com/Vanyak3kk",
+          "twitch": "https://twitch.tv/vanyak3kk",
+          "youtube": "https://youtube.com/channel/UCYof7uTXn0ZnPiY4Gv6yFRg",
+          "tiktok": "https://tiktok.com/@vanyak3kk"
+        }
+      },
+      {
+        "name": "Kurama",
         "country": "🇫🇷",
         "pr": 24395,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kurama",
         "x_handle": "@FtnKurama",
         "x_url": "https://x.com/FtnKurama",
-        "joined": "2026-03-30",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Free Agent",
-            "joined": "2023-01-01",
-            "left": "2026-03-29",
-            "role": "Joueur"
-          },
-          {
-            "club": "Gentle Mates",
-            "joined": "2026-03-30",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
+        "socials": {
+          "x": "https://x.com/FtnKurama",
+          "twitch": "https://twitch.tv/kurama_203",
+          "youtube": "https://youtube.com/@FtnKurama"
+        }
       }
     ],
     "solary": [
       {
-        "ign": "Ghonzo",
-        "name": "Ghonzo",
-        "country": "🇫🇷",
-        "pr": 27834,
-        "x_handle": "@ghonzofn",
-        "x_url": "https://x.com/ghonzofn",
-        "joined": "2025-01-15",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Solary",
-            "joined": "2025-01-15",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
-      },
-      {
-        "ign": "Minori",
-        "name": "Minori",
-        "country": "🇫🇷",
-        "pr": 22608,
-        "x_handle": "@minorifn_",
-        "x_url": "https://x.com/minorifn_",
-        "joined": "2026-04-25",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Solary",
-            "joined": "2026-04-25",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
-      },
-      {
-        "ign": "SkyJump",
         "name": "SkyJump",
         "country": "🇫🇷",
-        "pr": 20019,
+        "pr": 33216,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SkyJump",
         "x_handle": "@skyjumpftn",
         "x_url": "https://x.com/skyjumpftn",
-        "joined": "2026-02-01",
-        "status": "Partenaire FNCS",
-        "career_history": [
-          {
-            "club": "Solary",
-            "joined": "2026-02-01",
-            "left": "Présent",
-            "role": "Partenaire"
-          }
-        ]
+        "socials": {
+          "x": "https://x.com/skyjumpftn",
+          "twitch": "https://twitch.tv/skyjumpftn"
+        }
       },
       {
-        "ign": "Darkos",
-        "name": "Darkos",
-        "country": "🇫🇷",
-        "pr": 18363,
-        "x_handle": "@Darkos_ftn",
-        "x_url": "https://x.com/Darkos_ftn",
-        "joined": "2026-04-25",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Solary",
-            "joined": "2026-04-25",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
+        "name": "Ghonzo",
+        "country": "🇳🇴",
+        "pr": 26979,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ghonzo",
+        "x_handle": "@ghonzofn",
+        "x_url": "https://x.com/ghonzofn",
+        "socials": {
+          "x": "https://x.com/ghonzofn",
+          "twitch": "https://twitch.tv/ghonzofn",
+          "youtube": "https://youtube.com/@ghonzoo"
+        }
       },
       {
-        "ign": "XZEEVIT",
-        "name": "XZEEVIT",
+        "name": "Minori",
         "country": "🇫🇷",
-        "pr": 17174,
-        "x_handle": "@xzeevit",
-        "x_url": "https://x.com/xzeevit",
-        "joined": "2026-10-03",
-        "status": "Contrat Actif",
-        "career_history": [
-          {
-            "club": "Lynox Esport",
-            "joined": "2024-01-01",
-            "left": "2026-10-02",
-            "role": "Joueur"
-          },
-          {
-            "club": "Solary",
-            "joined": "2026-10-03",
-            "left": "Présent",
-            "role": "Joueur"
-          }
-        ]
+        "pr": 23889,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Minori",
+        "x_handle": "@minorifn_",
+        "x_url": "https://x.com/minorifn_",
+        "socials": {
+          "x": "https://x.com/minorifn_",
+          "twitch": "https://twitch.tv/minorifn_",
+          "youtube": "https://youtube.com/@Minoriftn"
+        }
+      },
+      {
+        "name": "Kurama",
+        "country": "🇫🇷",
+        "pr": 21914,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kurama",
+        "x_handle": "@FtnKurama",
+        "x_url": "https://x.com/FtnKurama",
+        "socials": {
+          "x": "https://x.com/FtnKurama",
+          "twitch": "https://twitch.tv/kurama_203",
+          "youtube": "https://youtube.com/@FtnKurama"
+        }
       }
     ],
     "lyost-esport": [
       {
-        "ign": "Momsy",
         "name": "Momsy",
         "country": "🇫🇷",
         "pr": 29455,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Momsy",
         "x_handle": "@MomsyFN",
         "x_url": "https://x.com/MomsyFN",
-        "joined": "2024-05-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/MomsyFN",
+          "twitch": "https://twitch.tv/momsyfn",
+          "youtube": "https://youtube.com/@momsyfn4096"
+        }
       },
       {
-        "ign": "Werex",
         "name": "Werex",
         "country": "🇫🇷",
         "pr": 23925,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Werex",
         "x_handle": "@werexfnbr",
         "x_url": "https://x.com/werexfnbr",
-        "joined": "2024-06-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/werexfnbr",
+          "twitch": "https://twitch.tv/werexeu",
+          "youtube": "https://youtube.com/channel/UCvQDDvqFF0A0ZQvdCW2irzQ"
+        }
       },
       {
-        "ign": "Twek",
         "name": "Twek",
         "country": "🇫🇷",
         "pr": 21185,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Twek",
         "x_handle": "@twekje",
         "x_url": "https://x.com/twekje",
-        "joined": "2025-01-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/twekje"
+        }
       },
       {
-        "ign": "Borsuk",
         "name": "Borsuk",
         "country": "🇵🇱",
         "pr": 19433,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Borsuk",
         "x_handle": "@borsukfn",
         "x_url": "https://x.com/borsukfn",
-        "joined": "2025-03-20",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/borsukfn"
+        }
       }
     ],
     "mga-esport": [
       {
-        "ign": "Syaaz",
         "name": "Syaaz",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 24441,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Syaaz",
         "x_handle": "@Syaazzfn",
         "x_url": "https://x.com/Syaazzfn",
-        "joined": "2024-04-12",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Syaazzfn",
+          "twitch": "https://twitch.tv/syaazfnn"
+        }
       },
       {
-        "ign": "Trusio",
-        "name": "Trusio",
-        "country": "🇫🇷",
+        "name": "Truslo",
+        "country": "🇵🇱",
         "pr": 19853,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Trusio",
         "x_handle": "@Trusiofnbr",
         "x_url": "https://x.com/Trusiofnbr",
-        "joined": "2024-08-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Trusiofnbr"
+        }
       },
       {
-        "ign": "FiTo",
         "name": "FiTo",
-        "country": "🇪🇸",
+        "country": "🇵🇱",
         "pr": 17579,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/FiTo",
         "x_handle": "@FiTofnbr",
         "x_url": "https://x.com/FiTofnbr",
-        "joined": "2025-02-10",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/FiTofnbr",
+          "youtube": "https://youtube.com/channel/UChfUWz4Y-hwgIJOd7DRvWbQ"
+        }
       },
       {
-        "ign": "iFrOzi",
         "name": "iFrOzi",
-        "country": "🇫🇷",
+        "country": "🇷🇺",
         "pr": 16125,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/iFrOzi",
         "x_handle": "@iFr0zi_",
         "x_url": "https://x.com/iFr0zi_",
-        "joined": "2025-04-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/iFr0zi_"
+        }
       }
     ],
     "gameward": [
       {
-        "ign": "Kombek",
         "name": "Kombek",
         "country": "🇵🇱",
         "pr": 20054,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kombek",
         "x_handle": "@kombekfn",
         "x_url": "https://x.com/kombekfn",
-        "joined": "2024-09-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/kombekfn",
+          "twitch": "https://twitch.tv/kombekfn",
+          "youtube": "https://youtube.com/channel/UC4hXCYR7VirkQT0MmtzV8lA"
+        }
       },
       {
-        "ign": "Tylio",
         "name": "Tylio",
         "country": "🇫🇷",
         "pr": 16289,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tylio",
         "x_handle": "@Tylio77",
         "x_url": "https://x.com/Tylio77",
-        "joined": "2024-10-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Tylio77",
+          "twitch": "https://twitch.tv/tylio7",
+          "youtube": "https://youtube.com/channel/UCVxLzbLijn9en0lXqpGVJow"
+        }
       },
       {
-        "ign": "Nociff",
         "name": "Nociff",
         "country": "🇫🇷",
         "pr": 14423,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nociff",
         "x_handle": "@nocifFN",
         "x_url": "https://x.com/nocifFN",
-        "joined": "2025-01-05",
-        "status": "Prêt / Partenaire"
+        "socials": {
+          "x": "https://x.com/nocifFN"
+        }
       },
       {
-        "ign": "S1neD",
         "name": "S1neD",
         "country": "🇫🇷",
         "pr": 13231,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/S1neD",
         "x_handle": "@S1neDfnn",
         "x_url": "https://x.com/S1neDfnn",
-        "joined": "2025-01-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/S1neDfnn",
+          "twitch": "https://twitch.tv/s1nedfn",
+          "youtube": "https://youtube.com/@S1neDfnn",
+          "instagram": "https://instagram.com/s1ned__"
+        }
       }
     ],
     "k13-esport": [
       {
-        "ign": "Firen",
         "name": "Firen",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 19114,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Firen",
         "x_handle": "@Firenfn1",
         "x_url": "https://x.com/Firenfn1",
-        "joined": "2024-03-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Firenfn1",
+          "twitch": "https://twitch.tv/firenfn5"
+        }
       },
       {
-        "ign": "Asa",
         "name": "Asa",
-        "country": "🇫🇷",
+        "country": "🇦🇹",
         "pr": 15526,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Asa",
         "x_handle": "@Asafnr",
         "x_url": "https://x.com/Asafnr",
-        "joined": "2024-07-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Asafnr",
+          "twitch": "https://twitch.tv/asafn_",
+          "youtube": "https://youtube.com/@Asafn",
+          "instagram": "https://instagram.com/asafnr"
+        }
       },
       {
-        "ign": "Seyyto",
         "name": "Seyyto",
         "country": "🇫🇷",
         "pr": 13747,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Seyyto",
         "x_handle": "@SeyytoFN",
         "x_url": "https://x.com/SeyytoFN",
-        "joined": "2025-02-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/SeyytoFN",
+          "twitch": "https://twitch.tv/seyytofn",
+          "youtube": "https://youtube.com/@seyyto9436"
+        }
       },
       {
-        "ign": "Roz",
         "name": "Roz",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 12611,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Roz",
         "x_handle": "@Roznaldo_",
         "x_url": "https://x.com/Roznaldo_",
-        "joined": "2025-03-10",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Roznaldo_",
+          "twitch": "https://twitch.tv/rozbr",
+          "youtube": "https://youtube.com/channel/UCQQg1uSNMshTP0Jf7k2LcuA"
+        }
       }
     ],
     "team-orchid": [
       {
-        "ign": "Izzi",
         "name": "Izzi",
         "country": "🇫🇷",
         "pr": 23109,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Izzi",
         "x_handle": "@izziFNBR",
         "x_url": "https://x.com/izziFNBR",
-        "joined": "2024-04-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/izziFNBR"
+        }
       },
       {
-        "ign": "Nociff",
         "name": "Nociff",
         "country": "🇫🇷",
         "pr": 18770,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nociff",
         "x_handle": "@nocifFN",
         "x_url": "https://x.com/nocifFN",
-        "joined": "2024-05-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/nocifFN"
+        }
       },
       {
-        "ign": "Seyyto",
         "name": "Seyyto",
         "country": "🇫🇷",
         "pr": 16620,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Seyyto",
         "x_handle": "@SeyytoFN",
         "x_url": "https://x.com/SeyytoFN",
-        "joined": "2024-06-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/SeyytoFN",
+          "twitch": "https://twitch.tv/seyytofn",
+          "youtube": "https://youtube.com/@seyyto9436"
+        }
       }
     ],
     "1p-esport": [
       {
-        "ign": "Lericx",
         "name": "Lericx",
         "country": "🇫🇷",
         "pr": 15981,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Lericx",
         "x_handle": "@LericxFN",
         "x_url": "https://x.com/LericxFN",
-        "joined": "2024-01-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/LericxFN",
+          "twitch": "https://twitch.tv/lericxeu"
+        }
       },
       {
-        "ign": "Hyper",
         "name": "Hyper",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 12980,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hyper",
         "x_handle": "@HyperFNBR",
         "x_url": "https://x.com/HyperFNBR",
-        "joined": "2024-05-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/HyperFNBR",
+          "twitch": "https://twitch.tv/uhhhyper",
+          "youtube": "https://youtube.com/channel/UCGh8fAzPu3u9ynwqExIVnng"
+        }
       },
       {
-        "ign": "Julie",
         "name": "Julie",
         "country": "🇫🇷",
         "pr": 11494,
-        "x_handle": "@oneprodige",
-        "x_url": "https://x.com/oneprodige",
-        "joined": "2024-09-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Julie",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Alvinlr",
         "name": "Alvinlr",
-        "country": "🇫🇷",
+        "country": "🇳🇴",
         "pr": 10543,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/AlvinIr",
         "x_handle": "@AlvinIr2",
         "x_url": "https://x.com/AlvinIr2",
-        "joined": "2025-01-20",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/AlvinIr2"
+        }
       }
     ],
     "r4c-esport": [
       {
-        "ign": "Kenrop",
         "name": "Kenrop",
         "country": "🇫🇷",
         "pr": 17381,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kenrop",
         "x_handle": "@KenropFN",
         "x_url": "https://x.com/KenropFN",
-        "joined": "2024-06-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/KenropFN",
+          "twitch": "https://twitch.tv/kenropfn"
+        }
       },
       {
-        "ign": "Maloyache",
         "name": "Maloyache",
         "country": "🇷🇺",
         "pr": 14117,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Maloyache",
         "x_handle": "@maloyache32",
         "x_url": "https://x.com/maloyache32",
-        "joined": "2024-10-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/maloyache32",
+          "twitch": "https://twitch.tv/maloyache",
+          "youtube": "https://youtube.com/channel/UC3DFZ4SkrF3bQ61_pYN7ICQ"
+        }
       },
       {
-        "ign": "Foczka",
         "name": "Foczka",
         "country": "🇵🇱",
         "pr": 12500,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Foczka",
         "x_handle": "@foczka_fn",
         "x_url": "https://x.com/foczka_fn",
-        "joined": "2025-02-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/foczka_fn"
+        }
       }
     ],
     "wooka-esport": [
       {
-        "ign": "Szarik",
         "name": "Szarik",
         "country": "🇵🇱",
         "pr": 13161,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Szarik",
         "x_handle": "@szarik17",
         "x_url": "https://x.com/szarik17",
-        "joined": "2023-11-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/szarik17"
+        }
       },
       {
-        "ign": "Matez",
         "name": "Matez",
         "country": "🇵🇱",
         "pr": 10690,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Matez",
         "x_handle": "@mateziak_",
         "x_url": "https://x.com/mateziak_",
-        "joined": "2024-04-10",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/mateziak_"
+        }
       },
       {
-        "ign": "Kizers",
         "name": "Kizers",
         "country": "🇵🇱",
         "pr": 9465,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kizers",
         "x_handle": "@Kizers_",
         "x_url": "https://x.com/Kizers_",
-        "joined": "2024-08-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Kizers_",
+          "twitch": "https://twitch.tv/kizers77"
+        }
       },
       {
-        "ign": "Ferdy",
         "name": "Ferdy",
         "country": "🇫🇷",
         "pr": 8683,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ferdy",
         "x_handle": "@Ferdy_ftn",
         "x_url": "https://x.com/Ferdy_ftn",
-        "joined": "2025-01-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Ferdy_ftn"
+        }
       }
     ],
     "vulcan-esport": [
       {
-        "ign": "Izzi",
         "name": "Izzi",
         "country": "🇫🇷",
         "pr": 12377,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Izzi",
         "x_handle": "@izziFNBR",
         "x_url": "https://x.com/izziFNBR",
-        "joined": "2024-06-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/izziFNBR"
+        }
       },
       {
-        "ign": "Tarpz",
         "name": "Tarpz",
         "country": "🇫🇷",
         "pr": 10053,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tarpz",
         "x_handle": "@Tarpz7",
         "x_url": "https://x.com/Tarpz7",
-        "joined": "2024-07-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Tarpz7",
+          "youtube": "https://youtube.com/@tarpz5614"
+        }
       },
       {
-        "ign": "Vexi",
         "name": "Vexi",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 8902,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vexi",
         "x_handle": "@vexi7k",
         "x_url": "https://x.com/vexi7k",
-        "joined": "2024-09-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/vexi7k",
+          "twitch": "https://twitch.tv/vexxxi_",
+          "youtube": "https://youtube.com/channel/UCji2DHu6kZEES1pvYJe7orQ"
+        }
       },
       {
-        "ign": "Zarb",
         "name": "Zarb",
         "country": "🇫🇷",
         "pr": 8166,
-        "x_handle": "@vulcanesport_",
-        "x_url": "https://x.com/vulcanesport_",
-        "joined": "2025-01-10",
-        "status": "Partenaire"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zarb",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "orphee-esport": [
       {
-        "ign": "Fnam",
-        "name": "Fnam",
+        "name": "Fnajen",
         "country": "🇫🇷",
         "pr": 11907,
-        "x_handle": "@ORPHEE_Esport",
-        "x_url": "https://x.com/ORPHEE_Esport",
-        "joined": "2024-05-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Fnajen",
+        "x_handle": "@Fnajen_",
+        "x_url": "https://x.com/Fnajen_",
+        "socials": {
+          "x": "https://x.com/Fnajen_",
+          "twitch": "https://twitch.tv/fnajen",
+          "youtube": "https://youtube.com/channel/UCSz5JWeQdRP5NjMcTBGM-3A"
+        }
       },
       {
-        "ign": "Kulb",
         "name": "Kulb",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 9672,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kulb",
         "x_handle": "@kulb_",
         "x_url": "https://x.com/kulb_",
-        "joined": "2024-08-10",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/kulb_",
+          "twitch": "https://twitch.tv/kulb_"
+        }
       },
       {
-        "ign": "Artist",
         "name": "Artist",
         "country": "🇫🇷",
         "pr": 8564,
-        "x_handle": "@ORPHEE_Esport",
-        "x_url": "https://x.com/ORPHEE_Esport",
-        "joined": "2024-11-01",
-        "status": "Contrat Actif"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Artist",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Adrx",
         "name": "Adrx",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 7856,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Adrx",
         "x_handle": "@Adrxfn6",
         "x_url": "https://x.com/Adrxfn6",
-        "joined": "2025-02-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Adrxfn6",
+          "twitch": "https://twitch.tv/adrxfnbr"
+        }
       }
     ],
     "trkf-esport": [
       {
-        "ign": "flex",
+        "name": "dandepuzo",
+        "country": "🇵🇱",
+        "pr": 10654,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/dandepuzo",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      },
+      {
         "name": "flex",
         "country": "🇫🇷",
-        "pr": 13430,
+        "pr": 8653,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/flex",
         "x_handle": "@flex",
         "x_url": "https://x.com/flex",
-        "joined": "2024-03-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/flex"
+        }
       },
       {
-        "ign": "Damage",
         "name": "Damage",
-        "country": "🇫🇷",
-        "pr": 10909,
+        "country": "🇵🇱",
+        "pr": 7662,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Damage",
         "x_handle": "@Damxge_",
         "x_url": "https://x.com/Damxge_",
-        "joined": "2024-06-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Damxge_",
+          "twitch": "https://twitch.tv/Damage_"
+        }
       },
       {
-        "ign": "Nero",
         "name": "Nero",
-        "country": "🇫🇷",
-        "pr": 9659,
+        "country": "🇵🇱",
+        "pr": 7029,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nero",
         "x_handle": "@nerofnf",
         "x_url": "https://x.com/nerofnf",
-        "joined": "2024-09-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/nerofnf"
+        }
       }
     ],
     "pandore-esport": [
       {
-        "ign": "Huty",
         "name": "Huty",
         "country": "🇫🇷",
         "pr": 12838,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Huty",
         "x_handle": "@HutyFN",
         "x_url": "https://x.com/HutyFN",
-        "joined": "2023-09-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/HutyFN",
+          "twitch": "https://twitch.tv/hutantak",
+          "youtube": "https://youtube.com/channel/UCjhDI2IP94mDjdd6jajb6rQ",
+          "instagram": "https://instagram.com/hutyfn"
+        }
       },
       {
-        "ign": "Triix",
         "name": "Triix",
         "country": "🇫🇷",
         "pr": 10427,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Triix",
         "x_handle": "@triixftn",
         "x_url": "https://x.com/triixftn",
-        "joined": "2023-10-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/triixftn",
+          "twitch": "https://twitch.tv/triixftn"
+        }
       },
       {
-        "ign": "Winther",
         "name": "Winther",
-        "country": "🇩🇰",
+        "country": "🇫🇷",
         "pr": 9233,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Winther",
         "x_handle": "@Wintherwnl",
         "x_url": "https://x.com/Wintherwnl",
-        "joined": "2024-02-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Wintherwnl"
+        }
       }
     ],
     "now-esport": [
       {
-        "ign": "chrisc",
         "name": "chrisc",
         "country": "🇫🇷",
         "pr": 9087,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/chrisc",
         "x_handle": "@chriscfn",
         "x_url": "https://x.com/chriscfn",
-        "joined": "2024-02-10",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/chriscfn"
+        }
       },
       {
-        "ign": "Klayzz",
         "name": "Klayzz",
         "country": "🇫🇷",
         "pr": 7381,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Klayzz",
         "x_handle": "@KlayzzzFn",
         "x_url": "https://x.com/KlayzzzFn",
-        "joined": "2024-05-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/KlayzzzFn"
+        }
       },
       {
-        "ign": "Squzy",
         "name": "Squzy",
         "country": "🇫🇷",
         "pr": 6535,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Squzy",
         "x_handle": "@Squzy2",
         "x_url": "https://x.com/Squzy2",
-        "joined": "2024-08-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Squzy2"
+        }
       },
       {
-        "ign": "Maloyache",
         "name": "Maloyache",
         "country": "🇷🇺",
         "pr": 5995,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Maloyache",
         "x_handle": "@maloyache32",
         "x_url": "https://x.com/maloyache32",
-        "joined": "2024-11-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/maloyache32",
+          "twitch": "https://twitch.tv/maloyache",
+          "youtube": "https://youtube.com/channel/UC3DFZ4SkrF3bQ61_pYN7ICQ"
+        }
       }
     ],
     "poyo-esports": [
       {
-        "ign": "SnozQ",
         "name": "SnozQ",
-        "country": "🇫🇷",
+        "country": "🇩🇰",
         "pr": 8774,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SnozQ",
         "x_handle": "@snozQFN",
         "x_url": "https://x.com/snozQFN",
-        "joined": "2024-04-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/snozQFN",
+          "twitch": "https://twitch.tv/snozq"
+        }
       },
       {
-        "ign": "iFrOzi",
         "name": "iFrOzi",
-        "country": "🇫🇷",
+        "country": "🇷🇺",
         "pr": 7126,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/iFrOzi",
         "x_handle": "@iFr0zi_",
         "x_url": "https://x.com/iFr0zi_",
-        "joined": "2024-06-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/iFr0zi_"
+        }
       },
       {
-        "ign": "Shadox",
         "name": "Shadox",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 6310,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Shadox",
         "x_handle": "@ShadoxFN",
         "x_url": "https://x.com/ShadoxFN",
-        "joined": "2024-09-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/ShadoxFN"
+        }
       },
       {
-        "ign": "Repairs",
         "name": "Repairs",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 5788,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Repairs",
         "x_handle": "@RepairsFN",
         "x_url": "https://x.com/RepairsFN",
-        "joined": "2025-01-10",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/RepairsFN",
+          "twitch": "https://twitch.tv/itsRepairs",
+          "youtube": "https://youtube.com/channel/UCwgCyRXqzcnZxqF3hR8fxsg",
+          "instagram": "https://instagram.com/repairsfn"
+        }
       }
     ],
     "lynox-esport": [
       {
-        "ign": "Heror3h",
         "name": "Heror3h",
-        "country": "🌍",
-        "pr": 15174,
+        "country": "🇷🇺",
+        "pr": 8617,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Heror3h",
         "x_handle": "@herorehFN",
         "x_url": "https://x.com/herorehFN",
-        "joined": "2024-05-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/herorehFN",
+          "youtube": "https://youtube.com/@herorehfn"
+        }
       },
       {
-        "ign": "xzeevit4k",
-        "name": "xzeevit4k",
+        "name": "Zayni",
         "country": "🇫🇷",
-        "pr": 12325,
-        "x_handle": "@LynoXEU",
-        "x_url": "https://x.com/LynoXEU",
-        "joined": "2024-01-15",
-        "status": "Contrat Actif"
+        "pr": 6999,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zayni",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      },
+      {
+        "name": "xzeevit",
+        "country": "🇵🇱",
+        "pr": 6197,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/xzeevit",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      },
+      {
+        "name": "4ik",
+        "country": "🌍",
+        "pr": 5685,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/4ik",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "eoz-esport": [
       {
-        "ign": "Mystiqul",
         "name": "Mystiqul",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 8460,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Mystiqul",
         "x_handle": "@Mystiqul",
         "x_url": "https://x.com/Mystiqul",
-        "joined": "2024-02-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Mystiqul"
+        }
       },
       {
-        "ign": "Spexx",
         "name": "Spexx",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 6872,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Spexx",
         "x_handle": "@Spexxfnr",
         "x_url": "https://x.com/Spexxfnr",
-        "joined": "2024-06-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Spexxfnr",
+          "youtube": "https://youtube.com/channel/UCwFc7op98WCU3tK3H95JS0Q"
+        }
       },
       {
-        "ign": "S1neD",
         "name": "S1neD",
         "country": "🇫🇷",
         "pr": 6085,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/S1neD",
         "x_handle": "@S1neDfnn",
         "x_url": "https://x.com/S1neDfnn",
-        "joined": "2024-08-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/S1neDfnn",
+          "twitch": "https://twitch.tv/s1nedfn",
+          "youtube": "https://youtube.com/@S1neDfnn",
+          "instagram": "https://instagram.com/s1ned__"
+        }
       },
       {
-        "ign": "Hedra",
         "name": "Hedra",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 5581,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hedra",
         "x_handle": "@Hedrafn",
         "x_url": "https://x.com/Hedrafn",
-        "joined": "2025-01-20",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Hedrafn",
+          "youtube": "https://youtube.com/channel/UC1uauciEfPksqEMlja4pIBg"
+        }
       }
     ],
     "ekinox-esports": [
       {
-        "ign": "Mirooz",
         "name": "Mirooz",
         "country": "🇫🇷",
         "pr": 8304,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Mirooz",
         "x_handle": "@Mirooz10",
         "x_url": "https://x.com/Mirooz10",
-        "joined": "2024-03-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Mirooz10"
+        }
       },
       {
-        "ign": "nayzix7",
         "name": "nayzix7",
         "country": "🇫🇷",
         "pr": 6744,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/nayzix",
         "x_handle": "@nayzixfn1",
         "x_url": "https://x.com/nayzixfn1",
-        "joined": "2024-05-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/nayzixfn1"
+        }
       },
       {
-        "ign": "Exqu",
         "name": "Exqu",
         "country": "🇫🇷",
         "pr": 5972,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Exqu",
         "x_handle": "@exqu777",
         "x_url": "https://x.com/exqu777",
-        "joined": "2024-08-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/exqu777"
+        }
       },
       {
-        "ign": "Misha",
         "name": "Misha",
         "country": "🇫🇷",
         "pr": 5478,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Misha",
         "x_handle": "@MishaFNBR",
         "x_url": "https://x.com/MishaFNBR",
-        "joined": "2024-11-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/MishaFNBR"
+        }
       }
     ],
     "wip-esports": [
       {
-        "ign": "Velryy",
         "name": "Velryy",
         "country": "🇫🇷",
         "pr": 11587,
-        "x_handle": "@wipesports",
-        "x_url": "https://x.com/wipesports",
-        "joined": "2023-10-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Velryy",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Kielba",
         "name": "Kielba",
         "country": "🇵🇱",
         "pr": 9412,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kielba",
         "x_handle": "@Kieba12",
         "x_url": "https://x.com/Kieba12",
-        "joined": "2024-06-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Kieba12",
+          "twitch": "https://twitch.tv/kielba__"
+        }
       }
     ],
     "haikoo": [
       {
-        "ign": "Maciak",
         "name": "Maciak",
         "country": "🇵🇱",
         "pr": 7703,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Maciak",
         "x_handle": "@MaciakFN3",
         "x_url": "https://x.com/MaciakFN3",
-        "joined": "2024-04-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/MaciakFN3"
+        }
       },
       {
-        "ign": "Joshbot",
         "name": "Joshbot",
-        "country": "🇬🇧",
+        "country": "🇩🇰",
         "pr": 6256,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Joshbot",
         "x_handle": "@joshbotfv",
         "x_url": "https://x.com/joshbotfv",
-        "joined": "2024-08-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/joshbotfv",
+          "twitch": "https://twitch.tv/joshbotfnbr",
+          "youtube": "https://youtube.com/channel/UCeCelAsxUSeMHWYbNptudUA"
+        }
       },
       {
-        "ign": "Kielba",
         "name": "Kielba",
         "country": "🇵🇱",
         "pr": 5540,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kielba",
         "x_handle": "@Kieba12",
         "x_url": "https://x.com/Kieba12",
-        "joined": "2024-10-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Kieba12",
+          "twitch": "https://twitch.tv/kielba__"
+        }
       }
     ],
     "g3nz-esport": [
       {
-        "ign": "Ary",
         "name": "Ary",
         "country": "🇫🇷",
         "pr": 5483,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ary",
         "x_handle": "@EgoistAry",
         "x_url": "https://x.com/EgoistAry",
-        "joined": "2024-02-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/EgoistAry"
+        }
       },
       {
-        "ign": "2Trash1zr",
         "name": "2Trash1zr",
         "country": "🇫🇷",
         "pr": 4454,
-        "x_handle": "@G3nZEsport",
-        "x_url": "https://x.com/G3nZEsport",
-        "joined": "2024-06-01",
-        "status": "Partenaire"
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/2Trash1zr",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Efexy",
         "name": "Efexy",
-        "country": "🇫🇷",
+        "country": "🇸🇪",
         "pr": 3944,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Efexy",
         "x_handle": "@Efexyfnbr",
         "x_url": "https://x.com/Efexyfnbr",
-        "joined": "2024-09-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Efexyfnbr",
+          "twitch": "https://twitch.tv/efexyfnbr",
+          "youtube": "https://youtube.com/@efexyfn"
+        }
       },
       {
-        "ign": "SereN",
         "name": "SereN",
-        "country": "🇫🇷",
+        "country": "🇵🇱",
         "pr": 3617,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SereN",
         "x_handle": "@SereNFN4",
         "x_url": "https://x.com/SereNFN4",
-        "joined": "2025-01-05",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/SereNFN4"
+        }
       }
     ],
     "bk-rog": [
       {
-        "ign": "Hris",
         "name": "Hris",
-        "country": "🇫🇷",
+        "country": "🇧🇬",
         "pr": 13500,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hris",
         "x_handle": "@HrisFN",
         "x_url": "https://x.com/HrisFN",
-        "joined": "2024-05-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/HrisFN",
+          "twitch": "https://twitch.tv/hrisfn4",
+          "youtube": "https://youtube.com/@hrisfn4726"
+        }
       }
     ],
     "novix-esport": [
       {
-        "ign": "Okram",
         "name": "Okram",
         "country": "🇫🇷",
-        "pr": 4819,
+        "pr": 3822,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Okram",
         "x_handle": "@Okramfn_",
         "x_url": "https://x.com/Okramfn_",
-        "joined": "2024-07-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Okramfn_"
+        }
       },
       {
-        "ign": "Actfv",
         "name": "Actfv",
         "country": "🇫🇷",
-        "pr": 3914,
-        "x_handle": "@NovixEsport",
-        "x_url": "https://x.com/NovixEsport",
-        "joined": "2024-09-15",
-        "status": "Contrat Actif"
+        "pr": 3105,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Actfv",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Joanee",
+        "name": "Tenq",
+        "country": "🇫🇷",
+        "pr": 2749,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tenq",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      },
+      {
         "name": "Joanee",
         "country": "🇫🇷",
-        "pr": 3466,
+        "pr": 2522,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Joanee",
         "x_handle": "@Joanee2k",
         "x_url": "https://x.com/Joanee2k",
-        "joined": "2025-01-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Joanee2k"
+        }
       }
     ],
     "australe-esport": [
       {
-        "ign": "freuzi",
         "name": "freuzi",
         "country": "🇫🇷",
         "pr": 6345,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/freuzi",
         "x_handle": "@freuzii",
         "x_url": "https://x.com/freuzii",
-        "joined": "2024-06-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/freuzii",
+          "twitch": "https://twitch.tv/freuzii",
+          "youtube": "https://youtube.com/channel/UCREg2cC9vipv8NyuQfVUHWg"
+        }
       },
       {
-        "ign": "Kaktus",
         "name": "Kaktus",
         "country": "🇫🇷",
         "pr": 5154,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kaktus",
         "x_handle": "@kaktusfnbr1",
         "x_url": "https://x.com/kaktusfnbr1",
-        "joined": "2024-10-15",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/kaktusfnbr1"
+        }
       }
     ],
     "valiant": [
       {
-        "ign": "Trulex",
         "name": "Trulex",
         "country": "🇷🇸",
         "pr": 5959,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Trulex",
         "x_handle": "@TrulexFN",
         "x_url": "https://x.com/TrulexFN",
-        "joined": "2024-08-01",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/TrulexFN"
+        }
       },
       {
-        "ign": "Robabz",
         "name": "Robabz",
-        "country": "🇫🇷",
+        "country": "🇩🇰",
         "pr": 4840,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Robabz",
         "x_handle": "@Robabz_",
         "x_url": "https://x.com/Robabz_",
-        "joined": "2024-10-10",
-        "status": "Partenaire"
+        "socials": {
+          "x": "https://x.com/Robabz_",
+          "twitch": "https://twitch.tv/Robabztv",
+          "youtube": "https://youtube.com/channel/UCPE1B0BfJ4jYuu1LWPY8aXQ",
+          "tiktok": "https://tiktok.com/@robabzz",
+          "instagram": "https://instagram.com/robabz_"
+        }
       }
     ],
     "reality-zone": [
       {
-        "ign": "Nayro",
         "name": "Nayro",
         "country": "🇫🇷",
         "pr": 3752,
-        "x_handle": "@RealityZoned",
-        "x_url": "https://x.com/RealityZoned",
-        "joined": "2023-05-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nayro",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Kyli",
         "name": "Kyli",
         "country": "🇫🇷",
         "pr": 3048,
-        "x_handle": "@RealityZoned",
-        "x_url": "https://x.com/RealityZoned",
-        "joined": "2023-08-15",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kyli",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Zeyko",
         "name": "Zeyko",
         "country": "🇫🇷",
         "pr": 2699,
-        "x_handle": "@RealityZoned",
-        "x_url": "https://x.com/RealityZoned",
-        "joined": "2024-01-10",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zeyko",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "team-fake": [
       {
-        "ign": "Zeka",
         "name": "Zeka",
         "country": "🇫🇷",
         "pr": 3239,
-        "x_handle": "@TeamFake_esport",
-        "x_url": "https://x.com/TeamFake_esport",
-        "joined": "2023-06-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zeka",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Krox",
         "name": "Krox",
         "country": "🇫🇷",
         "pr": 2631,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Krox",
         "x_handle": "@Kroxftn",
         "x_url": "https://x.com/Kroxftn",
-        "joined": "2023-09-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/Kroxftn"
+        }
       },
       {
-        "ign": "Skyll",
         "name": "Skyll",
         "country": "🇫🇷",
         "pr": 2329,
-        "x_handle": "@TeamFake_esport",
-        "x_url": "https://x.com/TeamFake_esport",
-        "joined": "2024-02-10",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Skyll",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "team-bsk": [
       {
-        "ign": "Shado",
         "name": "Shado",
         "country": "🇫🇷",
         "pr": 2804,
-        "x_handle": "@TeamBSK_",
-        "x_url": "https://x.com/TeamBSK_",
-        "joined": "2023-04-10",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Shado",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Kenza",
         "name": "Kenza",
         "country": "🇫🇷",
         "pr": 2278,
-        "x_handle": "@TeamBSK_",
-        "x_url": "https://x.com/TeamBSK_",
-        "joined": "2023-07-20",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kenza",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Vortex",
         "name": "Vortex",
         "country": "🇫🇷",
         "pr": 2017,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vortex",
         "x_handle": "@vortexfnrr",
         "x_url": "https://x.com/vortexfnrr",
-        "joined": "2024-01-05",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/vortexfnrr",
+          "twitch": "https://twitch.tv/vortexr",
+          "youtube": "https://youtube.com/channel/UCSrTKzXqU6FMy1Lv8QayVfA",
+          "instagram": "https://instagram.com/vortexfnbr"
+        }
       }
     ],
     "aten-esport": [
       {
-        "ign": "Atenz",
         "name": "Atenz",
         "country": "🇫🇷",
         "pr": 2528,
-        "x_handle": "@AtenEsport",
-        "x_url": "https://x.com/AtenEsport",
-        "joined": "2023-02-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Atenz",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Skyze",
         "name": "Skyze",
         "country": "🇫🇷",
         "pr": 2053,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Skyze",
         "x_handle": "@SkyzeFN",
         "x_url": "https://x.com/SkyzeFN",
-        "joined": "2023-05-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/SkyzeFN"
+        }
       },
       {
-        "ign": "Nox",
         "name": "Nox",
         "country": "🇫🇷",
         "pr": 1818,
-        "x_handle": "@AtenEsport",
-        "x_url": "https://x.com/AtenEsport",
-        "joined": "2023-09-10",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nox",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "jupitar-esport": [
       {
-        "ign": "Jupi",
         "name": "Jupi",
         "country": "🇫🇷",
         "pr": 2291,
-        "x_handle": "@JupitarEsport",
-        "x_url": "https://x.com/JupitarEsport",
-        "joined": "2023-03-10",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Jupi",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Star",
         "name": "Star",
         "country": "🇫🇷",
         "pr": 1860,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Star",
         "x_handle": "@RealllSTAR",
         "x_url": "https://x.com/RealllSTAR",
-        "joined": "2023-06-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/RealllSTAR",
+          "twitch": "https://twitch.tv/kings__star",
+          "youtube": "https://youtube.com/channel/UC7ko_DIXPzdJPAExhiRkqQA"
+        }
       },
       {
-        "ign": "Krono",
         "name": "Krono",
         "country": "🇫🇷",
         "pr": 1647,
-        "x_handle": "@JupitarEsport",
-        "x_url": "https://x.com/JupitarEsport",
-        "joined": "2023-11-20",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Krono",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "odious-esport": [
       {
-        "ign": "Odi",
         "name": "Odi",
         "country": "🇫🇷",
         "pr": 2054,
-        "x_handle": "@OdiousEsport",
-        "x_url": "https://x.com/OdiousEsport",
-        "joined": "2023-04-15",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Odi",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Rage",
         "name": "Rage",
         "country": "🇫🇷",
         "pr": 1668,
-        "x_handle": "@OdiousEsport",
-        "x_url": "https://x.com/OdiousEsport",
-        "joined": "2023-08-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Rage",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Viper",
         "name": "Viper",
         "country": "🇫🇷",
         "pr": 1477,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Viper",
         "x_handle": "@viperxdd",
         "x_url": "https://x.com/viperxdd",
-        "joined": "2024-01-15",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/viperxdd"
+        }
       }
     ],
     "paps-esport": [
       {
-        "ign": "Papito",
         "name": "Papito",
         "country": "🇫🇷",
         "pr": 1817,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Papito",
         "x_handle": "@FnPapito",
         "x_url": "https://x.com/FnPapito",
-        "joined": "2023-05-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/FnPapito",
+          "twitch": "https://twitch.tv/papitofn"
+        }
       },
       {
-        "ign": "Slay",
         "name": "Slay",
         "country": "🇫🇷",
         "pr": 1475,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Slay",
         "x_handle": "@ISlayFN",
         "x_url": "https://x.com/ISlayFN",
-        "joined": "2023-09-01",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/ISlayFN"
+        }
       },
       {
-        "ign": "Zen",
         "name": "Zen",
         "country": "🇫🇷",
         "pr": 1306,
-        "x_handle": "@PapsEsport",
-        "x_url": "https://x.com/PapsEsport",
-        "joined": "2024-02-15",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zen",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "pandaria-esport": [
       {
-        "ign": "Panda",
         "name": "Panda",
         "country": "🇫🇷",
         "pr": 1540,
-        "x_handle": "@EsportPandaria",
-        "x_url": "https://x.com/EsportPandaria",
-        "joined": "2023-07-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Panda",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Bamboo",
         "name": "Bamboo",
         "country": "🇫🇷",
         "pr": 1251,
-        "x_handle": "@EsportPandaria",
-        "x_url": "https://x.com/EsportPandaria",
-        "joined": "2023-10-15",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Bamboo",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Lotus",
         "name": "Lotus",
         "country": "🇫🇷",
         "pr": 1108,
-        "x_handle": "@EsportPandaria",
-        "x_url": "https://x.com/EsportPandaria",
-        "joined": "2024-03-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Lotus",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       }
     ],
     "fly-again": [
       {
-        "ign": "Flyer",
         "name": "Flyer",
         "country": "🇫🇷",
         "pr": 1264,
-        "x_handle": "@FlyAgainTeam",
-        "x_url": "https://x.com/FlyAgainTeam",
-        "joined": "2023-08-01",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Flyer",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
       },
       {
-        "ign": "Wing",
         "name": "Wing",
         "country": "🇫🇷",
         "pr": 1026,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Wing",
         "x_handle": "@WingS_fn",
         "x_url": "https://x.com/WingS_fn",
-        "joined": "2023-11-10",
-        "status": "Contrat Actif"
+        "socials": {
+          "x": "https://x.com/WingS_fn"
+        }
       },
       {
-        "ign": "Glide",
         "name": "Glide",
         "country": "🇫🇷",
         "pr": 909,
-        "x_handle": "@FlyAgainTeam",
-        "x_url": "https://x.com/FlyAgainTeam",
-        "joined": "2024-04-15",
-        "status": "Contrat Actif"
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Glide",
+        "x_handle": null,
+        "x_url": null,
+        "socials": {}
+      }
+    ],
+    "zerance": [
+      {
+        "name": "Darkos",
+        "country": "🇫🇷",
+        "pr": 2500,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Darkos",
+        "x_handle": "@Darkos_ftn",
+        "x_url": "https://x.com/Darkos_ftn",
+        "socials": {
+          "x": "https://x.com/Darkos_ftn",
+          "twitch": "https://twitch.tv/darkosftn",
+          "youtube": "https://youtube.com/@Darkosftn"
+        }
       }
     ]
   }
