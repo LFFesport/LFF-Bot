@@ -113,7 +113,7 @@ def compute_standings(year=2025):
         print(f"{rank_str:<6} {club_display:<28} {c['tier']:<12} {pts_str:>15}")
 
     print("-" * 80)
-    print("ℹ️ Règle appliquée : Attribution des points sous contrat uniquement + Top 4 Scorers.")
+    print("ℹ️ Règle appliquée : Attribution des points sous contrat uniquement + Effectifs complets.")
     return sorted_clubs
 
 def main():

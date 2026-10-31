@@ -198,7 +198,7 @@ Le but ultime est de décerner à la fin de chaque année civile le prestigieux 
 
 ### C. Formule de Calcul du Power Ranking LFF
 Deux classements coexistent pour une visibilité totale :
-* **Classement Annuel (LFF Championship)** : Cumul des points officiels marqués au cours de l'année civile (1er janvier au 31 décembre). Pour garantir l'équité entre clubs de tailles différentes, seuls les points des **Top 4 joueurs les plus performants** du club sont retenus par tranche de tournois.
+* **Classement Annuel (LFF Championship)** : Cumul des points officiels marqués au cours de l'année civile (1er janvier au 31 décembre). L'ensemble complet des joueurs ayant défendu les couleurs du club est affiché et représenté (les joueurs partis étant signalés par un astérisque `*`).
 * **Classement Dynamique (LFF Live PR)** : Moyenne pondérée du PR instantané des joueurs actifs actuels du club (pour visualiser la force de frappe du club aujourd'hui).
 
 ---
