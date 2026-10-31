@@ -903,60 +903,29 @@
     <!-- SECTION PRINCIPALE : CLASSEMENTS (ANNUEL OU LIVE) -->
     <div id="tab-rankings" class="tab-content active">
 
-      <!-- EXPLICATION & SWITCHER DU MODE DE CLASSEMENT -->
-  <div class="hero-banner">
-    <div class="modes-comparison-card">
-      <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
-        <div>
-          <h2 style="font-family: 'Teko', sans-serif; font-size: 2.2rem; line-height: 1; text-transform: uppercase; color: white;">
-            COMPRENDRE LES DEUX CLASSEMENTS DE LA LFF
-          </h2>
-          <p style="color: var(--text-dim); font-size: 0.9rem;">
-            Cliquez sur un des deux modes ci-dessous pour afficher le classement correspondant :
-          </p>
-        </div>
-        <div style="display: flex; gap: 0.5rem;">
-          <span class="badge-pill gold">Règle "No Buying PR"</span>
-          <span class="badge-pill blue">100% Joueurs Internationaux</span>
+      <!-- EN-TÊTE DU CLASSEMENT OFFICIEL -->
+      <div class="hero-banner">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; width: 100%;">
+          <div>
+            <div style="font-family: 'Rajdhani', sans-serif; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.15em; color: var(--purple-accent); text-transform: uppercase;">
+              COURSE AU TITRE (2018 - AUJOURD'HUI)
+            </div>
+            <h2 style="font-family: 'Teko', sans-serif; font-size: 2.4rem; line-height: 1; text-transform: uppercase; color: white; margin: 4px 0;">
+              CLASSEMENT OFFICIEL DE LA LFF
+            </h2>
+            <p style="color: var(--text-dim); font-size: 0.9rem; margin: 0;">
+              Le barème officiel de la Ligue Française de Fortnite basé sur les performances Fortnite Tracker.
+            </p>
+          </div>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge-pill gold">1 Point LFF = 1 Point Tracker</span>
+            <span class="badge-pill purple">Règle "No Buying PR"</span>
+            <span class="badge-pill blue">100% Joueurs Internationaux</span>
+          </div>
         </div>
       </div>
 
-      <div class="modes-grid">
-        <!-- MODE 1 : CLASSEMENT ANNUEL -->
-        <div class="mode-box selected" id="box-annual" onclick="selectRankingMode('annual')">
-          <div class="mode-header">
-            <span class="mode-icon">🏆</span>
-            <div>
-              <div class="mode-subtitle">COURSE AU TITRE ANNUEL (2018 - AUJOURD'HUI)</div>
-              <div class="mode-title">Classement Annuel (Championship)</div>
-            </div>
-          </div>
-          <p class="mode-desc">
-            <strong>C'est le championnat de l'année civile (1er janvier au 31 décembre).</strong><br>
-            Les clubs accumulent des points lors de chaque tournoi officiel disputé par leurs joueurs sous contrat. À la fin de l'année, le 1er est sacré <strong>Club Champion de France</strong>. Vous pouvez consulter l'historique complet de chaque année depuis 2018.
-          </p>
-        </div>
-
-        <!-- MODE 2 : CLASSEMENT LIVE -->
-        <div class="mode-box" id="box-live" onclick="selectRankingMode('live')">
-          <div class="mode-header">
-            <span class="mode-icon">⚡</span>
-            <div>
-              <div class="mode-subtitle">Force du Moment (Temps Réel)</div>
-              <div class="mode-title">Classement Live (Power Index)</div>
-            </div>
-          </div>
-          <p class="mode-desc">
-            <strong>C'est la « photo instantanée » d'aujourd'hui.</strong><br>
-            Il additionne le Power Ranking individuel actuel (sur Fortnite Tracker) des joueurs sous contrat dans le club <em>en ce moment même</em>. Si un club recrute un crack ce matin, son classement Live grimpe immédiatement cet après-midi !
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-      <!-- CONTEXTE DU CLASSEMENT ANNUEL (Visible en mode Annuel) -->
+      <!-- CONTEXTE DU CLASSEMENT --><!-- CONTEXTE DU CLASSEMENT ANNUEL (Visible en mode Annuel) -->
       <div id="annual-controls-section">
         <div class="controls-bar">
           <div class="filter-group">
@@ -983,32 +952,15 @@
         </div>
       </div>
 
-      <!-- CONTEXTE DU CLASSEMENT LIVE (Visible en mode Live) -->
-      <div id="live-controls-section" style="display: none;">
-        <div class="controls-bar">
-          <div>
-            <h3 style="color: white; display: flex; align-items: center; gap: 8px;">
-              ⚡ CLASSEMENT LIVE (INDICE DE PUISSANCE ACTUEL)
-              <span class="badge-pill gold">Temps Réel</span>
-            </h3>
-            <p style="color: var(--text-dim); font-size: 0.85rem;">
-              Calculé à partir du Power Ranking officiel de Fortnite Tracker des joueurs actuellement sous contrat.
-            </p>
-          </div>
-          <input type="text" class="search-input" id="search-input-live" placeholder="🔍 Rechercher un club ou joueur..." oninput="renderRankingView()">
-        </div>
-      </div>
-
       <!-- TABLEAU DES CLASSEMENTS -->
       <div class="ranking-table-card">
         <table class="ranking-table">
           <thead>
             <tr>
               <th style="width: 70px; text-align: center;">Rang</th>
-              <th>Club</th>
+              <th>Clubs</th>
               <th id="th-roster-col">Joueurs</th>
-              <th id="th-notable-col">Faits d'armes / Titres</th>
-              <th style="text-align: right;" id="th-points-col">Points PR</th>
+              <th style="text-align: right;" id="th-points-col">Points</th>
             </tr>
           </thead>
           <tbody id="ranking-tbody">
@@ -1056,13 +1008,26 @@
 
     <!-- SECTION CLUBS -->
     <div id="tab-clubs" class="tab-content">
-      <div class="controls-bar">
+      <div class="controls-bar" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
         <div>
-          <h3 style="color: white;">🛡️ ANNUAIRE DES CLUBS FRANÇAIS (ÉLITE & CHALLENGER)</h3>
-          <p style="color: var(--text-dim); font-size: 0.85rem;">Fiches détaillées des structures enregistrées avec leurs logos officiels.</p>
+          <h3 style="color: white; margin: 0; display: flex; align-items: center; gap: 8px;">
+            🛡️ CLUBS DE LA LFF
+          </h3>
+          <p style="color: var(--text-dim); font-size: 0.85rem; margin: 4px 0 0 0;">Effectifs actuels sous contrat et total des points des structures.</p>
+        </div>
+        <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+          <input type="text" class="search-input" id="club-search-input" placeholder="🔍 Rechercher un club ou un joueur..." oninput="renderClubs()">
+          <div class="filter-group">
+            <span class="filter-label">Trier par :</span>
+            <select class="filter-select" id="club-sort-select" onchange="renderClubs()">
+              <option value="points-desc" selected>📊 Points (Décroissant)</option>
+              <option value="points-asc">📊 Points (Croissant)</option>
+              <option value="alpha-asc">🔤 Alphabétique (A - Z)</option>
+            </select>
+          </div>
         </div>
       </div>
-      <div class="clubs-grid" id="clubs-grid-container"></div>
+      <div class="clubs-grid" id="clubs-grid-container"></div><div class="clubs-grid" id="clubs-grid-container"></div>
     </div>
 
     <!-- SECTION RÈGLEMENT -->
@@ -1075,72 +1040,86 @@
           Le cadre réglementaire officiel régissant l'attribution des points, le fonctionnement des classements et l'intégrité de la Ligue Française de Fortnite.
         </p>
 
-        <!-- SECTION 1 : FONCTIONNEMENT DES DEUX CLASSEMENTS -->
-        <div style="background: rgba(147, 51, 234, 0.08); border: 1px solid rgba(168, 85, 247, 0.25); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;">
-          <h3 style="color: white; font-size: 1.3rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 8px;">
-            <span>⚖️</span> 1. Deux Classements Complémentaires : Annuel vs Live
+        <!-- SECTION 1 : ÉQUIVALENCE 1 POINT LFF = 1 POINT TRACKER -->
+        <div style="background: rgba(147, 51, 234, 0.1); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 12px; padding: 1.75rem; margin-bottom: 2rem;">
+          <h3 style="color: #f59e0b; font-size: 1.35rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 8px;">
+            <span>⚡</span> 1. Règle Fondamentale : 1 Point LFF = 1 Point Fortnite Tracker (PR)
           </h3>
-          <p style="color: #cbd5e1; font-size: 0.95rem; margin-bottom: 1.25rem;">
-            La LFF propose deux lectures distinctes et rigoureuses des performances esportives des clubs français :
+          <p style="color: #f8fafc; font-size: 1rem; line-height: 1.6; margin-bottom: 1rem;">
+            <strong>Oui, l'équivalence est totale et directe : 1 point LFF correspond rigoureusement à 1 point de Power Ranking (PR) officiel Fortnite Tracker.</strong>
           </p>
-
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem;">
-            <div style="background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 1.25rem;">
-              <h4 style="color: #f59e0b; font-size: 1.1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 6px;">
-                <span>🏆</span> Classement Annuel (Championship)
-              </h4>
-              <p style="color: #e2e8f0; font-size: 0.9rem; margin-bottom: 0.75rem;">
-                <strong>Objet :</strong> Couronner le <em>Club Champion de France de Fortnite</em> à l'issue de chaque année civile (1er janvier au 31 décembre).
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem;">
+            <div style="background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 8px; padding: 1.1rem;">
+              <h4 style="color: #38bdf8; font-size: 1rem; margin-bottom: 0.4rem;">🎯 D'où proviennent les points ?</h4>
+              <p style="color: #cbd5e1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
+                Les points proviennent des résultats obtenus par les joueurs dans les tournois compétitifs officiels organisés par Epic Games : <strong>FNCS Grands Prix, Majors, FNCS Global Championship, Victory Cups, Cash Cups et Opens officiels</strong>.
               </p>
-              <ul style="color: #cbd5e1; font-size: 0.88rem; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 6px;">
-                <li><strong>Comptabilisation des points :</strong> Cumul officiel des points de Power Ranking (PR) de l'organisation sur Fortnite Tracker Europe acquis lors des tournois officiels (FNCS, Majors, Cash Cups, Victory Cups).</li>
-                <li><strong>Effectif complet affiché :</strong> L'ensemble de tous les joueurs ayant représenté le club au cours de la saison est affiché et représenté (aucun plafonnement ou restriction artificielle aux 4 meilleurs).</li>
-                <li><strong>Anciens joueurs (<span style="color: #f59e0b;">*</span>) :</strong> En vertu de la règle de conservation des points acquis, un joueur qui a quitté le club en cours d'année conserve l'intégralité des points marqués pour le club pendant son contrat. Il est identifié par un astérisque (<code>*</code>) et un badge en pointillés.</li>
-              </ul>
             </div>
-
-            <div style="background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: 8px; padding: 1.25rem;">
-              <h4 style="color: #38bdf8; font-size: 1.1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 6px;">
-                <span>⚡</span> Classement Live (Power Index)
-              </h4>
-              <p style="color: #e2e8f0; font-size: 0.9rem; margin-bottom: 0.75rem;">
-                <strong>Objet :</strong> Mesurer la <em>force de frappe instantanée</em> de chaque club en temps réel aujourd'hui.
+            <div style="background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 8px; padding: 1.1rem;">
+              <h4 style="color: #c084fc; font-size: 1rem; margin-bottom: 0.4rem;">🛡️ Comment le club marque-t-il ?</h4>
+              <p style="color: #cbd5e1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
+                Le score total d'un club est la somme exacte des points de Power Ranking apportés par ses joueurs sous contrat. En vertu de la règle <em>« No Buying PR »</em>, un joueur commence à marquer pour le club à partir de sa date officielle de signature.
               </p>
-              <ul style="color: #cbd5e1; font-size: 0.88rem; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 6px;">
-                <li><strong>Comptabilisation des points :</strong> Somme directe du Power Ranking actuel des <strong>joueurs actifs sous contrat uniquement</strong>.</li>
-                <li><strong>Roster 100% Actif :</strong> Seuls les joueurs portant les couleurs du club à l'instant T sont affichés.</li>
-                <li><strong>Zéro ancien joueur :</strong> Dès qu'un joueur quitte la structure (LFT, Free Agent, transfert), il disparaît instantanément du Classement Live du club. Aucun astérisque n'apparaît dans ce classement.</li>
-              </ul>
+            </div>
+            <div style="background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 8px; padding: 1.1rem;">
+              <h4 style="color: #10b981; font-size: 1rem; margin-bottom: 0.4rem;">🔍 Transparence & Vérifiabilité</h4>
+              <p style="color: #cbd5e1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
+                Chaque point est public et vérifiable en un clic via les liens directs menant aux fiches personnelles Fortnite Tracker des joueurs et des clubs.
+              </p>
             </div>
           </div>
         </div>
 
-        <!-- SECTION 2 : RÈGLE NO BUYING PR -->
-        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">2. Règle d'or « No Buying PR » (Anti-Mercenariat)</h3>
+        <!-- SECTION 2 : STRUCTURE DE LA PLATEFORME LFF -->
+        <div style="background: rgba(0, 0, 0, 0.25); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;">
+          <h3 style="color: white; font-size: 1.25rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 8px;">
+            <span>📊</span> 2. Organisation de la Plateforme : Classement & Fiches Clubs
+          </h3>
+          <p style="color: #cbd5e1; font-size: 0.95rem; margin-bottom: 1rem;">
+            La LFF s'articule autour de deux espaces complémentaires :
+          </p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem;">
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: 8px; padding: 1.1rem;">
+              <h4 style="color: #f59e0b; font-size: 1.05rem; margin-bottom: 0.4rem;">🏆 Le Classement LFF (Course au Titre)</h4>
+              <p style="color: #cbd5e1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
+                C'est le grand championnat par saison (consultable de 2018 à aujourd'hui). Il consacre le Club Champion de France à la fin de chaque année civile en cumulant les points de tous les joueurs ayant défendu les couleurs du club durant la saison (les anciens joueurs étant signalés par un astérisque <code>*</code>).
+              </p>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: 8px; padding: 1.1rem;">
+              <h4 style="color: #38bdf8; font-size: 1.05rem; margin-bottom: 0.4rem;">🛡️ L'Annuaire des Clubs</h4>
+              <p style="color: #cbd5e1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
+                Présente chaque structure avec son effectif actuel sous contrat, le total des points actuels du club, ainsi que des filtres de recherche et de tri (par points décroissants, croissants et alphabétique).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 3 : RÈGLE NO BUYING PR -->
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">3. Règle d'or « No Buying PR » (Anti-Mercenariat)</h3>
         <p style="color: #cbd5e1; font-size: 0.95rem;">
           À l'image du règlement officiel de Fandom Esports et du championnat des constructeurs en Formule 1, un club n'engrange de points de Power Ranking que lors des compétitions disputées par ses joueurs <strong>pendant leur période contractuelle effective</strong>.
           Si une structure recrute un joueur disposant déjà de 50 000 points PR, le club ne bénéficie pas de ce total passé. Le joueur commence à marquer pour le club à partir de sa date officielle de signature.
         </p>
 
-        <!-- SECTION 3 : CONSERVATION DES POINTS ACQUIS -->
-        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">3. Conservation des Points Acquis par les Anciens Joueurs</h3>
+        <!-- SECTION 4 : CONSERVATION DES POINTS ACQUIS -->
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Conservation des Points Acquis par les Anciens Joueurs</h3>
         <p style="color: #cbd5e1; font-size: 0.95rem;">
           Si un joueur quitte une structure en cours d'année, l'ensemble des points qu'il a rapportés pendant sa période sous contrat reste définitivement crédité au club pour le classement annuel de la saison en cours. Ce principe fondamental empêche toute perte rétroactive et récompense l'investissement sportif de la structure.
         </p>
 
-        <!-- SECTION 4 : AFFICHAGE EXHAUSTIF DES EFFECTIFS -->
-        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Affichage Exhaustif de Tous les Joueurs (Sans Restriction à 4)</h3>
+        <!-- SECTION 5 : AFFICHAGE EXHAUSTIF DES EFFECTIFS -->
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">5. Affichage Exhaustif de Tous les Joueurs (Sans Restriction à 4)</h3>
         <p style="color: #cbd5e1; font-size: 0.95rem;">
           La Ligue Française de Fortnite valorise l'ensemble des athlètes sous contrat : <strong>tous les joueurs</strong> d'un club sont affichés et visibles dans les classements, sans coupure artificielle aux 4 meilleurs. Dans le classement annuel, tous les joueurs ayant apporté des points au cours de la saison sont listés (les anciens joueurs étant signalés par un astérisque <code>*</code>). Dans le classement Live, l'intégralité des joueurs actuellement sous contrat est représentée en temps réel.
 
-        <!-- SECTION 5 : ÉLIGIBILITÉ INTERNATIONALE -->
-        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">5. Éligibilité 100% Ouverte à l'International</h3>
+        <!-- SECTION 6 : ÉLIGIBILITÉ INTERNATIONALE -->
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">6. Éligibilité 100% Ouverte à l'International</h3>
         <p style="color: #cbd5e1; font-size: 0.95rem;">
           Les joueurs sous contrat avec un club français <strong>n'ont aucune obligation d'être de nationalité française</strong>. Les athlètes internationaux (ex: SwizzY, Pixie, Vanyak3kk, Malibuca, Merstach, Veno) marquent 100% de leurs points pour leur club français, avec les mêmes barèmes qu'un joueur tricolore.
         </p>
 
-        <!-- SECTION 6 : PROTOCOLE D'INTÉGRITÉ ANTI-ERREUR -->
-        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">6. Protocole de Veille & d'Intégrité Anti-Erreur Multi-Plateformes</h3>
+        <!-- SECTION 7 : PROTOCOLE D'INTÉGRITÉ ANTI-ERREUR -->
+        <h3 style="color: white; margin-top: 1.5rem; margin-bottom: 0.5rem;">7. Protocole de Veille & d'Intégrité Anti-Erreur Multi-Plateformes</h3>
         <p style="color: #cbd5e1; font-size: 0.95rem; margin-bottom: 0.75rem;">
           Pour éliminer toute hallucination ou attribution erronée, l'affectation de chaque joueur et le calcul du classement s'appuient sur un croisement systématique de 4 sources complémentaires (primaires et secondaires) :
         </p>
@@ -8478,40 +8457,14 @@
         if (navBtn && navBtn.classList) navBtn.classList.add('active');
       }
     }
-
-    // Basculer entre Classement Annuel et Classement Live
+    // Fonction de compatibilite
     function selectRankingMode(mode) {
-      currentMode = mode;
-      document.getElementById('box-annual').classList.toggle('selected', mode === 'annual');
-      document.getElementById('box-live').classList.toggle('selected', mode === 'live');
-
-      if (mode === 'annual') {
-        document.getElementById('annual-controls-section').style.display = 'block';
-        document.getElementById('live-controls-section').style.display = 'none';
-        document.getElementById('th-notable-col').innerText = "Faits d'armes / Titres";
-        document.getElementById('th-points-col').innerText = "Points Année LFF";
-        document.getElementById('th-roster-col').innerText = "Joueurs";
-      } else {
-        document.getElementById('annual-controls-section').style.display = 'none';
-        document.getElementById('live-controls-section').style.display = 'block';
-        document.getElementById('th-notable-col').innerText = "Détail / Tendance Live";
-        document.getElementById('th-points-col').innerText = "Live PR Total";
-        document.getElementById('th-roster-col').innerText = "Joueurs";
-      }
-
       renderRankingView();
     }
 
     // Rendu du tableau en fonction du mode actif
     function renderRankingView() {
-      const tbody = document.getElementById('ranking-tbody');
-      tbody.innerHTML = "";
-
-      if (currentMode === 'annual') {
-        renderAnnualTable();
-      } else {
-        renderLiveTable();
-      }
+      renderAnnualTable();
     }
 
     // Rendu du Classement Annuel (historique par année)
@@ -8526,12 +8479,53 @@
       discord: `<svg viewBox="0 0 24 24" width="12" height="11" fill="currentColor" aria-hidden="true" style="display:block;"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>`
     };
 
+        const COUNTRY_ISO_MAP = {
+      '🇫🇷': 'fr', 'fr': 'fr', 'FR': 'fr', 'France': 'fr',
+      '🇸🇪': 'se', 'se': 'se', 'SE': 'se', 'Suède': 'se', 'Sweden': 'se',
+      '🇩🇰': 'dk', 'dk': 'dk', 'DK': 'dk', 'Danemark': 'dk', 'Denmark': 'dk',
+      '🇷🇺': 'ru', 'ru': 'ru', 'RU': 'ru', 'Russie': 'ru', 'Russia': 'ru',
+      '🇺🇦': 'ua', 'ua': 'ua', 'UA': 'ua', 'Ukraine': 'ua',
+      '🇳🇴': 'no', 'no': 'no', 'NO': 'no', 'Norvège': 'no', 'Norway': 'no',
+      '🇨🇭': 'ch', 'ch': 'ch', 'CH': 'ch', 'Suisse': 'ch', 'Switzerland': 'ch',
+      '🇵🇱': 'pl', 'pl': 'pl', 'PL': 'pl', 'Pologne': 'pl', 'Poland': 'pl',
+      '🇮🇹': 'it', 'it': 'it', 'IT': 'it', 'Italie': 'it', 'Italy': 'it',
+      '🇨🇴': 'co', 'co': 'co', 'CO': 'co', 'Colombie': 'co', 'Colombia': 'co',
+      '🇬🇧': 'gb', 'gb': 'gb', 'GB': 'gb', 'uk': 'gb', 'UK': 'gb', 'Royaume-Uni': 'gb',
+      '🇨🇿': 'cz', 'cz': 'cz', 'CZ': 'cz', 'Tchéquie': 'cz', 'Czechia': 'cz',
+      '🇧🇬': 'bg', 'bg': 'bg', 'BG': 'bg', 'Bulgarie': 'bg', 'Bulgaria': 'bg',
+      '🇩🇪': 'de', 'de': 'de', 'DE': 'de', 'Allemagne': 'de', 'Germany': 'de',
+      '🇪🇸': 'es', 'es': 'es', 'ES': 'es', 'Espagne': 'es', 'Spain': 'es',
+      '🇧🇪': 'be', 'be': 'be', 'BE': 'be', 'Belgique': 'be', 'Belgium': 'be',
+      '🇵🇹': 'pt', 'pt': 'pt', 'PT': 'pt', 'Portugal': 'pt',
+      '🇳🇱': 'nl', 'nl': 'nl', 'NL': 'nl', 'Pays-Bas': 'nl', 'Netherlands': 'nl',
+      '🇫🇮': 'fi', 'fi': 'fi', 'FI': 'fi', 'Finlande': 'fi', 'Finland': 'fi',
+      '🇸🇮': 'si', 'si': 'si', 'SI': 'si', 'Slovénie': 'si', 'Slovenia': 'si',
+      '🇦🇹': 'at', 'at': 'at', 'AT': 'at', 'Autriche': 'at', 'Austria': 'at',
+      '🇮🇪': 'ie', 'ie': 'ie', 'IE': 'ie', 'Irlande': 'ie', 'Ireland': 'ie'
+    };
+
+    const COUNTRY_NAMES_MAP = {
+      'fr': 'France', 'se': 'Suède', 'dk': 'Danemark', 'ru': 'Russie',
+      'ua': 'Ukraine', 'no': 'Norvège', 'ch': 'Suisse', 'pl': 'Pologne',
+      'it': 'Italie', 'co': 'Colombie', 'gb': 'Royaume-Uni', 'cz': 'Tchéquie',
+      'bg': 'Bulgarie', 'de': 'Allemagne', 'es': 'Espagne', 'be': 'Belgique',
+      'pt': 'Portugal', 'nl': 'Pays-Bas', 'fi': 'Finlande', 'si': 'Slovénie',
+      'at': 'Autriche', 'ie': 'Irlande'
+    };
+
+    function getPlayerFlagHtml(country) {
+      if (!country) country = 'fr';
+      const iso = COUNTRY_ISO_MAP[country] || (country.length === 2 ? country.toLowerCase() : 'fr');
+      const countryName = COUNTRY_NAMES_MAP[iso] || 'International';
+      return `<img src="flags/${iso}.png" srcset="https://flagcdn.com/w40/${iso}.png 2x, https://flagcdn.com/w20/${iso}.png 1x" width="18" height="13" alt="${iso.toUpperCase()}" title="${countryName}" class="player-flag-img" onerror="this.outerHTML='<span class=\'player-flag-fallback\' title=\'${countryName}\'>${country}</span>'">`;
+    }
+
     function buildPlayerTagHtml(p) {
       if (!p) return '';
       
       let rawName = '';
       let isFormer = false;
-      let country = '🌍';
+      let country = 'fr';
       let trackerUrl = '';
       let socials = {};
       let pr = 0;
@@ -8542,25 +8536,59 @@
         trackerUrl = `https://fortnitetracker.com/profile/all/${encodeURIComponent(rawName)}`;
         const pData = (typeof LIVE_DATA !== 'undefined' ? LIVE_DATA.flatMap(c => c.players || []).find(x => x && typeof x === 'object' && (x.name === rawName || x.ign === rawName)) : null);
         if (pData) {
-          country = pData.country || '🌍';
+          country = pData.country || 'fr';
           socials = pData.socials || {};
-          pr = pData.pr || 0;
+          pr = pData.pr || pData.points || 0;
           if (pData.tracker_url) trackerUrl = pData.tracker_url;
-        } else if (PLAYER_X_MAP[rawName]) {
+        } else if (typeof PLAYER_X_MAP !== 'undefined' && PLAYER_X_MAP[rawName]) {
           socials = { x: PLAYER_X_MAP[rawName] };
         }
       } else {
         rawName = p.name || p.ign || '';
         isFormer = !!p.is_former;
-        country = p.country || '🌍';
+        country = p.country || 'fr';
         trackerUrl = p.tracker_url || `https://fortnitetracker.com/profile/all/${encodeURIComponent(rawName)}`;
         socials = p.socials || {};
-        pr = p.pr || 0;
+        pr = p.pr || p.points || 0;
         if (!socials.x && p.x_url) socials.x = p.x_url;
       }
 
-      if (rawName.toLowerCase() === 'pixie') {
+      const lowerName = rawName.toLowerCase();
+      if (lowerName === 'pixie') {
+        country = 'se';
         trackerUrl = "https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview";
+      } else if (lowerName === 'swizzy') {
+        country = 'ru';
+      } else if (lowerName === 'pablowingu') {
+        country = 'dk';
+      } else if (lowerName === 'tjino') {
+        country = 'se';
+      } else if (lowerName === 'wox') {
+        country = 'dk';
+      } else if (lowerName === 'vanyak3kk') {
+        country = 'ua';
+      } else if (lowerName === 'mariuscow') {
+        country = 'no';
+      } else if (lowerName === 'ghonzo') {
+        country = 'no';
+      } else if (lowerName === 'minori') {
+        country = 'ch';
+      } else if (lowerName === 'seren') {
+        country = 'pl';
+      } else if (lowerName === 'zangi') {
+        country = 'it';
+      } else if (lowerName === 'xzeevit' || lowerName === 'xzeevit4k') {
+        country = 'co';
+      } else if (lowerName === 'borsuk' || lowerName === 'foczka' || lowerName === 'szarik' || lowerName === 'matez' || lowerName === 'kizers' || lowerName === 'kielba' || lowerName === 'maciak' || lowerName === 'okram') {
+        country = 'pl';
+      } else if (lowerName === 'joshbot') {
+        country = 'gb';
+      } else if (lowerName === 'velryy') {
+        country = 'cz';
+      } else if (lowerName === 'hris') {
+        country = 'bg';
+      } else if (lowerName === 'maloyache' || lowerName === 'dandepuzo') {
+        country = 'ru';
       }
 
       let socialsHtml = '';
@@ -8571,7 +8599,9 @@
       if (socials.instagram) socialsHtml += `<a href="${socials.instagram}" target="_blank" rel="noopener noreferrer" class="social-pill insta-pill" title="Instagram de ${rawName}">${SOCIAL_ICONS.instagram}</a>`;
       if (socials.discord) socialsHtml += `<a href="${socials.discord}" target="_blank" rel="noopener noreferrer" class="social-pill discord-pill" title="Discord de ${rawName}">${SOCIAL_ICONS.discord}</a>`;
 
+      const flagHtml = getPlayerFlagHtml(country);
       const prTitle = pr ? ` - PR : ${pr.toLocaleString('fr-FR')} pts` : '';
+      const prBadge = (pr && pr > 0) ? `<span class="player-pts">${pr.toLocaleString('fr-FR')} pts</span>` : '';
       const tagClass = isFormer ? 'player-tag former-player' : 'player-tag active-player';
       const tooltip = isFormer 
         ? `Ancien joueur ayant rapporté des points au club${prTitle}` 
@@ -8579,10 +8609,11 @@
 
       return `
         <span class="${tagClass}" title="${tooltip}">
-          <span class="player-country">${country}</span>
+          ${flagHtml}
           <a href="${trackerUrl}" target="_blank" rel="noopener noreferrer" class="player-tracker-link" title="Statistiques Fortnite Tracker de ${rawName}">
             <strong>${rawName}${isFormer ? '*' : ''}</strong>
           </a>
+          ${prBadge}
           ${socialsHtml ? `<span class="social-pills-group">${socialsHtml}</span>` : ''}
         </span>
       `;
@@ -8669,7 +8700,6 @@
             ${clubSocialsHtml}
           </td>
           <td><div class="roster-tags">${playersHtml}</div></td>
-          <td><div class="notable-achievement">${c.details || c.notable || c.key_achievement || ""}</div></td>
           <td class="pr-points ${rank === 1 ? 'pr-points-gold' : ''}">🏆 ${c.points.toLocaleString('fr-FR')} pts</td>
         `;
         tbody.appendChild(tr);
@@ -8831,1074 +8861,441 @@
 
     function renderClubs() {
       const container = document.getElementById('clubs-grid-container');
+      if (!container) return;
       container.innerHTML = "";
 
-      // Liste fusionnée des clubs actuels et historiques
+      const searchInput = document.getElementById('club-search-input');
+      const sortSelect = document.getElementById('club-sort-select');
+
+      const search = searchInput ? searchInput.value.toLowerCase().trim() : '';
+      const sortMode = sortSelect ? sortSelect.value : 'points-desc';
+
+      // Base complète des clubs de la LFF
       const allClubs = [
         {
-                "id": "gentle-mates",
-                "name": "Gentle Mates",
-                "tag": "M8",
-                "desc": "Structure fondée par Gotaga, Squeezie et Brawks en 2023. Nikof (ancien joueur pro Solary/Vitality) en est le Head of Fortnite puis le CEO. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023).",
-                "xUrl": "https://x.com/GentleMates",
-                "xHandle": "@GentleMates",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Gentle_Mates"
+          "id": "havok-by-vitality",
+          "name": "HavoK by Vitality",
+          "tag": "HvK",
+          "desc": "Super-équipe née du rachat du 25 avril 2026 par Team Vitality. Sacrée Championne du Monde 2026 au Global Championship à Anvers avec son duo planétaire SwizzY & Pixie, complété par Wox, Tjino, PabloWingu, Seekk et IDrop.",
+          "xUrl": "https://x.com/HvKGGs"
         },
         {
-                "id": "karmine-corp",
-                "name": "Karmine Corp",
-                "tag": "KC",
-                "desc": "Fondée par Kameto et Prime. Arrivée explosive sur Fortnite en mai 2024 avec Malibuca, Merstach, Veno, SwizzY et Oslo en coach, dominant le PR mondial en 2024.",
-                "xUrl": "https://x.com/KarmineCorp",
-                "xHandle": "@KarmineCorp",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Karmine_Corp"
+          "id": "gentle-mates",
+          "name": "Gentle Mates",
+          "tag": "M8",
+          "desc": "Structure fondée par Gotaga, Squeezie et Brawks en 2023. Entrée fracassante sur la scène européenne avec Snayzy, Akiira, Vanyak3kk, Kurama et Rax.",
+          "xUrl": "https://x.com/GentleMates"
         },
         {
-                "id": "havok-by-vitality",
-                "name": "HavoK by Vitality",
-                "tag": "HvK",
-                "desc": "Super-équipe née du rachat du 25 avril 2026 par Team Vitality. Sacrée Championne du Monde 2026 au Global Championship à Anvers avec son duo planétaire SwizzY & Pixie, complété par Wox (5e mondial 2024), Tjino, PabloWingu (champions Major 2 2025), IDrop et Seekk (vérifiés bio X).",
-                "xUrl": "https://x.com/HvKGGs",
-                "xHandle": "@HvKGGs",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/HavoK_by_Vitality"
+          "id": "solary",
+          "name": "Solary",
+          "tag": "SLY",
+          "desc": "Le pilier historique du Fortnite français depuis 2018. Roster international composé de Ghonzo, Minori, sereN, Darkos, Zangi et XZEEVIT, sous la direction de Revenja.",
+          "xUrl": "https://x.com/SolaryTV"
         },
         {
-                "id": "team-havok",
-                "name": "Team HavoK",
-                "tag": "HVK",
-                "desc": "Structure fondée le 28 août 2024 par les YouTubeurs ZetFar et WaZz. Révélation mondiale avec Wox (5e aux Worlds FNCS 2024), vainqueur Major 2 en 2025. Rachetée le 25 avril 2026 par Team Vitality.",
-                "xUrl": "https://x.com/HvKGGs",
-                "xHandle": "@HvKGGs",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Team_HavoK"
+          "id": "lyost-esport",
+          "name": "Lyost Esport",
+          "tag": "LYS",
+          "desc": "Écurie tricolore majeure du circuit européen avec son quatuor régulier Momsy, Werex, Twek et Borsuk.",
+          "xUrl": "https://x.com/LyostEsport"
         },
         {
-                "id": "solary",
-                "name": "Solary",
-                "tag": "SLY",
-                "desc": "Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, BlastR, Vico, sereN, Darkos, XZEEVIT...).",
-                "xUrl": "https://x.com/SolaryTV",
-                "xHandle": "@SolaryTV",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Solary"
+          "id": "mga-esport",
+          "name": "MGA eSport",
+          "tag": "MGA",
+          "desc": "Structure active sur les qualifications européennes FNCS avec Syaaz et Truslo.",
+          "xUrl": "https://x.com/MGA_Esport"
         },
         {
-                "id": "vitality",
-                "name": "Team Vitality",
-                "tag": "VIT",
-                "desc": "Club pionnier tricolore (2018-2021 : Gotaga, BadSniper, Oslo, Keolys). Fait son retour au sommet le 25 avril 2026 en rachetant Team HavoK pour fonder HavoK by Vitality.",
-                "xUrl": "https://x.com/TeamVitality",
-                "xHandle": "@TeamVitality",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Team_Vitality"
+          "id": "gameward",
+          "name": "GameWard",
+          "tag": "GW",
+          "desc": "Organisation francilienne d'envergure européenne portée par Kombek, Tylio, S1neD, Repairs, Baxo et Snaylyx.",
+          "xUrl": "https://x.com/GameWardTeam"
         },
         {
-                "id": "team-go",
-                "name": "Team GO (GamersOrigin)",
-                "tag": "GO",
-                "desc": "Organisation majeure du sport électronique français. Très présente de 2018 à 2022 (Decyptos, Shaykos, M11Z, Lentille, Robabz, Clément).",
-                "xUrl": "https://x.com/Team_GO",
-                "xHandle": "@Team_GO",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Team_GO"
+          "id": "k13-esport",
+          "name": "K13 Esport",
+          "tag": "K13",
+          "desc": "Club formateur et compétiteur régulier en Cash Cups avec Firen.",
+          "xUrl": "https://x.com/K13_esport"
         },
         {
-                "id": "gameward",
-                "name": "GameWard",
-                "tag": "GW",
-                "desc": "Club francilien majeur actif sans interruption depuis mars 2018. Historiquement tremplin de Nayte, Keolys, BadSniper, Snayzy, Shaax, et aujourd'hui représenté au plus haut niveau par Tylio, Kombek, Repairs, S1neD, Baxo, Snaylyx sous la direction du coach Aarnax.",
-                "xUrl": "https://x.com/GameWardTeam",
-                "xHandle": "@GameWardTeam",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/GameWard"
+          "id": "team-orchid",
+          "name": "Team Orchid",
+          "tag": "ORC",
+          "desc": "Organisation compétitive réunissant le trio percutant Izzi, Nociff et Seyyto.",
+          "xUrl": "https://x.com/TeamOrchid_"
         },
         {
-                "id": "lestream",
-                "name": "LeStream Esport",
-                "tag": "LST",
-                "desc": "Club légendaire de 2018-2019 (Skite, Vato, TheVic, Boyer). Vainqueur Winter Royale 2018, Secret Skirmish et 7e Solo / 10e Duo à la World Cup 2019.",
-                "xUrl": "https://x.com/LeStreamEsport",
-                "xHandle": "@LeStreamEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/LeStream_Esport"
+          "id": "1p-esport",
+          "name": "1P Esport",
+          "tag": "1P",
+          "desc": "Structure dynamique engagée sur les tournois hebdomadaires avec Lericx et Julie.",
+          "xUrl": "https://x.com/OneProdige"
         },
         {
-                "id": "mces",
-                "name": "Team MCES",
-                "tag": "MCES",
-                "desc": "Club marseillais pionnier. Vainqueur FNCS Duos Chapitre 2 Saison 2 avec Andilex (#1 PR Europe en 2020), PodaSai, Xsweeze, Kouto.",
-                "xUrl": "https://x.com/MCES_officiel",
-                "xHandle": "@MCES_officiel",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Team_MCES"
+          "id": "r4c-esport",
+          "name": "R4C Esport",
+          "tag": "R4C",
+          "desc": "Équipe française présente sur le circuit européen avec Kenrop et Foczka.",
+          "xUrl": "https://x.com/R4CEsport"
         },
         {
-                "id": "trainhard",
-                "name": "TrainHard eSport",
-                "tag": "TH",
-                "desc": "L'un des plus puissants rosters européens en 2020-2021 (BlastR, Alpha, Yags, Falconly, Kyzen). Multiples podiums et titres FNCS.",
-                "xUrl": "https://x.com/TrainHardEsport",
-                "xHandle": "@TrainHardEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/TrainHard_eSport"
+          "id": "wooka-esport",
+          "name": "Wooka Esport",
+          "tag": "WKA",
+          "desc": "Structure active sur le circuit compétitif européen avec Szarik et Ferdy.",
+          "xUrl": "https://x.com/WookaEsport"
         },
         {
-                "id": "grizi",
-                "name": "Grizi Esport",
-                "tag": "GRIZI",
-                "desc": "Fondé par Antoine et Théo Griezmann. Titré au FNCS Duos C2S2 (Nayte) et dominateur avec 4zr au sommet du PR européen en 2020-2021.",
-                "xUrl": "https://x.com/GriziEsport",
-                "xHandle": "@GriziEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Grizi_Esport"
+          "id": "vulcan-esport",
+          "name": "Vulcan Esport",
+          "tag": "VLC",
+          "desc": "Club français compétiteur en Victory Cups et Opens régionaux avec Tarpz.",
+          "xUrl": "https://x.com/EsportVulcan"
         },
         {
-                "id": "zerance",
-                "name": "Zerance",
-                "tag": "ZRC",
-                "desc": "Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.",
-                "xUrl": "https://x.com/TeamZerance",
-                "xHandle": "@Zerance_esport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Zerance"
+          "id": "orphee-esport",
+          "name": "Orphée Esport",
+          "tag": "ORP",
+          "desc": "Structure compétitive francophone emmenée par Fnajen.",
+          "xUrl": "https://x.com/OrpheeEsport"
         },
         {
-                "id": "galions",
-                "name": "Galions",
-                "tag": "GLN",
-                "desc": "Lancé en décembre 2024 par Team GO et Sixen avec Clément et Kyzen. Après la saison 2025, le club ferme sa division Fortnite le 7 décembre 2025 (Kyzen prend sa retraite compétitive, Clément devient agent libre).",
-                "xUrl": "https://x.com/Galions_",
-                "xHandle": "@Galions_",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Galions"
+          "id": "trkf-esport",
+          "name": "TRKF E-Sport",
+          "tag": "TRKF",
+          "desc": "Club compétiteur régulier sur le circuit européen avec flex, Damage et Nero.",
+          "xUrl": "https://x.com/TrkfEsport"
         },
         {
-                "id": "team-ldlc",
-                "name": "Team LDLC (LDLC OL)",
-                "tag": "LDLC",
-                "desc": "Institution historique de l'esport français. Présente dès juin 2018 sur Fortnite (Djoe, Maylee, Ovni, Sops, Khuna, Seth).",
-                "xUrl": "https://x.com/LDLC_OL",
-                "xHandle": "@LDLC_OL",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Team_LDLC"
+          "id": "pandore-esport",
+          "name": "Pandore Esport",
+          "tag": "PAN",
+          "desc": "Écurie française engagée sur les tournois FNCS avec son trio Huty, Triix et Winther.",
+          "xUrl": "https://x.com/PandoreEsport"
         },
         {
-                "id": "millenium",
-                "name": "Millenium",
-                "tag": "M",
-                "desc": "Pionnier absolu en février 2018. Équipe légendaire avec Teeqzy (record du monde de 43 kills), NokSs, Robi et Mickalow.",
-                "xUrl": "https://x.com/Millenium",
-                "xHandle": "@Millenium",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Millenium"
+          "id": "now-esport",
+          "name": "NOW eSport",
+          "tag": "NOW",
+          "desc": "Structure tricolore présente sur les Cash Cups avec Klayzz et Maloyache.",
+          "xUrl": "https://x.com/NOW_eSport_"
         },
         {
-                "id": "supremacy",
-                "name": "Supremacy",
-                "tag": "Sy",
-                "desc": "Écurie pionnière dès mars 2018 avec Vato, Skite, Maxalibur et Kyuubi. Berceau de futures stars internationales.",
-                "xUrl": "https://x.com/Supremacy_FR",
-                "xHandle": "@Supremacy_FR",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Supremacy"
+          "id": "poyo-esports",
+          "name": "Poyo Esports",
+          "tag": "POYO",
+          "desc": "Club formateur français engagé en tournois compétitifs avec iFrOzi et Shadox.",
+          "xUrl": "https://x.com/EsportsPoyo"
         },
         {
-                "id": "oserv",
-                "name": "Oserv Esport",
-                "tag": "OSV",
-                "desc": "Club précurseur en 2018 (Skite, MawkS, Nyx, Deadra, Blaxou). Vainqueurs et podiums sur les premières LANs de l'hexagone.",
-                "xUrl": "https://x.com/OservEsport",
-                "xHandle": "@OservEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Oserv_Esport"
+          "id": "lynox-esport",
+          "name": "Lynox Esport",
+          "tag": "LYN",
+          "desc": "Organisation tricolore compétitive avec Heror3h, Zayni et 4ik.",
+          "xUrl": "https://x.com/Lynox_Esport"
         },
         {
-                "id": "valiant",
-                "name": "Valiant",
-                "tag": "VLT",
-                "desc": "Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025.",
-                "xUrl": "https://x.com/ValiantOfficiel",
-                "xHandle": "@ValiantOfficiel",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Valiant"
+          "id": "eoz-esport",
+          "name": "EOZ eSport",
+          "tag": "EOZ",
+          "desc": "Structure compétitive française réunissant Mystiqul, Spexx et Hedra.",
+          "xUrl": "https://x.com/EOZ_eSport"
         },
         {
-                "id": "reality-zone",
-                "name": "Reality Zoned",
-                "tag": "RZ",
-                "desc": "Club compétitif français incontournable sur les tournois communautaires, Console et PC (Cash Cups, FNCS Heats).",
-                "xUrl": "https://x.com/RealityZoned",
-                "xHandle": "@RealityZoneFR",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Reality_Zone"
+          "id": "ekinox-esports",
+          "name": "EKINOX",
+          "tag": "EKX",
+          "desc": "Structure compétitive tricolore représentée par Mirooz, nayzix7 et Misha.",
+          "xUrl": "https://x.com/EkinoxEsports"
         },
         {
-                "id": "team-bsk",
-                "name": "Team BSK",
-                "tag": "BSK",
-                "desc": "Structure francophone (Besançon) très dynamique sur la scène compétitive et la formation de pépites Fortnite.",
-                "xUrl": "https://x.com/TeamBSK_",
-                "xHandle": "@TeamBSK_",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/BSK_Esport"
+          "id": "wip-esports",
+          "name": "WIP Esports",
+          "tag": "WIP",
+          "desc": "Club compétitif européen représenté par Velryy.",
+          "xUrl": "https://x.com/WIPEsports"
         },
         {
-                "id": "lyost-esport",
-                "name": "Lyost Esport",
-                "tag": "LYO",
-                "desc": "Organisation marseillaise créée en janvier 2021, organisatrice de la Massilia Cup et formatrice de talents du Sud.",
-                "xUrl": "https://x.com/lyost_esport",
-                "xHandle": "@lyost_esport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Lyost_Esport"
+          "id": "haikoo",
+          "name": "Haikoo",
+          "tag": "HKO",
+          "desc": "Structure compétitive présente sur les Cash Cups avec Maciak et Joshbot.",
+          "xUrl": "https://x.com/HaikooEsport"
         },
         {
-                "id": "exalty",
-                "name": "Exalty",
-                "tag": "EXL",
-                "desc": "Club toulousain fondé en janvier 2018. A révélé Falconly, Robabz et Artskill sur le circuit des LANs françaises.",
-                "xUrl": "https://x.com/Exalty_FR",
-                "xHandle": "@Exalty_FR",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Exalty"
+          "id": "g3nz-esport",
+          "name": "G3nZ Esport",
+          "tag": "G3NZ",
+          "desc": "Club formateur et compétitif tricolore avec Ary, Efexy et 2Trash1zr.",
+          "xUrl": "https://x.com/G3nZEsport"
         },
         {
-                "id": "bk-rog",
-                "name": "BK ROG Esports",
-                "tag": "BKR",
-                "desc": "Structure française issue de la fusion ASUS ROG, engagée sur plusieurs saisons FNCS.",
-                "xUrl": "https://x.com/ASUS_BK_ROG",
-                "xHandle": "@ASUS_BK_ROG",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/BK_ROG_Esports"
+          "id": "bk-rog",
+          "name": "BK ROG Esports",
+          "tag": "BKR",
+          "desc": "Club esport français présent sur Fortnite avec Hris.",
+          "xUrl": "https://x.com/BKR_Esports"
         },
         {
-                "id": "lunary",
-                "name": "Lunary",
-                "tag": "LNY",
-                "desc": "L'équipe sœur de Solary (Jbzz, Chap, Taipouz, MZ, Airwaks), mythique dans les LANs 2018-2019.",
-                "xUrl": "https://x.com/SolaryTV",
-                "xHandle": "@SolaryTV",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Lunary"
+          "id": "novix-esport",
+          "name": "Novix eSport",
+          "tag": "NVX",
+          "desc": "Structure montante avec Okram, Actfv, Tenq et Joanee.",
+          "xUrl": "https://x.com/NovixeSport"
         },
         {
-                "id": "team-fake",
-                "name": "Team Fake",
-                "tag": "FAKE",
-                "desc": "Équipe française très active dans les tournois inter-structures, open qualifiers et circuits réguliers de scrims.",
-                "xUrl": "https://x.com/TeamFake_esport",
-                "xHandle": "@TeamFake_esport",
-                "liquipediaUrl": null
+          "id": "australe-esport",
+          "name": "Australe Esport",
+          "tag": "AST",
+          "desc": "Structure tricolore présente sur les tournois hebdomadaires avec freuzi et Kaktus.",
+          "xUrl": "https://x.com/AustraleEsport"
         },
         {
-                "id": "aten-esport",
-                "name": "Aten eSport",
-                "tag": "ATEN",
-                "desc": "Structure française engagée en compétition et compétitions communautaires régulières.",
-                "xUrl": "https://x.com/AtenEsport",
-                "xHandle": "@AtenEsport",
-                "liquipediaUrl": null
+          "id": "valiant",
+          "name": "Valiant",
+          "tag": "VLT",
+          "desc": "Organisation esport compétitrice avec Trulex et Robabz.",
+          "xUrl": "https://x.com/Valiant_Club"
         },
         {
-                "id": "jupitar-esport",
-                "name": "Jupitar Esport",
-                "tag": "JUP",
-                "desc": "Club e-sport français multigaming présent sur la scène Fortnite compétitive et tremplin de jeunes talents.",
-                "xUrl": "https://x.com/JupitarEsport",
-                "xHandle": "@JupitarEsport",
-                "liquipediaUrl": null
+          "id": "reality-zone",
+          "name": "Reality Zoned",
+          "tag": "RZ",
+          "desc": "Équipe engagée sur les tournois officiels avec Nayro, Kyli et Zeyko.",
+          "xUrl": "https://x.com/RealityZoned"
         },
         {
-                "id": "odious-esport",
-                "name": "Odious Esport",
-                "tag": "ODS",
-                "desc": "Organisation compétitive française engagée dans les Cash Cups, Victory Cups et tournois hebdomadaires.",
-                "xUrl": "https://x.com/OdiousEsport",
-                "xHandle": "@OdiousEsport",
-                "liquipediaUrl": null
+          "id": "team-fake",
+          "name": "Team Fake",
+          "tag": "FAKE",
+          "desc": "Organisation tricolore représentée par Zeka, Krox et Skyll.",
+          "xUrl": "https://x.com/TeamFakee"
         },
         {
-                "id": "paps-esport",
-                "name": "Pap's Esport",
-                "tag": "PAPS",
-                "desc": "Structure française menée autour de la communauté compétitive et des rassemblements majeurs de la scène FR.",
-                "xUrl": "https://x.com/PapsEsport",
-                "xHandle": "@PapsEsport",
-                "liquipediaUrl": null
+          "id": "team-bsk",
+          "name": "Team BSK",
+          "tag": "BSK",
+          "desc": "Club compétiteur en Victory Cups avec Shado, Kenza et Vortex.",
+          "xUrl": "https://x.com/TeamBSK"
         },
         {
-                "id": "pandaria-esport",
-                "name": "Pandaria Esport",
-                "tag": "PAN",
-                "desc": "Club français compétitif présent au Power Ranking Européen Fandom PC, pépinière reconnue de talents francophones.",
-                "xUrl": "https://x.com/EsportPandaria",
-                "xHandle": "@PandariaEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Pandaria_Esport"
+          "id": "aten-esport",
+          "name": "Aten eSport",
+          "tag": "ATN",
+          "desc": "Structure formatrice tricolore avec Atenz, Skyze et Nox.",
+          "xUrl": "https://x.com/AtenEsport"
         },
         {
-                "id": "pandore-esport",
-                "name": "Pandore Esport",
-                "tag": "PDR",
-                "desc": "Structure compétitive française classée dans le Top 50 européen PC des Power Rankings d'équipes.",
-                "xUrl": "https://x.com/Pandore_esport",
-                "xHandle": "@PandoreEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Pandore_Esport"
+          "id": "jupitar-esport",
+          "name": "Jupitar Esport",
+          "tag": "JUP",
+          "desc": "Club formateur avec Jupi, Star et Krono.",
+          "xUrl": "https://x.com/JupitarEsport"
         },
         {
-                "id": "fly-again",
-                "name": "Fly Again",
-                "tag": "FLY",
-                "desc": "Écurie française engagée sur les tournois officiels FNCS et les Cash Cups européennes (Top 45 Fandom EU).",
-                "xUrl": "https://x.com/FlyAgainTeam",
-                "xHandle": "@FlyAgainEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Fly_Again"
+          "id": "odious-esport",
+          "name": "Odious Esport",
+          "tag": "ODI",
+          "desc": "Équipe engagée sur les Cash Cups avec Odi, Rage et Viper.",
+          "xUrl": "https://x.com/OdiousEsport"
         },
         {
-                "id": "mga-esport",
-                "name": "MGA eSport",
-                "tag": "MGA",
-                "desc": "Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois.",
-                "xUrl": "https://x.com/mgaesport",
-                "xHandle": "@MGAesport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/MGA_eSport"
+          "id": "paps-esport",
+          "name": "Pap's Esport",
+          "tag": "PAPS",
+          "desc": "Organisation compétitive avec Papito, Slay et Zen.",
+          "xUrl": "https://x.com/PapsEsport"
         },
         {
-                "id": "k13-esport",
-                "name": "K13 Esport",
-                "tag": "K13",
-                "desc": "Organisation française très active sur le circuit compétitif européen, classée au Top 15 Fandom PC Europe.",
-                "xUrl": "https://x.com/K13esport",
-                "xHandle": "@K13Esport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/K13_Esport"
+          "id": "pandaria-esport",
+          "name": "Pandaria Esport",
+          "tag": "PND",
+          "desc": "Club formateur représenté par Panda, Bamboo et Lotus.",
+          "xUrl": "https://x.com/PandariaEsport"
         },
         {
-                "id": "bastille-legacy",
-                "name": "Bastille Legacy",
-                "tag": "BL",
-                "desc": "Club pionnier de la scène française Fortnite début 2018, ayant révélé Kinstaar, mzXXD et Hunter avant l'ère Solary.",
-                "xUrl": "https://x.com/BastilleLegacy",
-                "xHandle": "@BastilleLegacy",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Bastille_Legacy"
+          "id": "fly-again",
+          "name": "Fly Again",
+          "tag": "FLY",
+          "desc": "Organisation française avec Flyer, Wing et Glide.",
+          "xUrl": "https://x.com/FlyAgainEsport"
         },
         {
-                "id": "begenius-esc",
-                "name": "beGenius ESC",
-                "tag": "bGe",
-                "desc": "Structure historique montpelliéraine ayant accueilli les débuts compétitifs de Blaxou et Nikof en 2018.",
-                "xUrl": "https://x.com/beGeniusESC",
-                "xHandle": "@beGeniusESC",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/BeGenius_ESC"
+          "id": "zerance",
+          "name": "Zerance",
+          "tag": "ZRC",
+          "desc": "Club français compétiteur avec Darkos.",
+          "xUrl": "https://x.com/Zerance_Club"
         },
         {
-                "id": "1p-esport",
-                "name": "1P Esport",
-                "tag": "1P",
-                "desc": "Structure e-sport française (One Prodige) dédiée à la haute performance compétitive sur Fortnite (FNCS, Top 20 européen sur Fandom et répertoriée sur Fortnite Tracker).",
-                "xUrl": "https://x.com/oneprodige",
-                "xHandle": "@oneprodige",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/1P_Esport"
+          "id": "karmine-corp",
+          "name": "Karmine Corp",
+          "tag": "KC",
+          "desc": "Fondée par Kameto et Prime. Arrivée explosive sur Fortnite en mai 2024 avec Malibuca, Merstach, Veno, SwizzY et Oslo en coach, dominant le PR mondial et sacrée Championne de France 2024.",
+          "xUrl": "https://x.com/KarmineCorp"
         },
         {
-                "id": "wooka-esport",
-                "name": "Wooka Esport",
-                "tag": "WOOKA",
-                "desc": "Club d'esport français fondé en 2022 et répertorié au classement officiel européen Fandom des équipes Fortnite.",
-                "xUrl": "https://x.com/WookaEsport",
-                "xHandle": "@WookaEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Wooka_Esport"
+          "id": "vitality",
+          "name": "Team Vitality",
+          "tag": "VIT",
+          "desc": "Club pionnier tricolore (2018-2021 : Gotaga, BadSniper, Oslo, Keolys). Rachete Team HavoK le 25 avril 2026 pour former HavoK by Vitality et redevenir N°1 mondial.",
+          "xUrl": "https://x.com/TeamVitality"
         },
         {
-                "id": "lynox-esport",
-                "name": "Lynox Esport",
-                "tag": "LYX",
-                "desc": "Organisation française répertoriée dans le Power Ranking Fandom Fortnite Europe.",
-                "xUrl": "https://x.com/LynoXEU",
-                "xHandle": "@LynoXEU",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Lynox_Esport"
+          "id": "lestream",
+          "name": "LeStream Esport",
+          "tag": "LST",
+          "desc": "Web-TV et club mythique (2018-2020) mené par Skite (vainqueur Winter Royale 2018, qualifié World Cup 2019 Solo et Duo avec Vato), TheVic, Nayte et Blax.",
+          "xUrl": "https://x.com/LeStream"
         },
         {
-                "id": "poyo-esports",
-                "name": "Poyo Esports",
-                "tag": "POYO",
-                "desc": "Structure française organisatrice et compétitive sur Fortnite présente au classement européen Fandom.",
-                "xUrl": "https://x.com/PoyoEsports",
-                "xHandle": "@PoyoEsports",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Poyo_Esports"
+          "id": "trainhard-esport",
+          "name": "TrainHard Esport",
+          "tag": "TH",
+          "desc": "Écurie française légendaire (2019-2021). Championne FNCS avec BlastR, Alpha, Robabz, Matsoe et Umplify.",
+          "xUrl": "https://x.com"
         },
         {
-                "id": "gentside-esports",
-                "name": "Gentside Esports Club",
-                "tag": "GTS",
-                "desc": "Équipe française pionnière des débuts de la compétition Fortnite (2018), ayant compté des figures comme TheVic et Madzen.",
-                "xUrl": "https://x.com/GentsideEsports",
-                "xHandle": "@GentsideEsports",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Gentside_Esports_Club"
+          "id": "grizi-esport",
+          "name": "Grizi Esport",
+          "tag": "GRIZI",
+          "desc": "Club fondé par Antoine et Théo Griezmann (2020-2021) avec Nayte, 4zr, BadSniper et Snayzy.",
+          "xUrl": "https://x.com"
         },
         {
-                "id": "dualmedia-esports",
-                "name": "DualMedia Esports",
-                "tag": "DM",
-                "desc": "Structure e-sport française historique présente sur les tournois LAN et la compétition Fortnite.",
-                "xUrl": "https://x.com/Dual_Media",
-                "xHandle": "@Dual_Media",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/DualMedia_Esports"
+          "id": "mcis-esport",
+          "name": "MCES",
+          "tag": "MCES",
+          "desc": "Club marseillais pionnier (2018-2022) avec Andilex, Orkh, Podasai et Xsweeze.",
+          "xUrl": "https://x.com"
         },
         {
-                "id": "team-orchid",
-                "name": "Team Orchid",
-                "tag": "ORC",
-                "desc": "Structure e-sport française de premier plan sur Fortnite, régulièrement classée dans le Top 25 européen Fortnite Tracker.",
-                "xUrl": "https://x.com/TeamOrchidGG",
-                "xHandle": "@TeamOrchidGG",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Team_Orchid"
+          "id": "game-origin",
+          "name": "Game Origin",
+          "tag": "GO",
+          "desc": "Structure pionnière (2018-2019) avec Decypt, Kyro, Spk et Mzqqq.",
+          "xUrl": "https://x.com"
         },
         {
-                "id": "r4c-esport",
-                "name": "R4C Esport",
-                "tag": "R4C",
-                "desc": "Organisation compétitive française engagée sur le circuit européen Fortnite et FNCS.",
-                "xUrl": "https://x.com/r4c_esport",
-                "xHandle": "@r4c_esport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/R4C_Esport"
+          "id": "oserv-esport",
+          "name": "Oserv Esport",
+          "tag": "OSV",
+          "desc": "Club historique de l'ère Skirmish 2018 avec M11Z, Splinter, Nayte et Kyzen.",
+          "xUrl": "https://x.com"
         },
         {
-                "id": "vulcan-esport",
-                "name": "Vulcan Esport",
-                "tag": "VLC",
-                "desc": "Club d'esport français actif sur la scène compétitive européenne Fortnite.",
-                "xUrl": "https://x.com/vulcanesport_",
-                "xHandle": "@vulcanesport_",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Vulcan_Esport"
+          "id": "supremacy",
+          "name": "Supremacy",
+          "tag": "SY",
+          "desc": "Club historique ayant révélé Vato, Renik, Hawkers et Skite en 2018.",
+          "xUrl": "https://x.com"
         },
         {
-                "id": "orphee-esport",
-                "name": "Orphée Esport",
-                "tag": "ORP",
-                "desc": "Structure compétitive française réunissant des joueurs et créateurs de contenu sur Fortnite (Fnajen, Art1st).",
-                "xUrl": "https://x.com/ORPHEE_Esport",
-                "xHandle": "@ORPHEE_Esport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Orph%C3%A9e_Esport"
+          "id": "be-geniuses",
+          "name": "BeGenius",
+          "tag": "BG",
+          "desc": "Club formateur historique du Fortnite français (2018-2019).",
+          "xUrl": "https://x.com"
         },
         {
-                "id": "trkf-esport",
-                "name": "TRKF E-Sport",
-                "tag": "TRKF",
-                "desc": "Organisation e-sport française présente sur les circuits compétitifs et les classements européens Fortnite.",
-                "xUrl": "https://x.com/Trkf_Esport",
-                "xHandle": "@Trkf_Esport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/TRKF_E-Sport"
+          "id": "bren-esports",
+          "name": "BREN Esports",
+          "tag": "BREN",
+          "desc": "Structure historique de la scène compétitive 2018.",
+          "xUrl": "https://x.com"
         },
         {
-                "id": "now-esport",
-                "name": "NOW eSport",
-                "tag": "NOW",
-                "desc": "Club compétitif français figurant régulièrement dans le classement Fortnite Tracker européen.",
-                "xUrl": "https://x.com/noww_esport",
-                "xHandle": "@noww_esport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/NOW_eSport"
+          "id": "lunary",
+          "name": "Lunary",
+          "tag": "LNY",
+          "desc": "Équipe sœur de Solary (2018-2021) avec Jbzz, Chap, Taipouz et MZQ.",
+          "xUrl": "https://x.com/SolaryTV"
         },
         {
-                "id": "eoz-esport",
-                "name": "EOZ eSport",
-                "tag": "EOZ",
-                "desc": "Club d'esport français basé en Ariège, engagé en FNCS et compétitions européennes Fortnite.",
-                "xUrl": "https://x.com/EOZesport",
-                "xHandle": "@EOZesport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/EOZ_eSport"
-        },
-        {
-                "id": "ekinox-esports",
-                "name": "EKINOX",
-                "tag": "EKX",
-                "desc": "Structure e-sport française active sur Fortnite, classée dans le top des clubs européens.",
-                "xUrl": "https://x.com/ekinoxesports",
-                "xHandle": "@ekinoxesports",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Ekinox_Esports"
-        },
-        {
-                "id": "wip-esports",
-                "name": "WIP Esports",
-                "tag": "WIP",
-                "desc": "Organisation e-sport française basée en région Occitanie, compétitive sur Fortnite et multi-gaming.",
-                "xUrl": "https://x.com/wipesports",
-                "xHandle": "@wipesports",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/WIP_Esports"
-        },
-        {
-                "id": "haikoo",
-                "name": "Haikoo",
-                "tag": "HKO",
-                "desc": "Organisation compétitive française active sur le circuit Fortnite compétitif européen (#HAIKOWIN).",
-                "xUrl": "https://x.com/Haikoo_Esport",
-                "xHandle": "@Haikoo_Esport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Haikoo"
-        },
-        {
-                "id": "g3nz-esport",
-                "name": "G3nZ Esport",
-                "tag": "G3NZ",
-                "desc": "Structure française présente dans les compétitions européennes Fortnite (#G3NZWIN).",
-                "xUrl": "https://x.com/G3nZEsport",
-                "xHandle": "@G3nZEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/G3nZ_Esport"
-        },
-        {
-                "id": "novix-esport",
-                "name": "Novix eSport",
-                "tag": "NVX",
-                "desc": "Club e-sport français émergent sur Fortnite, actif sur les compétitions et détections de talents.",
-                "xUrl": "https://x.com/NovixEsport",
-                "xHandle": "@NovixEsport",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Novix_eSport"
-        },
-        {
-                "id": "australe-esport",
-                "name": "Australe Esport",
-                "tag": "AST",
-                "desc": "Club d'esport français basé à Roquebrune-Cap-Martin, engagé sur le circuit compétitif Fortnite.",
-                "xUrl": "https://x.com/team_australe",
-                "xHandle": "@team_australe",
-                "liquipediaUrl": "https://liquipedia.net/fortnite/Australe_Esport"
+          "id": "galions",
+          "name": "Galions",
+          "tag": "GAL",
+          "desc": "Club formateur français (2024-2025) ayant réuni Clément et Kyzen avant sa clôture.",
+          "xUrl": "https://x.com"
         }
-];
+      ];
 
-      const CLUBS_META = {
-  "gentle-mates": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
-    "socials": {
-      "x": "https://x.com/GentleMates",
-      "twitch": "https://twitch.tv/gotaga",
-      "youtube": "https://youtube.com/@teamgentlemates",
-      "instagram": "https://instagram.com/gentlemates",
-      "tiktok": "https://tiktok.com/@gentlemates",
-      "discord": "https://discord.gg/gentle-mates"
-    }
-  },
-  "karmine-corp": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/karmine-corp",
-    "socials": {
-      "x": "https://x.com/KarmineCorp",
-      "twitch": "https://twitch.tv/karminecorp",
-      "youtube": "https://youtube.com/@Karmine_Corp",
-      "instagram": "https://instagram.com/karminecorp",
-      "tiktok": "https://tiktok.com/@karmine_corp",
-      "discord": "https://discord.gg/karminecorp"
-    }
-  },
-  "havok-by-vitality": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
-    "socials": {
-      "x": "https://x.com/HvKGGs",
-      "twitch": "https://twitch.tv/teamhavok",
-      "instagram": "https://instagram.com/teamhavokgg",
-      "tiktok": "https://tiktok.com/@teamhavok",
-      "discord": "https://discord.gg/havok"
-    }
-  },
-  "team-havok": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
-    "socials": {
-      "x": "https://x.com/HvKGGs",
-      "twitch": "https://twitch.tv/teamhavok",
-      "instagram": "https://instagram.com/teamhavokgg",
-      "tiktok": "https://tiktok.com/@teamhavok",
-      "discord": "https://discord.gg/havok"
-    }
-  },
-  "solary": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
-    "socials": {
-      "x": "https://x.com/SolaryTV",
-      "twitch": "https://twitch.tv/solaryfortnite",
-      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
-      "instagram": "https://instagram.com/solarytv",
-      "tiktok": "https://tiktok.com/@solary_fortnite",
-      "discord": "https://discord.gg/solary"
-    }
-  },
-  "vitality": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-vitality",
-    "socials": {
-      "x": "https://x.com/TeamVitality",
-      "twitch": "https://twitch.tv/vitality",
-      "youtube": "https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw",
-      "instagram": "https://instagram.com/teamvitality",
-      "tiktok": "https://tiktok.com/@teamvitality",
-      "discord": "https://discord.gg/vitality"
-    }
-  },
-  "team-go": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-go",
-    "socials": {
-      "x": "https://x.com/Team_GO",
-      "twitch": "https://twitch.tv/teamgogg",
-      "youtube": "https://youtube.com/@teamgogg",
-      "instagram": "https://instagram.com/teamgogg",
-      "tiktok": "https://tiktok.com/@teamgogg"
-    }
-  },
-  "gameward": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/gameward",
-    "socials": {
-      "x": "https://x.com/GameWardTeam",
-      "twitch": "https://twitch.tv/gamewardteam",
-      "youtube": "https://youtube.com/@GameWard",
-      "instagram": "https://instagram.com/gamewardteam",
-      "tiktok": "https://tiktok.com/@gamewardteam",
-      "discord": "https://discord.gg/gameward"
-    }
-  },
-  "lestream": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/lestream-esport",
-    "socials": {
-      "x": "https://x.com/LeStreamEsport",
-      "twitch": "https://twitch.tv/lestream",
-      "youtube": "https://youtube.com/@LeStream"
-    }
-  },
-  "mces": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/mces",
-    "socials": {
-      "x": "https://x.com/MCES_officiel",
-      "twitch": "https://twitch.tv/mces_officiel",
-      "youtube": "https://youtube.com/@MCESofficiel",
-      "instagram": "https://instagram.com/mces_officiel",
-      "tiktok": "https://tiktok.com/@mces_officiel"
-    }
-  },
-  "trainhard": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard-esport",
-    "socials": {
-      "x": "https://x.com/TrainHardEsport",
-      "twitch": "https://twitch.tv/trainhardwebtv",
-      "instagram": "https://instagram.com/trainhardesport"
-    }
-  },
-  "grizi": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/grizi-esport",
-    "socials": {
-      "x": "https://x.com/GriziEsport",
-      "youtube": "https://youtube.com/@griziesport",
-      "instagram": "https://instagram.com/griziesport",
-      "tiktok": "https://tiktok.com/@griziesport"
-    }
-  },
-  "zerance": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/zerance",
-    "socials": {
-      "x": "https://x.com/TeamZerance",
-      "twitch": "https://twitch.tv/teamzerance",
-      "youtube": "https://youtube.com/@zerance",
-      "instagram": "https://instagram.com/teamzerance",
-      "tiktok": "https://tiktok.com/@teamzerance",
-      "discord": "https://discord.gg/zerance"
-    }
-  },
-  "galions": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/galions",
-    "socials": {
-      "x": "https://x.com/Galions_",
-      "youtube": "https://youtube.com/@galions_team",
-      "instagram": "https://instagram.com/galions_team",
-      "tiktok": "https://tiktok.com/@galions_team",
-      "discord": "https://discord.gg/yVDXNfp"
-    }
-  },
-  "team-ldlc": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/ldlc-ol",
-    "socials": {
-      "x": "https://x.com/LDLC_OL",
-      "twitch": "https://twitch.tv/teamldlcol",
-      "youtube": "https://youtube.com/@TeamLDLC",
-      "instagram": "https://instagram.com/teamldlcol"
-    }
-  },
-  "millenium": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/millenium",
-    "socials": {
-      "x": "https://x.com/Millenium",
-      "youtube": "https://youtube.com/@MilleniumVOD",
-      "instagram": "https://instagram.com/millenium.team"
-    }
-  },
-  "supremacy": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/supremacy",
-    "socials": {
-      "x": "https://x.com/Supremacy_FR",
-      "youtube": "https://youtube.com/channel/UCisb_trxnFN_ylhpgGfbyqQ",
-      "instagram": "https://instagram.com/supremacy_fr"
-    }
-  },
-  "oserv": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/oserv-esport",
-    "socials": {
-      "x": "https://x.com/OservEsport",
-      "twitch": "https://twitch.tv/oservtv",
-      "youtube": "https://youtube.com/channel/UCHbWqCwlFzBh-ikyZ33aCtA"
-    }
-  },
-  "valiant": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/valiant",
-    "socials": {
-      "x": "https://x.com/ValiantOfficiel",
-      "twitch": "https://twitch.tv/valiantofficiel",
-      "youtube": "https://youtube.com/channel/UCfAj4rFVhgGCNWNTw0lVeZg",
-      "instagram": "https://instagram.com/valiantofficiel",
-      "tiktok": "https://tiktok.com/@vaillantofficiel",
-      "discord": "https://discord.gg/valiant"
-    }
-  },
-  "reality-zone": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/reality-zoned",
-    "socials": {
-      "x": "https://x.com/RealityZoned",
-      "twitch": "https://twitch.tv/realityzoned",
-      "youtube": "https://youtube.com/channel/UCSade4H7IspAjPAq5ejcrHQ",
-      "instagram": "https://instagram.com/realityzoned",
-      "tiktok": "https://tiktok.com/@realityzoned",
-      "discord": "https://discord.gg/gQhyrW6VXg"
-    }
-  },
-  "team-bsk": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-bsk",
-    "socials": {
-      "x": "https://x.com/TeamBSK_",
-      "tiktok": "https://tiktok.com/@teambsk",
-      "discord": "https://discord.gg/teambsk"
-    }
-  },
-  "lyost-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/lyost-esport",
-    "socials": {
-      "x": "https://x.com/lyost_esport",
-      "twitch": "https://twitch.tv/lyostesport",
-      "instagram": "https://instagram.com/lyost.esport",
-      "tiktok": "https://tiktok.com/@lyost_esport",
-      "discord": "https://discord.gg/rGRfA3yR9c"
-    }
-  },
-  "exalty": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/exalty",
-    "socials": {
-      "x": "https://x.com/Exalty_FR",
-      "twitch": "https://twitch.tv/Exaltytv1",
-      "youtube": "https://youtube.com/@Exalty",
-      "instagram": "https://instagram.com/exalty_fr",
-      "discord": "https://discord.gg/mUrf4QN"
-    }
-  },
-  "bk-rog": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/bk-rog-esports",
-    "socials": {
-      "x": "https://x.com/ASUS_BK_ROG",
-      "youtube": "https://youtube.com/channel/UCtPk46t9ycQtlFw4KDwd2Fw",
-      "instagram": "https://instagram.com/bk_rog_esports",
-      "tiktok": "https://tiktok.com/@bkrogesports",
-      "discord": "https://discord.gg/bkrogesports"
-    }
-  },
-  "lunary": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
-    "socials": {
-      "x": "https://x.com/SolaryTV",
-      "twitch": "https://twitch.tv/solaryfortnite",
-      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
-      "instagram": "https://instagram.com/solarytv"
-    }
-  },
-  "team-fake": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-fake",
-    "socials": {
-      "x": "https://x.com/TeamFake_esport",
-      "tiktok": "https://tiktok.com/@teamfake",
-      "discord": "https://discord.gg/teamfake"
-    }
-  },
-  "aten-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/aten-esport",
-    "socials": {
-      "x": "https://x.com/AtenEsport",
-      "tiktok": "https://tiktok.com/@atenesport",
-      "discord": "https://discord.gg/atenesport"
-    }
-  },
-  "jupitar-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/jupitar-esport",
-    "socials": {
-      "x": "https://x.com/JupitarEsport",
-      "tiktok": "https://tiktok.com/@jupitaresport",
-      "discord": "https://discord.gg/jupitaresport"
-    }
-  },
-  "odious-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/odious-esport",
-    "socials": {
-      "x": "https://x.com/OdiousEsport",
-      "twitch": "https://twitch.tv/tvodious",
-      "tiktok": "https://tiktok.com/@odious.esport",
-      "discord": "https://discord.gg/odious"
-    }
-  },
-  "paps-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/paps-esport",
-    "socials": {
-      "x": "https://x.com/PapsEsport",
-      "twitch": "https://twitch.tv/lepapyofficiel",
-      "tiktok": "https://tiktok.com/@papy.officiel"
-    }
-  },
-  "pandaria-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/pandaria-esport",
-    "socials": {
-      "x": "https://x.com/EsportPandaria",
-      "twitch": "https://twitch.tv/pandariaesportfr",
-      "youtube": "https://youtube.com/channel/UC8BwLlUbJ13lidx718QnCFw",
-      "instagram": "https://instagram.com/pandariaesportfr",
-      "tiktok": "https://tiktok.com/@pandariaesport",
-      "discord": "https://discord.gg/mg8CrWHFxn"
-    }
-  },
-  "pandore-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/pandore-esport",
-    "socials": {
-      "x": "https://x.com/Pandore_esport",
-      "tiktok": "https://tiktok.com/@pandore_esport",
-      "discord": "https://discord.gg/pandore"
-    }
-  },
-  "fly-again": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/fly-again",
-    "socials": {
-      "x": "https://x.com/FlyAgainTeam",
-      "twitch": "https://twitch.tv/flyagainofficialteam",
-      "youtube": "https://youtube.com/channel/UCJSaFlPaSgkpCUW53PWhLrA",
-      "instagram": "https://instagram.com/flyagain.team",
-      "discord": "https://discord.gg/A82YbYrb"
-    }
-  },
-  "mga-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/mga-esport",
-    "socials": {
-      "x": "https://x.com/mgaesport",
-      "twitch": "https://twitch.tv/mgaesport",
-      "youtube": "https://youtube.com/@mGaeSport",
-      "instagram": "https://instagram.com/mgaesport",
-      "tiktok": "https://tiktok.com/@mgaesport",
-      "discord": "https://discord.gg/mgaesport"
-    }
-  },
-  "k13-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/k13-esport",
-    "socials": {
-      "x": "https://x.com/K13esport",
-      "twitch": "https://twitch.tv/K13Esport",
-      "instagram": "https://instagram.com/k13esport1",
-      "tiktok": "https://tiktok.com/@k13esport",
-      "discord": "https://discord.gg/k13esport"
-    }
-  },
-  "bastille-legacy": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/bastille-legacy",
-    "socials": {
-      "x": "https://x.com/BastilleLegacy",
-      "youtube": "https://youtube.com/channel/UC-SXwO0Bm1T5EEtTIusKZ_Q",
-      "instagram": "https://instagram.com/bastillelegacy"
-    }
-  },
-  "begenius-esc": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/begenius-esc",
-    "socials": {
-      "x": "https://x.com/beGeniusESC",
-      "twitch": "https://twitch.tv/begeniusesc_tv",
-      "youtube": "https://youtube.com/channel/UCH5TfCsra47F3l8EH7tE01g",
-      "instagram": "https://instagram.com/begenius.esc"
-    }
-  },
-  "1p-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/oneprodige",
-    "socials": {
-      "x": "https://x.com/oneprodige",
-      "twitch": "https://twitch.tv/oneprodige",
-      "instagram": "https://instagram.com/oneprodige",
-      "tiktok": "https://tiktok.com/@oneprodige",
-      "discord": "https://discord.gg/oneprodige"
-    }
-  },
-  "wooka-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/wooka-esport",
-    "socials": {
-      "x": "https://x.com/WookaEsport",
-      "twitch": "https://twitch.tv/wooka_esport",
-      "youtube": "https://youtube.com/@wookaesport5056",
-      "instagram": "https://instagram.com/wookaesports",
-      "tiktok": "https://tiktok.com/@wooka_esport",
-      "discord": "https://discord.gg/wookaesport"
-    }
-  },
-  "lynox-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/lynox-esport",
-    "socials": {
-      "x": "https://x.com/LynoXEU",
-      "twitch": "https://twitch.tv/lynoxeu",
-      "youtube": "https://youtube.com/@LynoxEU",
-      "tiktok": "https://tiktok.com/@lynox_esport",
-      "discord": "https://discord.gg/lynoxeu"
-    }
-  },
-  "poyo-esports": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/poyo-esports",
-    "socials": {
-      "x": "https://x.com/PoyoEsports",
-      "twitch": "https://twitch.tv/poyocup",
-      "youtube": "https://youtube.com/@poyocup",
-      "instagram": "https://instagram.com/poyoesports",
-      "tiktok": "https://tiktok.com/@poyo.esports",
-      "discord": "https://discord.gg/fWYbQuWDMv"
-    }
-  },
-  "gentside-esports": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/gentside-esports",
-    "socials": {
-      "x": "https://x.com/GentsideEsports",
-      "youtube": "https://youtube.com/channel/UCRqAjXPUZJ_-51Kxi66edCA"
-    }
-  },
-  "dualmedia-esports": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/dualmedia-esports",
-    "socials": {
-      "x": "https://x.com/Dual_Media",
-      "twitch": "https://twitch.tv/dualmediaesports",
-      "youtube": "https://youtube.com/@dualmedia",
-      "instagram": "https://instagram.com/dualmediaesports"
-    }
-  },
-  "team-orchid": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-orchid",
-    "socials": {
-      "x": "https://x.com/TeamOrchidGG",
-      "twitch": "https://twitch.tv/teamorchidgg",
-      "youtube": "https://youtube.com/@TeamOrchidGG",
-      "instagram": "https://instagram.com/teamorchidgg",
-      "tiktok": "https://tiktok.com/@team_orchid",
-      "discord": "https://discord.gg/orchid"
-    }
-  },
-  "r4c-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/r4c-esport",
-    "socials": {
-      "x": "https://x.com/r4c_esport",
-      "tiktok": "https://tiktok.com/@r4c_esport",
-      "discord": "https://discord.gg/r4cesport"
-    }
-  },
-  "vulcan-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/vulcan-esport",
-    "socials": {
-      "x": "https://x.com/vulcanesport_",
-      "tiktok": "https://tiktok.com/@vulcanesport_",
-      "discord": "https://discord.gg/vulcanesport"
-    }
-  },
-  "orphee-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/orphee-esport",
-    "socials": {
-      "x": "https://x.com/ORPHEE_Esport",
-      "twitch": "https://twitch.tv/orpheecore",
-      "tiktok": "https://tiktok.com/@orphee_core",
-      "discord": "https://discord.gg/orphee"
-    }
-  },
-  "trkf-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/trkf-e-sport",
-    "socials": {
-      "x": "https://x.com/TRKF_Esport",
-      "twitch": "https://twitch.tv/trkf_esport",
-      "instagram": "https://instagram.com/trkf_esport",
-      "tiktok": "https://tiktok.com/@trkf_esport",
-      "discord": "https://discord.gg/trkf"
-    }
-  },
-  "now-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/now-esport",
-    "socials": {
-      "x": "https://x.com/noww_esport",
-      "twitch": "https://twitch.tv/noww_esport",
-      "youtube": "https://youtube.com/@RVLESP",
-      "instagram": "https://instagram.com/noww_esport",
-      "tiktok": "https://tiktok.com/@noww_esport",
-      "discord": "https://discord.gg/mMMCNBGKh2"
-    }
-  },
-  "eoz-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/eoz-esport",
-    "socials": {
-      "x": "https://x.com/EOZesport",
-      "twitch": "https://twitch.tv/eozesport",
-      "tiktok": "https://tiktok.com/@eozesport",
-      "discord": "https://discord.gg/eozesport"
-    }
-  },
-  "ekinox-esports": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/ekinox",
-    "socials": {
-      "x": "https://x.com/ekinoxesports",
-      "twitch": "https://twitch.tv/ekinoxesports",
-      "instagram": "https://instagram.com/ekinoxesports",
-      "tiktok": "https://tiktok.com/@ekinoxesports",
-      "discord": "https://discord.gg/ekinox"
-    }
-  },
-  "wip-esports": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/wip-esports",
-    "socials": {
-      "x": "https://x.com/wipesports",
-      "instagram": "https://instagram.com/wip_esports",
-      "tiktok": "https://tiktok.com/@wipesports",
-      "discord": "https://discord.gg/wipesports"
-    }
-  },
-  "haikoo": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/haikoo",
-    "socials": {
-      "x": "https://x.com/Haikoo_Esport",
-      "tiktok": "https://tiktok.com/@haikoo_esport",
-      "discord": "https://discord.gg/haikoo"
-    }
-  },
-  "g3nz-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/g3nz-esport",
-    "socials": {
-      "x": "https://x.com/G3nZEsport",
-      "tiktok": "https://tiktok.com/@g3nzesport",
-      "discord": "https://discord.gg/g3nzesport"
-    }
-  },
-  "novix-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/novix-esport",
-    "socials": {
-      "x": "https://x.com/NovixEsport",
-      "tiktok": "https://tiktok.com/@novixesport",
-      "discord": "https://discord.gg/novixesport"
-    }
-  },
-  "australe-esport": {
-    "tracker_url": "https://fortnitetracker.com/esports/organization/australe-esport",
-    "socials": {
-      "x": "https://x.com/team_australe",
-      "twitch": "https://twitch.tv/teamaustrale",
-      "instagram": "https://instagram.com/team.australe",
-      "discord": "https://discord.gg/australe"
-    }
-  }
-};
-
-      allClubs.forEach(c => {
-        const logoPath = LOGO_MAP[c.id];
-        const logoHtml = logoPath 
-          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}">`
-          : `<div class="club-logo-placeholder">${c.tag}</div>`;
-
-        const meta = CLUBS_META[c.id] || {};
+      // Enrichissement de chaque club avec les données d'effectif et de points
+      let clubsList = allClubs.map(c => {
+        const meta = (typeof CLUBS_META !== 'undefined' && CLUBS_META[c.id]) ? CLUBS_META[c.id] : {};
         const trackerUrl = c.tracker_url || meta.tracker_url || `https://fortnitetracker.com/esports/organization/${c.id}`;
         const socials = c.socials || meta.socials || (c.xUrl ? { x: c.xUrl } : {});
-        const clubObj = { ...c, tracker_url: trackerUrl, socials: socials };
+
+        // Données d'effectif et de points
+        const liveClub = (typeof LIVE_DATA !== 'undefined') ? LIVE_DATA.find(ld => ld.id === c.id) : null;
+        const totalPoints = liveClub ? (liveClub.livePr || liveClub.points || 0) : 0;
+        const activePlayers = liveClub ? (liveClub.players || []) : [];
+
+        return {
+          ...c,
+          tracker_url: trackerUrl,
+          socials: socials,
+          totalPoints: totalPoints,
+          players: activePlayers
+        };
+      });
+
+      // Filtrage par recherche (nom du club, tag ou nom de joueur)
+      if (search) {
+        clubsList = clubsList.filter(c => {
+          const matchName = c.name && c.name.toLowerCase().includes(search);
+          const matchTag = c.tag && c.tag.toLowerCase().includes(search);
+          const matchDesc = c.desc && c.desc.toLowerCase().includes(search);
+          const matchPlayer = c.players && c.players.some(p => (p.name || '').toLowerCase().includes(search));
+          return matchName || matchTag || matchDesc || matchPlayer;
+        });
+      }
+
+      // Tri selon le critère sélectionné
+      if (sortMode === 'points-desc') {
+        clubsList.sort((a, b) => b.totalPoints - a.totalPoints || a.name.localeCompare(b.name, 'fr'));
+      } else if (sortMode === 'points-asc') {
+        clubsList.sort((a, b) => a.totalPoints - b.totalPoints || a.name.localeCompare(b.name, 'fr'));
+      } else if (sortMode === 'alpha-asc') {
+        clubsList.sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+      }
+
+      clubsList.forEach(c => {
+        const logoPath = (typeof LOGO_MAP !== 'undefined') ? LOGO_MAP[c.id] : null;
+        const logoHtml = logoPath 
+          ? `<img src="${logoPath}" class="club-logo" alt="${c.name}" onerror="this.outerHTML='<div class=\'club-logo-placeholder\'>${c.tag}</div>'">`
+          : `<div class="club-logo-placeholder">${c.tag}</div>`;
+
+        const activePlayersHtml = (c.players && c.players.length > 0)
+          ? c.players.map(buildPlayerTagHtml).join(' ')
+          : '<span style="font-size: 0.8rem; color: #64748b; font-style: italic;">Structure historique (inactive sur le circuit actuel)</span>';
 
         const card = document.createElement('div');
         card.className = "club-card";
         card.innerHTML = `
-          <div style="display: flex; align-items: center; gap: 1rem;">
-            ${logoHtml}
-            <div>
-              <h4 style="color: white; font-size: 1.1rem;">
-                <a href="${trackerUrl}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;" title="Page Fortnite Tracker de ${c.name}">
-                  ${c.name}
-                </a>
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; border-bottom: 1px solid rgba(255, 255, 255, 0.06); padding-bottom: 0.75rem;">
+            <a href="${c.tracker_url}" target="_blank" rel="noopener noreferrer" class="club-cell-link" title="Page Fortnite Tracker de ${c.name}" style="text-decoration: none;">
+              ${logoHtml}
+              <div>
+                <span class="club-name" style="font-size: 1.15rem;">${c.name}</span>
                 <span class="club-tag">${c.tag}</span>
-              </h4>
+              </div>
+            </a>
+            <div class="club-total-points-badge" title="Total des points actuels du club">
+              🏆 ${c.totalPoints.toLocaleString('fr-FR')} pts
             </div>
           </div>
-          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4;">${c.desc}</p>
-          <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 6px; margin-top: auto; padding-top: 0.5rem;">
-            ${buildClubSocialsHtml(clubObj)}
+          <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.4; margin: 0.75rem 0;">${c.desc}</p>
+          <div style="margin-top: auto; padding-top: 0.6rem; border-top: 1px solid rgba(255, 255, 255, 0.06);">
+            <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--purple-accent); font-weight: 700; margin-bottom: 0.4rem; letter-spacing: 0.05em;">Effectif Actuel :</div>
+            <div class="roster-tags" style="margin-bottom: 0.75rem;">${activePlayersHtml}</div>
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 6px;">
+              ${buildClubSocialsHtml(c)}
+            </div>
           </div>
         `;
         container.appendChild(card);

@@ -39,10 +39,10 @@ Le but ultime est de décerner à la fin de chaque année civile le prestigieux 
 * Tout joueur professionnel étranger (européen ou international) signé dans un club français rapporte **l'intégralité de ses points de Power Ranking** à son club, avec les mêmes barèmes qu'un joueur tricolore.
 * *Exemples historiques :* Le roster galactique 2024 de la **Karmine Corp** composé de Malibuca (RU), Merstach (LV), Veno (UK) et SwizzY (RU) a rapporté 100% de ses points au club français pour le sacrer Champion de France 2024. De même pour les recrues internationales de **Gentle Mates** ou de **Solary**.
 
-### C. Formule de Calcul du Power Ranking LFF
-Deux classements coexistent pour une visibilité totale :
-* **Classement Annuel (LFF Championship)** : Cumul des points officiels marqués au cours de l'année civile (1er janvier au 31 décembre). L'ensemble complet des joueurs ayant défendu les couleurs du club est affiché et représenté (les joueurs partis étant signalés par un astérisque `*`).
-* **Classement Dynamique (LFF Live PR)** : Moyenne pondérée du PR instantané des joueurs actifs actuels du club (pour visualiser la force de frappe du club aujourd'hui).
+### C. Formule de Calcul du Power Ranking LFF & Équivalence
+* **Principe fondamental : 1 Point LFF = 1 Point Fortnite Tracker (PR)** : L'attribution des points repose sur l'équivalence directe et transparente avec le Power Ranking officiel de Fortnite Tracker Europe issu des tournois Epic Games (FNCS Grands Prix, Majors, Global Championship, Victory Cups, Cash Cups, Opens).
+* **Classement Officiel LFF (Course au Titre)** : Cumul des points officiels marqués au cours de la saison (1er janvier au 31 décembre). L'ensemble complet des joueurs ayant défendu les couleurs du club est affiché et représenté (les joueurs partis étant signalés par un astérisque `*`).
+* **Fiches Clubs & Effectifs Actuels** : La page Clubs recense en temps réel les structures avec leurs effectifs actifs sous contrat et le cumul de leurs points actuels, avec tri par points décroissants, croissants et alphabétique.
 
 ---
 
