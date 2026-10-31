@@ -94,7 +94,7 @@ def compute_standings(year=2025):
     sorted_clubs = sorted(club_scores.values(), key=lambda x: x["points"], reverse=True)
 
     print("=" * 80)
-    print(f" 🏆 CLASSEMENT POWER RANKING LFF — SAISON {year} 🏆")
+    print(f" 🏆 CLASSEMENT POWER RANKING LFF - SAISON {year} 🏆")
     print("=" * 80)
     print(f"{'Rang':<6} {'Club':<25} {'Division':<12} {'Points PR LFF':>15}")
     print("-" * 80)

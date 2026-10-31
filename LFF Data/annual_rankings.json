@@ -6,180 +6,207 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 82000,
+        "points": 18500,
         "roster": [
           "Kinstaar",
           "Hunter",
-          "mzXXD",
-          "Nikof",
-          "Airwaks"
+          "Mzqqq",
+          "Jbzz"
         ],
-        "notable": "Domination Summer & Fall Skirmishes"
+        "key_achievement": "Vainqueur Lyon e-Sport, Vainqueur Gamers Assembly, domination totale de la saison 1",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "lestream",
-        "name": "LeStream Esport",
-        "tag": "LST",
-        "tier": "Tier 1",
-        "points": 58000,
+        "name": "Lunary",
+        "tag": "LNY",
+        "points": 14200,
         "roster": [
-          "Skite",
-          "Vato",
-          "TheVic"
+          "Airwaks",
+          "Nikof",
+          "Salack",
+          "Twisted"
         ],
-        "notable": "Skite vainqueur Winter Royale Solo ( 000)"
+        "key_achievement": "Top 2 Coupe de France Fortnite, sacre sur multiples LANs nationales",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "vitality",
         "name": "Team Vitality",
         "tag": "VIT",
-        "tier": "Tier 1",
-        "points": 46000,
+        "points": 13800,
         "roster": [
           "Gotaga",
           "Mickalow",
           "Robi",
-          "Airwaks",
-          "Teeqzy"
+          "Adz"
         ],
-        "notable": "Podiums LANs françaises et Skirmishes"
+        "key_achievement": "Vainqueurs Summer Skirmish Paris, immense régularité LANs",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "oserv",
-        "name": "Oserv Esport",
-        "tag": "OSV",
-        "tier": "Tier 2",
-        "points": 32000,
+        "name": "Gentside Esports Club",
+        "tag": "GNT",
+        "points": 11500,
         "roster": [
-          "Skite",
-          "MawkS",
-          "Nyx",
-          "Deadra",
-          "Blaxou"
+          "TheVic",
+          "Madzen",
+          "Fr4nk",
+          "Narkox"
         ],
-        "notable": "Finalistes réguliers en Skirmishes"
+        "key_achievement": "Vainqueurs ESWC Metz 2018, podiums majeurs de la scène française",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "lunary",
-        "name": "Lunary",
-        "tag": "LNY",
-        "tier": "Tier 2",
-        "points": 24000,
-        "roster": [
-          "Jbzz",
-          "Chap",
-          "Taipouz",
-          "MZ"
-        ],
-        "notable": "Podiums LANs francophones"
-      },
-      {
-        "rank": 6,
-        "id": "supremacy",
-        "name": "Supremacy",
-        "tag": "Sy",
-        "tier": "Tier 2",
-        "points": 21000,
-        "roster": [
-          "Vato",
-          "Skite",
-          "Maxalibur",
-          "Kyuubi"
-        ],
-        "notable": "Révélation des futurs cracks mondiaux"
-      },
-      {
-        "rank": 7,
-        "id": "team-go",
-        "name": "Team GO (GamersOrigin)",
-        "tag": "GO",
-        "tier": "Tier 2",
-        "points": 18000,
-        "roster": [
-          "M1key",
-          "Lentille"
-        ],
-        "notable": "Finalistes tournois EU"
-      },
-      {
-        "rank": 8,
-        "id": "mces",
-        "name": "Team MCES",
-        "tag": "MCES",
-        "tier": "Tier 1",
-        "points": 15000,
-        "roster": [
-          "Andilex",
-          "Orkh",
-          "Flyzer"
-        ],
-        "notable": "Création de la section esport marseillaise"
-      },
-      {
-        "rank": 9,
-        "id": "millenium",
         "name": "Millenium",
         "tag": "M",
-        "tier": "Tier 1",
-        "points": 14000,
+        "points": 9800,
         "roster": [
           "Teeqzy",
           "NokSs",
-          "Robi",
-          "Mickalow"
+          "Breso",
+          "Meltore"
         ],
-        "notable": "Pionnier absolu de la scène FR"
+        "key_achievement": "Record du monde de kills en squad par Teeqzy (43 kills), Top LANs",
+        "status": "Official"
+      },
+      {
+        "rank": 6,
+        "name": "LeStream Esport",
+        "tag": "LST",
+        "points": 8900,
+        "roster": [
+          "Skite",
+          "Vato"
+        ],
+        "key_achievement": "Arrivée fracassante en fin 2018, qualification Winter Royale",
+        "status": "Official"
+      },
+      {
+        "rank": 7,
+        "name": "Oserv Esport",
+        "tag": "OSV",
+        "points": 7600,
+        "roster": [
+          "M11Z",
+          "Splinter",
+          "Nayte",
+          "Kyzen"
+        ],
+        "key_achievement": "Top 4 Gamers Assembly 2018, pépinière de talents",
+        "status": "Official"
+      },
+      {
+        "rank": 8,
+        "name": "Supremacy",
+        "tag": "SY",
+        "points": 6900,
+        "roster": [
+          "Keolys",
+          "Veyder",
+          "Spk",
+          "Hawkers"
+        ],
+        "key_achievement": "Régularité Skirmish et LANs françaises",
+        "status": "Official"
+      },
+      {
+        "rank": 9,
+        "name": "Team GO (GamersOrigin)",
+        "tag": "GO",
+        "points": 6400,
+        "roster": [
+          "M1nz",
+          "Jules",
+          "Mawkinn",
+          "Deadra"
+        ],
+        "key_achievement": "Performances solides en Open Cups et LANs",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "exalty",
-        "name": "Exalty",
-        "tag": "EXL",
-        "tier": "Tier 2",
-        "points": 11000,
+        "name": "Bastille Legacy",
+        "tag": "BL",
+        "points": 5800,
         "roster": [
-          "Falconly",
-          "Robabz",
-          "Artskill"
+          "Mickalow",
+          "Robi",
+          "Nikof",
+          "BadSniper"
         ],
-        "notable": "Débuts de la jeune garde toulousaine"
+        "key_achievement": "Équipe pionnière des premières semaines compétitives",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "team-ldlc",
         "name": "Team LDLC (LDLC OL)",
         "tag": "LDLC",
-        "tier": "Tier 2",
-        "points": 9500,
+        "points": 5200,
         "roster": [
-          "Djoe",
-          "Maylee",
-          "Ovni",
-          "Sops"
+          "Keolys",
+          "JuleZ",
+          "Wigzz",
+          "Xani"
         ],
-        "notable": "Entrée sur Fortnite en juin 2018"
+        "key_achievement": "Présence constante sur les tournois hebdomadaires",
+        "status": "Official"
       },
       {
         "rank": 12,
-        "id": "gameward",
+        "name": "DualMedia Esports",
+        "tag": "DM",
+        "points": 4500,
+        "roster": [
+          "Badsniper",
+          "Kinstaar",
+          "Falconly"
+        ],
+        "key_achievement": "Top performances sur les circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 13,
+        "name": "beGenius ESC",
+        "tag": "bE",
+        "points": 3800,
+        "roster": [
+          "Falko",
+          "Renox",
+          "Azen"
+        ],
+        "key_achievement": "Présence régulière sur les opens francophones",
+        "status": "Official"
+      },
+      {
+        "rank": 14,
+        "name": "Exalty",
+        "tag": "XLT",
+        "points": 3200,
+        "roster": [
+          "Spike",
+          "Aura",
+          "Zeyk"
+        ],
+        "key_achievement": "Présence active sur la scène semi-pro",
+        "status": "Official"
+      },
+      {
+        "rank": 15,
         "name": "GameWard",
         "tag": "GW",
-        "tier": "Tier 2",
-        "points": 8000,
+        "points": 2800,
         "roster": [
-          "Nayte",
-          "Keolys",
-          "Aarnax"
+          "Kopp",
+          "Nox",
+          "Driz"
         ],
-        "notable": "Présence dès mars 2018"
+        "key_achievement": "Premiers pas sur la scène compétitive",
+        "status": "Official"
       }
     ]
   },
@@ -190,162 +217,199 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "lestream",
         "name": "LeStream Esport",
         "tag": "LST",
-        "tier": "Tier 1",
-        "points": 115000,
+        "points": 34500,
         "roster": [
           "Skite",
+          "Nayte",
           "Vato",
-          "TheVic",
-          "Boyer"
+          "Blaxou"
         ],
-        "notable": "Skite 7e Solo & 10e Duo World Cup NYC (+)"
+        "key_achievement": "World Cup 2019 Solos & Duos, Skite Top 7 World Cup, Nayte Top 8",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 98000,
+        "points": 31200,
         "roster": [
           "Kinstaar",
           "Hunter",
-          "Nikof",
           "Airwaks",
-          "Magifection"
+          "Nikof",
+          "Magl"
         ],
-        "notable": "Kinstaar 26e Solo, Hunter & Kinstaar 23e Duo World Cup"
+        "key_achievement": "Multiples qualifiés World Cup New York (Kinstaar, Hunter, Nikof, Airwaks)",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "vitality",
         "name": "Team Vitality",
         "tag": "VIT",
-        "tier": "Tier 1",
-        "points": 78000,
+        "points": 22800,
         "roster": [
+          "Hawkers",
           "BadSniper",
           "Oslo",
-          "Hawkers",
-          "Keolys",
-          "DRG"
+          "Maxalambo"
         ],
-        "notable": "BadSniper & Oslo 11e Duo World Cup NYC ()"
+        "key_achievement": "BadSniper Top World Cup Solo, Oslo Top Duos",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "mces",
         "name": "Team MCES",
         "tag": "MCES",
-        "tier": "Tier 1",
-        "points": 65000,
+        "points": 18900,
         "roster": [
           "Andilex",
-          "Xsweeze",
-          "Kouto",
-          "PodaSai",
-          "Flyzer"
+          "Orkh",
+          "Podasai",
+          "Xsweeze"
         ],
-        "notable": "Montée en puissance fulgurante en FNCS Trios"
+        "key_achievement": "Vainqueurs et podiums FNCS Trios Saison X",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "team-go",
         "name": "Team GO (GamersOrigin)",
         "tag": "GO",
-        "tier": "Tier 1",
-        "points": 48000,
+        "points": 15400,
         "roster": [
-          "Decyptos",
-          "M1key",
-          "Lentille",
-          "Robabz"
+          "M1nz",
+          "Jules",
+          "Decypt",
+          "Lenz"
         ],
-        "notable": "Finalistes FNCS Saison X Trios"
+        "key_achievement": "Finalistes FNCS Trios Saison X et Squads Chapitre 2",
+        "status": "Official"
       },
       {
         "rank": 6,
-        "id": "trainhard",
         "name": "TrainHard eSport",
         "tag": "TH",
-        "tier": "Tier 1",
-        "points": 42000,
+        "points": 14200,
         "roster": [
+          "Blax",
           "BlastR",
-          "Alpha",
+          "Robabz",
           "Yags"
         ],
-        "notable": "Formation du trio d'élite"
+        "key_achievement": "Montée en puissance spectaculaire FNCS Squads",
+        "status": "Official"
       },
       {
         "rank": 7,
-        "id": "grizi",
         "name": "Grizi Esport",
         "tag": "GRIZI",
-        "tier": "Tier 1",
-        "points": 32000,
+        "points": 12500,
         "roster": [
+          "4zr",
           "Nayte",
-          "4zr"
+          "Badsniper"
         ],
-        "notable": "Signature de Nayte fin 2019"
+        "key_achievement": "Création de la structure, signatures majeures de fin de saison",
+        "status": "Official"
       },
       {
         "rank": 8,
-        "id": "team-ldlc",
-        "name": "Team LDLC",
-        "tag": "LDLC",
-        "tier": "Tier 2",
-        "points": 24000,
+        "name": "Gentside Esports Club",
+        "tag": "GNT",
+        "points": 9800,
         "roster": [
-          "Seth",
-          "Spk",
-          "Kyuubi"
+          "TheVic",
+          "Madzen"
         ],
-        "notable": "Régularité open qualifiers"
+        "key_achievement": "Finales hivernales avant fermeture de la structure",
+        "status": "Official"
       },
       {
         "rank": 9,
-        "id": "gameward",
         "name": "GameWard",
         "tag": "GW",
-        "tier": "Tier 2",
-        "points": 18000,
+        "points": 8400,
         "roster": [
-          "Kaido",
-          "Strik",
-          "Shaax"
+          "Kopp",
+          "Zeyko",
+          "Falconly"
         ],
-        "notable": "Finalistes Heats FNCS Trios"
+        "key_achievement": "Top 10 FNCS Trios et qualifications régionales",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "exalty",
-        "name": "Exalty",
-        "tag": "EXL",
-        "tier": "Tier 2",
-        "points": 15000,
+        "name": "Team LDLC",
+        "tag": "LDLC",
+        "points": 7600,
         "roster": [
-          "Falconly",
-          "Artskill"
+          "Keolys",
+          "JuleZ",
+          "Xani"
         ],
-        "notable": "Qualification Heats Saison X"
+        "key_achievement": "Finalistes FNCS Squads Chapitre 2 Saison 1",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "supremacy",
-        "name": "Supremacy",
-        "tag": "Sy",
-        "tier": "Tier 2",
-        "points": 12000,
+        "name": "Lunary",
+        "tag": "LNY",
+        "points": 6900,
         "roster": [
-          "Maxalibur",
-          "Kyuubi"
+          "Airwaks",
+          "Nikof"
         ],
-        "notable": "Présence continue sur le circuit"
+        "key_achievement": "Vainqueurs Pro-Am World Cup New York",
+        "status": "Official"
+      },
+      {
+        "rank": 12,
+        "name": "Supremacy",
+        "tag": "SY",
+        "points": 5800,
+        "roster": [
+          "Keolys",
+          "Hawkers"
+        ],
+        "key_achievement": "Régularité sur les Cash Cups hebdomadaires",
+        "status": "Official"
+      },
+      {
+        "rank": 13,
+        "name": "Bastille Legacy",
+        "tag": "BL",
+        "points": 4900,
+        "roster": [
+          "Mickalow",
+          "Robi"
+        ],
+        "key_achievement": "Transition des effectifs vers les nouvelles structures",
+        "status": "Official"
+      },
+      {
+        "rank": 14,
+        "name": "DualMedia Esports",
+        "tag": "DM",
+        "points": 4100,
+        "roster": [
+          "Falconly",
+          "Decypt"
+        ],
+        "key_achievement": "Top 15 étapes régionales",
+        "status": "Official"
+      },
+      {
+        "rank": 15,
+        "name": "Exalty",
+        "tag": "XLT",
+        "points": 3500,
+        "roster": [
+          "Spike",
+          "Aura"
+        ],
+        "key_achievement": "Régularité sur le circuit national",
+        "status": "Official"
       }
     ]
   },
@@ -356,172 +420,197 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "mces",
         "name": "Team MCES",
         "tag": "MCES",
-        "tier": "Tier 1",
-        "points": 145000,
+        "points": 39800,
         "roster": [
           "Andilex",
           "Xsweeze",
-          "PodaSai",
-          "Kouto"
+          "Podasai",
+          "Orkh"
         ],
-        "notable": "Andilex #1 PR Europe, Champion FNCS Duos C2S2"
+        "key_achievement": "Andilex Champion d'Europe FNCS Duos (C2S2), Vice-Champion FNCS Trios",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "grizi",
         "name": "Grizi Esport",
         "tag": "GRIZI",
-        "tier": "Tier 1",
-        "points": 128000,
+        "points": 35400,
         "roster": [
-          "Nayte",
           "4zr",
-          "Bresil"
+          "Nayte",
+          "Badsniper",
+          "Snayzy"
         ],
-        "notable": "Nayte Champion FNCS Duos C2S2, 4zr dominant"
+        "key_achievement": "Nayte Champion FNCS Invitational 2020, 4zr podiums FNCS Trios",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "trainhard",
         "name": "TrainHard eSport",
         "tag": "TH",
-        "tier": "Tier 1",
-        "points": 112000,
+        "points": 29500,
         "roster": [
-          "BlastR",
-          "Alpha",
-          "Yags",
           "Falconly",
-          "Kyzen"
+          "Blax",
+          "BlastR",
+          "Alpha"
         ],
-        "notable": "Podiums FNCS et Cash Cups EU"
+        "key_achievement": "Champion FNCS Duos avec Andilex / Nayte, domination Cash Cups",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 98000,
+        "points": 24200,
         "roster": [
-          "Nikof",
           "Floki",
+          "Decypt",
           "Clément",
-          "DRG",
-          "Decyptos"
+          "Magl"
         ],
-        "notable": "Floki & Clément au sommet des FNCS Duos"
+        "key_achievement": "Floki et Clément vainqueurs et podiums réguliers FNCS",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "vitality",
         "name": "Team Vitality",
         "tag": "VIT",
-        "tier": "Tier 1",
-        "points": 74000,
+        "points": 21300,
         "roster": [
-          "BadSniper",
+          "Nikof",
+          "Airwaks",
           "Oslo",
-          "Hawkers"
+          "BadSniper"
         ],
-        "notable": "Finalistes FNCS Invitational et C2S4"
+        "key_achievement": "Finalistes constants de toutes les éditions FNCS 2020",
+        "status": "Official"
       },
       {
         "rank": 6,
-        "id": "team-go",
         "name": "Team GO (GamersOrigin)",
         "tag": "GO",
-        "tier": "Tier 1",
-        "points": 58000,
+        "points": 18200,
         "roster": [
-          "Decyptos",
-          "M1key",
-          "Lentille"
+          "Decypt",
+          "M1nz",
+          "Lenz",
+          "Jules"
         ],
-        "notable": "Performances constantes en Grand Finals"
+        "key_achievement": "Top 5 FNCS Trios C2S4 (Marvel)",
+        "status": "Official"
       },
       {
         "rank": 7,
-        "id": "gameward",
-        "name": "GameWard",
-        "tag": "GW",
-        "tier": "Tier 2",
-        "points": 46000,
+        "name": "LeStream Esport",
+        "tag": "LST",
+        "points": 14500,
         "roster": [
-          "Snayzy",
-          "Shaax",
-          "Kaido"
+          "Skite",
+          "Vato"
         ],
-        "notable": "Snayzy explose au plus haut niveau EU"
+        "key_achievement": "Dernière saison officielle du club avec qualifications FNCS",
+        "status": "Official"
       },
       {
         "rank": 8,
-        "id": "bk-rog",
-        "name": "BK ROG Esports",
-        "tag": "BKR",
-        "tier": "Tier 2",
-        "points": 38000,
+        "name": "GameWard",
+        "tag": "GW",
+        "points": 12800,
         "roster": [
-          "Shad",
-          "Skyro",
-          "Keoz"
+          "Keolys",
+          "Zeyko",
+          "Kopp"
         ],
-        "notable": "Finalistes FNCS Heats"
+        "key_achievement": "Finalistes FNCS Duos et Trios",
+        "status": "Official"
       },
       {
         "rank": 9,
-        "id": "valiant",
-        "name": "Valiant",
-        "tag": "VLT",
-        "tier": "Tier 2",
-        "points": 28000,
+        "name": "Team LDLC",
+        "tag": "LDLC",
+        "points": 10900,
         "roster": [
-          "Kyzen",
-          "Velo"
+          "JuleZ",
+          "Xani"
         ],
-        "notable": "Entrée active sur la scène française"
+        "key_achievement": "Top 15 Européen régulier en Cash Cups",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "team-bsk",
-        "name": "Team BSK",
-        "tag": "BSK",
-        "tier": "Tier 2",
-        "points": 22000,
+        "name": "BK ROG Esports",
+        "tag": "BK",
+        "points": 9400,
         "roster": [
-          "BSK Rayan",
-          "BSK Aero"
+          "Kyzen",
+          "Hris",
+          "Robabz"
         ],
-        "notable": "Révélation des tournois sub-top"
+        "key_achievement": "Entrée fracassante sur la scène Fortnite compétitive",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "reality-zone",
-        "name": "Reality Zoned",
-        "tag": "RZ",
-        "tier": "Tier 2",
-        "points": 18000,
+        "name": "Valiant",
+        "tag": "VLT",
+        "points": 8200,
         "roster": [
-          "RZ Phoenix",
-          "RZ Kev"
+          "Skyze",
+          "Vortex"
         ],
-        "notable": "Leader tournois console et open"
+        "key_achievement": "Qualifications régulières en heats FNCS",
+        "status": "Official"
       },
       {
         "rank": 12,
-        "id": "exalty",
-        "name": "Exalty",
-        "tag": "EXL",
-        "tier": "Tier 2",
-        "points": 14000,
+        "name": "Supremacy",
+        "tag": "SY",
+        "points": 7100,
         "roster": [
-          "Falconly",
-          "Artskill"
+          "Hawkers",
+          "Spk"
         ],
-        "notable": "Transition avant départ des joueurs"
+        "key_achievement": "Régularité sur les Opens Européens",
+        "status": "Official"
+      },
+      {
+        "rank": 13,
+        "name": "Exalty",
+        "tag": "XLT",
+        "points": 6200,
+        "roster": [
+          "Aura",
+          "Spike"
+        ],
+        "key_achievement": "Finales francophones",
+        "status": "Official"
+      },
+      {
+        "rank": 14,
+        "name": "Reality Zoned",
+        "tag": "RZ",
+        "points": 5400,
+        "roster": [
+          "Nayro",
+          "Kyli"
+        ],
+        "key_achievement": "Entrée sur le circuit francophone",
+        "status": "Official"
+      },
+      {
+        "rank": 15,
+        "name": "Team BSK",
+        "tag": "BSK",
+        "points": 4600,
+        "roster": [
+          "Shado",
+          "Kenza"
+        ],
+        "key_achievement": "Performances régulières en coupes communautaires",
+        "status": "Official"
       }
     ]
   },
@@ -532,182 +621,251 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "trainhard",
         "name": "TrainHard eSport",
         "tag": "TH",
-        "tier": "Tier 1",
-        "points": 162000,
+        "points": 44200,
         "roster": [
           "Falconly",
+          "Blax",
           "BlastR",
-          "Alpha",
-          "Yags",
-          "Kyzen"
+          "Viter"
         ],
-        "notable": "Densité record de points PR en Trios FNCS"
+        "key_achievement": "Grands Vainqueurs FNCS All-Star Showdown 2021, Top 1 Européen de l'année",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "grizi",
         "name": "Grizi Esport",
         "tag": "GRIZI",
-        "tier": "Tier 1",
-        "points": 138000,
+        "points": 38900,
         "roster": [
           "4zr",
-          "Nayte"
+          "Nayte",
+          "Snayzy",
+          "Podasai"
         ],
-        "notable": "4zr Champion FNCS Trios C2S8 avec TaySon & Chapix"
+        "key_achievement": "4zr Champion FNCS Trios C2S8, sacre au Grand Royale 2021",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 115000,
+        "points": 33400,
         "roster": [
           "Floki",
           "Clément",
-          "Decyptos",
-          "Nikof"
+          "Magl",
+          "Chubs"
         ],
-        "notable": "Trio Floki, Clément, Decyptos abonnés aux finales"
+        "key_achievement": "Champions FNCS Trios C2S6, Top régulier FNCS Grand Royale",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "mces",
         "name": "Team MCES",
         "tag": "MCES",
-        "tier": "Tier 1",
-        "points": 88000,
+        "points": 27800,
         "roster": [
           "Andilex",
-          "PodaSai",
-          "Xsweeze"
+          "Xsweeze",
+          "Podasai"
         ],
-        "notable": "Andilex & Xsweeze toujours dans l'élite EU"
+        "key_achievement": "Podium FNCS Trios C2S5, régularité au sommet européen",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "team-go",
         "name": "Team GO (GamersOrigin)",
         "tag": "GO",
-        "tier": "Tier 1",
-        "points": 74000,
+        "points": 24600,
         "roster": [
-          "Decyptos",
-          "Shaykos",
-          "M11Z"
+          "Decypt",
+          "M1nz",
+          "Stifler"
         ],
-        "notable": "Grand Finals FNCS régulières"
+        "key_achievement": "Top 10 européen Grand Royale FNCS",
+        "status": "Official"
       },
       {
         "rank": 6,
-        "id": "vitality",
         "name": "Team Vitality",
         "tag": "VIT",
-        "tier": "Tier 1",
-        "points": 62000,
+        "points": 21200,
         "roster": [
-          "BadSniper",
-          "Oslo",
-          "Strik"
+          "Nikof",
+          "Snayzy"
         ],
-        "notable": "Dernières finales FNCS de la structure"
+        "key_achievement": "Finalistes FNCS toutes saisons 2021",
+        "status": "Official"
       },
       {
         "rank": 7,
-        "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
-        "tier": "Tier 2",
-        "points": 48000,
+        "points": 17500,
         "roster": [
-          "Velo",
-          "Skyro",
-          "Shay"
+          "Kyzen",
+          "Vortex"
         ],
-        "notable": "Multiples qualifications Round 4 FNCS"
+        "key_achievement": "Top 15 Heats FNCS Trios",
+        "status": "Official"
       },
       {
         "rank": 8,
-        "id": "reality-zone",
         "name": "Reality Zoned",
         "tag": "RZ",
-        "tier": "Tier 2",
-        "points": 42000,
+        "points": 14800,
         "roster": [
-          "RZ Phoenix",
-          "RZ Kev",
-          "RZ Zeek"
+          "Nayro",
+          "Kyli",
+          "Zeyko"
         ],
-        "notable": "Présence constante en Heats et Cash Cups"
+        "key_achievement": "Premières qualifications aux finales majeures",
+        "status": "Official"
       },
       {
         "rank": 9,
-        "id": "gameward",
         "name": "GameWard",
         "tag": "GW",
-        "tier": "Tier 2",
-        "points": 38000,
+        "points": 13200,
         "roster": [
-          "Snayzy",
-          "Shaax"
+          "Keolys",
+          "Tylio"
         ],
-        "notable": "Snayzy confirme son statut de top player"
+        "key_achievement": "Finalistes Cash Cups réguliers",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "team-bsk",
-        "name": "Team BSK",
-        "tag": "BSK",
-        "tier": "Tier 2",
-        "points": 27000,
+        "name": "BK ROG Esports",
+        "tag": "BK",
+        "points": 11900,
         "roster": [
-          "BSK Rayan",
-          "BSK Aero"
+          "Hris",
+          "Robabz"
         ],
-        "notable": "Top régulier Cash Cups francophones"
+        "key_achievement": "Top 20 FNCS Heats",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "lyost-esport",
-        "name": "Lyost Esport",
-        "tag": "LYO",
-        "tier": "Tier 2",
-        "points": 23000,
+        "name": "Team BSK",
+        "tag": "BSK",
+        "points": 9800,
         "roster": [
-          "Lyost_Kyz",
-          "Lyost_Storm"
+          "Shado",
+          "Kenza"
         ],
-        "notable": "Création en janvier 2021 et débuts prometteurs"
+        "key_achievement": "Victoires en Victory Cups",
+        "status": "Official"
       },
       {
         "rank": 12,
-        "id": "aten-esport",
-        "name": "Aten eSport",
-        "tag": "ATEN",
-        "tier": "Tier 2",
-        "points": 21000,
+        "name": "Lyost Esport",
+        "tag": "LYOST",
+        "points": 8700,
         "roster": [
-          "ATEN Raptor",
-          "ATEN Nox"
+          "Momsy",
+          "Werex"
         ],
-        "notable": "Création du club et premières perfs"
+        "key_achievement": "Débuts prometteurs sur le circuit officiel",
+        "status": "Official"
       },
       {
         "rank": 13,
-        "id": "jupitar-esport",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "points": 7400,
+        "roster": [
+          "Atenz",
+          "Skyze"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 14,
         "name": "Jupitar Esport",
         "tag": "JUP",
-        "tier": "Tier 2",
-        "points": 16000,
+        "points": 6800,
         "roster": [
-          "JUP Nova",
-          "JUP Sly"
+          "Jupi",
+          "Star"
         ],
-        "notable": "Émergence sur le circuit sub-top"
+        "key_achievement": "Qualifications Opens",
+        "status": "Official"
+      },
+      {
+        "rank": 15,
+        "name": "Wooka Esport",
+        "tag": "WOOKA",
+        "points": 6200,
+        "roster": [
+          "Szarik",
+          "Ferdy"
+        ],
+        "key_achievement": "Fondation du club et premières performances",
+        "status": "Official"
+      },
+      {
+        "rank": 16,
+        "name": "Vulcan Esport",
+        "tag": "VUL",
+        "points": 5500,
+        "roster": [
+          "Tarpz",
+          "Zarb"
+        ],
+        "key_achievement": "Circuit amateur et semi-pro",
+        "status": "Official"
+      },
+      {
+        "rank": 17,
+        "name": "Orphée Esport",
+        "tag": "ORPH",
+        "points": 4900,
+        "roster": [
+          "Fnam",
+          "Artist"
+        ],
+        "key_achievement": "Qualifications heats",
+        "status": "Official"
+      },
+      {
+        "rank": 18,
+        "name": "EOZ eSport",
+        "tag": "EOZ",
+        "points": 4200,
+        "roster": [
+          "Spexx",
+          "Hedra"
+        ],
+        "key_achievement": "Circuits communautaires",
+        "status": "Official"
+      },
+      {
+        "rank": 19,
+        "name": "WIP Esports",
+        "tag": "WIP",
+        "points": 3600,
+        "roster": [
+          "Velryy"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 20,
+        "name": "Exalty",
+        "tag": "XLT",
+        "points": 3100,
+        "roster": [
+          "Aura",
+          "Spike"
+        ],
+        "key_achievement": "Fin de parcours compétitif",
+        "status": "Official"
       }
     ]
   },
@@ -718,179 +876,259 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 124000,
+        "points": 46800,
         "roster": [
           "Floki",
           "Clément",
-          "BlastR",
-          "Vico"
+          "Chubs",
+          "Darkos"
         ],
-        "notable": "Seul grand club FR en continu en Grand Finals FNCS"
+        "key_achievement": "Vice-Champions FNCS Invitational Raleigh 2022, Champions FNCS Chapitre 3",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "team-go",
         "name": "Team GO",
         "tag": "GO",
-        "tier": "Tier 1",
-        "points": 76000,
+        "points": 38400,
         "roster": [
-          "Decyptos",
-          "Shaykos",
-          "Robabz"
+          "Decypt",
+          "Podasai",
+          "M1nz"
         ],
-        "notable": "Podiums Cash Cups et Finales FNCS"
+        "key_achievement": "Top 5 FNCS Duos Chapitre 3, sacre en Cash Cups",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
-        "tier": "Tier 2",
-        "points": 68000,
+        "points": 28600,
         "roster": [
-          "VLT Kyz",
-          "Aura",
-          "Velo"
+          "Kyzen",
+          "Robabz",
+          "Deyy"
         ],
-        "notable": "Actif sur le vivier européen et francophone"
+        "key_achievement": "Top 10 FNCS Duos européen",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "reality-zone",
         "name": "Reality Zoned",
         "tag": "RZ",
-        "tier": "Tier 2",
-        "points": 54000,
+        "points": 23900,
         "roster": [
-          "RZ Phoenix",
-          "RZ Kev",
-          "RZ Zeek",
-          "Dark"
+          "Nayro",
+          "Kyli",
+          "Zeyko"
         ],
-        "notable": "Podium Challenger et victoires en Open Cups"
+        "key_achievement": "Finalistes FNCS Duos C3S2",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "mces",
         "name": "Team MCES",
         "tag": "MCES",
-        "tier": "Tier 1",
-        "points": 44000,
+        "points": 19500,
         "roster": [
-          "PodaSai",
+          "Andilex",
           "Xsweeze"
         ],
-        "notable": "Dernière saison compétitive avant transition"
+        "key_achievement": "Dernière grande campagne avant transition club",
+        "status": "Official"
       },
       {
         "rank": 6,
-        "id": "team-fake",
-        "name": "Team Fake",
-        "tag": "FAKE",
-        "tier": "Tier 2",
-        "points": 38000,
+        "name": "GameWard",
+        "tag": "GW",
+        "points": 16800,
         "roster": [
-          "Fake Shadow",
-          "Fake Storm",
-          "Neo"
+          "Keolys",
+          "Tylio"
         ],
-        "notable": "Entrée explosive sur les Cash Cups"
+        "key_achievement": "Finalistes réguliers Cash Cups",
+        "status": "Official"
       },
       {
         "rank": 7,
-        "id": "team-bsk",
-        "name": "Team BSK",
-        "tag": "BSK",
-        "tier": "Tier 2",
-        "points": 34000,
+        "name": "BK ROG Esports",
+        "tag": "BK",
+        "points": 14500,
         "roster": [
-          "BSK Rayan",
-          "BSK Aero"
+          "Hris",
+          "Vortex"
         ],
-        "notable": "Top régularité sur les serveurs français"
+        "key_achievement": "Top 20 Heats FNCS",
+        "status": "Official"
       },
       {
         "rank": 8,
-        "id": "gameward",
-        "name": "GameWard",
-        "tag": "GW",
-        "tier": "Tier 2",
-        "points": 31000,
+        "name": "Team Fake",
+        "tag": "FAKE",
+        "points": 12800,
         "roster": [
-          "Shaax",
-          "Kaido"
+          "Zeka",
+          "Krox"
         ],
-        "notable": "Qualifications régulières"
+        "key_achievement": "Révélation Tier 2 de l'année",
+        "status": "Official"
       },
       {
         "rank": 9,
-        "id": "aten-esport",
-        "name": "Aten eSport",
-        "tag": "ATEN",
-        "tier": "Tier 2",
-        "points": 29000,
+        "name": "Team BSK",
+        "tag": "BSK",
+        "points": 11200,
         "roster": [
-          "ATEN Raptor",
-          "ATEN Nox"
+          "Shado",
+          "Kenza"
         ],
-        "notable": "Qualifications Heats FNCS"
+        "key_achievement": "Régularité en coupes ouvertes",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "jupitar-esport",
-        "name": "Jupitar Esport",
-        "tag": "JUP",
-        "tier": "Tier 2",
-        "points": 23000,
+        "name": "Wooka Esport",
+        "tag": "WOOKA",
+        "points": 9800,
         "roster": [
-          "JUP Nova",
-          "JUP Vax"
+          "Szarik",
+          "Ferdy"
         ],
-        "notable": "Pépinière de talents compétitifs"
+        "key_achievement": "Montée en puissance",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "lyost-esport",
-        "name": "Lyost Esport",
-        "tag": "LYO",
-        "tier": "Tier 2",
-        "points": 21000,
+        "name": "Vulcan Esport",
+        "tag": "VUL",
+        "points": 8900,
         "roster": [
-          "Lyost_Kyz",
-          "Lyost_Storm"
+          "Tarpz",
+          "Zarb"
         ],
-        "notable": "Organisation de la Massilia Cup"
+        "key_achievement": "Podiums Tier 2",
+        "status": "Official"
       },
       {
         "rank": 12,
-        "id": "odious-esport",
-        "name": "Odious Esport",
-        "tag": "ODS",
-        "tier": "Tier 2",
-        "points": 19000,
+        "name": "Orphée Esport",
+        "tag": "ORPH",
+        "points": 7800,
         "roster": [
-          "ODS Vortex",
-          "Sky"
+          "Fnam",
+          "Artist"
         ],
-        "notable": "Débuts prometteurs en scrims et cups"
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
       },
       {
         "rank": 13,
-        "id": "paps-esport",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "points": 6900,
+        "roster": [
+          "Atenz",
+          "Nox"
+        ],
+        "key_achievement": "Coupes régionales",
+        "status": "Official"
+      },
+      {
+        "rank": 14,
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "points": 6200,
+        "roster": [
+          "Jupi",
+          "Krono"
+        ],
+        "key_achievement": "Qualifications Opens",
+        "status": "Official"
+      },
+      {
+        "rank": 15,
+        "name": "Lyost Esport",
+        "tag": "LYOST",
+        "points": 5600,
+        "roster": [
+          "Momsy",
+          "Werex"
+        ],
+        "key_achievement": "Progression continue",
+        "status": "Official"
+      },
+      {
+        "rank": 16,
+        "name": "Odious Esport",
+        "tag": "ODI",
+        "points": 4900,
+        "roster": [
+          "Odi",
+          "Rage"
+        ],
+        "key_achievement": "Circuits francophones",
+        "status": "Official"
+      },
+      {
+        "rank": 17,
         "name": "Pap's Esport",
         "tag": "PAPS",
-        "tier": "Tier 2",
-        "points": 15000,
+        "points": 4300,
         "roster": [
-          "PAPS Zek",
-          "Ray"
+          "Papito",
+          "Slay"
         ],
-        "notable": "Présence dynamique sur la scène communautaire"
+        "key_achievement": "Circuits semi-pro",
+        "status": "Official"
+      },
+      {
+        "rank": 18,
+        "name": "EOZ eSport",
+        "tag": "EOZ",
+        "points": 3800,
+        "roster": [
+          "Spexx",
+          "Hedra"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 19,
+        "name": "WIP Esports",
+        "tag": "WIP",
+        "points": 3300,
+        "roster": [
+          "Velryy"
+        ],
+        "key_achievement": "Circuits communautaires",
+        "status": "Official"
+      },
+      {
+        "rank": 20,
+        "name": "TRKF E-Sport",
+        "tag": "TRKF",
+        "points": 2800,
+        "roster": [
+          "flex",
+          "Damage"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
+      },
+      {
+        "rank": 21,
+        "name": "NOW eSport",
+        "tag": "NOW",
+        "points": 2300,
+        "roster": [
+          "Klayzz",
+          "Squzy"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
       }
     ]
   },
@@ -901,167 +1139,371 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "gentle-mates",
         "name": "Gentle Mates",
         "tag": "M8",
-        "tier": "Tier 1",
-        "points": 142000,
+        "points": 68500,
         "roster": [
-          "Snayzy",
-          "PodaSai"
+          "Podasai",
+          "Snayzy"
         ],
-        "notable": "Snayzy & PodaSai qualifiés au Global Championship Copenhague 2023, managés par Nikof (Head of Fortnite puis CEO de Gentle Mates)"
+        "key_achievement": "Podasai & Snayzy Champions FNCS Major 3 C4S3, Vainqueurs Major 2 Europe",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 128000,
+        "points": 54200,
         "roster": [
-          "Vico",
           "Floki",
-          "Clément"
+          "Clément",
+          "Chubs",
+          "Veno"
         ],
-        "notable": "Saison stratosphérique de Vico en Majors"
+        "key_achievement": "Top 4 FNCS Global Championship Copenhague 2023",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "zerance",
         "name": "Zerance",
         "tag": "ZRC",
-        "tier": "Tier 1",
-        "points": 74000,
+        "points": 39800,
         "roster": [
           "Skydeun",
-          "EMXXRR",
-          "Vico"
+          "Vatira",
+          "Ketz"
         ],
-        "notable": "Entrée fracassante sur Fortnite en juillet 2023"
+        "key_achievement": "Sensation de l'année, Top 5 FNCS Majors",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "reality-zone",
         "name": "Reality Zoned",
         "tag": "RZ",
-        "tier": "Tier 2",
-        "points": 62000,
+        "points": 31200,
         "roster": [
-          "RZ Phoenix",
-          "RZ Kev",
-          "RZ Zeek",
-          "Storm"
+          "Nayro",
+          "Kyli",
+          "Zeyko"
         ],
-        "notable": "Top 1 Challenger FR (Cash Cups & Heats)"
+        "key_achievement": "Finalistes majeurs FNCS",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
-        "tier": "Tier 2",
-        "points": 51000,
+        "points": 26500,
         "roster": [
-          "VLT Kyz",
-          "Aura",
-          "Shay"
+          "Kyzen",
+          "Robabz"
         ],
-        "notable": "Présence active en Majors"
+        "key_achievement": "Top 15 européen FNCS",
+        "status": "Official"
       },
       {
         "rank": 6,
-        "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
-        "tier": "Tier 2",
-        "points": 44000,
+        "points": 21800,
         "roster": [
-          "Fake Shadow",
-          "Fake Storm",
-          "Krono"
+          "Zeka",
+          "Krox",
+          "Skyll"
         ],
-        "notable": "Multiples tops Cash Cups"
+        "key_achievement": "Meilleure équipe indépendante 2023",
+        "status": "Official"
       },
       {
         "rank": 7,
-        "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
-        "tier": "Tier 2",
-        "points": 38000,
+        "points": 18400,
         "roster": [
-          "BSK Rayan",
-          "BSK Aero",
-          "Nex"
+          "Shado",
+          "Kenza"
         ],
-        "notable": "Solidité en Victory Cups"
+        "key_achievement": "Régularité impressionnante",
+        "status": "Official"
       },
       {
         "rank": 8,
-        "id": "aten-esport",
-        "name": "Aten eSport",
-        "tag": "ATEN",
-        "tier": "Tier 2",
-        "points": 33000,
+        "name": "GameWard",
+        "tag": "GW",
+        "points": 16200,
         "roster": [
-          "ATEN Raptor",
-          "ATEN Nox",
-          "Zack"
+          "Tylio",
+          "Keolys"
         ],
-        "notable": "Performances inter-clubs"
+        "key_achievement": "Finales Cash Cups",
+        "status": "Official"
       },
       {
         "rank": 9,
-        "id": "jupitar-esport",
-        "name": "Jupitar Esport",
-        "tag": "JUP",
-        "tier": "Tier 2",
-        "points": 26000,
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "points": 13900,
         "roster": [
-          "JUP Nova",
-          "JUP Vax"
+          "Atenz",
+          "Skyze"
         ],
-        "notable": "Régularité open qualifiers"
+        "key_achievement": "Podiums Tier 2",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "lyost-esport",
-        "name": "Lyost Esport",
-        "tag": "LYO",
-        "tier": "Tier 2",
-        "points": 24000,
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "points": 12400,
         "roster": [
-          "Lyost_Kyz",
-          "Lyost_Storm"
+          "Jupi",
+          "Star"
         ],
-        "notable": "Régularité tournois hebdomadaires"
+        "key_achievement": "Performances régulières",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "odious-esport",
-        "name": "Odious Esport",
-        "tag": "ODS",
-        "tier": "Tier 2",
-        "points": 22000,
+        "name": "Lyost Esport",
+        "tag": "LYOST",
+        "points": 11200,
         "roster": [
-          "ODS Vortex",
-          "Sky"
+          "Momsy",
+          "Werex",
+          "Twek"
         ],
-        "notable": "Montée en puissance"
+        "key_achievement": "Percée sur le circuit officiel",
+        "status": "Official"
       },
       {
         "rank": 12,
-        "id": "paps-esport",
+        "name": "Odious Esport",
+        "tag": "ODI",
+        "points": 9800,
+        "roster": [
+          "Odi",
+          "Rage"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 13,
         "name": "Pap's Esport",
         "tag": "PAPS",
-        "tier": "Tier 2",
-        "points": 18000,
+        "points": 8900,
         "roster": [
-          "PAPS Zek",
-          "Ray"
+          "Papito",
+          "Zen"
         ],
-        "notable": "Animation scène FR"
+        "key_achievement": "Circuits communautaires",
+        "status": "Official"
+      },
+      {
+        "rank": 14,
+        "name": "Wooka Esport",
+        "tag": "WOOKA",
+        "points": 8100,
+        "roster": [
+          "Szarik",
+          "Ferdy"
+        ],
+        "key_achievement": "Progression constante",
+        "status": "Official"
+      },
+      {
+        "rank": 15,
+        "name": "Vulcan Esport",
+        "tag": "VUL",
+        "points": 7400,
+        "roster": [
+          "Tarpz",
+          "Zarb"
+        ],
+        "key_achievement": "Performances semi-pro",
+        "status": "Official"
+      },
+      {
+        "rank": 16,
+        "name": "Orphée Esport",
+        "tag": "ORPH",
+        "points": 6800,
+        "roster": [
+          "Fnam",
+          "Artist"
+        ],
+        "key_achievement": "Qualifications heats",
+        "status": "Official"
+      },
+      {
+        "rank": 17,
+        "name": "TRKF E-Sport",
+        "tag": "TRKF",
+        "points": 6100,
+        "roster": [
+          "flex",
+          "Damage"
+        ],
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
+      },
+      {
+        "rank": 18,
+        "name": "NOW eSport",
+        "tag": "NOW",
+        "points": 5500,
+        "roster": [
+          "Klayzz",
+          "Squzy"
+        ],
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
+      },
+      {
+        "rank": 19,
+        "name": "EOZ eSport",
+        "tag": "EOZ",
+        "points": 4900,
+        "roster": [
+          "Spexx",
+          "Hedra"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 20,
+        "name": "EKINOX",
+        "tag": "EKI",
+        "points": 4400,
+        "roster": [
+          "Mirooz",
+          "nayzix7"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
+      },
+      {
+        "rank": 21,
+        "name": "WIP Esports",
+        "tag": "WIP",
+        "points": 3900,
+        "roster": [
+          "Velryy"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 22,
+        "name": "Haikoo",
+        "tag": "HK",
+        "points": 3500,
+        "roster": [
+          "Maciak"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
+      },
+      {
+        "rank": 23,
+        "name": "G3nZ Esport",
+        "tag": "G3NZ",
+        "points": 3100,
+        "roster": [
+          "Ary"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
+      },
+      {
+        "rank": 24,
+        "name": "MGA Esport",
+        "tag": "MGA",
+        "points": 2800,
+        "roster": [
+          "Syaaz"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
+      },
+      {
+        "rank": 25,
+        "name": "K13 Esport",
+        "tag": "K13",
+        "points": 2500,
+        "roster": [
+          "Firen"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
+      },
+      {
+        "rank": 26,
+        "name": "Lynox Esport",
+        "tag": "LYN",
+        "points": 2200,
+        "roster": [
+          "xzeevit4k"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
+      },
+      {
+        "rank": 27,
+        "name": "Poyo Esports",
+        "tag": "POYO",
+        "points": 1900,
+        "roster": [
+          "iFrOzi"
+        ],
+        "key_achievement": "Entrée sur la scène",
+        "status": "Official"
+      },
+      {
+        "rank": 28,
+        "name": "Pandaria Esport",
+        "tag": "PAND",
+        "points": 1600,
+        "roster": [
+          "Panda"
+        ],
+        "key_achievement": "Circuits communautaires",
+        "status": "Official"
+      },
+      {
+        "rank": 29,
+        "name": "Pandore Esport",
+        "tag": "PANDR",
+        "points": 1400,
+        "roster": [
+          "Huty",
+          "Triix"
+        ],
+        "key_achievement": "Circuits communautaires",
+        "status": "Official"
+      },
+      {
+        "rank": 30,
+        "name": "Fly Again",
+        "tag": "FA",
+        "points": 1200,
+        "roster": [
+          "Flyer"
+        ],
+        "key_achievement": "Circuits communautaires",
+        "status": "Official"
+      },
+      {
+        "rank": 31,
+        "name": "Team Orchid",
+        "tag": "ORC",
+        "points": 1000,
+        "roster": [
+          "Izzi"
+        ],
+        "key_achievement": "Débuts sur la scène",
+        "status": "Official"
       }
     ]
   },
@@ -1072,209 +1514,465 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "karmine-corp",
         "name": "Karmine Corp",
         "tag": "KC",
-        "tier": "Tier 1",
-        "points": 194000,
+        "points": 88400,
         "roster": [
           "Malibuca",
           "Merstach",
           "Veno",
-          "SwizzY",
-          "Oslo"
+          "SwizzY"
         ],
-        "notable": "#1 Mondial au Team Power Ranking officiel"
+        "key_achievement": "Malibuca & Merstach Champions FNCS Major 1 & Major 2 Europe, SwizzY & Veno Champions FNCS Major 3",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "gentle-mates",
         "name": "Gentle Mates",
         "tag": "M8",
-        "tier": "Tier 1",
-        "points": 136000,
+        "points": 72600,
         "roster": [
+          "Podasai",
           "Snayzy",
-          "PodaSai",
           "Vanyak3kk"
         ],
-        "notable": "Snayzy & PodaSai avec Vanyak3kk (Vice-Champion du Monde au Global Championship Texas 2024)"
+        "key_achievement": "Finalistes FNCS Globals, Vice-Champions Major 2",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 118000,
+        "points": 59800,
         "roster": [
-          "sereN",
-          "Darkos",
-          "Minori",
-          "ghonzo"
+          "Floki",
+          "Clément",
+          "Chubs",
+          "Veno"
         ],
-        "notable": "Quatuor hyper régulier au sommet du PR EU"
+        "key_achievement": "Top 5 Global Championship Fort Worth Texas 2024",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "team-havok",
         "name": "Team HavoK",
         "tag": "HVK",
-        "tier": "Tier 1",
-        "points": 76000,
+        "points": 48500,
         "roster": [
-          "Wox",
-          "Kirwa",
-          "YZY",
-          "EsTy",
-          "Netox"
+          "SwizzY",
+          "Pixie",
+          "Wox"
         ],
-        "notable": "Création le 28 août 2024 (ZetFar & WaZz) indépendante. Wox 5e au FNCS Global Championship Texas !"
+        "key_achievement": "Arrivée fracassante dans le top européen",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "zerance",
         "name": "Zerance",
         "tag": "ZRC",
-        "tier": "Tier 1",
-        "points": 61000,
+        "points": 36200,
         "roster": [
           "Skydeun",
-          "EMXXRR",
-          "PodaSai"
+          "Vatira"
         ],
-        "notable": "Présence continue dans le haut de tableau européen"
+        "key_achievement": "Top 10 européen constant",
+        "status": "Official"
       },
       {
         "rank": 6,
-        "id": "reality-zone",
         "name": "Reality Zoned",
         "tag": "RZ",
-        "tier": "Tier 2",
-        "points": 54000,
+        "points": 28400,
         "roster": [
-          "RZ Phoenix",
-          "RZ Kev",
-          "RZ Zeek"
+          "Nayro",
+          "Kyli",
+          "Zeyko"
         ],
-        "notable": "Performances régulières en Cash Cups et Heats"
+        "key_achievement": "Finalistes FNCS",
+        "status": "Official"
       },
       {
         "rank": 7,
-        "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
-        "tier": "Tier 2",
-        "points": 44000,
+        "points": 24100,
         "roster": [
-          "VLT Kyz",
-          "Aura"
+          "Robabz",
+          "Trulex"
         ],
-        "notable": "Qualifications Round 3/4 FNCS"
+        "key_achievement": "Régularité européenne",
+        "status": "Official"
       },
       {
         "rank": 8,
-        "id": "gameward",
         "name": "GameWard",
         "tag": "GW",
-        "tier": "Tier 1",
-        "points": 39000,
+        "points": 21500,
         "roster": [
-          "Tylio",
           "Kombek",
-          "Repairs",
-          "Shaax"
+          "Tylio"
         ],
-        "notable": "Actif au plus haut niveau français et européen en Cash Cups et Heats"
+        "key_achievement": "Top 15 européen",
+        "status": "Official"
       },
       {
         "rank": 9,
-        "id": "galions",
         "name": "Galions",
         "tag": "GLN",
-        "tier": "Tier 1",
-        "points": 38000,
+        "points": 18900,
         "roster": [
           "Clément",
           "Kyzen"
         ],
-        "notable": "Création en décembre 2024 par Team GO & Sixen"
+        "key_achievement": "Arrivée remarquée sur le circuit",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
-        "tier": "Tier 2",
-        "points": 36000,
+        "points": 16400,
         "roster": [
-          "Fake Shadow",
-          "Fake Storm"
+          "Zeka",
+          "Krox",
+          "Skyll"
         ],
-        "notable": "Victoires régulières en Victory Cups"
+        "key_achievement": "Solide leader du Tier 2",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
-        "tier": "Tier 2",
-        "points": 32000,
+        "points": 14200,
         "roster": [
-          "BSK Rayan",
-          "BSK Aero"
+          "Shado",
+          "Kenza"
         ],
-        "notable": "Constance sur le circuit français"
+        "key_achievement": "Régularité",
+        "status": "Official"
       },
       {
         "rank": 12,
-        "id": "aten-esport",
         "name": "Aten eSport",
         "tag": "ATEN",
-        "tier": "Tier 2",
-        "points": 28000,
+        "points": 12600,
         "roster": [
-          "ATEN Raptor",
-          "ATEN Nox"
+          "Atenz",
+          "Skyze"
         ],
-        "notable": "Podiums tournois inter-structures"
+        "key_achievement": "Podiums Tier 2",
+        "status": "Official"
       },
       {
         "rank": 13,
-        "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
-        "tier": "Tier 2",
-        "points": 22000,
+        "points": 11200,
         "roster": [
-          "JUP Nova",
-          "Vax"
+          "Jupi",
+          "Star"
         ],
-        "notable": "Formation de pépites"
+        "key_achievement": "Qualifications régulières",
+        "status": "Official"
       },
       {
         "rank": 14,
-        "id": "odious-esport",
         "name": "Odious Esport",
-        "tag": "ODS",
-        "tier": "Tier 2",
-        "points": 18000,
+        "tag": "ODI",
+        "points": 9900,
         "roster": [
-          "ODS Vortex"
+          "Odi",
+          "Rage"
         ],
-        "notable": "Régularité cups"
+        "key_achievement": "Performances régionales",
+        "status": "Official"
       },
       {
         "rank": 15,
-        "id": "paps-esport",
         "name": "Pap's Esport",
         "tag": "PAPS",
-        "tier": "Tier 2",
-        "points": 15000,
+        "points": 8800,
         "roster": [
-          "PAPS Zek"
+          "Papito",
+          "Slay"
         ],
-        "notable": "Présence scène francophone"
+        "key_achievement": "Circuits francophones",
+        "status": "Official"
+      },
+      {
+        "rank": 16,
+        "name": "1P (OneProdige)",
+        "tag": "1P",
+        "points": 8100,
+        "roster": [
+          "Lericx",
+          "Hyper",
+          "Julie"
+        ],
+        "key_achievement": "Entrée fracassante",
+        "status": "Official"
+      },
+      {
+        "rank": 17,
+        "name": "Team Orchid",
+        "tag": "ORC",
+        "points": 7500,
+        "roster": [
+          "Izzi",
+          "Nociff",
+          "Seyyto"
+        ],
+        "key_achievement": "Montée en puissance",
+        "status": "Official"
+      },
+      {
+        "rank": 18,
+        "name": "Wooka Esport",
+        "tag": "WOOKA",
+        "points": 6900,
+        "roster": [
+          "Szarik",
+          "Matez",
+          "Ferdy"
+        ],
+        "key_achievement": "Régularité",
+        "status": "Official"
+      },
+      {
+        "rank": 19,
+        "name": "Vulcan Esport",
+        "tag": "VUL",
+        "points": 6300,
+        "roster": [
+          "Izzi",
+          "Tarpz",
+          "Zarb"
+        ],
+        "key_achievement": "Circuits semi-pro",
+        "status": "Official"
+      },
+      {
+        "rank": 20,
+        "name": "Orphée Esport",
+        "tag": "ORPH",
+        "points": 5800,
+        "roster": [
+          "Fnam",
+          "Kulb",
+          "Artist"
+        ],
+        "key_achievement": "Performances solides",
+        "status": "Official"
+      },
+      {
+        "rank": 21,
+        "name": "TRKF E-Sport",
+        "tag": "TRKF",
+        "points": 5300,
+        "roster": [
+          "flex",
+          "Damage",
+          "Nero"
+        ],
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
+      },
+      {
+        "rank": 22,
+        "name": "Pandore Esport",
+        "tag": "PANDR",
+        "points": 4800,
+        "roster": [
+          "Huty",
+          "Triix",
+          "Winther"
+        ],
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
+      },
+      {
+        "rank": 23,
+        "name": "NOW eSport",
+        "tag": "NOW",
+        "points": 4400,
+        "roster": [
+          "chrisc",
+          "Klayzz",
+          "Squzy"
+        ],
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
+      },
+      {
+        "rank": 24,
+        "name": "Poyo Esports",
+        "tag": "POYO",
+        "points": 4000,
+        "roster": [
+          "SnozQ",
+          "iFrOzi",
+          "Shadox"
+        ],
+        "key_achievement": "Progression",
+        "status": "Official"
+      },
+      {
+        "rank": 25,
+        "name": "Lynox Esport",
+        "tag": "LYN",
+        "points": 3600,
+        "roster": [
+          "Heror3h",
+          "xzeevit4k"
+        ],
+        "key_achievement": "Circuits francophones",
+        "status": "Official"
+      },
+      {
+        "rank": 26,
+        "name": "EOZ eSport",
+        "tag": "EOZ",
+        "points": 3300,
+        "roster": [
+          "Mystiqul",
+          "Spexx",
+          "S1neD"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 27,
+        "name": "EKINOX",
+        "tag": "EKI",
+        "points": 3000,
+        "roster": [
+          "Mirooz",
+          "nayzix7",
+          "Exqu"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 28,
+        "name": "WIP Esports",
+        "tag": "WIP",
+        "points": 2700,
+        "roster": [
+          "Velryy",
+          "Kielba"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 29,
+        "name": "Haikoo",
+        "tag": "HK",
+        "points": 2400,
+        "roster": [
+          "Maciak",
+          "Joshbot"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 30,
+        "name": "G3nZ Esport",
+        "tag": "G3NZ",
+        "points": 2100,
+        "roster": [
+          "Ary",
+          "2Trash1zr"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 31,
+        "name": "BK ROG Esports",
+        "tag": "BK",
+        "points": 1900,
+        "roster": [
+          "Hris"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 32,
+        "name": "Novix eSport",
+        "tag": "NOV",
+        "points": 1700,
+        "roster": [
+          "Okram",
+          "Actfv"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 33,
+        "name": "Australe Esport",
+        "tag": "AUS",
+        "points": 1500,
+        "roster": [
+          "freuzi",
+          "Kaktus"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 34,
+        "name": "R4C Esport",
+        "tag": "R4C",
+        "points": 1300,
+        "roster": [
+          "Kenrop",
+          "Maloyache"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 35,
+        "name": "MGA Esport",
+        "tag": "MGA",
+        "points": 1100,
+        "roster": [
+          "Syaaz",
+          "Trusio"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 36,
+        "name": "K13 Esport",
+        "tag": "K13",
+        "points": 950,
+        "roster": [
+          "Firen",
+          "Asa"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 37,
+        "name": "Lyost Esport",
+        "tag": "LYOST",
+        "points": 800,
+        "roster": [
+          "Momsy",
+          "Werex"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
       }
     ]
   },
@@ -1285,207 +1983,466 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "gentle-mates",
         "name": "Gentle Mates",
         "tag": "M8",
-        "tier": "Tier 1",
-        "points": 158000,
+        "points": 96500,
         "roster": [
-          "Merstach",
           "Vanyak3kk",
-          "Snayzy",
-          "PodaSai"
+          "Akiira",
+          "MariusCOW",
+          "Kurama"
         ],
-        "notable": "Champion de France 2025 (Merstach Champion du Monde, Vanyak3kk régulier au sommet)"
+        "key_achievement": "Champions FNCS Globals 2025, Domination totale de la saison",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "team-havok",
         "name": "Team HavoK",
         "tag": "HVK",
-        "tier": "Tier 1",
-        "points": 146000,
+        "points": 84200,
         "roster": [
           "SwizzY",
-          "Wox",
-          "Pixie",
-          "Tjino",
           "PabloWingu",
-          "Rad3on"
+          "Tjino",
+          "Pixie"
         ],
-        "notable": "Dauphin de France 2025 ! Vainqueur Major 2, vice-champion du monde, arrivée fracassante de SwizzY mi-2025."
+        "key_achievement": "Vainqueurs FNCS Major 2 & 3, finalistes mondiaux",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 132000,
+        "points": 68900,
         "roster": [
-          "sereN",
-          "Darkos",
+          "Ghonzo",
           "Minori",
-          "ghonzo"
+          "Darkos",
+          "SkyJump"
         ],
-        "notable": "Podium 2025, présence à toutes les finales"
+        "key_achievement": "Podiums réguliers FNCS et Cash Cups",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "karmine-corp",
         "name": "Karmine Corp",
         "tag": "KC",
-        "tier": "Tier 1",
-        "points": 65000,
+        "points": 52100,
         "roster": [
-          "Veno",
-          "SwizzY"
+          "Malibuca",
+          "Veno"
         ],
-        "notable": "Points acquis sur la première partie de saison"
+        "key_achievement": "Finalistes FNCS Majors",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "zerance",
         "name": "Zerance",
         "tag": "ZRC",
-        "tier": "Tier 1",
-        "points": 58000,
+        "points": 38400,
         "roster": [
           "Skydeun",
-          "EMXXRR"
+          "Vatira"
         ],
-        "notable": "Finalistes FNCS Majors réguliers"
+        "key_achievement": "Top 10 européen",
+        "status": "Official"
       },
       {
         "rank": 6,
-        "id": "gameward",
         "name": "GameWard",
         "tag": "GW",
-        "tier": "Tier 1",
-        "points": 46000,
+        "points": 32800,
         "roster": [
-          "Tylio",
           "Kombek",
-          "Repairs",
+          "Tylio",
           "S1neD"
         ],
-        "notable": "Structure très active, qualification en finales régionales"
+        "key_achievement": "Top 12 européen",
+        "status": "Official"
       },
       {
         "rank": 7,
-        "id": "galions",
         "name": "Galions",
         "tag": "GLN",
-        "tier": "Tier 1",
-        "points": 53000,
+        "points": 27500,
         "roster": [
           "Clément",
           "Kyzen"
         ],
-        "notable": "Première saison complète très aboutie"
+        "key_achievement": "Dernière saison officielle",
+        "status": "Official"
       },
       {
         "rank": 8,
-        "id": "reality-zone",
         "name": "Reality Zoned",
         "tag": "RZ",
-        "tier": "Tier 2",
-        "points": 49000,
+        "points": 23100,
         "roster": [
-          "RZ Phoenix",
-          "RZ Kev",
-          "RZ Zeek"
+          "Nayro",
+          "Kyli",
+          "Zeyko"
         ],
-        "notable": "Performances régulières en Cash Cups"
+        "key_achievement": "Régularité",
+        "status": "Official"
       },
       {
         "rank": 9,
-        "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
-        "tier": "Tier 2",
-        "points": 41000,
+        "points": 19800,
         "roster": [
-          "Fake Shadow",
-          "Fake Storm"
+          "Zeka",
+          "Krox",
+          "Skyll"
         ],
-        "notable": "Multiples qualifications Round 3/4 FNCS"
+        "key_achievement": "Solide leader du Tier 2",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
-        "tier": "Tier 2",
-        "points": 36000,
+        "points": 17400,
         "roster": [
-          "VLT Kyz",
-          "Aura"
+          "Robabz",
+          "Trulex"
         ],
-        "notable": "Solide présence en Cash Cups"
+        "key_achievement": "Régularité européenne",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "aten-esport",
         "name": "Aten eSport",
         "tag": "ATEN",
-        "tier": "Tier 2",
-        "points": 32000,
+        "points": 15200,
         "roster": [
-          "ATEN Raptor",
-          "ATEN Nox"
+          "Atenz",
+          "Skyze"
         ],
-        "notable": "Régularité compétitive"
+        "key_achievement": "Podiums Tier 2",
+        "status": "Official"
       },
       {
         "rank": 12,
-        "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
-        "tier": "Tier 2",
-        "points": 29000,
+        "points": 13600,
         "roster": [
-          "BSK Rayan",
-          "BSK Aero"
+          "Shado",
+          "Kenza"
         ],
-        "notable": "Performance régulière"
+        "key_achievement": "Régularité",
+        "status": "Official"
       },
       {
         "rank": 13,
-        "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
-        "tier": "Tier 2",
-        "points": 24000,
+        "points": 12100,
         "roster": [
-          "JUP Nova",
-          "Vax"
+          "Jupi",
+          "Star"
         ],
-        "notable": "Nouveau vivier compétitif"
+        "key_achievement": "Qualifications régulières",
+        "status": "Official"
       },
       {
         "rank": 14,
-        "id": "odious-esport",
         "name": "Odious Esport",
-        "tag": "ODS",
-        "tier": "Tier 2",
-        "points": 20000,
+        "tag": "ODI",
+        "points": 10800,
         "roster": [
-          "ODS Vortex"
+          "Odi",
+          "Rage"
         ],
-        "notable": "Engagement Victory Cups"
+        "key_achievement": "Performances régionales",
+        "status": "Official"
       },
       {
         "rank": 15,
-        "id": "paps-esport",
         "name": "Pap's Esport",
         "tag": "PAPS",
-        "tier": "Tier 2",
-        "points": 17000,
+        "points": 9700,
         "roster": [
-          "PAPS Zek"
+          "Papito",
+          "Slay"
         ],
-        "notable": "Soutien et présence active"
+        "key_achievement": "Circuits francophones",
+        "status": "Official"
+      },
+      {
+        "rank": 16,
+        "name": "1P (OneProdige)",
+        "tag": "1P",
+        "points": 8900,
+        "roster": [
+          "Lericx",
+          "Hyper",
+          "Julie"
+        ],
+        "key_achievement": "Progression",
+        "status": "Official"
+      },
+      {
+        "rank": 17,
+        "name": "Team Orchid",
+        "tag": "ORC",
+        "points": 8200,
+        "roster": [
+          "Izzi",
+          "Nociff",
+          "Seyyto"
+        ],
+        "key_achievement": "Top 20 européen",
+        "status": "Official"
+      },
+      {
+        "rank": 18,
+        "name": "Wooka Esport",
+        "tag": "WOOKA",
+        "points": 7600,
+        "roster": [
+          "Szarik",
+          "Matez",
+          "Ferdy"
+        ],
+        "key_achievement": "Régularité",
+        "status": "Official"
+      },
+      {
+        "rank": 19,
+        "name": "Vulcan Esport",
+        "tag": "VUL",
+        "points": 7100,
+        "roster": [
+          "Izzi",
+          "Tarpz",
+          "Zarb"
+        ],
+        "key_achievement": "Circuits semi-pro",
+        "status": "Official"
+      },
+      {
+        "rank": 20,
+        "name": "Orphée Esport",
+        "tag": "ORPH",
+        "points": 6500,
+        "roster": [
+          "Fnam",
+          "Kulb",
+          "Artist"
+        ],
+        "key_achievement": "Performances solides",
+        "status": "Official"
+      },
+      {
+        "rank": 21,
+        "name": "TRKF E-Sport",
+        "tag": "TRKF",
+        "points": 5900,
+        "roster": [
+          "flex",
+          "Damage",
+          "Nero"
+        ],
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
+      },
+      {
+        "rank": 22,
+        "name": "Pandore Esport",
+        "tag": "PANDR",
+        "points": 5400,
+        "roster": [
+          "Huty",
+          "Triix",
+          "Winther"
+        ],
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
+      },
+      {
+        "rank": 23,
+        "name": "NOW eSport",
+        "tag": "NOW",
+        "points": 4900,
+        "roster": [
+          "chrisc",
+          "Klayzz",
+          "Squzy"
+        ],
+        "key_achievement": "Circuits nationaux",
+        "status": "Official"
+      },
+      {
+        "rank": 24,
+        "name": "Poyo Esports",
+        "tag": "POYO",
+        "points": 4500,
+        "roster": [
+          "SnozQ",
+          "iFrOzi",
+          "Shadox"
+        ],
+        "key_achievement": "Progression",
+        "status": "Official"
+      },
+      {
+        "rank": 25,
+        "name": "Lynox Esport",
+        "tag": "LYN",
+        "points": 4100,
+        "roster": [
+          "Heror3h",
+          "xzeevit4k"
+        ],
+        "key_achievement": "Circuits francophones",
+        "status": "Official"
+      },
+      {
+        "rank": 26,
+        "name": "EOZ eSport",
+        "tag": "EOZ",
+        "points": 3700,
+        "roster": [
+          "Mystiqul",
+          "Spexx",
+          "S1neD"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 27,
+        "name": "EKINOX",
+        "tag": "EKI",
+        "points": 3400,
+        "roster": [
+          "Mirooz",
+          "nayzix7",
+          "Exqu"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 28,
+        "name": "WIP Esports",
+        "tag": "WIP",
+        "points": 3100,
+        "roster": [
+          "Velryy",
+          "Kielba"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 29,
+        "name": "Haikoo",
+        "tag": "HK",
+        "points": 2800,
+        "roster": [
+          "Maciak",
+          "Joshbot"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 30,
+        "name": "G3nZ Esport",
+        "tag": "G3NZ",
+        "points": 2500,
+        "roster": [
+          "Ary",
+          "2Trash1zr"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 31,
+        "name": "BK ROG Esports",
+        "tag": "BK",
+        "points": 2200,
+        "roster": [
+          "Hris"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 32,
+        "name": "Novix eSport",
+        "tag": "NOV",
+        "points": 1950,
+        "roster": [
+          "Okram",
+          "Actfv"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 33,
+        "name": "Australe Esport",
+        "tag": "AUS",
+        "points": 1750,
+        "roster": [
+          "freuzi",
+          "Kaktus"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 34,
+        "name": "R4C Esport",
+        "tag": "R4C",
+        "points": 1550,
+        "roster": [
+          "Kenrop",
+          "Maloyache"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 35,
+        "name": "MGA Esport",
+        "tag": "MGA",
+        "points": 1350,
+        "roster": [
+          "Syaaz",
+          "Trusio"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 36,
+        "name": "K13 Esport",
+        "tag": "K13",
+        "points": 1150,
+        "roster": [
+          "Firen",
+          "Asa"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
+      },
+      {
+        "rank": 37,
+        "name": "Lyost Esport",
+        "tag": "LYOST",
+        "points": 950,
+        "roster": [
+          "Momsy",
+          "Werex"
+        ],
+        "key_achievement": "Circuits régionaux",
+        "status": "Official"
       }
     ]
   },
@@ -1496,542 +2453,485 @@
     "clubs": [
       {
         "rank": 1,
-        "id": "havok-by-vitality",
         "name": "HavoK by Vitality",
-        "tag": "HvK",
-        "tier": "Tier 1",
-        "points": 122000,
-        "xUrl": "https://x.com/HvKGGs",
-        "xHandle": "@HvKGGs",
+        "tag": "HVK",
+        "points": 741548,
         "roster": [
-          "SwizzY",
-          "Wox",
           "Pixie",
           "Tjino",
           "PabloWingu",
-          "IDrop",
-          "Seekk"
+          "SwizzY"
         ],
-        "notable": "Armada n°1 d'Europe sacrée Championne du Monde 2026 (Anvers) avec SwizzY & Pixie, complétée par Wox, Tjino, PabloWingu, IDrop et Seekk."
+        "key_achievement": "Rank 1 Fortnite Tracker Europe (741,548 pts, $1,395,160)",
+        "status": "Official"
       },
       {
         "rank": 2,
-        "id": "solary",
-        "name": "Solary",
-        "tag": "SLY",
-        "tier": "Tier 1",
-        "points": 98400,
-        "xUrl": "https://x.com/SolaryTV",
-        "xHandle": "@SolaryTV",
+        "name": "Gentle Mates",
+        "tag": "M8",
+        "points": 503388,
         "roster": [
-          "Darkos",
-          "sereN",
-          "XZEEVIT",
-          "Minori",
-          "ghonzo",
-          "Zangi"
+          "Akiira",
+          "MariusCOW",
+          "Vanyak3kk",
+          "Kurama"
         ],
-        "notable": "Effectif renforcé par la signature officielle de XZEEVIT le 3 octobre 2026 aux côtés de Darkos, sereN, Minori, ghonzo et Zangi (Head of Fortnite : Revenja)."
+        "key_achievement": "Rank 2 Fortnite Tracker Europe (503,388 pts, $631,600)",
+        "status": "Official"
       },
       {
         "rank": 3,
-        "id": "gentle-mates",
-        "name": "Gentle Mates",
-        "tag": "M8",
-        "tier": "Tier 1",
-        "points": 92000,
-        "xUrl": "https://x.com/GentleMates",
-        "xHandle": "@GentleMates",
+        "name": "Solary",
+        "tag": "SLY",
+        "points": 361168,
         "roster": [
-          "Vanyak3kk",
-          "Akiira",
-          "Kurama",
-          "Rax"
+          "SkyJump",
+          "Ghonzo",
+          "Minori",
+          "Kurama"
         ],
-        "notable": "Roster officiel Gentle Mates 2026 avec le duo Kurama & Akiira, Vanyak3kk et Rax (managé par Nikof, ancien pro devenu Head of Fortnite puis CEO de Gentle Mates)."
+        "key_achievement": "Rank 5 Fortnite Tracker Europe (361,168 pts, $122,890)",
+        "status": "Official"
       },
       {
         "rank": 4,
-        "id": "gameward",
-        "name": "GameWard",
-        "tag": "GW",
-        "tier": "Tier 1",
-        "points": 41500,
-        "xUrl": "https://x.com/GameWardTeam",
-        "xHandle": "@GameWardTeam",
+        "name": "Lyost Esport",
+        "tag": "LYOST",
+        "points": 351106,
         "roster": [
-          "Tylio",
-          "Kombek",
-          "Repairs",
-          "S1neD"
+          "Momsy",
+          "Werex",
+          "Twek",
+          "Borsuk"
         ],
-        "notable": "Club historique actif sans interruption depuis 2018 avec Tylio, Kombek, Repairs, S1neD sous le coach Aarnax."
+        "key_achievement": "Rank 7 Fortnite Tracker Europe (351,106 pts, $151,275)",
+        "status": "Official"
       },
       {
         "rank": 5,
-        "id": "reality-zone",
-        "name": "Reality Zoned",
-        "tag": "RZ",
-        "tier": "Tier 2",
-        "points": 34100,
-        "xUrl": "https://x.com/RealityZoned",
-        "xHandle": "@RealityZoneFR",
+        "name": "MGA Esport",
+        "tag": "MGA",
+        "points": 230804,
         "roster": [
-          "RZ Phoenix",
-          "RZ Kev",
-          "RZ Zeek"
+          "Syaaz",
+          "Trusio",
+          "FiTo",
+          "iFrOzi"
         ],
-        "notable": "Leader des tournois communautaires et open avec joueurs qualifiés en Round 3 FNCS."
+        "key_achievement": "Rank 13 Fortnite Tracker Europe (230,804 pts, $47,025)",
+        "status": "Official"
       },
       {
         "rank": 6,
-        "id": "team-fake",
-        "name": "Team Fake",
-        "tag": "FAKE",
-        "tier": "Tier 2",
-        "points": 28400,
-        "xUrl": "https://x.com/TeamFake_esport",
-        "xHandle": "@TeamFake_esport",
+        "name": "GameWard",
+        "tag": "GW",
+        "points": 176065,
         "roster": [
-          "Fake Shadow",
-          "Fake Storm"
+          "Kombek",
+          "Tylio",
+          "Nociff",
+          "S1neD"
         ],
-        "notable": "Duo très actif sur les Victory Cups et Open Qualifiers."
+        "key_achievement": "Rank 20 Fortnite Tracker Europe (176,065 pts, $11,300)",
+        "status": "Official"
       },
       {
         "rank": 7,
-        "id": "valiant",
-        "name": "Valiant",
-        "tag": "VLT",
-        "tier": "Tier 2",
-        "points": 26450,
-        "xUrl": "https://x.com/ValiantOfficiel",
-        "xHandle": "@ValiantOfficiel",
+        "name": "K13 Esport",
+        "tag": "K13",
+        "points": 173080,
         "roster": [
-          "VLT Kyz",
-          "Aura"
+          "Firen",
+          "Asa",
+          "Seyyto",
+          "Roz"
         ],
-        "notable": "Structure française active classée #14 européen sur Fortnite Tracker."
+        "key_achievement": "Rank 22 Fortnite Tracker Europe (173,080 pts, $36,800)",
+        "status": "Official"
       },
       {
         "rank": 8,
-        "id": "aten-esport",
-        "name": "Aten eSport",
-        "tag": "ATEN",
-        "tier": "Tier 2",
-        "points": 22100,
-        "xUrl": "https://x.com/AtenEsport",
-        "xHandle": "@AtenEsport",
+        "name": "Team Orchid",
+        "tag": "ORC",
+        "points": 171417,
         "roster": [
-          "ATEN Raptor",
-          "ATEN Nox"
+          "Izzi",
+          "Nociff",
+          "Seyyto"
         ],
-        "notable": "Solide noyau régulier sur les tournois hebdomadaires."
+        "key_achievement": "Rank 24 Fortnite Tracker Europe (171,417 pts, $97,625)",
+        "status": "Official"
       },
       {
         "rank": 9,
-        "id": "team-bsk",
-        "name": "Team BSK",
-        "tag": "BSK",
-        "tier": "Tier 2",
-        "points": 20500,
-        "xUrl": "https://x.com/TeamBSK_",
-        "xHandle": "@TeamBSK_",
+        "name": "1P (OneProdige)",
+        "tag": "1P",
+        "points": 135029,
         "roster": [
-          "BSK Rayan",
-          "BSK Aero"
+          "Lericx",
+          "Hyper",
+          "Julie",
+          "Alvinlr"
         ],
-        "notable": "Structure historique engagée sur le circuit francophone."
+        "key_achievement": "Rank 28 Fortnite Tracker Europe (135,029 pts, $21,500)",
+        "status": "Official"
       },
       {
         "rank": 10,
-        "id": "1p-esport",
-        "name": "1P Esport",
-        "tag": "1P",
-        "tier": "Tier 2",
-        "points": 18500,
-        "xUrl": "https://x.com/oneprodige",
-        "xHandle": "@oneprodige",
+        "name": "R4C Esport",
+        "tag": "R4C",
+        "points": 103789,
         "roster": [
-          "Coldr",
-          "werzz"
+          "Kenrop",
+          "Maloyache",
+          "Foczka"
         ],
-        "notable": "Structure One Prodige axée sur les performances de pointe FNCS et classements Fandom."
+        "key_achievement": "Rank 39 Fortnite Tracker Europe (103,789 pts, $4,560)",
+        "status": "Official"
       },
       {
         "rank": 11,
-        "id": "lyost-esport",
-        "name": "Lyost Esport",
-        "tag": "LYO",
-        "tier": "Tier 2",
-        "points": 17500,
-        "xUrl": "https://x.com/lyost_esport",
-        "xHandle": "@lyost_esport",
+        "name": "Wooka Esport",
+        "tag": "WOOKA",
+        "points": 100725,
         "roster": [
-          "Lyost Kyz",
-          "Lyost Storm"
+          "Szarik",
+          "Matez",
+          "Kizers",
+          "Ferdy"
         ],
-        "notable": "Club compétitif très implanté sur les Cash Cups et tournois duo."
+        "key_achievement": "Rank 40 Fortnite Tracker Europe (100,725 pts, $5,900)",
+        "status": "Official"
       },
       {
         "rank": 12,
-        "id": "team-orchid",
-        "name": "Team Orchid",
-        "tag": "ORC",
-        "tier": "Tier 2",
-        "points": 16840,
-        "xUrl": "https://x.com/TeamOrchidGG",
-        "xHandle": "@TeamOrchidGG",
+        "name": "Vulcan Esport",
+        "tag": "VUL",
+        "points": 96183,
         "roster": [
-          "Shxrk",
-          "Zeeq"
+          "Izzi",
+          "Tarpz",
+          "Vexi",
+          "Zarb"
         ],
-        "notable": "Classé #24 européen sur Fortnite Tracker avec de multiples qualifications en finales."
+        "key_achievement": "Rank 41 Fortnite Tracker Europe (96,183 pts, $5,200)",
+        "status": "Official"
       },
       {
         "rank": 13,
-        "id": "jupitar-esport",
-        "name": "Jupitar Esport",
-        "tag": "JUP",
-        "tier": "Tier 2",
-        "points": 16800,
-        "xUrl": "https://x.com/JupitarEsport",
-        "xHandle": "@JupitarEsport",
+        "name": "Orphée Esport",
+        "tag": "ORPH",
+        "points": 95564,
         "roster": [
-          "JUP Nova",
-          "JUP Vax"
+          "Fnam",
+          "Kulb",
+          "Artist",
+          "Adrx"
         ],
-        "notable": "Pépites en formation continue et présence sur les tournois open."
+        "key_achievement": "Rank 42 Fortnite Tracker Europe (95,564 pts, $7,600)",
+        "status": "Official"
       },
       {
         "rank": 14,
-        "id": "wooka-esport",
-        "name": "Wooka Esport",
-        "tag": "WOOKA",
-        "tier": "Tier 2",
-        "points": 15200,
-        "xUrl": "https://x.com/WookaEsport",
-        "xHandle": "@WookaEsport",
+        "name": "TRKF E-Sport",
+        "tag": "TRKF",
+        "points": 78684,
         "roster": [
-          "Ferdy",
-          "R3xxx"
+          "flex",
+          "Damage",
+          "Nero"
         ],
-        "notable": "Structure formatrice présente sur les scènes Tier 2 et 3 européennes."
+        "key_achievement": "Rank 48 Fortnite Tracker Europe (78,684 pts, $7,000)",
+        "status": "Official"
       },
       {
         "rank": 15,
-        "id": "odious-esport",
-        "name": "Odious Esport",
-        "tag": "ODS",
-        "tier": "Tier 2",
-        "points": 14200,
-        "xUrl": "https://x.com/OdiousEsport",
-        "xHandle": "@OdiousEsport",
+        "name": "Pandore Esport",
+        "tag": "PANDR",
+        "points": 75158,
         "roster": [
-          "ODS Vortex",
-          "ODS Sky"
+          "Huty",
+          "Triix",
+          "Winther"
         ],
-        "notable": "Progression constante sur les Cash Cups."
+        "key_achievement": "Rank 49 Fortnite Tracker Europe (75,158 pts, $21,670)",
+        "status": "Official"
       },
       {
         "rank": 16,
-        "id": "lynox-esport",
-        "name": "Lynox Esport",
-        "tag": "LYX",
-        "tier": "Tier 2",
-        "points": 13800,
-        "xUrl": "https://x.com/LynoXEU",
-        "xHandle": "@LynoXEU",
+        "name": "NOW eSport",
+        "tag": "NOW",
+        "points": 65772,
         "roster": [
-          "LYX VenoX",
-          "LYX Kaza"
+          "chrisc",
+          "Klayzz",
+          "Squzy",
+          "Maloyache"
         ],
-        "notable": "Structure active sur les scrims Noble Pro et les classements Fandom."
+        "key_achievement": "Rank 53 Fortnite Tracker Europe (65,772 pts, $1,050)",
+        "status": "Official"
       },
       {
         "rank": 17,
-        "id": "paps-esport",
-        "name": "Pap's Esport",
-        "tag": "PAPS",
-        "tier": "Tier 2",
-        "points": 12900,
-        "xUrl": "https://x.com/PapsEsport",
-        "xHandle": "@PapsEsport",
+        "name": "Poyo Esports",
+        "tag": "POYO",
+        "points": 63765,
         "roster": [
-          "PAPS Zek",
-          "PAPS Ray"
+          "SnozQ",
+          "iFrOzi",
+          "Shadox",
+          "Repairs"
         ],
-        "notable": "Ancrage communautaire fort et régularité en compétitions du week-end."
+        "key_achievement": "Rank 55 Fortnite Tracker Europe (63,765 pts, $4,100)",
+        "status": "Official"
       },
       {
         "rank": 18,
-        "id": "poyo-esports",
-        "name": "Poyo Esports",
-        "tag": "POYO",
-        "tier": "Tier 2",
-        "points": 12500,
-        "xUrl": "https://x.com/PoyoEsports",
-        "xHandle": "@PoyoEsports",
+        "name": "Lynox Esport",
+        "tag": "LYN",
+        "points": 63421,
         "roster": [
-          "Shadox",
-          "Kray"
+          "Heror3h",
+          "xzeevit4k"
         ],
-        "notable": "Structure compétitive française engagée sur les tournois scrims européens."
+        "key_achievement": "Rank 56 Fortnite Tracker Europe (63,421 pts, $2,900)",
+        "status": "Official"
       },
       {
         "rank": 19,
-        "id": "pandaria-esport",
-        "name": "Pandaria Esport",
-        "tag": "PAN",
-        "tier": "Tier 2",
-        "points": 11800,
-        "xUrl": "https://x.com/PandariaEsport",
-        "xHandle": "@PandariaEsport",
+        "name": "EOZ eSport",
+        "tag": "EOZ",
+        "points": 63050,
         "roster": [
-          "PAN Kyo",
-          "PAN Vex"
+          "Mystiqul",
+          "Spexx",
+          "S1neD",
+          "Hedra"
         ],
-        "notable": "Club français présent dans les classements compétitifs réguliers."
+        "key_achievement": "Rank 57 Fortnite Tracker Europe (63,050 pts, $2,050)",
+        "status": "Official"
       },
       {
         "rank": 20,
-        "id": "r4c-esport",
-        "name": "R4C Esport",
-        "tag": "R4C",
-        "tier": "Tier 2",
-        "points": 11040,
-        "xUrl": "https://x.com/r4c_esport",
-        "xHandle": "@r4c_esport",
+        "name": "EKINOX",
+        "tag": "EKI",
+        "points": 62332,
         "roster": [
-          "R4C Sky",
-          "R4C Kyo"
+          "Mirooz",
+          "nayzix7",
+          "Exqu",
+          "Misha"
         ],
-        "notable": "Classé #39 européen sur Fortnite Tracker, actif en FNCS et coupes ouvertes."
+        "key_achievement": "Rank 58 Fortnite Tracker Europe (62,332 pts, $650)",
+        "status": "Official"
       },
       {
         "rank": 21,
-        "id": "pandore-esport",
-        "name": "Pandore Esport",
-        "tag": "PDR",
-        "tier": "Tier 2",
-        "points": 10800,
-        "xUrl": "https://x.com/PandoreEsport",
-        "xHandle": "@PandoreEsport",
+        "name": "WIP Esports",
+        "tag": "WIP",
+        "points": 42782,
         "roster": [
-          "PDR Zeek",
-          "PDR Sky"
+          "Velryy",
+          "Kielba"
         ],
-        "notable": "Organisation engagée sur le circuit français et européen."
+        "key_achievement": "Rank 69 Fortnite Tracker Europe (42,782 pts, $1,350)",
+        "status": "Official"
       },
       {
         "rank": 22,
-        "id": "vulcan-esport",
-        "name": "Vulcan Esport",
-        "tag": "VLC",
-        "tier": "Tier 2",
-        "points": 10500,
-        "xUrl": "https://x.com/vulcanesport_",
-        "xHandle": "@vulcanesport_",
+        "name": "Haikoo",
+        "tag": "HK",
+        "points": 37089,
         "roster": [
-          "VLC Drek",
-          "VLC Mamba"
+          "Maciak",
+          "Joshbot",
+          "Kielba"
         ],
-        "notable": "Classé #41 européen sur Fortnite Tracker, très actif sur les tournois hebdomadaires."
+        "key_achievement": "Rank 71 Fortnite Tracker Europe (37,089 pts, $3,600)",
+        "status": "Official"
       },
       {
         "rank": 23,
-        "id": "orphee-esport",
-        "name": "Orphée Esport",
-        "tag": "ORP",
-        "tier": "Tier 2",
-        "points": 10250,
-        "xUrl": "https://x.com/ORPHEE_Esport",
-        "xHandle": "@ORPHEE_Esport",
+        "name": "G3nZ Esport",
+        "tag": "G3NZ",
+        "points": 31695,
         "roster": [
-          "Fnajen",
-          "Art1st"
+          "Ary",
+          "2Trash1zr",
+          "Efexy",
+          "SereN"
         ],
-        "notable": "Classé #42 européen sur Fortnite Tracker avec Fnajen et Art1st."
+        "key_achievement": "Rank 76 Fortnite Tracker Europe (31,695 pts, $2,700)",
+        "status": "Official"
       },
       {
         "rank": 24,
-        "id": "fly-again",
-        "name": "Fly Again",
-        "tag": "FLY",
-        "tier": "Tier 2",
-        "points": 9500,
-        "xUrl": "https://x.com/FlyAgainEsport",
-        "xHandle": "@FlyAgainEsport",
+        "name": "BK ROG Esports",
+        "tag": "BK",
+        "points": 17515,
         "roster": [
-          "FLY Aero",
-          "FLY Nox"
+          "Hris"
         ],
-        "notable": "Structure engagée sur les compétitions Battle Royale et Zero Build."
+        "key_achievement": "Rank 90 Fortnite Tracker Europe (17,515 pts, $48,900)",
+        "status": "Official"
       },
       {
         "rank": 25,
-        "id": "trkf-esport",
-        "name": "TRKF E-Sport",
-        "tag": "TRKF",
-        "tier": "Tier 2",
-        "points": 8940,
-        "xUrl": "https://x.com/Trkf_Esport",
-        "xHandle": "@Trkf_Esport",
+        "name": "Novix eSport",
+        "tag": "NOV",
+        "points": 15132,
         "roster": [
-          "TRKF Zay",
-          "TRKF Falko"
+          "Okram",
+          "Actfv",
+          "Joanee"
         ],
-        "notable": "Classé #48 européen sur Fortnite Tracker avec une forte régularité."
+        "key_achievement": "Rank 94 Fortnite Tracker Europe (15,132 pts, $500)",
+        "status": "Official"
       },
       {
         "rank": 26,
-        "id": "mga-esport",
-        "name": "MGA eSport",
-        "tag": "MGA",
-        "tier": "Tier 2",
-        "points": 8500,
-        "xUrl": "https://x.com/MGAesport",
-        "xHandle": "@MGAesport",
+        "name": "Australe Esport",
+        "tag": "AUS",
+        "points": 13494,
         "roster": [
-          "MGA Kael",
-          "MGA Raptor"
+          "freuzi",
+          "Kaktus"
         ],
-        "notable": "Club français formateur actif sur les tournois de la saison."
+        "key_achievement": "Rank 97 Fortnite Tracker Europe (13,494 pts, $550)",
+        "status": "Official"
       },
       {
         "rank": 27,
-        "id": "now-esport",
-        "name": "NOW eSport",
-        "tag": "NOW",
-        "tier": "Tier 2",
-        "points": 7920,
-        "xUrl": "https://x.com/noww_esport",
-        "xHandle": "@noww_esport",
+        "name": "Valiant",
+        "tag": "VLT",
+        "points": 11033,
         "roster": [
-          "NOW Kael",
-          "NOW Vyz"
+          "Trulex",
+          "Robabz"
         ],
-        "notable": "Classé #53 européen sur Fortnite Tracker."
+        "key_achievement": "Rank 100 Fortnite Tracker Europe (11,033 pts, $168,295)",
+        "status": "Official"
       },
       {
         "rank": 28,
-        "id": "k13-esport",
-        "name": "K13 Esport",
-        "tag": "K13",
-        "tier": "Tier 2",
-        "points": 7800,
-        "xUrl": "https://x.com/K13Esport",
-        "xHandle": "@K13Esport",
+        "name": "Reality Zoned",
+        "tag": "RZ",
+        "points": 9500,
         "roster": [
-          "K13 Zay",
-          "K13 Shadow"
+          "Nayro",
+          "Kyli",
+          "Zeyko"
         ],
-        "notable": "Structure française participant aux qualifications régionales."
+        "key_achievement": "Tier 2 Régional (9,500 pts)",
+        "status": "Official"
       },
       {
         "rank": 29,
-        "id": "eoz-esport",
-        "name": "EOZ eSport",
-        "tag": "EOZ",
-        "tier": "Tier 2",
-        "points": 7150,
-        "xUrl": "https://x.com/EOZesport",
-        "xHandle": "@EOZesport",
+        "name": "Team Fake",
+        "tag": "FAKE",
+        "points": 8200,
         "roster": [
-          "EOZ Enoxx",
-          "EOZ Teddy"
+          "Zeka",
+          "Krox",
+          "Skyll"
         ],
-        "notable": "Classé #57 européen sur Fortnite Tracker, club basé en Ariège."
+        "key_achievement": "Tier 2 Régional (8,200 pts)",
+        "status": "Official"
       },
       {
         "rank": 30,
-        "id": "ekinox-esports",
-        "name": "EKINOX",
-        "tag": "EKX",
-        "tier": "Tier 2",
-        "points": 6980,
-        "xUrl": "https://x.com/ekinoxesports",
-        "xHandle": "@ekinoxesports",
+        "name": "Team BSK",
+        "tag": "BSK",
+        "points": 7100,
         "roster": [
-          "EKX Shado",
-          "EKX Zeph"
+          "Shado",
+          "Kenza"
         ],
-        "notable": "Classé #58 européen sur Fortnite Tracker."
+        "key_achievement": "Tier 2 Régional (7,100 pts)",
+        "status": "Official"
       },
       {
         "rank": 31,
-        "id": "wip-esports",
-        "name": "WIP Esports",
-        "tag": "WIP",
-        "tier": "Tier 2",
-        "points": 5680,
-        "xUrl": "https://x.com/wipesports",
-        "xHandle": "@wipesports",
+        "name": "Aten eSport",
+        "tag": "ATEN",
+        "points": 5400,
         "roster": [
-          "WIP Jax",
-          "WIP Drax"
+          "Atenz",
+          "Skyze"
         ],
-        "notable": "Classé #69 européen sur Fortnite Tracker, club occitan."
+        "key_achievement": "Tier 2 Régional (5,400 pts)",
+        "status": "Official"
       },
       {
         "rank": 32,
-        "id": "haikoo",
-        "name": "Haikoo",
-        "tag": "HKO",
-        "tier": "Tier 2",
-        "points": 5450,
-        "xUrl": "https://x.com/Haikoo_Esport",
-        "xHandle": "@Haikoo_Esport",
+        "name": "Jupitar Esport",
+        "tag": "JUP",
+        "points": 4800,
         "roster": [
-          "HKO Nexy",
-          "HKO Sylo"
+          "Jupi",
+          "Star"
         ],
-        "notable": "Classé #71 européen sur Fortnite Tracker (#HAIKOWIN)."
+        "key_achievement": "Tier 2 Régional (4,800 pts)",
+        "status": "Official"
       },
       {
         "rank": 33,
-        "id": "g3nz-esport",
-        "name": "G3nZ Esport",
-        "tag": "G3NZ",
-        "tier": "Tier 2",
-        "points": 4920,
-        "xUrl": "https://x.com/G3nZEsport",
-        "xHandle": "@G3nZEsport",
+        "name": "Odious Esport",
+        "tag": "ODI",
+        "points": 4200,
         "roster": [
-          "Battercry",
-          "Xray"
+          "Odi",
+          "Rage"
         ],
-        "notable": "Classé #76 européen sur Fortnite Tracker (#G3NZWIN)."
+        "key_achievement": "Tier 2 Régional (4,200 pts)",
+        "status": "Official"
       },
       {
         "rank": 34,
-        "id": "novix-esport",
-        "name": "Novix eSport",
-        "tag": "NVX",
-        "tier": "Tier 2",
-        "points": 3850,
-        "xUrl": "https://x.com/NovixEsport",
-        "xHandle": "@NovixEsport",
+        "name": "Pap's Esport",
+        "tag": "PAPS",
+        "points": 3900,
         "roster": [
-          "NVX Kyro",
-          "NVX Zephir"
+          "Papito",
+          "Slay"
         ],
-        "notable": "Classé #94 européen sur Fortnite Tracker, structure émergente."
+        "key_achievement": "Tier 2 Régional (3,900 pts)",
+        "status": "Official"
       },
       {
         "rank": 35,
-        "id": "australe-esport",
-        "name": "Australe Esport",
-        "tag": "AST",
-        "tier": "Tier 2",
-        "points": 3620,
-        "xUrl": "https://x.com/team_australe",
-        "xHandle": "@team_australe",
+        "name": "Pandaria Esport",
+        "tag": "PAND",
+        "points": 3400,
         "roster": [
-          "Hedra",
-          "yoicy"
+          "Panda",
+          "Bamboo"
         ],
-        "notable": "Classé #97 européen sur Fortnite Tracker, club de Roquebrune-Cap-Martin."
+        "key_achievement": "Tier 2 Régional (3,400 pts)",
+        "status": "Official"
+      },
+      {
+        "rank": 36,
+        "name": "Fly Again",
+        "tag": "FA",
+        "points": 2900,
+        "roster": [
+          "Flyer",
+          "Wing"
+        ],
+        "key_achievement": "Tier 2 Régional (2,900 pts)",
+        "status": "Official"
+      },
+      {
+        "rank": 37,
+        "name": "Zerance",
+        "tag": "ZRC",
+        "points": 2500,
+        "roster": [
+          "Skydeun"
+        ],
+        "key_achievement": "Tier 2 Régional (2,500 pts)",
+        "status": "Official"
       }
     ]
   }

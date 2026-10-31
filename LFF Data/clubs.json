@@ -11,7 +11,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Gentle_Mates",
     "x_handle": "@GentleMates",
     "x_url": "https://x.com/GentleMates",
-    "description": "Structure fondée par Gotaga, Squeezie et Brawks en 2023. Nikof (ancien joueur pro Solary/Vitality) en est le Head of Fortnite puis le CEO. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023)."
+    "description": "Structure fondée par Gotaga, Squeezie et Brawks en 2023. Nikof (ancien joueur pro Solary/Vitality) en est le Head of Fortnite puis le CEO. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023).",
+    "points_lff": 503388,
+    "earnings_usd": 631600,
+    "rank_ft_europe": 2
   },
   {
     "id": "karmine-corp",
@@ -25,7 +28,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Karmine_Corp",
     "x_handle": "@KarmineCorp",
     "x_url": "https://x.com/KarmineCorp",
-    "description": "Fondée par Kameto et Prime. Arrivée explosive sur Fortnite en mai 2024 avec Malibuca, Merstach, Veno, SwizzY et Oslo en coach, dominant le PR mondial en 2024."
+    "description": "Fondée par Kameto et Prime. Arrivée explosive sur Fortnite en mai 2024 avec Malibuca, Merstach, Veno, SwizzY et Oslo en coach, dominant le PR mondial en 2024.",
+    "points_lff": 1200,
+    "earnings_usd": 520000,
+    "rank_ft_europe": 210
   },
   {
     "id": "havok-by-vitality",
@@ -39,7 +45,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/HavoK_by_Vitality",
     "x_handle": "@HvKGGs",
     "x_url": "https://x.com/HvKGGs",
-    "description": "Super-équipe née du rachat du 25 avril 2026 par Team Vitality. Sacrée Championne du Monde 2026 au Global Championship à Anvers avec son duo planétaire SwizzY & Pixie, complété par Wox (5e mondial 2024), Tjino, PabloWingu (champions Major 2 2025), IDrop et Seekk (vérifiés bio X)."
+    "description": "Super-équipe née du rachat du 25 avril 2026 par Team Vitality. Sacrée Championne du Monde 2026 au Global Championship à Anvers avec son duo planétaire SwizzY & Pixie, complété par Wox (5e mondial 2024), Tjino, PabloWingu (champions Major 2 2025), IDrop et Seekk (vérifiés bio X).",
+    "points_lff": 741548,
+    "earnings_usd": 1395160,
+    "rank_ft_europe": 1
   },
   {
     "id": "team-havok",
@@ -53,7 +62,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Team_HavoK",
     "x_handle": "@HvKGGs",
     "x_url": "https://x.com/HvKGGs",
-    "description": "Structure fondée le 28 août 2024 par les YouTubeurs ZetFar et WaZz. Révélation mondiale avec Wox (5e aux Worlds FNCS 2024), vainqueur Major 2 en 2025. Rachetée le 25 avril 2026 par Team Vitality."
+    "description": "Structure fondée le 28 août 2024 par les YouTubeurs ZetFar et WaZz. Révélation mondiale avec Wox (5e aux Worlds FNCS 2024), vainqueur Major 2 en 2025. Rachetée le 25 avril 2026 par Team Vitality.",
+    "points_lff": 741548,
+    "earnings_usd": 1395160,
+    "rank_ft_europe": 1
   },
   {
     "id": "solary",
@@ -67,7 +79,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Solary",
     "x_handle": "@SolaryTV",
     "x_url": "https://x.com/SolaryTV",
-    "description": "Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, BlastR, Vico, sereN, Darkos, XZEEVIT...)."
+    "description": "Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, BlastR, Vico, sereN, Darkos, XZEEVIT...).",
+    "points_lff": 361168,
+    "earnings_usd": 122890,
+    "rank_ft_europe": 5
   },
   {
     "id": "vitality",
@@ -109,7 +124,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/GameWard",
     "x_handle": "@GameWardTeam",
     "x_url": "https://x.com/GameWardTeam",
-    "description": "Club francilien majeur actif sans interruption depuis mars 2018. Historiquement tremplin de Nayte, Keolys, BadSniper, Snayzy, Shaax, et aujourd'hui représenté au plus haut niveau par Tylio, Kombek, Repairs, S1neD, Baxo, Snaylyx sous la direction du coach Aarnax."
+    "description": "Club francilien majeur actif sans interruption depuis mars 2018. Historiquement tremplin de Nayte, Keolys, BadSniper, Snayzy, Shaax, et aujourd'hui représenté au plus haut niveau par Tylio, Kombek, Repairs, S1neD, Baxo, Snaylyx sous la direction du coach Aarnax.",
+    "points_lff": 176065,
+    "earnings_usd": 11300,
+    "rank_ft_europe": 20
   },
   {
     "id": "lestream",
@@ -179,7 +197,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Zerance",
     "x_handle": "@Zerance_esport",
     "x_url": "https://x.com/TeamZerance",
-    "description": "Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024."
+    "description": "Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.",
+    "points_lff": 2500,
+    "earnings_usd": 15400,
+    "rank_ft_europe": 180
   },
   {
     "id": "galions",
@@ -193,7 +214,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Galions",
     "x_handle": "@Galions_",
     "x_url": "https://x.com/Galions_",
-    "description": "Lancé en décembre 2024 par Team GO et Sixen avec Clément et Kyzen. Après la saison 2025, le club ferme sa division Fortnite le 7 décembre 2025 (Kyzen prend sa retraite compétitive, Clément devient agent libre)."
+    "description": "Lancé en décembre 2024 par Team GO et Sixen avec Clément et Kyzen. Après la saison 2025, le club ferme sa division Fortnite le 7 décembre 2025 (Kyzen prend sa retraite compétitive, Clément devient agent libre).",
+    "points_lff": 1800,
+    "earnings_usd": 12500,
+    "rank_ft_europe": 195
   },
   {
     "id": "team-ldlc",
@@ -263,7 +287,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Valiant",
     "x_handle": "@ValiantOfficiel",
     "x_url": "https://x.com/ValiantOfficiel",
-    "description": "Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025."
+    "description": "Structure française très active de 2020 à mi-2025 (TruleX, Robabz, Andilex). Division en retrait depuis les départs de l'été 2025.",
+    "points_lff": 11033,
+    "earnings_usd": 168295,
+    "rank_ft_europe": 100
   },
   {
     "id": "reality-zone",
@@ -277,7 +304,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Reality_Zone",
     "x_handle": "@RealityZoneFR",
     "x_url": "https://x.com/RealityZoned",
-    "description": "Club compétitif français incontournable sur les tournois communautaires, Console et PC (Cash Cups, FNCS Heats)."
+    "description": "Club compétitif français incontournable sur les tournois communautaires, Console et PC (Cash Cups, FNCS Heats).",
+    "points_lff": 9500,
+    "earnings_usd": 12000,
+    "rank_ft_europe": 105
   },
   {
     "id": "team-bsk",
@@ -291,7 +321,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/BSK_Esport",
     "x_handle": "@TeamBSK_",
     "x_url": "https://x.com/TeamBSK_",
-    "description": "Structure francophone (Besançon) très dynamique sur la scène compétitive et la formation de pépites Fortnite."
+    "description": "Structure francophone (Besançon) très dynamique sur la scène compétitive et la formation de pépites Fortnite.",
+    "points_lff": 7100,
+    "earnings_usd": 6200,
+    "rank_ft_europe": 120
   },
   {
     "id": "lyost-esport",
@@ -305,7 +338,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Lyost_Esport",
     "x_handle": "@lyost_esport",
     "x_url": "https://x.com/lyost_esport",
-    "description": "Organisation marseillaise créée en janvier 2021, organisatrice de la Massilia Cup et formatrice de talents du Sud."
+    "description": "Organisation marseillaise créée en janvier 2021, organisatrice de la Massilia Cup et formatrice de talents du Sud.",
+    "points_lff": 351106,
+    "earnings_usd": 151275,
+    "rank_ft_europe": 7
   },
   {
     "id": "exalty",
@@ -333,7 +369,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/BK_ROG_Esports",
     "x_handle": "@ASUS_BK_ROG",
     "x_url": "https://x.com/ASUS_BK_ROG",
-    "description": "Structure française issue de la fusion ASUS ROG, engagée sur plusieurs saisons FNCS."
+    "description": "Structure française issue de la fusion ASUS ROG, engagée sur plusieurs saisons FNCS.",
+    "points_lff": 17515,
+    "earnings_usd": 48900,
+    "rank_ft_europe": 90
   },
   {
     "id": "lunary",
@@ -361,7 +400,10 @@
     "liquipedia_url": null,
     "x_handle": "@TeamFake_esport",
     "x_url": "https://x.com/TeamFake_esport",
-    "description": "Équipe française très active dans les tournois inter-structures, open qualifiers et circuits réguliers de scrims."
+    "description": "Équipe française très active dans les tournois inter-structures, open qualifiers et circuits réguliers de scrims.",
+    "points_lff": 8200,
+    "earnings_usd": 8500,
+    "rank_ft_europe": 112
   },
   {
     "id": "aten-esport",
@@ -375,7 +417,10 @@
     "liquipedia_url": null,
     "x_handle": "@AtenEsport",
     "x_url": "https://x.com/AtenEsport",
-    "description": "Structure française engagée en compétition et compétitions communautaires régulières."
+    "description": "Structure française engagée en compétition et compétitions communautaires régulières.",
+    "points_lff": 5400,
+    "earnings_usd": 4500,
+    "rank_ft_europe": 135
   },
   {
     "id": "jupitar-esport",
@@ -389,7 +434,10 @@
     "liquipedia_url": null,
     "x_handle": "@JupitarEsport",
     "x_url": "https://x.com/JupitarEsport",
-    "description": "Club e-sport français multigaming présent sur la scène Fortnite compétitive et tremplin de jeunes talents."
+    "description": "Club e-sport français multigaming présent sur la scène Fortnite compétitive et tremplin de jeunes talents.",
+    "points_lff": 4800,
+    "earnings_usd": 3800,
+    "rank_ft_europe": 142
   },
   {
     "id": "odious-esport",
@@ -403,7 +451,10 @@
     "liquipedia_url": null,
     "x_handle": "@OdiousEsport",
     "x_url": "https://x.com/OdiousEsport",
-    "description": "Organisation compétitive française engagée dans les Cash Cups, Victory Cups et tournois hebdomadaires."
+    "description": "Organisation compétitive française engagée dans les Cash Cups, Victory Cups et tournois hebdomadaires.",
+    "points_lff": 4200,
+    "earnings_usd": 2900,
+    "rank_ft_europe": 150
   },
   {
     "id": "paps-esport",
@@ -417,7 +468,10 @@
     "liquipedia_url": null,
     "x_handle": "@PapsEsport",
     "x_url": "https://x.com/PapsEsport",
-    "description": "Structure française menée autour de la communauté compétitive et des rassemblements majeurs de la scène FR."
+    "description": "Structure française menée autour de la communauté compétitive et des rassemblements majeurs de la scène FR.",
+    "points_lff": 3900,
+    "earnings_usd": 2100,
+    "rank_ft_europe": 158
   },
   {
     "id": "pandaria-esport",
@@ -431,7 +485,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Pandaria_Esport",
     "x_handle": "@PandariaEsport",
     "x_url": "https://x.com/EsportPandaria",
-    "description": "Club français compétitif présent au Power Ranking Européen Fandom PC, pépinière reconnue de talents francophones."
+    "description": "Club français compétitif présent au Power Ranking Européen Fandom PC, pépinière reconnue de talents francophones.",
+    "points_lff": 3400,
+    "earnings_usd": 1800,
+    "rank_ft_europe": 165
   },
   {
     "id": "pandore-esport",
@@ -445,7 +502,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Pandore_Esport",
     "x_handle": "@PandoreEsport",
     "x_url": "https://x.com/Pandore_esport",
-    "description": "Structure compétitive française classée dans le Top 50 européen PC des Power Rankings d'équipes."
+    "description": "Structure compétitive française classée dans le Top 50 européen PC des Power Rankings d'équipes.",
+    "points_lff": 75158,
+    "earnings_usd": 21670,
+    "rank_ft_europe": 49
   },
   {
     "id": "fly-again",
@@ -459,7 +519,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Fly_Again",
     "x_handle": "@FlyAgainEsport",
     "x_url": "https://x.com/FlyAgainTeam",
-    "description": "Écurie française engagée sur les tournois officiels FNCS et les Cash Cups européennes (Top 45 Fandom EU)."
+    "description": "Écurie française engagée sur les tournois officiels FNCS et les Cash Cups européennes (Top 45 Fandom EU).",
+    "points_lff": 2900,
+    "earnings_usd": 1400,
+    "rank_ft_europe": 172
   },
   {
     "id": "mga-esport",
@@ -473,7 +536,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/MGA_eSport",
     "x_handle": "@MGAesport",
     "x_url": "https://x.com/mgaesport",
-    "description": "Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois."
+    "description": "Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois.",
+    "points_lff": 230804,
+    "earnings_usd": 47025,
+    "rank_ft_europe": 13
   },
   {
     "id": "k13-esport",
@@ -487,7 +553,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/K13_Esport",
     "x_handle": "@K13Esport",
     "x_url": "https://x.com/K13esport",
-    "description": "Organisation française très active sur le circuit compétitif européen, classée au Top 15 Fandom PC Europe."
+    "description": "Organisation française très active sur le circuit compétitif européen, classée au Top 15 Fandom PC Europe.",
+    "points_lff": 173080,
+    "earnings_usd": 36800,
+    "rank_ft_europe": 22
   },
   {
     "id": "bastille-legacy",
@@ -529,7 +598,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/1P_Esport",
     "x_handle": "@oneprodige",
     "x_url": "https://x.com/oneprodige",
-    "description": "Structure e-sport française (One Prodige) dédiée à la haute performance compétitive sur Fortnite (FNCS, Top 20 européen sur Fandom et répertoriée sur Fortnite Tracker)."
+    "description": "Structure e-sport française (One Prodige) dédiée à la haute performance compétitive sur Fortnite (FNCS, Top 20 européen sur Fandom et répertoriée sur Fortnite Tracker).",
+    "points_lff": 135029,
+    "earnings_usd": 21500,
+    "rank_ft_europe": 28
   },
   {
     "id": "wooka-esport",
@@ -543,7 +615,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Wooka_Esport",
     "x_handle": "@WookaEsport",
     "x_url": "https://x.com/WookaEsport",
-    "description": "Club d'esport français fondé en 2022 et répertorié au classement officiel européen Fandom des équipes Fortnite."
+    "description": "Club d'esport français fondé en 2022 et répertorié au classement officiel européen Fandom des équipes Fortnite.",
+    "points_lff": 100725,
+    "earnings_usd": 5900,
+    "rank_ft_europe": 40
   },
   {
     "id": "lynox-esport",
@@ -557,7 +632,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Lynox_Esport",
     "x_handle": "@LynoXEU",
     "x_url": "https://x.com/LynoXEU",
-    "description": "Organisation française répertoriée dans le Power Ranking Fandom Fortnite Europe."
+    "description": "Organisation française répertoriée dans le Power Ranking Fandom Fortnite Europe.",
+    "points_lff": 63421,
+    "earnings_usd": 2900,
+    "rank_ft_europe": 56
   },
   {
     "id": "poyo-esports",
@@ -571,7 +649,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Poyo_Esports",
     "x_handle": "@PoyoEsports",
     "x_url": "https://x.com/PoyoEsports",
-    "description": "Structure française organisatrice et compétitive sur Fortnite présente au classement européen Fandom."
+    "description": "Structure française organisatrice et compétitive sur Fortnite présente au classement européen Fandom.",
+    "points_lff": 63765,
+    "earnings_usd": 4100,
+    "rank_ft_europe": 55
   },
   {
     "id": "gentside-esports",
@@ -613,7 +694,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Team_Orchid",
     "x_handle": "@TeamOrchidGG",
     "x_url": "https://x.com/TeamOrchidGG",
-    "description": "Structure e-sport française de premier plan sur Fortnite, régulièrement classée dans le Top 25 européen Fortnite Tracker."
+    "description": "Structure e-sport française de premier plan sur Fortnite, régulièrement classée dans le Top 25 européen Fortnite Tracker.",
+    "points_lff": 171417,
+    "earnings_usd": 97625,
+    "rank_ft_europe": 24
   },
   {
     "id": "r4c-esport",
@@ -627,7 +711,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/R4C_Esport",
     "x_handle": "@r4c_esport",
     "x_url": "https://x.com/r4c_esport",
-    "description": "Organisation compétitive française engagée sur le circuit européen Fortnite et FNCS."
+    "description": "Organisation compétitive française engagée sur le circuit européen Fortnite et FNCS.",
+    "points_lff": 103789,
+    "earnings_usd": 4560,
+    "rank_ft_europe": 39
   },
   {
     "id": "vulcan-esport",
@@ -641,7 +728,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Vulcan_Esport",
     "x_handle": "@vulcanesport_",
     "x_url": "https://x.com/vulcanesport_",
-    "description": "Club d'esport français actif sur la scène compétitive européenne Fortnite."
+    "description": "Club d'esport français actif sur la scène compétitive européenne Fortnite.",
+    "points_lff": 96183,
+    "earnings_usd": 5200,
+    "rank_ft_europe": 41
   },
   {
     "id": "orphee-esport",
@@ -655,7 +745,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Orph%C3%A9e_Esport",
     "x_handle": "@ORPHEE_Esport",
     "x_url": "https://x.com/ORPHEE_Esport",
-    "description": "Structure compétitive française réunissant des joueurs et créateurs de contenu sur Fortnite (Fnajen, Art1st)."
+    "description": "Structure compétitive française réunissant des joueurs et créateurs de contenu sur Fortnite (Fnajen, Art1st).",
+    "points_lff": 95564,
+    "earnings_usd": 7600,
+    "rank_ft_europe": 42
   },
   {
     "id": "trkf-esport",
@@ -669,7 +762,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/TRKF_E-Sport",
     "x_handle": "@Trkf_Esport",
     "x_url": "https://x.com/Trkf_Esport",
-    "description": "Organisation e-sport française présente sur les circuits compétitifs et les classements européens Fortnite."
+    "description": "Organisation e-sport française présente sur les circuits compétitifs et les classements européens Fortnite.",
+    "points_lff": 78684,
+    "earnings_usd": 7000,
+    "rank_ft_europe": 48
   },
   {
     "id": "now-esport",
@@ -683,7 +779,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/NOW_eSport",
     "x_handle": "@noww_esport",
     "x_url": "https://x.com/noww_esport",
-    "description": "Club compétitif français figurant régulièrement dans le classement Fortnite Tracker européen."
+    "description": "Club compétitif français figurant régulièrement dans le classement Fortnite Tracker européen.",
+    "points_lff": 65772,
+    "earnings_usd": 1050,
+    "rank_ft_europe": 53
   },
   {
     "id": "eoz-esport",
@@ -697,7 +796,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/EOZ_eSport",
     "x_handle": "@EOZesport",
     "x_url": "https://x.com/EOZesport",
-    "description": "Club d'esport français basé en Ariège, engagé en FNCS et compétitions européennes Fortnite."
+    "description": "Club d'esport français basé en Ariège, engagé en FNCS et compétitions européennes Fortnite.",
+    "points_lff": 63050,
+    "earnings_usd": 2050,
+    "rank_ft_europe": 57
   },
   {
     "id": "ekinox-esports",
@@ -711,7 +813,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Ekinox_Esports",
     "x_handle": "@ekinoxesports",
     "x_url": "https://x.com/ekinoxesports",
-    "description": "Structure e-sport française active sur Fortnite, classée dans le top des clubs européens."
+    "description": "Structure e-sport française active sur Fortnite, classée dans le top des clubs européens.",
+    "points_lff": 62332,
+    "earnings_usd": 650,
+    "rank_ft_europe": 58
   },
   {
     "id": "wip-esports",
@@ -725,7 +830,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/WIP_Esports",
     "x_handle": "@wipesports",
     "x_url": "https://x.com/wipesports",
-    "description": "Organisation e-sport française basée en région Occitanie, compétitive sur Fortnite et multi-gaming."
+    "description": "Organisation e-sport française basée en région Occitanie, compétitive sur Fortnite et multi-gaming.",
+    "points_lff": 42782,
+    "earnings_usd": 1350,
+    "rank_ft_europe": 69
   },
   {
     "id": "haikoo",
@@ -739,7 +847,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Haikoo",
     "x_handle": "@Haikoo_Esport",
     "x_url": "https://x.com/Haikoo_Esport",
-    "description": "Organisation compétitive française active sur le circuit Fortnite compétitif européen (#HAIKOWIN)."
+    "description": "Organisation compétitive française active sur le circuit Fortnite compétitif européen (#HAIKOWIN).",
+    "points_lff": 37089,
+    "earnings_usd": 3600,
+    "rank_ft_europe": 71
   },
   {
     "id": "g3nz-esport",
@@ -753,7 +864,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/G3nZ_Esport",
     "x_handle": "@G3nZEsport",
     "x_url": "https://x.com/G3nZEsport",
-    "description": "Structure française présente dans les compétitions européennes Fortnite (#G3NZWIN)."
+    "description": "Structure française présente dans les compétitions européennes Fortnite (#G3NZWIN).",
+    "points_lff": 31695,
+    "earnings_usd": 2700,
+    "rank_ft_europe": 76
   },
   {
     "id": "novix-esport",
@@ -767,7 +881,10 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Novix_eSport",
     "x_handle": "@NovixEsport",
     "x_url": "https://x.com/NovixEsport",
-    "description": "Club e-sport français émergent sur Fortnite, actif sur les compétitions et détections de talents."
+    "description": "Club e-sport français émergent sur Fortnite, actif sur les compétitions et détections de talents.",
+    "points_lff": 15132,
+    "earnings_usd": 500,
+    "rank_ft_europe": 94
   },
   {
     "id": "australe-esport",
@@ -781,6 +898,9 @@
     "liquipedia_url": "https://liquipedia.net/fortnite/Australe_Esport",
     "x_handle": "@team_australe",
     "x_url": "https://x.com/team_australe",
-    "description": "Club d'esport français basé à Roquebrune-Cap-Martin, engagé sur le circuit compétitif Fortnite."
+    "description": "Club d'esport français basé à Roquebrune-Cap-Martin, engagé sur le circuit compétitif Fortnite.",
+    "points_lff": 13494,
+    "earnings_usd": 550,
+    "rank_ft_europe": 97
   }
 ]
