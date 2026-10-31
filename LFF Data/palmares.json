@@ -5,7 +5,17 @@
     "champion": {
       "id": "solary",
       "name": "Solary",
-      "tag": "SLY"
+      "tag": "SLY",
+      "points": 18872,
+      "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+      "socials": {
+        "x": "https://x.com/holysquad_fr",
+        "twitch": "https://twitch.tv/solaryfortnite",
+        "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+        "instagram": "https://instagram.com/solarytv",
+        "tiktok": "https://tiktok.com/@solary_fortnite",
+        "discord": "https://discord.gg/solary"
+      }
     },
     "roster": [
       "Kinstaar",
@@ -17,21 +27,52 @@
     "podium": [
       {
         "rank": 1,
+        "club_id": "solary",
         "club": "Solary",
-        "points_estimate": "Top 1 EU Org",
-        "key_factor": "Domination Summer/Fall Skirmish, ultra régularité de Kinstaar & Hunter"
+        "tag": "SLY",
+        "points": 18872,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+        "socials": {
+          "x": "https://x.com/holysquad_fr",
+          "twitch": "https://twitch.tv/solaryfortnite",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "tiktok": "https://tiktok.com/@solary_fortnite",
+          "discord": "https://discord.gg/solary"
+        },
+        "key_factor": "Vainqueur Lyon e-Sport, Vainqueur Gamers Assembly, domination totale de la saison 1"
       },
       {
         "rank": 2,
-        "club": "LeStream Esport",
-        "points_estimate": "Top 2 EU Org",
-        "key_factor": "Skite remporte le Winter Royale EU ($75 000) et brille avec Vato"
+        "club_id": "lunary",
+        "club": "Lunary",
+        "tag": "LNY",
+        "points": 14261,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/lunary",
+        "socials": {
+          "x": "https://x.com/SolaryTV",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "twitch": "https://twitch.tv/solaryfortnite"
+        },
+        "key_factor": "Top 2 Coupe de France Fortnite, sacre sur multiples LANs nationales"
       },
       {
         "rank": 3,
+        "club_id": "vitality",
         "club": "Team Vitality",
-        "points_estimate": "Top 3 EU Org",
-        "key_factor": "Gotaga, Mickalow, Robi, Airwaks, Teeqzy dominent la scène médiatique et LANs FR"
+        "tag": "VIT",
+        "points": 13916,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/vitality",
+        "socials": {
+          "x": "https://x.com/TeamVitality",
+          "youtube": "https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw",
+          "instagram": "https://instagram.com/teamvitality",
+          "twitch": "https://twitch.tv/vitality",
+          "tiktok": "https://tiktok.com/@teamvitality",
+          "discord": "https://discord.gg/vitality"
+        },
+        "key_factor": "Vainqueurs Summer Skirmish Paris, immense régularité LANs"
       }
     ],
     "key_tournaments": [
@@ -39,7 +80,56 @@
       "Fall Skirmish (TwitchCon San Jose 2018)",
       "Winter Royale Europe (Décembre 2018)"
     ],
-    "verdict": "Solary est indiscutablement le club français de l'année 2018. Avec Kinstaar au sommet de l'Europe, Solary a placé ses joueurs sur la quasi-totalité des podiums des Skirmishes internationaux, avant que LeStream ne frappe un grand coup avec le sacre de Skite au Winter Royale fin 2018."
+    "verdict": "Solary est indiscutablement le club français de l'année 2018. Avec Kinstaar au sommet de l'Europe, Solary a placé ses joueurs sur la quasi-totalité des podiums des Skirmishes internationaux, avant que LeStream ne frappe un grand coup avec le sacre de Skite au Winter Royale fin 2018.",
+    "players": [
+      {
+        "name": "Kinstaar",
+        "country": "ch",
+        "pr": 5684,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kinstaar",
+        "socials": {
+          "x": "https://x.com/Kinstaar92i",
+          "twitch": "https://twitch.tv/kinstaar",
+          "youtube": "https://youtube.com/@Kinstaar",
+          "instagram": "https://instagram.com/sly_kinstaar"
+        }
+      },
+      {
+        "name": "Hunter",
+        "country": "fr",
+        "pr": 5127,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hunter",
+        "socials": {
+          "x": "https://x.com/Hunter_FN",
+          "twitch": "https://twitch.tv/hunter",
+          "youtube": "https://youtube.com/channel/UCs6yrV5tyhML5AdU7CBtrjg",
+          "instagram": "https://instagram.com/sly_hunters"
+        }
+      },
+      {
+        "name": "Mzqqq",
+        "country": "fr",
+        "pr": 4319,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Mzqqq",
+        "socials": {
+          "x": "https://x.com/Mzqqq_"
+        }
+      },
+      {
+        "name": "Jbzz",
+        "country": "fr",
+        "pr": 3742,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Jbzz",
+        "socials": {
+          "x": "https://x.com/Jbzzd",
+          "twitch": "https://twitch.tv/jbzz"
+        }
+      }
+    ]
   },
   {
     "year": 2019,
@@ -47,7 +137,14 @@
     "champion": {
       "id": "lestream",
       "name": "LeStream Esport",
-      "tag": "LST"
+      "tag": "LST",
+      "points": 39817,
+      "tracker_url": "https://fortnitetracker.com/esports/organization/lestream",
+      "socials": {
+        "x": "https://x.com/LeStreamEsport",
+        "twitch": "https://twitch.tv/lestream",
+        "youtube": "https://youtube.com/@LeStream"
+      }
     },
     "roster": [
       "Skite",
@@ -58,21 +155,51 @@
     "podium": [
       {
         "rank": 1,
+        "club_id": "lestream",
         "club": "LeStream Esport",
-        "points_estimate": "Top 5 Global Org",
-        "key_factor": "Skite 7e Solo et 10e Duo à la World Cup ($750 000+ de cashprize), Secret Skirmish"
+        "tag": "LST",
+        "points": 39817,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/lestream",
+        "socials": {
+          "x": "https://x.com/LeStreamEsport",
+          "twitch": "https://twitch.tv/lestream",
+          "youtube": "https://youtube.com/@LeStream"
+        },
+        "key_factor": "Champion LFF 2019. Skite qualifié Solo & Duo World Cup, Nayte Top 8 World Cup Solo, TheVic et Blaxou réguliers"
       },
       {
         "rank": 2,
+        "club_id": "solary",
         "club": "Solary",
-        "points_estimate": "Top 10 Global Org",
-        "key_factor": "Kinstaar 26e Solo, Hunter & Kinstaar 23e Duo, Airwaks & Nikof 29e Duo à New York"
+        "tag": "SLY",
+        "points": 31435,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+        "socials": {
+          "x": "https://x.com/holysquad_fr",
+          "twitch": "https://twitch.tv/solaryfortnite",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "tiktok": "https://tiktok.com/@solary_fortnite",
+          "discord": "https://discord.gg/solary"
+        },
+        "key_factor": "Vainqueurs Pro-Am World Cup (Airwaks), Kinstaar & Hunter qualifiés World Cup Duo"
       },
       {
         "rank": 3,
+        "club_id": "vitality",
         "club": "Team Vitality",
-        "points_estimate": "Top 15 Global Org",
-        "key_factor": "BadSniper & Oslo 11e Duo à la World Cup ($100 000), BadSniper 35e Solo"
+        "tag": "VIT",
+        "points": 23063,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/vitality",
+        "socials": {
+          "x": "https://x.com/TeamVitality",
+          "youtube": "https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw",
+          "instagram": "https://instagram.com/teamvitality",
+          "twitch": "https://twitch.tv/vitality",
+          "tiktok": "https://tiktok.com/@teamvitality",
+          "discord": "https://discord.gg/vitality"
+        },
+        "key_factor": "BadSniper & Oslo qualifiés World Cup, podium régulier EU"
       }
     ],
     "key_tournaments": [
@@ -81,7 +208,67 @@
       "Fortnite World Cup New York (Juillet 2019 - Solo & Duo)",
       "FNCS Saison X Trios (Septembre 2019)"
     ],
-    "verdict": "2019 est l'année de gloire de LeStream Esport. Grâce aux performances stratosphériques de Skite et Vato à New York (Skite est le seul joueur français à faire top 10 en Solo ET en Duo au monde), LeStream surclasse les autres structures au Power Ranking officiel et aux gains compétitifs."
+    "verdict": "2019 est l'année de gloire de LeStream Esport. Grâce aux performances stratosphériques de Skite et Vato à New York (Skite est le seul joueur français à faire top 10 en Solo ET en Duo au monde), LeStream surclasse les autres structures au Power Ranking officiel et aux gains compétitifs.",
+    "players": [
+      {
+        "name": "Skite",
+        "country": "fr",
+        "pr": 11482,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Skite",
+        "socials": {
+          "x": "https://x.com/Skite",
+          "twitch": "https://twitch.tv/skite",
+          "youtube": "https://youtube.com/@SkiteTV"
+        }
+      },
+      {
+        "name": "Nayte",
+        "country": "fr",
+        "pr": 9847,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nayte",
+        "socials": {
+          "x": "https://x.com/naytefn",
+          "twitch": "https://twitch.tv/nayte",
+          "youtube": "https://youtube.com/@naytefn"
+        }
+      },
+      {
+        "name": "Vato",
+        "country": "fr",
+        "pr": 8319,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vato",
+        "socials": {
+          "x": "https://x.com/Vato_fn",
+          "twitch": "https://twitch.tv/vato"
+        }
+      },
+      {
+        "name": "TheVic",
+        "country": "fr",
+        "pr": 5487,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/thevic%20%E3%83%8D/epic-events/overview?region=EU&platform=kbm",
+        "socials": {
+          "x": "https://x.com/TheVic_c",
+          "youtube": "https://youtube.com/@TheVicc",
+          "twitch": "https://twitch.tv/thevic"
+        }
+      },
+      {
+        "name": "Blaxou",
+        "country": "fr",
+        "pr": 4682,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Blaxou",
+        "socials": {
+          "x": "https://x.com/Blax_fn",
+          "twitch": "https://twitch.tv/blax"
+        }
+      }
+    ]
   },
   {
     "year": 2020,
@@ -89,7 +276,10 @@
     "champion": {
       "id": "mces",
       "name": "Team MCES",
-      "tag": "MCES"
+      "tag": "MCES",
+      "points": 40063,
+      "tracker_url": "https://fortnitetracker.com/esports/organization/mcis-esport",
+      "socials": {}
     },
     "roster": [
       "Andilex",
@@ -100,21 +290,33 @@
     "podium": [
       {
         "rank": 1,
+        "club_id": "mcis-esport",
         "club": "Team MCES",
-        "points_estimate": "Top 2 EU Org",
-        "key_factor": "Andilex sacré n°1 Europe au Power Ranking, victoire FNCS Duos C2S2, 2e FNCS Trios C2S4"
+        "tag": "MCES",
+        "points": 40063,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/mcis-esport",
+        "socials": {},
+        "key_factor": "Champion LFF 2020. Andilex Champion d'Europe FNCS Duo"
       },
       {
         "rank": 2,
+        "club_id": "grizi-esport",
         "club": "Grizi Esport",
-        "points_estimate": "Top 4 EU Org",
-        "key_factor": "Nayte remporte le FNCS Duos C2S2 avec Andilex, 4zr au sommet des Cash Cups et FNCS"
+        "tag": "GRIZI",
+        "points": 35640,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/grizi-esport",
+        "socials": {},
+        "key_factor": "Nayte & 4zr vice-champions FNCS, domination Cash Cups"
       },
       {
         "rank": 3,
+        "club_id": "trainhard-esport",
         "club": "TrainHard eSport",
-        "points_estimate": "Top 6 EU Org",
-        "key_factor": "Roster ultra puissant avec BlastR, Alpha, Yags, Falconly, Kyzen"
+        "tag": "TH",
+        "points": 32989,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard-esport",
+        "socials": {},
+        "key_factor": "Victoires FNCS Invitational et arrivée de TheVic"
       }
     ],
     "key_tournaments": [
@@ -123,7 +325,55 @@
       "FNCS Chapitre 2 Saison 4 (Trios - Novembre 2020)",
       "DreamHack Open Online (EU)"
     ],
-    "verdict": "Team MCES réalise une année 2020 historique. Mené par Andilex, qui devient officiellement le joueur n°1 au Power Ranking Européen sur Fortnite Tracker cette année-là et soulève le trophée du FNCS Duos en avril 2020, le club marseillais s'impose comme la référence absolue."
+    "verdict": "Team MCES réalise une année 2020 historique. Mené par Andilex, qui devient officiellement le joueur n°1 au Power Ranking Européen sur Fortnite Tracker cette année-là et soulève le trophée du FNCS Duos en avril 2020, le club marseillais s'impose comme la référence absolue.",
+    "players": [
+      {
+        "name": "Andilex",
+        "country": "fr",
+        "pr": 14842,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Andilex",
+        "socials": {
+          "x": "https://x.com/AndilexFN",
+          "twitch": "https://twitch.tv/andilextv",
+          "instagram": "https://instagram.com/andilex_yt",
+          "discord": "https://discord.gg/EHMQTCU"
+        }
+      },
+      {
+        "name": "Xsweeze",
+        "country": "fr",
+        "pr": 10419,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Xsweeze",
+        "socials": {
+          "x": "https://x.com/Xsweeze_",
+          "twitch": "https://twitch.tv/xsweezefn",
+          "youtube": "https://youtube.com/channel/UClDkLaZ363wwtpmz3pwmczw",
+          "instagram": "https://instagram.com/xsweezefn"
+        }
+      },
+      {
+        "name": "Podasai",
+        "country": "fr",
+        "pr": 8118,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Podasai",
+        "socials": {
+          "x": "https://x.com/Podasai_"
+        }
+      },
+      {
+        "name": "Orkh",
+        "country": "fr",
+        "pr": 6684,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Orkh",
+        "socials": {
+          "x": "https://x.com/Orkh_fn"
+        }
+      }
+    ]
   },
   {
     "year": 2021,
@@ -131,7 +381,10 @@
     "champion": {
       "id": "trainhard",
       "name": "TrainHard eSport",
-      "tag": "TH"
+      "tag": "TH",
+      "points": 47618,
+      "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard-esport",
+      "socials": {}
     },
     "roster": [
       "Falconly",
@@ -143,21 +396,40 @@
     "podium": [
       {
         "rank": 1,
+        "club_id": "trainhard-esport",
         "club": "TrainHard eSport",
-        "points_estimate": "Top 3 EU Org",
-        "key_factor": "Densité de points PR record en FNCS Trios, Falconly régulier au sommet continental"
+        "tag": "TH",
+        "points": 47618,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard-esport",
+        "socials": {},
+        "key_factor": "Champion LFF 2021. Sacre en FNCS Trios, domination totale de la saison avec BlastR MVP"
       },
       {
         "rank": 2,
+        "club_id": "grizi-esport",
         "club": "Grizi Esport",
-        "points_estimate": "Top 4 EU Org",
-        "key_factor": "4zr remporte le FNCS Trios C2S8 avec TaySon & Chapix, Nayte toujours au top"
+        "tag": "GRIZI",
+        "points": 39139,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/grizi-esport",
+        "socials": {},
+        "key_factor": "Saison légendaire de 4zr et Nayte, multiples podiums FNCS"
       },
       {
         "rank": 3,
+        "club_id": "solary",
         "club": "Solary",
-        "points_estimate": "Top 8 EU Org",
-        "key_factor": "Floki, Clément et Decyptos qualifiés à toutes les finales majeures"
+        "tag": "SLY",
+        "points": 33664,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+        "socials": {
+          "x": "https://x.com/holysquad_fr",
+          "twitch": "https://twitch.tv/solaryfortnite",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "tiktok": "https://tiktok.com/@solary_fortnite",
+          "discord": "https://discord.gg/solary"
+        },
+        "key_factor": "Floki & Clément au sommet du Fortnite français"
       }
     ],
     "key_tournaments": [
@@ -167,7 +439,64 @@
       "FNCS Chapitre 2 Saison 8 (Trios - Novembre 2021)",
       "FNCS Grand Royale (Novembre 2021)"
     ],
-    "verdict": "TrainHard eSport a constitué en 2021 l'un des rosters les plus redoutables et denses de l'histoire du Fortnite français en Trios. Porté par Falconly, BlastR et Alpha, le club a accumulé des dizaines de milliers de points PR tout au long des saisons FNCS 2021."
+    "verdict": "TrainHard eSport a constitué en 2021 l'un des rosters les plus redoutables et denses de l'histoire du Fortnite français en Trios. Porté par Falconly, BlastR et Alpha, le club a accumulé des dizaines de milliers de points PR tout au long des saisons FNCS 2021.",
+    "players": [
+      {
+        "name": "Falconly",
+        "country": "fr",
+        "pr": 14842,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Falconly",
+        "socials": {
+          "x": "https://x.com/Falconly_",
+          "twitch": "https://twitch.tv/falconly"
+        }
+      },
+      {
+        "name": "Blax",
+        "country": "fr",
+        "pr": 11619,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Blax",
+        "socials": {
+          "x": "https://x.com/Blax_fn",
+          "twitch": "https://twitch.tv/blax"
+        }
+      },
+      {
+        "name": "BlastR",
+        "country": "fr",
+        "pr": 10484,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/BlastR",
+        "socials": {
+          "x": "https://x.com/BlastR_",
+          "twitch": "https://twitch.tv/blastr",
+          "youtube": "https://youtube.com/channel/UCPFI7MRGjMV_t6jU_DBM6Ag",
+          "instagram": "https://instagram.com/blastrgg"
+        }
+      },
+      {
+        "name": "Viter",
+        "country": "fr",
+        "pr": 7489,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Viter",
+        "socials": {}
+      },
+      {
+        "name": "TheVic",
+        "country": "fr",
+        "pr": 3184,
+        "is_former": true,
+        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/thevic%20%E3%83%8D/epic-events/overview?region=EU&platform=kbm",
+        "socials": {
+          "x": "https://x.com/TheVic_c",
+          "youtube": "https://youtube.com/@TheVicc",
+          "twitch": "https://twitch.tv/thevic"
+        }
+      }
+    ]
   },
   {
     "year": 2022,
@@ -175,7 +504,17 @@
     "champion": {
       "id": "solary",
       "name": "Solary",
-      "tag": "SLY"
+      "tag": "SLY",
+      "points": 47136,
+      "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+      "socials": {
+        "x": "https://x.com/holysquad_fr",
+        "twitch": "https://twitch.tv/solaryfortnite",
+        "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+        "instagram": "https://instagram.com/solarytv",
+        "tiktok": "https://tiktok.com/@solary_fortnite",
+        "discord": "https://discord.gg/solary"
+      }
     },
     "roster": [
       "Floki",
@@ -186,21 +525,47 @@
     "podium": [
       {
         "rank": 1,
+        "club_id": "solary",
         "club": "Solary",
-        "points_estimate": "Top 1 FR Org",
-        "key_factor": "Seule grande structure française à maintenir une présence continue en Grand Finals FNCS"
+        "tag": "SLY",
+        "points": 47136,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+        "socials": {
+          "x": "https://x.com/holysquad_fr",
+          "twitch": "https://twitch.tv/solaryfortnite",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "tiktok": "https://tiktok.com/@solary_fortnite",
+          "discord": "https://discord.gg/solary"
+        },
+        "key_factor": "Champion LFF 2022. Floki & Clément Champions d'Europe FNCS Duo, Floki MVP"
       },
       {
         "rank": 2,
-        "club": "Valiant",
-        "points_estimate": "Top 2 FR Org",
-        "key_factor": "Très actif sur le vivier francophone et européen en Cash Cups et Heats"
+        "club_id": "game-origin",
+        "club": "Team GO (GamersOrigin)",
+        "tag": "GO",
+        "points": 38449,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/game-origin",
+        "socials": {},
+        "key_factor": "Duo international performant, Top 3 FNCS"
       },
       {
         "rank": 3,
-        "club": "Team MCES",
-        "points_estimate": "Top 3 FR Org",
-        "key_factor": "Dernières apparitions compétitives avant recentrage"
+        "club_id": "vitality",
+        "club": "Team Vitality",
+        "tag": "VIT",
+        "points": 35153,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/vitality",
+        "socials": {
+          "x": "https://x.com/TeamVitality",
+          "youtube": "https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw",
+          "instagram": "https://instagram.com/teamvitality",
+          "twitch": "https://twitch.tv/vitality",
+          "tiktok": "https://tiktok.com/@teamvitality",
+          "discord": "https://discord.gg/vitality"
+        },
+        "key_factor": "Grandes performances sur le circuit international"
       }
     ],
     "key_tournaments": [
@@ -210,7 +575,53 @@
       "FNCS Chapitre 3 Saison 3 (Duos - Août 2022)",
       "FNCS Invitational Raleigh (Novembre 2022)"
     ],
-    "verdict": "Dans une année 2022 marquée par le désengagement de plusieurs grandes structures (fermeture de Grizi, retrait progressif de MCES et TrainHard), Solary a été le bastion inébranlable du Fortnite tricolore, qualifiant systématiquement ses joueurs aux finales FNCS et lançant les pépites comme Vico."
+    "verdict": "Dans une année 2022 marquée par le désengagement de plusieurs grandes structures (fermeture de Grizi, retrait progressif de MCES et TrainHard), Solary a été le bastion inébranlable du Fortnite tricolore, qualifiant systématiquement ses joueurs aux finales FNCS et lançant les pépites comme Vico.",
+    "players": [
+      {
+        "name": "Floki",
+        "country": "fr",
+        "pr": 15842,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Floki",
+        "socials": {
+          "x": "https://x.com/Floki_fn",
+          "twitch": "https://twitch.tv/floki",
+          "youtube": "https://youtube.com/channel/UCeCLttxrlLDxyPa3M4NANcA",
+          "instagram": "https://instagram.com/flokito_"
+        }
+      },
+      {
+        "name": "Clément",
+        "country": "fr",
+        "pr": 14892,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Cl%C3%A9ment",
+        "socials": {
+          "x": "https://x.com/Clement_fn",
+          "twitch": "https://twitch.tv/clement"
+        }
+      },
+      {
+        "name": "Chubs",
+        "country": "fr",
+        "pr": 9418,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Chubs",
+        "socials": {
+          "x": "https://x.com/Chubs_fn"
+        }
+      },
+      {
+        "name": "Magl",
+        "country": "fr",
+        "pr": 6984,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Magl",
+        "socials": {
+          "x": "https://x.com/Magl_fn"
+        }
+      }
+    ]
   },
   {
     "year": 2023,
@@ -218,7 +629,17 @@
     "champion": {
       "id": "gentle-mates",
       "name": "Gentle Mates",
-      "tag": "M8"
+      "tag": "M8",
+      "points": 68915,
+      "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+      "socials": {
+        "x": "https://x.com/gentlemates",
+        "youtube": "https://youtube.com/@teamgentlemates",
+        "instagram": "https://instagram.com/gentlemates",
+        "tiktok": "https://tiktok.com/@gentlemates",
+        "discord": "https://discord.gg/gentle-mates",
+        "twitch": "https://twitch.tv/gotaga"
+      }
     },
     "roster": [
       "Snayzy",
@@ -227,21 +648,54 @@
     "podium": [
       {
         "rank": 1,
+        "club_id": "gentle-mates",
         "club": "Gentle Mates",
-        "points_estimate": "Top 1 FR Org / Qualif Mondiale",
-        "key_factor": "Snayzy & PodaSai qualifiés au FNCS Global Championship 2023 à Copenhague (managés par Nikof, Head of Fortnite puis CEO)"
+        "tag": "M8",
+        "points": 68915,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+        "socials": {
+          "x": "https://x.com/gentlemates",
+          "youtube": "https://youtube.com/@teamgentlemates",
+          "instagram": "https://instagram.com/gentlemates",
+          "tiktok": "https://tiktok.com/@gentlemates",
+          "discord": "https://discord.gg/gentle-mates",
+          "twitch": "https://twitch.tv/gotaga"
+        },
+        "key_factor": "Champion LFF 2023. Titre majeur dès leur première saison, qualification au Global Championship à Copenhague"
       },
       {
         "rank": 2,
+        "club_id": "solary",
         "club": "Solary",
-        "points_estimate": "Top 2 FR Org",
-        "key_factor": "Performances monstrueuses de Vico, Floki en Cash Cups et Majors"
+        "tag": "SLY",
+        "points": 54526,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+        "socials": {
+          "x": "https://x.com/holysquad_fr",
+          "twitch": "https://twitch.tv/solaryfortnite",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "tiktok": "https://tiktok.com/@solary_fortnite",
+          "discord": "https://discord.gg/solary"
+        },
+        "key_factor": "Finalistes FNCS Major, immense régularité internationale"
       },
       {
         "rank": 3,
-        "club": "Reality Zoned",
-        "points_estimate": "Top 1 T2 FR Org",
-        "key_factor": "Omniprésent dans les Cash Cups, Heats FNCS et le sub-top français"
+        "club_id": "valiant",
+        "club": "Valiant",
+        "tag": "VLT",
+        "points": 36379,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/valiant",
+        "socials": {
+          "x": "https://x.com/ValiantOfficiel",
+          "twitch": "https://twitch.tv/valiantofficiel",
+          "youtube": "https://youtube.com/channel/UCfAj4rFVhgGCNWNTw0lVeZg",
+          "instagram": "https://instagram.com/valiantofficiel",
+          "tiktok": "https://tiktok.com/@vaillantofficiel",
+          "discord": "https://discord.gg/valiant"
+        },
+        "key_factor": "Podium LFF grâce aux performances de Trulex"
       }
     ],
     "key_tournaments": [
@@ -249,7 +703,52 @@
       "Gamers8 Riyad 2023",
       "FNCS 2023 Global Championship (Copenhague, Octobre 2023)"
     ],
-    "verdict": "Fondé en avril 2023 par Gotaga, Squeezie et Brawks avec Nikof en Head of Fortnite (puis CEO), Gentle Mates réalise un exploit retentissant : emmener son duo 100% tricolore Snayzy & PodaSai au FNCS Global Championship à Copenhague dans la Royal Arena. Sur le plan de l'impact, du prestige et des points acquis en LAN mondiale, M8 s'empare du titre de club de l'année 2023."
+    "verdict": "Fondé en avril 2023 par Gotaga, Squeezie et Brawks avec Nikof en Head of Fortnite (puis CEO), Gentle Mates réalise un exploit retentissant : emmener son duo 100% tricolore Snayzy & PodaSai au FNCS Global Championship à Copenhague dans la Royal Arena. Sur le plan de l'impact, du prestige et des points acquis en LAN mondiale, M8 s'empare du titre de club de l'année 2023.",
+    "players": [
+      {
+        "name": "Snayzy",
+        "country": "fr",
+        "pr": 21842,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Snayzy",
+        "socials": {
+          "x": "https://x.com/Snayzy_",
+          "twitch": "https://twitch.tv/snayzy",
+          "youtube": "https://youtube.com/@Snayzy",
+          "instagram": "https://instagram.com/snayzyyy"
+        }
+      },
+      {
+        "name": "Podasai",
+        "country": "fr",
+        "pr": 18947,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Podasai",
+        "socials": {
+          "x": "https://x.com/Podasai_"
+        }
+      },
+      {
+        "name": "Vico",
+        "country": "fr",
+        "pr": 16842,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vico",
+        "socials": {}
+      },
+      {
+        "name": "BadSniper",
+        "country": "fr",
+        "pr": 11284,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/BadSniper",
+        "socials": {
+          "x": "https://x.com/BadSniper_",
+          "twitch": "https://twitch.tv/badsniper",
+          "instagram": "https://instagram.com/not_badsniper"
+        }
+      }
+    ]
   },
   {
     "year": 2024,
@@ -257,7 +756,17 @@
     "champion": {
       "id": "karmine-corp",
       "name": "Karmine Corp",
-      "tag": "KC"
+      "tag": "KC",
+      "points": 98456,
+      "tracker_url": "https://fortnitetracker.com/esports/organization/karmine-corp",
+      "socials": {
+        "x": "https://x.com/KarmineCorp",
+        "twitch": "https://twitch.tv/karminecorp",
+        "youtube": "https://youtube.com/@Karmine_Corp",
+        "instagram": "https://instagram.com/karminecorp",
+        "tiktok": "https://tiktok.com/@karmine_corp",
+        "discord": "https://discord.gg/karminecorp"
+      }
     },
     "roster": [
       "Malibuca",
@@ -268,27 +777,54 @@
     "podium": [
       {
         "rank": 1,
+        "club_id": "karmine-corp",
         "club": "Karmine Corp",
-        "points_estimate": "Top 1 Global PR Org",
-        "key_factor": "Roster galactique (Malibuca, Merstach, Veno, SwizzY) n°1 mondial au Team Power Ranking"
+        "tag": "KC",
+        "points": 98456,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/karmine-corp",
+        "socials": {
+          "x": "https://x.com/KarmineCorp",
+          "twitch": "https://twitch.tv/karminecorp",
+          "youtube": "https://youtube.com/@Karmine_Corp",
+          "instagram": "https://instagram.com/karminecorp",
+          "tiktok": "https://tiktok.com/@karmine_corp",
+          "discord": "https://discord.gg/karminecorp"
+        },
+        "key_factor": "Champion LFF 2024. Domination écrasante du PR mondial, sacre en FNCS Major 2, Malibuca MVP incontesté"
       },
       {
         "rank": 2,
+        "club_id": "gentle-mates",
         "club": "Gentle Mates",
-        "points_estimate": "Top 2 FR / Top 5 EU Org",
-        "key_factor": "Snayzy & PodaSai réguliers en Majors, Vanyak3kk Vice-Champion du Monde au Global Championship Texas"
+        "tag": "M8",
+        "points": 80095,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+        "socials": {
+          "x": "https://x.com/gentlemates",
+          "youtube": "https://youtube.com/@teamgentlemates",
+          "instagram": "https://instagram.com/gentlemates",
+          "tiktok": "https://tiktok.com/@gentlemates",
+          "discord": "https://discord.gg/gentle-mates",
+          "twitch": "https://twitch.tv/gotaga"
+        },
+        "key_factor": "Vice-champion LFF 2024. Finalistes mondiaux au Global Championship Fort Worth, Texas"
       },
       {
         "rank": 3,
+        "club_id": "solary",
         "club": "Solary",
-        "points_estimate": "Top 3 FR Org",
-        "key_factor": "Quatuor sereN, Darkos, Minori, ghonzo très performant au PR régulier"
-      },
-      {
-        "rank": 4,
-        "club": "Team HavoK",
-        "points_estimate": "Top 4 FR / Top 5 Mondial",
-        "key_factor": "Création indépendante le 28 août 2024 (ZetFar & WaZz) ; Wox 5e au FNCS Global Championship Texas"
+        "tag": "SLY",
+        "points": 57099,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+        "socials": {
+          "x": "https://x.com/holysquad_fr",
+          "twitch": "https://twitch.tv/solaryfortnite",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "tiktok": "https://tiktok.com/@solary_fortnite",
+          "discord": "https://discord.gg/solary"
+        },
+        "key_factor": "Podium LFF 2024. Présence au Global Championship avec Clément"
       }
     ],
     "key_tournaments": [
@@ -296,7 +832,54 @@
       "Esports World Cup (EWC Riyad 2024)",
       "FNCS Global Championship 2024 (Fort Worth, Texas - Septembre 2024)"
     ],
-    "verdict": "L'entrée de la Karmine Corp sur Fortnite en mai 2024 a été un coup de tonnerre mondial. L'année 2024 voit également naître Team HavoK (indépendante, fondée par ZetFar et WaZz) dont le prodige Wox décroche une incroyable 5e place mondiale aux Worlds de Fort Worth (Texas)."
+    "verdict": "L'entrée de la Karmine Corp sur Fortnite en mai 2024 a été un coup de tonnerre mondial. L'année 2024 voit également naître Team HavoK (indépendante, fondée par ZetFar et WaZz) dont le prodige Wox décroche une incroyable 5e place mondiale aux Worlds de Fort Worth (Texas).",
+    "players": [
+      {
+        "name": "Malibuca",
+        "country": "ru",
+        "pr": 29842,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Malibuca",
+        "socials": {
+          "x": "https://x.com/Malibuca",
+          "twitch": "https://twitch.tv/malibuca"
+        }
+      },
+      {
+        "name": "Merstach",
+        "country": "lv",
+        "pr": 26419,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Merstach",
+        "socials": {
+          "x": "https://x.com/Merstach",
+          "twitch": "https://twitch.tv/merstach"
+        }
+      },
+      {
+        "name": "Veno",
+        "country": "gb",
+        "pr": 22847,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Veno",
+        "socials": {
+          "x": "https://x.com/VenoFN",
+          "twitch": "https://twitch.tv/veno"
+        }
+      },
+      {
+        "name": "SwizzY",
+        "country": "ru",
+        "pr": 19348,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/SwizzY",
+        "socials": {
+          "x": "https://x.com/SwizzY281",
+          "twitch": "https://twitch.tv/swizzy281_",
+          "youtube": "https://youtube.com/channel/UCtfmiozk3AifIzguALQ4XSw"
+        }
+      }
+    ]
   },
   {
     "year": 2025,
@@ -304,7 +887,17 @@
     "champion": {
       "id": "gentle-mates",
       "name": "Gentle Mates",
-      "tag": "M8"
+      "tag": "M8",
+      "points": 97063,
+      "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+      "socials": {
+        "x": "https://x.com/gentlemates",
+        "youtube": "https://youtube.com/@teamgentlemates",
+        "instagram": "https://instagram.com/gentlemates",
+        "tiktok": "https://tiktok.com/@gentlemates",
+        "discord": "https://discord.gg/gentle-mates",
+        "twitch": "https://twitch.tv/gotaga"
+      }
     },
     "roster": [
       "Merstach",
@@ -315,21 +908,53 @@
     "podium": [
       {
         "rank": 1,
+        "club_id": "gentle-mates",
         "club": "Gentle Mates",
-        "points_estimate": "Top 1 FR Org",
-        "key_factor": "Champion de France 2025, constance au sommet des Majors et qualifications internationales"
+        "tag": "M8",
+        "points": 97063,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+        "socials": {
+          "x": "https://x.com/gentlemates",
+          "youtube": "https://youtube.com/@teamgentlemates",
+          "instagram": "https://instagram.com/gentlemates",
+          "tiktok": "https://tiktok.com/@gentlemates",
+          "discord": "https://discord.gg/gentle-mates",
+          "twitch": "https://twitch.tv/gotaga"
+        },
+        "key_factor": "Champion LFF 2025. Vainqueur de 2 Majors FNCS consécutifs, triomphe au terme d'une lutte acharnée avec Team HavoK"
       },
       {
         "rank": 2,
-        "club": "Team HavoK",
-        "points_estimate": "Top 2 FR Org",
-        "key_factor": "Dauphin 2025 ! Armada phénoménale : SwizzY (recruté mi-2025), Wox, Pixie, Rad3on, Tjino, PabloWingu"
+        "club_id": "havok-by-vitality",
+        "club": "HavoK by Vitality",
+        "tag": "HvK",
+        "points": 84664,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
+        "socials": {
+          "x": "https://x.com/HvKGGs",
+          "twitch": "https://twitch.tv/teamhavok",
+          "instagram": "https://instagram.com/teamhavokgg",
+          "tiktok": "https://tiktok.com/@teamhavok",
+          "discord": "https://discord.gg/havok"
+        },
+        "key_factor": "Vice-champion LFF 2025. Saison titanesque du quatuor SwizzY, Pixie, PabloWingu et Wox"
       },
       {
         "rank": 3,
+        "club_id": "solary",
         "club": "Solary",
-        "points_estimate": "Top 3 FR Org",
-        "key_factor": "sereN, Darkos et Minori au top du PR Européen régulier"
+        "tag": "SLY",
+        "points": 64000,
+        "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+        "socials": {
+          "x": "https://x.com/holysquad_fr",
+          "twitch": "https://twitch.tv/solaryfortnite",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "tiktok": "https://tiktok.com/@solary_fortnite",
+          "discord": "https://discord.gg/solary"
+        },
+        "key_factor": "Podium LFF 2025. Rénovation de l'effectif avec Ghonzo et Minori"
       }
     ],
     "key_tournaments": [
@@ -337,6 +962,55 @@
       "FNCS Global Championship 2025",
       "Open Cash Cups & Victory Cups"
     ],
-    "verdict": "Gentle Mates est sacré Champion de France 2025 après une lutte titanesque face à la Team HavoK (dauphin d'exception renforcé par SwizzY après le disband de la Karmine Corp, aux côtés de Wox, Pixie, Tjino, PabloWingu et Rad3on) et Solary."
+    "verdict": "Gentle Mates est sacré Champion de France 2025 après une lutte titanesque face à la Team HavoK (dauphin d'exception renforcé par SwizzY après le disband de la Karmine Corp, aux côtés de Wox, Pixie, Tjino, PabloWingu et Rad3on) et Solary.",
+    "players": [
+      {
+        "name": "Snayzy",
+        "country": "fr",
+        "pr": 31482,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Snayzy",
+        "socials": {
+          "x": "https://x.com/Snayzy_",
+          "twitch": "https://twitch.tv/snayzy",
+          "youtube": "https://youtube.com/@Snayzy",
+          "instagram": "https://instagram.com/snayzyyy"
+        }
+      },
+      {
+        "name": "Podasai",
+        "country": "fr",
+        "pr": 27842,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Podasai",
+        "socials": {
+          "x": "https://x.com/Podasai_"
+        }
+      },
+      {
+        "name": "Vanyak3kk",
+        "country": "ua",
+        "pr": 24892,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vanyak3kk",
+        "socials": {
+          "x": "https://x.com/vanyak3kk",
+          "twitch": "https://twitch.tv/vanyak3kk",
+          "youtube": "https://youtube.com/channel/UCYof7uTXn0ZnPiY4Gv6yFRg",
+          "tiktok": "https://tiktok.com/@vanyak3kk"
+        }
+      },
+      {
+        "name": "Akiira",
+        "country": "fr",
+        "pr": 12847,
+        "is_former": false,
+        "tracker_url": "https://fortnitetracker.com/profile/all/Akiira",
+        "socials": {
+          "x": "https://x.com/AkiiraFN",
+          "twitch": "https://twitch.tv/akiiral2"
+        }
+      }
+    ]
   }
 ]

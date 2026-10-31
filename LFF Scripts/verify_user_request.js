@@ -1,98 +1,52 @@
 const fs = require('fs');
-const vm = require('vm');
+const html = fs.readFileSync('LFF Dashboard/index.html', 'utf-8');
 
-const html = fs.readFileSync('LFF Dashboard/index.html', 'utf8');
-const scriptMatch = html.match(/<script>([\s\S]*?)<\/script>/);
-const code = scriptMatch[1];
+console.log("=== VÉRIFICATION GLOBALE LFF ===");
 
-const elements = {};
-function getEl(id) {
-  if (!elements[id]) {
-    elements[id] = {
-      id,
-      innerHTML: '',
-      innerText: '',
-      value: id === 'year-select' ? '2026' : (id === 'club-sort-select' ? 'points-desc' : ''),
-      style: {},
-      children: [],
-      appendChild: function(child) {
-        this.children.push(child);
-        const tag = child.tagName ? child.tagName.toLowerCase() : 'div';
-        this.innerHTML += `<${tag} class="${child.className || ''}">${child.innerHTML || ''}</${tag}>`;
-      },
-      classList: {
-        add: () => {},
-        remove: () => {},
-        contains: () => false
-      },
-      querySelectorAll: () => []
-    };
-  }
-  return elements[id];
-}
+// 1. Course au titre
+const titleCheck = html.includes("COURSE AU TITRE (2018 - AUJOURD'HUI)");
+console.log(`1. Titre 'COURSE AU TITRE (2018 - AUJOURD'HUI)': ${titleCheck ? '✅ OK' : '❌ FAIL'}`);
 
-const window = {
-  document: {
-    getElementById: getEl,
-    querySelectorAll: () => [],
-    querySelector: () => null,
-    createElement: (tag) => ({
-      tagName: tag,
-      className: '',
-      innerHTML: '',
-      classList: { add: () => {}, remove: () => {} }
-    }),
-    addEventListener: () => {}
-  },
-  addEventListener: () => {},
-  console: console
-};
+// 2. Option 2026
+const option2026Check = html.includes("2026 (En cours)") || html.includes("2026 (en cours)");
+console.log(`2. Option 2026 (En cours): ${option2026Check ? '✅ OK' : '❌ FAIL'}`);
 
-const context = {
-  window,
-  document: window.document,
-  console: console,
-  setTimeout: () => {},
-  setInterval: () => {}
-};
+// 3. Em dashes
+const emDashCount = (html.match(/—/g) || []).length;
+console.log(`3. Tirets cadratins (—): ${emDashCount === 0 ? '✅ 0 trouvé' : `❌ ${emDashCount} trouvés`}`);
 
-vm.createContext(context);
-vm.runInContext(code, context);
+// 4. Drapeaux graphiques
+const flagFunctionCheck = html.includes("getPlayerFlagHtml") && html.includes('flags/${iso}.png');
+const flagDir = fs.readdirSync('LFF Dashboard/flags');
+console.log(`4. Drapeaux graphiques (${flagDir.length} fichiers PNG locaux): ${flagFunctionCheck && flagDir.length >= 22 ? '✅ OK' : '❌ FAIL'}`);
 
-console.log('=== TEST 1: THEAD COLUMNS ===');
-console.log('Has "Faits d\'armes / Titres":', html.includes("Faits d'armes / Titres"));
-console.log('Has "Détail / Tendance Live":', html.includes("Détail / Tendance Live"));
-console.log('Has <th>Clubs</th>:', html.includes("<th>Clubs</th>"));
-console.log('Has <th style="text-align: right;" id="th-points-col">Points</th>:', html.includes('id="th-points-col">Points</th>'));
+// 5. Points non-ronds
+const roundTotals = (html.match(/🏆\s*\d+[05]00\s*pts/g) || []).length;
+console.log(`5. Points ronds suspects (ex: 18500, 50000): ${roundTotals === 0 ? '✅ 0 (tous non-ronds)' : `⚠️ ${roundTotals} trouvés`}`);
 
-console.log('\n=== TEST 2: RANKING TABLE RENDERING ===');
-context.renderAnnualTable();
-const tableHtml = getEl('ranking-tbody').innerHTML;
-console.log('Pixie has flag image:', tableHtml.includes('flags/se.png') && tableHtml.includes('player-flag-img'));
-console.log('Pixie has points pill:', tableHtml.includes('215\u202f000 pts') || tableHtml.includes('215 000 pts'));
-console.log('SwizzY has flag image ru:', tableHtml.includes('flags/ru.png'));
-console.log('PabloWingu has flag image dk:', tableHtml.includes('flags/dk.png'));
-console.log('Vanyak3kk has flag image ua:', tableHtml.includes('flags/ua.png'));
-console.log('Akiira has flag image fr:', tableHtml.includes('flags/fr.png'));
-console.log('Solary logo in table:', tableHtml.includes('Logo Solary (fond vide).png'));
+// 6. X de Zerance
+const zeranceCheck = html.includes("https://x.com/ZerancePartout");
+const badZeranceCheck = html.includes("https://x.com/Zerance_Club") || html.includes("https://x.com/TeamZerance");
+console.log(`6. Zerance X officiel: ${zeranceCheck && !badZeranceCheck ? '✅ https://x.com/ZerancePartout (aucun ancien lien)' : '❌ FAIL'}`);
 
-console.log('\n=== TEST 3: CLUBS PAGE RENDERING ===');
-context.renderClubs();
-const clubsHtml = getEl('clubs-grid-container').innerHTML;
-console.log('HavoK points in clubs card:', clubsHtml.includes('1\u202f038\u202f548 pts') || clubsHtml.includes('1 038 548 pts') || clubsHtml.includes('pts'));
-console.log('Gentle Mates in clubs card:', clubsHtml.includes('Gentle Mates'));
-console.log('Gentle Mates active roster in clubs card:', clubsHtml.includes('Akiira') && clubsHtml.includes('Vanyak3kk') && clubsHtml.includes('Kurama'));
-console.log('Flags present in clubs card:', clubsHtml.includes('player-flag-img'));
-console.log('Player points present in clubs card:', clubsHtml.includes('player-pts'));
+// 7. TheVic
+const thevicCheck = html.includes("TheVic") && html.includes("thevic%20%E3%83%8D");
+const thevicSocials = html.includes("https://x.com/TheVic_c") && html.includes("https://youtube.com/@TheVicc");
+console.log(`7. TheVic intégration Tracker & réseaux: ${thevicCheck && thevicSocials ? '✅ OK' : '❌ FAIL'}`);
 
-console.log('\n=== TEST 4: REGLEMENT PAGE & 1 POINT LFF = 1 POINT TRACKER ===');
-console.log('Contains 1 Point LFF = 1 Point Fortnite Tracker:', html.includes('1 Point LFF = 1 Point Fortnite Tracker'));
-console.log('Contains No 2-rankings switcher:', !html.includes('COMPRENDRE LES DEUX CLASSEMENTS'));
-console.log('Contains Zero em dashes in html:', !html.includes('—'));
+// 8. Clubs page tri et recherche
+const clubsSortCheck = html.includes("club-sort-select") && html.includes("club-search-input");
+console.log(`8. Clubs page tri & recherche: ${clubsSortCheck ? '✅ OK' : '❌ FAIL'}`);
 
-console.log('\n=== TEST 5: CLUBS PAGE CONTROLS ===');
-console.log('Contains club-search-input:', html.includes('id="club-search-input"'));
-console.log('Contains club-sort-select:', html.includes('id="club-sort-select"'));
-console.log('Contains points-desc (default):', html.includes('value="points-desc" selected'));
-console.log('Contains points-asc:', html.includes('value="points-asc"'));
-console.log('Contains alpha-asc:', html.includes('value="alpha-asc"'));
+// 9. Règlement 1 pt LFF = 1 pt Tracker
+const reglementCheck = /1\s*point\s*lff\s*=\s*1\s*point/i.test(html);
+console.log(`9. Règlement explication points: ${reglementCheck ? '✅ OK' : '❌ FAIL'}`);
+
+// 10. Universal Tracker links on clubs and players
+const clubTrackerCheck = html.includes("https://fortnitetracker.com/esports/organization/");
+const playerTrackerCheck = html.includes("player-tracker-link") && html.includes("https://fortnitetracker.com/profile/all/");
+console.log(`10. Liens universels Tracker (clubs & joueurs): ${clubTrackerCheck && playerTrackerCheck ? '✅ OK' : '❌ FAIL'}`);
+
+// 11. Multi-network social pills
+const socialsPillsCheck = html.includes("social-pills-group") && html.includes("club-social-pills");
+console.log(`11. Pastilles multi-réseaux SVG (clubs & joueurs): ${socialsPillsCheck ? '✅ OK' : '❌ FAIL'}`);

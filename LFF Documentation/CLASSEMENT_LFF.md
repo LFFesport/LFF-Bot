@@ -15,14 +15,14 @@ Le but ultime est de décerner à la fin de chaque année civile le prestigieux 
 
 | Année | Club Champion | Tag | Joueurs clés / Roster | Faits d'armes majeurs | Dauphin (Top 2) |
 | :---: | :--- | :---: | :--- | :--- | :--- |
-| **2018** | **Solary** | `SLY` | Kinstaar, Hunter, mzXXD... | Domination Summer/Fall Skirmish, ultra régularité de Kinstaar & Hunter | LeStream Esport |
-| **2019** | **LeStream Esport** | `LST` | Skite, Vato, TheVic... | Skite 7e Solo et 10e Duo à la World Cup ($750 000+ de cashprize), Secret Skirmish | Solary |
-| **2020** | **Team MCES** | `MCES` | Andilex, Xsweeze, PodaSai... | Andilex sacré n°1 Europe au Power Ranking, victoire FNCS Duos C2S2, 2e FNCS Trios C2S4 | Grizi Esport |
-| **2021** | **TrainHard eSport** | `TH` | Falconly, BlastR, Alpha... | Densité de points PR record en FNCS Trios, Falconly régulier au sommet continental | Grizi Esport |
-| **2022** | **Solary** | `SLY` | Floki, Clément, BlastR... | Seule grande structure française à maintenir une présence continue en Grand Finals FNCS | Valiant |
-| **2023** | **Gentle Mates** | `M8` | Snayzy, PodaSai | Snayzy & PodaSai qualifiés au FNCS Global Championship 2023 à Copenhague (managés par Nikof, Head of Fortnite puis CEO) | Solary |
-| **2024** | **Karmine Corp** | `KC` | Malibuca, Merstach, Veno... | Roster galactique (Malibuca, Merstach, Veno, SwizzY) n°1 mondial au Team Power Ranking | Gentle Mates |
-| **2025** | **Gentle Mates** | `M8` | Merstach, Malibuca, Snayzy... | Champion de France 2025, constance au sommet des Majors et qualifications internationales | Team HavoK |
+| **2018** | **Solary** | `SLY` | Kinstaar, Hunter, mzXXD... | Vainqueur Lyon e-Sport, Vainqueur Gamers Assembly, domination totale de la saison 1 | Lunary |
+| **2019** | **LeStream Esport** | `LST` | Skite, Vato, TheVic... | Champion LFF 2019. Skite qualifié Solo & Duo World Cup, Nayte Top 8 World Cup Solo, TheVic et Blaxou réguliers | Solary |
+| **2020** | **Team MCES** | `MCES` | Andilex, Xsweeze, PodaSai... | Champion LFF 2020. Andilex Champion d'Europe FNCS Duo | Grizi Esport |
+| **2021** | **TrainHard eSport** | `TH` | Falconly, BlastR, Alpha... | Champion LFF 2021. Sacre en FNCS Trios, domination totale de la saison avec BlastR MVP | Grizi Esport |
+| **2022** | **Solary** | `SLY` | Floki, Clément, BlastR... | Champion LFF 2022. Floki & Clément Champions d'Europe FNCS Duo, Floki MVP | Team GO (GamersOrigin) |
+| **2023** | **Gentle Mates** | `M8` | Snayzy, PodaSai | Champion LFF 2023. Titre majeur dès leur première saison, qualification au Global Championship à Copenhague | Solary |
+| **2024** | **Karmine Corp** | `KC` | Malibuca, Merstach, Veno... | Champion LFF 2024. Domination écrasante du PR mondial, sacre en FNCS Major 2, Malibuca MVP incontesté | Gentle Mates |
+| **2025** | **Gentle Mates** | `M8` | Merstach, Malibuca, Snayzy... | Champion LFF 2025. Vainqueur de 2 Majors FNCS consécutifs, triomphe au terme d'une lutte acharnée avec Team HavoK | HavoK by Vitality |
 
 ---
 
@@ -69,10 +69,10 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ## 🛡️ 5. Annuaire des Clubs Engagés (LFF Roster)
 ### Gentle Mates (`M8`)
 - **Statut** : Active
-- **Compte X officiel** : [@GentleMates](https://x.com/GentleMates)
+- **Compte X officiel** : [@GentleMates](https://x.com/gentlemates)
 - **Fortnite Tracker** : [Gentle Mates](https://fortnitetracker.com/esports/organization/gentle-mates)
 - **Liquipedia** : [Gentle Mates](https://liquipedia.net/fortnite/Gentle_Mates)
-- **Réseaux officiels** : [𝕏](https://x.com/GentleMates) | [Twitch](https://twitch.tv/gotaga) | [YouTube](https://youtube.com/@teamgentlemates) | [TikTok](https://tiktok.com/@gentlemates) | [Instagram](https://instagram.com/gentlemates) | [Discord](https://discord.gg/gentle-mates)
+- **Réseaux officiels** : [𝕏](https://x.com/gentlemates) | [Twitch](https://twitch.tv/gotaga) | [YouTube](https://youtube.com/@teamgentlemates) | [TikTok](https://tiktok.com/@gentlemates) | [Instagram](https://instagram.com/gentlemates) | [Discord](https://discord.gg/gentle-mates)
 - **Logo enregistré** : `../LFF Logos/Logo Gentle Mates (fond vide).png`
 - **Description** : Structure fondée par Gotaga, Squeezie et Brawks en 2023. Nikof (ancien joueur pro Solary/Vitality) en est le Head of Fortnite puis le CEO. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023).
 
@@ -88,7 +88,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### HavoK by Vitality (`HvK`)
 - **Statut** : Active
 - **Compte X officiel** : [@HvKGGs](https://x.com/HvKGGs)
-- **Fortnite Tracker** : [HavoK by Vitality](https://fortnitetracker.com/esports/organization/team-havok)
+- **Fortnite Tracker** : [HavoK by Vitality](https://fortnitetracker.com/esports/organization/havok-by-vitality)
 - **Liquipedia** : [HavoK by Vitality](https://liquipedia.net/fortnite/HavoK_by_Vitality)
 - **Réseaux officiels** : [𝕏](https://x.com/HvKGGs) | [Twitch](https://twitch.tv/teamhavok) | [TikTok](https://tiktok.com/@teamhavok) | [Instagram](https://instagram.com/teamhavokgg) | [Discord](https://discord.gg/havok)
 - **Logo enregistré** : `../LFF Logos/Logo HavoK by Vitality (fond vide).png`
@@ -105,17 +105,17 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 ### Solary (`SLY`)
 - **Statut** : Active
-- **Compte X officiel** : [@SolaryTV](https://x.com/SolaryTV)
+- **Compte X officiel** : [@SolaryTV](https://x.com/holysquad_fr)
 - **Fortnite Tracker** : [Solary](https://fortnitetracker.com/esports/organization/solary)
 - **Liquipedia** : [Solary](https://liquipedia.net/fortnite/Solary)
-- **Réseaux officiels** : [𝕏](https://x.com/SolaryTV) | [Twitch](https://twitch.tv/solaryfortnite) | [YouTube](https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g) | [TikTok](https://tiktok.com/@solary_fortnite) | [Instagram](https://instagram.com/solarytv) | [Discord](https://discord.gg/solary)
+- **Réseaux officiels** : [𝕏](https://x.com/holysquad_fr) | [Twitch](https://twitch.tv/solaryfortnite) | [YouTube](https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g) | [TikTok](https://tiktok.com/@solary_fortnite) | [Instagram](https://instagram.com/solarytv) | [Discord](https://discord.gg/solary)
 - **Logo enregistré** : `../LFF Logos/Logo Solary (fond vide).png`
 - **Description** : Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, BlastR, Vico, sereN, Darkos, XZEEVIT...).
 
 ### Team Vitality (`VIT`)
 - **Statut** : Historique (Fusionné le 25 avril 2026)
 - **Compte X officiel** : [@TeamVitality](https://x.com/TeamVitality)
-- **Fortnite Tracker** : [Team Vitality](https://fortnitetracker.com/esports/organization/team-vitality)
+- **Fortnite Tracker** : [Team Vitality](https://fortnitetracker.com/esports/organization/vitality)
 - **Liquipedia** : [Team Vitality](https://liquipedia.net/fortnite/Team_Vitality)
 - **Réseaux officiels** : [𝕏](https://x.com/TeamVitality) | [Twitch](https://twitch.tv/vitality) | [YouTube](https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw) | [TikTok](https://tiktok.com/@teamvitality) | [Instagram](https://instagram.com/teamvitality) | [Discord](https://discord.gg/vitality)
 - **Logo enregistré** : `../LFF Logos/Logo Vitality (fond vide).png`
@@ -142,7 +142,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### LeStream Esport (`LST`)
 - **Statut** : Historical
 - **Compte X officiel** : [@LeStreamEsport](https://x.com/LeStreamEsport)
-- **Fortnite Tracker** : [LeStream Esport](https://fortnitetracker.com/esports/organization/lestream-esport)
+- **Fortnite Tracker** : [LeStream Esport](https://fortnitetracker.com/esports/organization/lestream)
 - **Liquipedia** : [LeStream Esport](https://liquipedia.net/fortnite/LeStream_Esport)
 - **Réseaux officiels** : [𝕏](https://x.com/LeStreamEsport) | [Twitch](https://twitch.tv/lestream) | [YouTube](https://youtube.com/@LeStream)
 - **Logo enregistré** : `../LFF Logos/Logo LeStream (fond vide).png`
@@ -160,7 +160,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### TrainHard eSport (`TH`)
 - **Statut** : Historical
 - **Compte X officiel** : [@TrainHardEsport](https://x.com/TrainHardEsport)
-- **Fortnite Tracker** : [TrainHard eSport](https://fortnitetracker.com/esports/organization/trainhard-esport)
+- **Fortnite Tracker** : [TrainHard eSport](https://fortnitetracker.com/esports/organization/trainhard)
 - **Liquipedia** : [TrainHard eSport](https://liquipedia.net/fortnite/TrainHard_eSport)
 - **Réseaux officiels** : [𝕏](https://x.com/TrainHardEsport) | [Twitch](https://twitch.tv/trainhardwebtv) | [Instagram](https://instagram.com/trainhardesport)
 - **Logo enregistré** : `../LFF Logos/Logo TrainHard (fond vide).png`
@@ -169,7 +169,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Grizi Esport (`GRIZI`)
 - **Statut** : Historical
 - **Compte X officiel** : [@GriziEsport](https://x.com/GriziEsport)
-- **Fortnite Tracker** : [Grizi Esport](https://fortnitetracker.com/esports/organization/grizi-esport)
+- **Fortnite Tracker** : [Grizi Esport](https://fortnitetracker.com/esports/organization/grizi)
 - **Liquipedia** : [Grizi Esport](https://liquipedia.net/fortnite/Grizi_Esport)
 - **Réseaux officiels** : [𝕏](https://x.com/GriziEsport) | [YouTube](https://youtube.com/@griziesport) | [TikTok](https://tiktok.com/@griziesport) | [Instagram](https://instagram.com/griziesport)
 - **Logo enregistré** : `../LFF Logos/Logo Grizi (fond vide).png`
@@ -177,10 +177,10 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 ### Zerance (`ZRC`)
 - **Statut** : Historique
-- **Compte X officiel** : [@TeamZerance](https://x.com/TeamZerance)
+- **Compte X officiel** : [@TeamZerance](https://x.com/ZerancePartout)
 - **Fortnite Tracker** : [Zerance](https://fortnitetracker.com/esports/organization/zerance)
 - **Liquipedia** : [Zerance](https://liquipedia.net/fortnite/Zerance)
-- **Réseaux officiels** : [𝕏](https://x.com/TeamZerance) | [Twitch](https://twitch.tv/teamzerance) | [YouTube](https://youtube.com/@zerance) | [TikTok](https://tiktok.com/@teamzerance) | [Instagram](https://instagram.com/teamzerance) | [Discord](https://discord.gg/zerance)
+- **Réseaux officiels** : [𝕏](https://x.com/ZerancePartout) | [Twitch](https://twitch.tv/teamzerance) | [YouTube](https://youtube.com/@zerance) | [TikTok](https://tiktok.com/@teamzerance) | [Instagram](https://instagram.com/teamzerance) | [Discord](https://discord.gg/zerance)
 - **Logo enregistré** : `../LFF Logos/Logo Zerance (fond vide).png`
 - **Description** : Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.
 
@@ -196,7 +196,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Team LDLC (LDLC OL) (`LDLC`)
 - **Statut** : Historical
 - **Compte X officiel** : [@LDLC_OL](https://x.com/LDLC_OL)
-- **Fortnite Tracker** : [Team LDLC (LDLC OL)](https://fortnitetracker.com/esports/organization/ldlc-ol)
+- **Fortnite Tracker** : [Team LDLC (LDLC OL)](https://fortnitetracker.com/esports/organization/team-ldlc)
 - **Liquipedia** : [Team LDLC (LDLC OL)](https://liquipedia.net/fortnite/Team_LDLC)
 - **Réseaux officiels** : [𝕏](https://x.com/LDLC_OL) | [Twitch](https://twitch.tv/teamldlcol) | [YouTube](https://youtube.com/@TeamLDLC) | [Instagram](https://instagram.com/teamldlcol)
 - **Logo enregistré** : `../LFF Logos/Logo LDLC (fond vide).png`
@@ -223,7 +223,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Oserv Esport (`OSV`)
 - **Statut** : Historical
 - **Compte X officiel** : [@OservEsport](https://x.com/OservEsport)
-- **Fortnite Tracker** : [Oserv Esport](https://fortnitetracker.com/esports/organization/oserv-esport)
+- **Fortnite Tracker** : [Oserv Esport](https://fortnitetracker.com/esports/organization/oserv)
 - **Liquipedia** : [Oserv Esport](https://liquipedia.net/fortnite/Oserv_Esport)
 - **Réseaux officiels** : [𝕏](https://x.com/OservEsport) | [Twitch](https://twitch.tv/oservtv) | [YouTube](https://youtube.com/channel/UCHbWqCwlFzBh-ikyZ33aCtA)
 - **Logo enregistré** : `../LFF Logos/Logo Oserv (fond vide).png`
@@ -241,7 +241,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Reality Zoned (`RZ`)
 - **Statut** : Active
 - **Compte X officiel** : [@RealityZoned](https://x.com/RealityZoned)
-- **Fortnite Tracker** : [Reality Zoned](https://fortnitetracker.com/esports/organization/reality-zoned)
+- **Fortnite Tracker** : [Reality Zoned](https://fortnitetracker.com/esports/organization/reality-zone)
 - **Liquipedia** : [Reality Zoned](https://liquipedia.net/fortnite/Reality_Zone)
 - **Réseaux officiels** : [𝕏](https://x.com/RealityZoned) | [Twitch](https://twitch.tv/realityzoned) | [YouTube](https://youtube.com/channel/UCSade4H7IspAjPAq5ejcrHQ) | [TikTok](https://tiktok.com/@realityzoned) | [Instagram](https://instagram.com/realityzoned) | [Discord](https://discord.gg/gQhyrW6VXg)
 - **Logo enregistré** : `../LFF Logos/Logo RZ rouge (fond vide).png`
@@ -258,10 +258,10 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 ### Lyost Esport (`LYO`)
 - **Statut** : Active
-- **Compte X officiel** : [@lyost_esport](https://x.com/lyost_esport)
+- **Compte X officiel** : [@lyost_esport](https://x.com/sealing_env)
 - **Fortnite Tracker** : [Lyost Esport](https://fortnitetracker.com/esports/organization/lyost-esport)
 - **Liquipedia** : [Lyost Esport](https://liquipedia.net/fortnite/Lyost_Esport)
-- **Réseaux officiels** : [𝕏](https://x.com/lyost_esport) | [Twitch](https://twitch.tv/lyostesport) | [TikTok](https://tiktok.com/@lyost_esport) | [Instagram](https://instagram.com/lyost.esport) | [Discord](https://discord.gg/rGRfA3yR9c)
+- **Réseaux officiels** : [𝕏](https://x.com/sealing_env) | [Twitch](https://twitch.tv/lyostesport) | [TikTok](https://tiktok.com/@lyost_esport) | [Instagram](https://instagram.com/lyost.esport) | [Discord](https://discord.gg/rGRfA3yR9c)
 - **Logo enregistré** : `../LFF Logos/Logo Lyost (fond vide).png`
 - **Description** : Organisation marseillaise créée en janvier 2021, organisatrice de la Massilia Cup et formatrice de talents du Sud.
 
@@ -277,7 +277,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### BK ROG Esports (`BKR`)
 - **Statut** : Historical
 - **Compte X officiel** : [@ASUS_BK_ROG](https://x.com/ASUS_BK_ROG)
-- **Fortnite Tracker** : [BK ROG Esports](https://fortnitetracker.com/esports/organization/bk-rog-esports)
+- **Fortnite Tracker** : [BK ROG Esports](https://fortnitetracker.com/esports/organization/bk-rog)
 - **Liquipedia** : [BK ROG Esports](https://liquipedia.net/fortnite/BK_ROG_Esports)
 - **Réseaux officiels** : [𝕏](https://x.com/ASUS_BK_ROG) | [YouTube](https://youtube.com/channel/UCtPk46t9ycQtlFw4KDwd2Fw) | [TikTok](https://tiktok.com/@bkrogesports) | [Instagram](https://instagram.com/bk_rog_esports) | [Discord](https://discord.gg/bkrogesports)
 - **Logo enregistré** : `../LFF Logos/Logo BK ROG (fond vide).png`
@@ -286,7 +286,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Lunary (`LNY`)
 - **Statut** : Historical
 - **Compte X officiel** : [@SolaryTV](https://x.com/SolaryTV)
-- **Fortnite Tracker** : [Lunary](https://fortnitetracker.com/esports/organization/solary)
+- **Fortnite Tracker** : [Lunary](https://fortnitetracker.com/esports/organization/lunary)
 - **Liquipedia** : [Lunary](https://liquipedia.net/fortnite/Lunary)
 - **Réseaux officiels** : [𝕏](https://x.com/SolaryTV) | [Twitch](https://twitch.tv/solaryfortnite) | [YouTube](https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g) | [Instagram](https://instagram.com/solarytv)
 - **Logo enregistré** : `../LFF Logos/Logo Lunary (fond vide).png`
@@ -361,10 +361,10 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 ### MGA eSport (`MGA`)
 - **Statut** : Active
-- **Compte X officiel** : [@mgaesport](https://x.com/mgaesport)
+- **Compte X officiel** : [@mgaesport](https://x.com/etanoe)
 - **Fortnite Tracker** : [MGA eSport](https://fortnitetracker.com/esports/organization/mga-esport)
 - **Liquipedia** : [MGA eSport](https://liquipedia.net/fortnite/MGA_eSport)
-- **Réseaux officiels** : [𝕏](https://x.com/mgaesport) | [Twitch](https://twitch.tv/mgaesport) | [YouTube](https://youtube.com/@mGaeSport) | [TikTok](https://tiktok.com/@mgaesport) | [Instagram](https://instagram.com/mgaesport) | [Discord](https://discord.gg/mgaesport)
+- **Réseaux officiels** : [𝕏](https://x.com/etanoe) | [Twitch](https://twitch.tv/mgaesport) | [YouTube](https://youtube.com/@mGaeSport) | [TikTok](https://tiktok.com/@mgaesport) | [Instagram](https://instagram.com/mgaesport) | [Discord](https://discord.gg/mgaesport)
 - **Logo enregistré** : `../LFF Logos/Logo MGA (fond vide).png`
 - **Description** : Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois.
 
@@ -379,10 +379,10 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 ### Bastille Legacy (`BL`)
 - **Statut** : Historical
-- **Compte X officiel** : [@BastilleLegacy](https://x.com/BastilleLegacy)
+- **Compte X officiel** : [@BastilleLegacy](https://x.com/GroupeDing)
 - **Fortnite Tracker** : [Bastille Legacy](https://fortnitetracker.com/esports/organization/bastille-legacy)
 - **Liquipedia** : [Bastille Legacy](https://liquipedia.net/fortnite/Bastille_Legacy)
-- **Réseaux officiels** : [𝕏](https://x.com/BastilleLegacy) | [YouTube](https://youtube.com/channel/UC-SXwO0Bm1T5EEtTIusKZ_Q) | [Instagram](https://instagram.com/bastillelegacy)
+- **Réseaux officiels** : [𝕏](https://x.com/GroupeDing) | [YouTube](https://youtube.com/channel/UC-SXwO0Bm1T5EEtTIusKZ_Q) | [Instagram](https://instagram.com/bastillelegacy)
 - **Description** : Club pionnier de la scène française Fortnite début 2018, ayant révélé Kinstaar, mzXXD et Hunter avant l'ère Solary.
 
 ### beGenius ESC (`bGe`)
@@ -396,7 +396,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### 1P Esport (`1P`)
 - **Statut** : Active
 - **Compte X officiel** : [@oneprodige](https://x.com/oneprodige)
-- **Fortnite Tracker** : [1P Esport](https://fortnitetracker.com/esports/organization/oneprodige)
+- **Fortnite Tracker** : [1P Esport](https://fortnitetracker.com/esports/organization/1p-esport)
 - **Liquipedia** : [1P Esport](https://liquipedia.net/fortnite/1P_Esport)
 - **Réseaux officiels** : [𝕏](https://x.com/oneprodige) | [Twitch](https://twitch.tv/oneprodige) | [TikTok](https://tiktok.com/@oneprodige) | [Instagram](https://instagram.com/oneprodige) | [Discord](https://discord.gg/oneprodige)
 - **Logo enregistré** : `../LFF Logos/Logo 1P Esport (fond vide).png`
@@ -422,10 +422,10 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 ### Poyo Esports (`POYO`)
 - **Statut** : Active
-- **Compte X officiel** : [@PoyoEsports](https://x.com/PoyoEsports)
+- **Compte X officiel** : [@PoyoEsports](https://x.com/PoyoCup)
 - **Fortnite Tracker** : [Poyo Esports](https://fortnitetracker.com/esports/organization/poyo-esports)
 - **Liquipedia** : [Poyo Esports](https://liquipedia.net/fortnite/Poyo_Esports)
-- **Réseaux officiels** : [𝕏](https://x.com/PoyoEsports) | [Twitch](https://twitch.tv/poyocup) | [YouTube](https://youtube.com/@poyocup) | [TikTok](https://tiktok.com/@poyo.esports) | [Instagram](https://instagram.com/poyoesports) | [Discord](https://discord.gg/fWYbQuWDMv)
+- **Réseaux officiels** : [𝕏](https://x.com/PoyoCup) | [Twitch](https://twitch.tv/poyocup) | [YouTube](https://youtube.com/@poyocup) | [TikTok](https://tiktok.com/@poyo.esports) | [Instagram](https://instagram.com/poyoesports) | [Discord](https://discord.gg/fWYbQuWDMv)
 - **Logo enregistré** : `../LFF Logos/Logo Poyo Esports (fond vide).png`
 - **Description** : Structure française organisatrice et compétitive sur Fortnite présente au classement européen Fandom.
 
@@ -486,7 +486,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### TRKF E-Sport (`TRKF`)
 - **Statut** : Active
 - **Compte X officiel** : [@TRKF_Esport](https://x.com/TRKF_Esport)
-- **Fortnite Tracker** : [TRKF E-Sport](https://fortnitetracker.com/esports/organization/trkf-e-sport)
+- **Fortnite Tracker** : [TRKF E-Sport](https://fortnitetracker.com/esports/organization/trkf-esport)
 - **Liquipedia** : [TRKF E-Sport](https://liquipedia.net/fortnite/TRKF_E-Sport)
 - **Réseaux officiels** : [𝕏](https://x.com/TRKF_Esport) | [Twitch](https://twitch.tv/trkf_esport) | [TikTok](https://tiktok.com/@trkf_esport) | [Instagram](https://instagram.com/trkf_esport) | [Discord](https://discord.gg/trkf)
 - **Logo enregistré** : `../LFF Logos/Logo TRKF (fond vide).png`
@@ -513,7 +513,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### EKINOX (`EKX`)
 - **Statut** : Active
 - **Compte X officiel** : [@ekinoxesports](https://x.com/ekinoxesports)
-- **Fortnite Tracker** : [EKINOX](https://fortnitetracker.com/esports/organization/ekinox)
+- **Fortnite Tracker** : [EKINOX](https://fortnitetracker.com/esports/organization/ekinox-esports)
 - **Liquipedia** : [EKINOX](https://liquipedia.net/fortnite/Ekinox_Esports)
 - **Réseaux officiels** : [𝕏](https://x.com/ekinoxesports) | [Twitch](https://twitch.tv/ekinoxesports) | [TikTok](https://tiktok.com/@ekinoxesports) | [Instagram](https://instagram.com/ekinoxesports) | [Discord](https://discord.gg/ekinox)
 - **Logo enregistré** : `../LFF Logos/Logo Ekinox (fond vide).png`
@@ -572,40 +572,40 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
 | Rang | Club | Tag | Points LFF 2026 | Effectif / Contributeurs PR | Fait marquant |
 | :---: | :--- | :---: | :---: | :--- | :--- |
-| **#1** | [HavoK by Vitality](https://fortnitetracker.com/esports/organization/havok-by-vitality) | `HVK` | **741,548 pts** | [Pixie](https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview), [Tjino](https://fortnitetracker.com/fortnite/profile/epic/tjino/overview), [PabloWingu](https://fortnitetracker.com/fortnite/profile/epic/pablowingu/overview), [SwizzY](https://fortnitetracker.com/fortnite/profile/epic/swizzy/overview), [Wox](https://fortnitetracker.com/fortnite/profile/epic/wox/overview), [Seekk](https://fortnitetracker.com/fortnite/profile/epic/seekk/overview), [IDrop](https://fortnitetracker.com/fortnite/profile/epic/idrop/overview) |  |
-| **#2** | [Gentle Mates](https://fortnitetracker.com/esports/organization/gentle-mates) | `M8` | **503,388 pts** | [Akiira](https://fortnitetracker.com/fortnite/profile/epic/akiira/overview), [Vanyak3kk](https://fortnitetracker.com/fortnite/profile/epic/vanyak3kk/overview), [Kurama](https://fortnitetracker.com/fortnite/profile/epic/kurama/overview), [Snayzy](https://fortnitetracker.com/fortnite/profile/epic/snayzy/overview), [Rax](https://fortnitetracker.com/fortnite/profile/epic/rax/overview), [MariusCOW*](https://fortnitetracker.com/fortnite/profile/epic/mariuscow/overview) |  |
-| **#3** | [Solary](https://fortnitetracker.com/esports/organization/solary) | `SLY` | **361,168 pts** | [Ghonzo](https://fortnitetracker.com/fortnite/profile/epic/ghonzo/overview), [Minori](https://fortnitetracker.com/fortnite/profile/epic/minori/overview), [SereN](https://fortnitetracker.com/fortnite/profile/epic/seren/overview), [Darkos](https://fortnitetracker.com/fortnite/profile/epic/darkos/overview), [Zangi](https://fortnitetracker.com/fortnite/profile/epic/zangi/overview), [XZEEVIT](https://fortnitetracker.com/fortnite/profile/epic/xzeevit/overview), [SkyJump*](https://fortnitetracker.com/fortnite/profile/epic/skyjump/overview), [Kurama*](https://fortnitetracker.com/fortnite/profile/epic/kurama/overview) |  |
-| **#4** | [Lyost Esport](https://fortnitetracker.com/esports/organization/lyost-esport) | `LYO` | **351,106 pts** | [Momsy](https://fortnitetracker.com/fortnite/profile/epic/momsy/overview), [Werex](https://fortnitetracker.com/fortnite/profile/epic/werex/overview), [Twek](https://fortnitetracker.com/fortnite/profile/epic/twek/overview), [Borsuk](https://fortnitetracker.com/fortnite/profile/epic/borsuk/overview) |  |
-| **#5** | [MGA eSport](https://fortnitetracker.com/esports/organization/mga-esport) | `MGA` | **230,804 pts** | [Syaaz](https://fortnitetracker.com/fortnite/profile/epic/syaaz/overview), [Truslo](https://fortnitetracker.com/fortnite/profile/epic/truslo/overview), [FiTo*](https://fortnitetracker.com/fortnite/profile/epic/fito/overview), [iFrOzi*](https://fortnitetracker.com/fortnite/profile/epic/ifrozi/overview) |  |
-| **#6** | [GameWard](https://fortnitetracker.com/esports/organization/gameward) | `GW` | **176,065 pts** | [Kombek](https://fortnitetracker.com/fortnite/profile/epic/kombek/overview), [Tylio](https://fortnitetracker.com/fortnite/profile/epic/tylio/overview), [S1neD](https://fortnitetracker.com/fortnite/profile/epic/s1ned/overview), [Repairs](https://fortnitetracker.com/fortnite/profile/epic/repairs/overview), [Baxo](https://fortnitetracker.com/fortnite/profile/epic/baxo/overview), [Snaylyx](https://fortnitetracker.com/fortnite/profile/epic/snaylyx/overview), [Nociff*](https://fortnitetracker.com/fortnite/profile/epic/nociff/overview) |  |
-| **#7** | [K13 Esport](https://fortnitetracker.com/esports/organization/k13-esport) | `K13` | **173,080 pts** | [Firen](https://fortnitetracker.com/fortnite/profile/epic/firen/overview), [Asa*](https://fortnitetracker.com/fortnite/profile/epic/asa/overview), [Seyyto*](https://fortnitetracker.com/fortnite/profile/epic/seyyto/overview), [Roz*](https://fortnitetracker.com/fortnite/profile/epic/roz/overview) |  |
-| **#8** | [Team Orchid](https://fortnitetracker.com/esports/organization/team-orchid) | `ORC` | **171,417 pts** | [Izzi](https://fortnitetracker.com/fortnite/profile/epic/izzi/overview), [Nociff](https://fortnitetracker.com/fortnite/profile/epic/nociff/overview), [Seyyto](https://fortnitetracker.com/fortnite/profile/epic/seyyto/overview) |  |
-| **#9** | [1P Esport](https://fortnitetracker.com/esports/organization/1p-esport) | `1P` | **135,029 pts** | [Lericx](https://fortnitetracker.com/fortnite/profile/epic/lericx/overview), [Julie](https://fortnitetracker.com/fortnite/profile/epic/julie/overview), [Hyper*](https://fortnitetracker.com/fortnite/profile/epic/hyper/overview), [Alvinlr*](https://fortnitetracker.com/fortnite/profile/epic/alvinlr/overview) |  |
-| **#10** | [R4C Esport](https://fortnitetracker.com/esports/organization/r4c-esport) | `R4C` | **103,789 pts** | [Kenrop](https://fortnitetracker.com/fortnite/profile/epic/kenrop/overview), [Foczka](https://fortnitetracker.com/fortnite/profile/epic/foczka/overview), [Maloyache*](https://fortnitetracker.com/fortnite/profile/epic/maloyache/overview) |  |
-| **#11** | [Wooka Esport](https://fortnitetracker.com/esports/organization/wooka-esport) | `WOO` | **100,725 pts** | [Szarik](https://fortnitetracker.com/fortnite/profile/epic/szarik/overview), [Ferdy](https://fortnitetracker.com/fortnite/profile/epic/ferdy/overview), [Matez*](https://fortnitetracker.com/fortnite/profile/epic/matez/overview), [Kizers*](https://fortnitetracker.com/fortnite/profile/epic/kizers/overview) |  |
-| **#12** | [Vulcan Esport](https://fortnitetracker.com/esports/organization/vulcan-esport) | `VLC` | **96,183 pts** | [Tarpz](https://fortnitetracker.com/fortnite/profile/epic/tarpz/overview), [Izzi*](https://fortnitetracker.com/fortnite/profile/epic/izzi/overview), [Vexi*](https://fortnitetracker.com/fortnite/profile/epic/vexi/overview), [Zarb*](https://fortnitetracker.com/fortnite/profile/epic/zarb/overview) |  |
-| **#13** | [Orphée Esport](https://fortnitetracker.com/esports/organization/orphee-esport) | `ORP` | **95,564 pts** | [Fnajen](https://fortnitetracker.com/fortnite/profile/epic/fnajen/overview), [Kulb*](https://fortnitetracker.com/fortnite/profile/epic/kulb/overview), [Artist*](https://fortnitetracker.com/fortnite/profile/epic/artist/overview), [Adrx*](https://fortnitetracker.com/fortnite/profile/epic/adrx/overview) |  |
-| **#14** | [TRKF E-Sport](https://fortnitetracker.com/esports/organization/trkf-esport) | `TRKF` | **78,684 pts** | [flex](https://fortnitetracker.com/fortnite/profile/epic/flex/overview), [Damage](https://fortnitetracker.com/fortnite/profile/epic/damage/overview), [Nero](https://fortnitetracker.com/fortnite/profile/epic/nero/overview), [dandepuzo*](https://fortnitetracker.com/fortnite/profile/epic/dandepuzo/overview) |  |
-| **#15** | [Pandore Esport](https://fortnitetracker.com/esports/organization/pandore-esport) | `PAN` | **75,158 pts** | [Huty](https://fortnitetracker.com/fortnite/profile/epic/huty/overview), [Triix](https://fortnitetracker.com/fortnite/profile/epic/triix/overview), [Winther](https://fortnitetracker.com/fortnite/profile/epic/winther/overview) |  |
-| **#16** | [NOW eSport](https://fortnitetracker.com/esports/organization/now-esport) | `NOW` | **65,772 pts** | [Klayzz](https://fortnitetracker.com/fortnite/profile/epic/klayzz/overview), [Maloyache](https://fortnitetracker.com/fortnite/profile/epic/maloyache/overview), [chrisc*](https://fortnitetracker.com/fortnite/profile/epic/chrisc/overview), [Squzy*](https://fortnitetracker.com/fortnite/profile/epic/squzy/overview) |  |
-| **#17** | [Poyo Esports](https://fortnitetracker.com/esports/organization/poyo-esports) | `POYO` | **63,765 pts** | [iFrOzi](https://fortnitetracker.com/fortnite/profile/epic/ifrozi/overview), [Shadox](https://fortnitetracker.com/fortnite/profile/epic/shadox/overview), [SnozQ*](https://fortnitetracker.com/fortnite/profile/epic/snozq/overview), [Repairs*](https://fortnitetracker.com/fortnite/profile/epic/repairs/overview) |  |
-| **#18** | [Lynox Esport](https://fortnitetracker.com/esports/organization/lynox-esport) | `LYN` | **63,421 pts** | [Heror3h](https://fortnitetracker.com/fortnite/profile/epic/heror3h/overview), [Zayni](https://fortnitetracker.com/fortnite/profile/epic/zayni/overview), [4ik](https://fortnitetracker.com/fortnite/profile/epic/4ik/overview), [xzeevit*](https://fortnitetracker.com/fortnite/profile/epic/xzeevit/overview) |  |
-| **#19** | [EOZ eSport](https://fortnitetracker.com/esports/organization/eoz-esport) | `EOZ` | **63,050 pts** | [Mystiqul](https://fortnitetracker.com/fortnite/profile/epic/mystiqul/overview), [Spexx](https://fortnitetracker.com/fortnite/profile/epic/spexx/overview), [Hedra](https://fortnitetracker.com/fortnite/profile/epic/hedra/overview), [S1neD*](https://fortnitetracker.com/fortnite/profile/epic/s1ned/overview) |  |
-| **#20** | [EKINOX](https://fortnitetracker.com/esports/organization/ekinox-esports) | `EKX` | **62,332 pts** | [Mirooz](https://fortnitetracker.com/fortnite/profile/epic/mirooz/overview), [nayzix7](https://fortnitetracker.com/fortnite/profile/epic/nayzix7/overview), [Misha](https://fortnitetracker.com/fortnite/profile/epic/misha/overview), [Exqu*](https://fortnitetracker.com/fortnite/profile/epic/exqu/overview) |  |
-| **#21** | [WIP Esports](https://fortnitetracker.com/esports/organization/wip-esports) | `WIP` | **42,782 pts** | [Velryy](https://fortnitetracker.com/fortnite/profile/epic/velryy/overview), [Kielba*](https://fortnitetracker.com/fortnite/profile/epic/kielba/overview) |  |
-| **#22** | [Haikoo](https://fortnitetracker.com/esports/organization/haikoo) | `HKO` | **37,089 pts** | [Maciak](https://fortnitetracker.com/fortnite/profile/epic/maciak/overview), [Joshbot](https://fortnitetracker.com/fortnite/profile/epic/joshbot/overview), [Kielba*](https://fortnitetracker.com/fortnite/profile/epic/kielba/overview) |  |
-| **#23** | [G3nZ Esport](https://fortnitetracker.com/esports/organization/g3nz-esport) | `G3NZ` | **31,695 pts** | [Ary](https://fortnitetracker.com/fortnite/profile/epic/ary/overview), [Efexy](https://fortnitetracker.com/fortnite/profile/epic/efexy/overview), [2Trash1zr](https://fortnitetracker.com/fortnite/profile/epic/2trash1zr/overview), [SereN*](https://fortnitetracker.com/fortnite/profile/epic/seren/overview) |  |
-| **#24** | [BK ROG Esports](https://fortnitetracker.com/esports/organization/bk-rog) | `BKR` | **17,515 pts** | [Hris](https://fortnitetracker.com/fortnite/profile/epic/hris/overview) |  |
-| **#25** | [Novix eSport](https://fortnitetracker.com/esports/organization/novix-esport) | `NVX` | **15,132 pts** | [Okram](https://fortnitetracker.com/fortnite/profile/epic/okram/overview), [Actfv](https://fortnitetracker.com/fortnite/profile/epic/actfv/overview), [Tenq](https://fortnitetracker.com/fortnite/profile/epic/tenq/overview), [Joanee](https://fortnitetracker.com/fortnite/profile/epic/joanee/overview) |  |
-| **#26** | [Australe Esport](https://fortnitetracker.com/esports/organization/australe-esport) | `AST` | **13,494 pts** | [freuzi](https://fortnitetracker.com/fortnite/profile/epic/freuzi/overview), [Kaktus](https://fortnitetracker.com/fortnite/profile/epic/kaktus/overview) |  |
-| **#27** | [Valiant](https://fortnitetracker.com/esports/organization/valiant) | `VLT` | **11,033 pts** | [Trulex](https://fortnitetracker.com/fortnite/profile/epic/trulex/overview), [Robabz](https://fortnitetracker.com/fortnite/profile/epic/robabz/overview) |  |
-| **#28** | [Reality Zoned](https://fortnitetracker.com/esports/organization/reality-zone) | `RZ` | **9,500 pts** | [Nayro](https://fortnitetracker.com/fortnite/profile/epic/nayro/overview), [Kyli](https://fortnitetracker.com/fortnite/profile/epic/kyli/overview), [Zeyko](https://fortnitetracker.com/fortnite/profile/epic/zeyko/overview) |  |
-| **#29** | [Team Fake](https://fortnitetracker.com/esports/organization/team-fake) | `FAKE` | **8,200 pts** | [Zeka](https://fortnitetracker.com/fortnite/profile/epic/zeka/overview), [Krox](https://fortnitetracker.com/fortnite/profile/epic/krox/overview), [Skyll](https://fortnitetracker.com/fortnite/profile/epic/skyll/overview) |  |
-| **#30** | [Team BSK](https://fortnitetracker.com/esports/organization/team-bsk) | `BSK` | **7,100 pts** | [Shado](https://fortnitetracker.com/fortnite/profile/epic/shado/overview), [Kenza](https://fortnitetracker.com/fortnite/profile/epic/kenza/overview), [Vortex](https://fortnitetracker.com/fortnite/profile/epic/vortex/overview) |  |
-| **#31** | [Aten eSport](https://fortnitetracker.com/esports/organization/aten-esport) | `ATN` | **5,400 pts** | [Atenz](https://fortnitetracker.com/fortnite/profile/epic/atenz/overview), [Skyze](https://fortnitetracker.com/fortnite/profile/epic/skyze/overview), [Nox](https://fortnitetracker.com/fortnite/profile/epic/nox/overview) |  |
-| **#32** | [Jupitar Esport](https://fortnitetracker.com/esports/organization/jupitar-esport) | `JUP` | **4,800 pts** | [Jupi](https://fortnitetracker.com/fortnite/profile/epic/jupi/overview), [Star](https://fortnitetracker.com/fortnite/profile/epic/star/overview), [Krono](https://fortnitetracker.com/fortnite/profile/epic/krono/overview) |  |
-| **#33** | [Odious Esport](https://fortnitetracker.com/esports/organization/odious-esport) | `ODI` | **4,200 pts** | [Odi](https://fortnitetracker.com/fortnite/profile/epic/odi/overview), [Rage](https://fortnitetracker.com/fortnite/profile/epic/rage/overview), [Viper](https://fortnitetracker.com/fortnite/profile/epic/viper/overview) |  |
-| **#34** | [Pap's Esport](https://fortnitetracker.com/esports/organization/paps-esport) | `PAPS` | **3,900 pts** | [Papito](https://fortnitetracker.com/fortnite/profile/epic/papito/overview), [Slay](https://fortnitetracker.com/fortnite/profile/epic/slay/overview), [Zen](https://fortnitetracker.com/fortnite/profile/epic/zen/overview) |  |
-| **#35** | [Pandaria Esport](https://fortnitetracker.com/esports/organization/pandaria-esport) | `PND` | **3,400 pts** | [Panda](https://fortnitetracker.com/fortnite/profile/epic/panda/overview), [Bamboo](https://fortnitetracker.com/fortnite/profile/epic/bamboo/overview), [Lotus](https://fortnitetracker.com/fortnite/profile/epic/lotus/overview) |  |
-| **#36** | [Fly Again](https://fortnitetracker.com/esports/organization/fly-again) | `FLYA` | **2,900 pts** | [Flyer](https://fortnitetracker.com/fortnite/profile/epic/flyer/overview), [Wing](https://fortnitetracker.com/fortnite/profile/epic/wing/overview), [Glide](https://fortnitetracker.com/fortnite/profile/epic/glide/overview) |  |
-| **#37** | [Zerance](https://fortnitetracker.com/esports/organization/zerance) | `ZR` | **2,500 pts** | [Darkos](https://fortnitetracker.com/fortnite/profile/epic/darkos/overview) |  |
+| **#1** | [HavoK by Vitality](https://fortnitetracker.com/esports/organization/havok-by-vitality) | `HvK` | **741,548 pts** | [Pixie*](https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview), [Tjino](https://fortnitetracker.com/profile/all/Tjino), [PabloWingu](https://fortnitetracker.com/profile/all/PabloWingu), [SwizzY*](https://fortnitetracker.com/profile/all/SwizzY), [Wox*](https://fortnitetracker.com/profile/all/Wox), [Seekk](https://fortnitetracker.com/profile/all/Seekk), [IDrop](https://fortnitetracker.com/profile/all/IDrop) |  |
+| **#2** | [Gentle Mates](https://fortnitetracker.com/esports/organization/gentle-mates) | `M8` | **503,388 pts** | [Akiira](https://fortnitetracker.com/profile/all/Akiira), [Vanyak3kk](https://fortnitetracker.com/profile/all/Vanyak3kk), [Kurama](https://fortnitetracker.com/profile/all/Kurama), [Snayzy](https://fortnitetracker.com/profile/all/Snayzy), [Rax](https://fortnitetracker.com/profile/all/Rax), [MariusCOW](https://fortnitetracker.com/profile/all/MariusCOW) |  |
+| **#3** | [Solary](https://fortnitetracker.com/esports/organization/solary) | `SLY` | **361,168 pts** | [Ghonzo](https://fortnitetracker.com/profile/all/Ghonzo), [Minori](https://fortnitetracker.com/profile/all/Minori), [SereN](https://fortnitetracker.com/profile/all/SereN), [Darkos*](https://fortnitetracker.com/profile/all/Darkos), [Zangi](https://fortnitetracker.com/profile/all/Zangi), [XZEEVIT](https://fortnitetracker.com/profile/all/XZEEVIT), [SkyJump](https://fortnitetracker.com/profile/all/SkyJump), [Kurama*](https://fortnitetracker.com/profile/all/Kurama) |  |
+| **#4** | [Lyost Esport](https://fortnitetracker.com/esports/organization/lyost-esport) | `LYO` | **351,633 pts** | [Momsy](https://fortnitetracker.com/profile/all/Momsy), [Werex](https://fortnitetracker.com/profile/all/Werex), [Twek](https://fortnitetracker.com/profile/all/Twek), [Borsuk](https://fortnitetracker.com/profile/all/Borsuk) |  |
+| **#5** | [GameWard](https://fortnitetracker.com/esports/organization/gameward) | `GW` | **262,338 pts** | [Kombek](https://fortnitetracker.com/profile/all/Kombek), [Tylio](https://fortnitetracker.com/profile/all/Tylio), [S1neD](https://fortnitetracker.com/profile/all/S1neD), [Repairs](https://fortnitetracker.com/profile/all/Repairs), [Baxo](https://fortnitetracker.com/profile/all/Baxo), [Snaylyx](https://fortnitetracker.com/profile/all/Snaylyx), [Nociff*](https://fortnitetracker.com/profile/all/Nociff) |  |
+| **#6** | [MGA eSport](https://fortnitetracker.com/esports/organization/mga-esport) | `MGA` | **230,936 pts** | [Syaaz](https://fortnitetracker.com/profile/all/Syaaz), [Truslo](https://fortnitetracker.com/profile/all/Truslo), [FiTo*](https://fortnitetracker.com/profile/all/FiTo), [iFrOzi*](https://fortnitetracker.com/profile/all/iFrOzi) |  |
+| **#7** | [K13 Esport](https://fortnitetracker.com/esports/organization/k13-esport) | `K13` | **173,253 pts** | [Firen](https://fortnitetracker.com/profile/all/Firen), [Asa*](https://fortnitetracker.com/profile/all/Asa), [Seyyto*](https://fortnitetracker.com/profile/all/Seyyto), [Roz*](https://fortnitetracker.com/profile/all/Roz) |  |
+| **#8** | [G3nZ Esport](https://fortnitetracker.com/esports/organization/g3nz-esport) | `G3NZ` | **140,793 pts** | [Ary](https://fortnitetracker.com/profile/all/Ary), [Efexy](https://fortnitetracker.com/profile/all/Efexy), [2Trash1zr](https://fortnitetracker.com/profile/all/2Trash1zr), [SereN*](https://fortnitetracker.com/profile/all/SereN) |  |
+| **#9** | [Team Orchid](https://fortnitetracker.com/esports/organization/team-orchid) | `ORC` | **138,196 pts** | [Izzi](https://fortnitetracker.com/profile/all/Izzi), [Nociff](https://fortnitetracker.com/profile/all/Nociff), [Seyyto](https://fortnitetracker.com/profile/all/Seyyto) |  |
+| **#10** | [1P Esport](https://fortnitetracker.com/esports/organization/1p-esport) | `1P` | **135,220 pts** | [Lericx](https://fortnitetracker.com/profile/all/Lericx), [Julie](https://fortnitetracker.com/profile/all/Julie), [Hyper*](https://fortnitetracker.com/profile/all/Hyper), [Alvinlr*](https://fortnitetracker.com/profile/all/Alvinlr) |  |
+| **#11** | [Vulcan Esport](https://fortnitetracker.com/esports/organization/vulcan-esport) | `VLC` | **134,416 pts** | [Tarpz](https://fortnitetracker.com/profile/all/Tarpz), [Izzi*](https://fortnitetracker.com/profile/all/Izzi), [Vexi*](https://fortnitetracker.com/profile/all/Vexi), [Zarb*](https://fortnitetracker.com/profile/all/Zarb) |  |
+| **#12** | [Poyo Esports](https://fortnitetracker.com/esports/organization/poyo-esports) | `POYO` | **115,948 pts** | [iFrOzi](https://fortnitetracker.com/profile/all/iFrOzi), [Shadox](https://fortnitetracker.com/profile/all/Shadox), [SnozQ*](https://fortnitetracker.com/profile/all/SnozQ), [Repairs*](https://fortnitetracker.com/profile/all/Repairs) |  |
+| **#13** | [EOZ eSport](https://fortnitetracker.com/esports/organization/eoz-esport) | `EOZ` | **105,179 pts** | [Mystiqul](https://fortnitetracker.com/profile/all/Mystiqul), [Spexx](https://fortnitetracker.com/profile/all/Spexx), [Hedra](https://fortnitetracker.com/profile/all/Hedra), [S1neD*](https://fortnitetracker.com/profile/all/S1neD) |  |
+| **#14** | [R4C Esport](https://fortnitetracker.com/esports/organization/r4c-esport) | `R4C` | **103,879 pts** | [Kenrop](https://fortnitetracker.com/profile/all/Kenrop), [Foczka](https://fortnitetracker.com/profile/all/Foczka), [Maloyache*](https://fortnitetracker.com/profile/all/Maloyache) |  |
+| **#15** | [Wooka Esport](https://fortnitetracker.com/esports/organization/wooka-esport) | `WOOKA` | **100,884 pts** | [Szarik](https://fortnitetracker.com/profile/all/Szarik), [Ferdy](https://fortnitetracker.com/profile/all/Ferdy), [Matez*](https://fortnitetracker.com/profile/all/Matez), [Kizers*](https://fortnitetracker.com/profile/all/Kizers) |  |
+| **#16** | [TRKF E-Sport](https://fortnitetracker.com/esports/organization/trkf-esport) | `TRKF` | **98,847 pts** | [flex](https://fortnitetracker.com/profile/all/flex), [Damage](https://fortnitetracker.com/profile/all/Damage), [Nero](https://fortnitetracker.com/profile/all/Nero), [dandepuzo*](https://fortnitetracker.com/profile/all/dandepuzo) |  |
+| **#17** | [Orphée Esport](https://fortnitetracker.com/esports/organization/orphee-esport) | `ORP` | **95,666 pts** | [Fnajen](https://fortnitetracker.com/profile/all/Fnajen), [Kulb*](https://fortnitetracker.com/profile/all/Kulb), [Artist*](https://fortnitetracker.com/profile/all/Artist), [Adrx*](https://fortnitetracker.com/profile/all/Adrx) |  |
+| **#18** | [Pandore Esport](https://fortnitetracker.com/esports/organization/pandore-esport) | `PDR` | **75,222 pts** | [Huty](https://fortnitetracker.com/profile/all/Huty), [Triix](https://fortnitetracker.com/profile/all/Triix), [Winther](https://fortnitetracker.com/profile/all/Winther) |  |
+| **#19** | [EKINOX](https://fortnitetracker.com/esports/organization/ekinox-esports) | `EKX` | **68,534 pts** | [Mirooz](https://fortnitetracker.com/profile/all/Mirooz), [nayzix7](https://fortnitetracker.com/profile/all/nayzix7), [Misha](https://fortnitetracker.com/profile/all/Misha), [Exqu*](https://fortnitetracker.com/profile/all/Exqu) |  |
+| **#20** | [NOW eSport](https://fortnitetracker.com/esports/organization/now-esport) | `NOW` | **68,235 pts** | [Klayzz](https://fortnitetracker.com/profile/all/Klayzz), [Maloyache](https://fortnitetracker.com/profile/all/Maloyache), [chrisc*](https://fortnitetracker.com/profile/all/chrisc), [Squzy*](https://fortnitetracker.com/profile/all/Squzy) |  |
+| **#21** | [Lynox Esport](https://fortnitetracker.com/esports/organization/lynox-esport) | `LYX` | **63,618 pts** | [Heror3h](https://fortnitetracker.com/profile/all/Heror3h), [Zayni](https://fortnitetracker.com/profile/all/Zayni), [4ik](https://fortnitetracker.com/profile/all/4ik), [xzeevit*](https://fortnitetracker.com/profile/all/xzeevit) |  |
+| **#22** | [Haikoo](https://fortnitetracker.com/esports/organization/haikoo) | `HKO` | **51,196 pts** | [Maciak](https://fortnitetracker.com/profile/all/Maciak), [Joshbot](https://fortnitetracker.com/profile/all/Joshbot), [Kielba*](https://fortnitetracker.com/profile/all/Kielba) |  |
+| **#23** | [WIP Esports](https://fortnitetracker.com/esports/organization/wip-esports) | `WIP` | **42,868 pts** | [Velryy](https://fortnitetracker.com/profile/all/Velryy), [Kielba*](https://fortnitetracker.com/profile/all/Kielba) |  |
+| **#24** | [BK ROG Esports](https://fortnitetracker.com/esports/organization/bk-rog) | `BKR` | **17,515 pts** | [Hris](https://fortnitetracker.com/profile/all/Hris) |  |
+| **#25** | [Novix eSport](https://fortnitetracker.com/esports/organization/novix-esport) | `NVX` | **15,285 pts** | [Okram](https://fortnitetracker.com/profile/all/Okram), [Actfv](https://fortnitetracker.com/profile/all/Actfv), [Tenq](https://fortnitetracker.com/profile/all/Tenq), [Joanee](https://fortnitetracker.com/profile/all/Joanee) |  |
+| **#26** | [Australe Esport](https://fortnitetracker.com/esports/organization/australe-esport) | `AST` | **13,508 pts** | [freuzi](https://fortnitetracker.com/profile/all/freuzi), [Kaktus](https://fortnitetracker.com/profile/all/Kaktus) |  |
+| **#27** | [Valiant](https://fortnitetracker.com/esports/organization/valiant) | `VLT` | **11,071 pts** | [Trulex](https://fortnitetracker.com/profile/all/Trulex), [Robabz](https://fortnitetracker.com/profile/all/Robabz) |  |
+| **#28** | [Reality Zoned](https://fortnitetracker.com/esports/organization/reality-zone) | `RZ` | **9,482 pts** | [Nayro](https://fortnitetracker.com/profile/all/Nayro), [Kyli](https://fortnitetracker.com/profile/all/Kyli), [Zeyko](https://fortnitetracker.com/profile/all/Zeyko) |  |
+| **#29** | [Team Fake](https://fortnitetracker.com/esports/organization/team-fake) | `FAKE` | **8,247 pts** | [Zeka](https://fortnitetracker.com/profile/all/Zeka), [Krox](https://fortnitetracker.com/profile/all/Krox), [Skyll](https://fortnitetracker.com/profile/all/Skyll) |  |
+| **#30** | [Team BSK](https://fortnitetracker.com/esports/organization/team-bsk) | `BSK` | **7,138 pts** | [Shado](https://fortnitetracker.com/profile/all/Shado), [Kenza](https://fortnitetracker.com/profile/all/Kenza), [Vortex](https://fortnitetracker.com/profile/all/Vortex) |  |
+| **#31** | [Aten eSport](https://fortnitetracker.com/esports/organization/aten-esport) | `ATEN` | **5,429 pts** | [Atenz](https://fortnitetracker.com/profile/all/Atenz), [Skyze](https://fortnitetracker.com/profile/all/Skyze), [Nox](https://fortnitetracker.com/profile/all/Nox) |  |
+| **#32** | [Jupitar Esport](https://fortnitetracker.com/esports/organization/jupitar-esport) | `JUP` | **4,836 pts** | [Jupi](https://fortnitetracker.com/profile/all/Jupi), [Star](https://fortnitetracker.com/profile/all/Star), [Krono](https://fortnitetracker.com/profile/all/Krono) |  |
+| **#33** | [Odious Esport](https://fortnitetracker.com/esports/organization/odious-esport) | `ODS` | **4,219 pts** | [Odi](https://fortnitetracker.com/profile/all/Odi), [Rage](https://fortnitetracker.com/profile/all/Rage), [Viper](https://fortnitetracker.com/profile/all/Viper) |  |
+| **#34** | [Pap's Esport](https://fortnitetracker.com/esports/organization/paps-esport) | `PAPS` | **3,894 pts** | [Papito](https://fortnitetracker.com/profile/all/Papito), [Slay](https://fortnitetracker.com/profile/all/Slay), [Zen](https://fortnitetracker.com/profile/all/Zen) |  |
+| **#35** | [Pandaria Esport](https://fortnitetracker.com/esports/organization/pandaria-esport) | `PAN` | **3,421 pts** | [Panda](https://fortnitetracker.com/profile/all/Panda), [Bamboo](https://fortnitetracker.com/profile/all/Bamboo), [Lotus](https://fortnitetracker.com/profile/all/Lotus) |  |
+| **#36** | [Fly Again](https://fortnitetracker.com/esports/organization/fly-again) | `FLY` | **2,876 pts** | [Flyer](https://fortnitetracker.com/profile/all/Flyer), [Wing](https://fortnitetracker.com/profile/all/Wing), [Glide](https://fortnitetracker.com/profile/all/Glide) |  |
+| **#37** | [Zerance](https://fortnitetracker.com/esports/organization/zerance) | `ZRC` | **2,485 pts** | [Darkos](https://fortnitetracker.com/profile/all/Darkos) |  |

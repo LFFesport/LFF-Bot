@@ -8,7 +8,25 @@
       "club_id": "solary",
       "previous_club": "Free Agent",
       "source": "Official Announcement (@SolaryTV / @xzeevit / @Revenja_ [Head of Fortnite Solary])",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "co",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/XZEEVIT",
+      "player_socials": {
+        "x": "https://x.com/xzeevit4k",
+        "twitch": "https://twitch.tv/xzeevit",
+        "youtube": "https://youtube.com/channel/UCuxclRcwncKgYu0o0XSBuHA",
+        "instagram": "https://instagram.com/xzeevit",
+        "tiktok": "https://tiktok.com/@xzeevit"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+      "club_socials": {
+        "x": "https://x.com/holysquad_fr",
+        "twitch": "https://twitch.tv/solaryfortnite",
+        "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+        "instagram": "https://instagram.com/solarytv",
+        "tiktok": "https://tiktok.com/@solary_fortnite",
+        "discord": "https://discord.gg/solary"
+      }
     },
     {
       "date": "2025-12-07",
@@ -18,7 +36,21 @@
       "club_id": "galions",
       "previous_club": "galions",
       "source": "Bio X vérifiée (@KyzenFN - was pro Fortnite / Fermeture Galions)",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Kyzen",
+      "player_socials": {
+        "x": "https://x.com/Kyzen_fn",
+        "twitch": "https://twitch.tv/kyzen"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/galions",
+      "club_socials": {
+        "x": "https://x.com/Galions_",
+        "youtube": "https://youtube.com/@galions_team",
+        "instagram": "https://instagram.com/galions_team",
+        "tiktok": "https://tiktok.com/@galions_team",
+        "discord": "https://discord.gg/yVDXNfp"
+      }
     },
     {
       "date": "2025-12-07",
@@ -28,7 +60,21 @@
       "club_id": "galions",
       "previous_club": "galions",
       "source": "Bio X vérifiée (@Clement_ttt - Free Agent / Fermeture Galions)",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Cl%C3%A9ment",
+      "player_socials": {
+        "x": "https://x.com/Clement_fn",
+        "twitch": "https://twitch.tv/clement"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/galions",
+      "club_socials": {
+        "x": "https://x.com/Galions_",
+        "youtube": "https://youtube.com/@galions_team",
+        "instagram": "https://instagram.com/galions_team",
+        "tiktok": "https://tiktok.com/@galions_team",
+        "discord": "https://discord.gg/yVDXNfp"
+      }
     },
     {
       "date": "2024-12-20",
@@ -38,7 +84,24 @@
       "club_id": "gentle-mates",
       "previous_club": "gentle-mates",
       "source": "Bio X vérifiée (@Snayzyy - Free Agent)",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Snayzy",
+      "player_socials": {
+        "x": "https://x.com/Snayzy_",
+        "twitch": "https://twitch.tv/snayzy",
+        "youtube": "https://youtube.com/@Snayzy",
+        "instagram": "https://instagram.com/snayzyyy"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+      "club_socials": {
+        "x": "https://x.com/gentlemates",
+        "youtube": "https://youtube.com/@teamgentlemates",
+        "instagram": "https://instagram.com/gentlemates",
+        "tiktok": "https://tiktok.com/@gentlemates",
+        "discord": "https://discord.gg/gentle-mates",
+        "twitch": "https://twitch.tv/gotaga"
+      }
     },
     {
       "date": "2026-10-15",
@@ -48,7 +111,21 @@
       "club_id": "havok-by-vitality",
       "previous_club": "Free Agent",
       "source": "Bio X vérifiée (@Seekkfn mentions @HvKGGs)",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Seekk",
+      "player_socials": {
+        "x": "https://x.com/SeekkFN",
+        "twitch": "https://twitch.tv/seekk"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
+      "club_socials": {
+        "x": "https://x.com/HvKGGs",
+        "twitch": "https://twitch.tv/teamhavok",
+        "instagram": "https://instagram.com/teamhavokgg",
+        "tiktok": "https://tiktok.com/@teamhavok",
+        "discord": "https://discord.gg/havok"
+      }
     },
     {
       "date": "2026-09-22",
@@ -58,7 +135,21 @@
       "club_id": "gentle-mates",
       "previous_club": "Free Agent",
       "source": "@GentleMates",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Rax",
+      "player_socials": {
+        "x": "https://x.com/Rax_fn"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+      "club_socials": {
+        "x": "https://x.com/gentlemates",
+        "youtube": "https://youtube.com/@teamgentlemates",
+        "instagram": "https://instagram.com/gentlemates",
+        "tiktok": "https://tiktok.com/@gentlemates",
+        "discord": "https://discord.gg/gentle-mates",
+        "twitch": "https://twitch.tv/gotaga"
+      }
     },
     {
       "date": "2026-09-01",
@@ -68,7 +159,15 @@
       "club_id": "havok-by-vitality",
       "previous_club": "havok-by-vitality",
       "source": "Bio X vérifiée (@Rad3on2 - Free Agent)",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
+      "club_socials": {
+        "x": "https://x.com/HvKGGs",
+        "twitch": "https://twitch.tv/teamhavok",
+        "instagram": "https://instagram.com/teamhavokgg",
+        "tiktok": "https://tiktok.com/@teamhavok",
+        "discord": "https://discord.gg/havok"
+      }
     },
     {
       "date": "2026-09-01",
@@ -78,7 +177,15 @@
       "club_id": "havok-by-vitality",
       "previous_club": "havok-by-vitality",
       "source": "Bio X vérifiée (@Nathanfnbr_ - Free Agent)",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
+      "club_socials": {
+        "x": "https://x.com/HvKGGs",
+        "twitch": "https://twitch.tv/teamhavok",
+        "instagram": "https://instagram.com/teamhavokgg",
+        "tiktok": "https://tiktok.com/@teamhavok",
+        "discord": "https://discord.gg/havok"
+      }
     },
     {
       "date": "2026-07-18",
@@ -88,7 +195,16 @@
       "club_id": "solary",
       "previous_club": "Free Agent",
       "source": "@SolaryTV",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+      "club_socials": {
+        "x": "https://x.com/holysquad_fr",
+        "twitch": "https://twitch.tv/solaryfortnite",
+        "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+        "instagram": "https://instagram.com/solarytv",
+        "tiktok": "https://tiktok.com/@solary_fortnite",
+        "discord": "https://discord.gg/solary"
+      }
     },
     {
       "date": "2026-04-25",
@@ -98,7 +214,22 @@
       "club_id": "havok-by-vitality",
       "previous_club": "Team HavoK / Karmine Corp",
       "source": "Official Rebrand / @HvKGGs",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "ru",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/SwizzY",
+      "player_socials": {
+        "x": "https://x.com/SwizzY281",
+        "twitch": "https://twitch.tv/swizzy281_",
+        "youtube": "https://youtube.com/channel/UCtfmiozk3AifIzguALQ4XSw"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
+      "club_socials": {
+        "x": "https://x.com/HvKGGs",
+        "twitch": "https://twitch.tv/teamhavok",
+        "instagram": "https://instagram.com/teamhavokgg",
+        "tiktok": "https://tiktok.com/@teamhavok",
+        "discord": "https://discord.gg/havok"
+      }
     },
     {
       "date": "2026-04-25",
@@ -108,7 +239,16 @@
       "club_id": "solary",
       "previous_club": "Free Agent",
       "source": "@SolaryTV",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+      "club_socials": {
+        "x": "https://x.com/holysquad_fr",
+        "twitch": "https://twitch.tv/solaryfortnite",
+        "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+        "instagram": "https://instagram.com/solarytv",
+        "tiktok": "https://tiktok.com/@solary_fortnite",
+        "discord": "https://discord.gg/solary"
+      }
     },
     {
       "date": "2026-04-25",
@@ -118,7 +258,15 @@
       "club_id": "havok-by-vitality",
       "previous_club": "Team HavoK & Team Vitality",
       "source": "Official Announcement (@TeamVitality / @HvKGGs / vitality.gg)",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
+      "club_socials": {
+        "x": "https://x.com/HvKGGs",
+        "twitch": "https://twitch.tv/teamhavok",
+        "instagram": "https://instagram.com/teamhavokgg",
+        "tiktok": "https://tiktok.com/@teamhavok",
+        "discord": "https://discord.gg/havok"
+      }
     },
     {
       "date": "2026-03-30",
@@ -128,7 +276,23 @@
       "club_id": "gentle-mates",
       "previous_club": "Free Agent",
       "source": "@GentleMates",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Kurama",
+      "player_socials": {
+        "x": "https://x.com/FtnKurama",
+        "twitch": "https://twitch.tv/kurama_203",
+        "youtube": "https://youtube.com/@FtnKurama"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+      "club_socials": {
+        "x": "https://x.com/gentlemates",
+        "youtube": "https://youtube.com/@teamgentlemates",
+        "instagram": "https://instagram.com/gentlemates",
+        "tiktok": "https://tiktok.com/@gentlemates",
+        "discord": "https://discord.gg/gentle-mates",
+        "twitch": "https://twitch.tv/gotaga"
+      }
     },
     {
       "date": "2025-05-02",
@@ -138,7 +302,22 @@
       "club_id": "team-havok",
       "previous_club": "Karmine Corp",
       "source": "Liquipedia / @HvKGGs",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "ru",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/SwizzY",
+      "player_socials": {
+        "x": "https://x.com/SwizzY281",
+        "twitch": "https://twitch.tv/swizzy281_",
+        "youtube": "https://youtube.com/channel/UCtfmiozk3AifIzguALQ4XSw"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+      "club_socials": {
+        "x": "https://x.com/HvKGGs",
+        "twitch": "https://twitch.tv/teamhavok",
+        "instagram": "https://instagram.com/teamhavokgg",
+        "tiktok": "https://tiktok.com/@teamhavok",
+        "discord": "https://discord.gg/havok"
+      }
     },
     {
       "date": "2025-01-10",
@@ -148,7 +327,24 @@
       "club_id": "gameward",
       "previous_club": "Free Agent",
       "source": "@GameWardTeam",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/S1neD",
+      "player_socials": {
+        "x": "https://x.com/s1nedfnn",
+        "twitch": "https://twitch.tv/s1nedfn",
+        "youtube": "https://youtube.com/@S1neDfnn",
+        "instagram": "https://instagram.com/s1ned__"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/gameward",
+      "club_socials": {
+        "x": "https://x.com/GameWardTeam",
+        "twitch": "https://twitch.tv/gamewardteam",
+        "youtube": "https://youtube.com/@GameWard",
+        "instagram": "https://instagram.com/gamewardteam",
+        "tiktok": "https://tiktok.com/@gamewardteam",
+        "discord": "https://discord.gg/gameward"
+      }
     },
     {
       "date": "2024-12-09",
@@ -158,7 +354,21 @@
       "club_id": "galions",
       "previous_club": "Solary",
       "source": "@Galions_",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Cl%C3%A9ment",
+      "player_socials": {
+        "x": "https://x.com/Clement_fn",
+        "twitch": "https://twitch.tv/clement"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/galions",
+      "club_socials": {
+        "x": "https://x.com/Galions_",
+        "youtube": "https://youtube.com/@galions_team",
+        "instagram": "https://instagram.com/galions_team",
+        "tiktok": "https://tiktok.com/@galions_team",
+        "discord": "https://discord.gg/yVDXNfp"
+      }
     },
     {
       "date": "2024-12-09",
@@ -168,7 +378,21 @@
       "club_id": "galions",
       "previous_club": "Valiant",
       "source": "@Galions_",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Kyzen",
+      "player_socials": {
+        "x": "https://x.com/Kyzen_fn",
+        "twitch": "https://twitch.tv/kyzen"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/galions",
+      "club_socials": {
+        "x": "https://x.com/Galions_",
+        "youtube": "https://youtube.com/@galions_team",
+        "instagram": "https://instagram.com/galions_team",
+        "tiktok": "https://tiktok.com/@galions_team",
+        "discord": "https://discord.gg/yVDXNfp"
+      }
     },
     {
       "date": "2024-08-28",
@@ -178,7 +402,22 @@
       "club_id": "team-havok",
       "previous_club": "Free Agent",
       "source": "@HvKGGs",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "dk",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Wox",
+      "player_socials": {
+        "x": "https://x.com/WoxSHTER",
+        "twitch": "https://twitch.tv/woxxow_",
+        "youtube": "https://youtube.com/channel/UCam2PKJdu5D9C-UYSfJQksg"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+      "club_socials": {
+        "x": "https://x.com/HvKGGs",
+        "twitch": "https://twitch.tv/teamhavok",
+        "instagram": "https://instagram.com/teamhavokgg",
+        "tiktok": "https://tiktok.com/@teamhavok",
+        "discord": "https://discord.gg/havok"
+      }
     },
     {
       "date": "2024-05-15",
@@ -188,7 +427,22 @@
       "club_id": "karmine-corp",
       "previous_club": "Team Falcons",
       "source": "@FortniteFraActu",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "gb",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Veno",
+      "player_socials": {
+        "x": "https://x.com/VenoFN",
+        "twitch": "https://twitch.tv/veno"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/karmine-corp",
+      "club_socials": {
+        "x": "https://x.com/KarmineCorp",
+        "twitch": "https://twitch.tv/karminecorp",
+        "youtube": "https://youtube.com/@Karmine_Corp",
+        "instagram": "https://instagram.com/karminecorp",
+        "tiktok": "https://tiktok.com/@karmine_corp",
+        "discord": "https://discord.gg/karminecorp"
+      }
     },
     {
       "date": "2024-05-09",
@@ -198,7 +452,22 @@
       "club_id": "karmine-corp",
       "previous_club": "Twisted Minds",
       "source": "@FortniteFraActu",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "ru",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Malibuca",
+      "player_socials": {
+        "x": "https://x.com/Malibuca",
+        "twitch": "https://twitch.tv/malibuca"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/karmine-corp",
+      "club_socials": {
+        "x": "https://x.com/KarmineCorp",
+        "twitch": "https://twitch.tv/karminecorp",
+        "youtube": "https://youtube.com/@Karmine_Corp",
+        "instagram": "https://instagram.com/karminecorp",
+        "tiktok": "https://tiktok.com/@karmine_corp",
+        "discord": "https://discord.gg/karminecorp"
+      }
     },
     {
       "date": "2023-04-14",
@@ -208,7 +477,24 @@
       "club_id": "gentle-mates",
       "previous_club": "Free Agent",
       "source": "@GentleMates",
-      "status": "Confirmed"
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Snayzy",
+      "player_socials": {
+        "x": "https://x.com/Snayzy_",
+        "twitch": "https://twitch.tv/snayzy",
+        "youtube": "https://youtube.com/@Snayzy",
+        "instagram": "https://instagram.com/snayzyyy"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+      "club_socials": {
+        "x": "https://x.com/gentlemates",
+        "youtube": "https://youtube.com/@teamgentlemates",
+        "instagram": "https://instagram.com/gentlemates",
+        "tiktok": "https://tiktok.com/@gentlemates",
+        "discord": "https://discord.gg/gentle-mates",
+        "twitch": "https://twitch.tv/gotaga"
+      }
     }
   ],
   "active_rosters": {

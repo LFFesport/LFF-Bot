@@ -1,0 +1,753 @@
+{
+  "gentle-mates": {
+    "id": "gentle-mates",
+    "name": "Gentle Mates",
+    "tag": "M8",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
+    "socials": {
+      "x": "https://x.com/gentlemates",
+      "youtube": "https://youtube.com/@teamgentlemates",
+      "instagram": "https://instagram.com/gentlemates",
+      "tiktok": "https://tiktok.com/@gentlemates",
+      "discord": "https://discord.gg/gentle-mates",
+      "twitch": "https://twitch.tv/gotaga"
+    },
+    "desc": ""
+  },
+  "karmine-corp": {
+    "id": "karmine-corp",
+    "name": "Karmine Corp",
+    "tag": "KC",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/karmine-corp",
+    "socials": {
+      "x": "https://x.com/KarmineCorp",
+      "twitch": "https://twitch.tv/karminecorp",
+      "youtube": "https://youtube.com/@Karmine_Corp",
+      "instagram": "https://instagram.com/karminecorp",
+      "tiktok": "https://tiktok.com/@karmine_corp",
+      "discord": "https://discord.gg/karminecorp"
+    },
+    "desc": ""
+  },
+  "havok-by-vitality": {
+    "id": "havok-by-vitality",
+    "name": "HavoK by Vitality",
+    "tag": "HvK",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
+    "socials": {
+      "x": "https://x.com/HvKGGs",
+      "twitch": "https://twitch.tv/teamhavok",
+      "instagram": "https://instagram.com/teamhavokgg",
+      "tiktok": "https://tiktok.com/@teamhavok",
+      "discord": "https://discord.gg/havok"
+    },
+    "desc": ""
+  },
+  "team-havok": {
+    "id": "team-havok",
+    "name": "Team HavoK",
+    "tag": "HVK",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+    "socials": {
+      "x": "https://x.com/HvKGGs",
+      "twitch": "https://twitch.tv/teamhavok",
+      "instagram": "https://instagram.com/teamhavokgg",
+      "tiktok": "https://tiktok.com/@teamhavok",
+      "discord": "https://discord.gg/havok"
+    },
+    "desc": ""
+  },
+  "solary": {
+    "id": "solary",
+    "name": "Solary",
+    "tag": "SLY",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+    "socials": {
+      "x": "https://x.com/holysquad_fr",
+      "twitch": "https://twitch.tv/solaryfortnite",
+      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+      "instagram": "https://instagram.com/solarytv",
+      "tiktok": "https://tiktok.com/@solary_fortnite",
+      "discord": "https://discord.gg/solary"
+    },
+    "desc": ""
+  },
+  "vitality": {
+    "id": "vitality",
+    "name": "Team Vitality",
+    "tag": "VIT",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/vitality",
+    "socials": {
+      "x": "https://x.com/TeamVitality",
+      "youtube": "https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw",
+      "instagram": "https://instagram.com/teamvitality",
+      "twitch": "https://twitch.tv/vitality",
+      "tiktok": "https://tiktok.com/@teamvitality",
+      "discord": "https://discord.gg/vitality"
+    },
+    "desc": ""
+  },
+  "team-go": {
+    "id": "team-go",
+    "name": "Team GO (GamersOrigin)",
+    "tag": "GO",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-go",
+    "socials": {
+      "x": "https://x.com/Team_GO",
+      "twitch": "https://twitch.tv/teamgogg",
+      "youtube": "https://youtube.com/@teamgogg",
+      "instagram": "https://instagram.com/teamgogg",
+      "tiktok": "https://tiktok.com/@teamgogg"
+    },
+    "desc": ""
+  },
+  "gameward": {
+    "id": "gameward",
+    "name": "GameWard",
+    "tag": "GW",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gameward",
+    "socials": {
+      "x": "https://x.com/GameWardTeam",
+      "twitch": "https://twitch.tv/gamewardteam",
+      "youtube": "https://youtube.com/@GameWard",
+      "instagram": "https://instagram.com/gamewardteam",
+      "tiktok": "https://tiktok.com/@gamewardteam",
+      "discord": "https://discord.gg/gameward"
+    },
+    "desc": ""
+  },
+  "lestream": {
+    "id": "lestream",
+    "name": "LeStream Esport",
+    "tag": "LST",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lestream",
+    "socials": {
+      "x": "https://x.com/LeStreamEsport",
+      "twitch": "https://twitch.tv/lestream",
+      "youtube": "https://youtube.com/@LeStream"
+    },
+    "desc": ""
+  },
+  "mces": {
+    "id": "mces",
+    "name": "Team MCES",
+    "tag": "MCES",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/mces",
+    "socials": {
+      "x": "https://x.com/MCES_officiel",
+      "instagram": "https://instagram.com/mces_officiel",
+      "twitch": "https://twitch.tv/mces_officiel",
+      "youtube": "https://youtube.com/@MCESofficiel",
+      "tiktok": "https://tiktok.com/@mces_officiel"
+    },
+    "desc": ""
+  },
+  "trainhard": {
+    "id": "trainhard",
+    "name": "TrainHard eSport",
+    "tag": "TH",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard",
+    "socials": {
+      "x": "https://x.com/TrainHardEsport",
+      "twitch": "https://twitch.tv/trainhardwebtv",
+      "instagram": "https://instagram.com/trainhardesport"
+    },
+    "desc": ""
+  },
+  "grizi": {
+    "id": "grizi",
+    "name": "Grizi Esport",
+    "tag": "GRIZI",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/grizi",
+    "socials": {
+      "x": "https://x.com/GriziEsport",
+      "youtube": "https://youtube.com/@griziesport",
+      "instagram": "https://instagram.com/griziesport",
+      "tiktok": "https://tiktok.com/@griziesport"
+    },
+    "desc": ""
+  },
+  "zerance": {
+    "id": "zerance",
+    "name": "Zerance",
+    "tag": "ZRC",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/zerance",
+    "socials": {
+      "x": "https://x.com/ZerancePartout",
+      "youtube": "https://youtube.com/@zerance",
+      "instagram": "https://instagram.com/teamzerance",
+      "tiktok": "https://tiktok.com/@teamzerance",
+      "twitch": "https://twitch.tv/teamzerance",
+      "discord": "https://discord.gg/zerance"
+    },
+    "desc": ""
+  },
+  "galions": {
+    "id": "galions",
+    "name": "Galions",
+    "tag": "GLN",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/galions",
+    "socials": {
+      "x": "https://x.com/Galions_",
+      "youtube": "https://youtube.com/@galions_team",
+      "instagram": "https://instagram.com/galions_team",
+      "tiktok": "https://tiktok.com/@galions_team",
+      "discord": "https://discord.gg/yVDXNfp"
+    },
+    "desc": ""
+  },
+  "team-ldlc": {
+    "id": "team-ldlc",
+    "name": "Team LDLC (LDLC OL)",
+    "tag": "LDLC",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-ldlc",
+    "socials": {
+      "x": "https://x.com/LDLC_OL",
+      "twitch": "https://twitch.tv/teamldlcol",
+      "youtube": "https://youtube.com/@TeamLDLC",
+      "instagram": "https://instagram.com/teamldlcol"
+    },
+    "desc": ""
+  },
+  "millenium": {
+    "id": "millenium",
+    "name": "Millenium",
+    "tag": "M",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/millenium",
+    "socials": {
+      "x": "https://x.com/Millenium",
+      "youtube": "https://youtube.com/@MilleniumVOD",
+      "instagram": "https://instagram.com/millenium.team"
+    },
+    "desc": ""
+  },
+  "supremacy": {
+    "id": "supremacy",
+    "name": "Supremacy",
+    "tag": "Sy",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/supremacy",
+    "socials": {
+      "x": "https://x.com/Supremacy_FR",
+      "youtube": "https://youtube.com/channel/UCisb_trxnFN_ylhpgGfbyqQ",
+      "instagram": "https://instagram.com/supremacy_fr"
+    },
+    "desc": ""
+  },
+  "oserv": {
+    "id": "oserv",
+    "name": "Oserv Esport",
+    "tag": "OSV",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/oserv",
+    "socials": {
+      "x": "https://x.com/OservEsport",
+      "twitch": "https://twitch.tv/oservtv",
+      "youtube": "https://youtube.com/channel/UCHbWqCwlFzBh-ikyZ33aCtA"
+    },
+    "desc": ""
+  },
+  "valiant": {
+    "id": "valiant",
+    "name": "Valiant",
+    "tag": "VLT",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/valiant",
+    "socials": {
+      "x": "https://x.com/ValiantOfficiel",
+      "twitch": "https://twitch.tv/valiantofficiel",
+      "youtube": "https://youtube.com/channel/UCfAj4rFVhgGCNWNTw0lVeZg",
+      "instagram": "https://instagram.com/valiantofficiel",
+      "tiktok": "https://tiktok.com/@vaillantofficiel",
+      "discord": "https://discord.gg/valiant"
+    },
+    "desc": ""
+  },
+  "reality-zone": {
+    "id": "reality-zone",
+    "name": "Reality Zoned",
+    "tag": "RZ",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/reality-zone",
+    "socials": {
+      "x": "https://x.com/RealityZoned",
+      "twitch": "https://twitch.tv/realityzoned",
+      "youtube": "https://youtube.com/channel/UCSade4H7IspAjPAq5ejcrHQ",
+      "instagram": "https://instagram.com/realityzoned",
+      "tiktok": "https://tiktok.com/@realityzoned",
+      "discord": "https://discord.gg/gQhyrW6VXg"
+    },
+    "desc": ""
+  },
+  "team-bsk": {
+    "id": "team-bsk",
+    "name": "Team BSK",
+    "tag": "BSK",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-bsk",
+    "socials": {
+      "x": "https://x.com/TeamBSK_",
+      "tiktok": "https://tiktok.com/@teambsk",
+      "discord": "https://discord.gg/teambsk"
+    },
+    "desc": ""
+  },
+  "lyost-esport": {
+    "id": "lyost-esport",
+    "name": "Lyost Esport",
+    "tag": "LYO",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lyost-esport",
+    "socials": {
+      "x": "https://x.com/sealing_env",
+      "twitch": "https://twitch.tv/lyostesport",
+      "instagram": "https://instagram.com/lyost.esport",
+      "discord": "https://discord.gg/rGRfA3yR9c",
+      "tiktok": "https://tiktok.com/@lyost_esport"
+    },
+    "desc": ""
+  },
+  "exalty": {
+    "id": "exalty",
+    "name": "Exalty",
+    "tag": "EXL",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/exalty",
+    "socials": {
+      "x": "https://x.com/Exalty_FR",
+      "twitch": "https://twitch.tv/Exaltytv1",
+      "youtube": "https://youtube.com/@Exalty",
+      "instagram": "https://instagram.com/exalty_fr",
+      "discord": "https://discord.gg/mUrf4QN"
+    },
+    "desc": ""
+  },
+  "bk-rog": {
+    "id": "bk-rog",
+    "name": "BK ROG Esports",
+    "tag": "BKR",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/bk-rog",
+    "socials": {
+      "x": "https://x.com/ASUS_BK_ROG",
+      "youtube": "https://youtube.com/channel/UCtPk46t9ycQtlFw4KDwd2Fw",
+      "instagram": "https://instagram.com/bk_rog_esports",
+      "tiktok": "https://tiktok.com/@bkrogesports",
+      "discord": "https://discord.gg/bkrogesports"
+    },
+    "desc": ""
+  },
+  "lunary": {
+    "id": "lunary",
+    "name": "Lunary",
+    "tag": "LNY",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lunary",
+    "socials": {
+      "x": "https://x.com/SolaryTV",
+      "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+      "instagram": "https://instagram.com/solarytv",
+      "twitch": "https://twitch.tv/solaryfortnite"
+    },
+    "desc": ""
+  },
+  "team-fake": {
+    "id": "team-fake",
+    "name": "Team Fake",
+    "tag": "FAKE",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-fake",
+    "socials": {
+      "x": "https://x.com/TeamFake_esport",
+      "tiktok": "https://tiktok.com/@teamfake",
+      "discord": "https://discord.gg/teamfake"
+    },
+    "desc": ""
+  },
+  "aten-esport": {
+    "id": "aten-esport",
+    "name": "Aten eSport",
+    "tag": "ATEN",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/aten-esport",
+    "socials": {
+      "x": "https://x.com/AtenEsport",
+      "tiktok": "https://tiktok.com/@atenesport",
+      "discord": "https://discord.gg/atenesport"
+    },
+    "desc": ""
+  },
+  "jupitar-esport": {
+    "id": "jupitar-esport",
+    "name": "Jupitar Esport",
+    "tag": "JUP",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/jupitar-esport",
+    "socials": {
+      "x": "https://x.com/JupitarEsport",
+      "tiktok": "https://tiktok.com/@jupitaresport",
+      "discord": "https://discord.gg/jupitaresport"
+    },
+    "desc": ""
+  },
+  "odious-esport": {
+    "id": "odious-esport",
+    "name": "Odious Esport",
+    "tag": "ODS",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/odious-esport",
+    "socials": {
+      "x": "https://x.com/OdiousEsport",
+      "twitch": "https://twitch.tv/tvodious",
+      "tiktok": "https://tiktok.com/@odious.esport",
+      "discord": "https://discord.gg/odious"
+    },
+    "desc": ""
+  },
+  "paps-esport": {
+    "id": "paps-esport",
+    "name": "Pap's Esport",
+    "tag": "PAPS",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/paps-esport",
+    "socials": {
+      "x": "https://x.com/PapsEsport",
+      "twitch": "https://twitch.tv/lepapyofficiel",
+      "tiktok": "https://tiktok.com/@papy.officiel"
+    },
+    "desc": ""
+  },
+  "pandaria-esport": {
+    "id": "pandaria-esport",
+    "name": "Pandaria Esport",
+    "tag": "PAN",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/pandaria-esport",
+    "socials": {
+      "x": "https://x.com/EsportPandaria",
+      "twitch": "https://twitch.tv/pandariaesportfr",
+      "youtube": "https://youtube.com/channel/UC8BwLlUbJ13lidx718QnCFw",
+      "instagram": "https://instagram.com/pandariaesportfr",
+      "tiktok": "https://tiktok.com/@pandariaesport",
+      "discord": "https://discord.gg/mg8CrWHFxn"
+    },
+    "desc": ""
+  },
+  "pandore-esport": {
+    "id": "pandore-esport",
+    "name": "Pandore Esport",
+    "tag": "PDR",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/pandore-esport",
+    "socials": {
+      "x": "https://x.com/Pandore_esport",
+      "tiktok": "https://tiktok.com/@pandore_esport",
+      "discord": "https://discord.gg/pandore"
+    },
+    "desc": ""
+  },
+  "fly-again": {
+    "id": "fly-again",
+    "name": "Fly Again",
+    "tag": "FLY",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/fly-again",
+    "socials": {
+      "x": "https://x.com/FlyAgainTeam",
+      "twitch": "https://twitch.tv/flyagainofficialteam",
+      "youtube": "https://youtube.com/channel/UCJSaFlPaSgkpCUW53PWhLrA",
+      "instagram": "https://instagram.com/flyagain.team",
+      "discord": "https://discord.gg/A82YbYrb"
+    },
+    "desc": ""
+  },
+  "mga-esport": {
+    "id": "mga-esport",
+    "name": "MGA eSport",
+    "tag": "MGA",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/mga-esport",
+    "socials": {
+      "x": "https://x.com/etanoe",
+      "youtube": "https://youtube.com/@mGaeSport",
+      "twitch": "https://twitch.tv/mgaesport",
+      "instagram": "https://instagram.com/mgaesport",
+      "tiktok": "https://tiktok.com/@mgaesport",
+      "discord": "https://discord.gg/mgaesport"
+    },
+    "desc": ""
+  },
+  "k13-esport": {
+    "id": "k13-esport",
+    "name": "K13 Esport",
+    "tag": "K13",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/k13-esport",
+    "socials": {
+      "x": "https://x.com/K13esport",
+      "twitch": "https://twitch.tv/K13Esport",
+      "instagram": "https://instagram.com/k13esport1",
+      "tiktok": "https://tiktok.com/@k13esport",
+      "discord": "https://discord.gg/k13esport"
+    },
+    "desc": ""
+  },
+  "bastille-legacy": {
+    "id": "bastille-legacy",
+    "name": "Bastille Legacy",
+    "tag": "BL",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/bastille-legacy",
+    "socials": {
+      "x": "https://x.com/GroupeDing",
+      "youtube": "https://youtube.com/channel/UC-SXwO0Bm1T5EEtTIusKZ_Q",
+      "instagram": "https://instagram.com/bastillelegacy"
+    },
+    "desc": ""
+  },
+  "begenius-esc": {
+    "id": "begenius-esc",
+    "name": "beGenius ESC",
+    "tag": "bGe",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/begenius-esc",
+    "socials": {
+      "x": "https://x.com/beGeniusESC",
+      "twitch": "https://twitch.tv/begeniusesc_tv",
+      "youtube": "https://youtube.com/channel/UCH5TfCsra47F3l8EH7tE01g",
+      "instagram": "https://instagram.com/begenius.esc"
+    },
+    "desc": ""
+  },
+  "1p-esport": {
+    "id": "1p-esport",
+    "name": "1P Esport",
+    "tag": "1P",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/1p-esport",
+    "socials": {
+      "x": "https://x.com/oneprodige",
+      "twitch": "https://twitch.tv/oneprodige",
+      "instagram": "https://instagram.com/oneprodige",
+      "tiktok": "https://tiktok.com/@oneprodige",
+      "discord": "https://discord.gg/oneprodige"
+    },
+    "desc": ""
+  },
+  "wooka-esport": {
+    "id": "wooka-esport",
+    "name": "Wooka Esport",
+    "tag": "WOOKA",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/wooka-esport",
+    "socials": {
+      "x": "https://x.com/WookaEsport",
+      "twitch": "https://twitch.tv/wooka_esport",
+      "youtube": "https://youtube.com/@wookaesport5056",
+      "instagram": "https://instagram.com/wookaesports",
+      "tiktok": "https://tiktok.com/@wooka_esport",
+      "discord": "https://discord.gg/wookaesport"
+    },
+    "desc": ""
+  },
+  "lynox-esport": {
+    "id": "lynox-esport",
+    "name": "Lynox Esport",
+    "tag": "LYX",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lynox-esport",
+    "socials": {
+      "x": "https://x.com/LynoXEU",
+      "twitch": "https://twitch.tv/lynoxeu",
+      "youtube": "https://youtube.com/@LynoxEU",
+      "tiktok": "https://tiktok.com/@lynox_esport",
+      "discord": "https://discord.gg/lynoxeu"
+    },
+    "desc": ""
+  },
+  "poyo-esports": {
+    "id": "poyo-esports",
+    "name": "Poyo Esports",
+    "tag": "POYO",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/poyo-esports",
+    "socials": {
+      "x": "https://x.com/PoyoCup",
+      "twitch": "https://twitch.tv/poyocup",
+      "youtube": "https://youtube.com/@poyocup",
+      "instagram": "https://instagram.com/poyoesports",
+      "tiktok": "https://tiktok.com/@poyo.esports",
+      "discord": "https://discord.gg/fWYbQuWDMv"
+    },
+    "desc": ""
+  },
+  "gentside-esports": {
+    "id": "gentside-esports",
+    "name": "Gentside Esports Club",
+    "tag": "GTS",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/gentside-esports",
+    "socials": {
+      "x": "https://x.com/GentsideEsports",
+      "youtube": "https://youtube.com/channel/UCRqAjXPUZJ_-51Kxi66edCA"
+    },
+    "desc": ""
+  },
+  "dualmedia-esports": {
+    "id": "dualmedia-esports",
+    "name": "DualMedia Esports",
+    "tag": "DM",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/dualmedia-esports",
+    "socials": {
+      "x": "https://x.com/Dual_Media",
+      "twitch": "https://twitch.tv/dualmediaesports",
+      "youtube": "https://youtube.com/@dualmedia",
+      "instagram": "https://instagram.com/dualmediaesports"
+    },
+    "desc": ""
+  },
+  "team-orchid": {
+    "id": "team-orchid",
+    "name": "Team Orchid",
+    "tag": "ORC",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-orchid",
+    "socials": {
+      "x": "https://x.com/TeamOrchidGG",
+      "youtube": "https://youtube.com/@TeamOrchidGG",
+      "instagram": "https://instagram.com/teamorchidgg",
+      "tiktok": "https://tiktok.com/@team_orchid",
+      "twitch": "https://twitch.tv/teamorchidgg",
+      "discord": "https://discord.gg/orchid"
+    },
+    "desc": ""
+  },
+  "r4c-esport": {
+    "id": "r4c-esport",
+    "name": "R4C Esport",
+    "tag": "R4C",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/r4c-esport",
+    "socials": {
+      "x": "https://x.com/r4c_esport",
+      "tiktok": "https://tiktok.com/@r4c_esport",
+      "discord": "https://discord.gg/r4cesport"
+    },
+    "desc": ""
+  },
+  "vulcan-esport": {
+    "id": "vulcan-esport",
+    "name": "Vulcan Esport",
+    "tag": "VLC",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/vulcan-esport",
+    "socials": {
+      "x": "https://x.com/vulcanesport_",
+      "tiktok": "https://tiktok.com/@vulcanesport_",
+      "discord": "https://discord.gg/vulcanesport"
+    },
+    "desc": ""
+  },
+  "orphee-esport": {
+    "id": "orphee-esport",
+    "name": "Orphée Esport",
+    "tag": "ORP",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/orphee-esport",
+    "socials": {
+      "x": "https://x.com/ORPHEE_Esport",
+      "twitch": "https://twitch.tv/orpheecore",
+      "tiktok": "https://tiktok.com/@orphee_core",
+      "discord": "https://discord.gg/orphee"
+    },
+    "desc": ""
+  },
+  "trkf-esport": {
+    "id": "trkf-esport",
+    "name": "TRKF E-Sport",
+    "tag": "TRKF",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trkf-esport",
+    "socials": {
+      "x": "https://x.com/TRKF_Esport",
+      "twitch": "https://twitch.tv/trkf_esport",
+      "instagram": "https://instagram.com/trkf_esport",
+      "tiktok": "https://tiktok.com/@trkf_esport",
+      "discord": "https://discord.gg/trkf"
+    },
+    "desc": ""
+  },
+  "now-esport": {
+    "id": "now-esport",
+    "name": "NOW eSport",
+    "tag": "NOW",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/now-esport",
+    "socials": {
+      "x": "https://x.com/noww_esport",
+      "twitch": "https://twitch.tv/noww_esport",
+      "youtube": "https://youtube.com/@RVLESP",
+      "instagram": "https://instagram.com/noww_esport",
+      "tiktok": "https://tiktok.com/@noww_esport",
+      "discord": "https://discord.gg/mMMCNBGKh2"
+    },
+    "desc": ""
+  },
+  "eoz-esport": {
+    "id": "eoz-esport",
+    "name": "EOZ eSport",
+    "tag": "EOZ",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/eoz-esport",
+    "socials": {
+      "x": "https://x.com/EOZesport",
+      "twitch": "https://twitch.tv/eozesport",
+      "tiktok": "https://tiktok.com/@eozesport",
+      "discord": "https://discord.gg/eozesport"
+    },
+    "desc": ""
+  },
+  "ekinox-esports": {
+    "id": "ekinox-esports",
+    "name": "EKINOX",
+    "tag": "EKX",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/ekinox-esports",
+    "socials": {
+      "x": "https://x.com/ekinoxesports",
+      "twitch": "https://twitch.tv/ekinoxesports",
+      "instagram": "https://instagram.com/ekinoxesports",
+      "tiktok": "https://tiktok.com/@ekinoxesports",
+      "discord": "https://discord.gg/ekinox"
+    },
+    "desc": ""
+  },
+  "wip-esports": {
+    "id": "wip-esports",
+    "name": "WIP Esports",
+    "tag": "WIP",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/wip-esports",
+    "socials": {
+      "x": "https://x.com/wipesports",
+      "instagram": "https://instagram.com/wip_esports",
+      "tiktok": "https://tiktok.com/@wipesports",
+      "discord": "https://discord.gg/wipesports"
+    },
+    "desc": ""
+  },
+  "haikoo": {
+    "id": "haikoo",
+    "name": "Haikoo",
+    "tag": "HKO",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/haikoo",
+    "socials": {
+      "x": "https://x.com/Haikoo_Esport",
+      "tiktok": "https://tiktok.com/@haikoo_esport",
+      "discord": "https://discord.gg/haikoo"
+    },
+    "desc": ""
+  },
+  "g3nz-esport": {
+    "id": "g3nz-esport",
+    "name": "G3nZ Esport",
+    "tag": "G3NZ",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/g3nz-esport",
+    "socials": {
+      "x": "https://x.com/G3nZEsport",
+      "tiktok": "https://tiktok.com/@g3nzesport",
+      "discord": "https://discord.gg/g3nzesport"
+    },
+    "desc": ""
+  },
+  "novix-esport": {
+    "id": "novix-esport",
+    "name": "Novix eSport",
+    "tag": "NVX",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/novix-esport",
+    "socials": {
+      "x": "https://x.com/NovixEsport",
+      "tiktok": "https://tiktok.com/@novixesport",
+      "discord": "https://discord.gg/novixesport"
+    },
+    "desc": ""
+  },
+  "australe-esport": {
+    "id": "australe-esport",
+    "name": "Australe Esport",
+    "tag": "AST",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/australe-esport",
+    "socials": {
+      "x": "https://x.com/team_australe",
+      "twitch": "https://twitch.tv/teamaustrale",
+      "instagram": "https://instagram.com/team.australe",
+      "discord": "https://discord.gg/australe"
+    },
+    "desc": ""
+  }
+}

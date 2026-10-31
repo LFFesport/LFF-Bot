@@ -9,20 +9,21 @@
     "logo_path": "../LFF Logos/Logo Gentle Mates (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/Gentle_Mates",
     "x_handle": "@GentleMates",
-    "x_url": "https://x.com/GentleMates",
+    "x_url": "https://x.com/gentlemates",
     "description": "Structure fondée par Gotaga, Squeezie et Brawks en 2023. Nikof (ancien joueur pro Solary/Vitality) en est le Head of Fortnite puis le CEO. Entrée fracassante avec Snayzy et PodaSai (qualifiés au Global Championship Copenhague 2023).",
     "points_lff": 503388,
     "earnings_usd": 631600,
     "rank_ft_europe": 2,
     "tracker_url": "https://fortnitetracker.com/esports/organization/gentle-mates",
     "socials": {
-      "x": "https://x.com/GentleMates",
-      "twitch": "https://twitch.tv/gotaga",
+      "x": "https://x.com/gentlemates",
       "youtube": "https://youtube.com/@teamgentlemates",
       "instagram": "https://instagram.com/gentlemates",
       "tiktok": "https://tiktok.com/@gentlemates",
-      "discord": "https://discord.gg/gentle-mates"
-    }
+      "discord": "https://discord.gg/gentle-mates",
+      "twitch": "https://twitch.tv/gotaga"
+    },
+    "xUrl": "https://x.com/gentlemates"
   },
   {
     "id": "karmine-corp",
@@ -47,7 +48,8 @@
       "instagram": "https://instagram.com/karminecorp",
       "tiktok": "https://tiktok.com/@karmine_corp",
       "discord": "https://discord.gg/karminecorp"
-    }
+    },
+    "xUrl": "https://x.com/KarmineCorp"
   },
   {
     "id": "havok-by-vitality",
@@ -64,14 +66,15 @@
     "points_lff": 741548,
     "earnings_usd": 1395160,
     "rank_ft_europe": 1,
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-havok",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
     "socials": {
       "x": "https://x.com/HvKGGs",
       "twitch": "https://twitch.tv/teamhavok",
       "instagram": "https://instagram.com/teamhavokgg",
       "tiktok": "https://tiktok.com/@teamhavok",
       "discord": "https://discord.gg/havok"
-    }
+    },
+    "xUrl": "https://x.com/HvKGGs"
   },
   {
     "id": "team-havok",
@@ -95,7 +98,8 @@
       "instagram": "https://instagram.com/teamhavokgg",
       "tiktok": "https://tiktok.com/@teamhavok",
       "discord": "https://discord.gg/havok"
-    }
+    },
+    "xUrl": "https://x.com/HvKGGs"
   },
   {
     "id": "solary",
@@ -107,20 +111,21 @@
     "logo_path": "../LFF Logos/Logo Solary (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/Solary",
     "x_handle": "@SolaryTV",
-    "x_url": "https://x.com/SolaryTV",
+    "x_url": "https://x.com/holysquad_fr",
     "description": "Le pilier historique du Fortnite français. Présent depuis 2018 (Kinstaar, Hunter, Nikof, Airwaks, Floki, Clément, BlastR, Vico, sereN, Darkos, XZEEVIT...).",
     "points_lff": 361168,
     "earnings_usd": 122890,
     "rank_ft_europe": 5,
     "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
     "socials": {
-      "x": "https://x.com/SolaryTV",
+      "x": "https://x.com/holysquad_fr",
       "twitch": "https://twitch.tv/solaryfortnite",
       "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
       "instagram": "https://instagram.com/solarytv",
       "tiktok": "https://tiktok.com/@solary_fortnite",
       "discord": "https://discord.gg/solary"
-    }
+    },
+    "xUrl": "https://x.com/holysquad_fr"
   },
   {
     "id": "vitality",
@@ -134,15 +139,16 @@
     "x_handle": "@TeamVitality",
     "x_url": "https://x.com/TeamVitality",
     "description": "Club pionnier tricolore (2018-2021 : Gotaga, BadSniper, Oslo, Keolys). Fait son retour au sommet le 25 avril 2026 en rachetant Team HavoK pour fonder HavoK by Vitality.",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/team-vitality",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/vitality",
     "socials": {
       "x": "https://x.com/TeamVitality",
-      "twitch": "https://twitch.tv/vitality",
       "youtube": "https://youtube.com/channel/UCgjhed4ZWlmC25hS4Sgs7gw",
       "instagram": "https://instagram.com/teamvitality",
+      "twitch": "https://twitch.tv/vitality",
       "tiktok": "https://tiktok.com/@teamvitality",
       "discord": "https://discord.gg/vitality"
-    }
+    },
+    "xUrl": "https://x.com/TeamVitality"
   },
   {
     "id": "team-go",
@@ -163,7 +169,8 @@
       "youtube": "https://youtube.com/@teamgogg",
       "instagram": "https://instagram.com/teamgogg",
       "tiktok": "https://tiktok.com/@teamgogg"
-    }
+    },
+    "xUrl": "https://x.com/Team_GO"
   },
   {
     "id": "gameward",
@@ -188,7 +195,8 @@
       "instagram": "https://instagram.com/gamewardteam",
       "tiktok": "https://tiktok.com/@gamewardteam",
       "discord": "https://discord.gg/gameward"
-    }
+    },
+    "xUrl": "https://x.com/GameWardTeam"
   },
   {
     "id": "lestream",
@@ -202,12 +210,13 @@
     "x_handle": "@LeStreamEsport",
     "x_url": "https://x.com/LeStreamEsport",
     "description": "Club légendaire de 2018-2019 (Skite, Vato, TheVic, Boyer). Vainqueur Winter Royale 2018, Secret Skirmish et 7e Solo / 10e Duo à la World Cup 2019.",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/lestream-esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lestream",
     "socials": {
       "x": "https://x.com/LeStreamEsport",
       "twitch": "https://twitch.tv/lestream",
       "youtube": "https://youtube.com/@LeStream"
-    }
+    },
+    "xUrl": "https://x.com/LeStreamEsport"
   },
   {
     "id": "mces",
@@ -224,11 +233,12 @@
     "tracker_url": "https://fortnitetracker.com/esports/organization/mces",
     "socials": {
       "x": "https://x.com/MCES_officiel",
+      "instagram": "https://instagram.com/mces_officiel",
       "twitch": "https://twitch.tv/mces_officiel",
       "youtube": "https://youtube.com/@MCESofficiel",
-      "instagram": "https://instagram.com/mces_officiel",
       "tiktok": "https://tiktok.com/@mces_officiel"
-    }
+    },
+    "xUrl": "https://x.com/MCES_officiel"
   },
   {
     "id": "trainhard",
@@ -242,12 +252,13 @@
     "x_handle": "@TrainHardEsport",
     "x_url": "https://x.com/TrainHardEsport",
     "description": "L'un des plus puissants rosters européens en 2020-2021 (BlastR, Alpha, Yags, Falconly, Kyzen). Multiples podiums et titres FNCS.",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard-esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trainhard",
     "socials": {
       "x": "https://x.com/TrainHardEsport",
       "twitch": "https://twitch.tv/trainhardwebtv",
       "instagram": "https://instagram.com/trainhardesport"
-    }
+    },
+    "xUrl": "https://x.com/TrainHardEsport"
   },
   {
     "id": "grizi",
@@ -261,13 +272,14 @@
     "x_handle": "@GriziEsport",
     "x_url": "https://x.com/GriziEsport",
     "description": "Fondé par Antoine et Théo Griezmann. Titré au FNCS Duos C2S2 (Nayte) et dominateur avec 4zr au sommet du PR européen en 2020-2021.",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/grizi-esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/grizi",
     "socials": {
       "x": "https://x.com/GriziEsport",
       "youtube": "https://youtube.com/@griziesport",
       "instagram": "https://instagram.com/griziesport",
       "tiktok": "https://tiktok.com/@griziesport"
-    }
+    },
+    "xUrl": "https://x.com/GriziEsport"
   },
   {
     "id": "zerance",
@@ -279,7 +291,7 @@
     "logo_path": "../LFF Logos/Logo Zerance (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/Zerance",
     "x_handle": "@TeamZerance",
-    "x_url": "https://x.com/TeamZerance",
+    "x_url": "https://x.com/ZerancePartout",
     "description": "Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.",
     "points_lff": 2500,
     "earnings_usd": 15400,
@@ -288,13 +300,14 @@
     "twitter_url": "https://x.com/TeamZerance",
     "tracker_url": "https://fortnitetracker.com/esports/organization/zerance",
     "socials": {
-      "x": "https://x.com/TeamZerance",
-      "twitch": "https://twitch.tv/teamzerance",
+      "x": "https://x.com/ZerancePartout",
       "youtube": "https://youtube.com/@zerance",
       "instagram": "https://instagram.com/teamzerance",
       "tiktok": "https://tiktok.com/@teamzerance",
+      "twitch": "https://twitch.tv/teamzerance",
       "discord": "https://discord.gg/zerance"
-    }
+    },
+    "xUrl": "https://x.com/ZerancePartout"
   },
   {
     "id": "galions",
@@ -318,7 +331,8 @@
       "instagram": "https://instagram.com/galions_team",
       "tiktok": "https://tiktok.com/@galions_team",
       "discord": "https://discord.gg/yVDXNfp"
-    }
+    },
+    "xUrl": "https://x.com/Galions_"
   },
   {
     "id": "team-ldlc",
@@ -332,13 +346,14 @@
     "x_handle": "@LDLC_OL",
     "x_url": "https://x.com/LDLC_OL",
     "description": "Institution historique de l'esport français. Présente dès juin 2018 sur Fortnite (Djoe, Maylee, Ovni, Sops, Khuna, Seth).",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/ldlc-ol",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/team-ldlc",
     "socials": {
       "x": "https://x.com/LDLC_OL",
       "twitch": "https://twitch.tv/teamldlcol",
       "youtube": "https://youtube.com/@TeamLDLC",
       "instagram": "https://instagram.com/teamldlcol"
-    }
+    },
+    "xUrl": "https://x.com/LDLC_OL"
   },
   {
     "id": "millenium",
@@ -357,7 +372,8 @@
       "x": "https://x.com/Millenium",
       "youtube": "https://youtube.com/@MilleniumVOD",
       "instagram": "https://instagram.com/millenium.team"
-    }
+    },
+    "xUrl": "https://x.com/Millenium"
   },
   {
     "id": "supremacy",
@@ -376,7 +392,8 @@
       "x": "https://x.com/Supremacy_FR",
       "youtube": "https://youtube.com/channel/UCisb_trxnFN_ylhpgGfbyqQ",
       "instagram": "https://instagram.com/supremacy_fr"
-    }
+    },
+    "xUrl": "https://x.com/Supremacy_FR"
   },
   {
     "id": "oserv",
@@ -390,12 +407,13 @@
     "x_handle": "@OservEsport",
     "x_url": "https://x.com/OservEsport",
     "description": "Club précurseur en 2018 (Skite, MawkS, Nyx, Deadra, Blaxou). Vainqueurs et podiums sur les premières LANs de l'hexagone.",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/oserv-esport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/oserv",
     "socials": {
       "x": "https://x.com/OservEsport",
       "twitch": "https://twitch.tv/oservtv",
       "youtube": "https://youtube.com/channel/UCHbWqCwlFzBh-ikyZ33aCtA"
-    }
+    },
+    "xUrl": "https://x.com/OservEsport"
   },
   {
     "id": "valiant",
@@ -420,7 +438,8 @@
       "instagram": "https://instagram.com/valiantofficiel",
       "tiktok": "https://tiktok.com/@vaillantofficiel",
       "discord": "https://discord.gg/valiant"
-    }
+    },
+    "xUrl": "https://x.com/ValiantOfficiel"
   },
   {
     "id": "reality-zone",
@@ -439,7 +458,7 @@
     "rank_ft_europe": 105,
     "twitter": "@RealityZoned",
     "twitter_url": "https://x.com/RealityZoned",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/reality-zoned",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/reality-zone",
     "socials": {
       "x": "https://x.com/RealityZoned",
       "twitch": "https://twitch.tv/realityzoned",
@@ -447,7 +466,8 @@
       "instagram": "https://instagram.com/realityzoned",
       "tiktok": "https://tiktok.com/@realityzoned",
       "discord": "https://discord.gg/gQhyrW6VXg"
-    }
+    },
+    "xUrl": "https://x.com/RealityZoned"
   },
   {
     "id": "team-bsk",
@@ -469,7 +489,8 @@
       "x": "https://x.com/TeamBSK_",
       "tiktok": "https://tiktok.com/@teambsk",
       "discord": "https://discord.gg/teambsk"
-    }
+    },
+    "xUrl": "https://x.com/TeamBSK_"
   },
   {
     "id": "lyost-esport",
@@ -481,19 +502,20 @@
     "logo_path": "../LFF Logos/Logo Lyost (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/Lyost_Esport",
     "x_handle": "@lyost_esport",
-    "x_url": "https://x.com/lyost_esport",
+    "x_url": "https://x.com/sealing_env",
     "description": "Organisation marseillaise créée en janvier 2021, organisatrice de la Massilia Cup et formatrice de talents du Sud.",
     "points_lff": 351106,
     "earnings_usd": 151275,
     "rank_ft_europe": 7,
     "tracker_url": "https://fortnitetracker.com/esports/organization/lyost-esport",
     "socials": {
-      "x": "https://x.com/lyost_esport",
+      "x": "https://x.com/sealing_env",
       "twitch": "https://twitch.tv/lyostesport",
       "instagram": "https://instagram.com/lyost.esport",
-      "tiktok": "https://tiktok.com/@lyost_esport",
-      "discord": "https://discord.gg/rGRfA3yR9c"
-    }
+      "discord": "https://discord.gg/rGRfA3yR9c",
+      "tiktok": "https://tiktok.com/@lyost_esport"
+    },
+    "xUrl": "https://x.com/sealing_env"
   },
   {
     "id": "exalty",
@@ -514,7 +536,8 @@
       "youtube": "https://youtube.com/@Exalty",
       "instagram": "https://instagram.com/exalty_fr",
       "discord": "https://discord.gg/mUrf4QN"
-    }
+    },
+    "xUrl": "https://x.com/Exalty_FR"
   },
   {
     "id": "bk-rog",
@@ -531,14 +554,15 @@
     "points_lff": 17515,
     "earnings_usd": 48900,
     "rank_ft_europe": 90,
-    "tracker_url": "https://fortnitetracker.com/esports/organization/bk-rog-esports",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/bk-rog",
     "socials": {
       "x": "https://x.com/ASUS_BK_ROG",
       "youtube": "https://youtube.com/channel/UCtPk46t9ycQtlFw4KDwd2Fw",
       "instagram": "https://instagram.com/bk_rog_esports",
       "tiktok": "https://tiktok.com/@bkrogesports",
       "discord": "https://discord.gg/bkrogesports"
-    }
+    },
+    "xUrl": "https://x.com/ASUS_BK_ROG"
   },
   {
     "id": "lunary",
@@ -552,13 +576,14 @@
     "x_handle": "@SolaryTV",
     "x_url": "https://x.com/SolaryTV",
     "description": "L'équipe sœur de Solary (Jbzz, Chap, Taipouz, MZ, Airwaks), mythique dans les LANs 2018-2019.",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/solary",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/lunary",
     "socials": {
       "x": "https://x.com/SolaryTV",
-      "twitch": "https://twitch.tv/solaryfortnite",
       "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
-      "instagram": "https://instagram.com/solarytv"
-    }
+      "instagram": "https://instagram.com/solarytv",
+      "twitch": "https://twitch.tv/solaryfortnite"
+    },
+    "xUrl": "https://x.com/SolaryTV"
   },
   {
     "id": "team-fake",
@@ -580,7 +605,8 @@
       "x": "https://x.com/TeamFake_esport",
       "tiktok": "https://tiktok.com/@teamfake",
       "discord": "https://discord.gg/teamfake"
-    }
+    },
+    "xUrl": "https://x.com/TeamFake_esport"
   },
   {
     "id": "aten-esport",
@@ -602,7 +628,8 @@
       "x": "https://x.com/AtenEsport",
       "tiktok": "https://tiktok.com/@atenesport",
       "discord": "https://discord.gg/atenesport"
-    }
+    },
+    "xUrl": "https://x.com/AtenEsport"
   },
   {
     "id": "jupitar-esport",
@@ -624,7 +651,8 @@
       "x": "https://x.com/JupitarEsport",
       "tiktok": "https://tiktok.com/@jupitaresport",
       "discord": "https://discord.gg/jupitaresport"
-    }
+    },
+    "xUrl": "https://x.com/JupitarEsport"
   },
   {
     "id": "odious-esport",
@@ -647,7 +675,8 @@
       "twitch": "https://twitch.tv/tvodious",
       "tiktok": "https://tiktok.com/@odious.esport",
       "discord": "https://discord.gg/odious"
-    }
+    },
+    "xUrl": "https://x.com/OdiousEsport"
   },
   {
     "id": "paps-esport",
@@ -669,7 +698,8 @@
       "x": "https://x.com/PapsEsport",
       "twitch": "https://twitch.tv/lepapyofficiel",
       "tiktok": "https://tiktok.com/@papy.officiel"
-    }
+    },
+    "xUrl": "https://x.com/PapsEsport"
   },
   {
     "id": "pandaria-esport",
@@ -696,7 +726,8 @@
       "instagram": "https://instagram.com/pandariaesportfr",
       "tiktok": "https://tiktok.com/@pandariaesport",
       "discord": "https://discord.gg/mg8CrWHFxn"
-    }
+    },
+    "xUrl": "https://x.com/EsportPandaria"
   },
   {
     "id": "pandore-esport",
@@ -720,7 +751,8 @@
       "x": "https://x.com/Pandore_esport",
       "tiktok": "https://tiktok.com/@pandore_esport",
       "discord": "https://discord.gg/pandore"
-    }
+    },
+    "xUrl": "https://x.com/Pandore_esport"
   },
   {
     "id": "fly-again",
@@ -746,7 +778,8 @@
       "youtube": "https://youtube.com/channel/UCJSaFlPaSgkpCUW53PWhLrA",
       "instagram": "https://instagram.com/flyagain.team",
       "discord": "https://discord.gg/A82YbYrb"
-    }
+    },
+    "xUrl": "https://x.com/FlyAgainTeam"
   },
   {
     "id": "mga-esport",
@@ -758,7 +791,7 @@
     "logo_path": "../LFF Logos/Logo MGA (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/MGA_eSport",
     "x_handle": "@mgaesport",
-    "x_url": "https://x.com/mgaesport",
+    "x_url": "https://x.com/etanoe",
     "description": "Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois.",
     "points_lff": 230804,
     "earnings_usd": 47025,
@@ -767,13 +800,14 @@
     "twitter_url": "https://x.com/mgaesport",
     "tracker_url": "https://fortnitetracker.com/esports/organization/mga-esport",
     "socials": {
-      "x": "https://x.com/mgaesport",
-      "twitch": "https://twitch.tv/mgaesport",
+      "x": "https://x.com/etanoe",
       "youtube": "https://youtube.com/@mGaeSport",
+      "twitch": "https://twitch.tv/mgaesport",
       "instagram": "https://instagram.com/mgaesport",
       "tiktok": "https://tiktok.com/@mgaesport",
       "discord": "https://discord.gg/mgaesport"
-    }
+    },
+    "xUrl": "https://x.com/etanoe"
   },
   {
     "id": "k13-esport",
@@ -799,7 +833,8 @@
       "instagram": "https://instagram.com/k13esport1",
       "tiktok": "https://tiktok.com/@k13esport",
       "discord": "https://discord.gg/k13esport"
-    }
+    },
+    "xUrl": "https://x.com/K13esport"
   },
   {
     "id": "bastille-legacy",
@@ -811,14 +846,15 @@
     "logo_path": null,
     "liquipedia_url": "https://liquipedia.net/fortnite/Bastille_Legacy",
     "x_handle": "@BastilleLegacy",
-    "x_url": "https://x.com/BastilleLegacy",
+    "x_url": "https://x.com/GroupeDing",
     "description": "Club pionnier de la scène française Fortnite début 2018, ayant révélé Kinstaar, mzXXD et Hunter avant l'ère Solary.",
     "tracker_url": "https://fortnitetracker.com/esports/organization/bastille-legacy",
     "socials": {
-      "x": "https://x.com/BastilleLegacy",
+      "x": "https://x.com/GroupeDing",
       "youtube": "https://youtube.com/channel/UC-SXwO0Bm1T5EEtTIusKZ_Q",
       "instagram": "https://instagram.com/bastillelegacy"
-    }
+    },
+    "xUrl": "https://x.com/GroupeDing"
   },
   {
     "id": "begenius-esc",
@@ -838,7 +874,8 @@
       "twitch": "https://twitch.tv/begeniusesc_tv",
       "youtube": "https://youtube.com/channel/UCH5TfCsra47F3l8EH7tE01g",
       "instagram": "https://instagram.com/begenius.esc"
-    }
+    },
+    "xUrl": "https://x.com/beGeniusESC"
   },
   {
     "id": "1p-esport",
@@ -855,14 +892,15 @@
     "points_lff": 135029,
     "earnings_usd": 21500,
     "rank_ft_europe": 28,
-    "tracker_url": "https://fortnitetracker.com/esports/organization/oneprodige",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/1p-esport",
     "socials": {
       "x": "https://x.com/oneprodige",
       "twitch": "https://twitch.tv/oneprodige",
       "instagram": "https://instagram.com/oneprodige",
       "tiktok": "https://tiktok.com/@oneprodige",
       "discord": "https://discord.gg/oneprodige"
-    }
+    },
+    "xUrl": "https://x.com/oneprodige"
   },
   {
     "id": "wooka-esport",
@@ -887,7 +925,8 @@
       "instagram": "https://instagram.com/wookaesports",
       "tiktok": "https://tiktok.com/@wooka_esport",
       "discord": "https://discord.gg/wookaesport"
-    }
+    },
+    "xUrl": "https://x.com/WookaEsport"
   },
   {
     "id": "lynox-esport",
@@ -911,7 +950,8 @@
       "youtube": "https://youtube.com/@LynoxEU",
       "tiktok": "https://tiktok.com/@lynox_esport",
       "discord": "https://discord.gg/lynoxeu"
-    }
+    },
+    "xUrl": "https://x.com/LynoXEU"
   },
   {
     "id": "poyo-esports",
@@ -923,20 +963,21 @@
     "logo_path": "../LFF Logos/Logo Poyo Esports (fond vide).png",
     "liquipedia_url": "https://liquipedia.net/fortnite/Poyo_Esports",
     "x_handle": "@PoyoEsports",
-    "x_url": "https://x.com/PoyoEsports",
+    "x_url": "https://x.com/PoyoCup",
     "description": "Structure française organisatrice et compétitive sur Fortnite présente au classement européen Fandom.",
     "points_lff": 63765,
     "earnings_usd": 4100,
     "rank_ft_europe": 55,
     "tracker_url": "https://fortnitetracker.com/esports/organization/poyo-esports",
     "socials": {
-      "x": "https://x.com/PoyoEsports",
+      "x": "https://x.com/PoyoCup",
       "twitch": "https://twitch.tv/poyocup",
       "youtube": "https://youtube.com/@poyocup",
       "instagram": "https://instagram.com/poyoesports",
       "tiktok": "https://tiktok.com/@poyo.esports",
       "discord": "https://discord.gg/fWYbQuWDMv"
-    }
+    },
+    "xUrl": "https://x.com/PoyoCup"
   },
   {
     "id": "gentside-esports",
@@ -954,7 +995,8 @@
     "socials": {
       "x": "https://x.com/GentsideEsports",
       "youtube": "https://youtube.com/channel/UCRqAjXPUZJ_-51Kxi66edCA"
-    }
+    },
+    "xUrl": "https://x.com/GentsideEsports"
   },
   {
     "id": "dualmedia-esports",
@@ -974,7 +1016,8 @@
       "twitch": "https://twitch.tv/dualmediaesports",
       "youtube": "https://youtube.com/@dualmedia",
       "instagram": "https://instagram.com/dualmediaesports"
-    }
+    },
+    "xUrl": "https://x.com/Dual_Media"
   },
   {
     "id": "team-orchid",
@@ -994,12 +1037,13 @@
     "tracker_url": "https://fortnitetracker.com/esports/organization/team-orchid",
     "socials": {
       "x": "https://x.com/TeamOrchidGG",
-      "twitch": "https://twitch.tv/teamorchidgg",
       "youtube": "https://youtube.com/@TeamOrchidGG",
       "instagram": "https://instagram.com/teamorchidgg",
       "tiktok": "https://tiktok.com/@team_orchid",
+      "twitch": "https://twitch.tv/teamorchidgg",
       "discord": "https://discord.gg/orchid"
-    }
+    },
+    "xUrl": "https://x.com/TeamOrchidGG"
   },
   {
     "id": "r4c-esport",
@@ -1021,7 +1065,8 @@
       "x": "https://x.com/r4c_esport",
       "tiktok": "https://tiktok.com/@r4c_esport",
       "discord": "https://discord.gg/r4cesport"
-    }
+    },
+    "xUrl": "https://x.com/r4c_esport"
   },
   {
     "id": "vulcan-esport",
@@ -1043,7 +1088,8 @@
       "x": "https://x.com/vulcanesport_",
       "tiktok": "https://tiktok.com/@vulcanesport_",
       "discord": "https://discord.gg/vulcanesport"
-    }
+    },
+    "xUrl": "https://x.com/vulcanesport_"
   },
   {
     "id": "orphee-esport",
@@ -1066,7 +1112,8 @@
       "twitch": "https://twitch.tv/orpheecore",
       "tiktok": "https://tiktok.com/@orphee_core",
       "discord": "https://discord.gg/orphee"
-    }
+    },
+    "xUrl": "https://x.com/ORPHEE_Esport"
   },
   {
     "id": "trkf-esport",
@@ -1085,14 +1132,15 @@
     "rank_ft_europe": 48,
     "twitter": "@TRKF_Esport",
     "twitter_url": "https://x.com/TRKF_Esport",
-    "tracker_url": "https://fortnitetracker.com/esports/organization/trkf-e-sport",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/trkf-esport",
     "socials": {
       "x": "https://x.com/TRKF_Esport",
       "twitch": "https://twitch.tv/trkf_esport",
       "instagram": "https://instagram.com/trkf_esport",
       "tiktok": "https://tiktok.com/@trkf_esport",
       "discord": "https://discord.gg/trkf"
-    }
+    },
+    "xUrl": "https://x.com/TRKF_Esport"
   },
   {
     "id": "now-esport",
@@ -1117,7 +1165,8 @@
       "instagram": "https://instagram.com/noww_esport",
       "tiktok": "https://tiktok.com/@noww_esport",
       "discord": "https://discord.gg/mMMCNBGKh2"
-    }
+    },
+    "xUrl": "https://x.com/noww_esport"
   },
   {
     "id": "eoz-esport",
@@ -1140,7 +1189,8 @@
       "twitch": "https://twitch.tv/eozesport",
       "tiktok": "https://tiktok.com/@eozesport",
       "discord": "https://discord.gg/eozesport"
-    }
+    },
+    "xUrl": "https://x.com/EOZesport"
   },
   {
     "id": "ekinox-esports",
@@ -1157,14 +1207,15 @@
     "points_lff": 62332,
     "earnings_usd": 650,
     "rank_ft_europe": 58,
-    "tracker_url": "https://fortnitetracker.com/esports/organization/ekinox",
+    "tracker_url": "https://fortnitetracker.com/esports/organization/ekinox-esports",
     "socials": {
       "x": "https://x.com/ekinoxesports",
       "twitch": "https://twitch.tv/ekinoxesports",
       "instagram": "https://instagram.com/ekinoxesports",
       "tiktok": "https://tiktok.com/@ekinoxesports",
       "discord": "https://discord.gg/ekinox"
-    }
+    },
+    "xUrl": "https://x.com/ekinoxesports"
   },
   {
     "id": "wip-esports",
@@ -1187,7 +1238,8 @@
       "instagram": "https://instagram.com/wip_esports",
       "tiktok": "https://tiktok.com/@wipesports",
       "discord": "https://discord.gg/wipesports"
-    }
+    },
+    "xUrl": "https://x.com/wipesports"
   },
   {
     "id": "haikoo",
@@ -1209,7 +1261,8 @@
       "x": "https://x.com/Haikoo_Esport",
       "tiktok": "https://tiktok.com/@haikoo_esport",
       "discord": "https://discord.gg/haikoo"
-    }
+    },
+    "xUrl": "https://x.com/Haikoo_Esport"
   },
   {
     "id": "g3nz-esport",
@@ -1231,7 +1284,8 @@
       "x": "https://x.com/G3nZEsport",
       "tiktok": "https://tiktok.com/@g3nzesport",
       "discord": "https://discord.gg/g3nzesport"
-    }
+    },
+    "xUrl": "https://x.com/G3nZEsport"
   },
   {
     "id": "novix-esport",
@@ -1253,7 +1307,8 @@
       "x": "https://x.com/NovixEsport",
       "tiktok": "https://tiktok.com/@novixesport",
       "discord": "https://discord.gg/novixesport"
-    }
+    },
+    "xUrl": "https://x.com/NovixEsport"
   },
   {
     "id": "australe-esport",
@@ -1276,6 +1331,7 @@
       "twitch": "https://twitch.tv/teamaustrale",
       "instagram": "https://instagram.com/team.australe",
       "discord": "https://discord.gg/australe"
-    }
+    },
+    "xUrl": "https://x.com/team_australe"
   }
 ]
