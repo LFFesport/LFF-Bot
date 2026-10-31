@@ -228,7 +228,6 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 
     for c in clubs:
         md_content += f"### {c['name']} (`{c['tag']}`)\n"
-        md_content += f"- **Division / Tier** : {c.get('tier', 'N/A')}\n"
         md_content += f"- **Statut** : {c.get('status', 'Active')}\n"
         x_display = c.get('x_handle', 'N/A')
         if c.get("x_url"):

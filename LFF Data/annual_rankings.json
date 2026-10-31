@@ -18,7 +18,6 @@
         "key_achievement": "Vainqueur Lyon e-Sport, Vainqueur Gamers Assembly, domination totale de la saison 1",
         "status": "Official",
         "id": "solary",
-        "tier": "Tier 1",
         "notable": "Vainqueur Lyon e-Sport, Vainqueur Gamers Assembly, domination totale de la saison 1",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -36,7 +35,6 @@
         "key_achievement": "Top 2 Coupe de France Fortnite, sacre sur multiples LANs nationales",
         "status": "Official",
         "id": "lunary",
-        "tier": "Tier 2",
         "notable": "Top 2 Coupe de France Fortnite, sacre sur multiples LANs nationales",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -54,7 +52,6 @@
         "key_achievement": "Vainqueurs Summer Skirmish Paris, immense régularité LANs",
         "status": "Official",
         "id": "vitality",
-        "tier": "Tier 1",
         "notable": "Vainqueurs Summer Skirmish Paris, immense régularité LANs",
         "xUrl": "https://x.com/TeamVitality"
       },
@@ -72,7 +69,6 @@
         "key_achievement": "Vainqueurs ESWC Metz 2018, podiums majeurs de la scène française",
         "status": "Official",
         "id": "gentside-esports",
-        "tier": "Tier 2",
         "notable": "Vainqueurs ESWC Metz 2018, podiums majeurs de la scène française",
         "xUrl": "https://x.com/GentsideEsports"
       },
@@ -90,7 +86,6 @@
         "key_achievement": "Record du monde de kills en squad par Teeqzy (43 kills), Top LANs",
         "status": "Official",
         "id": "millenium",
-        "tier": "Tier 1",
         "notable": "Record du monde de kills en squad par Teeqzy (43 kills), Top LANs",
         "xUrl": "https://x.com/Millenium"
       },
@@ -106,7 +101,6 @@
         "key_achievement": "Arrivée fracassante en fin 2018, qualification Winter Royale",
         "status": "Official",
         "id": "lestream",
-        "tier": "Tier 1",
         "notable": "Arrivée fracassante en fin 2018, qualification Winter Royale",
         "xUrl": "https://x.com/LeStreamEsport"
       },
@@ -124,7 +118,6 @@
         "key_achievement": "Top 4 Gamers Assembly 2018, pépinière de talents",
         "status": "Official",
         "id": "oserv",
-        "tier": "Tier 2",
         "notable": "Top 4 Gamers Assembly 2018, pépinière de talents",
         "xUrl": "https://x.com/OservEsport"
       },
@@ -142,7 +135,6 @@
         "key_achievement": "Régularité Skirmish et LANs françaises",
         "status": "Official",
         "id": "supremacy",
-        "tier": "Tier 2",
         "notable": "Régularité Skirmish et LANs françaises",
         "xUrl": "https://x.com/Supremacy_FR"
       },
@@ -160,7 +152,6 @@
         "key_achievement": "Performances solides en Open Cups et LANs",
         "status": "Official",
         "id": "team-go",
-        "tier": "Tier 1",
         "notable": "Performances solides en Open Cups et LANs",
         "xUrl": "https://x.com/Team_GO"
       },
@@ -178,7 +169,6 @@
         "key_achievement": "Équipe pionnière des premières semaines compétitives",
         "status": "Official",
         "id": "bastille-legacy",
-        "tier": "Tier 2",
         "notable": "Équipe pionnière des premières semaines compétitives",
         "xUrl": "https://x.com/BastilleLegacy"
       },
@@ -196,7 +186,6 @@
         "key_achievement": "Présence constante sur les tournois hebdomadaires",
         "status": "Official",
         "id": "team-ldlc",
-        "tier": "Tier 2",
         "notable": "Présence constante sur les tournois hebdomadaires",
         "xUrl": "https://x.com/LDLC_OL"
       },
@@ -213,7 +202,6 @@
         "key_achievement": "Top performances sur les circuits régionaux",
         "status": "Official",
         "id": "dualmedia-esports",
-        "tier": "Tier 2",
         "notable": "Top performances sur les circuits régionaux",
         "xUrl": "https://x.com/Dual_Media"
       },
@@ -230,7 +218,6 @@
         "key_achievement": "Présence régulière sur les opens francophones",
         "status": "Official",
         "id": "begenius-esc",
-        "tier": "Tier 2",
         "notable": "Présence régulière sur les opens francophones",
         "xUrl": "https://x.com/beGeniusESC"
       },
@@ -247,7 +234,6 @@
         "key_achievement": "Présence active sur la scène semi-pro",
         "status": "Official",
         "id": "exalty",
-        "tier": "Tier 2",
         "notable": "Présence active sur la scène semi-pro",
         "xUrl": "https://x.com/Exalty_FR"
       },
@@ -264,7 +250,6 @@
         "key_achievement": "Premiers pas sur la scène compétitive",
         "status": "Official",
         "id": "gameward",
-        "tier": "Tier 1",
         "notable": "Premiers pas sur la scène compétitive",
         "xUrl": "https://x.com/GameWardTeam"
       }
@@ -289,7 +274,6 @@
         "key_achievement": "World Cup 2019 Solos & Duos, Skite Top 7 World Cup, Nayte Top 8",
         "status": "Official",
         "id": "lestream",
-        "tier": "Tier 1",
         "notable": "World Cup 2019 Solos & Duos, Skite Top 7 World Cup, Nayte Top 8",
         "xUrl": "https://x.com/LeStreamEsport"
       },
@@ -308,7 +292,6 @@
         "key_achievement": "Multiples qualifiés World Cup New York (Kinstaar, Hunter, Nikof, Airwaks)",
         "status": "Official",
         "id": "solary",
-        "tier": "Tier 1",
         "notable": "Multiples qualifiés World Cup New York (Kinstaar, Hunter, Nikof, Airwaks)",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -326,7 +309,6 @@
         "key_achievement": "BadSniper Top World Cup Solo, Oslo Top Duos",
         "status": "Official",
         "id": "vitality",
-        "tier": "Tier 1",
         "notable": "BadSniper Top World Cup Solo, Oslo Top Duos",
         "xUrl": "https://x.com/TeamVitality"
       },
@@ -344,7 +326,6 @@
         "key_achievement": "Vainqueurs et podiums FNCS Trios Saison X",
         "status": "Official",
         "id": "mces",
-        "tier": "Tier 1",
         "notable": "Vainqueurs et podiums FNCS Trios Saison X",
         "xUrl": "https://x.com/MCES_officiel"
       },
@@ -362,7 +343,6 @@
         "key_achievement": "Finalistes FNCS Trios Saison X et Squads Chapitre 2",
         "status": "Official",
         "id": "team-go",
-        "tier": "Tier 1",
         "notable": "Finalistes FNCS Trios Saison X et Squads Chapitre 2",
         "xUrl": "https://x.com/Team_GO"
       },
@@ -380,7 +360,6 @@
         "key_achievement": "Montée en puissance spectaculaire FNCS Squads",
         "status": "Official",
         "id": "trainhard",
-        "tier": "Tier 1",
         "notable": "Montée en puissance spectaculaire FNCS Squads",
         "xUrl": "https://x.com/TrainHardEsport"
       },
@@ -397,7 +376,6 @@
         "key_achievement": "Création de la structure, signatures majeures de fin de saison",
         "status": "Official",
         "id": "grizi",
-        "tier": "Tier 1",
         "notable": "Création de la structure, signatures majeures de fin de saison",
         "xUrl": "https://x.com/GriziEsport"
       },
@@ -413,7 +391,6 @@
         "key_achievement": "Finales hivernales avant fermeture de la structure",
         "status": "Official",
         "id": "gentside-esports",
-        "tier": "Tier 2",
         "notable": "Finales hivernales avant fermeture de la structure",
         "xUrl": "https://x.com/GentsideEsports"
       },
@@ -430,7 +407,6 @@
         "key_achievement": "Top 10 FNCS Trios et qualifications régionales",
         "status": "Official",
         "id": "gameward",
-        "tier": "Tier 1",
         "notable": "Top 10 FNCS Trios et qualifications régionales",
         "xUrl": "https://x.com/GameWardTeam"
       },
@@ -447,7 +423,6 @@
         "key_achievement": "Finalistes FNCS Squads Chapitre 2 Saison 1",
         "status": "Official",
         "id": "team-ldlc",
-        "tier": "Tier 2",
         "notable": "Finalistes FNCS Squads Chapitre 2 Saison 1",
         "xUrl": "https://x.com/LDLC_OL"
       },
@@ -463,7 +438,6 @@
         "key_achievement": "Vainqueurs Pro-Am World Cup New York",
         "status": "Official",
         "id": "lunary",
-        "tier": "Tier 2",
         "notable": "Vainqueurs Pro-Am World Cup New York",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -479,7 +453,6 @@
         "key_achievement": "Régularité sur les Cash Cups hebdomadaires",
         "status": "Official",
         "id": "supremacy",
-        "tier": "Tier 2",
         "notable": "Régularité sur les Cash Cups hebdomadaires",
         "xUrl": "https://x.com/Supremacy_FR"
       },
@@ -495,7 +468,6 @@
         "key_achievement": "Transition des effectifs vers les nouvelles structures",
         "status": "Official",
         "id": "bastille-legacy",
-        "tier": "Tier 2",
         "notable": "Transition des effectifs vers les nouvelles structures",
         "xUrl": "https://x.com/BastilleLegacy"
       },
@@ -511,7 +483,6 @@
         "key_achievement": "Top 15 étapes régionales",
         "status": "Official",
         "id": "dualmedia-esports",
-        "tier": "Tier 2",
         "notable": "Top 15 étapes régionales",
         "xUrl": "https://x.com/Dual_Media"
       },
@@ -527,7 +498,6 @@
         "key_achievement": "Régularité sur le circuit national",
         "status": "Official",
         "id": "exalty",
-        "tier": "Tier 2",
         "notable": "Régularité sur le circuit national",
         "xUrl": "https://x.com/Exalty_FR"
       }
@@ -552,7 +522,6 @@
         "key_achievement": "Andilex Champion d'Europe FNCS Duos (C2S2), Vice-Champion FNCS Trios",
         "status": "Official",
         "id": "mces",
-        "tier": "Tier 1",
         "notable": "Andilex Champion d'Europe FNCS Duos (C2S2), Vice-Champion FNCS Trios",
         "xUrl": "https://x.com/MCES_officiel"
       },
@@ -570,7 +539,6 @@
         "key_achievement": "Nayte Champion FNCS Invitational 2020, 4zr podiums FNCS Trios",
         "status": "Official",
         "id": "grizi",
-        "tier": "Tier 1",
         "notable": "Nayte Champion FNCS Invitational 2020, 4zr podiums FNCS Trios",
         "xUrl": "https://x.com/GriziEsport"
       },
@@ -588,7 +556,6 @@
         "key_achievement": "Champion FNCS Duos avec Andilex / Nayte, domination Cash Cups",
         "status": "Official",
         "id": "trainhard",
-        "tier": "Tier 1",
         "notable": "Champion FNCS Duos avec Andilex / Nayte, domination Cash Cups",
         "xUrl": "https://x.com/TrainHardEsport"
       },
@@ -606,7 +573,6 @@
         "key_achievement": "Floki et Clément vainqueurs et podiums réguliers FNCS",
         "status": "Official",
         "id": "solary",
-        "tier": "Tier 1",
         "notable": "Floki et Clément vainqueurs et podiums réguliers FNCS",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -624,7 +590,6 @@
         "key_achievement": "Finalistes constants de toutes les éditions FNCS 2020",
         "status": "Official",
         "id": "vitality",
-        "tier": "Tier 1",
         "notable": "Finalistes constants de toutes les éditions FNCS 2020",
         "xUrl": "https://x.com/TeamVitality"
       },
@@ -642,7 +607,6 @@
         "key_achievement": "Top 5 FNCS Trios C2S4 (Marvel)",
         "status": "Official",
         "id": "team-go",
-        "tier": "Tier 1",
         "notable": "Top 5 FNCS Trios C2S4 (Marvel)",
         "xUrl": "https://x.com/Team_GO"
       },
@@ -658,7 +622,6 @@
         "key_achievement": "Dernière saison officielle du club avec qualifications FNCS",
         "status": "Official",
         "id": "lestream",
-        "tier": "Tier 1",
         "notable": "Dernière saison officielle du club avec qualifications FNCS",
         "xUrl": "https://x.com/LeStreamEsport"
       },
@@ -675,7 +638,6 @@
         "key_achievement": "Finalistes FNCS Duos et Trios",
         "status": "Official",
         "id": "gameward",
-        "tier": "Tier 1",
         "notable": "Finalistes FNCS Duos et Trios",
         "xUrl": "https://x.com/GameWardTeam"
       },
@@ -691,7 +653,6 @@
         "key_achievement": "Top 15 Européen régulier en Cash Cups",
         "status": "Official",
         "id": "team-ldlc",
-        "tier": "Tier 2",
         "notable": "Top 15 Européen régulier en Cash Cups",
         "xUrl": "https://x.com/LDLC_OL"
       },
@@ -708,7 +669,6 @@
         "key_achievement": "Entrée fracassante sur la scène Fortnite compétitive",
         "status": "Official",
         "id": "bk-rog",
-        "tier": "Tier 2",
         "notable": "Entrée fracassante sur la scène Fortnite compétitive",
         "xUrl": "https://x.com/ASUS_BK_ROG"
       },
@@ -724,7 +684,6 @@
         "key_achievement": "Qualifications régulières en heats FNCS",
         "status": "Official",
         "id": "valiant",
-        "tier": "Tier 2",
         "notable": "Qualifications régulières en heats FNCS",
         "xUrl": "https://x.com/ValiantOfficiel"
       },
@@ -740,7 +699,6 @@
         "key_achievement": "Régularité sur les Opens Européens",
         "status": "Official",
         "id": "supremacy",
-        "tier": "Tier 2",
         "notable": "Régularité sur les Opens Européens",
         "xUrl": "https://x.com/Supremacy_FR"
       },
@@ -756,7 +714,6 @@
         "key_achievement": "Finales francophones",
         "status": "Official",
         "id": "exalty",
-        "tier": "Tier 2",
         "notable": "Finales francophones",
         "xUrl": "https://x.com/Exalty_FR"
       },
@@ -772,7 +729,6 @@
         "key_achievement": "Entrée sur le circuit francophone",
         "status": "Official",
         "id": "reality-zone",
-        "tier": "Tier 2",
         "notable": "Entrée sur le circuit francophone",
         "xUrl": "https://x.com/RealityZoned"
       },
@@ -788,7 +744,6 @@
         "key_achievement": "Performances régulières en coupes communautaires",
         "status": "Official",
         "id": "team-bsk",
-        "tier": "Tier 2",
         "notable": "Performances régulières en coupes communautaires",
         "xUrl": "https://x.com/TeamBSK_"
       }
@@ -813,7 +768,6 @@
         "key_achievement": "Grands Vainqueurs FNCS All-Star Showdown 2021, Top 1 Européen de l'année",
         "status": "Official",
         "id": "trainhard",
-        "tier": "Tier 1",
         "notable": "Grands Vainqueurs FNCS All-Star Showdown 2021, Top 1 Européen de l'année",
         "xUrl": "https://x.com/TrainHardEsport"
       },
@@ -831,7 +785,6 @@
         "key_achievement": "4zr Champion FNCS Trios C2S8, sacre au Grand Royale 2021",
         "status": "Official",
         "id": "grizi",
-        "tier": "Tier 1",
         "notable": "4zr Champion FNCS Trios C2S8, sacre au Grand Royale 2021",
         "xUrl": "https://x.com/GriziEsport"
       },
@@ -849,7 +802,6 @@
         "key_achievement": "Champions FNCS Trios C2S6, Top régulier FNCS Grand Royale",
         "status": "Official",
         "id": "solary",
-        "tier": "Tier 1",
         "notable": "Champions FNCS Trios C2S6, Top régulier FNCS Grand Royale",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -866,7 +818,6 @@
         "key_achievement": "Podium FNCS Trios C2S5, régularité au sommet européen",
         "status": "Official",
         "id": "mces",
-        "tier": "Tier 1",
         "notable": "Podium FNCS Trios C2S5, régularité au sommet européen",
         "xUrl": "https://x.com/MCES_officiel"
       },
@@ -883,7 +834,6 @@
         "key_achievement": "Top 10 européen Grand Royale FNCS",
         "status": "Official",
         "id": "team-go",
-        "tier": "Tier 1",
         "notable": "Top 10 européen Grand Royale FNCS",
         "xUrl": "https://x.com/Team_GO"
       },
@@ -899,7 +849,6 @@
         "key_achievement": "Finalistes FNCS toutes saisons 2021",
         "status": "Official",
         "id": "vitality",
-        "tier": "Tier 1",
         "notable": "Finalistes FNCS toutes saisons 2021",
         "xUrl": "https://x.com/TeamVitality"
       },
@@ -915,7 +864,6 @@
         "key_achievement": "Top 15 Heats FNCS Trios",
         "status": "Official",
         "id": "valiant",
-        "tier": "Tier 2",
         "notable": "Top 15 Heats FNCS Trios",
         "xUrl": "https://x.com/ValiantOfficiel"
       },
@@ -932,7 +880,6 @@
         "key_achievement": "Premières qualifications aux finales majeures",
         "status": "Official",
         "id": "reality-zone",
-        "tier": "Tier 2",
         "notable": "Premières qualifications aux finales majeures",
         "xUrl": "https://x.com/RealityZoned"
       },
@@ -948,7 +895,6 @@
         "key_achievement": "Finalistes Cash Cups réguliers",
         "status": "Official",
         "id": "gameward",
-        "tier": "Tier 1",
         "notable": "Finalistes Cash Cups réguliers",
         "xUrl": "https://x.com/GameWardTeam"
       },
@@ -964,7 +910,6 @@
         "key_achievement": "Top 20 FNCS Heats",
         "status": "Official",
         "id": "bk-rog",
-        "tier": "Tier 2",
         "notable": "Top 20 FNCS Heats",
         "xUrl": "https://x.com/ASUS_BK_ROG"
       },
@@ -980,7 +925,6 @@
         "key_achievement": "Victoires en Victory Cups",
         "status": "Official",
         "id": "team-bsk",
-        "tier": "Tier 2",
         "notable": "Victoires en Victory Cups",
         "xUrl": "https://x.com/TeamBSK_"
       },
@@ -996,7 +940,6 @@
         "key_achievement": "Débuts prometteurs sur le circuit officiel",
         "status": "Official",
         "id": "lyost-esport",
-        "tier": "Tier 2",
         "notable": "Débuts prometteurs sur le circuit officiel",
         "xUrl": "https://x.com/lyost_esport"
       },
@@ -1012,7 +955,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "aten-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/AtenEsport"
       },
@@ -1028,7 +970,6 @@
         "key_achievement": "Qualifications Opens",
         "status": "Official",
         "id": "jupitar-esport",
-        "tier": "Tier 2",
         "notable": "Qualifications Opens",
         "xUrl": "https://x.com/JupitarEsport"
       },
@@ -1044,7 +985,6 @@
         "key_achievement": "Fondation du club et premières performances",
         "status": "Official",
         "id": "wooka-esport",
-        "tier": "Tier 2",
         "notable": "Fondation du club et premières performances",
         "xUrl": "https://x.com/WookaEsport"
       },
@@ -1060,7 +1000,6 @@
         "key_achievement": "Circuit amateur et semi-pro",
         "status": "Official",
         "id": "vulcan-esport",
-        "tier": "Tier 2",
         "notable": "Circuit amateur et semi-pro",
         "xUrl": "https://x.com/vulcanesport_"
       },
@@ -1076,7 +1015,6 @@
         "key_achievement": "Qualifications heats",
         "status": "Official",
         "id": "orphee-esport",
-        "tier": "Tier 2",
         "notable": "Qualifications heats",
         "xUrl": "https://x.com/ORPHEE_Esport"
       },
@@ -1092,7 +1030,6 @@
         "key_achievement": "Circuits communautaires",
         "status": "Official",
         "id": "eoz-esport",
-        "tier": "Tier 2",
         "notable": "Circuits communautaires",
         "xUrl": "https://x.com/EOZesport"
       },
@@ -1107,7 +1044,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "wip-esports",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/wipesports"
       },
@@ -1123,7 +1059,6 @@
         "key_achievement": "Fin de parcours compétitif",
         "status": "Official",
         "id": "exalty",
-        "tier": "Tier 2",
         "notable": "Fin de parcours compétitif",
         "xUrl": "https://x.com/Exalty_FR"
       }
@@ -1148,7 +1083,6 @@
         "key_achievement": "Vice-Champions FNCS Invitational Raleigh 2022, Champions FNCS Chapitre 3",
         "status": "Official",
         "id": "solary",
-        "tier": "Tier 1",
         "notable": "Vice-Champions FNCS Invitational Raleigh 2022, Champions FNCS Chapitre 3",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -1165,7 +1099,6 @@
         "key_achievement": "Top 5 FNCS Duos Chapitre 3, sacre en Cash Cups",
         "status": "Official",
         "id": "team-go",
-        "tier": "Tier 1",
         "notable": "Top 5 FNCS Duos Chapitre 3, sacre en Cash Cups",
         "xUrl": "https://x.com/Team_GO"
       },
@@ -1182,7 +1115,6 @@
         "key_achievement": "Top 10 FNCS Duos européen",
         "status": "Official",
         "id": "valiant",
-        "tier": "Tier 2",
         "notable": "Top 10 FNCS Duos européen",
         "xUrl": "https://x.com/ValiantOfficiel"
       },
@@ -1199,7 +1131,6 @@
         "key_achievement": "Finalistes FNCS Duos C3S2",
         "status": "Official",
         "id": "reality-zone",
-        "tier": "Tier 2",
         "notable": "Finalistes FNCS Duos C3S2",
         "xUrl": "https://x.com/RealityZoned"
       },
@@ -1215,7 +1146,6 @@
         "key_achievement": "Dernière grande campagne avant transition club",
         "status": "Official",
         "id": "mces",
-        "tier": "Tier 1",
         "notable": "Dernière grande campagne avant transition club",
         "xUrl": "https://x.com/MCES_officiel"
       },
@@ -1231,7 +1161,6 @@
         "key_achievement": "Finalistes réguliers Cash Cups",
         "status": "Official",
         "id": "gameward",
-        "tier": "Tier 1",
         "notable": "Finalistes réguliers Cash Cups",
         "xUrl": "https://x.com/GameWardTeam"
       },
@@ -1247,7 +1176,6 @@
         "key_achievement": "Top 20 Heats FNCS",
         "status": "Official",
         "id": "bk-rog",
-        "tier": "Tier 2",
         "notable": "Top 20 Heats FNCS",
         "xUrl": "https://x.com/ASUS_BK_ROG"
       },
@@ -1260,11 +1188,10 @@
           "Zeka",
           "Krox"
         ],
-        "key_achievement": "Révélation Tier 2 de l'année",
+        "key_achievement": "Révélation nationale de l'année",
         "status": "Official",
         "id": "team-fake",
-        "tier": "Tier 2",
-        "notable": "Révélation Tier 2 de l'année",
+        "notable": "Révélation nationale de l'année",
         "xUrl": "https://x.com/TeamFake_esport"
       },
       {
@@ -1279,7 +1206,6 @@
         "key_achievement": "Régularité en coupes ouvertes",
         "status": "Official",
         "id": "team-bsk",
-        "tier": "Tier 2",
         "notable": "Régularité en coupes ouvertes",
         "xUrl": "https://x.com/TeamBSK_"
       },
@@ -1295,7 +1221,6 @@
         "key_achievement": "Montée en puissance",
         "status": "Official",
         "id": "wooka-esport",
-        "tier": "Tier 2",
         "notable": "Montée en puissance",
         "xUrl": "https://x.com/WookaEsport"
       },
@@ -1308,11 +1233,10 @@
           "Tarpz",
           "Zarb"
         ],
-        "key_achievement": "Podiums Tier 2",
+        "key_achievement": "Multiples podiums nationaux",
         "status": "Official",
         "id": "vulcan-esport",
-        "tier": "Tier 2",
-        "notable": "Podiums Tier 2",
+        "notable": "Multiples podiums nationaux",
         "xUrl": "https://x.com/vulcanesport_"
       },
       {
@@ -1327,7 +1251,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "orphee-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/ORPHEE_Esport"
       },
@@ -1343,7 +1266,6 @@
         "key_achievement": "Coupes régionales",
         "status": "Official",
         "id": "aten-esport",
-        "tier": "Tier 2",
         "notable": "Coupes régionales",
         "xUrl": "https://x.com/AtenEsport"
       },
@@ -1359,7 +1281,6 @@
         "key_achievement": "Qualifications Opens",
         "status": "Official",
         "id": "jupitar-esport",
-        "tier": "Tier 2",
         "notable": "Qualifications Opens",
         "xUrl": "https://x.com/JupitarEsport"
       },
@@ -1375,7 +1296,6 @@
         "key_achievement": "Progression continue",
         "status": "Official",
         "id": "lyost-esport",
-        "tier": "Tier 2",
         "notable": "Progression continue",
         "xUrl": "https://x.com/lyost_esport"
       },
@@ -1391,7 +1311,6 @@
         "key_achievement": "Circuits francophones",
         "status": "Official",
         "id": "odious-esport",
-        "tier": "Tier 2",
         "notable": "Circuits francophones",
         "xUrl": "https://x.com/OdiousEsport"
       },
@@ -1407,7 +1326,6 @@
         "key_achievement": "Circuits semi-pro",
         "status": "Official",
         "id": "paps-esport",
-        "tier": "Tier 2",
         "notable": "Circuits semi-pro",
         "xUrl": "https://x.com/PapsEsport"
       },
@@ -1423,7 +1341,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "eoz-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/EOZesport"
       },
@@ -1438,7 +1355,6 @@
         "key_achievement": "Circuits communautaires",
         "status": "Official",
         "id": "wip-esports",
-        "tier": "Tier 2",
         "notable": "Circuits communautaires",
         "xUrl": "https://x.com/wipesports"
       },
@@ -1454,7 +1370,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "trkf-esport",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/Trkf_Esport"
       },
@@ -1470,7 +1385,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "now-esport",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/noww_esport"
       }
@@ -1493,7 +1407,6 @@
         "key_achievement": "Podasai & Snayzy Champions FNCS Major 3 C4S3, Vainqueurs Major 2 Europe",
         "status": "Official",
         "id": "gentle-mates",
-        "tier": "Tier 1",
         "notable": "Podasai & Snayzy Champions FNCS Major 3 C4S3, Vainqueurs Major 2 Europe",
         "xUrl": "https://x.com/GentleMates"
       },
@@ -1511,7 +1424,6 @@
         "key_achievement": "Top 4 FNCS Global Championship Copenhague 2023",
         "status": "Official",
         "id": "solary",
-        "tier": "Tier 1",
         "notable": "Top 4 FNCS Global Championship Copenhague 2023",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -1528,7 +1440,6 @@
         "key_achievement": "Sensation de l'année, Top 5 FNCS Majors",
         "status": "Official",
         "id": "zerance",
-        "tier": "Tier 1",
         "notable": "Sensation de l'année, Top 5 FNCS Majors",
         "xUrl": "https://x.com/TeamZerance"
       },
@@ -1545,7 +1456,6 @@
         "key_achievement": "Finalistes majeurs FNCS",
         "status": "Official",
         "id": "reality-zone",
-        "tier": "Tier 2",
         "notable": "Finalistes majeurs FNCS",
         "xUrl": "https://x.com/RealityZoned"
       },
@@ -1561,7 +1471,6 @@
         "key_achievement": "Top 15 européen FNCS",
         "status": "Official",
         "id": "valiant",
-        "tier": "Tier 2",
         "notable": "Top 15 européen FNCS",
         "xUrl": "https://x.com/ValiantOfficiel"
       },
@@ -1578,7 +1487,6 @@
         "key_achievement": "Meilleure équipe indépendante 2023",
         "status": "Official",
         "id": "team-fake",
-        "tier": "Tier 2",
         "notable": "Meilleure équipe indépendante 2023",
         "xUrl": "https://x.com/TeamFake_esport"
       },
@@ -1594,7 +1502,6 @@
         "key_achievement": "Régularité impressionnante",
         "status": "Official",
         "id": "team-bsk",
-        "tier": "Tier 2",
         "notable": "Régularité impressionnante",
         "xUrl": "https://x.com/TeamBSK_"
       },
@@ -1610,7 +1517,6 @@
         "key_achievement": "Finales Cash Cups",
         "status": "Official",
         "id": "gameward",
-        "tier": "Tier 1",
         "notable": "Finales Cash Cups",
         "xUrl": "https://x.com/GameWardTeam"
       },
@@ -1623,11 +1529,10 @@
           "Atenz",
           "Skyze"
         ],
-        "key_achievement": "Podiums Tier 2",
+        "key_achievement": "Multiples podiums nationaux",
         "status": "Official",
         "id": "aten-esport",
-        "tier": "Tier 2",
-        "notable": "Podiums Tier 2",
+        "notable": "Multiples podiums nationaux",
         "xUrl": "https://x.com/AtenEsport"
       },
       {
@@ -1642,7 +1547,6 @@
         "key_achievement": "Performances régulières",
         "status": "Official",
         "id": "jupitar-esport",
-        "tier": "Tier 2",
         "notable": "Performances régulières",
         "xUrl": "https://x.com/JupitarEsport"
       },
@@ -1659,7 +1563,6 @@
         "key_achievement": "Percée sur le circuit officiel",
         "status": "Official",
         "id": "lyost-esport",
-        "tier": "Tier 2",
         "notable": "Percée sur le circuit officiel",
         "xUrl": "https://x.com/lyost_esport"
       },
@@ -1675,7 +1578,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "odious-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/OdiousEsport"
       },
@@ -1691,7 +1593,6 @@
         "key_achievement": "Circuits communautaires",
         "status": "Official",
         "id": "paps-esport",
-        "tier": "Tier 2",
         "notable": "Circuits communautaires",
         "xUrl": "https://x.com/PapsEsport"
       },
@@ -1707,7 +1608,6 @@
         "key_achievement": "Progression constante",
         "status": "Official",
         "id": "wooka-esport",
-        "tier": "Tier 2",
         "notable": "Progression constante",
         "xUrl": "https://x.com/WookaEsport"
       },
@@ -1723,7 +1623,6 @@
         "key_achievement": "Performances semi-pro",
         "status": "Official",
         "id": "vulcan-esport",
-        "tier": "Tier 2",
         "notable": "Performances semi-pro",
         "xUrl": "https://x.com/vulcanesport_"
       },
@@ -1739,7 +1638,6 @@
         "key_achievement": "Qualifications heats",
         "status": "Official",
         "id": "orphee-esport",
-        "tier": "Tier 2",
         "notable": "Qualifications heats",
         "xUrl": "https://x.com/ORPHEE_Esport"
       },
@@ -1755,7 +1653,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "trkf-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/Trkf_Esport"
       },
@@ -1771,7 +1668,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "now-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/noww_esport"
       },
@@ -1787,7 +1683,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "eoz-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/EOZesport"
       },
@@ -1803,7 +1698,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "ekinox-esports",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/ekinoxesports"
       },
@@ -1818,7 +1712,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "wip-esports",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/wipesports"
       },
@@ -1833,7 +1726,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "haikoo",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/Haikoo_Esport"
       },
@@ -1848,7 +1740,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "g3nz-esport",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/G3nZEsport"
       },
@@ -1863,7 +1754,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "mga-esport",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/mgaesport"
       },
@@ -1878,7 +1768,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "k13-esport",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/K13esport"
       },
@@ -1893,7 +1782,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "lynox-esport",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/LynoXEU"
       },
@@ -1908,7 +1796,6 @@
         "key_achievement": "Entrée sur la scène",
         "status": "Official",
         "id": "poyo-esports",
-        "tier": "Tier 2",
         "notable": "Entrée sur la scène",
         "xUrl": "https://x.com/PoyoEsports"
       },
@@ -1923,7 +1810,6 @@
         "key_achievement": "Circuits communautaires",
         "status": "Official",
         "id": "pandaria-esport",
-        "tier": "Tier 2",
         "notable": "Circuits communautaires",
         "xUrl": "https://x.com/EsportPandaria"
       },
@@ -1939,7 +1825,6 @@
         "key_achievement": "Circuits communautaires",
         "status": "Official",
         "id": "pandore-esport",
-        "tier": "Tier 2",
         "notable": "Circuits communautaires",
         "xUrl": "https://x.com/Pandore_esport"
       },
@@ -1954,7 +1839,6 @@
         "key_achievement": "Circuits communautaires",
         "status": "Official",
         "id": "fly-again",
-        "tier": "Tier 2",
         "notable": "Circuits communautaires",
         "xUrl": "https://x.com/FlyAgainTeam"
       },
@@ -1969,7 +1853,6 @@
         "key_achievement": "Débuts sur la scène",
         "status": "Official",
         "id": "team-orchid",
-        "tier": "Tier 2",
         "notable": "Débuts sur la scène",
         "xUrl": "https://x.com/TeamOrchidGG"
       }
@@ -1994,7 +1877,6 @@
         "key_achievement": "Malibuca & Merstach Champions FNCS Major 1 & Major 2 Europe, SwizzY & Veno Champions FNCS Major 3",
         "status": "Official",
         "id": "karmine-corp",
-        "tier": "Tier 1",
         "notable": "Malibuca & Merstach Champions FNCS Major 1 & Major 2 Europe, SwizzY & Veno Champions FNCS Major 3",
         "xUrl": "https://x.com/KarmineCorp"
       },
@@ -2011,7 +1893,6 @@
         "key_achievement": "Finalistes FNCS Globals, Vice-Champions Major 2",
         "status": "Official",
         "id": "gentle-mates",
-        "tier": "Tier 1",
         "notable": "Finalistes FNCS Globals, Vice-Champions Major 2",
         "xUrl": "https://x.com/GentleMates"
       },
@@ -2029,7 +1910,6 @@
         "key_achievement": "Top 5 Global Championship Fort Worth Texas 2024",
         "status": "Official",
         "id": "solary",
-        "tier": "Tier 1",
         "notable": "Top 5 Global Championship Fort Worth Texas 2024",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -2046,7 +1926,6 @@
         "key_achievement": "Arrivée fracassante dans le top européen",
         "status": "Official",
         "id": "team-havok",
-        "tier": "Tier 1",
         "notable": "Arrivée fracassante dans le top européen",
         "xUrl": "https://x.com/HvKGGs"
       },
@@ -2062,7 +1941,6 @@
         "key_achievement": "Top 10 européen constant",
         "status": "Official",
         "id": "zerance",
-        "tier": "Tier 1",
         "notable": "Top 10 européen constant",
         "xUrl": "https://x.com/TeamZerance"
       },
@@ -2079,7 +1957,6 @@
         "key_achievement": "Finalistes FNCS",
         "status": "Official",
         "id": "reality-zone",
-        "tier": "Tier 2",
         "notable": "Finalistes FNCS",
         "xUrl": "https://x.com/RealityZoned"
       },
@@ -2095,7 +1972,6 @@
         "key_achievement": "Régularité européenne",
         "status": "Official",
         "id": "valiant",
-        "tier": "Tier 2",
         "notable": "Régularité européenne",
         "xUrl": "https://x.com/ValiantOfficiel"
       },
@@ -2111,7 +1987,6 @@
         "key_achievement": "Top 15 européen",
         "status": "Official",
         "id": "gameward",
-        "tier": "Tier 1",
         "notable": "Top 15 européen",
         "xUrl": "https://x.com/GameWardTeam"
       },
@@ -2127,7 +2002,6 @@
         "key_achievement": "Arrivée remarquée sur le circuit",
         "status": "Official",
         "id": "galions",
-        "tier": "Tier 1",
         "notable": "Arrivée remarquée sur le circuit",
         "xUrl": "https://x.com/Galions_"
       },
@@ -2141,11 +2015,10 @@
           "Krox",
           "Skyll"
         ],
-        "key_achievement": "Solide leader du Tier 2",
+        "key_achievement": "Régularité au plus haut niveau",
         "status": "Official",
         "id": "team-fake",
-        "tier": "Tier 2",
-        "notable": "Solide leader du Tier 2",
+        "notable": "Régularité au plus haut niveau",
         "xUrl": "https://x.com/TeamFake_esport"
       },
       {
@@ -2160,7 +2033,6 @@
         "key_achievement": "Régularité",
         "status": "Official",
         "id": "team-bsk",
-        "tier": "Tier 2",
         "notable": "Régularité",
         "xUrl": "https://x.com/TeamBSK_"
       },
@@ -2173,11 +2045,10 @@
           "Atenz",
           "Skyze"
         ],
-        "key_achievement": "Podiums Tier 2",
+        "key_achievement": "Multiples podiums nationaux",
         "status": "Official",
         "id": "aten-esport",
-        "tier": "Tier 2",
-        "notable": "Podiums Tier 2",
+        "notable": "Multiples podiums nationaux",
         "xUrl": "https://x.com/AtenEsport"
       },
       {
@@ -2192,7 +2063,6 @@
         "key_achievement": "Qualifications régulières",
         "status": "Official",
         "id": "jupitar-esport",
-        "tier": "Tier 2",
         "notable": "Qualifications régulières",
         "xUrl": "https://x.com/JupitarEsport"
       },
@@ -2208,7 +2078,6 @@
         "key_achievement": "Performances régionales",
         "status": "Official",
         "id": "odious-esport",
-        "tier": "Tier 2",
         "notable": "Performances régionales",
         "xUrl": "https://x.com/OdiousEsport"
       },
@@ -2224,7 +2093,6 @@
         "key_achievement": "Circuits francophones",
         "status": "Official",
         "id": "paps-esport",
-        "tier": "Tier 2",
         "notable": "Circuits francophones",
         "xUrl": "https://x.com/PapsEsport"
       },
@@ -2241,7 +2109,6 @@
         "key_achievement": "Entrée fracassante",
         "status": "Official",
         "id": "1p-esport",
-        "tier": "Tier 2",
         "notable": "Entrée fracassante",
         "xUrl": "https://x.com/oneprodige"
       },
@@ -2258,7 +2125,6 @@
         "key_achievement": "Montée en puissance",
         "status": "Official",
         "id": "team-orchid",
-        "tier": "Tier 2",
         "notable": "Montée en puissance",
         "xUrl": "https://x.com/TeamOrchidGG"
       },
@@ -2275,7 +2141,6 @@
         "key_achievement": "Régularité",
         "status": "Official",
         "id": "wooka-esport",
-        "tier": "Tier 2",
         "notable": "Régularité",
         "xUrl": "https://x.com/WookaEsport"
       },
@@ -2292,7 +2157,6 @@
         "key_achievement": "Circuits semi-pro",
         "status": "Official",
         "id": "vulcan-esport",
-        "tier": "Tier 2",
         "notable": "Circuits semi-pro",
         "xUrl": "https://x.com/vulcanesport_"
       },
@@ -2309,7 +2173,6 @@
         "key_achievement": "Performances solides",
         "status": "Official",
         "id": "orphee-esport",
-        "tier": "Tier 2",
         "notable": "Performances solides",
         "xUrl": "https://x.com/ORPHEE_Esport"
       },
@@ -2326,7 +2189,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "trkf-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/Trkf_Esport"
       },
@@ -2343,7 +2205,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "pandore-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/Pandore_esport"
       },
@@ -2360,7 +2221,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "now-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/noww_esport"
       },
@@ -2377,7 +2237,6 @@
         "key_achievement": "Progression",
         "status": "Official",
         "id": "poyo-esports",
-        "tier": "Tier 2",
         "notable": "Progression",
         "xUrl": "https://x.com/PoyoEsports"
       },
@@ -2393,7 +2252,6 @@
         "key_achievement": "Circuits francophones",
         "status": "Official",
         "id": "lynox-esport",
-        "tier": "Tier 2",
         "notable": "Circuits francophones",
         "xUrl": "https://x.com/LynoXEU"
       },
@@ -2410,7 +2268,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "eoz-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/EOZesport"
       },
@@ -2427,7 +2284,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "ekinox-esports",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/ekinoxesports"
       },
@@ -2443,7 +2299,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "wip-esports",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/wipesports"
       },
@@ -2459,7 +2314,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "haikoo",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/Haikoo_Esport"
       },
@@ -2475,7 +2329,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "g3nz-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/G3nZEsport"
       },
@@ -2490,7 +2343,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "bk-rog",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/ASUS_BK_ROG"
       },
@@ -2506,7 +2358,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "novix-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/NovixEsport"
       },
@@ -2522,7 +2373,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "australe-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/team_australe"
       },
@@ -2538,7 +2388,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "r4c-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/r4c_esport"
       },
@@ -2554,7 +2403,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "mga-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/mgaesport"
       },
@@ -2570,7 +2418,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "k13-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/K13esport"
       },
@@ -2586,7 +2433,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "lyost-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/lyost_esport"
       }
@@ -2611,7 +2457,6 @@
         "key_achievement": "Champions FNCS Globals 2025, Domination totale de la saison",
         "status": "Official",
         "id": "gentle-mates",
-        "tier": "Tier 1",
         "notable": "Champions FNCS Globals 2025, Domination totale de la saison",
         "xUrl": "https://x.com/GentleMates"
       },
@@ -2629,7 +2474,6 @@
         "key_achievement": "Vainqueurs FNCS Major 2 & 3, finalistes mondiaux",
         "status": "Official",
         "id": "team-havok",
-        "tier": "Tier 1",
         "notable": "Vainqueurs FNCS Major 2 & 3, finalistes mondiaux",
         "xUrl": "https://x.com/HvKGGs"
       },
@@ -2647,7 +2491,6 @@
         "key_achievement": "Podiums réguliers FNCS et Cash Cups",
         "status": "Official",
         "id": "solary",
-        "tier": "Tier 1",
         "notable": "Podiums réguliers FNCS et Cash Cups",
         "xUrl": "https://x.com/SolaryTV"
       },
@@ -2663,7 +2506,6 @@
         "key_achievement": "Finalistes FNCS Majors",
         "status": "Official",
         "id": "karmine-corp",
-        "tier": "Tier 1",
         "notable": "Finalistes FNCS Majors",
         "xUrl": "https://x.com/KarmineCorp"
       },
@@ -2679,7 +2521,6 @@
         "key_achievement": "Top 10 européen",
         "status": "Official",
         "id": "zerance",
-        "tier": "Tier 1",
         "notable": "Top 10 européen",
         "xUrl": "https://x.com/TeamZerance"
       },
@@ -2696,7 +2537,6 @@
         "key_achievement": "Top 12 européen",
         "status": "Official",
         "id": "gameward",
-        "tier": "Tier 1",
         "notable": "Top 12 européen",
         "xUrl": "https://x.com/GameWardTeam"
       },
@@ -2712,7 +2552,6 @@
         "key_achievement": "Dernière saison officielle",
         "status": "Official",
         "id": "galions",
-        "tier": "Tier 1",
         "notable": "Dernière saison officielle",
         "xUrl": "https://x.com/Galions_"
       },
@@ -2729,7 +2568,6 @@
         "key_achievement": "Régularité",
         "status": "Official",
         "id": "reality-zone",
-        "tier": "Tier 2",
         "notable": "Régularité",
         "xUrl": "https://x.com/RealityZoned"
       },
@@ -2743,11 +2581,10 @@
           "Krox",
           "Skyll"
         ],
-        "key_achievement": "Solide leader du Tier 2",
+        "key_achievement": "Régularité au plus haut niveau",
         "status": "Official",
         "id": "team-fake",
-        "tier": "Tier 2",
-        "notable": "Solide leader du Tier 2",
+        "notable": "Régularité au plus haut niveau",
         "xUrl": "https://x.com/TeamFake_esport"
       },
       {
@@ -2762,7 +2599,6 @@
         "key_achievement": "Régularité européenne",
         "status": "Official",
         "id": "valiant",
-        "tier": "Tier 2",
         "notable": "Régularité européenne",
         "xUrl": "https://x.com/ValiantOfficiel"
       },
@@ -2775,11 +2611,10 @@
           "Atenz",
           "Skyze"
         ],
-        "key_achievement": "Podiums Tier 2",
+        "key_achievement": "Multiples podiums nationaux",
         "status": "Official",
         "id": "aten-esport",
-        "tier": "Tier 2",
-        "notable": "Podiums Tier 2",
+        "notable": "Multiples podiums nationaux",
         "xUrl": "https://x.com/AtenEsport"
       },
       {
@@ -2794,7 +2629,6 @@
         "key_achievement": "Régularité",
         "status": "Official",
         "id": "team-bsk",
-        "tier": "Tier 2",
         "notable": "Régularité",
         "xUrl": "https://x.com/TeamBSK_"
       },
@@ -2810,7 +2644,6 @@
         "key_achievement": "Qualifications régulières",
         "status": "Official",
         "id": "jupitar-esport",
-        "tier": "Tier 2",
         "notable": "Qualifications régulières",
         "xUrl": "https://x.com/JupitarEsport"
       },
@@ -2826,7 +2659,6 @@
         "key_achievement": "Performances régionales",
         "status": "Official",
         "id": "odious-esport",
-        "tier": "Tier 2",
         "notable": "Performances régionales",
         "xUrl": "https://x.com/OdiousEsport"
       },
@@ -2842,7 +2674,6 @@
         "key_achievement": "Circuits francophones",
         "status": "Official",
         "id": "paps-esport",
-        "tier": "Tier 2",
         "notable": "Circuits francophones",
         "xUrl": "https://x.com/PapsEsport"
       },
@@ -2859,7 +2690,6 @@
         "key_achievement": "Progression",
         "status": "Official",
         "id": "1p-esport",
-        "tier": "Tier 2",
         "notable": "Progression",
         "xUrl": "https://x.com/oneprodige"
       },
@@ -2876,7 +2706,6 @@
         "key_achievement": "Top 20 européen",
         "status": "Official",
         "id": "team-orchid",
-        "tier": "Tier 2",
         "notable": "Top 20 européen",
         "xUrl": "https://x.com/TeamOrchidGG"
       },
@@ -2893,7 +2722,6 @@
         "key_achievement": "Régularité",
         "status": "Official",
         "id": "wooka-esport",
-        "tier": "Tier 2",
         "notable": "Régularité",
         "xUrl": "https://x.com/WookaEsport"
       },
@@ -2910,7 +2738,6 @@
         "key_achievement": "Circuits semi-pro",
         "status": "Official",
         "id": "vulcan-esport",
-        "tier": "Tier 2",
         "notable": "Circuits semi-pro",
         "xUrl": "https://x.com/vulcanesport_"
       },
@@ -2927,7 +2754,6 @@
         "key_achievement": "Performances solides",
         "status": "Official",
         "id": "orphee-esport",
-        "tier": "Tier 2",
         "notable": "Performances solides",
         "xUrl": "https://x.com/ORPHEE_Esport"
       },
@@ -2944,7 +2770,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "trkf-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/Trkf_Esport"
       },
@@ -2961,7 +2786,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "pandore-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/Pandore_esport"
       },
@@ -2978,7 +2802,6 @@
         "key_achievement": "Circuits nationaux",
         "status": "Official",
         "id": "now-esport",
-        "tier": "Tier 2",
         "notable": "Circuits nationaux",
         "xUrl": "https://x.com/noww_esport"
       },
@@ -2995,7 +2818,6 @@
         "key_achievement": "Progression",
         "status": "Official",
         "id": "poyo-esports",
-        "tier": "Tier 2",
         "notable": "Progression",
         "xUrl": "https://x.com/PoyoEsports"
       },
@@ -3011,7 +2833,6 @@
         "key_achievement": "Circuits francophones",
         "status": "Official",
         "id": "lynox-esport",
-        "tier": "Tier 2",
         "notable": "Circuits francophones",
         "xUrl": "https://x.com/LynoXEU"
       },
@@ -3028,7 +2849,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "eoz-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/EOZesport"
       },
@@ -3045,7 +2865,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "ekinox-esports",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/ekinoxesports"
       },
@@ -3061,7 +2880,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "wip-esports",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/wipesports"
       },
@@ -3077,7 +2895,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "haikoo",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/Haikoo_Esport"
       },
@@ -3093,7 +2910,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "g3nz-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/G3nZEsport"
       },
@@ -3108,7 +2924,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "bk-rog",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/ASUS_BK_ROG"
       },
@@ -3124,7 +2939,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "novix-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/NovixEsport"
       },
@@ -3140,7 +2954,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "australe-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/team_australe"
       },
@@ -3156,7 +2969,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "r4c-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/r4c_esport"
       },
@@ -3172,7 +2984,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "mga-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/mgaesport"
       },
@@ -3188,7 +2999,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "k13-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/K13esport"
       },
@@ -3204,7 +3014,6 @@
         "key_achievement": "Circuits régionaux",
         "status": "Official",
         "id": "lyost-esport",
-        "tier": "Tier 2",
         "notable": "Circuits régionaux",
         "xUrl": "https://x.com/lyost_esport"
       }
@@ -3222,7 +3031,7 @@
         "id": "havok-by-vitality",
         "name": "HavoK by Vitality",
         "tag": "HVK",
-        "points": 122000,
+        "points": 741548,
         "logo": "LFF Logos/havok-by-vitality.png",
         "notable": "Pixie, Tjino, PabloWingu, SwizzY",
         "details": "N°1 France | Top 1 Tracker Europe (FNCS Global Champs)",
@@ -3288,14 +3097,21 @@
               "youtube": "https://youtube.com/channel/UCtfmiozk3AifIzguALQ4XSw"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/HvKGGs",
+          "twitch": "https://twitch.tv/teamhavok",
+          "instagram": "https://instagram.com/teamhavokgg",
+          "tiktok": "https://tiktok.com/@teamhavok",
+          "discord": "https://discord.gg/havok"
+        }
       },
       {
         "rank": 2,
         "id": "gentle-mates",
         "name": "Gentle Mates",
         "tag": "M8",
-        "points": 98500,
+        "points": 503388,
         "logo": "LFF Logos/gentle-mates.png",
         "notable": "Akiira, MariusCOW*, Vanyak3kk, Kurama",
         "details": "N°2 France | Top 2 Tracker Europe (Double Champion LFF)",
@@ -3359,14 +3175,22 @@
               "youtube": "https://youtube.com/@FtnKurama"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/GentleMates",
+          "twitch": "https://twitch.tv/gotaga",
+          "youtube": "https://youtube.com/@teamgentlemates",
+          "instagram": "https://instagram.com/gentlemates",
+          "tiktok": "https://tiktok.com/@gentlemates",
+          "discord": "https://discord.gg/gentle-mates"
+        }
       },
       {
         "rank": 3,
         "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "points": 92000,
+        "points": 361168,
         "logo": "LFF Logos/solary.png",
         "notable": "SkyJump*, Ghonzo, Minori, Kurama*",
         "details": "N°3 France | Top 5 Tracker Europe (Double Vainqueur LFF)",
@@ -3427,14 +3251,22 @@
               "youtube": "https://youtube.com/@FtnKurama"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/SolaryTV",
+          "twitch": "https://twitch.tv/solaryfortnite",
+          "youtube": "https://youtube.com/channel/UCTmx6aOnNK9O7qoF9_SoR5g",
+          "instagram": "https://instagram.com/solarytv",
+          "tiktok": "https://tiktok.com/@solary_fortnite",
+          "discord": "https://discord.gg/solary"
+        }
       },
       {
         "rank": 4,
         "id": "lyost-esport",
         "name": "Lyost Esport",
         "tag": "LYO",
-        "points": 84000,
+        "points": 351106,
         "logo": "LFF Logos/lyost-esport.png",
         "notable": "Momsy, Werex, Twek, Borsuk",
         "details": "N°4 France | Top 7 Tracker Europe (FNCS Finalistes)",
@@ -3492,14 +3324,21 @@
               "x": "https://x.com/borsukfn"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/lyost_esport",
+          "twitch": "https://twitch.tv/lyostesport",
+          "instagram": "https://instagram.com/lyost.esport",
+          "tiktok": "https://tiktok.com/@lyost_esport",
+          "discord": "https://discord.gg/rGRfA3yR9c"
+        }
       },
       {
         "rank": 5,
         "id": "mga-esport",
         "name": "MGA eSport",
         "tag": "MGA",
-        "points": 68000,
+        "points": 230804,
         "logo": "LFF Logos/mga-esport.png",
         "notable": "Syaaz, Truslo, FiTo*, iFrOzi*",
         "details": "Top 13 Tracker Europe | Élite Championnat LFF",
@@ -3555,14 +3394,22 @@
               "x": "https://x.com/iFr0zi_"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/mgaesport",
+          "twitch": "https://twitch.tv/mgaesport",
+          "youtube": "https://youtube.com/@mGaeSport",
+          "instagram": "https://instagram.com/mgaesport",
+          "tiktok": "https://tiktok.com/@mgaesport",
+          "discord": "https://discord.gg/mgaesport"
+        }
       },
       {
         "rank": 6,
         "id": "gameward",
         "name": "GameWard",
         "tag": "GW",
-        "points": 56000,
+        "points": 176065,
         "logo": "LFF Logos/gameward.png",
         "notable": "Kombek, Tylio, Nociff*, S1neD",
         "details": "Top 20 Tracker Europe | Vice-Champion 2022",
@@ -3623,14 +3470,22 @@
               "instagram": "https://instagram.com/s1ned__"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/GameWardTeam",
+          "twitch": "https://twitch.tv/gamewardteam",
+          "youtube": "https://youtube.com/@GameWard",
+          "instagram": "https://instagram.com/gamewardteam",
+          "tiktok": "https://tiktok.com/@gamewardteam",
+          "discord": "https://discord.gg/gameward"
+        }
       },
       {
         "rank": 7,
         "id": "k13-esport",
         "name": "K13 Esport",
         "tag": "K13",
-        "points": 53000,
+        "points": 173080,
         "logo": "LFF Logos/k13-esport.png",
         "notable": "Firen, Asa*, Seyyto*, Roz*",
         "details": "Top 22 Tracker Europe | Roster Européen Pro",
@@ -3692,14 +3547,21 @@
               "youtube": "https://youtube.com/channel/UCQQg1uSNMshTP0Jf7k2LcuA"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/K13esport",
+          "twitch": "https://twitch.tv/K13Esport",
+          "instagram": "https://instagram.com/k13esport1",
+          "tiktok": "https://tiktok.com/@k13esport",
+          "discord": "https://discord.gg/k13esport"
+        }
       },
       {
         "rank": 8,
         "id": "team-orchid",
         "name": "Team Orchid",
         "tag": "ORC",
-        "points": 51000,
+        "points": 171417,
         "logo": "LFF Logos/team-orchid.png",
         "notable": "Izzi, Nociff, Seyyto",
         "details": "Top 24 Tracker Europe | Élite FNCS",
@@ -3743,14 +3605,22 @@
               "youtube": "https://youtube.com/@seyyto9436"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/TeamOrchidGG",
+          "twitch": "https://twitch.tv/teamorchidgg",
+          "youtube": "https://youtube.com/@TeamOrchidGG",
+          "instagram": "https://instagram.com/teamorchidgg",
+          "tiktok": "https://tiktok.com/@team_orchid",
+          "discord": "https://discord.gg/orchid"
+        }
       },
       {
         "rank": 9,
         "id": "1p-esport",
         "name": "1P Esport",
         "tag": "1P",
-        "points": 44000,
+        "points": 135029,
         "logo": "LFF Logos/1p-esport.png",
         "notable": "Lericx, Hyper*, Julie, Alvinlr*",
         "details": "Top 28 Tracker Europe | Roster Actif FNCS",
@@ -3805,14 +3675,21 @@
               "x": "https://x.com/AlvinIr2"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/oneprodige",
+          "twitch": "https://twitch.tv/oneprodige",
+          "instagram": "https://instagram.com/oneprodige",
+          "tiktok": "https://tiktok.com/@oneprodige",
+          "discord": "https://discord.gg/oneprodige"
+        }
       },
       {
         "rank": 10,
         "id": "r4c-esport",
         "name": "R4C Esport",
         "tag": "R4C",
-        "points": 38000,
+        "points": 103789,
         "logo": "LFF Logos/r4c-esport.png",
         "notable": "Kenrop, Maloyache*, Foczka",
         "details": "Top 39 Tracker Europe | Division 1 LFF",
@@ -3857,14 +3734,19 @@
               "x": "https://x.com/foczka_fn"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/r4c_esport",
+          "tiktok": "https://tiktok.com/@r4c_esport",
+          "discord": "https://discord.gg/r4cesport"
+        }
       },
       {
         "rank": 11,
         "id": "wooka-esport",
         "name": "Wooka Esport",
         "tag": "WOO",
-        "points": 36000,
+        "points": 100725,
         "logo": "LFF Logos/wooka-esport.png",
         "notable": "Szarik, Matez*, Kizers*, Ferdy",
         "details": "Top 40 Tracker Europe | Roster FNCS",
@@ -3919,14 +3801,22 @@
               "x": "https://x.com/Ferdy_ftn"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/WookaEsport",
+          "twitch": "https://twitch.tv/wooka_esport",
+          "youtube": "https://youtube.com/@wookaesport5056",
+          "instagram": "https://instagram.com/wookaesports",
+          "tiktok": "https://tiktok.com/@wooka_esport",
+          "discord": "https://discord.gg/wookaesport"
+        }
       },
       {
         "rank": 12,
         "id": "vulcan-esport",
         "name": "Vulcan Esport",
         "tag": "VLC",
-        "points": 34000,
+        "points": 96183,
         "logo": "LFF Logos/vulcan-esport.png",
         "notable": "Izzi*, Tarpz, Vexi*, Zarb*",
         "details": "Top 41 Tracker Europe | Circuit Élite",
@@ -3981,14 +3871,19 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/vulcanesport_",
+          "tiktok": "https://tiktok.com/@vulcanesport_",
+          "discord": "https://discord.gg/vulcanesport"
+        }
       },
       {
         "rank": 13,
         "id": "orphee-esport",
         "name": "Orphée Esport",
         "tag": "ORP",
-        "points": 32500,
+        "points": 95564,
         "logo": "LFF Logos/orphee-esport.png",
         "notable": "Fnajen, Kulb*, Artist*, Adrx*",
         "details": "Top 42 Tracker Europe | Roster Pro",
@@ -4044,14 +3939,20 @@
               "twitch": "https://twitch.tv/adrxfnbr"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/ORPHEE_Esport",
+          "twitch": "https://twitch.tv/orpheecore",
+          "tiktok": "https://tiktok.com/@orphee_core",
+          "discord": "https://discord.gg/orphee"
+        }
       },
       {
         "rank": 14,
         "id": "trkf-esport",
         "name": "TRKF E-Sport",
         "tag": "TRKF",
-        "points": 29000,
+        "points": 78684,
         "logo": "LFF Logos/trkf-esport.png",
         "notable": "dandepuzo*, flex*, Damage*, Nero*",
         "details": "Top 48 Tracker Europe | Division 1",
@@ -4104,14 +4005,21 @@
               "x": "https://x.com/nerofnf"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/TRKF_Esport",
+          "twitch": "https://twitch.tv/trkf_esport",
+          "instagram": "https://instagram.com/trkf_esport",
+          "tiktok": "https://tiktok.com/@trkf_esport",
+          "discord": "https://discord.gg/trkf"
+        }
       },
       {
         "rank": 15,
         "id": "pandore-esport",
         "name": "Pandore Esport",
         "tag": "PAN",
-        "points": 27500,
+        "points": 75158,
         "logo": "LFF Logos/pandore-esport.png",
         "notable": "Huty, Triix, Winther",
         "details": "Top 49 Tracker Europe | Circuit LFF",
@@ -4157,14 +4065,19 @@
               "x": "https://x.com/Wintherwnl"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/Pandore_esport",
+          "tiktok": "https://tiktok.com/@pandore_esport",
+          "discord": "https://discord.gg/pandore"
+        }
       },
       {
         "rank": 16,
         "id": "now-esport",
         "name": "NOW eSport",
         "tag": "NOW",
-        "points": 24500,
+        "points": 65772,
         "logo": "LFF Logos/now-esport.png",
         "notable": "chrisc*, Klayzz, Squzy*, Maloyache",
         "details": "Top 53 Tracker Europe | Roster FNCS",
@@ -4220,14 +4133,22 @@
               "youtube": "https://youtube.com/channel/UC3DFZ4SkrF3bQ61_pYN7ICQ"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/noww_esport",
+          "twitch": "https://twitch.tv/noww_esport",
+          "youtube": "https://youtube.com/@RVLESP",
+          "instagram": "https://instagram.com/noww_esport",
+          "tiktok": "https://tiktok.com/@noww_esport",
+          "discord": "https://discord.gg/mMMCNBGKh2"
+        }
       },
       {
         "rank": 17,
         "id": "poyo-esports",
         "name": "Poyo Esports",
         "tag": "POYO",
-        "points": 23800,
+        "points": 63765,
         "logo": "LFF Logos/poyo-esports.png",
         "notable": "SnozQ*, iFrOzi, Shadox, Repairs*",
         "details": "Top 55 Tracker Europe | Division 1",
@@ -4285,14 +4206,22 @@
               "instagram": "https://instagram.com/repairsfn"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/PoyoEsports",
+          "twitch": "https://twitch.tv/poyocup",
+          "youtube": "https://youtube.com/@poyocup",
+          "instagram": "https://instagram.com/poyoesports",
+          "tiktok": "https://tiktok.com/@poyo.esports",
+          "discord": "https://discord.gg/fWYbQuWDMv"
+        }
       },
       {
         "rank": 18,
         "id": "lynox-esport",
         "name": "Lynox Esport",
         "tag": "LYN",
-        "points": 23200,
+        "points": 63421,
         "logo": "LFF Logos/lynox-esport.png",
         "notable": "Heror3h*, Zayni*, xzeevit*, 4ik*",
         "details": "Top 56 Tracker Europe | Roster Élite",
@@ -4341,14 +4270,21 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/LynoXEU",
+          "twitch": "https://twitch.tv/lynoxeu",
+          "youtube": "https://youtube.com/@LynoxEU",
+          "tiktok": "https://tiktok.com/@lynox_esport",
+          "discord": "https://discord.gg/lynoxeu"
+        }
       },
       {
         "rank": 19,
         "id": "eoz-esport",
         "name": "EOZ eSport",
         "tag": "EOZ",
-        "points": 22800,
+        "points": 63050,
         "logo": "LFF Logos/eoz-esport.png",
         "notable": "Mystiqul*, Spexx*, S1neD*, Hedra*",
         "details": "Top 57 Tracker Europe | Circuit LFF",
@@ -4407,14 +4343,20 @@
               "youtube": "https://youtube.com/channel/UC1uauciEfPksqEMlja4pIBg"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/EOZesport",
+          "twitch": "https://twitch.tv/eozesport",
+          "tiktok": "https://tiktok.com/@eozesport",
+          "discord": "https://discord.gg/eozesport"
+        }
       },
       {
         "rank": 20,
         "id": "ekinox-esports",
         "name": "EKINOX",
         "tag": "EKX",
-        "points": 22400,
+        "points": 62332,
         "logo": "LFF Logos/ekinox-esports.png",
         "notable": "Mirooz, nayzix7, Exqu*, Misha",
         "details": "Top 58 Tracker Europe | Roster FNCS",
@@ -4468,14 +4410,21 @@
               "x": "https://x.com/MishaFNBR"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/ekinoxesports",
+          "twitch": "https://twitch.tv/ekinoxesports",
+          "instagram": "https://instagram.com/ekinoxesports",
+          "tiktok": "https://tiktok.com/@ekinoxesports",
+          "discord": "https://discord.gg/ekinox"
+        }
       },
       {
         "rank": 21,
         "id": "wip-esports",
         "name": "WIP Esports",
         "tag": "WIP",
-        "points": 17800,
+        "points": 42782,
         "logo": "LFF Logos/wip-esports.png",
         "notable": "Velryy, Kielba*",
         "details": "Top 69 Tracker Europe | Espoir LFF",
@@ -4504,14 +4453,20 @@
               "twitch": "https://twitch.tv/kielba__"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/wipesports",
+          "instagram": "https://instagram.com/wip_esports",
+          "tiktok": "https://tiktok.com/@wipesports",
+          "discord": "https://discord.gg/wipesports"
+        }
       },
       {
         "rank": 22,
         "id": "haikoo",
         "name": "Haikoo",
         "tag": "HKO",
-        "points": 16500,
+        "points": 37089,
         "logo": "LFF Logos/haikoo.png",
         "notable": "Maciak*, Joshbot*, Kielba*",
         "details": "Top 71 Tracker Europe | Roster Actif",
@@ -4556,14 +4511,19 @@
               "twitch": "https://twitch.tv/kielba__"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/Haikoo_Esport",
+          "tiktok": "https://tiktok.com/@haikoo_esport",
+          "discord": "https://discord.gg/haikoo"
+        }
       },
       {
         "rank": 23,
         "id": "g3nz-esport",
         "name": "G3nZ Esport",
         "tag": "G3NZ",
-        "points": 14800,
+        "points": 31695,
         "logo": "LFF Logos/g3nz-esport.png",
         "notable": "Ary, 2Trash1zr*, Efexy*, SereN*",
         "details": "Top 76 Tracker Europe | Circuit LFF",
@@ -4617,14 +4577,19 @@
               "x": "https://x.com/SereNFN4"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/G3nZEsport",
+          "tiktok": "https://tiktok.com/@g3nzesport",
+          "discord": "https://discord.gg/g3nzesport"
+        }
       },
       {
         "rank": 24,
         "id": "bk-rog",
         "name": "BK ROG Esports",
         "tag": "BKR",
-        "points": 11400,
+        "points": 17515,
         "logo": "LFF Logos/bk-rog.png",
         "notable": "Hris*",
         "details": "Top 90 Tracker Europe | Roster Historique",
@@ -4644,14 +4609,21 @@
               "youtube": "https://youtube.com/@hrisfn4726"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/ASUS_BK_ROG",
+          "youtube": "https://youtube.com/channel/UCtPk46t9ycQtlFw4KDwd2Fw",
+          "instagram": "https://instagram.com/bk_rog_esports",
+          "tiktok": "https://tiktok.com/@bkrogesports",
+          "discord": "https://discord.gg/bkrogesports"
+        }
       },
       {
         "rank": 25,
         "id": "novix-esport",
         "name": "Novix eSport",
         "tag": "NVX",
-        "points": 10200,
+        "points": 15132,
         "logo": "LFF Logos/novix-esport.png",
         "notable": "Okram, Actfv, Tenq, Joanee",
         "details": "Top 94 Tracker Europe | Division 2",
@@ -4701,14 +4673,19 @@
               "x": "https://x.com/Joanee2k"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/NovixEsport",
+          "tiktok": "https://tiktok.com/@novixesport",
+          "discord": "https://discord.gg/novixesport"
+        }
       },
       {
         "rank": 26,
         "id": "australe-esport",
         "name": "Australe Esport",
         "tag": "AST",
-        "points": 9600,
+        "points": 13494,
         "logo": "LFF Logos/australe-esport.png",
         "notable": "freuzi*, Kaktus*",
         "details": "Top 97 Tracker Europe | Circuit Espoir",
@@ -4740,14 +4717,20 @@
               "x": "https://x.com/kaktusfnbr1"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/team_australe",
+          "twitch": "https://twitch.tv/teamaustrale",
+          "instagram": "https://instagram.com/team.australe",
+          "discord": "https://discord.gg/australe"
+        }
       },
       {
         "rank": 27,
         "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
-        "points": 9000,
+        "points": 11033,
         "logo": "LFF Logos/valiant.png",
         "notable": "Trulex*, Robabz*",
         "details": "Top 100 Tracker Europe | Roster Titré LFF",
@@ -4781,14 +4764,22 @@
               "instagram": "https://instagram.com/robabz_"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/ValiantOfficiel",
+          "twitch": "https://twitch.tv/valiantofficiel",
+          "youtube": "https://youtube.com/channel/UCfAj4rFVhgGCNWNTw0lVeZg",
+          "instagram": "https://instagram.com/valiantofficiel",
+          "tiktok": "https://tiktok.com/@vaillantofficiel",
+          "discord": "https://discord.gg/valiant"
+        }
       },
       {
         "rank": 28,
         "id": "reality-zone",
         "name": "Reality Zoned",
         "tag": "RZ",
-        "points": 8000,
+        "points": 9500,
         "logo": "LFF Logos/reality-zone.png",
         "notable": "Nayro, Kyli, Zeyko",
         "details": "Club Français Actif | Roster Élite",
@@ -4824,14 +4815,22 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/RealityZoned",
+          "twitch": "https://twitch.tv/realityzoned",
+          "youtube": "https://youtube.com/channel/UCSade4H7IspAjPAq5ejcrHQ",
+          "instagram": "https://instagram.com/realityzoned",
+          "tiktok": "https://tiktok.com/@realityzoned",
+          "discord": "https://discord.gg/gQhyrW6VXg"
+        }
       },
       {
         "rank": 29,
         "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
-        "points": 7000,
+        "points": 8200,
         "logo": "LFF Logos/team-fake.png",
         "notable": "Zeka, Krox, Skyll",
         "details": "Club Français Actif | Circuit Francophone",
@@ -4869,14 +4868,19 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/TeamFake_esport",
+          "tiktok": "https://tiktok.com/@teamfake",
+          "discord": "https://discord.gg/teamfake"
+        }
       },
       {
         "rank": 30,
         "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
-        "points": 6100,
+        "points": 7100,
         "logo": "LFF Logos/team-bsk.png",
         "notable": "Shado, Kenza, Vortex",
         "details": "Club Français Actif | Division Francophone",
@@ -4917,7 +4921,12 @@
               "instagram": "https://instagram.com/vortexfnbr"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/TeamBSK_",
+          "tiktok": "https://tiktok.com/@teambsk",
+          "discord": "https://discord.gg/teambsk"
+        }
       },
       {
         "rank": 31,
@@ -4962,14 +4971,19 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/AtenEsport",
+          "tiktok": "https://tiktok.com/@atenesport",
+          "discord": "https://discord.gg/atenesport"
+        }
       },
       {
         "rank": 32,
         "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
-        "points": 4900,
+        "points": 4800,
         "logo": "LFF Logos/jupitar-esport.png",
         "notable": "Jupi, Star, Krono",
         "details": "Club Français Actif | Circuit National",
@@ -5009,14 +5023,19 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/JupitarEsport",
+          "tiktok": "https://tiktok.com/@jupitaresport",
+          "discord": "https://discord.gg/jupitaresport"
+        }
       },
       {
         "rank": 33,
         "id": "odious-esport",
         "name": "Odious Esport",
         "tag": "ODI",
-        "points": 4400,
+        "points": 4200,
         "logo": "LFF Logos/odious-esport.png",
         "notable": "Odi, Rage, Viper",
         "details": "Club Français Actif | Division 2",
@@ -5054,7 +5073,13 @@
               "x": "https://x.com/viperxdd"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/OdiousEsport",
+          "twitch": "https://twitch.tv/tvodious",
+          "tiktok": "https://tiktok.com/@odious.esport",
+          "discord": "https://discord.gg/odious"
+        }
       },
       {
         "rank": 34,
@@ -5102,14 +5127,19 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/PapsEsport",
+          "twitch": "https://twitch.tv/lepapyofficiel",
+          "tiktok": "https://tiktok.com/@papy.officiel"
+        }
       },
       {
         "rank": 35,
         "id": "pandaria-esport",
         "name": "Pandaria Esport",
         "tag": "PND",
-        "points": 3300,
+        "points": 3400,
         "logo": "LFF Logos/pandaria-esport.png",
         "notable": "Panda, Bamboo, Lotus",
         "details": "Club Français Actif | Roster Espoir",
@@ -5145,14 +5175,22 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/EsportPandaria",
+          "twitch": "https://twitch.tv/pandariaesportfr",
+          "youtube": "https://youtube.com/channel/UC8BwLlUbJ13lidx718QnCFw",
+          "instagram": "https://instagram.com/pandariaesportfr",
+          "tiktok": "https://tiktok.com/@pandariaesport",
+          "discord": "https://discord.gg/mg8CrWHFxn"
+        }
       },
       {
         "rank": 36,
         "id": "fly-again",
         "name": "Fly Again",
         "tag": "FLYA",
-        "points": 2700,
+        "points": 2900,
         "logo": "LFF Logos/fly-again.png",
         "notable": "Flyer, Wing, Glide",
         "details": "Club Français Actif | Circuit National",
@@ -5190,14 +5228,21 @@
             "x_url": null,
             "socials": {}
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/FlyAgainTeam",
+          "twitch": "https://twitch.tv/flyagainofficialteam",
+          "youtube": "https://youtube.com/channel/UCJSaFlPaSgkpCUW53PWhLrA",
+          "instagram": "https://instagram.com/flyagain.team",
+          "discord": "https://discord.gg/A82YbYrb"
+        }
       },
       {
         "rank": 37,
         "id": "zerance",
         "name": "Zerance",
         "tag": "ZR",
-        "points": 2100,
+        "points": 2500,
         "logo": "LFF Logos/zerance.png",
         "notable": "Darkos",
         "details": "Club Partenaire LFF | Roster FNCS",
@@ -5217,7 +5262,15 @@
               "youtube": "https://youtube.com/@Darkosftn"
             }
           }
-        ]
+        ],
+        "socials": {
+          "x": "https://x.com/TeamZerance",
+          "twitch": "https://twitch.tv/teamzerance",
+          "youtube": "https://youtube.com/@zerance",
+          "instagram": "https://instagram.com/teamzerance",
+          "tiktok": "https://tiktok.com/@teamzerance",
+          "discord": "https://discord.gg/zerance"
+        }
       }
     ]
   }
