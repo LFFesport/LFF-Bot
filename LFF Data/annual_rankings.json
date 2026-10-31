@@ -10791,7 +10791,7 @@
             "name": "Pixie",
             "country": "se",
             "pr": 214876,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview",
             "socials": {
               "x": "https://x.com/Pixiefnbr",
@@ -10831,7 +10831,7 @@
             "name": "SwizzY",
             "country": "ru",
             "pr": 124895,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/SwizzY",
             "socials": {
               "x": "https://x.com/SwizzY281",
@@ -10843,7 +10843,7 @@
             "name": "Wox",
             "country": "dk",
             "pr": 84769,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Wox",
             "socials": {
               "x": "https://x.com/WoxSHTER",
@@ -10941,10 +10941,10 @@
             }
           },
           {
-            "name": "Snayzy",
+            "name": "Snayzy*",
             "country": "fr",
             "pr": 84719,
-            "is_former": false,
+            "is_former": true,
             "tracker_url": "https://fortnitetracker.com/profile/all/Snayzy",
             "socials": {
               "x": "https://x.com/Snayzy_",
@@ -11042,7 +11042,7 @@
             }
           },
           {
-            "name": "Darkos",
+            "name": "Darkos*",
             "country": "fr",
             "pr": 48947,
             "is_former": true,
@@ -11090,7 +11090,7 @@
             }
           },
           {
-            "name": "Kurama",
+            "name": "Kurama*",
             "country": "fr",
             "pr": 18163,
             "is_former": true,
@@ -11274,7 +11274,7 @@
             "name": "Nociff",
             "country": "fr",
             "pr": 34027,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Nociff",
             "socials": {
               "x": "https://x.com/nocifFN"
@@ -11336,7 +11336,7 @@
             "name": "FiTo",
             "country": "fr",
             "pr": 50020,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/FiTo",
             "socials": {
               "x": "https://x.com/F1ToFN",
@@ -11347,7 +11347,7 @@
             "name": "iFrOzi",
             "country": "fr",
             "pr": 50036,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/iFrOzi",
             "socials": {
               "x": "https://x.com/iFr0zi_"
@@ -11395,7 +11395,7 @@
             "name": "Asa",
             "country": "fr",
             "pr": 44044,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Asa",
             "socials": {
               "x": "https://x.com/Asafnr",
@@ -11409,7 +11409,7 @@
             "name": "Seyyto",
             "country": "fr",
             "pr": 42074,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Seyyto",
             "socials": {
               "x": "https://x.com/SeyytoFN",
@@ -11421,7 +11421,7 @@
             "name": "Roz",
             "country": "fr",
             "pr": 42055,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Roz",
             "socials": {
               "x": "https://x.com/Roznaldo_",
@@ -11490,7 +11490,7 @@
             "name": "SereN",
             "country": "pl",
             "pr": 95025,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/SereN",
             "socials": {
               "x": "https://x.com/SereNFN4"
@@ -11607,7 +11607,7 @@
             "name": "Hyper",
             "country": "fr",
             "pr": 31040,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Hyper",
             "socials": {
               "x": "https://x.com/HyperFNBR",
@@ -11619,7 +11619,7 @@
             "name": "Alvinlr",
             "country": "fr",
             "pr": 26052,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Alvinlr",
             "socials": {
               "x": "https://x.com/AlvinIr2"
@@ -11665,7 +11665,7 @@
             "name": "Izzi",
             "country": "fr",
             "pr": 62095,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Izzi",
             "socials": {
               "x": "https://x.com/izziFNBR"
@@ -11675,7 +11675,7 @@
             "name": "Vexi",
             "country": "fr",
             "pr": 20045,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Vexi",
             "socials": {
               "x": "https://x.com/vexi7k",
@@ -11687,7 +11687,7 @@
             "name": "Zarb",
             "country": "fr",
             "pr": 18093,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Zarb",
             "socials": {
               "x": "https://x.com/vulcanesport_"
@@ -11745,7 +11745,7 @@
             "name": "SnozQ",
             "country": "fr",
             "pr": 10082,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/SnozQ",
             "socials": {
               "x": "https://x.com/snozQFN",
@@ -11756,7 +11756,7 @@
             "name": "Repairs",
             "country": "fr",
             "pr": 34065,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Repairs",
             "socials": {
               "x": "https://x.com/RepairsFN",
@@ -11827,7 +11827,7 @@
             "name": "S1neD",
             "country": "fr",
             "pr": 42059,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/S1neD",
             "socials": {
               "x": "https://x.com/s1nedfnn",
@@ -11886,7 +11886,7 @@
             "name": "Maloyache",
             "country": "fr",
             "pr": 25068,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Maloyache",
             "socials": {
               "x": "https://x.com/maloyache32",
@@ -11945,7 +11945,7 @@
             "name": "Matez",
             "country": "pl",
             "pr": 18043,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Matez",
             "socials": {
               "x": "https://x.com/mateziak_"
@@ -11955,7 +11955,7 @@
             "name": "Kizers",
             "country": "pl",
             "pr": 12018,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Kizers",
             "socials": {
               "x": "https://x.com/Kizers_",
@@ -12024,7 +12024,7 @@
             "name": "dandepuzo",
             "country": "ru",
             "pr": 20052,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/dandepuzo",
             "socials": {}
           }
@@ -12070,7 +12070,7 @@
             "name": "Kulb",
             "country": "fr",
             "pr": 24028,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Kulb",
             "socials": {
               "x": "https://x.com/kulb_",
@@ -12081,7 +12081,7 @@
             "name": "Artist",
             "country": "fr",
             "pr": 21062,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Artist",
             "socials": {
               "x": "https://x.com/ORPHEE_Esport"
@@ -12091,7 +12091,7 @@
             "name": "Adrx",
             "country": "fr",
             "pr": 18012,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Adrx",
             "socials": {
               "x": "https://x.com/Adrxfn6",
@@ -12217,7 +12217,7 @@
             "name": "Exqu",
             "country": "fr",
             "pr": 6088,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Exqu",
             "socials": {
               "x": "https://x.com/exqu777"
@@ -12277,7 +12277,7 @@
             "name": "chrisc",
             "country": "fr",
             "pr": 10082,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/chrisc",
             "socials": {
               "x": "https://x.com/chriscfn"
@@ -12287,7 +12287,7 @@
             "name": "Squzy",
             "country": "fr",
             "pr": 9018,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Squzy",
             "socials": {
               "x": "https://x.com/Squzy2"
@@ -12351,7 +12351,7 @@
             "name": "xzeevit",
             "country": "co",
             "pr": 8052,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/xzeevit",
             "socials": {
               "x": "https://x.com/xzeevit4k",
@@ -12409,7 +12409,7 @@
             "name": "Kielba",
             "country": "pl",
             "pr": 14086,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Kielba",
             "socials": {
               "x": "https://x.com/Kieba12",
@@ -12455,7 +12455,7 @@
             "name": "Kielba",
             "country": "pl",
             "pr": 14086,
-            "is_former": true,
+            "is_former": false,
             "tracker_url": "https://fortnitetracker.com/profile/all/Kielba",
             "socials": {
               "x": "https://x.com/Kieba12",

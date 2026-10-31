@@ -1,6 +1,81 @@
 {
   "transfers_log": [
     {
+      "date": "2018-10-15",
+      "player_ign": "TheVic",
+      "player_name": "Victor Lopez",
+      "type": "Transfer",
+      "club_id": "lestream",
+      "previous_club": "Gentside Esports Club",
+      "source": "Official Announcement @LeStreamEsport / Liquipedia Transfers",
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/thevic%20%E3%83%8D/epic-events/overview?region=EU&platform=kbm",
+      "player_socials": {
+        "x": "https://x.com/TheVic_c",
+        "youtube": "https://youtube.com/@TheVicc",
+        "twitch": "https://twitch.tv/thevic"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/lestream",
+      "club_socials": {
+        "x": "https://x.com/LeStreamEsport",
+        "twitch": "https://twitch.tv/lestream",
+        "youtube": "https://youtube.com/@LeStream"
+      }
+    },
+    {
+      "date": "2024-12-26",
+      "player_ign": "Pixie",
+      "player_name": "Wilmer Juriander",
+      "type": "Arrival",
+      "club_id": "havok-by-vitality",
+      "previous_club": "Ninjas in Pyjamas",
+      "source": "Official Announcement @HvKGGs / Bio X @pixiefnbr / Liquipedia Transfers",
+      "status": "Confirmed",
+      "player_country": "se",
+      "player_tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview",
+      "player_socials": {
+        "x": "https://x.com/Pixiefnbr",
+        "twitch": "https://twitch.tv/pixiefnbr",
+        "youtube": "https://youtube.com/@pixiefnbr",
+        "tiktok": "https://tiktok.com/@pixiefnr"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/havok-by-vitality",
+      "club_socials": {
+        "x": "https://x.com/HvKGGs",
+        "twitch": "https://twitch.tv/teamhavok",
+        "instagram": "https://instagram.com/teamhavokgg",
+        "tiktok": "https://tiktok.com/@teamhavok",
+        "discord": "https://discord.gg/havok"
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "player_ign": "Darkos",
+      "player_name": "Darkos",
+      "type": "Transfer",
+      "club_id": "zerance",
+      "previous_club": "Solary",
+      "source": "Bio X @DarkosFN mentions @ZerancePartout / @ZerancePartout",
+      "status": "Confirmed",
+      "player_country": "fr",
+      "player_tracker_url": "https://fortnitetracker.com/profile/all/Darkos",
+      "player_socials": {
+        "x": "https://x.com/Darkos_ftn",
+        "twitch": "https://twitch.tv/darkosftn",
+        "youtube": "https://youtube.com/@Darkosftn"
+      },
+      "club_tracker_url": "https://fortnitetracker.com/esports/organization/zerance",
+      "club_socials": {
+        "x": "https://x.com/ZerancePartout",
+        "youtube": "https://youtube.com/@zerance",
+        "instagram": "https://instagram.com/teamzerance",
+        "tiktok": "https://tiktok.com/@teamzerance",
+        "twitch": "https://twitch.tv/teamzerance",
+        "discord": "https://discord.gg/zerance"
+      }
+    },
+    {
       "date": "2026-10-03",
       "player_ign": "XZEEVIT",
       "player_name": "XZEEVIT",
@@ -501,552 +576,806 @@
     "havok-by-vitality": [
       {
         "name": "Pixie",
-        "country": "🇸🇪",
-        "pr": 215000,
+        "country": "se",
+        "pr": 214876,
         "is_former": false,
+        "arrival_date": "2024-12-26",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @pixiefnbr (@HvKGGs) + Liquipedia NiP -> HavoK",
         "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/havok%20%D1%80ixie%20b%C3%A4%C3%A4%C7%83/epic-events/overview",
         "socials": {
-          "x": "https://x.com/pixiefn"
+          "x": "https://x.com/Pixiefnbr",
+          "twitch": "https://twitch.tv/pixiefnbr",
+          "youtube": "https://youtube.com/@pixiefnbr",
+          "tiktok": "https://tiktok.com/@pixiefnr"
         }
       },
       {
         "name": "Tjino",
-        "country": "🇸🇪",
-        "pr": 198000,
+        "country": "se",
+        "pr": 145112,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/tjino/overview",
+        "arrival_date": "2024-11-15",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @TjinoFN (@HvKGGs) + Liquipedia",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tjino",
         "socials": {
-          "x": "https://x.com/TjinoFN"
+          "x": "https://x.com/Tjino9",
+          "twitch": "https://twitch.tv/tjino9",
+          "youtube": "https://youtube.com/channel/UC0u_6lG4Gksp9rRDgKEosbQ",
+          "tiktok": "https://tiktok.com/@tjino9"
         }
       },
       {
         "name": "PabloWingu",
-        "country": "🇩🇰",
-        "pr": 184000,
+        "country": "dk",
+        "pr": 132348,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/pablowingu/overview",
+        "arrival_date": "2024-10-20",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @PabloWingu (@HvKGGs) + Liquipedia",
+        "tracker_url": "https://fortnitetracker.com/profile/all/PabloWingu",
         "socials": {
-          "x": "https://x.com/PabloWingu"
+          "x": "https://x.com/PabloWingu",
+          "twitch": "https://twitch.tv/pablowingufnn",
+          "youtube": "https://youtube.com/channel/UCYZcKk-bWTSk39RCgldOZhA",
+          "instagram": "https://instagram.com/pablowingu",
+          "tiktok": "https://tiktok.com/@pablowingu"
         }
       },
       {
         "name": "SwizzY",
-        "country": "🇷🇺",
-        "pr": 144548,
+        "country": "ru",
+        "pr": 124895,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/swizzy/overview",
+        "arrival_date": "2026-04-25",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @Swizzyfn (@HvKGGs) + Liquipedia Rachat Vitality",
+        "tracker_url": "https://fortnitetracker.com/profile/all/SwizzY",
         "socials": {
-          "x": "https://x.com/Swizzyfn"
+          "x": "https://x.com/SwizzY281",
+          "twitch": "https://twitch.tv/swizzy281_",
+          "youtube": "https://youtube.com/channel/UCtfmiozk3AifIzguALQ4XSw"
         }
       },
       {
         "name": "Wox",
-        "country": "🇩🇰",
-        "pr": 78000,
+        "country": "dk",
+        "pr": 84769,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/wox/overview",
+        "arrival_date": "2024-08-29",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @Wox_FN (@HvKGGs) + Liquipedia",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Wox",
         "socials": {
-          "x": "https://x.com/WoxFn"
+          "x": "https://x.com/WoxSHTER",
+          "twitch": "https://twitch.tv/woxxow_",
+          "youtube": "https://youtube.com/channel/UCam2PKJdu5D9C-UYSfJQksg"
         }
       },
       {
         "name": "Seekk",
-        "country": "🇫🇷",
-        "pr": 65000,
+        "country": "fr",
+        "pr": 24320,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/seekk/overview",
+        "arrival_date": "2026-10-15",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @Seekkfn (@HvKGGs) + Annonce officielle",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Seekk",
         "socials": {
-          "x": "https://x.com/Seekkfn"
+          "x": "https://x.com/SeekkFN",
+          "twitch": "https://twitch.tv/seekk"
         }
       },
       {
         "name": "IDrop",
-        "country": "🇫🇷",
-        "pr": 54000,
+        "country": "fr",
+        "pr": 15228,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/idrop/overview",
+        "arrival_date": "2025-02-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @iDropFN (@HvKGGs) + Liquipedia",
+        "tracker_url": "https://fortnitetracker.com/profile/all/IDrop",
         "socials": {
-          "x": "https://x.com/iDropFN"
+          "x": "https://x.com/IDropFN",
+          "twitch": "https://twitch.tv/idrop"
         }
       }
     ],
     "gentle-mates": [
       {
         "name": "Akiira",
-        "country": "🇫🇷",
-        "pr": 162000,
+        "country": "fr",
+        "pr": 128472,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/akiira/overview",
+        "arrival_date": "2025-01-10",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @AkiiraFN (@GentleMates) + Liquipedia",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Akiira",
         "socials": {
-          "x": "https://x.com/Akiirafn"
+          "x": "https://x.com/AkiiraFN",
+          "twitch": "https://twitch.tv/akiiral2"
         }
       },
       {
         "name": "Vanyak3kk",
-        "country": "🇺🇦",
-        "pr": 145000,
+        "country": "ua",
+        "pr": 114651,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/vanyak3kk/overview",
+        "arrival_date": "2024-05-15",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @vanyak3kk (@GentleMates) + Liquipedia",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vanyak3kk",
         "socials": {
-          "x": "https://x.com/Vanyak3kk"
+          "x": "https://x.com/vanyak3kk",
+          "twitch": "https://twitch.tv/vanyak3kk",
+          "youtube": "https://youtube.com/channel/UCYof7uTXn0ZnPiY4Gv6yFRg",
+          "tiktok": "https://tiktok.com/@vanyak3kk"
         }
       },
       {
         "name": "Kurama",
-        "country": "🇫🇷",
-        "pr": 112000,
+        "country": "fr",
+        "pr": 98342,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/kurama/overview",
+        "arrival_date": "2026-03-30",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @FtnKurama (@GentleMates) + Annonce M8",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kurama",
         "socials": {
-          "x": "https://x.com/kuramafn"
+          "x": "https://x.com/FtnKurama",
+          "twitch": "https://twitch.tv/kurama_203",
+          "youtube": "https://youtube.com/@FtnKurama"
         }
       },
       {
         "name": "Snayzy",
-        "country": "🇫🇷",
-        "pr": 75000,
-        "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/snayzy/overview",
+        "country": "fr",
+        "pr": 84719,
+        "is_former": true,
+        "arrival_date": "2023-04-14",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @Snayzy_ (@GentleMates) + Annonce M8",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Snayzy",
         "socials": {
-          "x": "https://x.com/Snayzy"
+          "x": "https://x.com/Snayzy_",
+          "twitch": "https://twitch.tv/snayzy",
+          "youtube": "https://youtube.com/@Snayzy",
+          "instagram": "https://instagram.com/snayzyyy"
         }
       },
       {
         "name": "Rax",
-        "country": "🇫🇷",
-        "pr": 68000,
+        "country": "fr",
+        "pr": 42118,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/rax/overview",
+        "arrival_date": "2026-09-22",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @Rax_fn (@GentleMates) + Annonce M8",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Rax",
         "socials": {
-          "x": "https://x.com/raxfn"
+          "x": "https://x.com/Rax_fn"
         }
       }
     ],
     "solary": [
       {
         "name": "Ghonzo",
-        "country": "🇳🇴",
-        "pr": 128000,
+        "country": "no",
+        "pr": 64842,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/ghonzo/overview",
+        "arrival_date": "2025-06-12",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @ghonzofn (@SolaryTV) + Annonce Solary",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ghonzo",
         "socials": {
-          "x": "https://x.com/GhonzoFN"
+          "x": "https://x.com/ghonzofn",
+          "twitch": "https://twitch.tv/ghonzofn",
+          "youtube": "https://youtube.com/@ghonzoo"
         }
       },
       {
         "name": "Minori",
-        "country": "🇨🇭",
-        "pr": 114000,
+        "country": "ch",
+        "pr": 59419,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/minori/overview",
+        "arrival_date": "2026-04-25",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @minorifn_ (@SolaryTV) + Annonce Solary",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Minori",
         "socials": {
-          "x": "https://x.com/MinoriFN"
+          "x": "https://x.com/minorifn_",
+          "twitch": "https://twitch.tv/minorifn_",
+          "youtube": "https://youtube.com/@Minoriftn"
         }
       },
       {
         "name": "SereN",
-        "country": "🇵🇱",
-        "pr": 95000,
+        "country": "pl",
+        "pr": 56842,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/seren/overview",
+        "arrival_date": "2026-07-18",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @SereN_fn (@SolaryTV) + Annonce Solary",
+        "tracker_url": "https://fortnitetracker.com/profile/all/SereN",
         "socials": {
-          "x": "https://x.com/sereN_fn"
-        }
-      },
-      {
-        "name": "Darkos",
-        "country": "🇫🇷",
-        "pr": 88000,
-        "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/darkos/overview",
-        "socials": {
-          "x": "https://x.com/DarkosFN"
+          "x": "https://x.com/SereNFN4"
         }
       },
       {
         "name": "Zangi",
-        "country": "🇮🇹",
-        "pr": 72000,
+        "country": "it",
+        "pr": 42118,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/zangi/overview",
+        "arrival_date": "2026-07-18",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @zangifn (@SolaryTV) + Annonce Solary",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zangi",
         "socials": {
-          "x": "https://x.com/zangifn"
+          "x": "https://x.com/zangifn",
+          "twitch": "https://twitch.tv/zangi"
         }
       },
       {
         "name": "XZEEVIT",
-        "country": "🇨🇴",
-        "pr": 64000,
+        "country": "co",
+        "pr": 38419,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/xzeevit/overview",
+        "arrival_date": "2026-10-03",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @xzeevit4k (@SolaryTV) + Annonce Head of Fortnite Solary",
+        "tracker_url": "https://fortnitetracker.com/profile/all/XZEEVIT",
         "socials": {
-          "x": "https://x.com/xzeevit"
+          "x": "https://x.com/xzeevit4k",
+          "twitch": "https://twitch.tv/xzeevit",
+          "youtube": "https://youtube.com/channel/UCuxclRcwncKgYu0o0XSBuHA",
+          "instagram": "https://instagram.com/xzeevit",
+          "tiktok": "https://tiktok.com/@xzeevit"
         }
       }
     ],
     "lyost-esport": [
       {
         "name": "Momsy",
-        "country": "🇫🇷",
-        "pr": 92000,
+        "country": "fr",
+        "pr": 92041,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/momsy/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Momsy",
         "socials": {
-          "x": "https://x.com/MomsyFN"
+          "x": "https://x.com/MomsyFN",
+          "twitch": "https://twitch.tv/momsyfn",
+          "youtube": "https://youtube.com/@momsyfn4096"
         }
       },
       {
         "name": "Werex",
-        "country": "🇫🇷",
-        "pr": 88000,
+        "country": "fr",
+        "pr": 88047,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/werex/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Werex",
         "socials": {
-          "x": "https://x.com/WerexFN"
+          "x": "https://x.com/WerexFNBR",
+          "twitch": "https://twitch.tv/werexeu",
+          "youtube": "https://youtube.com/channel/UCvQDDvqFF0A0ZQvdCW2irzQ"
         }
       },
       {
         "name": "Twek",
-        "country": "🇫🇷",
-        "pr": 86000,
+        "country": "fr",
+        "pr": 86049,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/twek/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Twek",
         "socials": {
-          "x": "https://x.com/TwekFN"
+          "x": "https://x.com/twekje"
         }
       },
       {
         "name": "Borsuk",
-        "country": "🇵🇱",
+        "country": "pl",
         "pr": 85496,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/borsuk/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Borsuk",
         "socials": {
-          "x": "https://x.com/BorsukFN"
+          "x": "https://x.com/borsukfn"
         }
       }
     ],
     "mga-esport": [
       {
         "name": "Syaaz",
-        "country": "🇫🇷",
-        "pr": 68000,
+        "country": "fr",
+        "pr": 68076,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/syaaz/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Syaaz",
         "socials": {
-          "x": "https://x.com/SyaazFN"
+          "x": "https://x.com/Syaazzfn",
+          "twitch": "https://twitch.tv/syaazfnn"
         }
       },
       {
         "name": "Truslo",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 62804,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/truslo/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Truslo",
         "socials": {
-          "x": "https://x.com/TrusloFN"
+          "x": "https://x.com/Trusiofnbr"
         }
       }
     ],
     "gameward": [
       {
         "name": "Kombek",
-        "country": "🇫🇷",
-        "pr": 52000,
+        "country": "fr",
+        "pr": 52047,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/kombek/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kombek",
         "socials": {
-          "x": "https://x.com/kombekfn"
+          "x": "https://x.com/kombekfn",
+          "twitch": "https://twitch.tv/kombekfn",
+          "youtube": "https://youtube.com/channel/UC4hXCYR7VirkQT0MmtzV8lA"
         }
       },
       {
         "name": "Tylio",
-        "country": "🇫🇷",
-        "pr": 48000,
+        "country": "fr",
+        "pr": 48060,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/tylio/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tylio",
         "socials": {
-          "x": "https://x.com/tyliofn"
+          "x": "https://x.com/Tylio77",
+          "twitch": "https://twitch.tv/tylio7",
+          "youtube": "https://youtube.com/channel/UCVxLzbLijn9en0lXqpGVJow"
         }
       },
       {
         "name": "S1neD",
-        "country": "🇫🇷",
-        "pr": 42000,
+        "country": "fr",
+        "pr": 42059,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/s1ned/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/S1neD",
         "socials": {
-          "x": "https://x.com/s1nedfn"
+          "x": "https://x.com/s1nedfnn",
+          "twitch": "https://twitch.tv/s1nedfn",
+          "youtube": "https://youtube.com/@S1neDfnn",
+          "instagram": "https://instagram.com/s1ned__"
         }
       },
       {
         "name": "Repairs",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 34065,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/repairs/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Repairs",
         "socials": {
-          "x": "https://x.com/repairsfn"
+          "x": "https://x.com/RepairsFN",
+          "twitch": "https://twitch.tv/itsRepairs",
+          "youtube": "https://youtube.com/channel/UCwgCyRXqzcnZxqF3hR8fxsg",
+          "instagram": "https://instagram.com/repairsfn"
         }
       },
       {
         "name": "Baxo",
-        "country": "🇫🇷",
-        "pr": 28000,
+        "country": "fr",
+        "pr": 28038,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/baxo/overview",
-        "socials": {
-          "x": "https://x.com/baxofn"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Baxo",
+        "socials": {}
       },
       {
         "name": "Snaylyx",
-        "country": "🇫🇷",
-        "pr": 24000,
+        "country": "fr",
+        "pr": 24042,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/snaylyx/overview",
-        "socials": {
-          "x": "https://x.com/snaylyxfn"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Snaylyx",
+        "socials": {}
       }
     ],
     "k13-esport": [
       {
         "name": "Firen",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 45080,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/firen/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Firen",
         "socials": {
-          "x": "https://x.com/FirenFN"
+          "x": "https://x.com/Firenfn1",
+          "twitch": "https://twitch.tv/firenfn5"
         }
       }
     ],
     "team-orchid": [
       {
         "name": "Izzi",
-        "country": "🇫🇷",
-        "pr": 62000,
+        "country": "fr",
+        "pr": 62095,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/izzi/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Izzi",
         "socials": {
-          "x": "https://x.com/IzziFN"
+          "x": "https://x.com/izziFNBR"
         }
       },
       {
         "name": "Nociff",
-        "country": "🇫🇷",
-        "pr": 34000,
+        "country": "fr",
+        "pr": 34027,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/nociff/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nociff",
         "socials": {
-          "x": "https://x.com/Nociff"
+          "x": "https://x.com/nocifFN"
         }
       },
       {
         "name": "Seyyto",
-        "country": "🇫🇷",
-        "pr": 42000,
+        "country": "fr",
+        "pr": 42074,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/seyyto/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Seyyto",
         "socials": {
-          "x": "https://x.com/SeyytoFN"
+          "x": "https://x.com/SeyytoFN",
+          "twitch": "https://twitch.tv/seyytofn",
+          "youtube": "https://youtube.com/@seyyto9436"
         }
       }
     ],
     "1p-esport": [
       {
         "name": "Lericx",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 42029,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/lericx/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Lericx",
         "socials": {
-          "x": "https://x.com/LericxFN"
+          "x": "https://x.com/LericxFN",
+          "twitch": "https://twitch.tv/lericxeu"
         }
       },
       {
         "name": "Julie",
-        "country": "🇫🇷",
-        "pr": 36000,
+        "country": "fr",
+        "pr": 36099,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/julie/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Julie",
         "socials": {
-          "x": "https://x.com/JulieFN"
+          "x": "https://x.com/oneprodige"
         }
       }
     ],
     "r4c-esport": [
       {
         "name": "Kenrop",
-        "country": "🇫🇷",
-        "pr": 42000,
+        "country": "fr",
+        "pr": 42022,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/kenrop/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kenrop",
         "socials": {
-          "x": "https://x.com/KenropFN"
+          "x": "https://x.com/KenropFN",
+          "twitch": "https://twitch.tv/kenropfn"
         }
       },
       {
         "name": "Foczka",
-        "country": "🇵🇱",
+        "country": "pl",
         "pr": 36789,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/foczka/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Foczka",
         "socials": {
-          "x": "https://x.com/FoczkaFN"
+          "x": "https://x.com/foczka_fn"
         }
       }
     ],
     "wooka-esport": [
       {
         "name": "Szarik",
-        "country": "🇵🇱",
-        "pr": 38000,
+        "country": "pl",
+        "pr": 38098,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/szarik/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Szarik",
         "socials": {
-          "x": "https://x.com/SzarikFN"
+          "x": "https://x.com/szarik17"
         }
       },
       {
         "name": "Ferdy",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 32725,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/ferdy/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ferdy",
         "socials": {
-          "x": "https://x.com/FerdyFN"
+          "x": "https://x.com/Ferdy_ftn"
         }
       }
     ],
     "vulcan-esport": [
       {
         "name": "Tarpz",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 34183,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/tarpz/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tarpz",
         "socials": {
-          "x": "https://x.com/TarpzFN"
+          "x": "https://x.com/Tarpz7",
+          "youtube": "https://youtube.com/@tarpz5614"
         }
       }
     ],
     "orphee-esport": [
       {
         "name": "Fnajen",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 32564,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/fnajen/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Fnajen",
         "socials": {
-          "x": "https://x.com/FnajenFN"
+          "x": "https://x.com/Fnajen_",
+          "twitch": "https://twitch.tv/fnajen",
+          "youtube": "https://youtube.com/channel/UCSz5JWeQdRP5NjMcTBGM-3A"
         }
       }
     ],
     "trkf-esport": [
       {
         "name": "flex",
-        "country": "🇫🇷",
-        "pr": 28000,
+        "country": "fr",
+        "pr": 28080,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/flex/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/flex",
         "socials": {
-          "x": "https://x.com/flexfn"
+          "x": "https://x.com/flex"
         }
       },
       {
         "name": "Damage",
-        "country": "🇫🇷",
-        "pr": 26000,
+        "country": "fr",
+        "pr": 26031,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/damage/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Damage",
         "socials": {
-          "x": "https://x.com/DamageFN"
+          "x": "https://x.com/Damxge_",
+          "twitch": "https://twitch.tv/Damage_"
         }
       },
       {
         "name": "Nero",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 24684,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/nero/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nero",
         "socials": {
-          "x": "https://x.com/NeroFN"
+          "x": "https://x.com/nerofnf"
         }
       }
     ],
     "pandore-esport": [
       {
         "name": "Huty",
-        "country": "🇫🇷",
-        "pr": 28000,
+        "country": "fr",
+        "pr": 28041,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/huty/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Huty",
         "socials": {
-          "x": "https://x.com/HutyFN"
+          "x": "https://x.com/HutyFN",
+          "twitch": "https://twitch.tv/hutantak",
+          "youtube": "https://youtube.com/channel/UCjhDI2IP94mDjdd6jajb6rQ",
+          "instagram": "https://instagram.com/hutyfn"
         }
       },
       {
         "name": "Triix",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 24158,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/triix/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Triix",
         "socials": {
-          "x": "https://x.com/TriixFN"
+          "x": "https://x.com/triixftn",
+          "twitch": "https://twitch.tv/triixftn"
         }
       },
       {
         "name": "Winther",
-        "country": "🇫🇷",
-        "pr": 23000,
+        "country": "fr",
+        "pr": 23023,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/winther/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Winther",
         "socials": {
-          "x": "https://x.com/WintherFN"
+          "x": "https://x.com/Wintherwnl"
         }
       }
     ],
     "now-esport": [
       {
         "name": "Klayzz",
-        "country": "🇫🇷",
-        "pr": 24000,
+        "country": "fr",
+        "pr": 24067,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/klayzz/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Klayzz",
         "socials": {
-          "x": "https://x.com/KlayzzFN"
+          "x": "https://x.com/Klayzfn_"
         }
       },
       {
         "name": "Maloyache",
-        "country": "🇷🇺",
-        "pr": 25000,
+        "country": "fr",
+        "pr": 25068,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/maloyache/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Maloyache",
         "socials": {
-          "x": "https://x.com/maloyache"
+          "x": "https://x.com/maloyache32",
+          "twitch": "https://twitch.tv/maloyache",
+          "youtube": "https://youtube.com/channel/UC3DFZ4SkrF3bQ61_pYN7ICQ"
         }
       }
     ],
     "poyo-esports": [
       {
         "name": "iFrOzi",
-        "country": "🇫🇷",
-        "pr": 50000,
+        "country": "fr",
+        "pr": 50036,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/ifrozi/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/iFrOzi",
         "socials": {
-          "x": "https://x.com/iFrOzi"
+          "x": "https://x.com/iFr0zi_"
         }
       },
       {
         "name": "Shadox",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 21765,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/shadox/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Shadox",
         "socials": {
           "x": "https://x.com/ShadoxFN"
         }
@@ -1055,560 +1384,750 @@
     "lynox-esport": [
       {
         "name": "Heror3h",
-        "country": "🇫🇷",
-        "pr": 22000,
+        "country": "fr",
+        "pr": 22091,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/heror3h/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Heror3h",
         "socials": {
-          "x": "https://x.com/Heror3h"
+          "x": "https://x.com/herorehFN",
+          "youtube": "https://youtube.com/@herorehfn"
         }
       },
       {
         "name": "Zayni",
-        "country": "🇫🇷",
-        "pr": 18000,
+        "country": "fr",
+        "pr": 18054,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/zayni/overview",
-        "socials": {
-          "x": "https://x.com/ZayniFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zayni",
+        "socials": {}
       },
       {
         "name": "4ik",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 15421,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/4ik/overview",
-        "socials": {
-          "x": "https://x.com/4ikFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/4ik",
+        "socials": {}
       }
     ],
     "eoz-esport": [
       {
         "name": "Mystiqul",
-        "country": "🇫🇷",
-        "pr": 22000,
+        "country": "fr",
+        "pr": 22046,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/mystiqul/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Mystiqul",
         "socials": {
-          "x": "https://x.com/MystiqulFN"
+          "x": "https://x.com/Mystiqul"
         }
       },
       {
         "name": "Spexx",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 21050,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/spexx/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Spexx",
         "socials": {
-          "x": "https://x.com/SpexxFN"
+          "x": "https://x.com/Spexxfnr",
+          "youtube": "https://youtube.com/channel/UCwFc7op98WCU3tK3H95JS0Q"
         }
       },
       {
         "name": "Hedra",
-        "country": "🇫🇷",
-        "pr": 20000,
+        "country": "fr",
+        "pr": 20024,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/hedra/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hedra",
         "socials": {
-          "x": "https://x.com/HedraFN"
+          "x": "https://x.com/Hedrafn",
+          "youtube": "https://youtube.com/channel/UC1uauciEfPksqEMlja4pIBg"
         }
       }
     ],
     "ekinox-esports": [
       {
         "name": "Mirooz",
-        "country": "🇫🇷",
-        "pr": 22000,
+        "country": "fr",
+        "pr": 22016,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/mirooz/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Mirooz",
         "socials": {
-          "x": "https://x.com/MiroozFN"
+          "x": "https://x.com/Mirooz10"
         }
       },
       {
         "name": "nayzix7",
-        "country": "🇫🇷",
-        "pr": 21000,
+        "country": "fr",
+        "pr": 21098,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/nayzix7/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/nayzix7",
         "socials": {
-          "x": "https://x.com/nayzix7"
+          "x": "https://x.com/nayzixfn1"
         }
       },
       {
         "name": "Misha",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 19332,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/misha/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Misha",
         "socials": {
-          "x": "https://x.com/MishaFN"
+          "x": "https://x.com/MishaFNBR"
         }
       }
     ],
     "wip-esports": [
       {
         "name": "Velryy",
-        "country": "🇨🇿",
+        "country": "cz",
         "pr": 28782,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/velryy/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Velryy",
         "socials": {
-          "x": "https://x.com/velryy"
+          "x": "https://x.com/wipesports"
         }
       }
     ],
     "haikoo": [
       {
         "name": "Maciak",
-        "country": "🇵🇱",
-        "pr": 18000,
+        "country": "pl",
+        "pr": 18021,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/maciak/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Maciak",
         "socials": {
-          "x": "https://x.com/MaciakFN"
+          "x": "https://x.com/MaciakFN3"
         }
       },
       {
         "name": "Joshbot",
-        "country": "🇬🇧",
+        "country": "gb",
         "pr": 19089,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/joshbot/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Joshbot",
         "socials": {
-          "x": "https://x.com/JoshbotFN"
+          "x": "https://x.com/joshbotfv",
+          "twitch": "https://twitch.tv/joshbotfnbr",
+          "youtube": "https://youtube.com/channel/UCeCelAsxUSeMHWYbNptudUA"
         }
       }
     ],
     "g3nz-esport": [
       {
         "name": "Ary",
-        "country": "🇫🇷",
-        "pr": 16000,
+        "country": "fr",
+        "pr": 16029,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/ary/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Ary",
         "socials": {
-          "x": "https://x.com/AryFN"
+          "x": "https://x.com/EgoistAry"
         }
       },
       {
         "name": "Efexy",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 15695,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/efexy/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Efexy",
         "socials": {
-          "x": "https://x.com/EfexyFN"
+          "x": "https://x.com/Efexyfnbr",
+          "twitch": "https://twitch.tv/efexyfnbr",
+          "youtube": "https://youtube.com/@efexyfn"
         }
       },
       {
         "name": "2Trash1zr",
-        "country": "🇫🇷",
-        "pr": 14000,
+        "country": "fr",
+        "pr": 14044,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/2trash1zr/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/2Trash1zr",
         "socials": {
-          "x": "https://x.com/2Trash1zr"
+          "x": "https://x.com/G3nZEsport"
         }
       }
     ],
     "bk-rog": [
       {
         "name": "Hris",
-        "country": "🇧🇬",
+        "country": "bg",
         "pr": 17515,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/hris/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Hris",
         "socials": {
-          "x": "https://x.com/HrisFN"
+          "x": "https://x.com/HrisFN",
+          "twitch": "https://twitch.tv/hrisfn4",
+          "youtube": "https://youtube.com/@hrisfn4726"
         }
       }
     ],
     "novix-esport": [
       {
         "name": "Okram",
-        "country": "🇵🇱",
-        "pr": 4500,
+        "country": "pl",
+        "pr": 4597,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/okram/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Okram",
         "socials": {
-          "x": "https://x.com/OkramFN"
+          "x": "https://x.com/Okramfn_"
         }
       },
       {
         "name": "Actfv",
-        "country": "🇫🇷",
-        "pr": 4200,
+        "country": "fr",
+        "pr": 4213,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/actfv/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Actfv",
         "socials": {
-          "x": "https://x.com/ActfvFN"
+          "x": "https://x.com/NovixEsport"
         }
       },
       {
         "name": "Tenq",
-        "country": "🇫🇷",
-        "pr": 3500,
+        "country": "fr",
+        "pr": 3543,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/tenq/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Tenq",
         "socials": {
-          "x": "https://x.com/TenqFN"
+          "x": "https://x.com/NovixEsport"
         }
       },
       {
         "name": "Joanee",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 2932,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/joanee/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Joanee",
         "socials": {
-          "x": "https://x.com/JoaneeFN"
+          "x": "https://x.com/Joanee2k"
         }
       }
     ],
     "australe-esport": [
       {
         "name": "freuzi",
-        "country": "🇫🇷",
-        "pr": 7000,
+        "country": "fr",
+        "pr": 7014,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/freuzi/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/freuzi",
         "socials": {
-          "x": "https://x.com/freuziFN"
+          "x": "https://x.com/freuzii",
+          "twitch": "https://twitch.tv/freuzii",
+          "youtube": "https://youtube.com/channel/UCREg2cC9vipv8NyuQfVUHWg"
         }
       },
       {
         "name": "Kaktus",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 6494,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/kaktus/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kaktus",
         "socials": {
-          "x": "https://x.com/KaktusFN"
+          "x": "https://x.com/kaktusfnbr1"
         }
       }
     ],
     "valiant": [
       {
         "name": "Trulex",
-        "country": "🇫🇷",
-        "pr": 6000,
+        "country": "rs",
+        "pr": 6038,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/trulex/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Trulex",
         "socials": {
-          "x": "https://x.com/Trulex"
+          "x": "https://x.com/Trulex",
+          "twitch": "https://twitch.tv/trulex"
         }
       },
       {
         "name": "Robabz",
-        "country": "🇫🇷",
+        "country": "fr",
         "pr": 5033,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/robabz/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Robabz",
         "socials": {
-          "x": "https://x.com/RobabzFN"
+          "x": "https://x.com/RobabzTV",
+          "twitch": "https://twitch.tv/Robabztv",
+          "youtube": "https://youtube.com/channel/UCPE1B0BfJ4jYuu1LWPY8aXQ",
+          "instagram": "https://instagram.com/robabz_",
+          "tiktok": "https://tiktok.com/@robabzz"
         }
       }
     ],
     "reality-zone": [
       {
         "name": "Nayro",
-        "country": "🇫🇷",
-        "pr": 3400,
+        "country": "fr",
+        "pr": 4115,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/nayro/overview",
-        "socials": {
-          "x": "https://x.com/NayroFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nayro",
+        "socials": {}
       },
       {
         "name": "Kyli",
-        "country": "🇫🇷",
-        "pr": 3200,
+        "country": "fr",
+        "pr": 3248,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/kyli/overview",
-        "socials": {
-          "x": "https://x.com/KyliFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kyli",
+        "socials": {}
       },
       {
         "name": "Zeyko",
-        "country": "🇫🇷",
-        "pr": 3000,
+        "country": "fr",
+        "pr": 2119,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/zeyko/overview",
-        "socials": {
-          "x": "https://x.com/ZeykoFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zeyko",
+        "socials": {}
       }
     ],
     "team-fake": [
       {
         "name": "Zeka",
-        "country": "🇫🇷",
-        "pr": 3000,
+        "country": "fr",
+        "pr": 3614,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/zeka/overview",
-        "socials": {
-          "x": "https://x.com/ZekaFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zeka",
+        "socials": {}
       },
       {
         "name": "Krox",
-        "country": "🇫🇷",
-        "pr": 2800,
+        "country": "fr",
+        "pr": 2741,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/krox/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Krox",
         "socials": {
-          "x": "https://x.com/KroxFN"
+          "x": "https://x.com/Kroxftn"
         }
       },
       {
         "name": "Skyll",
-        "country": "🇫🇷",
-        "pr": 2600,
+        "country": "fr",
+        "pr": 1892,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/skyll/overview",
-        "socials": {
-          "x": "https://x.com/SkyllFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Skyll",
+        "socials": {}
       }
     ],
     "team-bsk": [
       {
         "name": "Shado",
-        "country": "🇫🇷",
-        "pr": 2600,
+        "country": "fr",
+        "pr": 3184,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/shado/overview",
-        "socials": {
-          "x": "https://x.com/ShadoFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Shado",
+        "socials": {}
       },
       {
         "name": "Kenza",
-        "country": "🇫🇷",
-        "pr": 2400,
+        "country": "fr",
+        "pr": 2412,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/kenza/overview",
-        "socials": {
-          "x": "https://x.com/KenzaFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Kenza",
+        "socials": {}
       },
       {
         "name": "Vortex",
-        "country": "🇫🇷",
-        "pr": 2200,
+        "country": "fr",
+        "pr": 1542,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/vortex/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Vortex",
         "socials": {
-          "x": "https://x.com/VortexFN"
+          "x": "https://x.com/vortexfnrr",
+          "twitch": "https://twitch.tv/vortexr",
+          "youtube": "https://youtube.com/channel/UCSrTKzXqU6FMy1Lv8QayVfA",
+          "instagram": "https://instagram.com/vortexfnbr"
         }
       }
     ],
     "aten-esport": [
       {
         "name": "Atenz",
-        "country": "🇫🇷",
-        "pr": 2400,
+        "country": "fr",
+        "pr": 2418,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/atenz/overview",
-        "socials": {
-          "x": "https://x.com/AtenzFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Atenz",
+        "socials": {}
       },
       {
         "name": "Skyze",
-        "country": "🇫🇷",
-        "pr": 2200,
+        "country": "fr",
+        "pr": 1847,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/skyze/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Skyze",
         "socials": {
           "x": "https://x.com/SkyzeFN"
         }
       },
       {
         "name": "Nox",
-        "country": "🇫🇷",
-        "pr": 2000,
+        "country": "fr",
+        "pr": 1164,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/nox/overview",
-        "socials": {
-          "x": "https://x.com/NoxFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Nox",
+        "socials": {}
       }
     ],
     "jupitar-esport": [
       {
         "name": "Jupi",
-        "country": "🇫🇷",
-        "pr": 2000,
+        "country": "fr",
+        "pr": 2114,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/jupi/overview",
-        "socials": {
-          "x": "https://x.com/JupiFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Jupi",
+        "socials": {}
       },
       {
         "name": "Star",
-        "country": "🇫🇷",
-        "pr": 1800,
+        "country": "fr",
+        "pr": 1648,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/star/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Star",
         "socials": {
-          "x": "https://x.com/StarFN"
+          "x": "https://x.com/RealllSTAR",
+          "twitch": "https://twitch.tv/kings__star",
+          "youtube": "https://youtube.com/channel/UC7ko_DIXPzdJPAExhiRkqQA"
         }
       },
       {
         "name": "Krono",
-        "country": "🇫🇷",
-        "pr": 1600,
+        "country": "fr",
+        "pr": 1074,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/krono/overview",
-        "socials": {
-          "x": "https://x.com/KronoFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Krono",
+        "socials": {}
       }
     ],
     "odious-esport": [
       {
         "name": "Odi",
-        "country": "🇫🇷",
-        "pr": 1800,
+        "country": "fr",
+        "pr": 1842,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/odi/overview",
-        "socials": {
-          "x": "https://x.com/OdiFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Odi",
+        "socials": {}
       },
       {
         "name": "Rage",
-        "country": "🇫🇷",
-        "pr": 1600,
+        "country": "fr",
+        "pr": 1425,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/rage/overview",
-        "socials": {
-          "x": "https://x.com/RageFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Rage",
+        "socials": {}
       },
       {
         "name": "Viper",
-        "country": "🇫🇷",
-        "pr": 1400,
+        "country": "fr",
+        "pr": 952,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/viper/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Viper",
         "socials": {
-          "x": "https://x.com/ViperFN"
+          "x": "https://x.com/viperxdd"
         }
       }
     ],
     "paps-esport": [
       {
         "name": "Papito",
-        "country": "🇫🇷",
-        "pr": 1500,
+        "country": "fr",
+        "pr": 1682,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/papito/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Papito",
         "socials": {
-          "x": "https://x.com/PapitoFN"
+          "x": "https://x.com/FnPapito",
+          "twitch": "https://twitch.tv/papitofn"
         }
       },
       {
         "name": "Slay",
-        "country": "🇫🇷",
-        "pr": 1400,
+        "country": "fr",
+        "pr": 1314,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/slay/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Slay",
         "socials": {
-          "x": "https://x.com/SlayFN"
+          "x": "https://x.com/ISlayFN"
         }
       },
       {
         "name": "Zen",
-        "country": "🇫🇷",
-        "pr": 1300,
+        "country": "fr",
+        "pr": 898,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/zen/overview",
-        "socials": {
-          "x": "https://x.com/ZenFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Zen",
+        "socials": {}
       }
     ],
     "pandaria-esport": [
       {
         "name": "Panda",
-        "country": "🇫🇷",
-        "pr": 1400,
+        "country": "fr",
+        "pr": 1489,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/panda/overview",
-        "socials": {
-          "x": "https://x.com/PandaFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Panda",
+        "socials": {}
       },
       {
         "name": "Bamboo",
-        "country": "🇫🇷",
-        "pr": 1300,
+        "country": "fr",
+        "pr": 1148,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/bamboo/overview",
-        "socials": {
-          "x": "https://x.com/BambooFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Bamboo",
+        "socials": {}
       },
       {
         "name": "Lotus",
-        "country": "🇫🇷",
-        "pr": 1200,
+        "country": "fr",
+        "pr": 784,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/lotus/overview",
-        "socials": {
-          "x": "https://x.com/LotusFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Lotus",
+        "socials": {}
       }
     ],
     "fly-again": [
       {
         "name": "Flyer",
-        "country": "🇫🇷",
-        "pr": 1200,
+        "country": "fr",
+        "pr": 1241,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/flyer/overview",
-        "socials": {
-          "x": "https://x.com/FlyerFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Flyer",
+        "socials": {}
       },
       {
         "name": "Wing",
-        "country": "🇫🇷",
-        "pr": 1100,
+        "country": "fr",
+        "pr": 987,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/wing/overview",
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Wing",
         "socials": {
-          "x": "https://x.com/WingFN"
+          "x": "https://x.com/WingS_fn"
         }
       },
       {
         "name": "Glide",
-        "country": "🇫🇷",
-        "pr": 1000,
+        "country": "fr",
+        "pr": 648,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/glide/overview",
-        "socials": {
-          "x": "https://x.com/GlideFN"
-        }
+        "arrival_date": "2025-01-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Recoupement Liquipedia/Tracker",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Glide",
+        "socials": {}
       }
     ],
     "zerance": [
       {
         "name": "Darkos",
-        "country": "🇫🇷",
-        "pr": 88000,
+        "country": "fr",
+        "pr": 2485,
         "is_former": false,
-        "tracker_url": "https://fortnitetracker.com/fortnite/profile/epic/darkos/overview",
+        "arrival_date": "2026-09-01",
+        "departure_date": null,
+        "contract_status": "Active",
+        "source": "Bio X @DarkosFN tag @ZerancePartout + @ZerancePartout",
+        "tracker_url": "https://fortnitetracker.com/profile/all/Darkos",
         "socials": {
-          "x": "https://x.com/DarkosFN"
+          "x": "https://x.com/Darkos_ftn",
+          "twitch": "https://twitch.tv/darkosftn",
+          "youtube": "https://youtube.com/@Darkosftn"
         }
       }
     ]
