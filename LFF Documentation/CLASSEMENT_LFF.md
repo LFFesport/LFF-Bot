@@ -166,7 +166,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Zerance (`ZRC`)
 - **Division / Tier** : Tier 1
 - **Statut** : Historique
-- **Compte X officiel** : [@Zerance_esport](https://x.com/TeamZerance)
+- **Compte X officiel** : [@TeamZerance](https://x.com/TeamZerance)
 - **Liquipedia** : [Zerance](https://liquipedia.net/fortnite/Zerance)
 - **Logo enregistré** : `../LFF Logos/Logo Zerance (fond vide).png`
 - **Description** : Club esport français actif sur Fortnite en 2023-2024 (Skydeun, EMXXRR, prêt de Vico). Retrait progressif des effectifs pro fin 2024.
@@ -222,7 +222,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Reality Zoned (`RZ`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [@RealityZoneFR](https://x.com/RealityZoned)
+- **Compte X officiel** : [@RealityZoned](https://x.com/RealityZoned)
 - **Liquipedia** : [Reality Zoned](https://liquipedia.net/fortnite/Reality_Zone)
 - **Logo enregistré** : `../LFF Logos/Logo RZ rouge (fond vide).png`
 - **Description** : Club compétitif français incontournable sur les tournois communautaires, Console et PC (Cash Cups, FNCS Heats).
@@ -305,7 +305,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Pandaria Esport (`PAN`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [@PandariaEsport](https://x.com/EsportPandaria)
+- **Compte X officiel** : [@EsportPandaria](https://x.com/EsportPandaria)
 - **Liquipedia** : [Pandaria Esport](https://liquipedia.net/fortnite/Pandaria_Esport)
 - **Logo enregistré** : `../LFF Logos/Logo Pandaria (fond vide).png`
 - **Description** : Club français compétitif présent au Power Ranking Européen Fandom PC, pépinière reconnue de talents francophones.
@@ -313,7 +313,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Pandore Esport (`PDR`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [@PandoreEsport](https://x.com/Pandore_esport)
+- **Compte X officiel** : [@Pandore_esport](https://x.com/Pandore_esport)
 - **Liquipedia** : [Pandore Esport](https://liquipedia.net/fortnite/Pandore_Esport)
 - **Logo enregistré** : `../LFF Logos/Logo Pandore (fond vide).png`
 - **Description** : Structure compétitive française classée dans le Top 50 européen PC des Power Rankings d'équipes.
@@ -321,7 +321,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### Fly Again (`FLY`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [@FlyAgainEsport](https://x.com/FlyAgainTeam)
+- **Compte X officiel** : [@FlyAgainTeam](https://x.com/FlyAgainTeam)
 - **Liquipedia** : [Fly Again](https://liquipedia.net/fortnite/Fly_Again)
 - **Logo enregistré** : `../LFF Logos/Logo Fly Again (fond vide).png`
 - **Description** : Écurie française engagée sur les tournois officiels FNCS et les Cash Cups européennes (Top 45 Fandom EU).
@@ -329,7 +329,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### MGA eSport (`MGA`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [@MGAesport](https://x.com/mgaesport)
+- **Compte X officiel** : [@mgaesport](https://x.com/mgaesport)
 - **Liquipedia** : [MGA eSport](https://liquipedia.net/fortnite/MGA_eSport)
 - **Logo enregistré** : `../LFF Logos/Logo MGA (fond vide).png`
 - **Description** : Club français performant classé au Top 20 européen Fandom avec des joueurs réguliers en demi-finales et finales de tournois.
@@ -337,7 +337,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### K13 Esport (`K13`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [@K13Esport](https://x.com/K13esport)
+- **Compte X officiel** : [@K13esport](https://x.com/K13esport)
 - **Liquipedia** : [K13 Esport](https://liquipedia.net/fortnite/K13_Esport)
 - **Logo enregistré** : `../LFF Logos/Logo K13 (fond vide).png`
 - **Description** : Organisation française très active sur le circuit compétitif européen, classée au Top 15 Fandom PC Europe.
@@ -439,7 +439,7 @@ Pour garantir l'exactitude absolue des effectifs et l'intégrité du classement 
 ### TRKF E-Sport (`TRKF`)
 - **Division / Tier** : Tier 2
 - **Statut** : Active
-- **Compte X officiel** : [@Trkf_Esport](https://x.com/Trkf_Esport)
+- **Compte X officiel** : [@TRKF_Esport](https://x.com/TRKF_Esport)
 - **Liquipedia** : [TRKF E-Sport](https://liquipedia.net/fortnite/TRKF_E-Sport)
 - **Logo enregistré** : `../LFF Logos/Logo TRKF (fond vide).png`
 - **Description** : Organisation e-sport française présente sur les circuits compétitifs et les classements européens Fortnite.

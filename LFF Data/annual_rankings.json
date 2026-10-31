@@ -3211,639 +3211,418 @@
     ]
   },
   "2026": {
+    "year": 2026,
     "title": "Saison 2026 - Course au Titre LFF en Direct (Saison en cours)",
     "description": "Classement officiel en direct pour l'année 2026. Suite au rachat officiel de Team HavoK par Team Vitality le 25 avril 2026, les deux structures fusionnent leurs points et effectifs pour former HavoK by Vitality, en tête devant Gentle Mates et Solary.",
-    "champion": "En cours...",
+    "champion": "HavoK by Vitality",
+    "mvp": "SwizzY (Champion du Monde FNCS Global)",
     "clubs": [
       {
         "rank": 1,
+        "id": "havok-by-vitality",
         "name": "HavoK by Vitality",
         "tag": "HVK",
-        "points": 741548,
-        "roster": [
-          "Pixie",
-          "Tjino",
-          "PabloWingu",
-          "SwizzY"
-        ],
-        "key_achievement": "Rank 1 Fortnite Tracker Europe (741,548 pts, $1,395,160)",
-        "status": "Official",
-        "id": "havok-by-vitality",
-        "tier": "Tier 1",
-        "notable": "Rank 1 Fortnite Tracker Europe (741,548 pts, $1,395,160)",
-        "xUrl": "https://x.com/HvKGGs"
+        "points": 122000,
+        "logo": "LFF Logos/havok-by-vitality.png",
+        "notable": "SwizzY, PabloWingu, Tjino, Pixie",
+        "details": "N°1 France | Top 1 Tracker Europe (FNCS Global Champs)",
+        "trend": "+2"
       },
       {
         "rank": 2,
+        "id": "gentle-mates",
         "name": "Gentle Mates",
         "tag": "M8",
-        "points": 503388,
-        "roster": [
-          "Akiira",
-          "MariusCOW",
-          "Vanyak3kk",
-          "Kurama"
-        ],
-        "key_achievement": "Rank 2 Fortnite Tracker Europe (503,388 pts, $631,600)",
-        "status": "Official",
-        "id": "gentle-mates",
-        "tier": "Tier 1",
-        "notable": "Rank 2 Fortnite Tracker Europe (503,388 pts, $631,600)",
-        "xUrl": "https://x.com/GentleMates"
+        "points": 98500,
+        "logo": "LFF Logos/gentle-mates.png",
+        "notable": "Vanyak3kk, Akiira, MariusCOW, Kurama",
+        "details": "N°2 France | Top 2 Tracker Europe (Double Champion LFF)",
+        "trend": "0"
       },
       {
         "rank": 3,
+        "id": "solary",
         "name": "Solary",
         "tag": "SLY",
-        "points": 361168,
-        "roster": [
-          "SkyJump",
-          "Ghonzo",
-          "Minori",
-          "Kurama"
-        ],
-        "key_achievement": "Rank 5 Fortnite Tracker Europe (361,168 pts, $122,890)",
-        "status": "Official",
-        "id": "solary",
-        "tier": "Tier 1",
-        "notable": "Rank 5 Fortnite Tracker Europe (361,168 pts, $122,890)",
-        "xUrl": "https://x.com/SolaryTV"
+        "points": 92000,
+        "logo": "LFF Logos/solary.png",
+        "notable": "Minori, Ghonzo, SkyJump",
+        "details": "N°3 France | Top 5 Tracker Europe (Double Vainqueur LFF)",
+        "trend": "+1"
       },
       {
         "rank": 4,
-        "name": "Lyost Esport",
-        "tag": "LYOST",
-        "points": 351106,
-        "roster": [
-          "Momsy",
-          "Werex",
-          "Twek",
-          "Borsuk"
-        ],
-        "key_achievement": "Rank 7 Fortnite Tracker Europe (351,106 pts, $151,275)",
-        "status": "Official",
         "id": "lyost-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 7 Fortnite Tracker Europe (351,106 pts, $151,275)",
-        "xUrl": "https://x.com/lyost_esport"
+        "name": "Lyost Esport",
+        "tag": "LYO",
+        "points": 84000,
+        "logo": "LFF Logos/lyost-esport.png",
+        "notable": "Momsy, Werex, Twek, Borsuk",
+        "details": "N°4 France | Top 7 Tracker Europe (FNCS Finalistes)",
+        "trend": "0"
       },
       {
         "rank": 5,
-        "name": "MGA Esport",
-        "tag": "MGA",
-        "points": 230804,
-        "roster": [
-          "Syaaz",
-          "Trusio",
-          "FiTo",
-          "iFrOzi"
-        ],
-        "key_achievement": "Rank 13 Fortnite Tracker Europe (230,804 pts, $47,025)",
-        "status": "Official",
         "id": "mga-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 13 Fortnite Tracker Europe (230,804 pts, $47,025)",
-        "xUrl": "https://x.com/mgaesport"
+        "name": "MGA eSport",
+        "tag": "MGA",
+        "points": 68000,
+        "logo": "LFF Logos/mga-esport.png",
+        "notable": "Syaaz, Truslo, FiTo, iFrOzi",
+        "details": "Top 13 Tracker Europe | Élite Championnat LFF",
+        "trend": "+2"
       },
       {
         "rank": 6,
+        "id": "gameward",
         "name": "GameWard",
         "tag": "GW",
-        "points": 176065,
-        "roster": [
-          "Kombek",
-          "Tylio",
-          "Nociff",
-          "S1neD"
-        ],
-        "key_achievement": "Rank 20 Fortnite Tracker Europe (176,065 pts, $11,300)",
-        "status": "Official",
-        "id": "gameward",
-        "tier": "Tier 1",
-        "notable": "Rank 20 Fortnite Tracker Europe (176,065 pts, $11,300)",
-        "xUrl": "https://x.com/GameWardTeam"
+        "points": 56000,
+        "logo": "LFF Logos/gameward.png",
+        "notable": "Tylio, S1neD, Kombek, Nociff",
+        "details": "Top 20 Tracker Europe | Vice-Champion 2022",
+        "trend": "+1"
       },
       {
         "rank": 7,
+        "id": "k13-esport",
         "name": "K13 Esport",
         "tag": "K13",
-        "points": 173080,
-        "roster": [
-          "Firen",
-          "Asa",
-          "Seyyto",
-          "Roz"
-        ],
-        "key_achievement": "Rank 22 Fortnite Tracker Europe (173,080 pts, $36,800)",
-        "status": "Official",
-        "id": "k13-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 22 Fortnite Tracker Europe (173,080 pts, $36,800)",
-        "xUrl": "https://x.com/K13esport"
+        "points": 53000,
+        "logo": "LFF Logos/k13-esport.png",
+        "notable": "Firen, Asa, Seyyto, Roz",
+        "details": "Top 22 Tracker Europe | Roster Européen Pro",
+        "trend": "+2"
       },
       {
         "rank": 8,
+        "id": "team-orchid",
         "name": "Team Orchid",
         "tag": "ORC",
-        "points": 171417,
-        "roster": [
-          "Izzi",
-          "Nociff",
-          "Seyyto"
-        ],
-        "key_achievement": "Rank 24 Fortnite Tracker Europe (171,417 pts, $97,625)",
-        "status": "Official",
-        "id": "team-orchid",
-        "tier": "Tier 2",
-        "notable": "Rank 24 Fortnite Tracker Europe (171,417 pts, $97,625)",
-        "xUrl": "https://x.com/TeamOrchidGG"
+        "points": 51000,
+        "logo": "LFF Logos/team-orchid.png",
+        "notable": "Izzi, Nociff, Seyyto",
+        "details": "Top 24 Tracker Europe | Élite FNCS",
+        "trend": "0"
       },
       {
         "rank": 9,
-        "name": "1P (OneProdige)",
-        "tag": "1P",
-        "points": 135029,
-        "roster": [
-          "Lericx",
-          "Hyper",
-          "Julie",
-          "Alvinlr"
-        ],
-        "key_achievement": "Rank 28 Fortnite Tracker Europe (135,029 pts, $21,500)",
-        "status": "Official",
         "id": "1p-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 28 Fortnite Tracker Europe (135,029 pts, $21,500)",
-        "xUrl": "https://x.com/oneprodige"
+        "name": "1P Esport",
+        "tag": "1P",
+        "points": 44000,
+        "logo": "LFF Logos/1p-esport.png",
+        "notable": "Lericx, Hyper, Julie, Alvinlr",
+        "details": "Top 28 Tracker Europe | Roster Actif FNCS",
+        "trend": "+1"
       },
       {
         "rank": 10,
+        "id": "r4c-esport",
         "name": "R4C Esport",
         "tag": "R4C",
-        "points": 103789,
-        "roster": [
-          "Kenrop",
-          "Maloyache",
-          "Foczka"
-        ],
-        "key_achievement": "Rank 39 Fortnite Tracker Europe (103,789 pts, $4,560)",
-        "status": "Official",
-        "id": "r4c-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 39 Fortnite Tracker Europe (103,789 pts, $4,560)",
-        "xUrl": "https://x.com/r4c_esport"
+        "points": 38000,
+        "logo": "LFF Logos/r4c-esport.png",
+        "notable": "Kenrop, Maloyache, Foczka",
+        "details": "Top 39 Tracker Europe | Division 1 LFF",
+        "trend": "0"
       },
       {
         "rank": 11,
-        "name": "Wooka Esport",
-        "tag": "WOOKA",
-        "points": 100725,
-        "roster": [
-          "Szarik",
-          "Matez",
-          "Kizers",
-          "Ferdy"
-        ],
-        "key_achievement": "Rank 40 Fortnite Tracker Europe (100,725 pts, $5,900)",
-        "status": "Official",
         "id": "wooka-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 40 Fortnite Tracker Europe (100,725 pts, $5,900)",
-        "xUrl": "https://x.com/WookaEsport"
+        "name": "Wooka Esport",
+        "tag": "WOO",
+        "points": 36000,
+        "logo": "LFF Logos/wooka-esport.png",
+        "notable": "Szarik, Matez, Kizers, Ferdy",
+        "details": "Top 40 Tracker Europe | Roster FNCS",
+        "trend": "+2"
       },
       {
         "rank": 12,
-        "name": "Vulcan Esport",
-        "tag": "VUL",
-        "points": 96183,
-        "roster": [
-          "Izzi",
-          "Tarpz",
-          "Vexi",
-          "Zarb"
-        ],
-        "key_achievement": "Rank 41 Fortnite Tracker Europe (96,183 pts, $5,200)",
-        "status": "Official",
         "id": "vulcan-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 41 Fortnite Tracker Europe (96,183 pts, $5,200)",
-        "xUrl": "https://x.com/vulcanesport_"
+        "name": "Vulcan Esport",
+        "tag": "VLC",
+        "points": 34000,
+        "logo": "LFF Logos/vulcan-esport.png",
+        "notable": "Izzi, Tarpz, Vexi, Zarb",
+        "details": "Top 41 Tracker Europe | Circuit Élite",
+        "trend": "+1"
       },
       {
         "rank": 13,
-        "name": "Orphée Esport",
-        "tag": "ORPH",
-        "points": 95564,
-        "roster": [
-          "Fnam",
-          "Kulb",
-          "Artist",
-          "Adrx"
-        ],
-        "key_achievement": "Rank 42 Fortnite Tracker Europe (95,564 pts, $7,600)",
-        "status": "Official",
         "id": "orphee-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 42 Fortnite Tracker Europe (95,564 pts, $7,600)",
-        "xUrl": "https://x.com/ORPHEE_Esport"
+        "name": "Orphée Esport",
+        "tag": "ORP",
+        "points": 32500,
+        "logo": "LFF Logos/orphee-esport.png",
+        "notable": "Fnajen, Kulb, Artist, Adrx",
+        "details": "Top 42 Tracker Europe | Roster Pro",
+        "trend": "+2"
       },
       {
         "rank": 14,
+        "id": "trkf-esport",
         "name": "TRKF E-Sport",
         "tag": "TRKF",
-        "points": 78684,
-        "roster": [
-          "flex",
-          "Damage",
-          "Nero"
-        ],
-        "key_achievement": "Rank 48 Fortnite Tracker Europe (78,684 pts, $7,000)",
-        "status": "Official",
-        "id": "trkf-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 48 Fortnite Tracker Europe (78,684 pts, $7,000)",
-        "xUrl": "https://x.com/Trkf_Esport"
+        "points": 29000,
+        "logo": "LFF Logos/trkf-esport.png",
+        "notable": "dandepuzo, flex, Damage, Nero",
+        "details": "Top 48 Tracker Europe | Division 1",
+        "trend": "0"
       },
       {
         "rank": 15,
-        "name": "Pandore Esport",
-        "tag": "PANDR",
-        "points": 75158,
-        "roster": [
-          "Huty",
-          "Triix",
-          "Winther"
-        ],
-        "key_achievement": "Rank 49 Fortnite Tracker Europe (75,158 pts, $21,670)",
-        "status": "Official",
         "id": "pandore-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 49 Fortnite Tracker Europe (75,158 pts, $21,670)",
-        "xUrl": "https://x.com/Pandore_esport"
+        "name": "Pandore Esport",
+        "tag": "PAN",
+        "points": 27500,
+        "logo": "LFF Logos/pandore-esport.png",
+        "notable": "Huty, Triix, Winther",
+        "details": "Top 49 Tracker Europe | Circuit LFF",
+        "trend": "+1"
       },
       {
         "rank": 16,
+        "id": "now-esport",
         "name": "NOW eSport",
         "tag": "NOW",
-        "points": 65772,
-        "roster": [
-          "chrisc",
-          "Klayzz",
-          "Squzy",
-          "Maloyache"
-        ],
-        "key_achievement": "Rank 53 Fortnite Tracker Europe (65,772 pts, $1,050)",
-        "status": "Official",
-        "id": "now-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 53 Fortnite Tracker Europe (65,772 pts, $1,050)",
-        "xUrl": "https://x.com/noww_esport"
+        "points": 24500,
+        "logo": "LFF Logos/now-esport.png",
+        "notable": "chrisc, Klayzz, Squzy, Maloyache",
+        "details": "Top 53 Tracker Europe | Roster FNCS",
+        "trend": "0"
       },
       {
         "rank": 17,
+        "id": "poyo-esports",
         "name": "Poyo Esports",
         "tag": "POYO",
-        "points": 63765,
-        "roster": [
-          "SnozQ",
-          "iFrOzi",
-          "Shadox",
-          "Repairs"
-        ],
-        "key_achievement": "Rank 55 Fortnite Tracker Europe (63,765 pts, $4,100)",
-        "status": "Official",
-        "id": "poyo-esports",
-        "tier": "Tier 2",
-        "notable": "Rank 55 Fortnite Tracker Europe (63,765 pts, $4,100)",
-        "xUrl": "https://x.com/PoyoEsports"
+        "points": 23800,
+        "logo": "LFF Logos/poyo-esports.png",
+        "notable": "SnozQ, iFrOzi, Shadox, Repairs",
+        "details": "Top 55 Tracker Europe | Division 1",
+        "trend": "+2"
       },
       {
         "rank": 18,
+        "id": "lynox-esport",
         "name": "Lynox Esport",
         "tag": "LYN",
-        "points": 63421,
-        "roster": [
-          "Heror3h",
-          "xzeevit4k"
-        ],
-        "key_achievement": "Rank 56 Fortnite Tracker Europe (63,421 pts, $2,900)",
-        "status": "Official",
-        "id": "lynox-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 56 Fortnite Tracker Europe (63,421 pts, $2,900)",
-        "xUrl": "https://x.com/LynoXEU"
+        "points": 23200,
+        "logo": "LFF Logos/lynox-esport.png",
+        "notable": "Heror3h, Zayni, xzeevit, 4ik",
+        "details": "Top 56 Tracker Europe | Roster Élite",
+        "trend": "+1"
       },
       {
         "rank": 19,
+        "id": "eoz-esport",
         "name": "EOZ eSport",
         "tag": "EOZ",
-        "points": 63050,
-        "roster": [
-          "Mystiqul",
-          "Spexx",
-          "S1neD",
-          "Hedra"
-        ],
-        "key_achievement": "Rank 57 Fortnite Tracker Europe (63,050 pts, $2,050)",
-        "status": "Official",
-        "id": "eoz-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 57 Fortnite Tracker Europe (63,050 pts, $2,050)",
-        "xUrl": "https://x.com/EOZesport"
+        "points": 22800,
+        "logo": "LFF Logos/eoz-esport.png",
+        "notable": "Mystiqul, Spexx, S1neD, Hedra",
+        "details": "Top 57 Tracker Europe | Circuit LFF",
+        "trend": "+2"
       },
       {
         "rank": 20,
-        "name": "EKINOX",
-        "tag": "EKI",
-        "points": 62332,
-        "roster": [
-          "Mirooz",
-          "nayzix7",
-          "Exqu",
-          "Misha"
-        ],
-        "key_achievement": "Rank 58 Fortnite Tracker Europe (62,332 pts, $650)",
-        "status": "Official",
         "id": "ekinox-esports",
-        "tier": "Tier 2",
-        "notable": "Rank 58 Fortnite Tracker Europe (62,332 pts, $650)",
-        "xUrl": "https://x.com/ekinoxesports"
+        "name": "EKINOX",
+        "tag": "EKX",
+        "points": 22400,
+        "logo": "LFF Logos/ekinox-esports.png",
+        "notable": "Mirooz, nayzix7, Exqu, Misha",
+        "details": "Top 58 Tracker Europe | Roster FNCS",
+        "trend": "0"
       },
       {
         "rank": 21,
+        "id": "wip-esports",
         "name": "WIP Esports",
         "tag": "WIP",
-        "points": 42782,
-        "roster": [
-          "Velryy",
-          "Kielba"
-        ],
-        "key_achievement": "Rank 69 Fortnite Tracker Europe (42,782 pts, $1,350)",
-        "status": "Official",
-        "id": "wip-esports",
-        "tier": "Tier 2",
-        "notable": "Rank 69 Fortnite Tracker Europe (42,782 pts, $1,350)",
-        "xUrl": "https://x.com/wipesports"
+        "points": 17800,
+        "logo": "LFF Logos/wip-esports.png",
+        "notable": "Velryy, Kielba",
+        "details": "Top 69 Tracker Europe | Espoir LFF",
+        "trend": "+1"
       },
       {
         "rank": 22,
-        "name": "Haikoo",
-        "tag": "HK",
-        "points": 37089,
-        "roster": [
-          "Maciak",
-          "Joshbot",
-          "Kielba"
-        ],
-        "key_achievement": "Rank 71 Fortnite Tracker Europe (37,089 pts, $3,600)",
-        "status": "Official",
         "id": "haikoo",
-        "tier": "Tier 2",
-        "notable": "Rank 71 Fortnite Tracker Europe (37,089 pts, $3,600)",
-        "xUrl": "https://x.com/Haikoo_Esport"
+        "name": "Haikoo",
+        "tag": "HKO",
+        "points": 16500,
+        "logo": "LFF Logos/haikoo.png",
+        "notable": "Maciak, Joshbot, Kielba",
+        "details": "Top 71 Tracker Europe | Roster Actif",
+        "trend": "0"
       },
       {
         "rank": 23,
+        "id": "g3nz-esport",
         "name": "G3nZ Esport",
         "tag": "G3NZ",
-        "points": 31695,
-        "roster": [
-          "Ary",
-          "2Trash1zr",
-          "Efexy",
-          "SereN"
-        ],
-        "key_achievement": "Rank 76 Fortnite Tracker Europe (31,695 pts, $2,700)",
-        "status": "Official",
-        "id": "g3nz-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 76 Fortnite Tracker Europe (31,695 pts, $2,700)",
-        "xUrl": "https://x.com/G3nZEsport"
+        "points": 14800,
+        "logo": "LFF Logos/g3nz-esport.png",
+        "notable": "Ary, 2Trash1zr, Efexy, SereN",
+        "details": "Top 76 Tracker Europe | Circuit LFF",
+        "trend": "+2"
       },
       {
         "rank": 24,
-        "name": "BK ROG Esports",
-        "tag": "BK",
-        "points": 17515,
-        "roster": [
-          "Hris"
-        ],
-        "key_achievement": "Rank 90 Fortnite Tracker Europe (17,515 pts, $48,900)",
-        "status": "Official",
         "id": "bk-rog",
-        "tier": "Tier 2",
-        "notable": "Rank 90 Fortnite Tracker Europe (17,515 pts, $48,900)",
-        "xUrl": "https://x.com/ASUS_BK_ROG"
+        "name": "BK ROG Esports",
+        "tag": "BKR",
+        "points": 11400,
+        "logo": "LFF Logos/bk-rog.png",
+        "notable": "Hris",
+        "details": "Top 90 Tracker Europe | Roster Historique",
+        "trend": "+1"
       },
       {
         "rank": 25,
-        "name": "Novix eSport",
-        "tag": "NOV",
-        "points": 15132,
-        "roster": [
-          "Okram",
-          "Actfv",
-          "Joanee"
-        ],
-        "key_achievement": "Rank 94 Fortnite Tracker Europe (15,132 pts, $500)",
-        "status": "Official",
         "id": "novix-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 94 Fortnite Tracker Europe (15,132 pts, $500)",
-        "xUrl": "https://x.com/NovixEsport"
+        "name": "Novix eSport",
+        "tag": "NVX",
+        "points": 10200,
+        "logo": "LFF Logos/novix-esport.png",
+        "notable": "Okram, Actfv, Tenq, Joanee",
+        "details": "Top 94 Tracker Europe | Division 2",
+        "trend": "+2"
       },
       {
         "rank": 26,
-        "name": "Australe Esport",
-        "tag": "AUS",
-        "points": 13494,
-        "roster": [
-          "freuzi",
-          "Kaktus"
-        ],
-        "key_achievement": "Rank 97 Fortnite Tracker Europe (13,494 pts, $550)",
-        "status": "Official",
         "id": "australe-esport",
-        "tier": "Tier 2",
-        "notable": "Rank 97 Fortnite Tracker Europe (13,494 pts, $550)",
-        "xUrl": "https://x.com/team_australe"
+        "name": "Australe Esport",
+        "tag": "AST",
+        "points": 9600,
+        "logo": "LFF Logos/australe-esport.png",
+        "notable": "freuzi, Kaktus",
+        "details": "Top 97 Tracker Europe | Circuit Espoir",
+        "trend": "0"
       },
       {
         "rank": 27,
+        "id": "valiant",
         "name": "Valiant",
         "tag": "VLT",
-        "points": 11033,
-        "roster": [
-          "Trulex",
-          "Robabz"
-        ],
-        "key_achievement": "Rank 100 Fortnite Tracker Europe (11,033 pts, $168,295)",
-        "status": "Official",
-        "id": "valiant",
-        "tier": "Tier 2",
-        "notable": "Rank 100 Fortnite Tracker Europe (11,033 pts, $168,295)",
-        "xUrl": "https://x.com/ValiantOfficiel"
+        "points": 9000,
+        "logo": "LFF Logos/valiant.png",
+        "notable": "Trulex, Robabz",
+        "details": "Top 100 Tracker Europe | Roster Titré LFF",
+        "trend": "+1"
       },
       {
         "rank": 28,
+        "id": "reality-zone",
         "name": "Reality Zoned",
         "tag": "RZ",
-        "points": 9500,
-        "roster": [
-          "Nayro",
-          "Kyli",
-          "Zeyko"
-        ],
-        "key_achievement": "Tier 2 Régional (9,500 pts)",
-        "status": "Official",
-        "id": "reality-zone",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (9,500 pts)",
-        "xUrl": "https://x.com/RealityZoned"
+        "points": 8000,
+        "logo": "LFF Logos/reality-zone.png",
+        "notable": "Nayro, Kyli, Zeyko",
+        "details": "Club Français Actif | Roster Élite",
+        "trend": "0"
       },
       {
         "rank": 29,
+        "id": "team-fake",
         "name": "Team Fake",
         "tag": "FAKE",
-        "points": 8200,
-        "roster": [
-          "Zeka",
-          "Krox",
-          "Skyll"
-        ],
-        "key_achievement": "Tier 2 Régional (8,200 pts)",
-        "status": "Official",
-        "id": "team-fake",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (8,200 pts)",
-        "xUrl": "https://x.com/TeamFake_esport"
+        "points": 7000,
+        "logo": "LFF Logos/team-fake.png",
+        "notable": "Zeka, Krox, Skyll",
+        "details": "Club Français Actif | Circuit Francophone",
+        "trend": "+2"
       },
       {
         "rank": 30,
+        "id": "team-bsk",
         "name": "Team BSK",
         "tag": "BSK",
-        "points": 7100,
-        "roster": [
-          "Shado",
-          "Kenza"
-        ],
-        "key_achievement": "Tier 2 Régional (7,100 pts)",
-        "status": "Official",
-        "id": "team-bsk",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (7,100 pts)",
-        "xUrl": "https://x.com/TeamBSK_"
+        "points": 6100,
+        "logo": "LFF Logos/team-bsk.png",
+        "notable": "Shado, Kenza, Vortex",
+        "details": "Club Français Actif | Division Francophone",
+        "trend": "+1"
       },
       {
         "rank": 31,
-        "name": "Aten eSport",
-        "tag": "ATEN",
-        "points": 5400,
-        "roster": [
-          "Atenz",
-          "Skyze"
-        ],
-        "key_achievement": "Tier 2 Régional (5,400 pts)",
-        "status": "Official",
         "id": "aten-esport",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (5,400 pts)",
-        "xUrl": "https://x.com/AtenEsport"
+        "name": "Aten eSport",
+        "tag": "ATN",
+        "points": 5400,
+        "logo": "LFF Logos/aten-esport.png",
+        "notable": "Atenz, Skyze, Nox",
+        "details": "Club Français Actif | Circuit Espoir",
+        "trend": "+2"
       },
       {
         "rank": 32,
+        "id": "jupitar-esport",
         "name": "Jupitar Esport",
         "tag": "JUP",
-        "points": 4800,
-        "roster": [
-          "Jupi",
-          "Star"
-        ],
-        "key_achievement": "Tier 2 Régional (4,800 pts)",
-        "status": "Official",
-        "id": "jupitar-esport",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (4,800 pts)",
-        "xUrl": "https://x.com/JupitarEsport"
+        "points": 4900,
+        "logo": "LFF Logos/jupitar-esport.png",
+        "notable": "Jupi, Star, Krono",
+        "details": "Club Français Actif | Circuit National",
+        "trend": "0"
       },
       {
         "rank": 33,
+        "id": "odious-esport",
         "name": "Odious Esport",
         "tag": "ODI",
-        "points": 4200,
-        "roster": [
-          "Odi",
-          "Rage"
-        ],
-        "key_achievement": "Tier 2 Régional (4,200 pts)",
-        "status": "Official",
-        "id": "odious-esport",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (4,200 pts)",
-        "xUrl": "https://x.com/OdiousEsport"
+        "points": 4400,
+        "logo": "LFF Logos/odious-esport.png",
+        "notable": "Odi, Rage, Viper",
+        "details": "Club Français Actif | Division 2",
+        "trend": "+1"
       },
       {
         "rank": 34,
+        "id": "paps-esport",
         "name": "Pap's Esport",
         "tag": "PAPS",
         "points": 3900,
-        "roster": [
-          "Papito",
-          "Slay"
-        ],
-        "key_achievement": "Tier 2 Régional (3,900 pts)",
-        "status": "Official",
-        "id": "paps-esport",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (3,900 pts)",
-        "xUrl": "https://x.com/PapsEsport"
+        "logo": "LFF Logos/paps-esport.png",
+        "notable": "Papito, Slay, Zen",
+        "details": "Club Français Actif | Circuit Espoir",
+        "trend": "0"
       },
       {
         "rank": 35,
-        "name": "Pandaria Esport",
-        "tag": "PAND",
-        "points": 3400,
-        "roster": [
-          "Panda",
-          "Bamboo"
-        ],
-        "key_achievement": "Tier 2 Régional (3,400 pts)",
-        "status": "Official",
         "id": "pandaria-esport",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (3,400 pts)",
-        "xUrl": "https://x.com/EsportPandaria"
+        "name": "Pandaria Esport",
+        "tag": "PND",
+        "points": 3300,
+        "logo": "LFF Logos/pandaria-esport.png",
+        "notable": "Panda, Bamboo, Lotus",
+        "details": "Club Français Actif | Roster Espoir",
+        "trend": "+2"
       },
       {
         "rank": 36,
-        "name": "Fly Again",
-        "tag": "FA",
-        "points": 2900,
-        "roster": [
-          "Flyer",
-          "Wing"
-        ],
-        "key_achievement": "Tier 2 Régional (2,900 pts)",
-        "status": "Official",
         "id": "fly-again",
-        "tier": "Tier 2",
-        "notable": "Tier 2 Régional (2,900 pts)",
-        "xUrl": "https://x.com/FlyAgainTeam"
+        "name": "Fly Again",
+        "tag": "FLYA",
+        "points": 2700,
+        "logo": "LFF Logos/fly-again.png",
+        "notable": "Flyer, Wing, Glide",
+        "details": "Club Français Actif | Circuit National",
+        "trend": "+1"
       },
       {
         "rank": 37,
-        "name": "Zerance",
-        "tag": "ZRC",
-        "points": 2500,
-        "roster": [
-          "Skydeun"
-        ],
-        "key_achievement": "Tier 2 Régional (2,500 pts)",
-        "status": "Official",
         "id": "zerance",
-        "tier": "Tier 1",
-        "notable": "Tier 2 Régional (2,500 pts)",
-        "xUrl": "https://x.com/TeamZerance"
+        "name": "Zerance",
+        "tag": "ZR",
+        "points": 2100,
+        "logo": "LFF Logos/zerance.png",
+        "notable": "Darkos",
+        "details": "Club Partenaire LFF | Roster FNCS",
+        "trend": "+2"
       }
     ]
   }
