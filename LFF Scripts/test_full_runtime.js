@@ -1,6 +1,9 @@
 const fs = require('fs');
 
-const html = fs.readFileSync('LFF Dashboard/index.html', 'utf8');
+const htmlPath = fs.existsSync('LFF Dashboard/LFF Plateforme.html') 
+  ? 'LFF Dashboard/LFF Plateforme.html' 
+  : 'LFF Dashboard/index.html';
+const html = fs.readFileSync(htmlPath, 'utf8');
 const scriptMatch = html.match(/<script>([\s\S]*?)<\/script>/);
 const code = scriptMatch[1];
 
@@ -18,83 +21,94 @@ function getEl(id) {
         this.children.push(child);
         const tag = child.tagName ? child.tagName.toLowerCase() : 'div';
         this.innerHTML += `<${tag}>${child.innerHTML || ''}</${tag}>`;
-      },
-      classList: {
-        add: () => {},
-        remove: () => {},
-        contains: () => false
-      },
-      querySelectorAll: () => []
+      }
     };
   }
   return elements[id];
 }
 
-const window = {
-  document: {
-    getElementById: getEl,
-    querySelectorAll: () => [],
-    querySelector: () => null,
-    createElement: (tag) => ({
+const document = {
+  getElementById: getEl,
+  createElement: function(tag) {
+    return {
       tagName: tag,
+      className: '',
+      style: {},
       innerHTML: '',
-      classList: { add: () => {}, remove: () => {} }
-    }),
-    addEventListener: () => {}
+      appendChild: function(child) {
+        this.innerHTML += child.innerHTML || '';
+      }
+    };
   },
-  addEventListener: () => {},
-  console: console
+  querySelectorAll: function() { return []; }
 };
 
-const context = {
-  window,
-  document: window.document,
-  console: console,
-  setTimeout: () => {},
-  setInterval: () => {}
+const window = {
+  addEventListener: function() {}
 };
+
+// Exécution du code dashboard
+const sandbox = {
+  document,
+  window,
+  console: { log: () => {} },
+  encodeURIComponent,
+  parseInt,
+  parseFloat,
+  Array,
+  Object,
+  String,
+  Number
+};
+
+const vm = require('vm');
+const context = vm.createContext(sandbox);
 
 try {
-  const vm = require('vm');
-  vm.createContext(context);
   vm.runInContext(code, context);
-
-  // Test renderAnnualTable
-  context.currentMode = 'annual';
+  
+  // Test 1: renderAnnualTable
   context.renderAnnualTable();
-  console.log('renderAnnualTable OK! Rows length:', context.document.getElementById('ranking-tbody').innerHTML.length);
+  const rankTbody = getEl('ranking-tbody');
+  if (!rankTbody.innerHTML || rankTbody.innerHTML.includes('undefined')) {
+    throw new Error('renderAnnualTable returned empty or undefined values!');
+  }
+  console.log('renderAnnualTable OK! Rows length:', rankTbody.innerHTML.length);
 
-  // Clear tbody and test renderLiveTable
-  context.document.getElementById('ranking-tbody').innerHTML = '';
-  context.currentMode = 'live';
+  // Test 2: renderLiveTable
   context.renderLiveTable();
-  console.log('renderLiveTable OK! Rows length:', context.document.getElementById('ranking-tbody').innerHTML.length);
+  const liveTbody = getEl('ranking-tbody');
+  if (!liveTbody.innerHTML || liveTbody.innerHTML.includes('undefined')) {
+    throw new Error('renderLiveTable returned empty or undefined values!');
+  }
+  console.log('renderLiveTable OK! Rows length:', liveTbody.innerHTML.length);
 
-  // Test renderPalmares
+  // Test 3: renderPalmares
   context.renderPalmares();
-  console.log('renderPalmares OK! Length:', context.document.getElementById('palmares-container').innerHTML.length);
+  const palmares = getEl('palmares-container');
+  if (!palmares.innerHTML || palmares.innerHTML.includes('undefined')) {
+    throw new Error('renderPalmares returned empty or undefined values!');
+  }
+  console.log('renderPalmares OK! Length:', palmares.innerHTML.length);
 
-  // Test renderTransfers
+  // Test 4: renderTransfers
   context.renderTransfers();
-  console.log('renderTransfers OK! Length:', context.document.getElementById('transfer-feed-container').innerHTML.length);
+  const transfers = getEl('transfer-feed-container');
+  if (!transfers.innerHTML || transfers.innerHTML.includes('undefined')) {
+    throw new Error('renderTransfers returned empty or undefined values!');
+  }
+  console.log('renderTransfers OK! Length:', transfers.innerHTML.length);
 
-  // Test renderClubs
+  // Test 5: renderClubs
   context.renderClubs();
-  console.log('renderClubs OK! Length:', context.document.getElementById('clubs-grid-container').innerHTML.length);
-
-  // Check for undefined values in generated content
-  let hasUndefined = false;
-  for (const [id, el] of Object.entries(elements)) {
-    if (el.innerHTML.includes('undefined')) {
-      console.warn(`WARNING: Element #${id} contains 'undefined' in its innerHTML!`);
-      hasUndefined = true;
-    }
+  const clubs = getEl('clubs-grid-container');
+  if (!clubs.innerHTML || clubs.innerHTML.includes('undefined')) {
+    throw new Error('renderClubs returned empty or undefined values!');
   }
+  console.log('renderClubs OK! Length:', clubs.innerHTML.length);
 
-  if (!hasUndefined) {
-    console.log('ALL TESTS PASSED WITH 0 ERRORS AND 0 UNDEFINED VALUES!');
-  }
-} catch (e) {
-  console.error('VM Execution Error:', e);
+  console.log('ALL TESTS PASSED WITH 0 ERRORS AND 0 UNDEFINED VALUES!');
+} catch (err) {
+  console.error('RUNTIME ERROR IN DASHBOARD:', err);
   process.exit(1);
 }

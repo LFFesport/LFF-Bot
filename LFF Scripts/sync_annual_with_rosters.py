@@ -13,7 +13,7 @@ from pathlib import Path
 
 DATA_DIR = Path("C:/Users/marti/Documents/MARTIN/LFF/LFF Data")
 SCRIPTS_DIR = Path("C:/Users/marti/Documents/MARTIN/LFF/LFF Scripts")
-DASHBOARD_FILE = Path("C:/Users/marti/Documents/MARTIN/LFF/LFF Dashboard/index.html")
+DASHBOARD_FILE = Path("C:/Users/marti/Documents/MARTIN/LFF/LFF Dashboard/LFF Plateforme.html") if Path("C:/Users/marti/Documents/MARTIN/LFF/LFF Dashboard/LFF Plateforme.html").exists() else Path("C:/Users/marti/Documents/MARTIN/LFF/LFF Dashboard/index.html")
 
 with open(DATA_DIR / "annual_rankings.json", "r", encoding="utf-8") as f:
     annual = json.load(f)

@@ -1,5 +1,9 @@
 const fs = require('fs');
-const html = fs.readFileSync('LFF Dashboard/index.html', 'utf-8');
+
+const htmlPath = fs.existsSync('LFF Dashboard/LFF Plateforme.html') 
+  ? 'LFF Dashboard/LFF Plateforme.html' 
+  : 'LFF Dashboard/index.html';
+const html = fs.readFileSync(htmlPath, 'utf-8');
 
 console.log("=== VÉRIFICATION GLOBALE LFF ===");
 
@@ -50,3 +54,7 @@ console.log(`10. Liens universels Tracker (clubs & joueurs): ${clubTrackerCheck 
 // 11. Multi-network social pills
 const socialsPillsCheck = html.includes("social-pills-group") && html.includes("club-social-pills");
 console.log(`11. Pastilles multi-réseaux SVG (clubs & joueurs): ${socialsPillsCheck ? '✅ OK' : '❌ FAIL'}`);
+
+// 12. Nom du fichier Dashboard
+const filenameCheck = fs.existsSync('LFF Dashboard/LFF Plateforme.html');
+console.log(`12. Fichier 'LFF Dashboard/LFF Plateforme.html': ${filenameCheck ? '✅ OK' : '❌ FAIL'}`);

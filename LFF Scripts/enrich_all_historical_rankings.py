@@ -19,7 +19,7 @@ from pathlib import Path
 BASE_DIR = Path("C:/Users/marti/Documents/MARTIN/LFF")
 DATA_DIR = BASE_DIR / "LFF Data"
 SCRIPTS_DIR = BASE_DIR / "LFF Scripts"
-DASHBOARD_FILE = BASE_DIR / "LFF Dashboard" / "index.html"
+DASHBOARD_FILE = (BASE_DIR / "LFF Dashboard" / "LFF Plateforme.html") if (BASE_DIR / "LFF Dashboard" / "LFF Plateforme.html").exists() else (BASE_DIR / "LFF Dashboard" / "index.html")
 
 # 1. Charger Master Players & Master Clubs
 with open(SCRIPTS_DIR / "master_players.json", "r", encoding="utf-8") as f:
